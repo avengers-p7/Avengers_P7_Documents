@@ -88,19 +88,19 @@ If you're running a very minimal distribution (such as a Docker container) you m
 
 ### Run the following commands to install Redis.
 
-   curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg 
+    curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg 
 	
-   echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+    echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 	
-   sudo apt-get update
+    sudo apt-get update
 		
-   sudo apt-get install -y redis-server
+    sudo apt-get install -y redis-server
 
 ### Activate the redis-server service 
 
-   systemctl enable redis-server
+    systemctl enable redis-server
 
-   sudo systemctl status redis-server
+    sudo systemctl status redis-server
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/ca800e51-7c97-4031-aaa6-63db6be54ac0)
 
@@ -111,7 +111,7 @@ This section shows how to set up the master node with password authentication.
 - Connect to your master server over SSH.
 - Open the configuration file 
  
-   sudo vim /etc/redis/redis.conf
+    sudo vim /etc/redis/redis.conf
 
 - Find the following configuration, uncomment and edit them. Change <YOUR_PASSWORD> to a secure password. The bind configuration allows the Redis server 
   to be accessible from other nodes.
