@@ -57,11 +57,17 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 ###  If you want a specific version, use 'postgresql-12' or similar instead of 'postgresql':
      sudo apt-get -y install postgresql
 
+     
+ ![image](https://github.com/avengers-p7/Documentation/assets/156056746/a272cacb-c0c0-49c7-b617-b49bf5a3251f)
+
+
 #    Configure and Run PostgreSQL:
 ###  Show status PostgreSQL Service
      sudo systemctl status postgresql
-     ![image](https://github.com/avengers-p7/Documentation/assets/156056746/9aa7ec64-7659-4f9d-a62c-d78b06e5d807)
+     
+     
 
+![Screenshot from 2024-01-12 19-08-23](https://github.com/avengers-p7/Documentation/assets/156056746/6441e9fb-1cd8-4868-a0f5-d2f5183c7243)
 
 ###  Start PostgreSQL Service
      sudo systemctl start postgresql
@@ -75,11 +81,33 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 ### Access PostgreSQL Prompt:
     sudo -u postgres psql
 
-### Set PostgreSQL Password:
-    \password postgres
+ ![image](https://github.com/avengers-p7/Documentation/assets/156056746/6250cb64-d418-4978-af02-365733987500)
+   
+
+
+###    Create a user with a password
+       CREATE USER myuser WITH PASSWORD 'secretpassword';
+
+ ![image](https://github.com/avengers-p7/Documentation/assets/156056746/9361214c-a12b-4707-9cd6-ef15a4afe517)
+
+###  List username
+     SELECT usename FROM pg_user;
+
+ ![image](https://github.com/avengers-p7/Documentation/assets/156056746/9b3dadc1-a5eb-4037-a76e-7e5185b59c6e)
+
+
+
+
 
 ### Create a Database:
     CREATE DATABASE your_database_name;
+    
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/072dacc9-4d7d-46ec-b495-c80f8df822f3)
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/33b5f515-21f8-42b7-b2ba-686b959e9623)
+
 
 
 
