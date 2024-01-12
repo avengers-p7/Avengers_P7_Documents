@@ -150,9 +150,9 @@ The problem was resolved by installing `pip install pytest-mock`
 |Shikha Tripathi                 |  shikha.tripathi.snaatak@mygurukulam.co                    |
 
 # References
-|Error Handling                    | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
+|     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 |----------------------------------|---------------------------------------------------------------------|
-|                                  |  https://bobbyhadz.com/blog/disable-missing-module-docstring-pylint
+|     Error Handling               |  https://bobbyhadz.com/blog/disable-missing-module-docstring-pylint
 
 
 
