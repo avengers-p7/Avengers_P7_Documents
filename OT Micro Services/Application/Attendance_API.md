@@ -103,22 +103,6 @@ You may further test your API methods using swagger. If test cases are passed, r
 <img width="1308" alt="Screenshot 2024-01-11 at 10 49 25 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/25ec75f6-7680-49e9-899b-de8f6ed55504">
 
 
-### Testing and Quality Checks:
-
-```shell
-make fmt
-``` 
-this command runs pylint analysis on multiple directories including router, client, models, utils and app.py.
-
-```shell
-python3 -m pytest
-# For generating the code coverage report
- python3 -m pytest --cov=.
-``` 
-<img width="1224" alt="Screenshot 2024-01-11 at 11 17 49 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ed9576d6-02ac-4569-aa26-de4db35a3e34">
-
-A set of test cases evaluates application scenarios and functionalities using the pytest framework for efficient execution.
-
 # API Endpoints 
 
 ## Endpoints Information
