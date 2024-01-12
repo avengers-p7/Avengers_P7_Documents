@@ -38,6 +38,8 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
     ```shell
        pip3 install poetry
     ```
+<img width="627" alt="Screenshot 2024-01-12 at 2 54 09 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7d918115-faa1-4ff2-9a0e-0ee57a5a96c4">
+
 ### Install Pre-Requisites:
 *  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
@@ -80,8 +82,6 @@ sudo apt-get install liquibase
 ```
 <img width="1150" alt="Screenshot 2024-01-12 at 2 53 29 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f1bf824c-f540-4703-b254-ec87ccecef52">
 
-
-<img width="627" alt="Screenshot 2024-01-12 at 2 54 09 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7d918115-faa1-4ff2-9a0e-0ee57a5a96c4">
 
 ### Run Migrations:
 *  Ensure the PostgreSQL database is up and running, then use `make run-migrations` to create the database and schema.
