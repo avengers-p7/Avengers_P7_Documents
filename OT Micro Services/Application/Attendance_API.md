@@ -135,7 +135,8 @@ The problem was resolved by installing `pip install pytest-mock`
 
 # References
 
-|     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/ 
+|     Description                  | References  
+| ---------------------------------| ------------------------------------------------------------------- |
 |     Error Handling               | https://bobbyhadz.com/blog/disable-missing-module-docstring-pylint
 |     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        
 
