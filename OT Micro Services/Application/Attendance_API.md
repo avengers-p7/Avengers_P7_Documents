@@ -2,7 +2,7 @@
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Shikha Tripathi  | 10 Jan 2024   |     v1     | Vidhi Yadav     | 12 Jan 2024    |
+| Shikha Tripathi  | 10 Jan 2024   |     v1     | Shikha Tripathi | 12 Jan 2024    |
 
 # Introduction
 Attendance API is a Python-based microservice designed to handle attendance-related transactions in the context of the OT-Microservices ecosystem. This microservice serves as a central component for managing attendance records and transactions, providing a set of RESTful APIs for integration with other services.
@@ -131,15 +131,15 @@ The problem was resolved by installing `pip install pytest-mock`
 
 |Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
 |---------------------------------|------------------------------------------------------------|
-|Shikha Tripathi                 |  shikha.tripathi.snaatak@mygurukulam.co                    |
+|Shikha Tripathi                  |  shikha.tripathi.snaatak@mygurukulam.co                    |
 
 # References
 
-|     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/ |
+|     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/ 
 |----------------------------------|---------------------------------------------------------------------|
 |     Error Handling               | https://bobbyhadz.com/blog/disable-missing-module-docstring-pylint
 |----------------------------------|---------------------------------------------------------------------|
-|     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        |
+|     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        
 
 
 
