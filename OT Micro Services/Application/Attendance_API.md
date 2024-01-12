@@ -3,7 +3,6 @@
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
 | Shikha Tripathi  | 10 Jan 2024   |     v1     | Vidhi Yadav     | 12 Jan 2024    |
-| Vidhi Yadav      | 10 Jan 2024   |     v1     | Vidhi Yadav     | 12 Jan 2024    |
 
 # Introduction
 Attendance API is a Python-based microservice designed to handle attendance-related transactions in the context of the OT-Microservices ecosystem. This microservice serves as a central component for managing attendance records and transactions, providing a set of RESTful APIs for integration with other services.
