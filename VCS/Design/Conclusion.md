@@ -36,8 +36,7 @@ The purpose of the documentation comparing GitHub, GitLab, and Bitbucket, and ul
 
 | Features | GitHub | Gitlab | BitBucket |
 | -------- | ------ | ------ | --------- |
-| Free Private and Public  Repositories | Provides free private and public repositories to its users | Provides free private 
- and public repositories to its users | Provides free private and public repositories to its users |
+| Free Private and Public  Repositories | Provides free private and public repositories to its users | Provides free private and public repositories to its users | Provides free private and public repositories to its users |
 | Integrated CI functionality | The integrated CI functionality is not provided by GitHub. One has to use a third party tool for this function | The integrated CI functionality is provided by GitLab | The integrated CI functionality is provided by BitBucket |
 | Navigation usability | The navigation usability is provided in the GitHub platform | The navigation usability is provided in the GitLab platform | BitBucket does not provide navigation usability |
 | Integration	| GitHub can be integrated with third party tools | Gitlab can be integrated with third party tools |BitBucket can be integrated with third party tools |
