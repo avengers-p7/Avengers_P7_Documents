@@ -1,7 +1,7 @@
 # Introduction
 Attendance API is a Python-based microservice designed to handle attendance-related transactions in the context of the OT-Microservices ecosystem. This microservice serves as a central component for managing attendance records and transactions, providing a set of RESTful APIs for integration with other services.
 
-# key components
+# Key Components
 **Flask Web Framework**: The API is built using Flask, a lightweight and flexible web framework for Python, which simplifies the development of RESTful APIs.
 
 **PostgreSQL Database**: PostgreSQL serves as the primary database for storing attendance records. Its relational nature ensures data integrity and facilitates efficient querying.
@@ -17,21 +17,21 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 <img width="802" alt="Screenshot 2024-01-12 at 1 04 42 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c8e7795b-a96e-4570-b47a-cb0e2fda8b4f">
 
 
-# Pre-Requisites:
+# Pre-Requisites
   Before running the Attendance API, certain pre-requisites need to be configured:
 * PostgreSQL Database
 * Redis
 * Poetry (Package Manager)
 * Liquibase (Database Schema Version Control)
 
-# Building and Running:
+# Building and Running
 ## The process of building and running the Attendance API involves several steps:
 ### Install Dependencies:
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
 ### Install Pre-Requisites:
 *  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
-*Install postgres*
+*Install Postgres*
 ```shell
 sudo apt update
 sudo apt install postgresql
@@ -66,7 +66,7 @@ sudo apt-get install liquibase
 ```
 <img width="1150" alt="Screenshot 2024-01-12 at 2 53 29 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f1bf824c-f540-4703-b254-ec87ccecef52">
 
-*Install poetry*
+*Install Poetry*
 ```shell
 pip3 install poetry
 ```
