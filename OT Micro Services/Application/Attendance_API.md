@@ -1,4 +1,4 @@
-# ScyllaDB Installation Guide
+# Attendance-API Setup 
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
