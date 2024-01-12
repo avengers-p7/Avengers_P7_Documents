@@ -35,28 +35,29 @@ BuildPiper is an end-to-end Kubernetes & Microservices Application Delivery Plat
 
 ***
 # Technical Specifications
-| **Topic** | **ArgoCD** | **FluxCD** | **Jenkins X** |
-| ------- | ------ | ------ | --------- |
+| **Topic** | **ArgoCD** | **FluxCD** | **Jenkins X** | **Buildpiper** |
+| ------- | ------ | ------ | --------- | --------- |
 | **Pre-Requisites** | Kubernetes Cluster (v1.23 and later)| Kubernetes Cluster (v1.26 and later) | Kubernetes Cluster |
 | **System requirements** | 2 CPU cores and 4GB of RAM | 2 CPU cores and 4GB of RAM  | 2 CPU cores and 4GB of RAM  |
 | **Important Ports** | 80,443 | 80,443 | 8080,80,443 |
 | **Dependency** | kubectl | kubectl,Git | kubectl,Git |
 
 ***
-#  Tools Comparison: ArgoCD vs FluxCD vs Jenkins X
+#  Tools Comparison: ArgoCD vs FluxCD vs Jenkins X vs Bulidpiper
 
-| **Feature** | **ArgoCD** | **FluxCD** | **Jenkins X** |
-| ------- | ------ | ------ | --------- |
-| **Primary Use Case** | Continuous Delivery for Kubernetes | GitOps for Kubernetes | CI/CD for Kubernetes and Cloud Native Apps |
-| **Supported Platforms** | Kubernetes | Kubernetes	| Kubernetes, Cloud-Native Platforms |
-| **Integration with Git** | Git-based configuration | GitOps workflow | GitOps workflow |
-| **CLI Tool** | Yes (Argo CLI) | Yes (fluxctl) | Yes (jx CLI) |
-| **User Interface** | Web-based UI | Web-based UI | Web-based UI |
-| **Customization** | Highly customizable | Custom controllers for adaptability | Extensible and customizable |
-| **Helm Support** | Yes | Yes | Yes |
-| **Community Support** | Active | Active | Active |
-| **Programming Language** | Go | Go | Java, Groovy, Shell |
-| **CI Integration** | Integration with various CI tools | Integration with various CI tools | Integrated CI functionality |
+| **Feature** | **ArgoCD** | **FluxCD** | **Jenkins X** | **Buildpiper** |
+|-------------|------------|------------|---------------|----------------|
+| **Primary Use Case** | GitOps and Continuous Delivery | GitOps and Continuous Delivery | Continuous Integration and Delivery | Flexible CI/CD Pipelines     |
+| **Declarative Configuration** | Yes | Yes | Yes | Yes |
+| **Multicluster Support** | Yes | Yes | Yes | Limited |
+| **Integration with Helm** | Yes | Yes | Yes | Yes |
+| **Web UI** | Yes | Yes | Yes | Limited |
+| **Trigger Mechanisms** | Webhooks, CLI, API | Webhooks, CLI, API | Webhooks, Events, CLI, GitOps | Webhooks, Events, CLI |
+| **Scalability** | High | High | High | Moderate |
+| **Programming Language** | Go | Go | Java, Groovy, Shell | Not Applicable |
+| **Community Support** | Active | Active | Active | Growing |
+| **Documentation Quality** | Good | Good | Good | Developing |
+| **License** | Apache License 2.0 | Apache License 2.0 | Apache License 2.0 | MIT License |
 
 ***
 
