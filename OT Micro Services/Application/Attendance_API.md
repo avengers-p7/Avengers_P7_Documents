@@ -61,8 +61,11 @@ NOTE: remember to alter the superuser password based on the config.yaml file. Ot
 sudo apt install redis-server
 ```
 <img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
+
 Liquibase, it is an open-source database-independent library for tracking, managing, and applying database schema changes. Liquibase 
-    helps in versioning and managing database schema changes in a flexible and automated way.
+helps in versioning and managing database schema changes in a flexible and automated way.
+
+    
 *Install Liquibase*
 ```shell
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg && \
