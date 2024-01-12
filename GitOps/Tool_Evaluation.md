@@ -10,6 +10,7 @@ Multiple GitOps tools come with different features and may not cover all GitOps 
 * ArgoCD 
 * FluxCD
 * Jenkins X
+* Buildpiper
 
 ***
 # ArgoCD 
