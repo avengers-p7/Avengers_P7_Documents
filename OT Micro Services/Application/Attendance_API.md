@@ -35,7 +35,10 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 ```shell
 sudo apt update
 sudo apt install postgresql
-``` 
+```
+<img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
+
+
 To create Database and user
 ```shell
 sudo -u postgres psql
@@ -46,7 +49,9 @@ NOTE: remember to alter the superuser password based on the config.yaml file. Ot
 *Install Redis* 
 ```shell
 sudo apt install redis-server
-``` 
+```
+<img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
+
 *Install Liquibase*
 ```shell
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg && \
