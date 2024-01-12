@@ -101,9 +101,8 @@ If you're running a very minimal distribution (such as a Docker container) you m
     systemctl enable redis-server
 
     sudo systemctl status redis-server
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/ca800e51-7c97-4031-aaa6-63db6be54ac0)
-
+    
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/08ff7613-3f5f-4ffa-9213-40d50f320156)
 
 ## Setup the Master Node
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -118,17 +117,21 @@ This section shows how to set up the master node with password authentication.
 
 ### `bind 0.0.0.0`
   
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/634272e5-3749-428f-bbdc-ca08d399c068)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/165b85e3-db1d-406c-87db-f09d2b16500f)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/4ac687ea-1129-4cc1-a898-85263403d50b)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/3fec53be-b18b-42b2-9c6a-61fb9a780ecd)
+
 
 ### requirepass "<YOUR_PASSWORD>"
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/0dd56ffd-0da1-4ee5-b93a-402da305ef98)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/4b97dec8-8481-4b53-b488-9681d61df26b)
+
 
 ###  masterauth "<YOUR_PASSWORD>"
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/18136e0e-447b-45bb-ba27-702e3878637c)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/99c6cab1-bcf7-4bd1-bff9-d59803e1f459)
+
 
 
 ### Restart the redis-server service.
@@ -138,7 +141,8 @@ This section shows how to set up the master node with password authentication.
 ### See the Status Of redis-server.
 
     sudo systemctl status redis-server
-  
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/2fe1a5f1-45df-4d91-b1d1-f9298b854acc)
 
 # Conclusion
 
