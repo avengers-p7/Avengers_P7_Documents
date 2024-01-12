@@ -119,9 +119,6 @@ Edit the following parameters in the configuration file:
 
     sudo systemctl restart scylla-server
 
-
-#Getting Started
-
 # Getting Started
 
 ## Check ScyllaDB Cluster Status
@@ -148,7 +145,6 @@ To interact with ScyllaDB and execute CQL queries, use the cqlsh command:
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/df990d44-6af6-4059-8a36-dce0b0e10787)
 
-  
 
 ### Use Your Keyspace to create table
     USE employee_db;
