@@ -121,7 +121,7 @@ Edit the following parameters in the configuration file:
 
 # Getting Started
 
-## Check ScyllaDB Cluster Status
+### Check ScyllaDB Cluster Status
 
 To check if your ScyllaDB cluster is working fine, use the `nodetool` command. This command provides information about the nodes in the ScyllaDB cluster:
 
@@ -130,7 +130,7 @@ To check if your ScyllaDB cluster is working fine, use the `nodetool` command. T
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/4bfbbc5c-61a2-490f-9b07-0a82df61af03)
 
 
-## Interact with ScyllaDB using Cqlsh
+### Interact with ScyllaDB using Cqlsh
 
 To interact with ScyllaDB and execute CQL queries, use the cqlsh command:
 
@@ -138,7 +138,7 @@ To interact with ScyllaDB and execute CQL queries, use the cqlsh command:
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/c04e6e42-da36-45f0-96fe-4b7ec69de3b0)
 
-##Creating a Keyspace & Table in Scylla
+### Creating a Keyspace & Table in Scylla
 
     CREATE KEYSPACE IF NOT EXISTS employee_db
       WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
