@@ -25,7 +25,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 * Liquibase (Database Schema Version Control)
 
 # Building and Running
-## The process of building and running the Attendance API involves several steps:
+## The process of building and running the Attendance API involves several steps
 ### Install Dependencies:
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
 ### Install Pre-Requisites:
@@ -131,7 +131,7 @@ A set of test cases evaluates application scenarios and functionalities using th
 1. In the context of pytest, the "mocker" fixture refers to a fixture provided by the pytest-mock plugin. This fixture allows you to create and manage mocks in your test functions. A mock is a simulated object that mimics the behavior of a real object but allows you to control its responses and interactions during testing.
 The problem was resolved by installing `pip install pytest-mock`
 
-Reference: https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
+
 <img width="1186" alt="Screenshot 2024-01-11 at 11 16 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/97e0f816-7a19-4bbf-b1af-c35bf95a1b26">
 
 2. Apart from this, Various other issues were encountered during the project, including multiple errors in pylint analysis and poetry dependency installation. I addressed these by individually installing each required package. Additionally, there were some connectivity issues with PostgreSQL and Redis, which were resolved by modifying the configuration in the config.yaml file. The file was initially set up to connect to PostgreSQL and Redis containers. 
@@ -141,5 +141,8 @@ Reference: https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 |Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
 |---------------------------------|------------------------------------------------------------|
 |Shikha Tripathi                 |  shikha.tripathi.snaatak@mygurukulam.co                    |
+
+## References
+|Error Handling                    | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 
 
