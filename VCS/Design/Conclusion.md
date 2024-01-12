@@ -74,8 +74,8 @@ In conclusion, the decision to choose GitHub is rooted in its status as the indu
 | ----- | ----------- |
 | https://blog.mergify.com/github-vs-gitlab-vs-bitbucket/ | referred link for documentation |
 | https://www.educba.com/bitbucket-vs-github-vs-gitlab/ | referred link for features |
-| https://marker.io/blog/github-vs-gitlab-vs-bitbucket | reffered link for choosing GitHub |
-| https://disbug.io/en/blog/github-vs-gitlab-vs-bitbucket | reffered link for enhancing some more features |
+| https://marker.io/blog/github-vs-gitlab-vs-bitbucket | referred link for choosing GitHub |
+| https://disbug.io/en/blog/github-vs-gitlab-vs-bitbucket | referred link for enhancing some more features |
 
   
 
