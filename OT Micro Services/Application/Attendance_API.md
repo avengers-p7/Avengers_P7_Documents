@@ -34,6 +34,10 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 ## The process of building and running the Attendance API involves several steps
 ### Install Dependencies:
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
+   *Install Poetry*
+    ```shell
+       pip3 install poetry
+    ```
 ### Install Pre-Requisites:
 *  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
@@ -57,7 +61,8 @@ NOTE: remember to alter the superuser password based on the config.yaml file. Ot
 sudo apt install redis-server
 ```
 <img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
-
+Liquibase, it is an open-source database-independent library for tracking, managing, and applying database schema changes. Liquibase 
+    helps in versioning and managing database schema changes in a flexible and automated way.
 *Install Liquibase*
 ```shell
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg && \
@@ -72,10 +77,7 @@ sudo apt-get install liquibase
 ```
 <img width="1150" alt="Screenshot 2024-01-12 at 2 53 29 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f1bf824c-f540-4703-b254-ec87ccecef52">
 
-*Install Poetry*
-```shell
-pip3 install poetry
-```
+
 <img width="627" alt="Screenshot 2024-01-12 at 2 54 09 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7d918115-faa1-4ff2-9a0e-0ee57a5a96c4">
 
 ### Run Migrations:
