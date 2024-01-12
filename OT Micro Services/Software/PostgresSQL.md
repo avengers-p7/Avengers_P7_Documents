@@ -59,6 +59,9 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 
 #    Configure and Run PostgreSQL:
 ###  Show status PostgreSQL Service
+     sudo systemctl status postgresql
+     ![image](https://github.com/avengers-p7/Documentation/assets/156056746/9aa7ec64-7659-4f9d-a62c-d78b06e5d807)
+
 
 ###  Start PostgreSQL Service
      sudo systemctl start postgresql
