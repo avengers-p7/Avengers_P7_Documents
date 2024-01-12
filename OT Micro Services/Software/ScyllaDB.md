@@ -163,11 +163,11 @@ To interact with ScyllaDB and execute CQL queries, use the cqlsh command:
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/9142cd9b-55e0-490a-9561-5428787e7c8b)
 
 
-#Conclusion
+# Conclusion
 
 Congratulations! You have successfully installed and configured ScyllaDB on your system. ScyllaDB's robust features and performance capabilities make it a reliable choice for your NoSQL database needs. Explore its functionalities and leverage its scalability to build high-performance applications.
 
-#References
+# References
 	
 |  Source                  |                Description | 
 | ------------------------ |----------------------------|
