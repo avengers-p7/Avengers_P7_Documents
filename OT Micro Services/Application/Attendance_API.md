@@ -144,5 +144,6 @@ The problem was resolved by installing `pip install pytest-mock`
 
 ## References
 |Error Handling                    | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
+|----------------------------------|---------------------------------------------------------------------|
 
 
