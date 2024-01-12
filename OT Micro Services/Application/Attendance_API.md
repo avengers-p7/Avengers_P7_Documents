@@ -84,7 +84,7 @@ sudo apt-get install liquibase
 
 
 ### Run Migrations:
-*  Ensure the PostgreSQL database is up and running, then use `make run-migrations` to create the database and schema.
+*  Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
