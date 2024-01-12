@@ -128,16 +128,13 @@ A set of test cases evaluates application scenarios and functionalities using th
 | /api/v1/attendance/health/detail | GET        | Provides detailed health check about dependencies as well like - PostgresSQL and Redis |
 
 #  Problems Faced
-1. This error required me to make changes in the copy statement in Dockerfile. Resolved by adding "/" in front of COPY statement
-<img width="1186" alt="Screenshot 2024-01-11 at 11 06 42 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/770fa599-f30c-455a-8a10-6e0dcafcfc8f">
-
-2. In the context of pytest, the "mocker" fixture refers to a fixture provided by the pytest-mock plugin. This fixture allows you to create and manage mocks in your test functions. A mock is a simulated object that mimics the behavior of a real object but allows you to control its responses and interactions during testing.
+1. In the context of pytest, the "mocker" fixture refers to a fixture provided by the pytest-mock plugin. This fixture allows you to create and manage mocks in your test functions. A mock is a simulated object that mimics the behavior of a real object but allows you to control its responses and interactions during testing.
 The problem was resolved by installing `pip install pytest-mock`
 
 Reference: https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 <img width="1186" alt="Screenshot 2024-01-11 at 11 16 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/97e0f816-7a19-4bbf-b1af-c35bf95a1b26">
 
-3. Apart from this, Various other issues were encountered during the project, including multiple errors in pylint analysis and poetry dependency installation. I addressed these by individually installing each required package. Additionally, there were some connectivity issues with PostgreSQL and Redis, which were resolved by modifying the configuration in the config.yaml file. The file was initially set up to connect to PostgreSQL and Redis containers. 
+2. Apart from this, Various other issues were encountered during the project, including multiple errors in pylint analysis and poetry dependency installation. I addressed these by individually installing each required package. Additionally, there were some connectivity issues with PostgreSQL and Redis, which were resolved by modifying the configuration in the config.yaml file. The file was initially set up to connect to PostgreSQL and Redis containers. 
 
 ## Contact Information
 
