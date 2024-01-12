@@ -136,13 +136,13 @@ The problem was resolved by installing `pip install pytest-mock`
 
 2. Apart from this, Various other issues were encountered during the project, including multiple errors in pylint analysis and poetry dependency installation. I addressed these by individually installing each required package. Additionally, there were some connectivity issues with PostgreSQL and Redis, which were resolved by modifying the configuration in the config.yaml file. The file was initially set up to connect to PostgreSQL and Redis containers. 
 
-## Contact Information
+# Contact Information
 
 |Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
 |---------------------------------|------------------------------------------------------------|
 |Shikha Tripathi                 |  shikha.tripathi.snaatak@mygurukulam.co                    |
 
-## References
+# References
 |Error Handling                    | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 |----------------------------------|---------------------------------------------------------------------|
 
