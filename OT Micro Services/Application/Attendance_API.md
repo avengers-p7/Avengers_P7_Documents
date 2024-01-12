@@ -28,8 +28,6 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 ## The process of building and running the Attendance API involves several steps:
 ### Install Dependencies:
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
-### Build Docker Image:
-*  The `make docker-build` command builds the Docker image artifact for the Attendance API.
 ### Install Pre-Requisites:
 *  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
