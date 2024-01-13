@@ -123,7 +123,7 @@ Congratulations! You have successfully installed and configured PostgreSQL on yo
 
 
 # References
-| Source | Description |
+| Links | Description |
 |--------|-----------------|
 | https://www.postgresql.org/download/ | Prerequisites, Installation & Configuration |
 | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Software-Template | Document format followed from this link|
