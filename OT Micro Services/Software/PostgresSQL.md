@@ -125,6 +125,6 @@ Congratulations! You have successfully installed and configured PostgreSQL on yo
 # References
 | Source | Description |
 |--------|-----------------|
-| https://www.postgresql.org/download/ | |
+| https://www.postgresql.org/download/ | Prerequisites, Installation & Configuration |
 ||
 
