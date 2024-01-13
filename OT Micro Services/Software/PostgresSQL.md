@@ -123,6 +123,7 @@ Congratulations! You have successfully installed and configured PostgreSQL on yo
 
 
 # References
-| Source |   Descriptions |
+| Source | Description |
 |--------|-----------------|
+||
 
