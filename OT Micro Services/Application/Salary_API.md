@@ -35,35 +35,35 @@ Maven will be used as a package manager to download specific versions of depende
 ## Setup API
 
 ### Install dependencies
-1. ScyllaDB
+1. _ScyllaDB_
 
    Here is a step-by-step **[README.md](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
-2. Redis
+2. _Redis_
 
    Here is a step-by-step **[README.md](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md)** to install Redis in your system/server.
 
-**NOTE:** If you are not accessible to repo then please refer to the official page link shared above(in the Pre-requisites section).
+_**NOTE:**_ If you are not accessible to repo then please refer to the official page link shared above(in the Pre-requisites section).
 
-3. Maven
+3. _Maven_
     ```shell
     sudo apt install maven -y
     ```
-4. JAVA 17
+4. _JAVA 17_
     ```shell
     sudo apt install openjdk-17-jre-headless -y
     ```
-5. Make
+5. _Make_
    ```shell
    sudo apt install make -y 
    ```
-6. Migrate
+6. _Migrate_
     ```shell
       curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh | sudo bash
       sudo apt update
       sudo apt install migrate -y  
     ```
 
-**NOTE:-**
+_**NOTE:-**_
 
 1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Also, you will have to create the keyspace mentioned `employee_db` manually in your ScyllDB.
 2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
