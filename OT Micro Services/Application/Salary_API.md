@@ -32,19 +32,53 @@ Maven will be used as a package manager to download specific versions of depende
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/9188610e-121d-4f9a-ac6d-a1145970dd46)
 
-## Application
+## Setup API
+
+### Install dependencies
+1. ScyllaDB
+
+   Here is a step-by-step **[README.md](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
+2. Redis
+
+   Here is a step-by-step **[README.md](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md)** to install Redis in your system/server.
+3. Maven
+    ```shell
+    sudo apt install maven -y
+    ```
+4. JAVA 17
+    ```shell
+    sudo apt install openjdk-17-jre-headless -y
+    ```
+5. Make
+   ```shell
+   sudo apt install make -y 
+   ```
+6. Migrate
+    ```shell
+      curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh | sudo bash
+      sudo apt update
+      sudo apt install migrate -y  
+    ```
+
+**NOTE:** If not accessible then refer to the official page link shared above(in the Pre-requisites section).
+
+### Building and running
+
+**NOTE**
+1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running.
+2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
+3. Also, once the property file is defined and configured properly, we need to run migrations to create database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
+
+```shell
+make run-migrations
+```
+
+Once the schema, table and database are configured, we can start our application using Java runtime.
 
 For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
 
 ```shell
 make build
-```
-
-For building the docker image artifact of the attendance API, we can invoke another make command.
-
-```shell
-make docker-build
-make docker-push
 ```
 
 Also, Salary API contains different test cases and code quality-related integrations. To check the code quality, we can use `checkstyle` plugin with Maven. Also, for code coverage and unit testing, we are using Jacoco, and Junit respectively.
@@ -62,13 +96,9 @@ mvn test
 
 The test cases are present in **[src/test/java/com/opstree/microservice/salary](./src/test/java/com/opstree/microservice/salary)**. For dev testing, the Swagger UI can be used for sample payload generation and requests. The swagger page will be accessible on http://localhost:8080/salary-documentation.
 
-Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file. Also, once the property file is defined and configured properly, we need to run migrations to create database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
 
-```shell
-make run-migrations
-```
 
-Once the schema, table and database are configured, we can start our application using Java runtime.
+
 
 ```shell
 java -jar target/salary-0.1.0-RELEASE.jar
