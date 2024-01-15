@@ -24,12 +24,13 @@ The Salary API application has some database, cache manager and package dependen
 - **[Redis](https://redis.io/)**
 - **[Migrate](https://github.com/golang-migrate/migrate)**
 - **[Maven](https://maven.apache.org/)**
+- **[Java 17](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)**
 
 Maven will be used as a package manager to download specific versions of dependencies to run the Salary API.
 
 ## Architecture
 
-![](./static/salary.png)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/7ef9b753-4127-47c0-b692-bb1a97e228b6)
 
 ## Application
 
