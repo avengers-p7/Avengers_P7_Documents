@@ -17,6 +17,21 @@
 *  The combination of powerful features and a user-friendly interface makes GitHub a central hub for modern software development.
 
 ***
+
+# Evolution of Version Control Systems (VCS) Before Git:-
+Before Git and GitHub, version control systems were crucial for managing source code changes. Centralized systems like CVS (Concurrent Versions System) and SVN (Apache Subversion) were popular. However, they had limitations such as the need for a constant network connection, difficulty in branching and merging, and a single point of failure with the central server.
+
+**01.Introduction of Git**:-
+Git, created by Linus Torvalds in 2005, revolutionized version control. It is a Distributed Version Control System (DVCS) designed to address the shortcomings of existing systems. Git allows for fast branching, merging, and decentralized workflows. Developers can work offline and commit changes to their local repositories before synchronizing with a central or remote repository.
+
+**02.GitHub's Role in Modern Software Development**:-
+GitHub, founded in 2008 by Chris Wanstrath, PJ Hyett, and Tom Preston-Werner, built on Git's foundations and introduced a platform for hosting Git repositories. GitHub has played a pivotal role in modern software development for several reasons:
+
+| Features | Description |
+| -------- | ----------- |
+| **Collaboration and Social Coding** | GitHub transformed version control into a social platform. Developers can follow projects, star repositories, and contribute to open-source projects seamlessly. |
+| **Pull Requests and Code Review** | GitHub introduced the concept of pull requests, allowing contributors to propose changes, discuss modifications, and request code reviews. This workflow has become a standard for collaboration. |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Key points that enhances GitHub tool follows:-
 | Features | Description |
 | -------- | ----------- |
@@ -48,6 +63,28 @@
 
 ***
 
+# Branching Strategies:-
+
+## 01.Gitflow Workflow:-
+Gitflow defines a branching model with branches for features, releases, and hotfixes. It provides a structured approach for managing releases and hotfixes.It defines specific branch responsibilities, such as main/master for production, develop for active development, feature for new features, release as a gatekeeper to production, and hotfix for addressing urgent issues.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/78699006-db3e-4287-8692-e120197ebb66)
+
+## 02.GitHub-Flow:-
+GitHub-Flow simplifies Git-Flow by eliminating release branches. It revolves around one active development branch (often main or master) that is directly deployed to production. Features and bug fixes are implemented using long-living feature branches. 
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/350ed7f1-acbb-40a2-98fd-d15e2eae5480)
+
+## 03.GitLab-Flow:-
+GitLab-Flow strikes a balance between Git-Flow and GitHub-Flow. It adopts GitHub-Flow’s simplicity while introducing additional branches representing staging environments before production. The main branch still represents the production environment.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/a6b14fdf-cf7c-41bc-9e7b-75f3410e8e24)
+
+## 04.Trunk Based Development:-
+Trunk Based Development promotes a single shared branch called “trunk” and eliminates long-living branches. There are two variations based on team size: smaller teams commit directly to the trunk, while larger teams create short-lived feature branches. Frequent integration of smaller feature slices is encouraged to ensure regular merging.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/ce4652f1-6571-4600-9c96-3a61f620bc2c)
+*****************************************************************************************************************************************************************************
 # Benefits of GitHub:-
 | Features | Description |
 | -------- | ----------- |
@@ -55,6 +92,7 @@
 | **Repository Hosting** | GitHub hosts Git repositories, providing a centralized location for storing, sharing, and managing source code. Repositories can be public or private, allowing for open-source projects or private development work. |
 | **Community Support** | GitHub has a large and active community of developers. This community support can be valuable for troubleshooting, seeking advice, and learning best practices from others in the field. |
 *** 
+
 # Challenges of GitHub:-
 | Challenge | Problem | Solution |
 | --------- | ------- | -------- |
@@ -84,7 +122,7 @@
 | https://unstop.com/blog/what-is-github | reference link used for the documentation |
 | https://marker.io/blog/github-vs-gitlab-vs-bitbucket | documentation explored for GitHub features |
 | https://www.sitepoint.com/github-copilot-ai-pair-programming/ | documentation for GitHub Copilot |
-
+| https://www.cloudbees.com/blog/branching-strategy | link for Branching Strategies |
 
 
 
