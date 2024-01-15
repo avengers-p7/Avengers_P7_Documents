@@ -6,14 +6,52 @@ Bitbucket is a Git-based source code repository hosting service and collaboratio
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/6711f77b-4658-4977-96a8-912e496aa8c0)
 ***
 # Features
-* **Integration with Jira:** Seamlessly connect and streamline workflows by integrating Bitbucket with Jira, facilitating efficient project management and issue tracking.
-* **Built-in CI/CD with Bitbucket Pipelines:** Accelerate development cycles with automated testing and deployment using Bitbucket Pipelines, an integrated continuous integration and delivery solution.
-* **Mercurial Support:** Extend version control flexibility with native support for Mercurial repositories in Bitbucket, accommodating diverse project needs.
-* **Access Control and Permissions:** Ensure secure collaboration by implementing fine-grained access controls and permissions in Bitbucket, allowing precise management of user privileges.
-* **Bitbucket Server (Self-hosted, formerly known as Stash):** Opt for self-hosted solutions with Bitbucket Server (formerly Stash) to have full control over your repositories and enhance security measures.
-* **Smart Mirroring:** Enhance repository access and speed for distributed teams with Smart Mirroring in Bitbucket, ensuring faster cloning and fetching of repositories.
-* **Snippets:** Foster code sharing and collaboration by creating and managing reusable code snippets in Bitbucket, promoting efficiency and knowledge sharing within the team.
+
+| Feature | Description  | 
+| -------- | ------- |
+| Atlassian Intelligence | Generate and transform content, summarize critical details, find the work you need fast, and more. |
+| Code insights | Code insights compiles results from scanning, testing, and analysis tools in a pull request, giving reviewers context before approving changes.
+| Merge checks | Merge checks let you recommend certain conditions on pull request merges are met for individual branches. |
+| Scale CI workflows | educe duplication and simplify management of pipeline configurations. Create CI workflows that meet your organizations needs and enable all your teams to use the same workflow.|
+| Encryption in transit and at rest | All customer data stored within Atlassian cloud products and services is encrypted in transit over public networks using Transport Layer Security  with Perfect Forward Secrecy to protect it from unauthorized disclosure or modification. |
 ***
+# Plans & Pricing
+
+| Free | Standard  | Premium    |
+| -------- | ------- | -------------- |
+| $0 per user    | $3 per user | $6 per user   |
+
+
+## Comparision of Plans
+
+| Feature | Free | Standard  | Premium    |
+| -------- | ------- | -------- | -------- |
+| Atlassian Intelligence  |     |     | Yes |
+| User limit per instance | Up to 5 users     | Unlimited   | Unlimited |
+| Build minutes   | 50 minutes per month   | 2500 minutes per month    | 3500 minutes per month |
+| Git LFS (Large File Storage) | 1GB | 5GB | 10GB |
+| Code insights | Three integrations | Three integrations | Unlimited |
+| Deployment environments | 10 | 100 | 100 |
+| Unlimited private repositories | Yes | Yes | Yes |
+| Jira Software integration | Yes | Yes | Yes |
+| CI/CD | Yes | Yes | Yes |
+| Unlimited pull request reviewers | Yes | Yes  | Yes |
+| Merge checks | Yes  | Yes | Yes |
+
+## Security & Compliance
+
+| Feature | Free | Standard  | Premium    |
+| -------- | ------- | -------- | -------- |
+| Atlassian Access (SSO, audit logs)  | Requires Access subscription   | Requires Access subscription | Requires Access subscription |
+| Resource-scoped Access Tokens | Repository level     | Repository level   | Repository, project and workspace |
+| Encryption in transit and at rest   | Yes   | Yes    | Yes |
+| Business continuity and disaster recovery | Yes | Yes | Yes |
+| IP allowlisting |   |  | Yes |
+| Enforced merge checks |  |  | Yes |
+| Required two-step verification |  |  | Yes |
+| Scale CI workflows |   |   | Yes |
+|  Deployment permissions |   |   | Yes |
+
 # Bitbucket hosting options
 
 | Feature | Cloud  | Server    | Data Center |
@@ -43,7 +81,7 @@ Bitbucket is a Git-based source code repository hosting service and collaboratio
 * There are some search-related issues when finding a particular file. First, you need to launch the repository and find it locally. It’s a bit long process.
 ***
 # Conclusion
-Bitbucket stands as a versatile version control system with robust collaboration features, integrated CI/CD capabilities, and flexible support for Git and Mercurial. While its scalability and resource requirements may pose challenges for larger teams, its seamless Jira integration and access control mechanisms make it a compelling choice for many development workflows. Despite a potential learning curve and integration complexities, Bitbucket's comprehensive suite of tools contributes to efficient code management and collaboration, provided users carefully navigate its features and considerations.
+Bitbucket stands as a versatile version control system with robust collaboration features, integrated CI/CD capabilities, and flexible support for Git. While its scalability and resource requirements may pose challenges for larger teams, its seamless Jira integration and access control mechanisms make it a compelling choice for many development workflows. Despite a potential learning curve and integration complexities, Bitbucket's comprehensive suite of tools contributes to efficient code management and collaboration, provided users carefully navigate its features and considerations.
 ***
 # References
 | Source | Description  | 
@@ -51,3 +89,7 @@ Bitbucket stands as a versatile version control system with robust collaboration
 | https://www.educba.com/what-is-bitbucket/ | Introduction   |
 | https://bitbucket.org/product/guides/getting-started/overview#a-brief-overview-of-bitbucket | Hosting Options | 
 | https://www.geeksforgeeks.org/introduction-to-bitbucket/   | Drawbacks   |
+| https://www.atlassian.com/software/bitbucket/pricing | Pricing & Plans |
+
+
+
