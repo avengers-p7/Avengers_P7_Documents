@@ -30,7 +30,7 @@ Maven will be used as a package manager to download specific versions of depende
 
 ## Architecture
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/7ef9b753-4127-47c0-b692-bb1a97e228b6)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/9188610e-121d-4f9a-ac6d-a1145970dd46)
 
 ## Application
 
