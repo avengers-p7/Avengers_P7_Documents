@@ -41,6 +41,9 @@ Maven will be used as a package manager to download specific versions of depende
 2. Redis
 
    Here is a step-by-step **[README.md](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md)** to install Redis in your system/server.
+
+**NOTE:** If you are not accessible to repo then please refer to the official page link shared above(in the Pre-requisites section).
+
 3. Maven
     ```shell
     sudo apt install maven -y
@@ -60,11 +63,8 @@ Maven will be used as a package manager to download specific versions of depende
       sudo apt install migrate -y  
     ```
 
-**NOTE:** If not accessible then refer to the official page link shared above(in the Pre-requisites section).
+**NOTE:-**
 
-### Building and running
-
-**NOTE**
 1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running.
 2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
 3. Also, once the property file is defined and configured properly, we need to run migrations to create database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
@@ -74,6 +74,8 @@ make run-migrations
 ```
 
 Once the schema, table and database are configured, we can start our application using Java runtime.
+
+### Building and running
 
 For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
 
