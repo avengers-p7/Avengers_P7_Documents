@@ -60,6 +60,8 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
      
  ![image](https://github.com/avengers-p7/Documentation/assets/156056746/a272cacb-c0c0-49c7-b617-b49bf5a3251f)
 
+ ### Verify Installation:
+     psql -V
 
 #    Configure and Run PostgreSQL:
 ###  Show status PostgreSQL Service
