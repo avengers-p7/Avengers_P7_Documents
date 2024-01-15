@@ -88,5 +88,6 @@ Ultimately, the "best" tool depends on your project requirements, team expertise
 | ------ | ----------- |
 | https://www.w6d.io/blog/gitops-tools/ | Gitops Tools Features |
 | https://loft.sh/blog/gitops-kubernetes-comparing-argo-cd-vs-jenkins-x-vs-flux-vs-spinnaker/ | Gitops Tools Features |
+| https://buildpiper.io/documentation/docs/getting/introducing | Buildpiper |
 | https://www.devopsschool.com/blog/list-of-gitops-tools/ | Gitops Tools Architecture |
 | https://www.tynybay.com/our-thinking/argocd-vs-fluxcd-vs-jenkins-x-which-gitops-implementation-tool-suits-you-the-best#:~:text=Argo%20CD%20supports%20multi%2Dtenancy,with%20a%20set%20of%20cons. | Gitops Tools Installation |
