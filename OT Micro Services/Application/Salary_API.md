@@ -72,6 +72,8 @@ _**NOTE:-**_
 ```shell
 make run-migrations
 ```
+   ![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0245aa4-bcf0-4e22-81e1-0b567fd9715c)
+
 
 Once the schema, table and database are configured, we can start our application using Java runtime.
 
