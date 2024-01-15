@@ -106,6 +106,7 @@ This script tunes system settings and determines optimal configurations.
 
 ### Running the scylla_setup Script
 To set up Scylla, execute the following command in your terminal:
+
     sudo scylla_setup
 
 #### Note:
