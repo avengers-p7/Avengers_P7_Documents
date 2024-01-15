@@ -33,10 +33,10 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 # 
  | Requirement | Recommendation |
  |-------------|----------------|
- |Operating System | Linux ( Ubuntu, CentOS) |
- | CPU | Multi-core processor |
- | RAM	| 4 GB or more |
- | Disk Space	| 20 GB or more (depends on data size) |
+ | Processor/Instance Type | t2.medium |
+ | RAM (Memory) |	4 Gigabytes or Dual-Core |
+ | Disk Space | 16 GB or 2GB per core |
+ | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
 
  # Important Ports
    |  Inbound Traffic|	Description  |
