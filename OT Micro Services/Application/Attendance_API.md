@@ -30,7 +30,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 * Poetry (Package Manager)
 * Liquibase (Database Schema Version Control)
 
-# 
+# System Requirements:
  | Requirement | Recommendation |
  |-------------|----------------|
  | Processor/Instance Type | t2.medium |
