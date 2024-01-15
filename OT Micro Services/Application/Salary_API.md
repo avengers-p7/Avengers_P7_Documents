@@ -109,6 +109,32 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
 ## Troubleshooting
 
+1. Error-01 
+
+    ![image](https://github.com/avengers-p7/Documentation/assets/156056444/97c10d42-6f4a-44bf-8362-0a0f331bc928)
+
+   1.1. install jq
+
+       sudo apt install jq -y 
+
+   1.2. install Migrate
+
+         curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh | sudo bash
+         sudo apt update
+         sudo apt install migrate -y
+ 2. Error-02
+
+      ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d0c21a64-1072-4585-9ae5-79b038439905)
+
+      Config the `application.yml` in both src/main and src/test correctly.  
+
+ 3. After this, you may also face a CORS error.
+
+       ![image](https://github.com/avengers-p7/Documentation/assets/156056444/75cdfe88-4c38-4300-9dcd-3797e63864fa)
+
+       To solve this error add CORS config as per your requirement.
+
+
 ## Contact Information
 
 |     Name         | Email  |
@@ -119,7 +145,9 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-|     Error Handling               | https://bobbyhadz.com/blog/disable-missing-module-docstring-pylint
-|     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        
-|     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/)https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
+|     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
+|     Salary Documentation         | https://github.com/OT-MICROSERVICES/salary-api/blob/main/README.md |  
+|     Error Handling               | 1. https://www.youtube.com/watch?v=uMJnAxapF7E |
+|                                  | 2. https://github.com/serlesen/fullstack-cors/tree/chapter_1 |
+|                                  | 3. https://github.com/OT-MICROSERVICES/salary-api/blob/main/README.md | 
 
