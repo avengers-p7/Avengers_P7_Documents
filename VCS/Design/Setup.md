@@ -39,20 +39,28 @@ GitHub provides a space for project documentation. Developers can include README
 GitHub includes features for managing software licenses. This is important for open-source projects to define how others can use, modify, and distribute the code.
 
 Setup via Web browser
-|--------------------|
+--------------------
 
 Create a GitHub Account
-|---------------------|
+---------------------
 
 Go to GitHub's website and sign up for a new account if you don't have one.
 
 Verification
-|------------|
+------------
 Verify your email address to complete the registration process.
 
 Explore GitHub
-|-------------|
+-------------
 Once logged in, you can explore GitHub repositories, contribute to projects, and create your own repositories.
+
+Git Installation for Local Development
+--------------------------------------
+
+
+
+
+
 
 
 
