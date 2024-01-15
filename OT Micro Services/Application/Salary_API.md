@@ -10,7 +10,7 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 
 ### Key Components  
 
-- **Spring boot** based web framework, which uses tomcat as a web server.
+- **Spring boot** based web framework, which uses Tomcat as a web server.
 - **ScyllaDB** is used as the primary database for storing all the salary data.
 - **Redis** as cache manager to store the cache response.
 - **Prometheus and Open-telemetry** metrics support for monitoring and observability.
@@ -65,9 +65,9 @@ Maven will be used as a package manager to download specific versions of depende
 
 **NOTE:-**
 
-1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Also, you will have to create keyspace mentioned `employee_db` manually in your ScyllDB.
+1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Also, you will have to create the keyspace mentioned `employee_db` manually in your ScyllDB.
 2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
-3. Also, once the property file is defined and configured properly, we need to run migrations to create database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
+3. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
 
 ```shell
 make run-migrations
