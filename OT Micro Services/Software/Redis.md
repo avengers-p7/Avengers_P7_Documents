@@ -166,15 +166,15 @@ This section shows how to set up the master node with password authentication.
 
     sudo service redis-server restart
 
+### See the Status Of redis-server.
+
+    sudo systemctl status redis-server
+
 ### Redis CLI Authentication and Access
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/59c56b34-1f5f-4540-8114-1318493348f2)
 
     
-### See the Status Of redis-server.
-
-    sudo systemctl status redis-server
-
 # Conclusion
 
 Redis rockets your app's performance with lightning-fast data access, but keep your persistence needs elsewhere.
