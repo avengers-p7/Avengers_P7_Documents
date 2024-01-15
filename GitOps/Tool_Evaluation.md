@@ -39,7 +39,7 @@ BuildPiper is an end-to-end Kubernetes & Microservices Application Delivery Plat
 | **Topic** | **ArgoCD** | **FluxCD** | **Jenkins X** | **Buildpiper** |
 | ------- | ------ | ------ | --------- | --------- |
 | **Pre-Requisites** | Kubernetes Cluster (v1.23 and later)| Kubernetes Cluster (v1.26 and later) | Kubernetes Cluster |
-| **System requirements** | 2 CPU cores and 4GB of RAM | 2 CPU cores and 4GB of RAM  | 2 CPU cores and 4GB of RAM  |
+| **System requirements** | 2 CPU cores and 4GB of RAM | 2 CPU cores and 4GB of RAM  | 2 CPU cores and 4GB of RAM  | 4 CPU cores and 8GB of RAM |
 | **Important Ports** | 80,443 | 80,443 | 8080,80,443 |
 | **Dependency** | kubectl | kubectl,Git | kubectl,Git |
 
