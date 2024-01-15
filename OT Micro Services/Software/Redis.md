@@ -109,11 +109,29 @@ If you're running a very minimal distribution (such as a Docker container) you m
 
 ### Activate the redis-server service 
 
-    sudo systemctl enable redis-server
+    sudo systemctl start redis-server.service 
 
-    sudo systemctl status redis-server
+    sudo systemctl status redis-server.service
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/63d809b4-484b-4c4f-b78e-b3abbb2fbc60)
+
+### Redis Connection Confirmation
+#### redis-cli: 
+This is the Redis command-line interface, and you're invoking it to interact with the Redis server.
+
+#### 127.0.0.1:6379>: 
+This is the Redis prompt, indicating that you are connected to the Redis server running on the local machine (127.0.0.1) on port 6379.
+
+#### PING: 
+This is a Redis command used to check if the server is running and responding. It's a simple "ping-pong" test.
+
+#### PONG: 
+The Redis server responds with "PONG," indicating that it is indeed running and responding to commands.
+
+	redis-cli
     
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/08ff7613-3f5f-4ffa-9213-40d50f320156)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/5f17f6c9-a36f-4004-9e7f-2d6b992c49ab)
+
 
 ## Setup the Master Node
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
