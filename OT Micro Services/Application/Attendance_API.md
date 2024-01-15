@@ -45,7 +45,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
    | 6379 | In-memory data structure store |
    | 22 | Secure Shell for secure access to a system |
    | 80 |
-   | HTTPS | 443 |
+   |443| 
  
 
 # Building and Running
