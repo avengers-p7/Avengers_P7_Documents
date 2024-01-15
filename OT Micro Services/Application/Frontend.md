@@ -3,7 +3,7 @@
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Aakash Tripathi ,Vishal Kumar Kesarwani | 12 Jan 2024   |     v1     | Vishal Kumar Kesarwani | 15 Jan 2024    |
+| Aakash Tripathi ,Vishal Kumar Kesarwani | 12 Jan 2024   |     v1     | Aakash Tripathi | 15 Jan 2024    |
 
 # Introduction
 Frontend Web is a REACTJS based application that is the primary user-interface for OT-Microservices stack.The app is designed for cross-platform fuctionality and requires only the presence of javascript runtime modules.The ReactJS based web framework facilitates complete web page based operations.
