@@ -53,8 +53,8 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
        sudo apt install npm
     ```
 ## Step2: Build Generation
-* Create index.html file
-  Create a directory name public and create index.html file inside it with the follwing conntent:  
+* Create index.html file    
+  Create a directory name public and create index.html file inside it with the following content:  
     ```shell
        <!DOCTYPE html>
        <html lang="en">
@@ -83,7 +83,7 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
           -->
           <title>React App</title>
         </head>
-      <body>
+        <body>
           <noscript>You need to enable JavaScript to run this app.</noscript>
           <div id="root"></div>
           <!--
@@ -94,10 +94,23 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
           To begin the development, run `npm start` or `yarn start`.
           To create a production bundle, use `npm run build` or `yarn build`.
           -->
-      </body>
-    </html>
-```
-Add the command used to install the dependency in code snippet format. [command]
+        </body>
+     </html>
+    ```
+*  Set the maximum heap size (memory limit)
+    ```shell
+       export NODE_OPTIONS="--max-old-space-size=8192"
+    ```
+* Build the Application 
+    ```shell
+       make build
+    ```
+## Step3: Application Deployment
+* Run the following command
+    ```shell
+       npm start
+    ```
+Once the above command is run, the frontend becomes accessible via browser at http://<host-ip>:3000
 ***
 # Key Components
 **REACTJS Framework**: The frontend uses REACTJS which is a declarative, efficient, and flexible JavaScript library for building user interfaces, particularly single-page applications where components update efficiently in response to data changes.
