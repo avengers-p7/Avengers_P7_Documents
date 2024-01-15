@@ -56,9 +56,18 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 Git Installation for Local Development
 --------------------------------------
+Download Git:
 
+Visit the official Git website and download the latest version of Git for Windows.
+  
+Install Git:
 
+Run the downloaded installer and follow the on-screen instructions. The default settings are usually sufficient for most users.
 
+Check Installation:
+
+Open a command prompt or Git Bash and type:
+git --version
 
 
 
