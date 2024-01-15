@@ -1,5 +1,4 @@
-
-
+# Manual Setup of Redis
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
 | Khushi Malhotra |  09 Jan 2024  |  Version 1 | Khushi Malhotra  | 11 Jan 2024    |
@@ -72,7 +71,7 @@ Cluster multiple servers to handle growing data volumes and concurrent requests.
 | Other dependencies     | Optional Redis modules |
 
 
-# Setup Guide
+# Redis Setup Guide
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/1f731c1d-e0d3-4f91-aa93-3f9ac6b8830e)
 
@@ -102,6 +101,11 @@ If you're running a very minimal distribution (such as a Docker container) you m
     sudo apt-get update
 		
     sudo apt-get install -y redis-server
+
+## Verify Installation
+
+	redis-cli --version
+	redis-server --version
 
 ### Activate the redis-server service 
 
