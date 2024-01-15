@@ -109,7 +109,7 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
 ## Troubleshooting
 
-1. Error-01 
+1. **Error-01** 
 
     ![image](https://github.com/avengers-p7/Documentation/assets/156056444/97c10d42-6f4a-44bf-8362-0a0f331bc928)
 
@@ -122,13 +122,13 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
          curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh | sudo bash
          sudo apt update
          sudo apt install migrate -y
- 2. Error-02
+ 2. **Error-02**
 
       ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d0c21a64-1072-4585-9ae5-79b038439905)
 
       Config the `application.yml` in both src/main and src/test correctly.  
 
- 3. After this, you may also face a CORS error.
+ 3. After this, you may also face a **CORS error**.
 
        ![image](https://github.com/avengers-p7/Documentation/assets/156056444/75cdfe88-4c38-4300-9dcd-3797e63864fa)
 
