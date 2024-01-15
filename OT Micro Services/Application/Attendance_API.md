@@ -30,6 +30,24 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 * Poetry (Package Manager)
 * Liquibase (Database Schema Version Control)
 
+# 
+ | Requirement | Recommendation |
+ |-------------|----------------|
+ |Operating System | Linux ( Ubuntu, CentOS) |
+ | CPU | Multi-core processor |
+ | RAM	| 4 GB or more |
+ | Disk Space	| 20 GB or more (depends on data size) |
+
+ # Important Ports
+   |  Inbound Traffic|	Description  |
+   |---------|---------|
+   | 5432	| Relational database system |
+   | 6379 | In-memory data structure store |
+   | 22 | Secure Shell for secure access to a system |
+   | 80 |
+   | HTTPS | 443 |
+ 
+
 # Building and Running
 ## The process of building and running the Attendance API involves several steps
 ### Install Dependencies:
