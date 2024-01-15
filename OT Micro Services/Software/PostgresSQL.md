@@ -32,7 +32,7 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 |--------|----------------|
 |Processor/Instance Type | t2.medium|
 | RAM (Memory) | 4 Gigabytes or Dual-Core |
-| Disk Space | Minimal for binaries, more for persistence |
+| Disk Space | 16 GB or 2GB per core |
 | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
 
 # Important Ports:
