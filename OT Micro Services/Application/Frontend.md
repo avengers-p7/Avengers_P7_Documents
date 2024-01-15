@@ -1,5 +1,5 @@
 
-# Attendance-API Setup 
+# Frontend Setup 
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
@@ -14,9 +14,10 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
 
 # Contact Information
 
-| Aakash Tripathi                    | aakash.tripathi.snaatak@mygurukulam.co                                                                                      
+| Name                 | Contact Information                                                                                     
 |---------------------------------|------------------------------------------------------------|
-| Vishal Kumar Kesarwani                  |  vishal.kesarwani.snaatak@mygurukulam.co                  |
+| Vishal Kumar Kesarwani          |  vishal.kesarwani.snaatak@mygurukulam.co                   |
+| Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co
 
 # References
 
