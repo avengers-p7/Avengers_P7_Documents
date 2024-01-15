@@ -104,13 +104,14 @@ OpenJDK for ScyllaDB because ScyllaDB relies on Java for its client-side functio
 ## Configure and Run ScyllaDB
 This script tunes system settings and determines optimal configurations.
 
-### Run scylla_setup script
+### Running the scylla_setup Script
+To set up Scylla, execute the following command in your terminal:
     sudo scylla_setup
 
-  The script displays some information and then asks a question, for example:
-  Do you want to select the default (yes/no):
+#### Note:
+After the installation of Scylla, it is crucial to run the scylla_setup script. This script provides essential configuration options and displays information about your Scylla installation.
 
-  To choose the default (yes), just press 'Enter' without typing anything.
+Upon running the script, you may encounter a prompt with a question, such as:
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/9f9b14d4-ee03-49bb-8c6b-643125baaed9)
 
@@ -130,13 +131,13 @@ According to your requirements you can the following parameters.
 	listen_address: <ip>
 	rpc_address: <ip>
 
-seeds : 
+##### seeds : 
 This is the PRIVATE IP address that Scylla will use to connect to other Scylla nodes in the cluster. Seed nodes are used during startup to bootstrap the gossip process and join the cluster
 
-listen_address: 
+##### listen_address: 
 This is the PRIVATE IP address that Scylla will use to connect to other Scylla nodes in the cluster. In this case, it's set to 'localhost,' indicating that it will listen for connections on the local machine.
 
-rpc_address: 
+##### rpc_address: 
 This is the PRIVATE IP address of the interface for client connections, such as Thrift and CQL. Similar to listen_address, it is set to 'localhost' in this configuration.
 	
      seeds: "172.31.22.109"
