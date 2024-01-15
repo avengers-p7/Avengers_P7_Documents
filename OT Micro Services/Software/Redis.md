@@ -27,13 +27,17 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 # Key Features
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Speed: Data lives in RAM, not on disks, for blazing-fast access and response times.
+#### Speed: 
+Data lives in RAM, not on disks, for blazing-fast access and response times.
 
-Durability: Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes.
+#### Durability: 
+Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes.
 
-Availability: Built-in replication ensures continuous operation even if servers fail.
+#### Availability: 
+Built-in replication ensures continuous operation even if servers fail.
 
-Scalability: Cluster multiple servers to handle growing data volumes and concurrent requests.
+#### Scalability: 
+Cluster multiple servers to handle growing data volumes and concurrent requests.
 
 # Software Overview
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -72,11 +76,14 @@ Scalability: Cluster multiple servers to handle growing data volumes and concurr
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/1f731c1d-e0d3-4f91-aa93-3f9ac6b8830e)
 
-Redis Masters: The two nodes on the left-hand side of the diagram are the Redis masters. They accept read and write requests from clients.
+#### Redis Masters: 
+The two nodes on the left-hand side of the diagram are the Redis masters. They accept read and write requests from clients.
 
-Redis Slaves: The two nodes on the right-hand side of the diagram are the Redis slaves. They replicate the data from the masters and can be used for read-only operations or to promote a slave to a master in case of a master node failure.
+#### Redis Slaves: 
+The two nodes on the right-hand side of the diagram are the Redis slaves. They replicate the data from the masters and can be used for read-only operations or to promote a slave to a master in case of a master node failure.
 
-Sentinels: The three nodes at the top of the diagram are the sentinels. They monitor the health of the Redis masters and will automatically promote a slave to a master if a master fails.
+#### Sentinels: 
+The three nodes at the top of the diagram are the sentinels. They monitor the health of the Redis masters and will automatically promote a slave to a master if a master fails.
 
 # Install on Ubuntu/Debian
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
