@@ -87,7 +87,7 @@ Some disadvantages of GitOps, however, include these drawbacks:
 ## Contact Information:
 | Name | Email address |
 | ---- | ------------- |
-| Aakash | aakash.tripathi.snaatak@mygurukulam.co |
+| vishal | vishal.kesarwani.snaatak@mygurukulam.co |
 
 ***
 ## References:
