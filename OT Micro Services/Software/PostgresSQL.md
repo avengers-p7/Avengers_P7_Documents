@@ -71,6 +71,8 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 
 ![Screenshot from 2024-01-12 19-08-23](https://github.com/avengers-p7/Documentation/assets/156056746/6441e9fb-1cd8-4868-a0f5-d2f5183c7243)
 
+## If PostgreSQL is  running by default, and you need to start restart stop  it manually, you can use the following commands.
+
 ###  Start PostgreSQL Service
      sudo systemctl start postgresql
 
