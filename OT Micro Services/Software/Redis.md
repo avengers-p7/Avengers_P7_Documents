@@ -60,7 +60,7 @@ Cluster multiple servers to handle growing data volumes and concurrent requests.
 
 | Configuration       | Port  | 
 | ------------------- |-------|
-| Redis Defualt port  | 6379  |
+| Redis Default port  | 6379  |
 
                                                                    
 # Dependencies
@@ -117,7 +117,7 @@ This section shows how to set up the master node with password authentication.
 - Connect to your master server over SSH.
 - Open the configuration file 
  
-    sudo vim /etc/redis/redis.conf
+     sudo vim /etc/redis/redis.conf
 
 - Find the following configuration, uncomment and edit them. Change <YOUR_PASSWORD> to a secure password. The bind configuration allows the Redis server 
   to be accessible from other nodes.
