@@ -74,7 +74,7 @@ The ScyllaDB Manual Setup Guide provides step-by-step instructions for installin
 ### Install OpenJDK 17
 OpenJDK for ScyllaDB because ScyllaDB relies on Java for its client-side functionality.
 
-    sudo apt install openjdk-17-jre
+    sudo apt install openjdk-17-jre -y
 
 ###  Add ScyllaDB APT repository to your system.
 
