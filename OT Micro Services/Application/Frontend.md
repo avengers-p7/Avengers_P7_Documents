@@ -23,14 +23,35 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
 | Name | Version | Description |
 | ---- | ------- | ----------- |
 | GNU make | 4.3 | To build form Makefile |
-| Nodejs | 14.0 | Java srcipt runtime environment |
+| Npm |  | Package manager for Javasrcipt |
 
 ### Run time Dependency
 | Name | Version | Description |
 | ---- | ------- | ----------- |
+| Nodejs | 14.0 | Javasrcipt runtime environment |
+
+# Important Ports
+| OutboundTraffic	 | Description |
+| ---------------- | ----------- |
+| 3000 | Default REACTJS port |
 
 ***
+# Architecture
 
+***
+# Step-by-step installation of [application]
+## Step1: Installation of software Dependencies
+### Build Dependencies:
+*  
+   *Install GNU make*
+    ```shell
+       sudo apt update 
+       sudo apt install make
+    ```
+
+Run time Dependency
+Add the command used to install the dependency in code snippet format. [command]
+***
 # Key Components
 **REACTJS Framework**: The frontend uses REACTJS which is a declarative, efficient, and flexible JavaScript library for building user interfaces, particularly single-page applications where components update efficiently in response to data changes.
 
