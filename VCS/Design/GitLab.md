@@ -1,6 +1,11 @@
-# Introduction
-This document has been created to serve a starting point for understanding one of the VCS tool (GitLab).
+| Author | Created on | Last Updated | Document Version |
+| ------ | ---------- | ------------ | ---------------- |
+| Shantanu | 10-01-2024 | 15-01-2024   |         v1     |
+***
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/487d819d-c1e2-4dd8-a463-c2a980d9c930)
 
+# Introduction
+GitLab is a web-based Git repository that provides free open and private repositories, issue-following capabilities, and wikis. It is a complete DevOps platform that enables professionals to perform all the tasks in a project—from project planning and source code management to monitoring and security. Additionally, it allows teams to collaborate and build better software. 
 
 ***
 
