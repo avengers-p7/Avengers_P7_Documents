@@ -22,7 +22,7 @@ Bitbucket is a Git-based source code repository hosting service and collaboratio
 
 | Free | Standard  | Premium    |
 | -------- | ------- | -------------- |
-| $0 per user    | $3 per user | $6 per user   |
+| $0 per user per month  | $3 per user per month| $6 per user per month  |
 
 
 ## Comparision of Plans
