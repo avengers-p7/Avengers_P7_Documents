@@ -27,6 +27,10 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 | Table Inheritance | PostgreSQL supports table inheritance, enabling the creation of new tables that inherit properties and columns from existing tables. |
 | Cross-Platform Compatibility | PostgreSQL is compatible with various operating systems, making it versatile and suitable for deployment in diverse environments. |
 
+# PostgreSQL Architecture
+  ![image](https://github.com/avengers-p7/Documentation/assets/156056746/d6d951f4-a70f-44a3-9f2b-2a9f486e7358)
+
+
 # System Requirements:
 | Aspect | Recommendation |
 |--------|----------------|
