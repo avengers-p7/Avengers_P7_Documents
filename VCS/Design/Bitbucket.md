@@ -2,34 +2,17 @@
 # Introduction 
   ![image](https://github.com/avengers-p7/Documentation/assets/156056364/d7afdf45-30a5-42b0-9dca-4acf84395349)
 
-Bitbucket is a Git-based source code repository hosting service and collaboration tool for teams.
+Bitbucket is a Git-based source code repository hosting service and collaboration tool for teams, developed by Atlassian, stands as a robust and versatile version control system, offering seamless collaboration for software development teams. With its best-in-class Jira and Trello integration, integrated CI/CD solution (Bitbucket Pipelines), and emphasis on code security, Bitbucket is the go-to platform for end-to-end code management, collaboration, and deployment.
 
 # Features
 
-* Integration with Jira
-* Built-in CI/CD with Bitbucket Pipelines
-* Mercurial Support
-* Access Control and Permissions
-* Bitbucket Server (Self-hosted, formerly known as Stash)
-* Smart Mirroring
-* Snippets
-
-# A brief overview of Bitbucket
-
-**Best-in-class Jira & Trello integration**
-Bring structure to chaos and keep the entire software company, from engineering to design, in the loop. Access branches, build status, commits, and status on Jira issues or Trello cards.
-
-**Code collaboration from concept to cloud**
-Transition Jira issues based on pull request status, create a merge checklist with designated approvers, and check for passing builds.
-
-**Build and test automatically with built-in continuous delivery**
-Build, test and, deploy with our integrated CI/CD solution, Bitbucket Pipelines. Benefit from configuration as code and fast feedback loops.
-
-**Deploy with confidence**
-Track, preview, and confidently promote your deployments.
-
-**Secure your code**
-Rest easy knowing your code is secure in the Cloud and implement checks to prevent problems before they happen.
+* Integration with Jira: Seamlessly connect and streamline workflows by integrating Bitbucket with Jira, facilitating efficient project management and issue tracking.
+* Built-in CI/CD with Bitbucket Pipelines: Accelerate development cycles with automated testing and deployment using Bitbucket Pipelines, an integrated continuous integration and delivery solution.
+* Mercurial Support: Extend version control flexibility with native support for Mercurial repositories in Bitbucket, accommodating diverse project needs.
+* Access Control and Permissions: Ensure secure collaboration by implementing fine-grained access controls and permissions in Bitbucket, allowing precise management of user privileges.
+* Bitbucket Server (Self-hosted, formerly known as Stash): Opt for self-hosted solutions with Bitbucket Server (formerly Stash) to have full control over your repositories and enhance security measures.
+* Smart Mirroring: Enhance repository access and speed for distributed teams with Smart Mirroring in Bitbucket, ensuring faster cloning and fetching of repositories.
+* Snippets: Foster code sharing and collaboration by creating and managing reusable code snippets in Bitbucket, promoting efficiency and knowledge sharing within the team.
 
 # Bitbucket hosting options
 
