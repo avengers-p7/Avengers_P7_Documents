@@ -8,15 +8,19 @@
 
 **2.Purpose**
 
-**3.Key Features**
+**3.Distributed vs Centralized VCS**
 
-**4.Reasons of selecting GitHub**
+**4.Flow Diagram of VCSs**
 
-**5.Conclusion**
+**5.Key Features**
 
-**6.Contact Information**
+**6.Reasons of selecting GitHub**
 
-**7.Reference Links**
+**7.Conclusion**
+
+**8.Contact Information**
+
+**9.Reference Links**
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -32,7 +36,30 @@ The purpose of the documentation comparing GitHub, GitLab, and Bitbucket, and ul
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-# Key Features of GitHub vs Gitlab vs BitBucket:-
+# Distributed vs Centralized VCS:-
+
+| **Feature** | **Distributed VCS** | **Centralized VCS** |
+| ----------- | ------------------- | ------------------- |
+| Repository | Each developer has their own local repository, which is a complete copy of the entire project history. | In a Centralized VCS, there is a central repository that stores the entire history and versions of the project. |
+| Workflow | Supports flexible workflows. Developers can work on multiple branches, merge changes easily, and experiment without affecting the main project until ready. | The workflow is more linear and relies on a strict commit-and-update process. |
+| Learning Curve | Distributed VCS systems are difficult for beginners. Multiple commands needs to be remembered. | Centralized VCS systems are easy to learn and set up.|
+| Offline Access | Distributed VCS systems are workable offline as a client copies the entire repository on their local machine. | Centralized VCS system do not provide offline access. |
+
+-------------------------------------------------------------------------------------------------------------------------
+
+# Flow Diagram of Distributed and Centralized VCS:-
+
+## 01.Distributed Version Control System:-
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/3bfe865f-7b53-4f56-8ef1-38a3d6cbb645)
+
+## 02.Centralized Version Control System:-
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/e04a5910-69d9-40b4-8c5a-64dfb9c846b5)
+
+---------------------------------------------------------------------------------------------------------------
+
+# Key Features of GitHub vs Gitlab vs BitBucket:- 
 
 | Features | GitHub | Gitlab | BitBucket |
 | -------- | ------ | ------ | --------- |
@@ -44,6 +71,7 @@ The purpose of the documentation comparing GitHub, GitLab, and Bitbucket, and ul
 | Project Distribution | GitHub uses the organization level for project distribution, thus, it is widely used by companies and organizations | GitLab platform offers the project distribution in groups and allows the group members to access and share the project code | Bitbucket platform allows the distribution at the team level and with this, the project can be distributed among the team members|
 
 ---------------------------------------------------------------------------------------------------------------------------
+ 
 
 # Reasons for selecting GitHub over Gitlab and BitBucket:-
 
