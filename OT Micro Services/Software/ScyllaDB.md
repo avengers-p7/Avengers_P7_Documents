@@ -1,4 +1,5 @@
-# ScyllaDB Installation Guide
+# Manual Setup of ScyllaDb
+
 
 |   Author     |  Created on   |  Version   | Last updated by | Last edited on |
 | ------------ | --------------| -----------|---------------- | -------------- |
@@ -16,6 +17,8 @@ Welcome to the ScyllaDB Installation Guide! ScyllaDB is a highly performant and 
 * **Flexibility:** Adapt to diverse application needs with a NoSQL database model, offering flexibility in data modeling.
 * **Performance:** Achieve superior throughput and low-latency performance, making ScyllaDB ideal for high-performance applications.
 * **Fault Tolerance:** Ensure high availability and fault tolerance with a distributed architecture that distributes data across multiple nodes.
+
+The ScyllaDB Manual Setup Guide provides step-by-step instructions for installing, configuring, and setting up ScyllaDB on your system. This guide is intended to help users seamlessly deploy and manage ScyllaDB, a highly performant NoSQL database.
 
 ---
 
@@ -56,34 +59,45 @@ Welcome to the ScyllaDB Installation Guide! ScyllaDB is a highly performant and 
 
 ---
 
-# Dependencies
+# Runtime Prerequisites
 
-|   Run-time Dependency    |                Version     | 
+|          Tool            |                Version     | 
 | ------------------------ |----------------------------|
-|      Java                |               11 or 17     |
+|         JDK-17           | ScyllaDB need JDK-11 or later verison.|
 
 ---
 
-## How to Setup/Install ScyllaDB
+# ScyllaDB Installation Guide
+### Update Packages
+    sudo apt update
+    
+### Install OpenJDK 17
+OpenJDK for ScyllaDB because ScyllaDB relies on Java for its client-side functionality.
 
-### 1. Add ScyllaDB APT repository to your system.
+    sudo apt install openjdk-17-jre
 
-### Step 1: Create a directory for APT keyrings
+###  Add ScyllaDB APT repository to your system.
+
+###  Create a directory for APT keyrings
     sudo mkdir -p /etc/apt/keyrings
 
-### Step 2: Import ScyllaDB GPG key
+###  Import ScyllaDB GPG key
     sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys d0a112e067426ab2
 
-### Step 3: Download ScyllaDB APT repository configuration file
+###  Download ScyllaDB APT repository configuration file
     sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-5.4.list
 
-### 2. Install ScyllaDB packages
+## Install ScyllaDB packages
 
 ### Update the package list to ensure it has the latest information about available packages
     sudo apt-get update
 
 ### Install ScyllaDB packages with the -y flag to automatically answer yes to prompts
     sudo apt-get install -y scylla
+
+### Verify Installation
+    java --version
+    scylla --version
 
 ---
 
@@ -102,18 +116,33 @@ This script tunes system settings and determines optimal configurations.
 
 
 ### Run ScyllaDB as a service
-
     sudo systemctl start scylla-server
 
-### Configure parameters in /etc/scylla/scylla.yaml
+### Configure ScyllaDB Settings
+Edit the configuration file:
 
-Edit the following parameters in the configuration file:
+    sudo vim /etc/scylla/scylla.yaml
 
-    * seeds - The IP address of the first node.
-    * listen_address - The IP address for node-to-node connections.
-    * rpc_address - The IP address for client connections (Thrift, CQL).
+Update the following parameters:
+According to your requirements you can the following parameters.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/a983ea56-9e40-4668-880e-75f1b11a1e80)
+	seeds: <ip>
+	listen_address: <ip>
+	rpc_address: <ip>
+
+seeds : 
+Seed nodes are used during startup to bootstrap the gossip process and join the cluster
+
+listen_address: 
+This is the IP address that Scylla will use to connect to other Scylla nodes in the cluster. In this case, it's set to 'localhost,' indicating that it will listen for connections on the local machine.
+
+rpc_address: 
+This is the IP address of the interface for client connections, such as Thrift and CQL. Similar to listen_address, it is set to 'localhost' in this configuration.
+	
+     seeds: "172.31.22.109"
+     listen_address: "172.31.22.109"
+     rpc_address: "172.31.22.109"
+ 
 
 ### Restart ScyllaDB as a service
 
@@ -121,51 +150,51 @@ Edit the following parameters in the configuration file:
 
 # Getting Started
 
-### Check ScyllaDB Cluster Status
+### Verify Node Status
 
-To check if your ScyllaDB cluster is working fine, use the `nodetool` command. This command provides information about the nodes in the ScyllaDB cluster:
+To check if your ScyllaDB Node is working fine, use the `nodetool status` command. This command provides information about the nodes in the ScyllaDB cluster:
 
      nodetool status
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/4bfbbc5c-61a2-490f-9b07-0a82df61af03)
+### Interact with ScyllaDB using cqlsh command:
 
+    cqlsh 
 
-### Interact with ScyllaDB using Cqlsh
+Enter ScyllaDB
+cqlsh: This command is used to enter the CQL shell, which is an interactive command-line utility to execute CQL commands against a ScyllaDB database. Once you enter this command, you'll be able to execute CQL queries.
 
-To interact with ScyllaDB and execute CQL queries, use the cqlsh command:
+### Create Keyspaces
 
-    cqlsh <Node-Private-IP>
+	CREATE KEYSPACE employee_db
+	WITH REPLICATION = {
+	  'class': 'SimpleStrategy',
+	  'replication_factor': 3
+	};
+	CREATE KEYSPACE employee_salary
+	WITH REPLICATION = {
+	  'class': 'SimpleStrategy',
+	  'replication_factor': 3
+	};
+ 
+ This CQL command creates a keyspace named employee_db in the ScyllaDB database. A keyspace in ScyllaDB is a namespace that holds tables, similar to a schema in a relational database. In this case, the keyspace is created using the SimpleStrategy replication strategy with a replication factor of 1. Adjust the replication strategy and factor based on your requirements.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/c04e6e42-da36-45f0-96fe-4b7ec69de3b0)
+### Check Keyspaces
+    DESCRIBE KEYSPACES;
+    
+This CQL command retrieves a list of all available keyspaces in the ScyllaDB instance. It displays information about the existing keyspaces, including their names and configurations.
+### Remove Keyspace
+    DROP KEYSPACE employee_db;
+    
+### Default Password Login
+    cqlsh -u cassandra -p cassandra
+    
+This command is a variation of the cqlsh command that includes the -u and -p flags to specify the username (-u cassandra) and password (-p cassandra) for authentication when connecting to the CQL shell. It's using the default credentials cassandra for both the username and password.
 
-### Creating a Keyspace & Table in Scylla
-
-    CREATE KEYSPACE IF NOT EXISTS employee_db
-      WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/df990d44-6af6-4059-8a36-dce0b0e10787)
-
-
-### Use Your Keyspace to create table
-    USE employee_db;
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/6c132bb6-9f10-4a18-9bb5-76a47acc483a)
-
-### Create a Table Inside Keyspace
-
-    CREATE TABLE IF NOT EXISTS employee_info (
-        id text, name text, designation text, department text,
-        joining_date date, address text, office_location text,
-        status text, email text, phone_number text,
-        PRIMARY KEY (id, joining_date)
-    ) WITH CLUSTERING ORDER BY (joining_date DESC);
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/9142cd9b-55e0-490a-9561-5428787e7c8b)
-
+These commands allow you to create, remove, and inspect keyspaces in the ScyllaDB database using CQL commands via the CQL shell (cqlsh). Always exercise caution, especially when performing actions like dropping a keyspace, as it irreversibly deletes data.
 
 # Conclusion
 
-Congratulations! You have successfully installed and configured ScyllaDB on your system. ScyllaDB's robust features and performance capabilities make it a reliable choice for your NoSQL database needs. Explore its functionalities and leverage its scalability to build high-performance applications.
+The ScyllaDB Manual Setup Guide provides a comprehensive walkthrough for installing, configuring, and initializing ScyllaDB on Ubuntu 22.04.3 LTS Ensure to follow each step carefully to set up your ScyllaDB environment successfully.
 
 # References
 	
