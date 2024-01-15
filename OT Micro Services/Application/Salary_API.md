@@ -109,6 +109,14 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 | `/actuator/prometheus`         | GET        | Application health check and performance metrics are available on this endpoint                |
 | `/actuator/health`             | GET        | Endpoint for providing shallow health check information about application health and readiness |
 
+
+### Results
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/925e8f75-4247-48dc-8f53-bc2722b433f7)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/48b6ccff-c668-4dc6-b834-7cffb2fcc8df)
+
+
 ## Troubleshooting
 
 1. **Error-01** 
