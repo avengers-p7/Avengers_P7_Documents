@@ -65,7 +65,7 @@ Maven will be used as a package manager to download specific versions of depende
 
 **NOTE:-**
 
-1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running.
+1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Also, you will have to create keyspace mentioned `employee_db` manually in your ScyllDB.
 2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
 3. Also, once the property file is defined and configured properly, we need to run migrations to create database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
 
@@ -91,7 +91,7 @@ Once the schema, table and database are configured, we can start our application
    ```
 The test cases are present in **[src/test/java/com/opstree/microservice/salary](./src/test/java/com/opstree/microservice/salary)**. For dev testing, the Swagger UI can be used for sample payload generation and requests. The swagger page will be accessible on http://localhost:8080/salary-documentation.
 
-3. Now, we can start our application using Java runtime using.
+3. Now, we can start our application using Java runtime.
 
    ```shell
    java -jar target/salary-0.1.0-RELEASE.jar
@@ -104,14 +104,16 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 | `/api/v1/salary/create/record` | POST       | Data creation endpoint which accepts certain JSON body to add salary information in database  |
 | `/api/v1/salary/search`        | GET        | Endpoint for searching data information using the params in the URL                           |
 | `/api/v1/salary/search/all`    | GET        | Endpoint for searching all information across the system                                      |
-| `/actuator/prometheus`         | GET        | Application healthcheck and performance metrics are available on this endpoint                |
-| `/actuator/health`             | GET        | Endpoint for providing shallow healthcheck information about application health and readiness |
+| `/actuator/prometheus`         | GET        | Application health check and performance metrics are available on this endpoint                |
+| `/actuator/health`             | GET        | Endpoint for providing shallow health check information about application health and readiness |
 
 ## Troubleshooting
 
 ## Contact Information
 
-**[Harshit Singh](harshit.singh.snaatak@mygurukulam.co)**                                                                                      
+|     Name         | Email  |
+| -----------------| ------------------------------------ |
+| Harshit Singh    | harshit.singh.snaatak@mygurukulam.co |                                                                                      
 
 ## References
 
