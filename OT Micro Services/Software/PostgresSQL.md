@@ -105,6 +105,9 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/072dacc9-4d7d-46ec-b495-c80f8df822f3)
 
+### List database name:
+    SELECT datname FROM pg_database;
+    
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/33b5f515-21f8-42b7-b2ba-686b959e9623)
 
