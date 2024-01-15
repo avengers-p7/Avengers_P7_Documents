@@ -6,7 +6,7 @@
 
 ## Purpose
 
-Salary API is a Java-based microservice which is responsible for all the salary-related transactions and records in **[OT-Microservices](https://github.com/OT-MICROSERVICES)** stack. The application is platform-independent and can be run on multiple operating systems. **[Java Runtime](https://www.java.com/en/download/manual.jsp)** would be required to run this application.
+Salary API is a Java-based microservice which is responsible for all the salary-related transactions and records in **[OT-Microservices](https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git)** stack. The application is platform-independent and can be run on multiple operating systems. **[Java Runtime](https://www.java.com/en/download/manual.jsp)** would be required to run this application.
 
 ### Key Components  
 
