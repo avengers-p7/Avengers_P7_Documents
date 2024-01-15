@@ -43,7 +43,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
    |---------|---------|
    | 5432	| Relational database system |
    | 6379 | In-memory data structure store |
-   | 22 | Secure Shell for secure access to a system |
+   | 22 | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell |
    | 80 |
    |443| 
  
