@@ -131,13 +131,13 @@ According to your requirements you can the following parameters.
 	rpc_address: <ip>
 
 seeds : 
-Seed nodes are used during startup to bootstrap the gossip process and join the cluster
+This is the PRIVATE IP address that Scylla will use to connect to other Scylla nodes in the cluster. Seed nodes are used during startup to bootstrap the gossip process and join the cluster
 
 listen_address: 
-This is the IP address that Scylla will use to connect to other Scylla nodes in the cluster. In this case, it's set to 'localhost,' indicating that it will listen for connections on the local machine.
+This is the PRIVATE IP address that Scylla will use to connect to other Scylla nodes in the cluster. In this case, it's set to 'localhost,' indicating that it will listen for connections on the local machine.
 
 rpc_address: 
-This is the IP address of the interface for client connections, such as Thrift and CQL. Similar to listen_address, it is set to 'localhost' in this configuration.
+This is the PRIVATE IP address of the interface for client connections, such as Thrift and CQL. Similar to listen_address, it is set to 'localhost' in this configuration.
 	
      seeds: "172.31.22.109"
      listen_address: "172.31.22.109"
