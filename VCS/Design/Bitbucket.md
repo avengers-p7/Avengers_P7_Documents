@@ -1,4 +1,7 @@
-
+| Author | Created on | Last Updated | Document Version |
+| ------ | ---------- | ------------ | ---------------- |
+| Shantanu | 10-01-2024 | 15-01-2024   |         v1     |
+***
  
   ![image](https://github.com/avengers-p7/Documentation/assets/156056364/d7afdf45-30a5-42b0-9dca-4acf84395349)
 # Introduction
@@ -51,7 +54,7 @@ Bitbucket is a Git-based source code repository hosting service and collaboratio
 | Required two-step verification |  |  | Yes |
 | Scale CI workflows |   |   | Yes |
 |  Deployment permissions |   |   | Yes |
-
+***
 # Bitbucket hosting options
 
 | Feature | Cloud  | Server    | Data Center |
@@ -83,6 +86,11 @@ Bitbucket is a Git-based source code repository hosting service and collaboratio
 # Conclusion
 Bitbucket stands as a versatile version control system with robust collaboration features, integrated CI/CD capabilities, and flexible support for Git. While its scalability and resource requirements may pose challenges for larger teams, its seamless Jira integration and access control mechanisms make it a compelling choice for many development workflows. Despite a potential learning curve and integration complexities, Bitbucket's comprehensive suite of tools contributes to efficient code management and collaboration, provided users carefully navigate its features and considerations.
 ***
+
+# Contact Information:-
+| Name | Email Address |
+| ---- | ------------- |
+| Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
 # References
 | Source | Description  | 
 | -------- | ------- | 
