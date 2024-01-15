@@ -6,7 +6,7 @@ Intoduction
 |-------------------------------------------------------------------------------------------------------------------|
 GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
 
-Agenda 
+Features
 -------
  1. Version Control 
 GitHub serves as a distributed version control system, built on top of Git. It allows developers to track changes in their code, collaborate on projects, and manage different versions of their software.
