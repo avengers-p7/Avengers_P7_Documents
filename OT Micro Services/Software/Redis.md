@@ -109,7 +109,7 @@ If you're running a very minimal distribution (such as a Docker container) you m
 
 ### Activate the redis-server service 
 
-    systemctl enable redis-server
+    sudo systemctl enable redis-server
 
     sudo systemctl status redis-server
     
