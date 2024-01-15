@@ -77,34 +77,25 @@ Once the schema, table and database are configured, we can start our application
 
 ### Building and running
 
-For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
+1. For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
 
-```shell
-make build
-```
+   ```shell
+   make build
+   ```
 
-Also, Salary API contains different test cases and code quality-related integrations. To check the code quality, we can use `checkstyle` plugin with Maven. Also, for code coverage and unit testing, we are using Jacoco, and Junit respectively.
+2. Salary API also contains different test cases and code quality-related integrations. To check the code quality, we can use `checkstyle` plugin with Maven.
 
-```shell
-make fmt
-make test
-```
-
-```shell
-mvn checkstyle:checkstyle
-# For unit testing and code coverage
-mvn test
-```
-
+   ```shell
+   make fmt
+   make test
+   ```
 The test cases are present in **[src/test/java/com/opstree/microservice/salary](./src/test/java/com/opstree/microservice/salary)**. For dev testing, the Swagger UI can be used for sample payload generation and requests. The swagger page will be accessible on http://localhost:8080/salary-documentation.
 
+3. Now, we can start our application using Java runtime using.
 
-
-
-
-```shell
-java -jar target/salary-0.1.0-RELEASE.jar
-```
+   ```shell
+   java -jar target/salary-0.1.0-RELEASE.jar
+   ```
 
 ## Endpoint Information
 
@@ -116,6 +107,17 @@ java -jar target/salary-0.1.0-RELEASE.jar
 | `/actuator/prometheus`         | GET        | Application healthcheck and performance metrics are available on this endpoint                |
 | `/actuator/health`             | GET        | Endpoint for providing shallow healthcheck information about application health and readiness |
 
+## Troubleshooting
+
 ## Contact Information
 
-[Opstree Opensource](mailto:opensource@opstree.com)
+**[Harshit Singh](harshit.singh.snaatak@mygurukulam.co)**                                                                                      
+
+## References
+
+|     Description                  | References  
+| ---------------------------------| ------------------------------------------------------------------- |
+|     Error Handling               | https://bobbyhadz.com/blog/disable-missing-module-docstring-pylint
+|     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        
+|     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/)https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
+
