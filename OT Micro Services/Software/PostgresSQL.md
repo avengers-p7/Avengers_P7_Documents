@@ -36,8 +36,9 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
 
 # Important Ports:
-| 22 | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell |
+| Inbound Traffic|	Description |
 |----|--------------------------------------------------------------------------------------|
+| 22 | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell |
 | 443 | It is a standard port for secure communication over the internet between client and server |
 | 5432 | Port for PostgreSQL |
 
