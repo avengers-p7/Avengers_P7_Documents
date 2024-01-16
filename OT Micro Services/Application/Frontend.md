@@ -50,7 +50,7 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
        sudo apt update 
        sudo apt install make
     ```
-* Install Nodejs & NPM
+* Install NPM
     ```shell
        sudo apt install npm
     ```
