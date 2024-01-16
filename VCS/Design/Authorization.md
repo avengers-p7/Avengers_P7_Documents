@@ -1,3 +1,7 @@
+# Documentation of GitHub Authorization
+
+***
+
 | Author | Created On | Last Updated | Document Version |
 | ------ | ---------- | ------------ | ---------------- |
 | Shreya Jaiswal | 16-01-2024 | 16-01-2024 | V1 |
