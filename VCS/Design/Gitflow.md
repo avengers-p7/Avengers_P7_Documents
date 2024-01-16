@@ -18,11 +18,11 @@ Gitflow is a branching model for Git that aims to streamline the release managem
 # Key Benefits
 | Key Benefit                       | Description                                                                                                     |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Organized Release Management      | Separates development from release preparation, ensuring a stable main branch.                                  |
-|                                   | Facilitates parallel development of features and hotfixes without disrupting the main codebase.               |
-| Improved Collaboration            | Provides a consistent framework for developers to work within, reducing confusion and conflicts.               |
+| **Organized Release Management**     | Separates development from release preparation, ensuring a stable main branch.                                  |
+|                                       | Facilitates parallel development of features and hotfixes without disrupting the main codebase.               |
+| **Improved Collaboration**            | Provides a consistent framework for developers to work within, reducing confusion and conflicts.               |
 |                                   | Encourages code reviews and testing before merging into main branches.                                          |
-| Clear History and Traceability     | Maintains a well-defined history of changes, making it easier to track feature development, hotfixes, and releases. |
+| **Clear History and Traceability**    | Maintains a well-defined history of changes, making it easier to track feature development, hotfixes, and releases. |
 |                                   | Simplifies rollbacks if necessary.                                                                              |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
