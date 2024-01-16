@@ -12,6 +12,11 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
 **REACTJS Framework**: The frontend uses REACTJS which is a declarative, efficient, and flexible JavaScript library for building user interfaces, particularly single-page applications where components update efficiently in response to data changes.
 ***
 ## Pre-requisites
+The frontend application have dependencies on other REST API of OT-Microservices. To run the application successfully, we need these things configured:
+
+* Employee API
+* Attendance API
+* Salary API
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation |
