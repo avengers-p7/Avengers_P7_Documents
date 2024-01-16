@@ -87,7 +87,7 @@ Bitbucket is a Git-based source code repository hosting service and collaboratio
 Bitbucket stands as a versatile version control system with robust collaboration features, integrated CI/CD capabilities, and flexible support for Git. While its scalability and resource requirements may pose challenges for larger teams, its seamless Jira integration and access control mechanisms make it a compelling choice for many development workflows. Despite a potential learning curve and integration complexities, Bitbucket's comprehensive suite of tools contributes to efficient code management and collaboration, provided users carefully navigate its features and considerations.
 ***
 
-# Contact Information:-
+# Contact Information
 | Name | Email Address |
 | ---- | ------------- |
 | Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
