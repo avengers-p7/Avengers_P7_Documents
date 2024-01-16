@@ -19,23 +19,27 @@ Multiple developers can work on features simultaneously without disrupting the m
 # 3. Feature Branch Workflow
 ---
 This section provides a detailed explanation of the step-by-step process involved in the Git Feature Branch Workflow.
+
 ### 3.1 Creating Feature Branches
 Developers create new branches for each feature, keeping a highly-focused purpose for each branch. Descriptive names such as animated-menu-items or issue-#1061 are recommended.
-    # Create a new feature branch
-    git checkout -b new-feature
+
+        # Create a new feature branch
+        git checkout -b new-feature
 
 ### 3.2 Making Changes
 On the feature branch, developers can edit, stage, and commit changes as necessary.
-    # Stage changes
-    git add <some-file>
 
-    # Commit changes
-    git commit
+        # Stage changes
+        git add <some-file>
+    
+        # Commit changes
+        git commit
 
 ### 3.3 Pushing Feature Branches
 Pushing feature branches to the central repository allows collaboration without impacting the main codebase.
-    # Push the feature branch to the central repository
-    git push -u origin new-feature
+
+        # Push the feature branch to the central repository
+        git push -u origin new-feature
 
 ### 3.4 Pull Requests
 Pull requests facilitate code review and discussions before merging features into the main branch.
@@ -49,12 +53,12 @@ Developers resolve feedback locally, commit changes, and push updates to Github.
 ### 3.6 Merging Feature Branches
 Once the pull request is approved and conflict-free, developers merge the feature branch into the main branch.
 
-    # Merge the feature branch into the main branch
-    git checkout main
-    git fetch origin
-    git reset --hard origin/main
-    git merge new-feature
-    git push origin main
+        # Merge the feature branch into the main branch
+        git checkout main
+        git fetch origin
+        git reset --hard origin/main
+        git merge new-feature
+        git push origin main
 
 #### Advantages of Feature Branch Workflow
 ---
@@ -73,8 +77,6 @@ Once the pull request is approved and conflict-free, developers merge the featur
 | Potential Merge Conflicts                    | As features are developed in parallel, there is a possibility of merge conflicts when merging feature branches into the main branch. |
 | Overhead in Creating and Managing Branches   | Creating, managing, and tracking numerous feature branches may introduce overhead, especially in larger projects with frequent feature development. |
 
-# Best Practices for Feature Branch Workflow
----
 # Best Practices for Feature Branch Workflow
 ---
 The Feature Branch Workflow is a powerful tool for managing software development projects. To maximize its effectiveness, consider the following best practices:
@@ -97,16 +99,6 @@ The Git Feature Branch Workflow streamlines collaboration by allowing developers
 While the workflow enhances collaboration, managing multiple branches introduces some complexity. Potential merge conflicts and overhead in branch management are considerations, especially in larger projects.
 
 In essence, the Feature Branch Workflow is a valuable tool for code quality and collaboration. Consider its benefits and challenges when deciding on its adoption for your project.
-
-
-# Conclusion
-
-The Git Feature Branch Workflow streamlines collaboration by allowing developers to work on features without disrupting the main codebase. It promotes efficient parallel development, ensures a stable main branch, and facilitates code review through pull requests.
-
-While the workflow enhances collaboration, managing multiple branches introduces some complexity. Potential merge conflicts and overhead in branch management are considerations, especially in larger projects.
-
-In essence, the Feature Branch Workflow is a valuable tool for code quality and collaboration. Consider its benefits and challenges when deciding on its adoption for your project.
-
 
 # Resources and References
 ---
