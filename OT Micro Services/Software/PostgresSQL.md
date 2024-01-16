@@ -28,7 +28,8 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 | Cross-Platform Compatibility | PostgreSQL is compatible with various operating systems, making it versatile and suitable for deployment in diverse environments. |
 
 # PostgreSQL Architecture
-  ![image](https://github.com/avengers-p7/Documentation/assets/156056746/d6d951f4-a70f-44a3-9f2b-2a9f486e7358)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/20aebe9c-2452-4171-9153-015c35fbaf1b)
 
 
 # System Requirements:
@@ -61,8 +62,12 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 ###  Install the latest version of PostgreSQL and-y flag to automatically answer yes to prompts.
      sudo apt-get -y install postgresql
 
-     
- ![image](https://github.com/avengers-p7/Documentation/assets/156056746/a272cacb-c0c0-49c7-b617-b49bf5a3251f)
+   
+    
+  
+   ![image](https://github.com/avengers-p7/Documentation/assets/156056746/349a395c-6bca-482d-bc90-e7b01c9a746e)
+ 
+
 
  ### Verify Installation:
      psql -V
@@ -73,7 +78,10 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
      
      
 
-![Screenshot from 2024-01-12 19-08-23](https://github.com/avengers-p7/Documentation/assets/156056746/6441e9fb-1cd8-4868-a0f5-d2f5183c7243)
+   ![Screenshot from 2024-01-12 19-08-23](https://github.com/avengers-p7/Documentation/assets/156056746/6441e9fb-1cd8-4868-a0f5-d2f5183c7243)
+
+
+
 
 ## If PostgreSQL is  running by default, and you need to start restart stop  it manually, you can use the following commands.
 
