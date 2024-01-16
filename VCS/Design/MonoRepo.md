@@ -1,4 +1,4 @@
-# Mono Repo Features
+# Mono Repo
 ## Introduction 
 ## Why 
 ## Features 
