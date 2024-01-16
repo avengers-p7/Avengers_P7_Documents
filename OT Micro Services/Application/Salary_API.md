@@ -24,7 +24,7 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 |-----------------------------------|--------------------------------------------|
 | Processor/Instance Type           |             Dual Core/t2.medium            | 
 | RAM                               |               4GB                          |
-| Disk Space                        |               > 16GB                       |            
+| Disk Space                        |               16GB                         |            
 | OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
 
 ## Pre-Requisites
