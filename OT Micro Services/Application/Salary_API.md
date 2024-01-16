@@ -33,7 +33,7 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 
 |   Port        |    Description    |
 | ----------    |    -----------    |
-|    8080       |    API port       | 
+|    8080       |   Salary  API port       | 
 
 ### Outbound Port
 
