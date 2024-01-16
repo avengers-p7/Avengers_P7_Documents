@@ -1,30 +1,31 @@
 | Author | Created On | Last Updated | Document Version |
 | ------ | ---------- | ------------ | ---------------- |
 | Shreya Jaiswal | 16-01-2024 | 16-01-2024 | V1 |
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
-# Agenda:-
-**01.Introduction**
+# Agenda
 
-**02.Why GitHub Authorization?**
+**1.Introduction**
 
-**03.Key Features**
+**2.Why GitHub Authorization?**
 
-**04.Images**
+**3.Key Features**
 
-**05.Conclusion**
+**4.Images of GitHub Authorization Features**
 
-**06.Contact Information**
+**5.Conclusion**
 
-**07.References**
+**6.Contact Information**
 
------------------------------------------------------------------------------------------------------------------------------
+**7.References**
 
-# Introduction:-
+----------------------------------------------------------------------------------------------------------------------------
+
+# Introduction
 
 This document serves as a comprehensive guide to understanding and implementing effective authorization practices within our GitHub repositories.The primary purpose of this documentation is to establish a robust framework for managing access to GitHub repositories within Your Organization.By defining clear access levels, implementing audit trails, and integrating with identity providers, we aim to strike a balance between collaboration and security. 
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 # Why GitHub Authorization?
 
@@ -32,7 +33,7 @@ GitHub authorization refers to the process of controlling and managing access to
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# Key Features:-
+# Key Features
 
 | Feature | Description |
 | ------- | ----------- |
@@ -46,35 +47,56 @@ GitHub authorization refers to the process of controlling and managing access to
 | **Integration with Identity Providers** | GitHub supports integration with external identity providers, enabling organizations to leverage existing authentication systems. This integration enhances security by ensuring that only authorized users can access GitHub resources. |
 | **OAuth Tokens** | GitHub uses OAuth tokens for authentication and authorization. Users or applications obtain tokens with specific scopes, granting them access to perform actions on behalf of the authenticated entity. |
 
------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
-# Some Images of GitHub Authorization Features:-
+# GitHub Authorization Features
 
-## 01.Access:-
+## 1.Access Level
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/12ceeff1-132b-406b-80e4-4fab52e0d115)
+ By assigning appropriate access levels (read, write, admin), organizations can ensure that users have the necessary permissions for their roles without granting excessive privileges.
+ 
 
-## 02.OAuth Tokens:-
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/6e3eca2d-876b-46ac-b988-c6d4ce398568)
+
+
+***
+
+## 2.OAuth Tokens
+
+OAuth (Open Authorization) is an open standard for access delegation, commonly used as a way for Internet users to grant third-party websites or applications access to their information without sharing their credentials.
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/2393b26d-262f-4114-977e-b409f0f74ed6)
 
-## 03.Audit Trail:-
+***
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/688eb334-d4e0-44b3-b0dc-3f34580e135e)
+## 3.Audit Trail
 
-## 04.Collaborators:-
+GitHub provides audit logs that record actions performed by users within repositories. Actions logged include push events, pull request creations, and changes to access controls. These logs are essential for tracking changes, identifying security incidents, and maintaining accountability.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/abab5952-bdba-4825-a4fe-2e0089e29120)
 
------------------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/afc70c73-000e-4965-aadf-e3c3745726e4)
 
-# Conclusion:-
+
+***
+
+## 4.Collaborators
+
+In GitHub, a collaborator is an individual or entity with specific permissions granted by the repository owner. Collaborators have varying levels of access based on the roles assigned to them. 
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/5ff6d6a6-7563-4374-a823-6f507c901174)
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+# Conclusion
 
 In conclusion, GitHub's robust access control features, audit trails, and integration with identity providers collectively contribute to creating a secure and collaborative development environment. The balance between providing the right level of access and maintaining accountability is crucial for organizations leveraging GitHub for their source code management.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# Contact Information:-
+# Contact Information
 
 | Name | Email Address |
 | ---- | ------------- |
@@ -82,7 +104,7 @@ In conclusion, GitHub's robust access control features, audit trails, and integr
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# References:-
+# References
 
 | Link | Description |
 | ---- | ----------- |
