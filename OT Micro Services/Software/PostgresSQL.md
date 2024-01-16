@@ -13,10 +13,10 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 | Feature | Description |
 |---------|-------------|
 | Open Source | PostgreSQL is an open-source relational database management system. |
-| ACID Compliance |	Ensures Atomicity, Consistency, Isolation, and Durability of transactions. |
-| Extensibility | Highly extensible with support for custom data types and functions. |
-| Advanced Data Types | Supports a wide range of advanced data types, including JSON and spatial types. |
-|Concurrency Control | Utilizes Multi-Version Concurrency Control (MVCC) for concurrent transactions. |
+| Transaction Support | Ensures the execution of a series of operations as a single unit, providing atomicity and consistency. |
+| Concurrency Control | Manages simultaneous access to data to prevent conflicts and ensure data integrity in concurrent environments. |
+| Advanced Querying Capabilities | Supports complex queries, including the ability to  join tables, filter data, and aggregate results. |
+|  Replication and High  Availability | Offers mechanisms for duplicating data across multiple nodes to enhance reliability and availability. |         |
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 # PostgreSQL Architecture
