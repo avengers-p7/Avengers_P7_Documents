@@ -33,8 +33,8 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 # System Requirements:
  | Requirement | Recommendation |
  |-------------|----------------|
- | Processor/Instance Type | t2.medium |
- | RAM (Memory) |	4 Gigabytes or Dual-Core |
+ | Processor/Instance Type |  Dual-Core/t2.medium |
+ | RAM (Memory) |	4 Gigabytes  |
  | Disk Space | 16 GB or 2GB per core |
  | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
 
@@ -49,6 +49,9 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 # Building and Running
 ## The process of building and running the Attendance API involves several steps
 ### Install Dependencies:
+    *Install Pylint*:
+     sudo apt install pylint
+
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
    *Install Poetry*
     ```shell
