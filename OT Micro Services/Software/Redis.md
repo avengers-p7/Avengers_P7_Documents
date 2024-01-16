@@ -25,7 +25,6 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 # Key Features
 --------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------
 |   Features     |             Description                                       |
 |-----------------------------------|--------------------------------------------|
 |     Speed      | Data lives in RAM, not on disks, for blazing-fast access and response times.  | 
@@ -178,9 +177,10 @@ This section shows how to set up the master node with password authentication.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/59c56b34-1f5f-4540-8114-1318493348f2)
 
+
     
 # Conclusion
-
+--------------------------------------------------------------------------------------------------------------------
 Redis rockets your app's performance with lightning-fast data access, but keep your persistence needs elsewhere.
 
 # Resources and References
