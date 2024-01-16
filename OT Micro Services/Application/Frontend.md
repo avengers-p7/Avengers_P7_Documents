@@ -31,7 +31,7 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
 | Name | Version | Description |
 | ---- | ------- | ----------- |
 | GNU make | 4.3 | To build form Makefile |
-| Npm | 8.5.1 | Package manager for Javasrcipt |
+| npm | 8.5.1 | Package manager for Javasrcipt |
 
 ### Run time Dependency
 | Name | Version | Description |
@@ -45,6 +45,7 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
 
 ***
 ## Architecture
+<img width="600" length="400" alt="Frontend" src="https://github.com/avengers-p7/Documentation/assets/156056413/dcd818bb-7574-406c-9199-69cd2048d074">
 
 ***
 ## Step-by-step installation of [application]
@@ -52,12 +53,12 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
 #### Install Dependencies:
 * Install GNU make
     ```shell
-       sudo apt update 
-       sudo apt install make
+    sudo apt update 
+    sudo apt install make
     ```
 * Install NPM
     ```shell
-       sudo apt install npm
+    sudo apt install npm
     ```
 ### Step2: Build Generation
 * Create index.html file    
@@ -106,16 +107,16 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
     ```
 *  Set the maximum heap size (memory limit)
     ```shell
-       export NODE_OPTIONS="--max-old-space-size=512"
+    export NODE_OPTIONS="--max-old-space-size=512"
     ```
 * Build the Application 
     ```shell
-       make build
+    make build
     ```
 ### Step3: Application Deployment
 * Run the following command
     ```shell
-       npm start
+    npm start
     ```
 Once the above command is run, the frontend becomes accessible via browser at http://<host-ip>:3000
 ***
