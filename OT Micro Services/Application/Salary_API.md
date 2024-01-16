@@ -101,6 +101,7 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
    ```shell
    java -jar target/salary-0.1.0-RELEASE.jar
    ```
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/d1ed67d6-a0d7-498f-8c42-76222f8863c0)
 
 ## API Endpoint Information
 
@@ -113,6 +114,7 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
 
 ### Results
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/925e8f75-4247-48dc-8f53-bc2722b433f7)
 
@@ -142,7 +144,7 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
        ![image](https://github.com/avengers-p7/Documentation/assets/156056444/8b021e21-bb6e-405b-b734-cf8c8a11d5ac)
 
-       Config the `application.yml` in both src/main and src/test correctly.
+       ![image](https://github.com/avengers-p7/Documentation/assets/156056444/14a60863-bb8d-421c-b34d-d726e85903e8)
 
  4. After this, you may also face a **CORS error**.
 
