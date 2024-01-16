@@ -59,7 +59,6 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
      sudo apt-get update
 
 ###  Install the latest version of PostgreSQL and-y flag to automatically answer yes to prompts.
-###  If you want a specific version, use 'postgresql-12' or similar instead of 'postgresql':
      sudo apt-get -y install postgresql
 
      
