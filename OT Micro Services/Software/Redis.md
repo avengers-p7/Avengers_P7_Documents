@@ -29,8 +29,8 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 | **Features**   | **Description**                                                                |
 |-------------------|---------------------------------------------------------------------------|
 | **Speed**            | Data lives in RAM, not on disks, for **blazing-fast** access and response times. |
-| **Durability**     | Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes. |
-| **Availability**   | Built-in replication ensures continuous operation even if servers fail. |
+|  **Durability**     | Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes. |
+|  **Availability**   | Built-in replication ensures continuous operation even if servers fail. |
 | **Scalability**    | Cluster multiple servers to handle growing data volumes and concurrent requests. |
 
 
