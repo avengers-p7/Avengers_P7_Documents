@@ -10,11 +10,13 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 
 ### Key Components  
 
-- **Spring boot** based web framework, which uses Tomcat as a web server.
-- **ScyllaDB** is used as the primary database for storing all the salary data.
-- **Redis** as cache manager to store the cache response.
-- **Prometheus and Open-telemetry** metrics support for monitoring and observability.
-- Database migration using the tool called **[migrate](https://github.com/golang-migrate/migrate)**.
+| Tool/Software | Usage  |
+| ------------- | --------------------------------------------------------- | 
+| `Spring boot` | based web framework, which uses Tomcat as a web server.  | 
+| `ScyllaDB`    | is used as the primary database for storing all the salary data. |
+| `Redis`       | as cache manager to store the cache response.|
+| `Prometheus and Open-telemetry` | metrics support for monitoring and observability. |
+| `migrate`     | Database migration |
 
 ## Pre-Requisites
 
@@ -25,6 +27,7 @@ The Salary API application has some database, cache manager and package dependen
 - **[Migrate](https://github.com/golang-migrate/migrate)**
 - **[Maven](https://maven.apache.org/)**
 - **[Java 17](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)**
+- **[migrate](https://github.com/golang-migrate/migrate)**
 
 Maven will be used as a package manager to download specific versions of dependencies to run the Salary API.
 
