@@ -101,7 +101,7 @@ Frontend Web is a REACTJS based application that is the primary user-interface f
     ```
 *  Set the maximum heap size (memory limit)
     ```shell
-       export NODE_OPTIONS="--max-old-space-size=8192"
+       export NODE_OPTIONS="--max-old-space-size=512"
     ```
 * Build the Application 
     ```shell
