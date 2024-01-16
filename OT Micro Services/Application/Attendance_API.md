@@ -43,6 +43,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
    |---------|---------|
    | 5432	| Postgresql port|
    | 6379 | Redis port | |
+   | 8080 | Attendance API port |
    | 22 | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell |
    | 80 |It is a standard port for  communication over the internet between client and server |
    |443| It is a standard port for secure communication over the internet between client and server|
