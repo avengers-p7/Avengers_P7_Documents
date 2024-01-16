@@ -90,6 +90,43 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 
     sudo nano /etc/postgresql/<version>/main/postgresql.conf
 
+#   Restart postgreSQL Service:
+    sudo systemctl restart postgresql
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+#  Monitoring
+   Monitoring, in the context of computer systems and software, refers to the continuous process of observing, gathering, and analyzing data 
+   related to the performance, health, and behavior of a system or application. 
+
+#  Install pgAdmin:
+### Install the public key for the PgAdmin4 repository:
+    curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
+
+###  Create the repository configuration file:
+     sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > 
+     /etc/apt/sources.list.d/pgadmin4.list'
+
+###  Update the package lists to synchronize the repository.
+     sudo apt update
+
+###  Run the following command to install pgAdmin:
+     sudo apt install pgadmin4
+
+###  After the GUI setup finishes, initiate the primary pgAdmin configuration with this command:
+     sudo /usr/pgadmin4/bin/setup-web.sh
+     
+ ![image](https://github.com/avengers-p7/Documentation/assets/156056746/7f877ac4-460f-4fca-8561-4727ad5fe14d)
+
+
+###  To access the pgAdmin web-based interface, enter the following in your web browser’s address bar:
+     185.185.185.185/pgadmin4
+     
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/8f9948be-0f52-47f8-a357-fde25ef20a0d)
+
+
 
 ### Access PostgreSQL Prompt:
     sudo -u postgres psql
