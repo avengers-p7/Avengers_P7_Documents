@@ -66,7 +66,7 @@ _**NOTE:**_ If you are not accessible to repo then please refer to the official 
       sudo apt install migrate -y  
     ```
 
-_**NOTE:-**_
+_**NOTE:-**_ 
 
 1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Also, you will have to create the keyspace mentioned `employee_db` manually in your ScyllDB.
 2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
@@ -102,15 +102,14 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
    java -jar target/salary-0.1.0-RELEASE.jar
    ```
 
-## Endpoint Information
+## API Endpoint Information
 
 | **Endpoint**                   | **Method** | **Description**                                                                               |
 |--------------------------------|------------|-----------------------------------------------------------------------------------------------|
 | `/api/v1/salary/create/record` | POST       | Data creation endpoint which accepts certain JSON body to add salary information in database  |
 | `/api/v1/salary/search`        | GET        | Endpoint for searching data information using the params in the URL                           |
 | `/api/v1/salary/search/all`    | GET        | Endpoint for searching all information across the system                                      |
-| `/actuator/prometheus`         | GET        | Application health check and performance metrics are available on this endpoint                |
-| `/actuator/health`             | GET        | Endpoint for providing shallow health check information about application health and readiness |
+| `/actuator/health`             | GET        | Endpoint for providing shallow health check information about application health and readiness|
 
 
 ### Results
@@ -139,13 +138,16 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
       ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d0c21a64-1072-4585-9ae5-79b038439905)
 
-      Config the `application.yml` in both src/main and src/test correctly.  
+      Config the `application.yml` in both src/main and src/test correctly.
 
- 3. After this, you may also face a **CORS error**.
+       ![image](https://github.com/avengers-p7/Documentation/assets/156056444/8b021e21-bb6e-405b-b734-cf8c8a11d5ac)
+
+
+ 4. After this, you may also face a **CORS error**.
 
        ![image](https://github.com/avengers-p7/Documentation/assets/156056444/75cdfe88-4c38-4300-9dcd-3797e63864fa)
 
-       To solve this error add CORS config as per your requirement.
+       To solve this error add CORS config in **[src/main/java/com/opstree/microservice/salary/contollers/SpringDataController.java](https://github.com/OT-MICROSERVICES/salary-api/blob/main/src/main/java/com/opstree/microservice/salary/contollers/SpringDataController.java)** as per your requirement.
 
 
 ## Contact Information
