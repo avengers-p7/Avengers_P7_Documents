@@ -16,7 +16,7 @@ The main branch is always in a deployable state, reducing the likelihood of brok
 #### Efficiency in Parallel Development: 
 Multiple developers can work on features simultaneously without disrupting the main codebase, maximizing efficiency and avoiding merge conflicts.
 
-# 3. Feature Branch Workflow
+## 3. Feature Branch Workflow
 ---
 This section provides a detailed explanation of the step-by-step process involved in the Git Feature Branch Workflow.
 
@@ -77,7 +77,7 @@ Once the pull request is approved and conflict-free, developers merge the featur
 | Potential Merge Conflicts                    | As features are developed in parallel, there is a possibility of merge conflicts when merging feature branches into the main branch. |
 | Overhead in Creating and Managing Branches   | Creating, managing, and tracking numerous feature branches may introduce overhead, especially in larger projects with frequent feature development. |
 
-# Best Practices for Feature Branch Workflow
+## Best Practices for Feature Branch Workflow
 ---
 The Feature Branch Workflow is a powerful tool for managing software development projects. To maximize its effectiveness, consider the following best practices:
 
@@ -92,7 +92,7 @@ The Feature Branch Workflow is a powerful tool for managing software development
 
 By following these practices, you can use the Feature Branch Workflow effectively in your software development projects.
 
-# Conclusion
+## Conclusion
 ---
 The Git Feature Branch Workflow streamlines collaboration by allowing developers to work on features without disrupting the main codebase. It promotes efficient parallel development, ensures a stable main branch, and facilitates code review through pull requests.
 
@@ -100,13 +100,13 @@ While the workflow enhances collaboration, managing multiple branches introduces
 
 In essence, the Feature Branch Workflow is a valuable tool for code quality and collaboration. Consider its benefits and challenges when deciding on its adoption for your project.
 
-# Resources and References
+## Resources and References
 ---
 | **Source**                                              | **Description**                               |
 |---------------------------------------------------------|-----------------------------------------------|
 | [Atlassian Feature Branch Workflow Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) | Refer to this tutorial for more information on the Feature Branch Workflow. |
 
-# Contact Information
+## Contact Information
 
 |    Name    | Email Address |
 | -----------| --------------|
