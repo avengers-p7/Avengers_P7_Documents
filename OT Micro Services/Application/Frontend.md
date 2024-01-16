@@ -39,8 +39,9 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
 | Nodejs | v12.22.9 | Javasrcipt runtime environment |
 
 # Important Ports
-| OutboundTraffic	 | Description |
+| InboundTraffic	 | Description |
 | ---------------- | ----------- |
+| 22 | For SSH |
 | 3000 | Default REACTJS port |
 
 ***
