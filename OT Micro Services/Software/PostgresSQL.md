@@ -12,19 +12,11 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 # Key Features:
 | Feature | Description |
 |---------|-------------|
-|Locking Mechanism | PostgreSQL supports a robust locking mechanism to control access to data and ensure transactional integrity. |
-|High Availability | PostgreSQL provides features for high availability, including data replication and standby servers, to minimize downtime and ensure continuous operation. |
-| Free and Open-Source Software | PostgreSQL is free and open-source, allowing users to use, modify, and distribute the software without licensing fees. |
-| ACID-Compliant | PostgreSQL follows ACID properties (Atomicity, Consistency, Isolation, Durability) to ensure reliable and consistent transactions. |
-| Fault Tolerance |PostgreSQL has the capability for fault tolerance, allowing it to continue operating even in the presence of hardware or software failures. |
-|Support for Image, Video, Audio | PostgreSQL supports storage of image, video, and audio data, making it suitable for applications that deal with multimedia content. |
-|Graphical Data Support | PostgreSQL supports graphical data, making it versatile for applications that require storage and retrieval of visual content. |
-| Low Maintenance Requirement |PostgreSQL is designed for efficient and low-maintenance operation, providing stability and ease of management. |
-| MVCC (Multi-Version Concurrency Control)  | PostgreSQL uses MVCC to handle concurrent access to the database, allowing multiple transactions to occur simultaneously without interfering with each other. |
-| High Recovery Capability | PostgreSQL has high recovery capabilities, ensuring data consistency and integrity even after system failures or crashes. |
-| User-Defined Data Types | PostgreSQL allows users to define custom data types, providing flexibility and adaptability to specific application requirements. |
-| Table Inheritance | PostgreSQL supports table inheritance, enabling the creation of new tables that inherit properties and columns from existing tables. |
-| Cross-Platform Compatibility | PostgreSQL is compatible with various operating systems, making it versatile and suitable for deployment in diverse environments. |
+| Open Source | PostgreSQL is an open-source relational database management system. |
+| ACID Compliance |	Ensures Atomicity, Consistency, Isolation, and Durability of transactions. |
+| Extensibility | Highly extensible with support for custom data types and functions. |
+| Advanced Data Types | Supports a wide range of advanced data types, including JSON and spatial types. |
+|Concurrency Control | Utilizes Multi-Version Concurrency Control (MVCC) for concurrent transactions. |
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 # PostgreSQL Architecture
