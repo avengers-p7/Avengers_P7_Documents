@@ -26,7 +26,7 @@ This document serves as a comprehensive guide to understanding and implementing 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-# Why GitHub Authorization?:-
+# Why GitHub Authorization?
 
 GitHub authorization refers to the process of controlling and managing access to GitHub repositories, organizations, and resources. It involves defining and assigning permissions to users or teams, specifying what actions they can perform within a repository or organization. Authorization is a crucial aspect of ensuring the security and integrity of source code and project assets stored on GitHub.
 
