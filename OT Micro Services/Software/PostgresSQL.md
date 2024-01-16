@@ -36,6 +36,7 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 | Inbound Traffic|	Description |
 |----|--------------------------------------------------------------------------------------|
 | 22 | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell |
+| 80 | It is a  port for communication over the internet between client and server |
 | 443 | It is a standard port for secure communication over the internet between client and server |
 | 5432 | Port for PostgreSQL |
 
