@@ -138,10 +138,11 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
       ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d0c21a64-1072-4585-9ae5-79b038439905)
 
-      Config the `application.yml` in both src/main and src/test correctly.
+    For this error provide your **DB information**  in files **[migration.json](https://github.com/OT-MICROSERVICES/salary-api/blob/main/migration.json)**, **[src/main/resources/application.yml](https://github.com/OT-MICROSERVICES/salary-api/blob/main/src/main/resources/application.yml)** and **[src/test/resources/application.yml](https://github.com/OT-MICROSERVICES/salary-api/blob/main/src/test/resources/application.yml)** then move forward.
 
        ![image](https://github.com/avengers-p7/Documentation/assets/156056444/8b021e21-bb6e-405b-b734-cf8c8a11d5ac)
 
+       Config the `application.yml` in both src/main and src/test correctly.
 
  4. After this, you may also face a **CORS error**.
 
