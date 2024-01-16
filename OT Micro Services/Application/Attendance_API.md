@@ -52,9 +52,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 ###  Install pylint:
      sudo apt install pylint
 
-      
-     
-  
+###  Install poetry:
 
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
    *Install Poetry*
