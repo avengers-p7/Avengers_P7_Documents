@@ -103,6 +103,10 @@ _**NOTE:**_ If you are not accessible to repo then please refer to the official 
 _**NOTE:-**_ 
 
 1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Also, you will have to create the keyspace mentioned `employee_db` manually in your ScyllDB.
+```shell
+CREATE KEYSPACE IF NOT EXISTS employee_db
+  WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+```
 2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
 3. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
 
