@@ -29,11 +29,22 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 
 ## Important Ports
 
+### Inbound Ports 
+
 |   Port        |    Description    |
 | ----------    |    -----------    |
-|    8080       |    inbound port   | 
+|    8080       |    API   | 
+
+### Outbound Port
+
+|   Port        |    Description    |
+| ----------    |    -----------    |
 |    9042       |    Scylla DB      |
 |    6379       |    Redis          |
+
+### Others
+|   Port        |    Description    |
+| ----------    |    -----------    |
 |    22         |    SSH            |
 
 ## Pre-Requisites
