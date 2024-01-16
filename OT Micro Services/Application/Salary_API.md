@@ -40,10 +40,10 @@ Maven will be used as a package manager to download specific versions of depende
 ### Install dependencies
 1. _ScyllaDB_
 
-   Here is a step-by-step **[setup in Ubuntu](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
+   Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
 2. _Redis_
 
-   Here is a step-by-step **[setup in Ubuntu](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md)** to install Redis in your system/server.
+   Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md)** to install Redis in your system/server.
 
 _**NOTE:**_ If you are not accessible to repo then please refer to the official page link shared above(in the Pre-requisites section).
 
