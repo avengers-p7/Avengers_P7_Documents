@@ -153,3 +153,4 @@ This can be resolved using `export NODE_OPTIONS="--max-old-space-size=512"`
 | ---------------------------------| ------------------------------------------------------------------- |
 | Frontend API | https://github.com/OT-MICROSERVICES/frontend |
 | Javascript heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
+| Default index file for public folder | https://github.com/react-cosmos/create-react-app-example/blob/master/public/index.html |
