@@ -9,6 +9,7 @@
 --------------------------------------------------------------------------------------------------------------------
 Redis is an open-source, in-memory data structure. Redis stores data in memory and supports a mechanism to persist data to disk. Redis is popular for caching, session management, real-time analytics, and pub/sub applications.
 
+
 # Purpose
 --------------------------------------------------------------------------------------------------------------------
 - In-memory data structure store, used as:
@@ -25,12 +26,13 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 # Key Features
 --------------------------------------------------------------------------------------------------------------------
-|   Features     |             Description                                       |
-|-----------------------------------|--------------------------------------------|
-|     Speed      | Data lives in RAM, not on disks, for blazing-fast access and response times.  | 
-|   Durability   | Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes.    |
-|  Availability  | Built-in replication ensures continuous operation even if servers fail. |            
-|  Scalability   | Cluster multiple servers to handle growing data volumes and concurrent requests. |
+| **Features**   | **Description**                                                                |
+|-------------------|---------------------------------------------------------------------------|
+| **Speed**            | Data lives in RAM, not on disks, for **blazing-fast** access and response times. |
+| **Durability**     | Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes. |
+| **Availability**   | Built-in replication ensures continuous operation even if servers fail. |
+| **Scalability**    | Cluster multiple servers to handle growing data volumes and concurrent requests. |
+
 
 # Software Overview
 --------------------------------------------------------------------------------------------------------------------
@@ -38,6 +40,7 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 - Written in ANSI C
 - Single-threaded architecture
 - Client-server model
+
 
 # System Requirements
 --------------------------------------------------------------------------------------------------------------------
@@ -50,13 +53,14 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 | Disk Space                        |               10GB                         |            
 | OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
 
+
 # Important Ports
 --------------------------------------------------------------------------------------------------------------------
 | Configuration       | Port  | 
 | ------------------- |-------|
 | Redis Default port  | 6379  |
-
-                                                                   
+         
+                                                         
 # Dependencies
 --------------------------------------------------------------------------------------------------------------------
 | Dependencies           | Description            | 
@@ -77,6 +81,7 @@ The two nodes on the right-hand side of the diagram are the Redis slaves. They r
 
 #### Sentinels: 
 The three nodes at the top of the diagram are the sentinels. They monitor the health of the Redis masters and will automatically promote a slave to a master if a master fails.
+
 
 # Install on Ubuntu/Debian
 --------------------------------------------------------------------------------------------------------------------
@@ -182,6 +187,13 @@ This section shows how to set up the master node with password authentication.
 # Conclusion
 --------------------------------------------------------------------------------------------------------------------
 Redis rockets your app's performance with lightning-fast data access, but keep your persistence needs elsewhere.
+
+
+# Contact Information
+| Name            | Email Address                        |
+|-----------------|--------------------------------------|
+| Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
+
 
 # Resources and References
 --------------------------------------------------------------------------------------------------------------------
