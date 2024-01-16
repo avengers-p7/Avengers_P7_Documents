@@ -118,7 +118,8 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
     ```shell
     npm start
     ```
-Once the above command is run, the frontend becomes accessible via browser at http://<host-ip>:3000
+Once the above command is run, the frontend becomes accessible via browser at http://(host-ip):3000
+<img width="700" length="400" alt="Final Output" src="https://github.com/avengers-p7/Documentation/assets/156056413/f0c58cd1-7f39-445b-a90e-5edf2360b621">
 ***
 ## Troubleshoot
 
