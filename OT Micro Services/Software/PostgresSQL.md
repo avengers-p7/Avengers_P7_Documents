@@ -91,8 +91,8 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 
     sudo nano /etc/postgresql/<version>/main/postgresql.conf
 
-#   Restart postgreSQL Service:
-    sudo systemctl restart postgresql
+###  Restart postgreSQL Service:
+     sudo systemctl restart postgresql
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
