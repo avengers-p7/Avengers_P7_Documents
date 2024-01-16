@@ -6,9 +6,8 @@
 # Introduction
 PostgreSQL is a powerful open-source relational database management system (RDBMS). It is known for its extensibility, standards compliance, and support for SQL (Structured Query Language). 
 
-# Purpose
 
-PostgreSQL serves as a robust relational database management system (RDBMS) with a primary purpose of efficiently and securely managing and organizing structured data.
+------------------------------------------------------------------------------------------------------------------------------------------
 
 # Key Features:
 | Feature | Description |
@@ -27,6 +26,7 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 | Table Inheritance | PostgreSQL supports table inheritance, enabling the creation of new tables that inherit properties and columns from existing tables. |
 | Cross-Platform Compatibility | PostgreSQL is compatible with various operating systems, making it versatile and suitable for deployment in diverse environments. |
 
+--------------------------------------------------------------------------------------------------------------------------------------------
 # PostgreSQL Architecture
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/20aebe9c-2452-4171-9153-015c35fbaf1b)
@@ -72,7 +72,7 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
  ### Verify Installation:
      psql -V
 
-#    Configure and Run PostgreSQL:
+#    Run PostgreSQL:
 ###  Show status PostgreSQL Service
      sudo systemctl status postgresql
      
@@ -93,6 +93,11 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 
 ### Stop PostgreSQL Service
     sudo systemctl stop postgresql
+
+#   Configure PostgreSQL Settings
+
+    sudo nano /etc/postgresql/<version>/main/postgresql.conf
+
 
 ### Access PostgreSQL Prompt:
     sudo -u postgres psql
@@ -127,10 +132,14 @@ PostgreSQL serves as a robust relational database management system (RDBMS) with
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/33b5f515-21f8-42b7-b2ba-686b959e9623)
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 
 # Conclusion:
   
 Congratulations! You have successfully installed and configured PostgreSQL on your system. PostgreSQL, with its powerful features and commitment to standards compliance, emerges as a reliable choice for your relational database needs. Dive into its extensive functionalities, including ACID compliance, high availability, and support for diverse data types. Leverage its stability and versatility to build robust and scalable applications. As an open-source solution, PostgreSQL offers a cost-effective and community-driven option for developers and enterprises. Explore the rich ecosystem of tools and extensions, and harness the potential of PostgreSQL to create high-performance and secure database-driven applications.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Contact Information
 
