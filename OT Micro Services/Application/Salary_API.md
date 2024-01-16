@@ -18,7 +18,7 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 | `Prometheus and Open-telemetry` | metrics support for monitoring and observability. |
 | `migrate`     | Database migration |
 
-# System Requirements
+## System Requirements
 
 |   System Requirement              |             Minimum                        |
 |-----------------------------------|--------------------------------------------|
@@ -26,6 +26,15 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 | RAM                               |               4GB                          |
 | Disk Space                        |               16GB                         |            
 | OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
+
+## Important Ports
+
+|   Port        |    Description    |
+| ----------    |    -----------    |
+|    8080       |    inbound port   | 
+|    9042       |    Scylla DB      |
+|    6379       |    Redis          |
+|    22         |    SSH            |
 
 ## Pre-Requisites
 
