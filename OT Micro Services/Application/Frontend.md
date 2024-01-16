@@ -120,15 +120,18 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
     ```
 Once the above command is run, the frontend becomes accessible via browser at http://<host-ip>:3000
 ***
+## Troubleshoot
 
-
+***
 # Contact Information
 
 | Name                 | Contact Information                                                                                     
 |---------------------------------|------------------------------------------------------------|
 | Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co
-
+***
 # References
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
+| Frontend API | https://github.com/OT-MICROSERVICES/frontend |
+| Javascript Heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
