@@ -18,6 +18,15 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 | `Prometheus and Open-telemetry` | metrics support for monitoring and observability. |
 | `migrate`     | Database migration |
 
+# System Requirements
+
+|   System Requirement              |             Minimum                        |
+|-----------------------------------|--------------------------------------------|
+| Processor/Instance Type           |             Dual Core/t2.medium            | 
+| RAM                               |               4GB                          |
+| Disk Space                        |               >16GB                         |            
+| OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
+
 ## Pre-Requisites
 
 The Salary API application has some database, cache manager and package dependencies. Some of the dependencies are optional and some are mandatory. To compile the application, we only need `maven` as a build tool, but for running the application following things are required:-
