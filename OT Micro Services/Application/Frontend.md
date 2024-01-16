@@ -133,6 +133,11 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
     <img width="700" length="400" alt="Final Output" src="https://github.com/avengers-p7/Documentation/assets/156056413/f0c58cd1-7f39-445b-a90e-5edf2360b621">
 ***
 ## Troubleshoot
+**Javascript heap out of memory error**
+During the build phase one might encounter javascript heap out of memory error.
+![Screenshot from 2024-01-16 00-25-27](https://github.com/avengers-p7/Documentation/assets/156056413/d5202499-699c-496e-a874-7b7662e26c7b)
+This can be resolved using `export NODE_OPTIONS="--max-old-space-size=512"`    
+**NOTE:** Ideally the size should not be more than half the size of memory(RAM) .
 
 ***
 # Contact Information
@@ -146,4 +151,4 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 | Frontend API | https://github.com/OT-MICROSERVICES/frontend |
-| Javascript Heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
+| Javascript heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
