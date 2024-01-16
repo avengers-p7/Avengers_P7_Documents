@@ -10,11 +10,13 @@
 
 **03.Key Features**
 
-**04.Conclusion**
+**04.Images**
 
-**05.Contact Information**
+**05.Conclusion**
 
-**06.References**
+**06.Contact Information**
+
+**07.References**
 
 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -43,6 +45,26 @@ GitHub authorization refers to the process of controlling and managing access to
 | **Audit Trails** | GitHub provides audit trail features that log and track user actions within repositories. This helps in monitoring and reviewing changes, ensuring accountability, and identifying any security-related issues. |
 | **Integration with Identity Providers** | GitHub supports integration with external identity providers, enabling organizations to leverage existing authentication systems. This integration enhances security by ensuring that only authorized users can access GitHub resources. |
 | **OAuth Tokens** | GitHub uses OAuth tokens for authentication and authorization. Users or applications obtain tokens with specific scopes, granting them access to perform actions on behalf of the authenticated entity. |
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Some Images of GitHub Authorization Features:-
+
+## 01.Access:-
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/12ceeff1-132b-406b-80e4-4fab52e0d115)
+
+## 02.OAuth Tokens:-
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/2393b26d-262f-4114-977e-b409f0f74ed6)
+
+## 03.Audit Trail:-
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/688eb334-d4e0-44b3-b0dc-3f34580e135e)
+
+## 04.Collaborators:-
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/abab5952-bdba-4825-a4fe-2e0089e29120)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
