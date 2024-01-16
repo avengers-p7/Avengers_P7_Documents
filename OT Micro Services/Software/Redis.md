@@ -25,17 +25,13 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 # Key Features
 --------------------------------------------------------------------------------------------------------------------
-#### Speed: 
-Data lives in RAM, not on disks, for blazing-fast access and response times.
-
-#### Durability: 
-Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes.
-
-#### Availability: 
-Built-in replication ensures continuous operation even if servers fail.
-
-#### Scalability: 
-Cluster multiple servers to handle growing data volumes and concurrent requests.
+--------------------------------------------------------------------------------------------------------------------
+|   Features     |             Description                                       |
+|-----------------------------------|--------------------------------------------|
+|     Speed      | Data lives in RAM, not on disks, for blazing-fast access and response times.  | 
+|   Durability   | Choose from options like write-back with journaling or persistent memory for data protection beyond server crashes.    |
+|  Availability  | Built-in replication ensures continuous operation even if servers fail. |            
+|  Scalability   | Cluster multiple servers to handle growing data volumes and concurrent requests. |
 
 # Software Overview
 --------------------------------------------------------------------------------------------------------------------
@@ -48,9 +44,9 @@ Cluster multiple servers to handle growing data volumes and concurrent requests.
 --------------------------------------------------------------------------------------------------------------------
 |   System Requirement              |             Minimum                        |
 |-----------------------------------|--------------------------------------------|
-| Processor/Instance Type           |             t2.micro                       | 
-| RAM                               | Depends on dataset size (at least 1GB)     |
-| Disk Space                        | Minimal for binaries, more for persistence |            
+| Processor/Instance Type           |             Dual Core/t2.medium            | 
+| RAM                               |               4GB                          |
+| Disk Space                        |               10GB                         |            
 | OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
 
 # Important Ports
@@ -91,13 +87,22 @@ If you're running a very minimal distribution (such as a Docker container) you m
 
 ### Run the following commands to install Redis.
 
-    curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg 
-	
-    echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
-	
-    sudo apt-get update
-		
-    sudo apt-get install -y redis-server
+#### Step 1: Import the Redis GPG key
+
+	curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+
+#### Step 2: Add the Redis repository to the system's package manager
+
+	echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+
+#### Step 3: Update the package manager's repository information
+
+	sudo apt-get update
+
+#### Step 4: Install Redis server
+
+	sudo apt-get install -y redis-server
+
 
 ## Verify Installation
 
