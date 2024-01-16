@@ -120,6 +120,7 @@ The test cases are present in **[src/test/java/com/opstree/microservice/salary](
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/48b6ccff-c668-4dc6-b834-7cffb2fcc8df)
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/3c2c0835-c1f3-44a2-964e-bc8892b05057)
 
 ## Troubleshooting
 
