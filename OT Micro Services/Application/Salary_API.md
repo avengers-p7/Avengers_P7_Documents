@@ -46,6 +46,11 @@ Maven will be used as a package manager to download specific versions of depende
 
 ## Setup API
 
+### clone Salary API repo
+    ```shell
+    git clone https://github.com/OT-MICROSERVICES/salary-api.git
+    ```
+
 ### Install dependencies
 1. _ScyllaDB_
 
