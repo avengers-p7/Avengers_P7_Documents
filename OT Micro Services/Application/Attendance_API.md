@@ -146,10 +146,11 @@ You may further test your API methods using swagger. If test cases are passed, r
 | /api/v1/attendance/health/detail | GET        | Provides detailed health check about dependencies as well like - PostgresSQL and Redis |
 
 ## Best Practices for API security
-## Always use TLS
+
+### Always use TLS
    Use HTTPS to encrypt data transmitted between clients and the API server. This helps prevent man-in-the-middle attacks. Obtain and install an SSL certificate for your domain.
 
-## Use OAuth for SSO
+### Use OAuth for SSO
 
   Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
 
