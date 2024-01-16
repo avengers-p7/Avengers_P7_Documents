@@ -49,6 +49,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 # Building and Running
 ## The process of building and running the Attendance API involves several steps
 ### Install Dependencies:
+
     *Install Pylint*:
      sudo apt install pylint
 
