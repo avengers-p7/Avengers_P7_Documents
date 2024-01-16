@@ -56,10 +56,15 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
     sudo apt update 
     sudo apt install make
     ```
+    ![Screenshot from 2024-01-16 14-50-37](https://github.com/avengers-p7/Documentation/assets/156056413/ca99a9e8-1ad7-4a50-864b-3f5e36dd322d)
+
 * Install NPM
     ```shell
     sudo apt install npm
     ```
+    ![Screenshot from 2024-01-16 14-52-07](https://github.com/avengers-p7/Documentation/assets/156056413/dad28260-d3bc-42c5-9fdd-630512fdb8d9)
+
+
 ### Step2: Build Generation
 * Create index.html file    
   Create a directory name public and create index.html file inside it with the following content:  
@@ -113,13 +118,19 @@ The frontend application have dependencies on other REST API of **[OT-Microservi
     ```shell
     make build
     ```
+    ![Screenshot from 2024-01-16 14-53-09](https://github.com/avengers-p7/Documentation/assets/156056413/00874384-f41e-4c02-bd06-94eb66a1e68b)
+    Once the build is successfull it is ready to be deployed.
+    ![Screenshot from 2024-01-16 14-58-43](https://github.com/avengers-p7/Documentation/assets/156056413/dd8c438c-f596-412a-a788-830c893a5eeb)
+
 ### Step3: Application Deployment
 * Run the following command
     ```shell
     npm start
     ```
-Once the above command is run, the frontend becomes accessible via browser at http://(host-ip):3000
-<img width="700" length="400" alt="Final Output" src="https://github.com/avengers-p7/Documentation/assets/156056413/f0c58cd1-7f39-445b-a90e-5edf2360b621">
+    ![Screenshot from 2024-01-16 15-01-59](https://github.com/avengers-p7/Documentation/assets/156056413/a3111a70-3407-4751-bde2-fd4fdc8444f4)
+
+    Once the above command is run, the frontend becomes accessible via browser at http://(host-ip):3000
+    <img width="700" length="400" alt="Final Output" src="https://github.com/avengers-p7/Documentation/assets/156056413/f0c58cd1-7f39-445b-a90e-5edf2360b621">
 ***
 ## Troubleshoot
 
