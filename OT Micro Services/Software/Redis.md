@@ -42,6 +42,8 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 # System Requirements
 --------------------------------------------------------------------------------------------------------------------
+#### The minimum requirements of a Redis infrastructure for non-productive OutSystems environments are the following:
+
 |   System Requirement              |             Minimum                        |
 |-----------------------------------|--------------------------------------------|
 | Processor/Instance Type           |             Dual Core/t2.medium            | 
