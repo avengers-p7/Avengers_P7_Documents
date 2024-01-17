@@ -20,8 +20,6 @@ GitOps is a modern approach to managing and deploying infrastructure and applica
 
 * **Automation:** Automation is a core aspect of GitOps, facilitating continuous delivery and deployment, reducing human errors, and ensuring consistent and repeatable processes.
 
-* **Auditing and Compliance:** GitOps provides a clear audit trail of changes, aiding in compliance efforts and allowing for accountability in the event of issues.
-
 * **Consistency Across Environments:** GitOps ensures consistency in configurations and infrastructure across different environments, from development to production.
 
 * **Rollback and Rollforward:** GitOps simplifies the process of rolling back to previous states or applying changes in a controlled manner by leveraging Git's versioning capabilities.
@@ -85,8 +83,7 @@ Some disadvantages of GitOps, however, include these drawbacks:
 
 *** 
 # GitOps Best Practices
-***
-# Frequently Asked Questions 
+
 ***
 ***
 ## Contact Information:
@@ -98,6 +95,7 @@ Some disadvantages of GitOps, however, include these drawbacks:
 ## References:
 | Source | Description |
 | ------ | ----------- |
-| https://www.techtarget.com/searchitoperations/definition/GitOps | Gitops Features |
-| https://www.weave.works/technologies/gitops/ | Gitops Principles |
+| https://www.techtarget.com/searchitoperations/definition/GitOps  | Gitops Features |
+| https://www.site24x7.com/learn/what-is-gitops.html | Gitops Features |
+| https://www.weave.works/technologies/gitops/  | Gitops Principles |
 
