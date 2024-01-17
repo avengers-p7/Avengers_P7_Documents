@@ -54,11 +54,15 @@ The environment branch workflow involves the following steps:
 The environment branch workflow is a useful tool for teams that work on large projects with multiple environments. By using separate branches for each environment, teams can maintain a stable codebase, thoroughly test changes, and ensure that code is reviewed before being deployed to production. However, the workflow can be complex and add overhead to the development process.
 
 
-Contact Information: For more information about the environment branch workflow, please contact us at contact@example.com.
+# Contact Information
 
-References:
+|  Name                     |        	Email Address           |
+| ------------              | --------------------------------|
+| Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
 
-GitFlow: A Successful Git Branching Model - https://nvie.com/posts/a-successful-git-branching-model/
-GitHub Flow - https://docs.github.com/en/get-started/quickstart/github-flow
-GitLab Flow - https://docs.gitlab.com/ee/topics/gitlab_flow.html
-OneFlow - https://www.endoflineblog.com/oneflow-the-git-branching-model-for-a-smaller-team
+# Resources and References
+
+|  Source                                                             |        Description                                                           |
+| ------------                                                        | --------------------------------                                             |
+| https://nvie.com/posts/a-successful-git-branching-model/            |  Refer to this tutorial for more information on the Feature Branch Workflow  |  
+	
