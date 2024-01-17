@@ -32,10 +32,9 @@ The environment branch workflow involves the following steps:
 5. If the changes are successful, merge the staging branch into the production branch.
 6. Deploy the changes to the live site.
 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/caca1064-c250-4b4c-86e9-fc811f640394)
+<img width="750" length="500" alt="GitOps" src="https://github.com/avengers-p7/Documentation/assets/79625874/caca1064-c250-4b4c-86e9-fc811f640394">
 
-
-# Advantages
+ Advantages
 
 | Advantage          | Description                                                                                                     |
 | ------------------ | --------------------------------------------------------------------------------------------------------------- |
