@@ -1,8 +1,8 @@
 # Environment branch workflow
 
-|   Author     |  Created on   |  Version   | Last updated by | Last edited on |
-| ------------ | --------------| -----------|---------------- | -------------- |
-| Vikram BISHT | 16 Jan 2024   |     v1     | Vikram Bisht    | Vikram Bisht   |
+|   Author     |  Created on   |  Version   | Last updated by | 
+| ------------ | --------------| -----------|---------------- |
+| Vikram BISHT | 16 Jan 2024   |     v1     | Vikram Bisht    | 
 
 ---
 # Introduction
@@ -31,6 +31,9 @@ The environment branch workflow involves the following steps:
 4. Test the changes in the staging environment.
 5. If the changes are successful, merge the staging branch into the production branch.
 6. Deploy the changes to the live site.
+
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/caca1064-c250-4b4c-86e9-fc811f640394)
+
 
 # Advantages
 
