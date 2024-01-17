@@ -75,7 +75,6 @@ Run the downloaded installer and follow the on-screen instructions. The default 
 
 
 4.**Now Create A Repository**
-|-----------------------|
 
 ![Screenshot from 2024-01-16 11-51-31](https://github.com/avengers-p7/Documentation/assets/156644891/913f8f43-f11c-49c8-93de-c704f92bb4ea)
 
