@@ -87,9 +87,12 @@ Gitflow, while powerful, isn't a one-size-fits-all solution. Its structured appr
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Resources and References
-- [Git Flow Documentation](https://medium.com/@matt_weingarten/version-control-done-right-with-gitflow-8623eb051ea2)
-- [Atlassian Git Flow Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+| Resource                                  | Content                                                      |
+|-------------------------------------------|--------------------------------------------------------------|
+| [Git Flow Documentation](https://medium.com/@matt_weingarten/version-control-done-right-with-gitflow-8623eb051ea2) | Introduction, Gitflow                                       |
+| [Atlassian Git Flow Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) | Diagram, How it works, Types of branches                    |
+| [Advantage & Disadvantage](https://medium.com/@ferrohardian/git-flow-pros-and-cons-85b398a64848) | Advantage and disadvantage of git flow                      |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
