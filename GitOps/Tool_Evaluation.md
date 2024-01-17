@@ -1,3 +1,7 @@
+| Author | Created On | Last Updated | Document Version | Last Updated By |
+| ------ | ---------- | ------------ | ---------------- | --------------- |
+| Vishal Kumar Kesarwani | 12-01-2024 | 16-01-2024   | v1 | Vishal |
+***
 # Purpose 
 
 This document will explore some of the popular tools that can help you enable GitOps workflow in your application environment by automating the testing and deployment of IaC codes.
@@ -5,12 +9,12 @@ This document will explore some of the popular tools that can help you enable Gi
 
 ***
 
-## This document includes evaluation of three GitOps tools:
+## This document includes evaluation of GitOps tools:
 Multiple GitOps tools come with different features and may not cover all GitOps needs. Still, we recommend trying out these  popular GitOps tools:-
 * ArgoCD 
 * FluxCD
 * Jenkins X
-* Buildpiper
+* BuildPiper
 
 ***
 # ArgoCD 
@@ -27,28 +31,22 @@ Flux CD is a Continuous Delivery tool to help keep Kubernetes clusters in sync w
 # Jenkins X
 ![image](https://github.com/avengers-p7/Documentation/assets/156056413/7864044f-dd4d-4692-b887-15f9d551c41d)
 
-Jenkins X automates and accelerates Continuous Integration and Continuous Delivery for developers on the cloud, so they can focus on building awesome software,The entire Jenkins X experience is based around Git. The installation, extensions and applications you develop are managed via a cluster Git repository which is the desired state of your Kubernetes cluster.
+Jenkins X automates and accelerates Continuous Integration and Continuous Delivery for developers on the cloud, so they can focus on building software,The entire Jenkins X experience is based around Git. The installation, extensions and applications you develop are managed via a cluster Git repository which is the desired state of your Kubernetes cluster.
 
-# Buildpiper 
+# BuildPiper 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056413/36ff2865-9b5b-41e9-bfa9-1628f0f1aad0)
 
-BuildPiper is an end-to-end Kubernetes & Microservices Application Delivery Platform that enables dockerized code to be deployed across environments and enables seamless management of Production operations with all the required observability, security, and compliance baked in. The goal is to simplify and accelerate the 'microservices’ application journey for any organization & make it hugely rewarding.
+BuildPiper is a developer and engineering teams’ centric, fully-featured, end-to-end Kubernetes & Microservices Application Delivery Platform. It enables teams to onboard & securely manage Kubernetes & Microservices applications in a seamless manner. Also, the platform empowers teams with the ability to run zero-touch, fully automated & secured CI/CD pipelines.
+It provides functionality for modern approaches of CI, CD, GitOps, Observability, Compliance , etc. BuildPiper seamlessly integrates with industry-leading tools like JIRA, SLACK, MS Teams, EFK, Prometheus/Grafana etc.
 
 ***
 # Technical Specifications
-| **Topic** | **ArgoCD** | **FluxCD** | **Jenkins X** | **Buildpiper** |
-| ------- | ------ | ------ | --------- | --------- |
-| **Pre-Requisites** | Kubernetes Cluster (v1.23 and later)| Kubernetes Cluster (v1.26 and later) | Kubernetes Cluster |
-| **System requirements** | 2 CPU cores and 4GB of RAM | 2 CPU cores and 4GB of RAM  | 2 CPU cores and 4GB of RAM  | 4 CPU cores and 8GB of RAM |
-| **Important Ports** | 80,443 | 80,443 | 8080,80,443 |
-| **Dependency** | kubectl | kubectl,Git | kubectl,Git |
-
 | **Topic** | **ArgoCD** | **FluxCD** | **Jenkins X** | **Buildpiper** |
 | --------- | ---------- | ---------- | ------------- | -------------- |
 | **Pre-Requisites** | Kubernetes Cluster (v1.23 and later) | Kubernetes Cluster (v1.26 and later) | Kubernetes Cluster | Kubernetes Cluster |
 | **System requirements** | 2 CPU cores and 4GB of RAM | 2 CPU cores and 4GB of RAM  | 2 CPU cores and 4GB of RAM  | 4 CPU cores and 8GB of RAM |
 | **Important Ports** | 80, 443 | 80, 443 | 8080, 80, 443 | 8080, 8000, 8443 |
-| **Dependency** | kubectl | kubectl, Git | kubectl, Git | kubectl, Git, Docker |
+| **Dependency** | kubectl | kubectl, Git | kubectl, Git | bpctl,kubectl, Git, Docker |
 
 
 ***
