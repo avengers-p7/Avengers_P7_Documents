@@ -1,10 +1,12 @@
 | Author           | Created on  | Last Updated | Document Version |
 |------------------|-------------|--------------|-------------------|
 | Khushi Malhotra | 16-01-2024  | 17-01-2024   |        v1          |
+***
 
 # Introduction
 
 In today's fast-paced software development world, teams need a way to work together smoothly and efficiently, especially when it comes to branching and merging code. GitLab Flow is a simple but powerful branching strategy that helps teams stay organized and deliver features quickly.
+***
 
 # Why
 
@@ -15,29 +17,18 @@ In today's fast-paced software development world, teams need a way to work toget
 | Efficiency      | GitLab flow promotes efficient development by encouraging small, focused feature branches that can be merged frequently. This reduces the risk of merge conflicts and makes it easier to identify and fix bugs.                |
 | Integration     | GitLab flow is designed to work seamlessly with GitLab's features, such as merge requests, continuous integration/continuous delivery (CI/CD), and issue tracking. This integration can help to automate tasks and streamline the development process. |
 | Flexibility     | While GitLab flow provides a basic framework, it is also flexible enough to be adapted to meet the specific needs of your team. You can add additional branches or workflows as needed to accommodate your project's complexity.         |
+***
 
 # GitLab flow Working
 
-| **Focus on Main Branch**     | **Description**                                      | 
+| **Feature**     | **Description**                                      | 
 |--------------------------|--------------------------------------------| 
-| GitLab Flow Approach     | Directly works with the "main" branch for simplicity. Keeps the version control streamlined.            |
-
-| **Feature Branches**         | **Description**                                           |
-|--------------------------|--------------------------------------------| 
-| Purpose                  | Created for new features or fixes. Enables isolated work without affecting the main code. Branches off directly from the "main" branch.    |
-
-| **Issue Tracking**              | **Description**                                            |
-|-----------------------------|--------------------------------------------| 
-| Integration                 | Link each feature branch to an issue in the issue tracker. Provides context for code changes and enhances team communication.|
-
-| **Review and Merge**              | **Description**                                          |
-|------------------------------|--------------------------------------------| 
-| Process                      | Create a merge request when a feature branch is ready. Triggers a code review process for quality assurance. Catches potential problems before merging into the main branch.|
-
-| **Pre-production Environments**      | **Description**                                        |
-|---------------------------------|--------------------------------------------| 
-| Implementation                  | Supports separate branches for staging and production environments. Allows thorough testing before releasing changes to users.|
-
+|  Focus on Main Branch | Directly works with the "main" branch for simplicity. Keeps the version control streamlined.  |
+|  Feature Branches | Created for new features or fixes. Enables isolated work without affecting the main code. Branches off directly from the "main" branch. |
+|  Issue Tracking  | Link each feature branch to an issue in the issue tracker. Provides context for code changes and enhances team communication. |
+| Review and Merge | Create a merge request when a feature branch is ready. Triggers a code review process for quality assurance. Catches potential problems before merging into the main branch. |
+| Pre-production Environment |  Supports separate branches for staging and production environments. Allows thorough testing before releasing changes to users. |
+***
 
 # Best practices in GitLab flow
 - Use feature branches if you are working on something new, so that contributors can easily start the code review process before merging.
@@ -45,6 +36,7 @@ In today's fast-paced software development world, teams need a way to work toget
 - Perform code reviews in the draft merge request because developers can identify issues as soon as possible. Also, tag that draft request as WIP or work in progress.
 - Developers can have a separate branch for production, and then they can run a script that triggers the deployment process.
 - Developers should check out the main branch and create a new feature branch. After making the necessary changes, they can merge it into the main branch. Before merging the request, they should conduct a 360 review in the draft request.
+***
 
 # Advantage of GitLab flow
 
@@ -54,7 +46,9 @@ In today's fast-paced software development world, teams need a way to work toget
 | Efficiency                | Promotes small, focused feature branches that merge frequently, minimizing merge conflicts and streamlining development iteration.                                                                                                  |
 | Integration with GitLab    | Built-in integration with GitLab features like merge requests, CI/CD pipelines, and issue tracking, optimizing collaboration and automation.                                                                                           |
 | Flexibility               | Adaptable to specific team needs and project complexity. Additional branches or workflows can be incorporated to fit your requirements.                                                                                               |
-| Emphasis on Testing       | Merge requests and CI/CD pipelines encourage continuous testing and code quality checks throughout the development cycle.                                                                                                           |
+| Emphasis on Testing       | Merge requests and CI/CD pipelines encourage continuous testing and code quality checks throughout the development cycle.  |
+*** 
+
 # Disadvantage of GitLab flow
 
 | Key Concern                | Description                                                                                                                                                                                                                                |
@@ -64,17 +58,20 @@ In today's fast-paced software development world, teams need a way to work toget
 | Release Management (Optional)| Requires additional overhead if using separate production branches for controlled releases, adding another layer of complexity.                                                                                                              |
 | Learning Curve             | While simpler than GitFlow, GitLab Flow still has a learning curve, especially for teams new to Git branching strategies.                                                                                                                  |
 | Dependency on CI/CD        | Optimal execution relies heavily on robust CI/CD pipelines for automated testing and deployment, which might not be available for all teams.                                                                                               |
+***
 
 # Conclusion 
 
 GitLab Flow helps software teams work together smoothly by organizing code changes into mini-projects ("feature branches"). This keeps things clear, avoids messy merges, and lets everyone contribute without stepping on each other's toes.
 Good fit for: Teams who prioritize clean workflows, clear communication, and high-quality code. Consider your team's size, experience, and project needs before adopting it.
+***
 
 # Contact Information
 
 | Name            | Email Address                        |
 |-----------------|--------------------------------------|
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
+***
 
 # Resources and References
 
