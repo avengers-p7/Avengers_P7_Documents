@@ -19,14 +19,6 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 |  **Replication and High  Availability** | Offers mechanisms for duplicating data across multiple nodes to enhance reliability and availability. |         |
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-## PostgreSQL Architecture
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/20aebe9c-2452-4171-9153-015c35fbaf1b)
-
-
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## System Requirements:
@@ -43,11 +35,14 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 | Inbound Traffic|	Description |
 |----|--------------------------------------------------------------------------------------|
 | 22 | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell |
-| 443 | It is a standard port for secure communication over the internet between client and server |
 | 5432 | Port for PostgreSQL |
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
+## PostgreSQL Architecture
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/20aebe9c-2452-4171-9153-015c35fbaf1b)
+
 
 ## How to Setup/Install PostgreSQL
 
