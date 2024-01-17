@@ -18,20 +18,37 @@ In today's fast-paced software development world, teams need a way to work toget
 
 # GitLab flow Working
 
-### Focus on the main branch: 
-Instead of having a separate "develop" branch, GitLab Flow works directly with the "main" branch. This keeps things simple and streamlined.
+| Focus on Main Branch     |       Description                                     | 
+|--------------------------|--------------------------------------------| 
+| GitLab Flow Approach     | Directly works with the "main" branch for simplicity.|
+|                          | Keeps the version control streamlined.            |
 
-### Feature branches for new work: 
-When you're working on a new feature or fix, create a dedicated branch off of the main branch. This allows you to work in isolation without affecting the main code.
 
-### Issue tracking for clarity: 
-Link each feature branch to an issue in your issue tracker. This provides context for the code changes and helps with communication within the team.
+| Feature Branches         |   Description                                            |
+|--------------------------|--------------------------------------------| 
+| Purpose                  | Created for new features or fixes.                |
+|                          | Enables isolated work without affecting the main code.|
+| Creation                 | Branches off directly from the "main" branch.    |
 
-### Review and merge: 
-Once a feature branch is ready, create a merge request to bring it back into the main branch. This triggers a code review process to ensure quality and catch any potential problems.
 
-### Pre-production environments: 
-GitLab Flow supports having separate branches for staging and production environments. This allows you to test changes thoroughly before releasing them to users.
+| Issue Tracking           |   Description                                            |
+|--------------------------|--------------------------------------------| 
+| Integration              | Link each feature branch to an issue in the issue tracker.|
+|                          | Provides context for code changes and enhances team communication.|
+
+
+| Review and Merge         |     Description                                          |
+|--------------------------|--------------------------------------------| 
+| Process                  | Create a merge request when a feature branch is ready.|
+|                          | Triggers a code review process for quality assurance.|
+|                          | Catches potential problems before merging into the main branch.|
+
+
+| Pre-production Environments |     Description                                        |
+|--------------------------|--------------------------------------------| 
+| Implementation           | Supports separate branches for staging and production environments.|
+|                          | Allows thorough testing before releasing changes to users.|
+
 
 # Best practices in GitLab flow
 - Use feature branches if you are working on something new, so that contributors can easily start the code review process before merging.
