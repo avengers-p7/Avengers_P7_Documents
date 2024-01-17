@@ -19,11 +19,13 @@
 
 **5.Images of GitHub Authorization Features**
 
-**6.Conclusion**
+**6. Use case for GitHub Authorization**
 
-**7.Contact Information**
+**7.Conclusion**
 
-**8.References**
+**8.Contact Information**
+
+**9.References**
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -108,6 +110,40 @@ In GitHub, a collaborator is an individual or entity with specific permissions g
 
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+# Use case for GitHub Authorization
+
+**Challenge**: A small development team is working on a mobile app project, and they need a simple yet effective way to manage collaboration and access control to their GitHub repository.
+
+**Solution**:
+
+**1.Team-Based Repository Access**:
+
+**Team Setup**: Create a GitHub team named "MobileApp_Developers" for the development team.
+
+**Repository Access**: Assign the "MobileApp_Developers" team with write access to the repository.
+
+***
+
+**2.Branch Protection**:
+
+**Main Branch Protection**: Implement branch protection rules to safeguard the main branch.
+
+***
+
+**3.External Contributor**:
+
+**Invite External Contributor**: Invite an external designer to collaborate on the project with read-only access.
+
+***
+
+### With these simple GitHub Authorization features, the small development team ensures that:
+
+Team members have the necessary write access for collaboration.
+The main branch is protected against accidental changes.
+External contributors, like designers, have controlled read-only access, maintaining security and collaboration balance.
+
+***
 
 # Conclusion
 
