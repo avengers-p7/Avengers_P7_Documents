@@ -6,7 +6,6 @@
 <img width="260" length="100" alt="GitOps" src="https://github.com/avengers-p7/Documentation/assets/156056413/6d918855-2887-4fe4-b731-a66c683f3388">
  
 GitOps is code-based infrastructure and operational procedures that rely on Git as a source control system. It’s an evolution of Infrastructure as Code (IaC) and a DevOps best practices that leverages Git as the single source of truth, and control mechanism for creating, updating, and deleting system architecture.
-
 ***
 # Why GitOps
 
@@ -52,7 +51,6 @@ GitOps is a modern approach to managing and deploying infrastructure and applica
 ***
 # GitOps Workflows 
 <img width="600" length="300" alt="GitOps" src="https://github.com/avengers-p7/Documentation/assets/156056413/e715aa24-9f48-465c-bfca-7a34a27e4a6f">
-
 *** 
 # Benefits of GitOps
 The underlying Git protocol isn't resource-intensive and is open source. It offers the following additional benefits:
@@ -65,19 +63,17 @@ The underlying Git protocol isn't resource-intensive and is open source. It offe
 # Drawbacks of GitOps
 Some disadvantages of GitOps, however, include these drawbacks:
 
-* Teams must look out for broken YAML manifests, in which syntax or object references could be broken.
-* By handling development through a pull approach, teams are limited to using only tools that execute pulls.
+* GitOps requires training for teams unfamiliar with Git and version control.
+* GitOps is more suited for stateless applications, posing challenges for stateful workloads.
+* GitOps doesn't offer a way to manage authentication or other sensitive data without additional tooling.
 * There's the potential for application programming interface throttling, as GitOps consistently polls Git repositories.
 * Large teams that frequently make updates might push a change at the same time, writing to the same files simultaneously.
 * At scale, matching an environment's desired state to Git is difficult without more tools.
-* GitOps doesn't offer a way to manage authentication or other sensitive data without additional tooling.
-***
 ***
 ## Contact Information:
 | Name | Email address |
 | ---- | ------------- |
 | vishal | vishal.kesarwani.snaatak@mygurukulam.co |
-
 ***
 ## References:
 | Source | Description |
