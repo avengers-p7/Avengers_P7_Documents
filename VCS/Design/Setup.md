@@ -2,7 +2,7 @@
 | ----- | -----------| -----------|------------------
 | Nidhi | 15-01-24   |            |  V1               |
 
-Intoduction
+**INTRODUCTION
 |-------------------------------------------------------------------------------------------------------------------|
 GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
 
@@ -23,21 +23,21 @@ Setup via Web browser
 --------------------
 ![Screenshot from 2024-01-15 19-05-19](https://github.com/avengers-p7/Documentation/assets/156644891/0c11a210-2ba9-4dd1-818c-de1b84b5497f)
 
-Create a GitHub Account
+1.Create a GitHub Account
 ---------------------
 
 Go to GitHub's website and sign up for a new account if you don't have one.
 
 ![Screenshot from 2024-01-15 18-52-23](https://github.com/avengers-p7/Documentation/assets/156644891/9bb7f8b4-3d71-41c3-aaf6-b347e3fb50d0)
 
-Verification
+2.Verification
 ------------
 Verify your email address to complete the registration process.
 
 ![Screenshot from 2024-01-15 18-52-48](https://github.com/avengers-p7/Documentation/assets/156644891/905779c6-5dfe-45d2-9c57-0ed8cad33063)
 
 
-Explore GitHub
+3.Explore GitHub
 -------------
 Once logged in, you can explore GitHub repositories, contribute to projects, and create your own repositories.
 
@@ -46,20 +46,20 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 Git Installation for Local Development
 --------------------------------------
-Download Git:
+1.**Download git**
 
 Visit the official Git website and download the latest version of Git for Windows.
 
 ![Screenshot from 2024-01-15 19-05-19](https://github.com/avengers-p7/Documentation/assets/156644891/bc9444a5-5deb-4ff7-ac34-efe346e9e09d)
 
   
-Install Git:
+2.**INSTALL**
 
 Run the downloaded installer and follow the on-screen instructions. The default settings are usually sufficient for most users.
 
 ![Screenshot from 2024-01-16 11-27-23](https://github.com/avengers-p7/Documentation/assets/156644891/a82a376b-0de6-4097-a457-59d3f7908ffa)
 
-Create Organization 
+3.**Create OrganiZation**
 
 ![Screenshot from 2024-01-16 11-35-53](https://github.com/avengers-p7/Documentation/assets/156644891/7644efd9-7d0b-44a3-a509-54d9ee14f811)
 
@@ -70,7 +70,7 @@ Create Organization
 ![Screenshot from 2024-01-16 11-49-46](https://github.com/avengers-p7/Documentation/assets/156644891/3b22f335-68b1-4ac9-844c-12e547890994)
 
 
-Now CREATE A REPOSTIORY
+4.**Now Create A Repository**
 |-----------------------|
 
 ![Screenshot from 2024-01-16 11-51-31](https://github.com/avengers-p7/Documentation/assets/156644891/913f8f43-f11c-49c8-93de-c704f92bb4ea)
@@ -79,11 +79,12 @@ Now CREATE A REPOSTIORY
 
 ![Screenshot from 2024-01-16 14-06-28](https://github.com/avengers-p7/Documentation/assets/156644891/bd5c8a7a-5eb6-4594-adfd-a73ceb58e047)
 
-NOW cREATE A TEAM
+5.**NOW CREATE A TEAM**
 
  ![Screenshot from 2024-01-16 14-06-39](https://github.com/avengers-p7/Documentation/assets/156644891/2cb91edd-6eae-466c-bd97-508ea25173fc)
 
 ![Screenshot from 2024-01-16 14-07-40](https://github.com/avengers-p7/Documentation/assets/156644891/252d3950-1977-4e6a-83d3-7cb437476fc8)
+
 
 
 
