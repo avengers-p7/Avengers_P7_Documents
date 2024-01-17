@@ -3,8 +3,7 @@
 | Vishal Kumar Kesarwani | 12-01-2024 | 16-01-2024   | v1 | Vishal |
 ***
 # Introduction
-![image](https://github.com/avengers-p7/Documentation/assets/156056413/6d918855-2887-4fe4-b731-a66c683f3388)
-
+<img width="260" length="100" alt="GitOps" src="https://github.com/avengers-p7/Documentation/assets/156056413/6d918855-2887-4fe4-b731-a66c683f3388">
 
 GitOps is code-based infrastructure and operational procedures that rely on Git as a source control system. It’s an evolution of Infrastructure as Code (IaC) and a DevOps best practices that leverages Git as the single source of truth, and control mechanism for creating, updating, and deleting system architecture.
 
