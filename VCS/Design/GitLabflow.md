@@ -25,9 +25,17 @@ When you're working on a new feature or fix, create a dedicated branch off of th
 ### Issue tracking for clarity: 
 Link each feature branch to an issue in your issue tracker. This provides context for the code changes and helps with communication within the team.
 
-
 ### Review and merge: 
 Once a feature branch is ready, create a merge request to bring it back into the main branch. This triggers a code review process to ensure quality and catch any potential problems.
 
 ### Pre-production environments: 
 GitLab Flow supports having separate branches for staging and production environments. This allows you to test changes thoroughly before releasing them to users.
+
+# Best practices in GitLab flow
+- Use feature branches if you are working on something new, so that contributors can easily start the code review process before merging.
+- If developers are working on a feature branch and adding new commits, they should run tests right away. If the tests take more than 5 minutes, run them in parallel.
+- Perform code reviews in the draft merge request because developers can identify issues as soon as possible. Also, tag that draft request as WIP or work in progress.
+- Developers can have a separate branch for production, and then they can run a script that triggers the deployment process.
+- Developers should check out the main branch and create a new feature branch. After making the necessary changes, they can merge it into the main branch. Before merging the request, they should conduct a 360 review in the draft request.
+
+#
