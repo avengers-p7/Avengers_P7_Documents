@@ -32,29 +32,23 @@ Gitflow is a branching model for Git that aims to streamline the release managem
 
 ## Here's a breakdown of the diagram:
 
-### Main Branch:
-The main branch represents the stable, production-ready version of the code. It should only be updated with releases.
-- Represents the production-ready code.
-- Directly reflects what is deployed in production.
-### Develop Branch: 
-The develop branch is where ongoing development takes place. New features are implemented and tested on the develop branch before being merged into the main branch.
-- Integration branch for ongoing development work.
-- Feature branches are merged into the develop branch.
-### Feature Branches:
-Developers create feature branches from the develop branch to work on individual features. Once a feature is complete and tested, it is merged back into the develop branch.
-- Created for the development of specific features or enhancements.
-- Branched off from the develop branch.
-- Merged back into the develop branch upon completion.
-### Release Branch: 
-When a new release is ready to be shipped, a release branch is created from the develop branch. The release branch is used to stage and test the release before deploying it to production. Once the release is deployed, the release branch is merged back into both the main and develop branches.
-- Created when preparing for a new release.
-- Bug fixes and last-minute features are added here.
-- Merged into both master and develop branches.
-### Hotfix Branch: 
-If a critical bug is discovered in production, a hotfix branch is created from the main branch. The hotfix branch is used to fix the bug and deploy the fix to production quickly. Once the hotfix is deployed, the hotfix branch is merged back into both the main and develop branches.
-- Created to address critical issues in the production code.
-- Branched off from the master branch.
-- Merged into both master and develop branches.
+| Branch           | Purpose                                                | Origin                 | Merged Into                                            |
+|------------------|--------------------------------------------------------|------------------------|--------------------------------------------------------|
+| Main Branch      | Represents stable, production-ready code.              | -                      | -                                                      |
+|                  | Reflects what is deployed in production.               | -                      | -                                                      |
+| Develop Branch   | Integration branch for ongoing development.            | Main Branch            | Main Branch and Feature Branches                         |
+|                  | New features are implemented and tested here.         | -                      | -                                                      |
+| Feature Branches | Created for developing specific features.             | Develop Branch         | Develop Branch                                         |
+|                  | Branched off from the develop branch.                 | -                      | -                                                      |
+|                  | Merged back into the develop branch upon completion. | -                      | -                                                      |
+| Release Branch   | Created when preparing for a new release.             | Develop Branch         | Main Branch and Develop Branch                          |
+|                  | Used to stage and test the release.                   | -                      | -                                                      |
+|                  | Bug fixes and last-minute features added here.       | -                      | -                                                      |
+|                  | Merged into both main and develop branches.           | -                      | -                                                      |
+| Hotfix Branch    | Created to address critical issues in production.     | Main Branch            | Main Branch and Develop Branch                          |
+|                  | Branched off from the main branch.                    | -                      | -                                                      |
+|                  | Merged into both main and develop branches.           | -                      | -                                                      |
+
 
 ## Here are some additional details about the Git flow workflow
 
