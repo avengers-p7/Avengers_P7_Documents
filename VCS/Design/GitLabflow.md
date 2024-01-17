@@ -70,3 +70,8 @@ GitLab Flow offers a robust and efficient approach for collaborative development
 |-----------------|--------------------------------------|
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
+# Resources and References
+
+| Resource                                 | Content                                               |
+|------------------------------------------|-------------------------------------------------------|
+| [GitLab Flow Documentation](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) | GitLab official document to understand all concepts   |
