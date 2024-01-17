@@ -13,10 +13,12 @@ Welcome to the ScyllaDB Installation Guide! ScyllaDB is a highly performant and 
 
 ## Key Features
 
-* **Scalability:** Easily handle large amounts of data and growing workloads by scaling horizontally.
-* **Flexibility:** Adapt to diverse application needs with a NoSQL database model, offering flexibility in data modeling.
-* **Performance:** Achieve superior throughput and low-latency performance, making ScyllaDB ideal for high-performance applications.
-* **Fault Tolerance:** Ensure high availability and fault tolerance with a distributed architecture that distributes data across multiple nodes.
+|       Features     |             Description                     |
+|--------------------|-----------------------------------------|
+| **Scalability:**   |  Easily handle large amounts of data and growing workloads by scaling horizontally.                  | 
+| **Flexibility:**   |  Adapt to diverse application needs with a NoSQL database model, offering flexibility in data modeling.          |
+| **Performance:**   |  Achieve superior throughput and low-latency performance, making ScyllaDB ideal for high-performance applications. |
+| **Fault Tolerance:**   | Ensure high availability and fault tolerance with a distributed architecture that distributes data across multiple nodes. |
 
 The ScyllaDB Manual Setup Guide provides step-by-step instructions for installing, configuring, and setting up ScyllaDB on your system. This guide is intended to help users seamlessly deploy and manage ScyllaDB, a highly performant NoSQL database.
 
