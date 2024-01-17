@@ -51,7 +51,9 @@ GitOps is a modern approach to managing and deploying infrastructure and applica
 | **Grant.rs** | Manage Redshift/Postgres privileges in GitOps style |
 | **Gimlet** | The Flux-based Internal Developer Platform |
 ***
-# GitOps Workflows and Procedures
+# GitOps Workflows 
+![image](https://github.com/avengers-p7/Documentation/assets/156056413/e715aa24-9f48-465c-bfca-7a34a27e4a6f)
+
 *** 
 # Benefits of GitOps
 The underlying Git protocol isn't resource-intensive and is open source. It offers the following additional benefits:
