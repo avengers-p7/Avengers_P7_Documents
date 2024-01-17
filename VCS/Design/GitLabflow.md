@@ -26,17 +26,17 @@ In today's fast-paced software development world, teams need a way to work toget
 |--------------------------|--------------------------------------------| 
 | Purpose                  | Created for new features or fixes. Enables isolated work without affecting the main code. Branches off directly from the "main" branch.    |
 
-| **Issue Tracking**           | **Description**                                            |
-|--------------------------|--------------------------------------------| 
-| Integration              | Link each feature branch to an issue in the issue tracker. Provides context for code changes and enhances team communication.|
+| **Issue Tracking**              | **Description**                                            |
+|-----------------------------|--------------------------------------------| 
+| Integration                 | Link each feature branch to an issue in the issue tracker. Provides context for code changes and enhances team communication.|
 
-| **Review and Merge**         | **Description**                                          |
-|--------------------------|--------------------------------------------| 
-| Process                  | Create a merge request when a feature branch is ready. Triggers a code review process for quality assurance. Catches potential problems before merging into the main branch.|
+| **Review and Merge**              | **Description**                                          |
+|------------------------------|--------------------------------------------| 
+| Process                      | Create a merge request when a feature branch is ready. Triggers a code review process for quality assurance. Catches potential problems before merging into the main branch.|
 
-| **Pre-production Environments** | **Description**                                        |
-|--------------------------|--------------------------------------------| 
-| Implementation           | Supports separate branches for staging and production environments. Allows thorough testing before releasing changes to users.|
+| **Pre-production Environments**      | **Description**                                        |
+|---------------------------------|--------------------------------------------| 
+| Implementation                  | Supports separate branches for staging and production environments. Allows thorough testing before releasing changes to users.|
 
 
 # Best practices in GitLab flow
