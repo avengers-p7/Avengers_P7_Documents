@@ -46,8 +46,9 @@ GitHub authorization refers to the process of controlling and managing access to
 | **Members** of an organization have certain privileges within the organization itself. They can be assigned roles such as member, billing manager, or owner, each with different levels of control over the organization's settings and resources. | Users with **read** access can view the repository's contents, but they cannot make modifications. This level of access is suitable for those who need to review the code but not necessarily contribute. |
 | **Teams** are groups of organization members with specific access permissions to repositories. | Users with **write** access can make changes to the repository, create new branches, and open pull requests. |
 | **Outside collaborators** are individuals who are not members of the organization but are granted access to specific repositories. | Users with **admin** access have full control over the repository. They can manage access, settings, and perform administrative tasks such as changing repository visibility or deleting the repository. |
-|                          | **Collaborators** are individuals or teams with specific access rights (read, write, admin) assigned by the repository owner. |
+| The **owner** is the user who created the organization or an existing member who has been assigned the owner role. Organization owners have full administrative control over the entire organization, including its repositories and settings.                        | At the repository level, the **owner** is the individual or organization that initially creates the repository.The repository **owner** has administrative privileges specific to that repository, such as managing collaborators, changing repository settings, and deleting the repository. |
 |                          | At the repository level, administrators can set up **branch protection rules** to control who can push directly to specific branches. |
+|                      | **Collaborators** are individuals or teams with specific access rights (read, write, admin) assigned by the repository owner.
 
 ***
 
