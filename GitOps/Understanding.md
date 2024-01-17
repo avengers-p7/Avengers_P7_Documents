@@ -67,9 +67,7 @@ Some disadvantages of GitOps, however, include these drawbacks:
 * GitOps requires training for teams unfamiliar with Git and version control.
 * GitOps is more suited for stateless applications, posing challenges for stateful workloads.
 * GitOps doesn't offer a way to manage authentication or other sensitive data without additional tooling.
-* There's the potential for application programming interface throttling, as GitOps consistently polls Git repositories.
-* Large teams that frequently make updates might push a change at the same time, writing to the same files simultaneously.
-* At scale, matching an environment's desired state to Git is difficult without more tools.
+
 ***
 ## Contact Information:
 | Name | Email address |
@@ -81,5 +79,6 @@ Some disadvantages of GitOps, however, include these drawbacks:
 | ------ | ----------- |
 | https://www.techtarget.com/searchitoperations/definition/GitOps  | Gitops Features |
 | https://www.site24x7.com/learn/what-is-gitops.html | Gitops Features |
+| https://about.gitlab.com/topics/gitops/gitops-workflow/ | Gitops workflow |
 | https://www.weave.works/technologies/gitops/  | Gitops Principles |
 
