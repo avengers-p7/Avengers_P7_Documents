@@ -3,28 +3,33 @@
 |--------|------------|---------|-----------------|----------------|
 |Shikha  | 11-01-2024 | v16    | Shikha          | 11-01-2024     |
 ---------------------------------------------------------------------------------------------------------------------------------------------
-# Introduction
+## Introduction
 PostgreSQL is a powerful open-source relational database management system (RDBMS). It is known for its extensibility, standards compliance, and support for SQL (Structured Query Language). 
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-# Key Features:
+## Key Features:
 | Feature | Description |
 |---------|-------------|
-| Open Source | PostgreSQL is an open-source relational database management system. |
-| Transaction Support | Ensures the execution of a series of operations as a single unit, providing atomicity and consistency. |
-| Concurrency Control | Manages simultaneous access to data to prevent conflicts and ensure data integrity in concurrent environments. |
-| Advanced Querying Capabilities | Supports complex queries, including the ability to  join tables, filter data, and aggregate results. |
-|  Replication and High  Availability | Offers mechanisms for duplicating data across multiple nodes to enhance reliability and availability. |         |
+| **Open Source** | PostgreSQL is an open-source relational database management system. |
+| **Transaction Support** | Ensures the execution of a series of operations as a single unit, providing atomicity and consistency. |
+| **Concurrency Control** | Manages simultaneous access to data to prevent conflicts and ensure data integrity in concurrent environments. |
+| **Advanced Querying Capabilities** | Supports complex queries, including the ability to  join tables, filter data, and aggregate results. |
+|  **Replication and High  Availability** | Offers mechanisms for duplicating data across multiple nodes to enhance reliability and availability. |         |
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-# PostgreSQL Architecture
+## PostgreSQL Architecture
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/20aebe9c-2452-4171-9153-015c35fbaf1b)
 
 
-# System Requirements:
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## System Requirements:
 | Aspect | Recommendation |
 |--------|----------------|
 |Processor/Instance Type | Dual-Core /t2.medium|
@@ -32,23 +37,27 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 | Disk Space | 16 GB or 2GB per core |
 | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
 
-# Important Ports:
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+### Important Ports
 | Inbound Traffic|	Description |
 |----|--------------------------------------------------------------------------------------|
 | 22 | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell |
-| 80 | It is a  port for communication over the internet between client and server |
 | 443 | It is a standard port for secure communication over the internet between client and server |
 | 5432 | Port for PostgreSQL |
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
 ## How to Setup/Install PostgreSQL
 
-# 1. Add PostgreSQL APT repository to your system.
+### 1. Add PostgreSQL APT repository to your system.
 ###  Step 1: Create the file repository configuration:
      sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 ###  Step 2: Import the repository signing key:
      wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
-# 2. Update the package lists:
+### 2. Update the package lists:
 ###  Update the package list to ensure it has the latest information about available packages
      sudo apt-get update
 
@@ -65,7 +74,7 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
  ### Verify Installation:
      psql -V
 
-#    Run PostgreSQL:
+##    Run PostgreSQL:
 ###  Show status PostgreSQL Service
      sudo systemctl status postgresql
      
@@ -87,7 +96,7 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 ### Stop PostgreSQL Service
     sudo systemctl stop postgresql
 
-#   Configure PostgreSQL Settings
+##   Configure PostgreSQL Settings
 
     sudo nano /etc/postgresql/<version>/main/postgresql.conf
 
@@ -97,11 +106,11 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-#  Monitoring
+##  Monitoring
    Monitoring, in the context of computer systems and software, refers to the continuous process of observing, gathering, and analyzing data 
    related to the performance, health, and behavior of a system or application. 
 
-#  Install pgAdmin:
+##  Install pgAdmin:
 ### Install the public key for the PgAdmin4 repository:
     curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
 
@@ -165,13 +174,13 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# Conclusion:
+## Conclusion:
   
 Congratulations! You have successfully installed and configured PostgreSQL on your system. PostgreSQL, with its powerful features and commitment to standards compliance, emerges as a reliable choice for your relational database needs. Dive into its extensive functionalities, including ACID compliance, high availability, and support for diverse data types. Leverage its stability and versatility to build robust and scalable applications. As an open-source solution, PostgreSQL offers a cost-effective and community-driven option for developers and enterprises. Explore the rich ecosystem of tools and extensions, and harness the potential of PostgreSQL to create high-performance and secure database-driven applications.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-# Contact Information
+## Contact Information
 
 | Shikha Tripathi | shikha.tripathi.snaatak@mygurukulam.co |
 |-----------------|----------------------------------------|
@@ -180,7 +189,7 @@ Congratulations! You have successfully installed and configured PostgreSQL on yo
 
 
 
-# References
+## References
 | Links | Description |
 |--------|-----------------|
 | https://www.postgresql.org/download/ | Prerequisites, Installation & Configuration |
