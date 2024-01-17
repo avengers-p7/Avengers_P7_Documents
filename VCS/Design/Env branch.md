@@ -9,7 +9,7 @@
 ### Environment Branch Workflow in VCS
 In version control systems, branching is a powerful feature that allows developers to work on new features or bug fixes without affecting the main codebase. This document describes an environment branch workflow in Git, which is a popular version control system. This workflow is based on creating separate branches for different environments, such as development, staging, and production.
 
-# Why we need Environment Branch
+# Need of Environment Branch
 The environment branch workflow is useful for teams that work on large projects with multiple environments. It helps to ensure that changes are properly tested and reviewed before being deployed to production. By using separate branches for each environment, teams can avoid conflicts and maintain a stable codebase.
 
 # Types of Environment Branches
@@ -24,13 +24,13 @@ The environment branch workflow is useful for teams that work on large projects 
 
 # Env Branch Flow
 The environment branch workflow involves the following steps:
-1. Create a new feature branch from the development branch.
-2. Make changes and commit them to the feature branch.
-2. Open a pull request to merge the feature branch into the development branch.
-3. Once the changes have been reviewed and tested, merge the feature branch into the staging branch.
-4. Test the changes in the staging environment.
-5. If the changes are successful, merge the staging branch into the production branch.
-6. Deploy the changes to the live site.
+* Create a new feature branch from the development branch.
+* Make changes and commit them to the feature branch.
+* Open a pull request to merge the feature branch into the development branch.
+* Once the changes have been reviewed and tested, merge the feature branch into the staging branch.
+* Test the changes in the staging environment.
+* If the changes are successful, merge the staging branch into the production branch.
+* Deploy the changes to the live site.
 
 <img width="750" length="500"  src="https://github.com/avengers-p7/Documentation/assets/79625874/caca1064-c250-4b4c-86e9-fc811f640394">
 
