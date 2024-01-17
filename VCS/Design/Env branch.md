@@ -34,7 +34,9 @@ The environment branch workflow involves the following steps:
 
 <img width="750" length="500"  src="https://github.com/avengers-p7/Documentation/assets/79625874/caca1064-c250-4b4c-86e9-fc811f640394">
 
- Advantages
+***
+ 
+# Advantages
 
 | Advantage          | Description                                                                                                     |
 | ------------------ | --------------------------------------------------------------------------------------------------------------- |
@@ -52,7 +54,7 @@ The environment branch workflow involves the following steps:
 | Overhead     | Creating and merging branches can introduce additional overhead to the development process.                   |
 | Delay        | There may be a delay between making changes and deploying them to the production environment.                   |
 
-# Conclusion: 
+# Conclusion 
 The environment branch workflow is a useful tool for teams that work on large projects with multiple environments. By using separate branches for each environment, teams can maintain a stable codebase, thoroughly test changes, and ensure that code is reviewed before being deployed to production. However, the workflow can be complex and add overhead to the development process.
 
 
