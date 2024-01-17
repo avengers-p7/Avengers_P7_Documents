@@ -1,9 +1,9 @@
 | Auhor | Created on |last updated| Document Version |
 | ----- | -----------| -----------|------------------
-| Nidhi | 15-01-24   |            |  V1               |
+| Nidhi | 15-01-24   | 17-01-24           |  V1               |
 
-**INTRODUCTION
-|-------------------------------------------------------------------------------------------------------------------|
+**INTRODUCTION**
+|------------------------------------------------------------------------------------------------------------------|
 GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
 
 |Features |DESCRIPTION|
@@ -53,11 +53,14 @@ Visit the official Git website and download the latest version of Git for Window
 ![Screenshot from 2024-01-15 19-05-19](https://github.com/avengers-p7/Documentation/assets/156644891/bc9444a5-5deb-4ff7-ac34-efe346e9e09d)
 
   
+
 2.**INSTALL**
 
 Run the downloaded installer and follow the on-screen instructions. The default settings are usually sufficient for most users.
 
 ![Screenshot from 2024-01-16 11-27-23](https://github.com/avengers-p7/Documentation/assets/156644891/a82a376b-0de6-4097-a457-59d3f7908ffa)
+
+
 
 3.**Create OrganiZation**
 
@@ -70,6 +73,7 @@ Run the downloaded installer and follow the on-screen instructions. The default 
 ![Screenshot from 2024-01-16 11-49-46](https://github.com/avengers-p7/Documentation/assets/156644891/3b22f335-68b1-4ac9-844c-12e547890994)
 
 
+
 4.**Now Create A Repository**
 |-----------------------|
 
@@ -78,6 +82,8 @@ Run the downloaded installer and follow the on-screen instructions. The default 
 ![Screenshot from 2024-01-16 11-52-38](https://github.com/avengers-p7/Documentation/assets/156644891/0f8d3b52-5233-4dcf-ae1b-94ef9e88ad20)
 
 ![Screenshot from 2024-01-16 14-06-28](https://github.com/avengers-p7/Documentation/assets/156644891/bd5c8a7a-5eb6-4594-adfd-a73ceb58e047)
+
+
 
 5.**NOW CREATE A TEAM**
 
