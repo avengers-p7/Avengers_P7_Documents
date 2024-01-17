@@ -52,7 +52,7 @@ GitOps is a modern approach to managing and deploying infrastructure and applica
 | **Gimlet** | The Flux-based Internal Developer Platform |
 ***
 # GitOps Workflows 
-![image](https://github.com/avengers-p7/Documentation/assets/156056413/e715aa24-9f48-465c-bfca-7a34a27e4a6f)
+<img width="600" length="300" alt="GitOps" src="https://github.com/avengers-p7/Documentation/assets/156056413/e715aa24-9f48-465c-bfca-7a34a27e4a6f">
 
 *** 
 # Benefits of GitOps
@@ -72,10 +72,6 @@ Some disadvantages of GitOps, however, include these drawbacks:
 * Large teams that frequently make updates might push a change at the same time, writing to the same files simultaneously.
 * At scale, matching an environment's desired state to Git is difficult without more tools.
 * GitOps doesn't offer a way to manage authentication or other sensitive data without additional tooling.
-
-*** 
-# GitOps Best Practices
-
 ***
 ***
 ## Contact Information:
