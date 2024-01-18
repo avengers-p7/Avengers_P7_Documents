@@ -49,20 +49,20 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 # API Installation
 ## 1. Install Dependencies:
 
-###  Install make:
+*Install make:*
 ```shell
 sudo apt update
 sudo apt install make
 ```
-###  Install pip:
+*Install pip:*
 ```shell
 sudo apt install python3-pip
 ```
     
-###  Install pylint:
+*Install pylint:*
      sudo apt install pylint
 
-###  Install poetry:
+*Install poetry:*
 
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
    *Install Poetry*
