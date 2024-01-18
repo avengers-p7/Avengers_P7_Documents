@@ -51,8 +51,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 
 *Install make:*
 ```shell
-sudo apt update
-sudo apt install make
+sudo apt install make -y 
 ```
 *Install pip:*
 ```shell
