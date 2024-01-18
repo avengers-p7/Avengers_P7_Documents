@@ -48,6 +48,9 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
  
 # API Installation
 ## 1. Clone Repository:
+```shell
+    git clone https://github.com/OT-MICROSERVICES/attendance-api.git
+```
 
 ## 2. API Setup Dependencies:
 Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
