@@ -228,4 +228,6 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 |     Pytest mock                  | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/)https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 |     psycopg2 Requirement         | https://stackoverflow.com/questions/71195823/poetry-python-how-to-install-psycopg2-with-postgres-running-from-docker
 |   Poetry Virtual Env (Error13)   | https://ask.replit.com/t/cant-install-poetry-using-pip-on-a-blank-repl/45586
+| Postgres Installation            | https://www.postgresql.org/download/linux/ubuntu/
+| Redis Installation               | https://redis.io/docs/install/install-redis/install-redis-on-linux/
 
