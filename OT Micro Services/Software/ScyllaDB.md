@@ -67,6 +67,12 @@ The ScyllaDB Manual Setup Guide provides step-by-step instructions for installin
 | ------------------------ |----------------------------|
 |         JDK-17           | ScyllaDB need JDK-11 or later verison.|
 
+# Architecture  
+Here is a snippet view showcasing the use of scylla-db in OT-Microservices.
+
+![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/57b0df34-d415-4c50-abc2-240add12e423)
+
+
 ---
 
 # ScyllaDB Installation Guide
