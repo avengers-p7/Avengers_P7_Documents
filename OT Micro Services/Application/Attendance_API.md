@@ -208,7 +208,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
    
    **Solution -** Resolved problem by modifying config.yaml to fix connectivity issues with PostgreSQL and Redis.
 
-4. **Problem -** Encountered an issue running make build as Poetry struggled to install dependencies without a virtual environment.
+4. **Problem -** Encountered an Error13 while running make build as Poetry struggled to install dependencies without a virtual environment.
 
    **Solution -** Resolved compatibility issues by utilizing Python 3.11, then used a virtual environment to successfully install all required dependencies specified in the pyproject.toml file.
 
