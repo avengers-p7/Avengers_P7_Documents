@@ -35,18 +35,14 @@ GitOps is a modern approach to managing and deploying infrastructure and applica
 | **ArgoCD** | Declarative continuous deployment for Kubernetes |
 | **Flux** | Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit |
 | **Jenkins X** | a CI/CD platform for Kubernetes that provides pipeline automation, built-in GitOps and preview environments. |
-| **Atlantis** | Terraform pull request automation |
+| **BuildPiper** | BuildPiper is IDP capable of CI/CD , GitOps , JiraOps , etc.  
 | **Autoapply** | Automatically apply changes from a Git repository to a Kubernetes cluster |
-| **CloudBees Rollout** | Feature Flag as-a-Service that leverages GitOps & Config-as-Code (commercial product from CloudBees) |
 | **Helm Operator** | Automates Helm Chart releases in a GitOps manner |
 | **Flagger** | Progressive delivery Kubernetes operator (Canary, A/B testing and Blue/Green deployments automation) |
 | **KubeStack** | GitOps framework using Terraform for Cloud Kubernetes distros (AKS, GKE, and EKS) with CI/CD examples for common tools. |
-| **Sceptre** | Sceptre is a tool to drive AWS CloudFormation as part of a CI/CD pipeline by using Hooks |
-| **Weave GitOps OSS** | Weave GitOps is a simple open source developer platform for people who want cloud native applications, without needing Kubernetes expertise. |
-| **Weave GitOps Enterprise** | Weave GitOps Enterprise is a continuous operations product that makes it easy to deploy and manage Kubernetes clusters and applications at scale in any environment. (commercial product from Weaveworks) |
+| **Weave GitOps** | Weave GitOps is a simple open source developer platform for people who want cloud native applications, without needing Kubernetes expertise. |
 | **Werf** | GitOps tool with advanced features to build images and deploy them to Kubernetes (integrates with any existing CI system) |
 | **PipeCD** | Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications |
-| **Grant.rs** | Manage Redshift/Postgres privileges in GitOps style |
 | **Gimlet** | The Flux-based Internal Developer Platform |
 ***
 # GitOps Workflows 
