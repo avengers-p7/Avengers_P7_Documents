@@ -47,7 +47,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
    | 22 | Port 22 to establish an SSH connection to an EC2 |
  
 # API Installation
-## 1. Install Dependencies:
+## 1. API Setup Dependencies:
 Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link here.
 
 1) *Install make:*
@@ -117,7 +117,8 @@ sudo apt-get install liquibase
 
 <img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
 
-
+6) *Install Gunicorn*
+Prior to running the application, it's essential to install Gunicorn
 
 ## 2.  Building and running:
 1) *Run Migrations*
