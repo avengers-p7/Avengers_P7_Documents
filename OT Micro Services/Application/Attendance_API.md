@@ -172,8 +172,8 @@ You may further test your API methods using swagger. If test cases are passed, r
 2. **Use OAuth for SSO:** Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
 
 #  Problems Faced
-1. In the context of pytest, the "mocker" fixture refers to a fixture provided by the pytest-mock plugin. This fixture allows you to create and manage mocks in your test functions. A mock is a simulated object that mimics the behavior of a real object but allows you to control its responses and interactions during testing.
-The problem was resolved by installing `pip install pytest-mock`
+1. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
+   **Solution -** The problem was resolved by installing the pytest-mock plugin using the command: `pip install pytest-mock`. The plugin provides a "mocker" fixture for creating and managing mocks in test functions.
 
 
 <img width="1186" alt="Screenshot 2024-01-11 at 11 16 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/97e0f816-7a19-4bbf-b1af-c35bf95a1b26">
