@@ -131,8 +131,10 @@ sudo apt-get install liquibase
   
 <img width="1132" alt="Screenshot 2024-01-19 at 2 51 00 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f8fe40c-d9af-4d95-9232-0ce31cb761e6">
 
-   
+* To ensure Poetry runs without errors, install psycopg by running `poetry add psycopg2-binary`. Additionally, you may need to install python3.11-dev using `apt-get install python3.11-dev`.
+
 * Execute the `make build` command to install necessary dependencies using Poetry.
+* To inspect the installed dependencies by Poetry, you can use the command `poetry show`.
    
 4)  *Run Application*
 *  To Load your application on gunicorn server and make it available for incoming HTTP request you may run this following command:
