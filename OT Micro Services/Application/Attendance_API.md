@@ -102,7 +102,8 @@ sudo apt install redis-server
    
 Liquibase helps in versioning and managing database schema changes in a flexible and automated way.
 
-* Ensure Java is installed as a prerequisite for Liquibase. You can use this link to install Java: https://www.java.com/en/download/help/linux_install.html#Java%20for%20Linux%20Platforms
+* Ensure Java is installed as a prerequisite for Liquibase. You can use this link [here](https://www.java.com/en/download/help/linux_install.html#Java%20for%20Linux%20Platforms)
+ to install Java.
   
 ```shell
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg && \
