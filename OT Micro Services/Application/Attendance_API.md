@@ -180,7 +180,9 @@ You may further test your API methods using swagger. If test cases are passed, r
 <img width="1186" alt="Screenshot 2024-01-11 at 11 16 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/97e0f816-7a19-4bbf-b1af-c35bf95a1b26">
 
 
-2. Apart from this, Various other issues were encountered during the project, including multiple errors in pylint analysis and poetry dependency installation. I addressed these by individually installing each required package. Additionally, there were some connectivity issues with PostgreSQL and Redis, which were resolved by modifying the configuration in the config.yaml file. The file was initially set up to connect to PostgreSQL and Redis containers. 
+2. **Problem -** Encountered issues in pylint analysis, poetry dependency installation, and connectivity with PostgreSQL and Redis during the project.
+
+   **Solution -** Resolved pylint and dependency problems by individually installing required packages. Modified config.yaml to fix connectivity issues with PostgreSQL and Redis containers.
 
 # Contact Information
 
