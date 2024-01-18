@@ -68,17 +68,15 @@ Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration fi
 <img width="960" alt="Screenshot 2024-01-19 at 1 28 04 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cd0a1807-5864-4ae5-92e7-c9aca68e664f">
 
     
+4) *Install Postgres*
 
-## 2. Install Pre-Requisites:
 *  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
-*Install Postgres*
 ```shell
 sudo apt update
 sudo apt install postgresql
 ```
 <img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
-
 
 Create Database and user
 ```shell
@@ -93,7 +91,7 @@ To alter the password you may use the following command
 ```shell
 ALTER USER postgres WITH PASSWORD 'password';
 ``` 
-*Install Redis* 
+5) *Install Redis* 
 ```shell
 sudo apt install redis-server
 ```
@@ -103,7 +101,7 @@ Liquibase, it is an open-source database-independent library for tracking, manag
 helps in versioning and managing database schema changes in a flexible and automated way.
 
     
-*Install Liquibase*
+6) *Install Liquibase*
 
 Ensure that Java is installed as a prerequisite for Liquibase.
 ```shell
@@ -123,12 +121,16 @@ To establish the connect between liquibase and postgres you need to make changes
 
 
 
-## 3.  Run Migrations:
+## 2.  Building and running:
+1) *Run Migrations*
 *  Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
-## 4.  Run the Application:
+2) *Make build*
+   Execute the `make build` command to install necessary dependencies using Poetry.
+   
+4)  *Run Application*
 *  To Load your application on gunicorn server and make it available for incoming HTTP request you may run this following command:
 ```shell
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
