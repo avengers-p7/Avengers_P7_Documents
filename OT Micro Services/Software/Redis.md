@@ -4,9 +4,11 @@
 | --------------- | --------------| -----------|----------------- | -------------- |
 | Khushi Malhotra |  09 Jan 2024  |  Version 1 | Khushi Malhotra  | 11 Jan 2024    |
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/8b4c51f4-dcfd-480a-928c-606797276a4a)  
 
-# Introduction
+# Introduction  
 --------------------------------------------------------------------------------------------------------------------
+
 Redis is an open-source, in-memory data structure. Redis stores data in memory and supports a mechanism to persist data to disk. Redis is popular for caching, session management, real-time analytics, and pub/sub applications.
 
 
