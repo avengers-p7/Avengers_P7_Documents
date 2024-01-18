@@ -187,11 +187,13 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 2. **Use OAuth for SSO:** Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
 
 #  Troubleshoot
-1. **Problem -
+1. **Problem -** The error suggests that psycopg2 requires pg_config to be available in the system. pg_config is a utility that is part of the PostgreSQL installation and is necessary for building Python packages that depend on it.
+
+   **Solution -** Installed psycopg2 using poetry along with python3-dev libpq-dev.
 <img width="1401" alt="Screenshot 2024-01-19 at 2 53 54 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/2e5908f1-b7e3-4b4c-bdc5-90928ddbdf7c">
 **
 
-2. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
+3. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
    
    **Solution -** The problem was resolved by installing the pytest-mock plugin using the command: `pip install pytest-mock`. The plugin provides a "mocker" fixture for creating and managing mocks in test functions.
 
@@ -199,9 +201,9 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 <img width="1186" alt="Screenshot 2024-01-11 at 11 16 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/97e0f816-7a19-4bbf-b1af-c35bf95a1b26">
 
 
-3. **Problem -** Encountered issues in pylint analysis, poetry dependency installation, and connectivity with PostgreSQL and Redis during the project.
-
-   **Solution -** Resolved pylint and dependency problems by individually installing required packages. Modified config.yaml to fix connectivity issues with PostgreSQL and Redis containers.
+3. **Problem -** Encountered issues in loading application through gunicorn.
+   
+   **Solution -** Resolved problem by modifying config.yaml to fix connectivity issues with PostgreSQL and Redis containers.
 
 # Contact Information
 
@@ -215,5 +217,6 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 |     Error Handling               | https://bobbyhadz.com/blog/disable-missing-module-docstring-pylint
 |     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        
 |     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/)https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
+|     psycopg2 Requirement         | https://stackoverflow.com/questions/71195823/poetry-python-how-to-install-psycopg2-with-postgres-running-from-docker
 
 
