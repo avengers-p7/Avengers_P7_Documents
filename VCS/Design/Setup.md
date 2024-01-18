@@ -66,6 +66,8 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 Now github ready to use 
 
+## showing :- How to Create an Organization
+
 ## Now open your organisation as showing in image
 
 
