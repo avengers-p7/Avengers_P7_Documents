@@ -85,16 +85,16 @@ sudo apt install postgresql
 <img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
 
 
-To create Database and user
+Create Database and user
 ```shell
 sudo -u postgres psql
 ```
 ```shell
 CREATE DATABASE attendance_db;
 ``` 
-NOTE: remember to alter the superuser password based on the config.yaml file. Otherwise, the connection would not be established. 
+NOTE: Remember to alter the superuser password based on the config.yaml file. Otherwise, the connection would not be established. 
 
-To Alter the password you may use the following command
+To alter the password you may use the following command
 ```shell
 ALTER USER postgres WITH PASSWORD 'password';
 ``` 
