@@ -173,9 +173,18 @@ This section shows how to set up the master node with password authentication.
     sudo systemctl status redis-server
 
 ### Redis CLI Authentication and Access
+Data Security: It safeguards your data from unauthorized access, preventing breaches, tampering, or deletion. This is crucial for protecting sensitive information stored in Redis.
+Access Control: You can grant permission to specific users or groups, limiting their access to certain commands or data sets. This prevents misuse and ensures users only interact with what they need.
+Operational Safety: Authentication guards against accidental or malicious actions by authorized users. Mistakes or misuse can affect Redis performance and data integrity, which authentication helps mitigate.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/59c56b34-1f5f-4540-8114-1318493348f2)
 
+| Step                        | Description                                                                                                              |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **Server Connection**       | The user connects to the Redis server using the `redis-cli` command. This initiates the command-line interface for interacting with Redis. |
+| **Authentication Requirement** | The initial "ping pong" command fails with a "NOAUTH Authentication required" error. This indicates that the server has authentication enabled, meaning clients need to provide credentials before accessing data. |
+| **Authentication Attempt**  | The user attempts to authenticate using the `AUTH password` command, providing the correct password. The server responds with "OK," confirming successful authentication. |
+| **Access Granted**          | Once authenticated, the user can execute Redis commands, such as `ping`, which now returns "PONG" as expected.             |
 
     
 # Conclusion
