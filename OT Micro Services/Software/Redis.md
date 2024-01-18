@@ -71,16 +71,10 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 # Redis Setup Guide
 --------------------------------------------------------------------------------------------------------------------
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/1f731c1d-e0d3-4f91-aa93-3f9ac6b8830e)
+Here is a snippet view showcasing the use of Redis in OT-Microservices.
 
-#### Redis Masters: 
-The two nodes on the left-hand side of the diagram are the Redis masters. They accept read and write requests from clients.
+![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/57b0df34-d415-4c50-abc2-240add12e423)
 
-#### Redis Slaves: 
-The two nodes on the right-hand side of the diagram are the Redis slaves. They replicate the data from the masters and can be used for read-only operations or to promote a slave to a master in case of a master node failure.
-
-#### Sentinels: 
-The three nodes at the top of the diagram are the sentinels. They monitor the health of the Redis masters and will automatically promote a slave to a master if a master fails.
 
 
 # Install on Ubuntu/Debian
