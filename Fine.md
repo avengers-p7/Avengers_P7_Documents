@@ -1,5 +1,8 @@
-Khushi 17 Jan not present
-Vidhi Camera not on 18
-Nidhi X3 on 18
-Vishal not on time 18
-Harsit Not present 18
+| Name | Date | Region | 
+| ---- | ---- | ------ |
+| Khushi | 17 Jan | not present |
+| Vidhi | 18 Jan | Camera not  |
+| Nidhi | 18 Jan |X3 on |
+| Vishal | 18 Jan | not on time |
+| Harsit | 18 Jan | Not present |
+
