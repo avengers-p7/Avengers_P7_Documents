@@ -50,62 +50,6 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 ***
 
-## Git Installation for Local Development
-
-![Screenshot from 2024-01-18 12-48-44](https://github.com/avengers-p7/Documentation/assets/156644891/231eaf1d-1c82-4824-8de9-e9d6f70e0817)
-
-
-Step_1 Download git
-
-Visit the official Git website and download the latest version of Git for Windows.
-
-1. Browse to the official Git website: https://git-scm.com/downloads
-2. Click the download link for Windows and allow the download to complete.
-
-![Screenshot from 2024-01-18 12-44-13](https://github.com/avengers-p7/Documentation/assets/156644891/79a94c27-acc0-4685-9d8f-76b20368ed7a)
-
- 
-
-Step_2 Extract and Launch Git Installer
-
-Browse to the download location (or use the download shortcut in your browser). Double-click the file to extract and launch the installer.
-
-![Screenshot from 2024-01-18 12-51-22](https://github.com/avengers-p7/Documentation/assets/156644891/8aeeaafb-17f0-4ebb-9d05-42fad1e2619c)
-
-
-***
-
-Step_3 Allow the app to make changes to your device by clicking Yes on the User Account Control dialog that opens.
-
-![Screenshot from 2024-01-18 12-53-47](https://github.com/avengers-p7/Documentation/assets/156644891/355f65dc-be35-43a5-a3d6-9e7284451e09)
-
-
-Step_4 Review the GNU General Public License, and when you’re ready to install, click Next.
-
-![Screenshot from 2024-01-18 12-55-11](https://github.com/avengers-p7/Documentation/assets/156644891/0631f84e-db7b-48ca-a87a-f13989d02f59)
-
-Step_5 The installer will ask you for an installation location. Leave the default, unless you have reason to change it, and click Next.
-
-![Screenshot from 2024-01-18 12-58-01](https://github.com/avengers-p7/Documentation/assets/156644891/0e834467-efcd-49c5-9b4f-5a4171f6dfc4)
-
-Step_6 The installer will offer to create a start menu folder. Simply click Next.
-
-![Screenshot from 2024-01-18 12-59-03](https://github.com/avengers-p7/Documentation/assets/156644891/87dafc1d-3ad5-4255-a844-3eb89676d786)
-
-
-Step_7 Once the installation is complete, tick the boxes to view the Release Notes or Launch Git Bash, then click Finish.
-
-![Screenshot from 2024-01-18 13-00-13](https://github.com/avengers-p7/Documentation/assets/156644891/e5b156c2-0348-49ed-a443-4233cb232ae5)
-
-
-## How to Launch Git in Windows
-
-
-Launch Git Bash Shell
-
-![Screenshot from 2024-01-18 13-02-43](https://github.com/avengers-p7/Documentation/assets/156644891/77213765-cc04-4f5a-b9a5-402aea681a67)
-
-
 ## INSTALLATION IS COMPLETE 
 
 Now We can use all features of github 
@@ -134,7 +78,7 @@ showing Create an Organization
 
 ***
 
-## No We Create a Repository**
+## No We Create a Repository
 
 ***
 
@@ -142,9 +86,11 @@ showing Create an Organization
 
 ***
 
+
 ![Screenshot from 2024-01-16 11-52-38](https://github.com/avengers-p7/Documentation/assets/156644891/0f8d3b52-5233-4dcf-ae1b-94ef9e88ad20)
 
 ***
+
 
 ![Screenshot from 2024-01-16 14-06-28](https://github.com/avengers-p7/Documentation/assets/156644891/bd5c8a7a-5eb6-4594-adfd-a73ceb58e047)
 
@@ -162,19 +108,102 @@ showing Create an Organization
 
 
 ***
+***
+## Git Installation for Local Development
+
+![Screenshot from 2024-01-18 12-48-44](https://github.com/avengers-p7/Documentation/assets/156644891/231eaf1d-1c82-4824-8de9-e9d6f70e0817)
+
+
+Step_1 Download git
+
+Visit the official Git website and download the latest version of Git for Windows.
+
+1. Browse to the official Git website: https://git-scm.com/downloads
+   
+2. Click the download link for Windows and allow the download to complete.
+
+![Screenshot from 2024-01-18 12-44-13](https://github.com/avengers-p7/Documentation/assets/156644891/79a94c27-acc0-4685-9d8f-76b20368ed7a)
+
+
+ ***
+
+Step_2 Extract and Launch Git Installer
+
+
+Browse to the download location (or use the download shortcut in your browser). Double-click the file to extract and launch the installer.
+
+
+![Screenshot from 2024-01-18 12-51-22](https://github.com/avengers-p7/Documentation/assets/156644891/8aeeaafb-17f0-4ebb-9d05-42fad1e2619c)
+
+
+***
+
+Step_3 Allow the app to make changes to your device by clicking Yes on the User Account Control dialog that opens.
+
+
+![Screenshot from 2024-01-18 12-53-47](https://github.com/avengers-p7/Documentation/assets/156644891/355f65dc-be35-43a5-a3d6-9e7284451e09)
+
+
+***
+
+Step_4 Review the GNU General Public License, and when you’re ready to install, click Next.
+
+
+![Screenshot from 2024-01-18 12-55-11](https://github.com/avengers-p7/Documentation/assets/156644891/0631f84e-db7b-48ca-a87a-f13989d02f59)
+
+***
+
+Step_5 The installer will ask you for an installation location. Leave the default, unless you have reason to change it, and click Next.
+
+
+![Screenshot from 2024-01-18 12-58-01](https://github.com/avengers-p7/Documentation/assets/156644891/0e834467-efcd-49c5-9b4f-5a4171f6dfc4)
+
+***
+
+Step_6 The installer will offer to create a start menu folder. Simply click Next.
+
+
+![Screenshot from 2024-01-18 12-59-03](https://github.com/avengers-p7/Documentation/assets/156644891/87dafc1d-3ad5-4255-a844-3eb89676d786)
+
+***
+
+
+Step_7 Once the installation is complete, tick the boxes to view the Release Notes or Launch Git Bash, then click Finish.
+
+
+
+![Screenshot from 2024-01-18 13-00-13](https://github.com/avengers-p7/Documentation/assets/156644891/e5b156c2-0348-49ed-a443-4233cb232ae5)
+
+***
+***
+
+## How to Launch Git in Windows
+
+
+Launch Git Bash Shell
+
+
+![Screenshot from 2024-01-18 13-02-43](https://github.com/avengers-p7/Documentation/assets/156644891/77213765-cc04-4f5a-b9a5-402aea681a67)
+
+***
+
+## NOW WE READY TO USE GIT 
 
 
 ## CONTACT INFORMATION 
+
 |NAME | EMAIL ID |
 |------|----------|
 |NIDHI BHARDWAJ| nidhi.bhardwaj.snaatak@mygurukulam.co |
-|---------------|--------------------------------------|
+
+***
 
 |LINKS | DESCRIPTIONS|
+|------|--------------|
 |https://docs.github.com/en |FOR DOCUMENTATIONS|
 |https://phoenixnap.com/kb/how-to-install-git-windows| FOR SETUP |
 
-
+***
 
 
 
