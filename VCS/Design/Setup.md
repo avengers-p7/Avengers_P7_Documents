@@ -220,7 +220,7 @@ Launch Git Bash Shell
 
 ***
 
-|LINKS | DESCRIPTIONS|
+|REFERENCES  | DESCRIPTIONS|
 |------|--------------|
 |https://docs.github.com/en |FOR DOCUMENTATION|
 |https://phoenixnap.com/kb/how-to-install-git-windows| FOR SETUP |
