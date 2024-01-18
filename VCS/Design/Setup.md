@@ -137,8 +137,8 @@ Run the downloaded installer and follow the on-screen instructions. The default 
 
 ***
 
-REFERENCES :- https://docs.github.com/en
-|----------------------------------------|
+REFERENCES :-https://docs.github.com/en
+|--------------------------------------|
 
 
 
