@@ -3,6 +3,9 @@
 | Khushi Malhotra | 16-01-2024  | 17-01-2024   |        v1          |
 ***
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/449e3787-fb85-4131-bdf2-4fc2154c60e8)
+
+
 # Introduction
 
 In today's fast-paced software development world, teams need a way to work together smoothly and efficiently, especially when it comes to branching and merging code. GitLab Flow is a simple but powerful branching strategy that helps teams stay organized and deliver features quickly.
@@ -21,13 +24,29 @@ In today's fast-paced software development world, teams need a way to work toget
 
 # GitLab flow Working
 
-| **Feature**     | **Description**                                      | 
-|--------------------------|--------------------------------------------| 
-|  Focus on Main Branch | Directly works with the "main" branch for simplicity. Keeps the version control streamlined.  |
-|  Feature Branches | Created for new features or fixes. Enables isolated work without affecting the main code. Branches off directly from the "main" branch. |
-|  Issue Tracking  | Link each feature branch to an issue in the issue tracker. Provides context for code changes and enhances team communication. |
-| Review and Merge | Create a merge request when a feature branch is ready. Triggers a code review process for quality assurance. Catches potential problems before merging into the main branch. |
-| Pre-production Environment |  Supports separate branches for staging and production environments. Allows thorough testing before releasing changes to users. |
+![Untitled design (6)](https://github.com/avengers-p7/Documentation/assets/156056460/367974ae-6737-4d46-abfe-5b6257265a99)
+
+***
+
+| Branch Type                  | Description                                                                                                     |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| **Main Branch**              | The central branch representing the latest deployable code. Developers merge their feature branches into main after thorough testing and code review. |
+| **Feature Branches**         | Short-lived branches created by developers to work on specific features or bug fixes. Once complete, they are merged into main. |
+| **Environment Branches**     | Additional branches representing different deployment environments (e.g., staging or production). Created from main and used for further testing or configuration before deploying to production. (Optional) |
+
+
+| Workflow Step                                       | Description                                                                                                     |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Developers create feature branches from main.      | -                                                                                                               |
+| Changes are committed to the feature branch.        | Descriptive messages accompany each commit.                                                                     |
+| Code reviews are conducted on the feature branch.   | Ensures quality and adherence to standards.                                                                      |
+| Upon approval, the feature branch is merged into main. | -                                                                                                               |
+| CI/CD pipelines are triggered, running tests and building artifacts. | Automated processes ensure code integrity.                                                                    |
+| For environment branches, main is merged into the desired environment branch (e.g., staging). | Allows further testing or configuration before deploying to production. (Optional)                            |
+| Additional testing or configuration can be performed in the staging environment. | -                                                                                                               |
+| Once ready, the code from the environment branch is merged into production. | -                                                                                                               |
+| The production deployment takes place, making the new features or bug fixes available to users. | -                                                                                                               |
+
 
 ***
 
