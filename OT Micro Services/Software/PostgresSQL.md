@@ -200,6 +200,10 @@ PgAdmin will use your preferred web browser to display a graphical user interfac
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/680268ac-6867-4e7a-8682-719021fe7771)
 
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 **Create table using pgadmin dashboard:**
 
 
@@ -207,6 +211,8 @@ PgAdmin will use your preferred web browser to display a graphical user interfac
 
 
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### List all database:
