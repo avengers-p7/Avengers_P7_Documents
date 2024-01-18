@@ -2,16 +2,13 @@
 | ----- | -----------| -----------|------------------
 | Nidhi | 15-01-24   | 17-01-24           |  V1       
 
-*******
-**INTRODUCTION**
 ***
+# INTRODUCTION
 GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
 
 ***
 
-**FEATURES AND DESCRIPTION**
-
-***
+# FEATURES
 
 |FEATURES |DESCRIPTION|
 |---------|------------|
@@ -28,16 +25,9 @@ GitHub is a web-based platform and version control system that plays a crucial r
 
 ***
 
-Setup via Web browser
---------------------
-***
+## Setup via Web browser
 
-![Screenshot from 2024-01-15 19-05-19](https://github.com/avengers-p7/Documentation/assets/156644891/0c11a210-2ba9-4dd1-818c-de1b84b5497f)
-
-***
-1.Create a GitHub Account
----------------------
-
+Step_1 Create a GitHub Account
 Go to GitHub's website and sign up for a new account if you don't have one.
 
 ![Screenshot from 2024-01-15 18-52-23](https://github.com/avengers-p7/Documentation/assets/156644891/9bb7f8b4-3d71-41c3-aaf6-b347e3fb50d0)
