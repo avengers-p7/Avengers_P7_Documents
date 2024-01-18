@@ -47,7 +47,9 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
    | 22 | Port 22 to establish an SSH connection to an EC2 |
  
 # API Installation
-## 1. API Setup Dependencies:
+## 1. Clone Repository:
+
+## 2. API Setup Dependencies:
 Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
 
 1) *Install make:*
@@ -120,7 +122,7 @@ sudo apt-get install liquibase
 
 <img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
 
-## 2.  Building and running:
+## 3.  Building and running:
 1) *Run Migrations*
    
 * Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
@@ -189,7 +191,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 <img width="1401" alt="Screenshot 2024-01-19 at 2 53 54 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/2e5908f1-b7e3-4b4c-bdc5-90928ddbdf7c">
 **
 
-3. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
+2. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
    
    **Solution -** The problem was resolved by installing the pytest-mock plugin using the command: `pip install pytest-mock`. The plugin provides a "mocker" fixture for creating and managing mocks in test functions.
 
@@ -197,7 +199,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 <img width="1186" alt="Screenshot 2024-01-11 at 11 16 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/97e0f816-7a19-4bbf-b1af-c35bf95a1b26">
 
 
-2. **Problem -** Encountered issues in pylint analysis, poetry dependency installation, and connectivity with PostgreSQL and Redis during the project.
+3. **Problem -** Encountered issues in pylint analysis, poetry dependency installation, and connectivity with PostgreSQL and Redis during the project.
 
    **Solution -** Resolved pylint and dependency problems by individually installing required packages. Modified config.yaml to fix connectivity issues with PostgreSQL and Redis containers.
 
