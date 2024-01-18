@@ -203,7 +203,13 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 
 3. **Problem -** Encountered issues in loading application through gunicorn.
    
-   **Solution -** Resolved problem by modifying config.yaml to fix connectivity issues with PostgreSQL and Redis containers.
+   **Solution -** Resolved problem by modifying config.yaml to fix connectivity issues with PostgreSQL and Redis.
+
+4. **Problem -** Encountered an issue running make build as Poetry struggled to install dependencies without a virtual environment.
+
+   **Solution -** Resolved compatibility issues by utilizing Python 3.11, then used a virtual environment to successfully install all required dependencies specified in the pyproject.toml file.
+
+   
 
 # Contact Information
 
@@ -218,5 +224,5 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 |     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        
 |     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/)https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 |     psycopg2 Requirement         | https://stackoverflow.com/questions/71195823/poetry-python-how-to-install-psycopg2-with-postgres-running-from-docker
-
+|     Poetry Virtual Env           | https://ask.replit.com/t/cant-install-poetry-using-pip-on-a-blank-repl/45586
 
