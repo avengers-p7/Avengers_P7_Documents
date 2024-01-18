@@ -175,7 +175,11 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 2. **Use OAuth for SSO:** Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
 
 #  Troubleshoot
-1. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
+1. **Problem -
+<img width="1401" alt="Screenshot 2024-01-19 at 2 53 54 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/2e5908f1-b7e3-4b4c-bdc5-90928ddbdf7c">
+**
+
+3. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
    
    **Solution -** The problem was resolved by installing the pytest-mock plugin using the command: `pip install pytest-mock`. The plugin provides a "mocker" fixture for creating and managing mocks in test functions.
 
