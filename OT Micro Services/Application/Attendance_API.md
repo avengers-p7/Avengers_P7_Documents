@@ -55,6 +55,10 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 sudo apt update
 sudo apt install make
 ```
+###  Install pip:
+```shell
+sudo apt install python3-pip
+```
     
 ###  Install pylint:
      sudo apt install pylint
