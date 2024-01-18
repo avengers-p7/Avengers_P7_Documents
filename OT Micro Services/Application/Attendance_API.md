@@ -125,12 +125,12 @@ To establish the connect between liquibase and postgres you need to make changes
 
 
 
-### Run Migrations:
+3. ## Run Migrations:
 *  Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
-### Run the Application:
+4. ## Run the Application:
 *  To Load your application on gunicorn server and make it available for incoming HTTP request you may run this following command:
 ```shell
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
