@@ -64,12 +64,11 @@ sudo apt install python3-pip
 sudo apt install pylint
 ```
      
-
 *Install poetry:*
 
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
    *Install Poetry*
-Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above.
+Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link here.
 
     ```shell
        curl -sSL https://install.python-poetry.org | python3 -
