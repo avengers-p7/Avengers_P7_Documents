@@ -61,7 +61,7 @@ sudo apt install python3-pip
      
 3) *Install poetry:*
 ```shell
-       curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration file.
 
@@ -99,6 +99,7 @@ sudo apt install redis-server
 
     
 6) *Install Liquibase*
+   
 Liquibase helps in versioning and managing database schema changes in a flexible and automated way.
 
 * Ensure that Java is installed as a prerequisite for Liquibase.
