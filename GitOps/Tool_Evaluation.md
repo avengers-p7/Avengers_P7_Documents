@@ -65,6 +65,13 @@ It provides functionality for modern approaches of CI, CD, GitOps, Observability
 | **Enterprises Support** | 3rd Party | 3rd Party | Yes | Yes |
 | **Documentation Quality** | Good | Good | Good | Developing |
 | **License** | Apache License 2.0 | Apache License 2.0 | Apache License 2.0 | Apache License 2.0 |
+| **Advanced Scaling** | Auto-scaling based on resource utilization| Manual scaling based on configuration | Auto-scaling based on demand | Auto-scaling based on workload |
+| **Secrets Management** | Integrated with Kubernetes secrets | Customizable secrets management | Integrated with Kubernetes secrets | Supports various secret management tools |
+| **Policy Enforcement** | Customizable RBAC and policies | Customizable RBAC and policies | Role-based access control (RBAC) | Role-based access control (RBAC) |
+| **Extensibility** | Plugins and custom controllers | Custom controllers and operators | Plugins and extensions | Plugin system for extensibility |
+| **Artifact Management** | Support for managing container images | Integrates with container registries | Integrated with artifact repositories | Supports various artifact repositories |
+| **Monitoring Integration** | Prometheus integration for monitoring | Prometheus and Grafana integration | Built-in monitoring and observability | Integration with popular monitoring tools |
+| **Pipeline Visualization** | Visual representation of deployment pipelines| Visual representation of GitOps workflows | Visual pipeline visualization | Visual representation of CI/CD workflows |
 
 ***
 
