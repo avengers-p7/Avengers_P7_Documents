@@ -166,8 +166,9 @@ showing Create an Organization
 
 ## CONTACT INFORMATION 
 |NAME | EMAIL ID |
+|------|----------|
 |NIDHI BHARDWAJ| nidhi.bhardwaj.snaatak@mygurukulam.co |
-
+|---------------|--------------------------------------|
 
 |LINKS | DESCRIPTIONS|
 |https://docs.github.com/en |FOR DOCUMENTATIONS|
