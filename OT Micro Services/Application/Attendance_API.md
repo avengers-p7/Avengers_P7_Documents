@@ -120,10 +120,8 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/liquibase-keyring.gpg] https
 ``` 
 ```shell
 sudo apt-get update
-``` 
-```shell
 sudo apt-get install liquibase
-```
+``` 
 <img width="1150" alt="Screenshot 2024-01-12 at 2 53 29 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f1bf824c-f540-4703-b254-ec87ccecef52">
 
 To establish the connect between liquibase and postgres you need to make changes in liquibase.properties file. This is how you may do it. 
