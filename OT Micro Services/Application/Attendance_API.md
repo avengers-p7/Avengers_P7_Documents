@@ -92,6 +92,10 @@ CREATE DATABASE attendance_db;
 ``` 
 NOTE: remember to alter the superuser password based on the config.yaml file. Otherwise, the connection would not be established. 
 
+To Alter the password you may use the following command
+```shell
+ALTER USER postgres WITH PASSWORD 'password';
+``` 
 *Install Redis* 
 ```shell
 sudo apt install redis-server
