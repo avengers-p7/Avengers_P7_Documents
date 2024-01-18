@@ -70,7 +70,7 @@ sudo apt install pylint
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
    *Install Poetry*
     ```shell
-       pip3 install poetry
+       curl -sSL https://install.python-poetry.org | python3 -
     ```
 <img width="627" alt="Screenshot 2024-01-12 at 2 54 09 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7d918115-faa1-4ff2-9a0e-0ee57a5a96c4">
 
