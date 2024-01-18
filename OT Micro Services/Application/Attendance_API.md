@@ -171,7 +171,7 @@ You may further test your API methods using swagger. If test cases are passed, r
 
 2. **Use OAuth for SSO:** Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
 
-#  Problems Faced
+#  Troubleshoot
 1. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
    
    **Solution -** The problem was resolved by installing the pytest-mock plugin using the command: `pip install pytest-mock`. The plugin provides a "mocker" fixture for creating and managing mocks in test functions.
