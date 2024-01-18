@@ -7,13 +7,13 @@
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/8b4c51f4-dcfd-480a-928c-606797276a4a)  
 
 # Introduction  
---------------------------------------------------------------------------------------------------------------------
+
 
 Redis is an open-source, in-memory data structure. Redis stores data in memory and supports a mechanism to persist data to disk. Redis is popular for caching, session management, real-time analytics, and pub/sub applications.
 
 
 # Purpose
---------------------------------------------------------------------------------------------------------------------
+
 - In-memory data structure store, used as:
 	- Cache
 	- Database
@@ -27,7 +27,7 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
  
 
 # Key Features
---------------------------------------------------------------------------------------------------------------------
+
 | **Features**   | **Description**                                                                |
 |-------------------|---------------------------------------------------------------------------|
 | **Speed**            | Data lives in RAM, not on disks, for **blazing-fast** access and response times. |
@@ -37,7 +37,7 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 
 # Software Overview
---------------------------------------------------------------------------------------------------------------------
+
 - Open-source (BSD licensed)
 - Written in ANSI C
 - Single-threaded architecture
@@ -45,7 +45,7 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 
 # System Requirements
---------------------------------------------------------------------------------------------------------------------
+
 #### The minimum requirements of a Redis infrastructure for non-productive OutSystems environments are the following:
 
 |   System Requirement              |             Minimum                        |
@@ -57,14 +57,14 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 
 # Important Ports
---------------------------------------------------------------------------------------------------------------------
+
 | Configuration       | Port  | 
 | ------------------- |-------|
 | Redis Default port  | 6379  |
          
                                                          
 # Dependencies
---------------------------------------------------------------------------------------------------------------------
+
 | Dependencies           | Description            | 
 | ---------------------- |------------------------|           
 | Run-time dependencies  | None                   |
@@ -72,7 +72,7 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 
 
 # Redis Setup Guide
---------------------------------------------------------------------------------------------------------------------
+
 Here is a snippet view showcasing the use of Redis in OT-Microservices.
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/57b0df34-d415-4c50-abc2-240add12e423)
@@ -80,7 +80,7 @@ Here is a snippet view showcasing the use of Redis in OT-Microservices.
 
 
 # Install on Ubuntu/Debian
---------------------------------------------------------------------------------------------------------------------
+
 You can install recent stable versions of Redis from the official [packages.redis.io](http://packages.redis.io/) APT repository.
 
 # Prerequisites
@@ -138,7 +138,7 @@ The Redis server responds with "PONG," indicating that it is indeed running and 
 
 
 ## Setup the Master Node
---------------------------------------------------------------------------------------------------------------------
+
 This section shows how to set up the master node with password authentication.
 - Connect to your master server over SSH.
 - Open the configuration file 
@@ -190,6 +190,8 @@ Operational Safety: Authentication guards against accidental or malicious action
 | **Authentication Requirement** | The initial "ping pong" command fails with a "NOAUTH Authentication required" error. This indicates that the server has authentication enabled, meaning clients need to provide credentials before accessing data. |
 | **Authentication Attempt**  | The user attempts to authenticate using the `AUTH password` command, providing the correct password. The server responds with "OK," confirming successful authentication. |
 | **Access Granted**          | Once authenticated, the user can execute Redis commands, such as `ping`, which now returns "PONG" as expected.             |
+
+***
 
 # Advantages and Disadvantges of Redis
 
