@@ -71,7 +71,7 @@ sudo apt install python3-pip
     ```
 <img width="627" alt="Screenshot 2024-01-12 at 2 54 09 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7d918115-faa1-4ff2-9a0e-0ee57a5a96c4">
 
-2. ## Install Pre-Requisites:
+## 2. Install Pre-Requisites:
 *  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
 *Install Postgres*
@@ -125,12 +125,12 @@ To establish the connect between liquibase and postgres you need to make changes
 
 
 
-3. ## Run Migrations:
+## 3.  Run Migrations:
 *  Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
-4. ## Run the Application:
+## 4.  Run the Application:
 *  To Load your application on gunicorn server and make it available for incoming HTTP request you may run this following command:
 ```shell
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
