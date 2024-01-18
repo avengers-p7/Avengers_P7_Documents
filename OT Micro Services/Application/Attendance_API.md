@@ -120,6 +120,11 @@ sudo apt-get install liquibase
 ```
 <img width="1150" alt="Screenshot 2024-01-12 at 2 53 29 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f1bf824c-f540-4703-b254-ec87ccecef52">
 
+To establish the connect between liquibase and postgres you need to make changes in liquibase.properties file. This is how you may do it. 
+
+<img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
+
+
 
 ### Run Migrations:
 *  Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
