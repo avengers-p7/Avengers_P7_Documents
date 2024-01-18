@@ -1,4 +1,4 @@
-| Auhor | Created on |last updated| Document Version |
+| Author | Created on |last updated| Document Version |
 | ----- | -----------| -----------|------------------
 | Nidhi | 15-01-24   | 17-01-24           |  V1       
 
@@ -25,17 +25,21 @@ GitHub is a web-based platform and version control system that plays a crucial r
 
 ***
 
-## Prerequisites
+## PREREQUISITES 
 
 1. Administrator privileges
+
 2. Access to a command-line
+
 3. Your favorite coding text editor
+
 4. Username and password for the Github website (optional)
 
 
 ## Setup via Web browser
 
 Step_1 Create a GitHub Account
+
 Go to GitHub's website and sign up for a new account if you don't have one.
 
 ![Screenshot from 2024-01-15 18-52-23](https://github.com/avengers-p7/Documentation/assets/156644891/9bb7f8b4-3d71-41c3-aaf6-b347e3fb50d0)
@@ -61,6 +65,12 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 ## INSTALLATION IS COMPLETE 
 
 Now github ready to use 
+
+## Now open your organisation as showing in image
+
+
+![Screenshot from 2024-01-18 18-08-30](https://github.com/avengers-p7/Documentation/assets/156644891/55d3a536-309b-4cfd-b616-e28bb80e2014)
+
 
 showing :- How to Create an Organization
 
@@ -210,7 +220,7 @@ Launch Git Bash Shell
 
 |LINKS | DESCRIPTIONS|
 |------|--------------|
-|https://docs.github.com/en |FOR DOCUMENTATIONS|
+|https://docs.github.com/en |FOR DOCUMENTATION|
 |https://phoenixnap.com/kb/how-to-install-git-windows| FOR SETUP |
 
 ***
