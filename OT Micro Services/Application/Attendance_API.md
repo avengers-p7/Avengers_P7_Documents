@@ -138,7 +138,8 @@ Prior to running the application, it's essential to install Gunicorn
 * To inspect the installed dependencies by Poetry, you can use the command `poetry show`.
    
 4)  *Run Application*
-<img width="235" alt="Screenshot 2024-01-19 at 3 17 02 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/2fdd87af-8ed9-4112-bc02-2f37f2b8c9f9">
+<img width="866" alt="Screenshot 2024-01-19 at 3 17 50 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c947b7c5-04c0-4732-b209-9414413af30d">
+
 
 *  To Load your application on gunicorn server and make it available for incoming HTTP request you may run this following command:
 ```shell
