@@ -113,6 +113,8 @@ helps in versioning and managing database schema changes in a flexible and autom
 
     
 *Install Liquibase*
+
+Ensure that Java is installed as a prerequisite for Liquibase.
 ```shell
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg && \
 cat liquibase-keyring.gpg | sudo tee /usr/share/keyrings/liquibase-keyring.gpg > /dev/null && \
