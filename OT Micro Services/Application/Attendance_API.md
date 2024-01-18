@@ -230,4 +230,5 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 |   Poetry Virtual Env (Error13)   | https://ask.replit.com/t/cant-install-poetry-using-pip-on-a-blank-repl/45586
 | Postgres Installation            | https://www.postgresql.org/download/linux/ubuntu/
 | Redis Installation               | https://redis.io/docs/install/install-redis/install-redis-on-linux/
+| Install Poetry                   | https://python-poetry.org/docs/#installing-with-the-official-installer
 
