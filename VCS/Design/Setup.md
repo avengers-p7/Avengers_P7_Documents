@@ -34,7 +34,7 @@ Go to GitHub's website and sign up for a new account if you don't have one.
 
 ***
 
-step_2 Verification
+Step_2 Verification
 
 Verify your email address to complete the registration process.
 
@@ -52,9 +52,9 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 ## INSTALLATION IS COMPLETE 
 
-Now We can use all features of github 
+Now github ready to use 
 
-showing Create an Organization
+showing :- How to Create an Organization
 
 
 ![Screenshot from 2024-01-16 11-35-53](https://github.com/avengers-p7/Documentation/assets/156644891/7644efd9-7d0b-44a3-a509-54d9ee14f811)
@@ -78,7 +78,7 @@ showing Create an Organization
 
 ***
 
-## No We Create a Repository
+## Showing : How to create Repository 
 
 ***
 
@@ -96,7 +96,7 @@ showing Create an Organization
 
 ***
 
-## NOW CREATE A TEAM 
+## Showing : How to create Team
 
 ***
 ![Screenshot from 2024-01-16 14-06-39](https://github.com/avengers-p7/Documentation/assets/156644891/2cb91edd-6eae-466c-bd97-508ea25173fc)
@@ -109,6 +109,8 @@ showing Create an Organization
 
 ***
 ***
+
+
 ## Git Installation for Local Development
 
 ![Screenshot from 2024-01-18 12-48-44](https://github.com/avengers-p7/Documentation/assets/156644891/231eaf1d-1c82-4824-8de9-e9d6f70e0817)
@@ -187,7 +189,7 @@ Launch Git Bash Shell
 
 ***
 
-## NOW WE READY TO USE GIT 
+## NOW WE ARE READY TO USE GIT 
 
 
 ## CONTACT INFORMATION 
