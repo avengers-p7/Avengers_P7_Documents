@@ -51,9 +51,10 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
 ### Install Dependencies:
 
 ###  Install make:
-    ```shell
-       sudo apt install make
-    ```
+```shell
+sudo apt update
+sudo apt install make
+```
     
 ###  Install pylint:
      sudo apt install pylint
