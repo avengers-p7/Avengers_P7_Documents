@@ -46,7 +46,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
    | 8080 | Attendance API port |
    | 22 | Port 22 to establish an SSH connection to an EC2 |
  
-# Building and Running
+# API Installation
 ## The process of building and running the Attendance API involves several steps
 ### Install Dependencies:
 
