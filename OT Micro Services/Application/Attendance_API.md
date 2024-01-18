@@ -188,7 +188,6 @@ You may further test your API methods using swagger. If test cases are passed, r
 
 |Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
 |---------------------------------|------------------------------------------------------------|
-|Shikha Tripathi                  |  shikha.tripathi.snaatak@mygurukulam.co                    |
 
 # References
 
