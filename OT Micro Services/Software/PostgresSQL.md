@@ -99,39 +99,6 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
      sudo systemctl restart postgresql
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-##  Monitoring
-   Monitoring, in the context of computer systems and software, refers to the continuous process of observing, gathering, and analyzing data 
-   related to the performance, health, and behavior of a system or application. 
-
-##  Install pgAdmin:
-### Install the public key for the PgAdmin4 repository:
-    curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
-
-###  Create the repository configuration file:
-     sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
-
-###  Update the package lists to synchronize the repository.
-     sudo apt update
-
-###  Run the following command to install pgAdmin:
-     sudo apt install pgadmin4
-
-###  After the GUI setup finishes, initiate the primary pgAdmin configuration with this command:
-     sudo /usr/pgadmin4/bin/setup-web.sh
-     
- ![image](https://github.com/avengers-p7/Documentation/assets/156056746/7f877ac4-460f-4fca-8561-4727ad5fe14d)
-
-
-###  To access the pgAdmin web-based interface, enter the following in your web browser’s address bar:
-     185.185.185.185/pgadmin4
-     
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/8f9948be-0f52-47f8-a357-fde25ef20a0d)
-
-
-
 ### Access PostgreSQL Prompt:
     sudo -u postgres psql
 
@@ -165,6 +132,83 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/33b5f515-21f8-42b7-b2ba-686b959e9623)
 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+##  Monitoring
+   Monitoring, in the context of computer systems and software, refers to the continuous process of observing, gathering, and analyzing data 
+   related to the performance, health, and behavior of a system or application. 
+
+
+   --------------------------------------------------------------------------------------------------------------------------------------------
+
+##  Install pgAdmin:
+### Install the public key for the PgAdmin4 repository:
+    curl -fsSL https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/pgadmin.gpg
+
+###  Create the repository configuration file:
+     sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+
+###  Update the package lists to synchronize the repository.
+     sudo apt update
+
+###  Run the following command to install pgAdmin:
+     sudo apt install pgadmin4
+
+###  After the GUI setup finishes, initiate the primary pgAdmin configuration with this command:
+     sudo /usr/pgadmin4/bin/setup-web.sh
+     
+ ![image](https://github.com/avengers-p7/Documentation/assets/156056746/7f877ac4-460f-4fca-8561-4727ad5fe14d)
+
+
+###  To access the pgAdmin web-based interface, enter the following in your web browser’s address bar:
+     185.185.185.185/pgadmin4
+     
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/8f9948be-0f52-47f8-a357-fde25ef20a0d)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+## pgAdmin Overview
+
+PgAdmin will use your preferred web browser to display a graphical user interface. You don’t need internet to view local servers. It will prompt you for a master password every time you open pgAdmin to get access. After getting access click Servers(1) on the left side to open up your PostgreSQL 16 server. If you don’t see a server, try restarting pgAdmin.
+
+![Screenshot from 2024-01-18 11-50-56](https://github.com/avengers-p7/Documentation/assets/156056746/30dcd278-3113-47f6-8bde-546941454c3a)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+**Open up your database to get a tree view menu according to the picture below. You will see a database named postgres. Selecting the database will bring up an activity dashboard to view traffic information.**
+
+
+![Screenshot from 2024-01-18 11-50-14](https://github.com/avengers-p7/Documentation/assets/156056746/168130a0-9eb8-4d9d-8796-be966a7a4c8b)
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+**You have access to useful tools by right-clicking on any object in the tree view menu. We can create a new database, schema, and tables. As well as viewing individual table data and customizing an existing table.**
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/680268ac-6867-4e7a-8682-719021fe7771)
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -188,4 +232,6 @@ Congratulations! You have successfully installed and configured PostgreSQL on yo
 |--------|-----------------|
 | https://www.postgresql.org/download/ | Prerequisites, Installation & Configuration |
 | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Software-Template | Document format followed from this link|
+| https://www.pgadmin.org/download/pgadmin-4-apt/ | Prerequisites, Installation & Configuration paadmin4|
+|https://medium.com/@malexmad/how-to-use-pgadmin-a9addc7ff46c | pgadmin Document format followed from this link |
 
