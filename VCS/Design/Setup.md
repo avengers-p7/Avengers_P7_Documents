@@ -77,12 +77,14 @@ Visit the official Git website and download the latest version of Git for Window
 
 Run the downloaded installer and follow the on-screen instructions. The default settings are usually sufficient for most users.
 
+
 ![Screenshot from 2024-01-16 11-27-23](https://github.com/avengers-p7/Documentation/assets/156644891/a82a376b-0de6-4097-a457-59d3f7908ffa)
 
 
 
 
 3.**Create OrganiZation**
+
 
 ![Screenshot from 2024-01-16 11-35-53](https://github.com/avengers-p7/Documentation/assets/156644891/7644efd9-7d0b-44a3-a509-54d9ee14f811)
 
@@ -104,6 +106,7 @@ Run the downloaded installer and follow the on-screen instructions. The default 
 
 
 4.**Now Create A Repository**
+
 
 
 ![Screenshot from 2024-01-16 11-51-31](https://github.com/avengers-p7/Documentation/assets/156644891/913f8f43-f11c-49c8-93de-c704f92bb4ea)
