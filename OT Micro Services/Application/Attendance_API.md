@@ -127,6 +127,10 @@ sudo apt-get install liquibase
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
 2) *Make build*
+* To successfully run the make command, ensure that your Makefile is configured as follows
+  
+<img width="1132" alt="Screenshot 2024-01-19 at 2 51 00 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f8fe40c-d9af-4d95-9232-0ce31cb761e6">
+
    
 * Execute the `make build` command to install necessary dependencies using Poetry.
    
