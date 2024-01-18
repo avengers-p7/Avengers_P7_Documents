@@ -86,6 +86,8 @@ sudo apt install postgresql
 To create Database and user
 ```shell
 sudo -u postgres psql
+```
+```shell
 CREATE DATABASE attendance_db;
 ``` 
 NOTE: remember to alter the superuser password based on the config.yaml file. Otherwise, the connection would not be established. 
