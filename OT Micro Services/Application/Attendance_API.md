@@ -47,7 +47,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
    | 22 | Port 22 to establish an SSH connection to an EC2 |
  
 # API Installation
-## 1.Install Dependencies:
+## 1. Install Dependencies:
 
 ###  Install make:
 ```shell
