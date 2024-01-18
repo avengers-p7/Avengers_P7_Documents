@@ -48,7 +48,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
  
 # API Installation
 ## 1. API Setup Dependencies:
-Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link here.
+Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
 
 1) *Install make:*
 ```shell
