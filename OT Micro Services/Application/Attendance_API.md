@@ -57,9 +57,8 @@ sudo apt install make -y
 ```shell
 sudo apt install python3-pip
 ```
-
      
-*Install poetry:*
+3) *Install poetry:*
 
 *  Use the `make build` command to install all the necessary dependencies using Poetry.
    *Install Poetry*
