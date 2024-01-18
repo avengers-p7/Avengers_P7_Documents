@@ -73,7 +73,7 @@ sudo apt install pylint
        curl -sSL https://install.python-poetry.org | python3 -
     ```
     Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration file.
-    <img width="627" alt="Screenshot 2024-01-12 at 2 54 09 PM" src="https://github.com/avengers-    p7/Documentation/assets/156056349/7d918115-faa1-4ff2-9a0e-0ee57a5a96c4">
+<img width="627" alt="Screenshot 2024-01-12 at 2 54 09 PM" src="https://github.com/avengers-  p7/Documentation/assets/156056349/7d918115-faa1-4ff2-9a0e-0ee57a5a96c4">
 
 ## 2. Install Pre-Requisites:
 *  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
