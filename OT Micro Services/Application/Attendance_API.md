@@ -70,7 +70,7 @@ Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration fi
     
 4) *Install Postgres*
 
-*  For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
+For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
 ```shell
 sudo apt update
@@ -78,7 +78,7 @@ sudo apt install postgresql
 ```
 <img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
 
-Create Database and user
+* Create Database and user
 ```shell
 sudo -u postgres psql
 ```
@@ -87,7 +87,7 @@ CREATE DATABASE attendance_db;
 ``` 
 NOTE: Remember to alter the superuser password based on the config.yaml file. Otherwise, the connection would not be established. 
 
-To alter the password you may use the following command
+* To alter the password you may use the following command
 ```shell
 ALTER USER postgres WITH PASSWORD 'password';
 ``` 
@@ -97,13 +97,11 @@ sudo apt install redis-server
 ```
 <img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
 
-Liquibase, it is an open-source database-independent library for tracking, managing, and applying database schema changes. Liquibase 
-helps in versioning and managing database schema changes in a flexible and automated way.
-
     
 6) *Install Liquibase*
+Liquibase helps in versioning and managing database schema changes in a flexible and automated way.
 
-Ensure that Java is installed as a prerequisite for Liquibase.
+* Ensure that Java is installed as a prerequisite for Liquibase.
 ```shell
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg && \
 cat liquibase-keyring.gpg | sudo tee /usr/share/keyrings/liquibase-keyring.gpg > /dev/null && \
@@ -115,7 +113,7 @@ sudo apt-get install liquibase
 ``` 
 <img width="1150" alt="Screenshot 2024-01-12 at 2 53 29 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f1bf824c-f540-4703-b254-ec87ccecef52">
 
-To establish the connect between liquibase and postgres you need to make changes in liquibase.properties file. This is how you may do it. 
+* To establish the connect between liquibase and postgres you need to make changes in liquibase.properties file. This is how you may do it. 
 
 <img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
 
@@ -124,24 +122,24 @@ To establish the connect between liquibase and postgres you need to make changes
 ## 2.  Building and running:
 1) *Run Migrations*
    
-Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
+* Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
 2) *Make build*
    
-Execute the `make build` command to install necessary dependencies using Poetry.
+* Execute the `make build` command to install necessary dependencies using Poetry.
    
 4)  *Run Application*
 *  To Load your application on gunicorn server and make it available for incoming HTTP request you may run this following command:
 ```shell
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ```
-Once the setup is done, you can access the swagger page on http://localhost:8080/apidocs/ and track your endpoints. The page would look something like this 
+* Once the setup is done, you can access the swagger page on http://localhost:8080/apidocs/ and track your endpoints. The page would look something like this 
 
 <img width="1344" alt="Screenshot 2024-01-11 at 10 46 38 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/5f41585e-65f1-4e2e-81bf-ec72377a65b9">
 
-You may further test your API methods using swagger. If test cases are passed, results should look like this:
+* You may further test your API methods using swagger. If test cases are passed, results should look like this:
 
 <img width="1317" alt="Screenshot 2024-01-11 at 10 47 56 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3537c15b-df10-436b-bffa-134a1baa8cbe">
 
