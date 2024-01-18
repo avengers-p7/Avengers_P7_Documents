@@ -227,5 +227,5 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 |     Attendance Documentation     | https://github.com/OT-MICROSERVICES/attendance-api/tree/main        
 |     Error Handling               | https://pytest-with-eric.com/introduction/fixture-mocker-not-found/)https://pytest-with-eric.com/introduction/fixture-mocker-not-found/
 |     psycopg2 Requirement         | https://stackoverflow.com/questions/71195823/poetry-python-how-to-install-psycopg2-with-postgres-running-from-docker
-|     Poetry Virtual Env           | https://ask.replit.com/t/cant-install-poetry-using-pip-on-a-blank-repl/45586
+|   Poetry Virtual Env (Error13)   | https://ask.replit.com/t/cant-install-poetry-using-pip-on-a-blank-repl/45586
 
