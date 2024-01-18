@@ -3,7 +3,7 @@
 | Khushi Malhotra | 16-01-2024  | 17-01-2024   |        v1          |
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/48e501b0-c7f1-44cb-9893-593840731d61)
 # Introduction
 Gitflow is an alternative Git branching model that involves the use of feature branches and multiple primary branches. It was first published and made popular by Vincent Driessen at nvie. 
 Gitflow can be used for projects that have a scheduled release cycle and for the DevOps best practice of continuous delivery.
