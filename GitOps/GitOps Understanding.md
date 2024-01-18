@@ -79,6 +79,6 @@ Some disadvantages of GitOps, however, include these drawbacks:
 | ------ | ----------- |
 | https://www.techtarget.com/searchitoperations/definition/GitOps  | Gitops Features |
 | https://www.site24x7.com/learn/what-is-gitops.html | Gitops Features |
-| https://dev.to/arafetki/gitops-infra-as-code-done-right-2ojg | Gitops workflow |
+| https://dev.to/arafetki/gitops-infra-as-code-done-right-2ojg | Gitops Workflow |
 | https://www.weave.works/technologies/gitops/  | Gitops Principles |
 
