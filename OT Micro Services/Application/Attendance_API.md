@@ -48,6 +48,7 @@ Swagger Integration: Swagger is integrated for API documentation, making it easy
  
 # API Installation
 ## 1. Install Dependencies:
+Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link here.
 
 1) *Install make:*
 ```shell
@@ -59,11 +60,6 @@ sudo apt install python3-pip
 ```
      
 3) *Install poetry:*
-
-*  Use the `make build` command to install all the necessary dependencies using Poetry.
-   *Install Poetry*
-Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link here.
-
     ```shell
        curl -sSL https://install.python-poetry.org | python3 -
     ```
