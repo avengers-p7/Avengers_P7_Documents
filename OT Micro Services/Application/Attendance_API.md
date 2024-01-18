@@ -173,6 +173,7 @@ You may further test your API methods using swagger. If test cases are passed, r
 
 #  Problems Faced
 1. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
+   
    **Solution -** The problem was resolved by installing the pytest-mock plugin using the command: `pip install pytest-mock`. The plugin provides a "mocker" fixture for creating and managing mocks in test functions.
 
 
