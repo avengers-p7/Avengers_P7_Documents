@@ -102,7 +102,8 @@ sudo apt install redis-server
    
 Liquibase helps in versioning and managing database schema changes in a flexible and automated way.
 
-* Ensure that Java is installed as a prerequisite for Liquibase.
+* Ensure Java is installed as a prerequisite for Liquibase. You can use this link to install Java: https://www.java.com/en/download/help/linux_install.html#Java%20for%20Linux%20Platforms
+  
 ```shell
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg && \
 cat liquibase-keyring.gpg | sudo tee /usr/share/keyrings/liquibase-keyring.gpg > /dev/null && \
@@ -117,9 +118,6 @@ sudo apt-get install liquibase
 * To establish the connect between liquibase and postgres you need to make changes in liquibase.properties file. This is how you may do it. 
 
 <img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
-
-6) *Install Gunicorn*
-Prior to running the application, it's essential to install Gunicorn
 
 ## 2.  Building and running:
 1) *Run Migrations*
