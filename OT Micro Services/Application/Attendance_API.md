@@ -60,7 +60,10 @@ sudo apt install python3-pip
 ```
     
 *Install pylint:*
-     sudo apt install pylint
+```shell
+sudo apt install pylint
+```
+     
 
 *Install poetry:*
 
