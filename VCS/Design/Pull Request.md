@@ -58,6 +58,12 @@ Pushing uploads your local branch and commits to your forked repository on GitHu
 ### **Step 7: Create Pull Request**
 A pull request proposes changes to the original repository. Navigate to the original repository, click `New Pull Request`, select your branch, and follow the prompts. Write a clear title and description to help reviewers understand the purpose of your contribution.
 
+<img width="1259" alt="Screenshot 2024-01-19 at 7 26 27 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3f3d8aa3-d212-41c6-9638-bab825e1a72e">
+
+<img width="1001" alt="Screenshot 2024-01-19 at 7 28 35 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3e78b859-0bf8-4d7b-84e3-31f99c8eb944">
+
+> Note: While forking is common in organizational workflows, it's not mandatory for feature branches. Instead, create a branch within the existing repository. Submit a pull request from your branch, and if approved, changes can seamlessly integrate into the main branch without the need for a separate fork, streamlining collaboration.
+
 ***
 # Rules and Guidelines
 
