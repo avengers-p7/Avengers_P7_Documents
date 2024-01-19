@@ -13,7 +13,7 @@
 5. [Best Practices](#Best-Practices)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#contact-information)
-8. [Refrences](#Refrences)
+8. [Refrences](#references) 
 
 ## Introduction 
 
