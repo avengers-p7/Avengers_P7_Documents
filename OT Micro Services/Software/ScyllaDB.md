@@ -178,12 +178,12 @@ cqlsh: This command is used to enter the CQL shell, which is an interactive comm
 	CREATE KEYSPACE employee_db
 	WITH REPLICATION = {
 	  'class': 'SimpleStrategy',
-	  'replication_factor': 3
+	  'replication_factor': 1
 	};
 	CREATE KEYSPACE employee_salary
 	WITH REPLICATION = {
 	  'class': 'SimpleStrategy',
-	  'replication_factor': 3
+	  'replication_factor': 1
 	};
  
  This CQL command creates a keyspace named employee_db in the ScyllaDB database. A keyspace in ScyllaDB is a namespace that holds tables, similar to a schema in a relational database. In this case, the keyspace is created using the SimpleStrategy replication strategy with a replication factor of 1. Adjust the replication strategy and factor based on your requirements.
