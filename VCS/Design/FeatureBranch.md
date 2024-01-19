@@ -25,13 +25,13 @@ This section provides a detailed explanation of the step-by-step process involve
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/c2e4c381-5149-4b68-bcbf-a99cbae35a14)
 
 
-### Creating Feature Branches
+### Step-1: Creating Feature Branches
 Developers create new branches for each feature, keeping a highly-focused purpose for each branch. Descriptive names such as animated-menu-items or issue-#1061 are recommended.
 
         # Create a new feature branch
         git checkout -b new-feature
 
-### Making Changes
+### Step-2: Making Changes
 On the feature branch, developers can edit, stage, and commit changes as necessary.
 
         # Stage changes
@@ -40,22 +40,22 @@ On the feature branch, developers can edit, stage, and commit changes as necessa
         # Commit changes
         git commit
 
-### Pushing Feature Branches
+### Step-3: Pushing Feature Branches
 Pushing feature branches to the central repository allows collaboration without impacting the main codebase.
 
         # Push the feature branch to the central repository
         git push -u origin new-feature
 
-### Pull Requests
+### Step-4: Pull Requests
 Pull requests facilitate code review and discussions before merging features into the main branch.
 
 Developers create a pull request to initiate discussions.
 Interested parties are notified automatically, enabling them to review changes and provide feedback.
 
-### Resolving Feedback
+### Step-5: Resolving Feedback
 Developers resolve feedback locally, commit changes, and push updates to Github. Changes appear in the pull request.
 
-### Merging Feature Branches
+### Step-6: Merging Feature Branches
 Once the pull request is approved and conflict-free, developers merge the feature branch into the main branch.
 
         # Merge the feature branch into the main branch
