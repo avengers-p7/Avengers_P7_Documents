@@ -102,6 +102,7 @@ sudo apt install python3-pip
 3) **Python3.11**
 * Prior to poetry installation, make sure to install Python 3.11, as Poetry is compatible with Python versions 3.11 or above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
 
+***
 3) **Poetry:**
 
 * Install poetry and add Path to your shell configuration file. 
