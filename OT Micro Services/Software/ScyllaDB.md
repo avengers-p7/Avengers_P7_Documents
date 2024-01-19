@@ -88,20 +88,25 @@ OpenJDK for ScyllaDB because ScyllaDB relies on Java for its client-side functio
 **Add ScyllaDB APT repository to your system**
 
 Create a directory for APT keyrings
+
     sudo mkdir -p /etc/apt/keyrings
 
 Import ScyllaDB GPG key
+
     sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys d0a112e067426ab2
 
 Download ScyllaDB APT repository configuration file
+
     sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-5.4.list
 
 **Install ScyllaDB packages**
 
 Update the package list to ensure it has the latest information about available packages
+
     sudo apt-get update
 
 Install ScyllaDB packages with the -y flag to automatically answer yes to prompts
+
     sudo apt-get install -y scylla
 
 **Verify Installation**
