@@ -1,9 +1,21 @@
-| Author | Created on | Last Updated | Document Version |
-| ------ | ---------- | ------------ | ---------------- |
-| Shantanu | 10-01-2024 | 15-01-2024   |         v1     |
+# Bitbucket
+| Author | Created on | Last Updated | Document Version | Last Updated By|
+| ------ | ---------- | ------------ | ---------------- | -------------- |
+| Shantanu | 10-01-2024 | 19-01-2024   |         v1     |    Shantanu    |
 ***
- 
-  ![image](https://github.com/avengers-p7/Documentation/assets/156056364/d7afdf45-30a5-42b0-9dca-4acf84395349)
+# Table of Content
+1. Introduction
+2. Features
+3. Plans & Pricing
+4. Comparison of Plans
+5. Security & Complaince
+6. Bitbucket Hosting Options
+7. Drawbacks
+8. Conclusion
+9. Contact Information
+10. Refernces
+***
+
 # Introduction
 Bitbucket is a Git-based source code repository hosting service and collaboration tool for teams, developed by Atlassian, stands as a robust and versatile version control system, offering seamless collaboration for software development teams. With its best-in-class Jira and Trello integration, integrated CI/CD solution (Bitbucket Pipelines), and emphasis on code security, Bitbucket is the go-to platform for end-to-end code management, collaboration, and deployment.
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/6711f77b-4658-4977-96a8-912e496aa8c0)
@@ -55,7 +67,7 @@ Bitbucket is a Git-based source code repository hosting service and collaboratio
 | Scale CI workflows |   |   | Yes |
 |  Deployment permissions |   |   | Yes |
 ***
-# Bitbucket hosting options
+# Bitbucket Hosting Options
 
 | Feature | Cloud  | Server    | Data Center |
 | -------- | ------- | -------------- | -------- |
