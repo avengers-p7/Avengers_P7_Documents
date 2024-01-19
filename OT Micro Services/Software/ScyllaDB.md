@@ -10,15 +10,14 @@
 # Table of Content
 1. Introduction
 2. Key Features
-3. Licensing
-4. Software Version
-5. System Requirements
-6. Ports
-7. Runtime Prerequisites
-8. ScyllaDB Installation Guide
-9. Configure and Run ScyllaDB
-10.Conclusion
-11. Resources and References
+3. Licensing & Versoning 
+4. System Requirements
+5. Ports
+6. Runtime Prerequisites
+7. ScyllaDB Installation Guide
+8. Configure and Run ScyllaDB
+9. Conclusion
+10. Resources and References
 ***
 
 # Introduction
