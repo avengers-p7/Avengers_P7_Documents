@@ -1,6 +1,15 @@
+# Authentication 
 | Author | Created On | Last Updated | Document Version | Last Updated By |
 | ------ | ---------- | ------------ | ---------------- | --------------- |
 | Shantanu | 15-01-2024 | 16-01-2024   |         v1     |     Shantanu    |
+***
+
+# Table of Content 
+1. Introduction
+2. Authentication Methods
+3. Conclusion
+4. Contact Information
+5. References
 ***
 
 # Introduction
