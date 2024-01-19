@@ -1,4 +1,4 @@
-**GitHub Documentations**
+# Github Documentation
 
 | Author | Created on | last updated | Document Version |
 | ------ | ---------- | ------------ | ---------------- |
