@@ -1,6 +1,6 @@
 # GitFlow Branching Strategy
 
-***
+
 
 | Author           | Created on  | Last Updated | Document Version |
 |------------------|-------------|--------------|-------------------|
