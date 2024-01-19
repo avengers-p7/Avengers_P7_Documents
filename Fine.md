@@ -6,3 +6,4 @@
 | Vishal | 18 Jan | not on time |
 | Harsit | 18 Jan | Not present |
 | Khushi | 18 Jan | not present |
+| Shantanu | 19 Jan | Not Present |
