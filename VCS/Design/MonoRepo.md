@@ -64,9 +64,11 @@ The monorepo approach has several advantages:
   Direct access to all microservices makes it easier to refactor the code in a monorepo. Also, you can change the code structure. Moving the source code between folders and subfolders is much      easier than moving the source code between multiple repositories.
 
 ## Challenges/Disadvantages 
+
 Using a single repository for all our code has several drawbacks.
 
-- Slower Development Cycles
+- **Slower Development Cycles**
+
   When the code for a library contains breaking changes, which make the tests for dependent libraries fail, the code must also be fixed before merging the changes.
   If these libraries depend on other teams, who are busy working on some other task and are not able (or willing) to adapt their code to avoid the breaking changes and have the tests pass, the    development of the new feature may stall.
 
@@ -74,15 +76,18 @@ Using a single repository for all our code has several drawbacks.
   
   In addition, a library will need to run the tests for all other libraries too. The more tests to run, the more time it takes to run them, slowing down how fast we can iterate on our code.
 
-- Requires Download of Entire Codebase
+- **Requires Download of Entire Codebase**
+
   When the monorepo contains all the code for a company, it can be huge, containing gigabytes of data. To contribute to any library hosted within, anybody would require a download of the whole   repository.
 
   Dealing with a vast codebase implies a poor use of space on our hard drives and slower interactions with it. For instance, everyday actions such as executing git status or searching in the      codebase with a regex may take many seconds or even minutes longer than they would with multiple repos.
 
-- Unmodified Libraries May Be Newly Versioned
+- **Unmodified Libraries May Be Newly Versioned**
+
   When we tag the monorepo, all code within is assigned the new tag. If this action triggers a new release, then all libraries hosted in the repository will be newly released with the version     number from the tag, even though many of those libraries may not have had any change.
 
-- Forking Is More Difficult
+- **Forking Is More Difficult**
+
   Open source projects must make it as easy as possible for contributors to become involved. With multiple repositories, contributors can head directly to the specific repository for the project they want to contribute to. With a monorepo hosting various projects, though, contributors must first navigate their way into the right project and will need to understand how their contribution may affect all other projects.
 
 ## Best Practices 
