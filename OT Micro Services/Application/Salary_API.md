@@ -261,4 +261,5 @@ Once the schema, table and database are configured, we can start our application
 |     Error Handling               | 1. https://www.youtube.com/watch?v=uMJnAxapF7E |
 |                                  | 2. https://github.com/serlesen/fullstack-cors/tree/chapter_1 |
 |                                  | 3. https://github.com/OT-MICROSERVICES/salary-api/blob/main/README.md | 
+|       API security               | https://brightsec.com/blog/api-security/
 
