@@ -11,7 +11,7 @@
    versioned source code, configuration files, and other assets. This document explores the significance, types, features, and the role of DevOps 
    repositories in modern software development.
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  Why DevOps Repositories
 | Feature   | Description  |                                                                                                              
@@ -23,7 +23,7 @@
 | **Centralized Backup**       | Serves as a centralized and secure backup, facilitating the recovery of previous code versions in case of errors or unintentional deletions. |
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## Types of DevOps Repositories:
@@ -38,7 +38,7 @@
 
 
 
--------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -55,7 +55,7 @@
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -66,12 +66,20 @@ The outlined types and features contribute to the streamlined version control, a
 and code quality improvement crucial for successful DevOps implementations.
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## Contact Information
+
    | Name	 | Email address |
    |-------|---------------|
    | Shikha Tripathi | shikha.tripathi.snaatak@mygurukulam.co |
+   
   
-------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+## References
+| Links	| Descriptions |
+|-------|--------------|
+| https://devops.stackexchange.com/questions/12803/best-practices-for-app-and-infrastructure-code-repositories | Document format followed from this link |
+| https://dev.to/n3wt0n/i-store-my-infra-as-code-this-way-you-should-too-1pa3 | Document format followed from this link |
