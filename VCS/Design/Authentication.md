@@ -8,9 +8,14 @@ To keep account secure, one must authenticate before they can access resources o
 
 One can access  resources in GitHub in a variety of ways: in the browser, with the API, or via the command line. Each way of accessing GitHub supports different modes of authentication.
 
-* Username and password with two-factor authentication, or a passkey
-* Personal access token
-* SSH key
+**Username and password with two-factor authentication, or a passkey**
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/eadad218-707b-412d-8f1e-e2f23b769896)
+
+**Personal access token**
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/fbc45d22-1e73-4308-8ec9-599da6b3aabd)
+
+**SSH key**
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/cda2bb35-007c-46d7-82d3-db1ad305d8bb)
 
 
 | Mode |  Description  |
