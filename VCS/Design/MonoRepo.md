@@ -9,7 +9,7 @@
 1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md#introduction)
 2. [Features](#features)
 3. [Advantages](#Advantages)
-4. [Challenges/Disadvantages](#Challenges/Disadvantages)
+4. [Challenges/Disadvantages](#challengesdisadvantages)
 5. [Best Practices](#Best-Practices)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#contact-information)
