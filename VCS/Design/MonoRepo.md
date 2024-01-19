@@ -4,6 +4,8 @@
 | -------- | ------- | -------------- | --------------| ---------------- |
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 15-01-2024  | 1.0   | Harshit Singh | 19-01-2024 |
 
+*** 
+
 ## Table  of Contents
 
 1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md#introduction)
@@ -14,7 +16,7 @@
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#contact-information)
 8. [Refrences](#references) 
-
+***
 ## Introduction 
 
   A repo (short for repository) is a storage for all the changes and files from a project, enabling developers to “version control” the project’s assets throughout its development stage.
@@ -30,7 +32,7 @@
 - When you make a change, you do not rebuild or retest every project in the monorepo. Instead, you only rebuild and retest the projects that can be affected by your change.
 
   ![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
-
+***
 ## Features 
 
 The monorepo approach has several advantages:
@@ -43,7 +45,7 @@ The monorepo approach has several advantages:
 | **Discoverability** | A monorepo offers a single view of the whole code. You can review the status of the whole repository, screen all branches, and keep track of modifications much more easily in monorepos than in polyrepos.
 | **Release management** | A monorepo retains all the information about how to deploy the whole system. An automated build and deploy pipeline doesn’t hide deployment knowledge within each team the way it does in a polyrepo.
 | **Easier refactoring** | Direct access to all microservices makes it easier to refactor the code in a monorepo. Also, you can change the code structure. Moving the source code between folders and subfolders is much easier than moving the source code between multiple repositories.
-
+***
 ## Challenges/Disadvantages 
 
 When using a mono repo for all our code we might face a few challenges, some of them are:-
@@ -53,7 +55,7 @@ When using a mono repo for all our code we might face a few challenges, some of 
 | **Requires Download of Entire Codebase** | A monorepo containing all company code can be large, requiring contributors to download the entire repository. Inefficient disk space usage and slower interactions with the vast codebase, affect everyday actions like git status or code searches.
 | **Unmodified Libraries May Be Newly Versioned** | Tagging the monorepo results in all code being assigned the new tag, potentially triggering new releases for unchanged libraries. Libraries may be versioned unnecessarily, leading to confusion and challenges in managing version consistency.
 | **Forking Is More Difficult** | In open-source projects, contributors find it less straightforward to fork and contribute in a monorepo compared to multiple repositories. Navigating the correct project within the monorepo and understanding the broader impact on other projects can be barriers for contributors.
-
+***
 ## Best Practices 
 To optimize our mono repo we can use the following practices:-
 
@@ -64,7 +66,7 @@ To optimize our mono repo we can use the following practices:-
 | **Managing access and merge approvals** | Managing access control with a monorepo is essential, due to the unique challenges and requirements presented by housing multiple projects or components in a single repository.
 | **Use Git features to enhance repo performance** | As the size of your repository grows, the amount of bandwidth and system resources required to effectively utilize the project will increase, and the time it takes to clone can become substantial, especially when employing modern CI/CD strategies such as parallelism. In this case, we can use features like Shallow Clone and Sparse Checkout. 
 | **Use Trunk-based development** | ‘Trunk-based development’ (TBD) is a strategy where all developers work in a single branch, often called the 'trunk' or 'main' branch, and use short-lived feature branches (or no branches at all). It reduces divergence, minimizes merge conflicts, and aligns with CI/CD practices.
-
+***
 ## Who Uses
 
 Several big tech companies favour the monorepo approach, while others have decided to use the multi-repo method. `Google, Facebook, Twitter, and Uber` have all publicly vouched for the monorepo approach. 
@@ -74,11 +76,11 @@ Several big tech companies favour the monorepo approach, while others have decid
 Over the years, as the investment required to continue scaling the centralized repository grew, Google leadership occasionally considered whether it would make sense to move from the monolithic model. Despite the effort required, Google repeatedly chose to stick with the central repository due to its advantages.
 
 The monolithic model of source code management is not for everyone. `It is best suited to organizations like Google, with an open and collaborative culture`. It would not work well for organizations where large parts of the codebase are private or hidden between groups.
-
+***
 ## Conclusion 
 
 In conclusion, a monorepo offers advantages like improved visibility, code sharing, and standardized practices for managing microservices. However, challenges include slower development cycles and potential complexities. To optimize monorepo usage, consider best practices such as selective builds, effective dependency management, and trunk-based development. The decision to adopt a monorepo should be based on a careful evaluation of specific needs and a balanced consideration of its benefits and challenges. Successful implementation requires a thoughtful approach and collaboration within the development team.
-
+***
 
 
 ## Contact Information
@@ -86,7 +88,7 @@ In conclusion, a monorepo offers advantages like improved visibility, code shari
 |     Name         | Email  |
 | -----------------| ------------------------------------ |
 | Harshit Singh    | harshit.singh.snaatak@mygurukulam.co |                                                                                      
-
+***
 ## References
 
 |     Description                  | References  
@@ -98,3 +100,4 @@ In conclusion, a monorepo offers advantages like improved visibility, code shari
 | Mono Repo Best Practices | https://buildkite.com/blog/monorepo-ci-best-practices |
 | Use Case | https://kinsta.com/blog/monorepo-vs-multi-repo/
 |          | https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext
+***
