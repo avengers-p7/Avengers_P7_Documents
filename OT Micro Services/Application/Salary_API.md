@@ -101,7 +101,7 @@ Maven will be used as a package manager to download specific versions of depende
     git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
 
-### Install dependencies
+### Step1: Installation of software Dependencies
 1. _ScyllaDB_
 
    Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
@@ -140,7 +140,7 @@ Maven will be used as a package manager to download specific versions of depende
 
 Once the schema, table and database are configured, we can start our application using Java runtime.
 
-### Building and running
+### Step2: Build/Artifact Generation 
 
 1. For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
 
@@ -156,7 +156,7 @@ Once the schema, table and database are configured, we can start our application
    ```
 The test cases are present in **[src/test/java/com/opstree/microservice/salary](./src/test/java/com/opstree/microservice/salary)**. For dev testing, the Swagger UI can be used for sample payload generation and requests. The swagger page will be accessible on http://localhost:8080/salary-documentation.
 
-3. Now, we can start our application using Java runtime.
+### Step3: Running Application 
 
    ```shell
    java -jar target/salary-0.1.0-RELEASE.jar
