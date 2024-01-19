@@ -101,10 +101,11 @@ sudo apt install python3-pip
 ```
 *** 
 3) **Poetry:**
+Install poetry and add Path to your shell configuration file. 
 ```shell
 curl -sSL https://install.python-poetry.org | python3 -
+export PATH="/home/ubuntu/.local/bin:$PATH"
 ```
-Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration file.
 
 <img width="960" alt="Screenshot 2024-01-19 at 1 28 04 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cd0a1807-5864-4ae5-92e7-c9aca68e664f">
 
@@ -177,7 +178,12 @@ sudo apt-get install liquibase
   
 <img width="1132" alt="Screenshot 2024-01-19 at 2 51 00 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f8fe40c-d9af-4d95-9232-0ce31cb761e6">
 
-* To ensure Poetry runs without errors, install psycopg by running `poetry add psycopg2-binary`. Additionally, you may need to install python3.11-dev using `apt-get install python3.11-dev`.
+* To ensure Poetry runs without errors, install psycopg2 is installed . Additionally, you may need to install python3.11-dev using.
+  
+```shell
+poetry add psycopg2-binary
+apt-get install python3.11-dev
+```
 
 * Execute the `make build` command to install necessary dependencies using Poetry.
 * To inspect the installed dependencies by Poetry, you can use the command `poetry show`.
@@ -186,6 +192,7 @@ sudo apt-get install liquibase
 3)  **Run Application**
    
 After installing the required dependencies in the Poetry shell environment for running the API, it's advisable to install Gunicorn directly within the virtual environment. Execute the following command to achieve this:
+
 ```shell
 poetry shell
 poetry add gunicorn
