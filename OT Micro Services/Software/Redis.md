@@ -225,10 +225,10 @@ Redis rockets your app's performance with lightning-fast data access, but keep y
 
 
 # Resources and References
---------------------------------------------------------------------------------------------------------------------
-|  Source                  |                Description | 
-| ------------------------ |----------------------------|
-|(https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04) | Prerequisites, Installation & Configuration |
-|https://redis.io/docs/about/           | Understanding of Redis Software  |
+
+| Source                                                | Description                                    |
+| ----------------------------------------------------- | ---------------------------------------------- |
+| [How to Install and Secure Redis on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-20-04) | Prerequisites, Installation & Configuration |
+| [Redis Documentation](https://redis.io/docs/about/)   | Understanding of Redis Software                |
 
 
