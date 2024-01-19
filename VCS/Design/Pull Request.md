@@ -11,6 +11,10 @@
 # Introduction 
 A pull request (PR) is a fundamental aspect of collaborative development on GitHub. It allows contributors to propose changes to a repository and initiate a discussion around those changes before merging them into the main codebase.
 
+*** 
+# Pull Requests flow 
+![image](https://github.com/avengers-p7/Documentation/assets/156056349/3fc47489-9a3e-481a-b674-75acacbcaa1d)
+
 ***
 # Creating a Pull Request
 ### **Step 1: Fork the Repository** 
@@ -43,3 +47,7 @@ Pushing uploads your local branch and commits to your forked repository on GitHu
 ***
 ### **Step 7: Create Pull Request**
 A pull request proposes changes to the original repository. Navigate to the original repository, click `New Pull Request`, select your branch, and follow the prompts. Write a clear title and description to help reviewers understand the purpose of your contribution.
+
+***
+# Rules and Guidelines
+
