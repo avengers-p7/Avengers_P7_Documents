@@ -40,7 +40,7 @@ Gitflow is a branching model for Git that aims to streamline the release managem
 |------------------|--------------------------------------------------------|------------------------|--------------------------------------------------------|
 | Main Branch      | Represents stable, production-ready code.              | -                      | -                                                      |
 |                  | Reflects what is deployed in production.               | -                      | -                                                      |
-| Develop Branch   | Integration branch for ongoing development.            | Main Branch            | Main Branch and Feature Branches                         |
+| Develop Branch   | Integration branch for ongoing development.            | Main Branch            | Main Branch                       |
 |                  | New features are implemented and tested here.         | -                      | -                                                      |
 | Feature Branches | Created for developing specific features.             | Develop Branch         | Develop Branch                                         |
 |                  | Branched off from the develop branch.                 | -                      | -                                                      |
