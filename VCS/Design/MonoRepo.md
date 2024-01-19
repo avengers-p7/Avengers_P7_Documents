@@ -4,6 +4,15 @@
 | -------- | ------- | -------------- | --------------| ---------------- |
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 15-01-2024  | 1.0   | Harshit Singh | 19-01-2024 |
 
+## Table  of Contents
+
+1. Introduction
+2. Features
+3. Advantages
+4. Challenges/Disadvantages
+5. Best Practices
+6. Conclusion
+
 ## Introduction 
 
   A repo (short for repository) is a storage for all the changes and files from a project, enabling developers to “version control” the project’s assets throughout its development stage.
@@ -19,17 +28,6 @@
 - When you make a change, you do not rebuild or retest every project in the monorepo. Instead, you only rebuild and retest the projects that can be affected by your change.
 
   ![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
-
-## Why
-
-Visibility
-With a monorepo, there is more accountability since many projects are visible to many people and monorepos lend themselves to security features.
-
-Collaboration
-A single repository makes it easier to collaborate. That’s because everyone can access the code, files, and assets. So, developers can share and reuse assets.
-
-Speed
-Using a single repository can help you accelerate development. For instance, you can make atomic changes (one action to make a change across multiple projects).
 
 ## Features 
 
