@@ -7,7 +7,7 @@
 ***
 # Table of Contents 
 1. [Introduction](#Introduction)
-2. [Key Components] (#Key Components)
+2. [Key Components](#Key Components)
 3. Architecture
 4. Pre-Requisites
 5. System Requirements
