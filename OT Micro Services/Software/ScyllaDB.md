@@ -51,7 +51,7 @@ The ScyllaDB Manual Setup Guide provides step-by-step instructions for installin
 
 ---
 
-# Important Ports
+# Ports
 
 | Ports         | Description                                                                                | 
 | ------------- |--------------------------------------------------------------------------------------------|
@@ -76,48 +76,51 @@ Here is a snippet view showcasing the use of scylla-db in OT-Microservices.
 ---
 
 # ScyllaDB Installation Guide
-### Update Packages
+**Update Packages**
+
     sudo apt update
     
-### Install OpenJDK 17
+**Install OpenJDK 17**
 OpenJDK for ScyllaDB because ScyllaDB relies on Java for its client-side functionality.
 
     sudo apt install openjdk-17-jre -y
 
-###  Add ScyllaDB APT repository to your system.
+**Add ScyllaDB APT repository to your system**
 
-###  Create a directory for APT keyrings
+Create a directory for APT keyrings
     sudo mkdir -p /etc/apt/keyrings
 
-###  Import ScyllaDB GPG key
+Import ScyllaDB GPG key
     sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys d0a112e067426ab2
 
-###  Download ScyllaDB APT repository configuration file
+Download ScyllaDB APT repository configuration file
     sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-5.4.list
 
-## Install ScyllaDB packages
+**Install ScyllaDB packages**
 
-### Update the package list to ensure it has the latest information about available packages
+Update the package list to ensure it has the latest information about available packages
     sudo apt-get update
 
-### Install ScyllaDB packages with the -y flag to automatically answer yes to prompts
+Install ScyllaDB packages with the -y flag to automatically answer yes to prompts
     sudo apt-get install -y scylla
 
-### Verify Installation
+**Verify Installation**
+
     java --version
+    
     scylla --version
 
 ---
 
-## Configure and Run ScyllaDB
+# Configure and Run ScyllaDB
 This script tunes system settings and determines optimal configurations.
 
-### Running the scylla_setup Script
+Running the scylla_setup Script
 To set up Scylla, execute the following command in your terminal:
 
     sudo scylla_setup
 
-#### Note:
+**Note:**
 After the installation of Scylla, it is crucial to run the scylla_setup script. This script provides essential configuration options and displays information about your Scylla installation.
 
 Upon running the script, you may encounter a prompt with a question, such as:
@@ -125,55 +128,53 @@ Upon running the script, you may encounter a prompt with a question, such as:
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/9f9b14d4-ee03-49bb-8c6b-643125baaed9)
 
 
-### Run ScyllaDB as a service
+Run ScyllaDB as a service
     sudo systemctl start scylla-server
 
-### Configure ScyllaDB Settings
+**Configure ScyllaDB Settings**
 Edit the configuration file:
 
     sudo vim /etc/scylla/scylla.yaml
 
-Update the following parameters:
+**Update the following parameters:**
 According to your requirements you can the following parameters.
 
 	seeds: <ip>
 	listen_address: <ip>
 	rpc_address: <ip>
 
-##### seeds : 
+**seeds :** 
 This is the PRIVATE IP address that Scylla will use to connect to other Scylla nodes in the cluster. Seed nodes are used during startup to bootstrap the gossip process and join the cluster
 
-##### listen_address: 
+**listen_address:** 
 This is the PRIVATE IP address that Scylla will use to connect to other Scylla nodes in the cluster. In this case, it's set to 'localhost,' indicating that it will listen for connections on the local machine.
 
-##### rpc_address: 
+**rpc_address:**
 This is the PRIVATE IP address of the interface for client connections, such as Thrift and CQL. Similar to listen_address, it is set to 'localhost' in this configuration.
 	
      seeds: "172.31.22.109"
      listen_address: "172.31.22.109"
      rpc_address: "172.31.22.109"
  
-
-### Restart ScyllaDB as a service
+**Restart ScyllaDB as a service**
 
     sudo systemctl restart scylla-server
 
 # Getting Started
 
-### Verify Node Status
+**Verify Node Status**
 
 To check if your ScyllaDB Node is working fine, use the `nodetool status` command. This command provides information about the nodes in the ScyllaDB cluster:
 
      nodetool status
 
-### Interact with ScyllaDB using cqlsh command:
+**Interact with ScyllaDB using cqlsh command:**
 
     cqlsh 
 
-Enter ScyllaDB
 cqlsh: This command is used to enter the CQL shell, which is an interactive command-line utility to execute CQL commands against a ScyllaDB database. Once you enter this command, you'll be able to execute CQL queries.
 
-### Create Keyspaces
+**Create Keyspaces**
 
 	CREATE KEYSPACE employee_db
 	WITH REPLICATION = {
@@ -188,14 +189,18 @@ cqlsh: This command is used to enter the CQL shell, which is an interactive comm
  
  This CQL command creates a keyspace named employee_db in the ScyllaDB database. A keyspace in ScyllaDB is a namespace that holds tables, similar to a schema in a relational database. In this case, the keyspace is created using the SimpleStrategy replication strategy with a replication factor of 1. Adjust the replication strategy and factor based on your requirements.
 
-### Check Keyspaces
+**Check Keyspaces**
+
     DESCRIBE KEYSPACES;
     
 This CQL command retrieves a list of all available keyspaces in the ScyllaDB instance. It displays information about the existing keyspaces, including their names and configurations.
-### Remove Keyspace
+
+**Remove Keyspace**
+
     DROP KEYSPACE employee_db;
     
-### Default Password Login
+**Default Password Login**
+
     cqlsh -u cassandra -p cassandra
     
 This command is a variation of the cqlsh command that includes the -u and -p flags to specify the username (-u cassandra) and password (-p cassandra) for authentication when connecting to the CQL shell. It's using the default credentials cassandra for both the username and password.
