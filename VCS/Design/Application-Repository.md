@@ -57,6 +57,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
+
 ## Conclusion
    Application repositories are indispensable for efficient and collaborative software development. They provide centralized control, 
    streamline collaboration, and maintain an organized codebase. Despite potential challenges, the overall advantages make repositories 
@@ -69,6 +70,11 @@
    | Name	| Email address |
    |--------|---------------|
    | Shikha Tripathi | shikha.tripathi.snaatak@mygurukulam.co |
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## References
 
