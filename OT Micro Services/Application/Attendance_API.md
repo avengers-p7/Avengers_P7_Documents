@@ -206,7 +206,8 @@ poetry shell
 ```shell
 poetry add gunicorn
 ```
-<img width="866" alt="Screenshot 2024-01-19 at 3 17 50 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c947b7c5-04c0-4732-b209-9414413af30d">
+<img width="773" alt="Screenshot 2024-01-19 at 5 20 37 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/334181e1-f5af-4464-8886-b5f8539c4fbd">
+
 
 *  Finally, to Load your application on gunicorn server and make it available for incoming HTTP request you may run this following command in the virtual shell
 ```shell
