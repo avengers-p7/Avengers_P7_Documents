@@ -9,7 +9,7 @@
 1. Introduction
 2. Why Notifications
 3. Types of Notifications
-4. Events for VCS Notifications
+4. Stakeholders
 5. Conclusion
 6. Contact Information
 7. Refrences
@@ -48,14 +48,24 @@ The specific types of notifications available may depend on the VCS platform (e.
 
 ***
 
-## Events for VCS Notifications 
+## Stakeholders
+Various stakeholders may be interested in receiving VCS notifications about different events and activities within the system. The stakeholders could include:
 
+| Stakeholder | Types of Notifications |
+| -------- | ----------- |
+| **Developers** | Developers may be interested in Commit and PR notifications |
+| **Project Managers** |  PMs may need notifications on specific milestones or releases.They may also be interested in branch notifications. |
+| **System Administrators** | Notifications related repository events and security alerts may be directed to System Administrators. |
+| **Quality Assurance (QA) Teams** |  QA teams need to be informed about the status of builds and continuous integration processes to ensure code quality. |
+| **Collaborators and Contributors**| Collaborators and contributors may want to be notified about comments and discussions related to code reviews.Notifications about updates to project dependencies are also important for collaborators. |
+| **Security Teams** | Security teams need to be promptly notified about any security vulnerabilities detected in the codebase. |
+| **Product Owners** |  Product owners may want to be notified when new releases are created, especially if they include features or improvements relevant to the product roadmap. |
+| **Documentation Teams**| Documentation teams may be interested in changes made to the repository's integrated wiki. |
+| **Automation and Integration Systems** | Automated systems and integrations can use webhooks to receive notifications and trigger custom actions based on specific VCS events. |
+***
 ## Conclusion
-**Javascript heap out of memory error**
-During the build phase one might encounter javascript heap out of memory error.
-![Screenshot from 2024-01-16 00-25-27](https://github.com/avengers-p7/Documentation/assets/156056413/d5202499-699c-496e-a874-7b7662e26c7b)
-This can be resolved using `export NODE_OPTIONS="--max-old-space-size=512"`    
-**NOTE:** Ideally the size should not be more than half the size of memory(RAM) .
+VCS notifications are vital for real-time collaboration and code quality assurance in software development. Notifications enhance team coordination, automate workflows, and minimize conflicts, ensuring a transparent and streamlined development process. 
+It's essential to tailor notifications to the specific needs and responsibilities of each stakeholder group. Many modern VCS platforms provide customizable notification settings, allowing users to choose the types of events they want to be notified about and the channels through which they receive those notifications.
 
 ***
 # Contact Information
@@ -68,6 +78,4 @@ This can be resolved using `export NODE_OPTIONS="--max-old-space-size=512"`
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-| Frontend API | https://github.com/OT-MICROSERVICES/frontend |
-| Javascript heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
-| Default index file for public folder | https://github.com/react-cosmos/create-react-app-example/blob/master/public/index.html |
+| Github Docs for Notification | https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications |
