@@ -100,11 +100,6 @@ Maven will be used as a package manager to download specific versions of depende
 
 ## Setup API
 
-### Clone Salary API repo
-```shell
-    git clone https://github.com/OT-MICROSERVICES/salary-api.git
-```
-
 ### Step1: Installation of API Dependencies
 1. _ScyllaDB_
 
@@ -146,13 +141,18 @@ Once the schema, table and database are configured, we can start our application
 
 ### Step2: Build/Artifact Generation 
 
-1. For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
+1. Clone Salary API repo
+
+```shell
+    git clone https://github.com/OT-MICROSERVICES/salary-api.git
+```
+2. For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
 
    ```shell
    make build
    ```
 
-2. Salary API also contains different test cases and code quality-related integrations. To check the code quality, we can use `checkstyle` plugin with Maven.
+3. Salary API also contains different test cases and code quality-related integrations. To check the code quality, we can use `checkstyle` plugin with Maven.
 
    ```shell
    make fmt
