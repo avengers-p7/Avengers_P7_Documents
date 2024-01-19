@@ -54,7 +54,7 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
  | Disk Space | 16 GB or 2GB per core |
  | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
 
- ## Important Ports
+ ## Ports
    |  Inbound Traffic|	Description  |
    |---------|---------|
    | 5432	| Postgresql port|
