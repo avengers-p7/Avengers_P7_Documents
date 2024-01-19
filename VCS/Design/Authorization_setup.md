@@ -86,6 +86,8 @@ GitHub members have essential privileges, allowing them to contribute to reposit
 
 **5.Generated "Personal Access Token"**
 
+**A personal access token in GitHub serves as a secure and authenticated way for users to interact with the GitHub API or perform Git operations.It is needed for severeal reasons which includes,authentication,security,API access,avoiding Passwords in Scripts,etc**
+
 To generate a token on GitHub, go to "Settings," click on "Developer settings," select "Personal access tokens," then click "Generate token." Choose scopes and duration, and click "Generate token" to obtain an authentication token for API access.
 
 **a.Creation Process**
