@@ -27,7 +27,7 @@ In today's fast-paced software development world, teams need a way to work toget
 
 # GitLab flow Working
 
-![Untitled design (6)](https://github.com/avengers-p7/Documentation/assets/156056460/367974ae-6737-4d46-abfe-5b6257265a99)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/60d1cb76-a6b2-4267-88a7-66130d846eb8)
 
 ***
 
