@@ -101,6 +101,7 @@ sudo apt install python3-pip
 ```
 *** 
 3) **Poetry:**
+
 Install poetry and add Path to your shell configuration file. 
 ```shell
 curl -sSL https://install.python-poetry.org | python3 -
@@ -185,7 +186,10 @@ poetry add psycopg2-binary
 apt-get install python3.11-dev
 ```
 
-* Execute the `make build` command to install necessary dependencies using Poetry.
+* Execute the build command to install necessary dependencies using Poetry
+```shell
+make build
+```
 * To inspect the installed dependencies by Poetry, you can use the command `poetry show`.
 
 ***
@@ -195,6 +199,8 @@ After installing the required dependencies in the Poetry shell environment for r
 
 ```shell
 poetry shell
+```
+```shell
 poetry add gunicorn
 ```
 <img width="866" alt="Screenshot 2024-01-19 at 3 17 50 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c947b7c5-04c0-4732-b209-9414413af30d">
