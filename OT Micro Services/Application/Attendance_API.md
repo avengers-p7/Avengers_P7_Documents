@@ -90,6 +90,8 @@ Prior to any installation, make sure to install Python 3.11 or a higher version,
 
 1) **Install make:**
 ```shell
+sudo apt update
+sudo apt upgrade -y
 sudo apt install make -y 
 ```
 ***
