@@ -120,7 +120,9 @@ Here is a snippet view showcasing the use of scylla-db in OT-Microservices.
 ---
 
 # Configure and Run ScyllaDB
+
 **Running the scylla_setup Script**
+
 This script tunes system settings and determines optimal configurations.
 
 To set up Scylla, execute the following command in your terminal:
@@ -128,6 +130,7 @@ To set up Scylla, execute the following command in your terminal:
     sudo scylla_setup
 
 **Note:**
+
 After the installation of Scylla, it is crucial to run the scylla_setup script. This script provides essential configuration options and displays information about your Scylla installation.
 
 Upon running the script, you may encounter a prompt with a question, such as:
@@ -136,6 +139,7 @@ Upon running the script, you may encounter a prompt with a question, such as:
 
 
 **Run ScyllaDB as a service**
+
     sudo systemctl start scylla-server
 
 **Edit ScyllaDB configuration file**
@@ -143,7 +147,7 @@ Upon running the script, you may encounter a prompt with a question, such as:
     sudo vim /etc/scylla/scylla.yaml
 
 **Update the following parameters**
-According to your requirements you can the following parameters.
+According to your requirements you can change the following parameters.
 
 	seeds: <ip>
 	listen_address: <ip>
