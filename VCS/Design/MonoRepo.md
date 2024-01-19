@@ -88,7 +88,7 @@ Using a single repository for all our code has several drawbacks.
 
 - **Forking Is More Difficult**
 
-  Open source projects must make it as easy as possible for contributors to become involved. With multiple repositories, contributors can head directly to the specific repository for the project they want to contribute to. With a monorepo hosting various projects, though, contributors must first navigate their way into the right project and will need to understand how their contribution may affect all other projects.
+  Open-source projects must make it as easy as possible for contributors to become involved. With multiple repositories, contributors can head directly to the specific repository for the project they want to contribute to. With a monorepo hosting various projects, though, contributors must first navigate their way into the right project and will need to understand how their contribution may affect all other projects.
 
 ## Best Practices 
 
