@@ -21,8 +21,8 @@ The environment branch workflow is useful for teams that work on large projects 
 | Production Branch        | The production branch contains the stable and tested code that is ready for deployment to the live environment     |
 
 
-# Env Branch Flow
-The environment branch workflow involves the following steps:
+# Creating a feature branch
+
 * Create a new feature branch from the development branch.
 * Make changes and commit them to the feature branch.
 * Open a pull request to merge the feature branch into the development branch.
