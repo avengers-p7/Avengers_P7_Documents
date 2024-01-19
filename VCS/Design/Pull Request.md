@@ -20,6 +20,8 @@ A pull request (PR) is a fundamental aspect of collaborative development on GitH
 ### **Step 1: Fork the Repository** 
 Forking creates a personal copy of the repository on your GitHub account. It allows you to make changes without affecting the original project. Click the `Fork` button on the top right of the repository page to create your own fork.
 
+<img width="1273" alt="Screenshot 2024-01-19 at 5 47 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3bd20e2d-31bc-4518-b7ba-204af9f72fb6">
+
 ***
 ### **Step 2: Clone the Forked Repository**
 Use the git clone command with the URL of your forked repository to download a local copy. This copy is where you'll make and test your changes.
