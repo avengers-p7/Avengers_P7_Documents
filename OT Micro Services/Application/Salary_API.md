@@ -104,7 +104,12 @@ Maven will be used as a package manager to download specific versions of depende
 1. _ScyllaDB_
 
    Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
-2. _Redis_
+   Make sure  the database (ScyllaDB and Redis) is up and running.
+   Now, create the keyspace mentioned `employee_db` manually in your ScyllDB.
+   ```shell
+    CREATE KEYSPACE IF NOT EXISTS employee_db WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+   ```
+3. _Redis_
 
    Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md)** to install Redis in your system/server.
 
@@ -131,9 +136,10 @@ Maven will be used as a package manager to download specific versions of depende
     ```
 
 > [!NOTE]
-> 1. Before running the application, we have to make sure our mandatory database (ScyllaDB and Redis) is up and running. Also, you will have to create the keyspace mentioned `employee_db` manually in your ScyllDB.``` CREATE KEYSPACE IF NOT EXISTS employee_db WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1}; ```
-> 2. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
-> 3. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.``` make run-migrations ```
+> 1. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
+> 2. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
+>    ```shell
+>     make run-migrations ```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0245aa4-bcf0-4e22-81e1-0b567fd9715c)
 
 
