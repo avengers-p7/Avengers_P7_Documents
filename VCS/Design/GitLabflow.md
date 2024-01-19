@@ -1,4 +1,4 @@
-# GitLab FLow Branching Strategy
+# GitLab Flow Branching Strategy
 
 
 | Author           | Created on  | Last Updated | Document Version |
