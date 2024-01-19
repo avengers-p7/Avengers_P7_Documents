@@ -71,10 +71,6 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 ***
 
-# Installation Proccess
-
-Now github ready to use 
-
 # Organization Creation
 
 ![Screenshot from 2024-01-18 18-08-30](https://github.com/avengers-p7/Documentation/assets/156644891/55d3a536-309b-4cfd-b616-e28bb80e2014)
