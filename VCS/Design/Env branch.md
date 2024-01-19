@@ -5,6 +5,19 @@
 | Vikram BISHT | 16 Jan 2024   |     v1     | Vikram Bisht    | 
 
 ---
+
+# Table of Content
+1. Introduction
+2. Need of Environment Branch
+3. Types of Environment Branches
+4. Creating a feature branch
+5. Advantages
+6. Disadvantages
+7. Conclusion
+8. Contact Information
+9. Resources and References
+***
+
 # Introduction
 In version control systems, branching is a powerful feature that allows developers to work on new features or bug fixes without affecting the main codebase. This document describes an environment branch workflow in Git, which is a popular version control system. This workflow is based on creating separate branches for different environments, such as development, staging, and production.
 
@@ -63,7 +76,7 @@ The environment branch workflow is a useful tool for teams that work on large pr
 | ------------              | --------------------------------|
 | Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
 
-# Resources and References
+# Resource and References
 
 |  Source                                                             |        Description                                                           |
 | ------------                                                        | --------------------------------                                             |
