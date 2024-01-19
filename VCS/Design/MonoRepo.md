@@ -54,6 +54,7 @@ When using a mono repo for all our code we might face a few challenges, some of 
 | **Forking Is More Difficult** | In open-source projects, contributors find it less straightforward to fork and contribute in a monorepo compared to multiple repositories. Navigating the correct project within the monorepo and understanding the broader impact on other projects can be barriers for contributors.
 
 ## Best Practices 
+To optimize our mono repo we can use the following practices:-
 
 |         Practice       | Description |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,6 +64,8 @@ When using a mono repo for all our code we might face a few challenges, some of 
 | **Use Git features to enhance repo performance** | As the size of your repository grows, the amount of bandwidth and system resources required to effectively utilize the project will increase, and the time it takes to clone can become substantial, especially when employing modern CI/CD strategies such as parallelism. In this case, we can use features like Shallow Clone and Sparse Checkout. 
 | **Use Trunk-based development** | ‘Trunk-based development’ (TBD) is a strategy where all developers work in a single branch, often called the 'trunk' or 'main' branch, and use short-lived feature branches (or no branches at all). It reduces divergence, minimizes merge conflicts, and aligns with CI/CD practices.
 ## Conclusion 
+
+In conclusion, a monorepo offers advantages like improved visibility, code sharing, and standardized practices for managing microservices. However, challenges include slower development cycles and potential complexities. To optimize monorepo usage, consider best practices such as selective builds, effective dependency management, and trunk-based development. The decision to adopt a monorepo should be based on a careful evaluation of specific needs and a balanced consideration of its benefits and challenges. Successful implementation requires a thoughtful approach and collaboration within the development team.
 
 ## Contact Information
 
