@@ -77,7 +77,9 @@ A pull request proposes changes to the original repository. Navigate to the orig
 
 ## Rules and Guidelines
 
- Use the provided checklist in the pull request template for verbosity and completeness.
++ Use the provided checklist in the pull request template for verbosity and completeness.
++ Thoroughly test your changes to ensure they work as intended. Provide test cases where applicable to maintain code reliability.
++ Update or create documentation to reflect your changes. This ensures that others can easily understand and use your contributions.
++ Engage in the review process actively. Address and incorporate feedback from reviewers, fostering collaboration and maintaining code quality.
 
-# Rules and Guidelines
 
