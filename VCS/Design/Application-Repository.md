@@ -14,19 +14,20 @@
   
   | Aspect | Description  |
   |--------|--------------|
-  |Centralized Version Control | Application repositories provide a centralized platform for version control, enabling developers to track changes, collaborate, and maintain a historical record for transparency and accountability. |
-  | Collaborative Development |	Repositories serve as collaboration hubs, fostering teamwork by providing a shared space where developers can contribute simultaneously, facilitating efficient communication and minimizing conflicts. |
-  | Organized Codebase |	Structured repositories enhance codebase organization, making it easier for developers to navigate, understand, and contribute. A well-organized repository improves maintainability and supports scalability. |
-  | History and Auditing | Version control capabilities maintain a detailed history of code changes, supporting auditing, compliance, and troubleshooting. Developers can identify contributors and understand the project's evolution. |
+  |**Centralized Version Control**| Application repositories provide a centralized platform for version control, enabling developers to track changes, collaborate, and maintain a historical record for transparency and accountability. |
+  | **Collaborative Development**|	Repositories serve as collaboration hubs, fostering teamwork by providing a shared space where developers can contribute simultaneously, facilitating efficient communication and minimizing conflicts. |
+  | **Organized Codebase** |	Structured repositories enhance codebase organization, making it easier for developers to navigate, understand, and contribute. A well-organized repository improves maintainability and supports scalability. |
+  | **History and Auditing** | Version control capabilities maintain a detailed history of code changes, supporting auditing, compliance, and troubleshooting. Developers can identify contributors and understand the project's evolution. |
+  
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## List of Application Repositories
 
  | Repository Type | Purpose |
  |-----------------|---------|
- | Source Code Repository | Central storage for the application's source code. |
- | Documentation Repository |	Comprehensive repository for storing documentation related to the application. |
- | Dependency Management Repository	| Manages and versions external dependencies crucial for the application. |
+ | **Source Code Repository** | Central storage for the application's source code. |
+ |**Documentation Repository** |	Comprehensive repository for storing documentation related to the application. |
+ | **Dependency Management Repository**| Manages and versions external dependencies crucial for the application. |
  | Configuration Repository |	Stores configuration files for different environments to manage settings. |
  | Testing Repository | Repository for test cases, automated tests, and other testing-related resources. |
  | Deployment Scripts Repository	| Holds scripts related to the deployment process, ensuring automation and consistency. |
