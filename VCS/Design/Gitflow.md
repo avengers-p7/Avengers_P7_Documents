@@ -32,7 +32,8 @@ Gitflow is a branching model for Git that aims to streamline the release managem
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # How it works
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/636dbd44-dd54-42c7-89b1-b5bcb68ff517)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/107f133e-c15e-4c9b-9c7f-a0759e6b2dfa)
+
 
 ## Here's a breakdown of the diagram:
 
