@@ -6,6 +6,20 @@
 
 ***
 # Table of Contents 
++ [Introduction](#introduction)
++ [Flow Diagram](#pull-requests-flow)
++ [Pull Request Creation](#creating-a-pull-request)
++ [Pull Request Checklist](#pull-request-checklist)
++ [Guidelines](#rules-and-guidelines)
++ [Reviewing Pull Requests](#reviewing-pull-requests)
++ [Closing Pull Requests](#closing-pull-requests)
++ [Conclusion](#conclusion)
++ [Contact Information](#contact-information)
++ [References](#references)
+
+
+
+
 
 ***
 # Introduction 
