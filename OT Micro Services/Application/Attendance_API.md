@@ -13,7 +13,7 @@
 5. [System Requirements](#system-requirements)
 6. [Dependencies](#dependencies)
 7. [API Setup](#api-setup)
-8. [API Security](#best-practices-for-api-security)
+8. [Security](#best-practices-for-api-security)
 9. [Troubleshoot](#troubleshoot)
 10. [Contact Information](#contact-information)
 11. [References](#references)
