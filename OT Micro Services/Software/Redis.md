@@ -155,7 +155,7 @@ This section shows how to set up the master node with password authentication.
 
     sudo service redis-server restart
 
-### See the Status Of redis-server.
+### See the Status of redis-server.
 
     sudo systemctl status redis-server
 ***
