@@ -1,3 +1,4 @@
+# GitLab
 | Author | Created on | Last Updated | Document Version |
 | ------ | ---------- | ------------ | ---------------- |
 | Shantanu | 10-01-2024 | 15-01-2024   |         v1     |
@@ -60,10 +61,12 @@ GitLab is a web-based Git repository that provides free open and private reposit
 * GitLab provides GitLab Community Edition version for users to locate, on which servers their code is present.
 * GitLab provides unlimited number of private and public repositories for free.
 * The Snippet section can share small amount of code from a project, instead of sharing whole project.
+* GitLab includes a container registry, allowing developers to manage and store Docker images directly within the platform.
 
 # Disadvantages
 * While pushing and pulling repositories, it is not as fast as GitHub.
 * GitLab interface will take time while switching from one to another page.
+* Limited Third-Party Integrations
 
 ***
 
