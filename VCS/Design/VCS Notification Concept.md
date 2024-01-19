@@ -68,13 +68,13 @@ VCS notifications are vital for real-time collaboration and code quality assuran
 It's essential to tailor notifications to the specific needs and responsibilities of each stakeholder group. Many modern VCS platforms provide customizable notification settings, allowing users to choose the types of events they want to be notified about and the channels through which they receive those notifications.
 
 ***
-# Contact Information
+## Contact Information
 
 | Name                 | Contact Information                                                                                     
 |---------------------------------|------------------------------------------------------------|
 | Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co
 ***
-# References
+## References
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
