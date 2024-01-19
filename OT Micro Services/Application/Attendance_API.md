@@ -61,7 +61,7 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 |  Runtime Dependency|	Version 
    |---------|---------|
    | Make	| 4.2.1|
-   | Pip |  | 22.0.2|
+   | Pip   | 22.0.2|
    | Poetry | 1.7.1 |
    | Python | 3.11 or above |
 
