@@ -96,9 +96,9 @@ sudo apt install python3-pip
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration file.
-
+***
 <img width="960" alt="Screenshot 2024-01-19 at 1 28 04 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cd0a1807-5864-4ae5-92e7-c9aca68e664f">
-
+***
     
 4) **Install Postgres**
 
@@ -108,7 +108,9 @@ For data storage and cache you need to setup postgreSQL and redis either as a co
 sudo apt update
 sudo apt install postgresql
 ```
+***
 <img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
+***
 
 * Create Database and user
 ```shell
