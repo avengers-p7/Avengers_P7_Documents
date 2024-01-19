@@ -4,25 +4,25 @@
 -------------------------------------------------------------------------------------------
 # Agenda:-
 
-**1.Introduction**
+**1. Introduction**
 
-**2.Purpose**
+**2. Purpose**
 
 **3. Why selecting the right VCS is critical**?
 
-**4.Distributed vs Centralized VCS**
+**4. Distributed vs Centralized VCS**
 
-**5.Flow Diagram of VCSs**
+**5. Flow Diagram of VCSs**
 
-**6.Key Features**
+**6. Key Features**
 
-**7.Reasons of selecting GitHub**
+**7. Reasons of selecting GitHub**
 
-**8.Conclusion**
+**8. Conclusion**
 
-**9.Contact Information**
+**9. Contact Information**
 
-**10.Reference Links**
+**10. Reference Links**
 
 ----------------------------------------------------------------------------------------------------------------------------
 
