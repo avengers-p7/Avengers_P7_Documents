@@ -17,7 +17,7 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 **Prometheus and OpenTelemetry Metrics**: The API supports monitoring and observability through integration with Prometheus and OpenTelemetry, providing metrics for performance analysis.
 
 **Liquibase**: To track the changes over time, liquibase acts as a version control for your database schema.  
-Swagger Integration: Swagger is integrated for API documentation, making it easy for developers to test and interact with API endpoints.
+**Swagger Integration:** Swagger is integrated for API documentation, making it easy for developers to test and interact with API endpoints.
 
 # Flow Diagram 
 <img width="802" alt="Screenshot 2024-01-12 at 1 04 42 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c8e7795b-a96e-4570-b47a-cb0e2fda8b4f">
