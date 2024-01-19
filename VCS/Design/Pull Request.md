@@ -82,7 +82,7 @@ A pull request proposes changes to the original repository. Navigate to the orig
 > Note: While forking is common in organizational workflows, it's not mandatory for feature branches. Instead, create a branch within the existing repository. Submit a pull request from your branch, and if approved, changes can seamlessly integrate into the main branch without the need for a separate fork, streamlining collaboration.
 
 ***
-## Pull Request Checklist
+# Pull Request Checklist
 
 - [x] Tag the issue #[issue_number] (e.g., #42) to automatically close it upon merging.
 - [x] Tag the issue author @[author] (e.g., @issue_author) for visibility.
@@ -91,7 +91,7 @@ A pull request proposes changes to the original repository. Navigate to the orig
 
 ***
 
-## Rules and Guidelines
+# Rules and Guidelines
 
 + Use the provided checklist in the pull request template for verbosity and completeness.
 + Thoroughly test your changes to ensure they work as intended. Provide test cases where applicable to maintain code reliability.
@@ -99,7 +99,6 @@ A pull request proposes changes to the original repository. Navigate to the orig
 + Engage in the review process actively. Address and incorporate feedback from reviewers, fostering collaboration and maintaining code quality.
 
 ***
-
 # Reviewing Pull Requests
 
 + Reviewers analyze the code for adherence to coding standards, logic errors, and potential issues. Provide constructive feedback to improve code quality.
