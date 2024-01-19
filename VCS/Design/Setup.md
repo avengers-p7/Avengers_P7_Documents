@@ -4,6 +4,10 @@
 
 ***
 
+# Table Of Contents
+
+
+
 # Introduction
 
 GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
@@ -104,16 +108,7 @@ Now github ready to use
 
 ***
 
-
-![Screenshot from 2024-01-16 11-52-38](https://github.com/avengers-p7/Documentation/assets/156644891/0f8d3b52-5233-4dcf-ae1b-94ef9e88ad20)
-
-***
-
-![Screenshot from 2024-01-16 14-06-28](https://github.com/avengers-p7/Documentation/assets/156644891/bd5c8a7a-5eb6-4594-adfd-a73ceb58e047)
-
-***
-
-# How to create Team
+# Team Creation
 
 ***
 ![Screenshot from 2024-01-16 14-06-39](https://github.com/avengers-p7/Documentation/assets/156644891/2cb91edd-6eae-466c-bd97-508ea25173fc)
