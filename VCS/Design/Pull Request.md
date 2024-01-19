@@ -45,13 +45,14 @@ Make necessary code or documentation modifications in your local branch. Ensure 
 ### **Step 5: Commit Changes**
 Commits save changes with a message describing what was done. Use `git commit -m "your message"` to commit changes. Clear and concise commit messages help collaborators understand your intentions.
 
-<img width="1039" alt="Screenshot 2024-01-19 at 7 10 19 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/fe8e5ff6-fbf7-41f5-8bc9-d1da87707cf4">
+<img width="1039" alt="Screenshot 2024-01-19 at 7 10 19 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/b5b46607-731a-45d2-904d-17f888b9c0ce">
 
 
 ***
 ### **Step 6: Push Changes**
 Pushing uploads your local branch and commits to your forked repository on GitHub. Execute `git push origin branch-name` to push changes. This makes your modifications accessible for creating a pull request.
 
+<img width="786" alt="Screenshot 2024-01-19 at 7 14 47 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8fb46275-92c3-4280-aadd-90ae4d4c3735">
 
 ***
 ### **Step 7: Create Pull Request**
