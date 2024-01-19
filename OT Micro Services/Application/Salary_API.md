@@ -4,6 +4,21 @@
 | -------- | ------- | -------------- | --------------| ---------------- |
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 10-01-2024  | 1.0   | Harshit Singh | 16-01-2024 |
 
+# Table of Contents 
+1. Purpose
+2. Key Components
+3. System Requirements
+4. Important Ports
+5. Pre-Requisites
+6. Dependencies
+7. Architecture
+8. Setup API
+9. Results
+10. Troubleshooting
+11. Contact Information
+12. References
+
+
 ## Purpose
 
 Salary API is a Java-based microservice which is responsible for all the salary-related transactions and records in **[OT-Microservices](https://github.com/OT-MICROSERVICES/salary-api)** stack. The application is platform-independent and can be run on multiple operating systems. **[Java Runtime](https://www.java.com/en/download/manual.jsp)** would be required to run this application.
@@ -59,6 +74,21 @@ The Salary API application has some database, cache manager and package dependen
 - **[migrate](https://github.com/golang-migrate/migrate)**
 
 Maven will be used as a package manager to download specific versions of dependencies to run the Salary API.
+
+## Dependencies
+
+### Runtime Dependencies
+
+|   Tool/ Software    |    Version    |
+| ------------------- |  -----------  |
+|        Java         |       17      |
+
+### Build Dependencies
+
+|   Tool/ Software    |    Version    |
+| ------------------- |  -----------  |
+|        Java         |       17      |
+|        Maven        |             |
 
 ## Architecture
 
