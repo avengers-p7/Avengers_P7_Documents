@@ -1,3 +1,7 @@
+# GitFlow Branching Strategy
+
+***
+
 | Author           | Created on  | Last Updated | Document Version |
 |------------------|-------------|--------------|-------------------|
 | Khushi Malhotra | 16-01-2024  | 18-01-2024   |        v1          |
