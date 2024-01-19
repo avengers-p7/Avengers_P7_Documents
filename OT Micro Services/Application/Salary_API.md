@@ -143,9 +143,9 @@ Once the schema, table and database are configured, we can start our application
 
 1. Clone Salary API repo
 
-```shell
-    git clone https://github.com/OT-MICROSERVICES/salary-api.git
-```
+   ```shell
+       git clone https://github.com/OT-MICROSERVICES/salary-api.git
+   ```
 2. For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
 
    ```shell
