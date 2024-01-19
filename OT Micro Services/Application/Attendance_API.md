@@ -24,16 +24,14 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 
 ***
 # Key Components
-**Flask Web Framework**: The API is built using Flask, a lightweight and flexible web framework for Python, which simplifies the development of RESTful APIs.
-
-**PostgreSQL Database**: PostgreSQL serves as the primary database for storing attendance records. Its relational nature ensures data integrity and facilitates efficient querying.
-
-**Redis Cache Management**: Redis is employed as a cache management middleware, enhancing performance and responsiveness by storing API responses for quick retrieval.
-
-**Prometheus and OpenTelemetry Metrics**: The API supports monitoring and observability through integration with Prometheus and OpenTelemetry, providing metrics for performance analysis.
-
-**Liquibase**: To track the changes over time, liquibase acts as a version control for your database schema.  
-**Swagger Integration:** Swagger is integrated for API documentation, making it easy for developers to test and interact with API endpoints.
+| Components               | Description                                                                                                     |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Flask Web Framework         | The API is built using Flask, a lightweight and flexible web framework for Python, simplifying RESTful API development. |
+| PostgreSQL Database         | PostgreSQL serves as the primary database for storing attendance records, ensuring data integrity and facilitating efficient querying. |
+| Redis Cache Management      | Redis is employed as a cache management middleware, enhancing performance and responsiveness by storing API responses for quick retrieval. |
+| Prometheus and OpenTelemetry Metrics | The API supports monitoring and observability through integration with Prometheus and OpenTelemetry, providing metrics for performance analysis. |
+| Liquibase                    | Liquibase acts as a version control system for database schema, tracking changes over time.                          |
+| Swagger Integration          | Swagger is integrated for API documentation, making it easy for developers to test and interact with API endpoints. |
 
 ***
 # Flow Diagram 
