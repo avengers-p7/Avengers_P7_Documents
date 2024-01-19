@@ -1,10 +1,19 @@
 # GitLab
-| Author | Created on | Last Updated | Document Version |
-| ------ | ---------- | ------------ | ---------------- |
-| Shantanu | 10-01-2024 | 15-01-2024   |         v1     |
+| Author | Created on | Last Updated | Document Version | Last Updated |
+| ------ | ---------- | ------------ | ---------------- | ------------ |
+| Shantanu | 10-01-2024 | 19-01-2024   |         v1     |   Shantanu   |
 ***
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/487d819d-c1e2-4dd8-a463-c2a980d9c930)
+# Table of Content
+1. Introduction
+2. Features
+3. Plan & Pricing
+4. Comparision of Plans
+5. Advantages
+6. Disadvatages
+7. Conclusion
+8. Contact Information
+9. References
 
 # Introduction
 GitLab is a web-based Git repository that provides free open and private repositories, issue-following capabilities, and wikis. It is a complete DevOps platform that enables professionals to perform all the tasks in a project—from project planning and source code management to monitoring and security. Additionally, it allows teams to collaborate and build better software. 
