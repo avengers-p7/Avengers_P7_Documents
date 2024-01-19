@@ -60,10 +60,10 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 # Dependencies:
 |  Runtime Dependency|	Version 
    |---------|---------|
-   | 5432	| Postgresql port|
-   | 6379 | Redis port | |
-   | 8080 | Attendance API port |
-   | 22 | Port 22 to establish an SSH connection to an EC2 |
+   | Make	| 4.2.1|
+   | Pip |  | 22.0.2|
+   | Poetry | 1.7.1 |
+   | Python | 3.11 or above |
 
  
 # API Installation
