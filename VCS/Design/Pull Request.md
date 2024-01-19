@@ -45,6 +45,8 @@ Make necessary code or documentation modifications in your local branch. Ensure 
 ### **Step 5: Commit Changes**
 Commits save changes with a message describing what was done. Use `git commit -m "your message"` to commit changes. Clear and concise commit messages help collaborators understand your intentions.
 
+<img width="1039" alt="Screenshot 2024-01-19 at 7 10 19 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/fe8e5ff6-fbf7-41f5-8bc9-d1da87707cf4">
+
 
 ***
 ### **Step 6: Push Changes**
