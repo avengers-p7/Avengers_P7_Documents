@@ -1,16 +1,16 @@
 | Author | Created on |last updated| Document Version |
-| ----- | -----------| -----------|------------------
+| ------ | ---------- |-----------|------------------
 | Nidhi | 15-01-24   | 17-01-24           |  V1       
 
 ***
-# INTRODUCTION
+# Introduction
 GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
 
 ***
 
 # FEATURES AND DESCRIPITON
 
-|FEATURES |DESCRIPTION|
+|FEATURES |DESCRIPTION |
 |---------|------------|
 | Version Control| GitHub serves as a distributed version control system, built on top of Git. It allows developers to track changes in their code, collaborate on projects, and manage different versions of their software.|
 |Repository Hosting|GitHub provides a platform for hosting code repositories. Developers can create repositories to store and organize their project files, making it easy to manage and share code with others|
@@ -25,7 +25,7 @@ GitHub is a web-based platform and version control system that plays a crucial r
 
 ***
 
-## PREREQUISITES 
+# Prerequisites 
 
 1. Administrator privileges
 
@@ -33,12 +33,12 @@ GitHub is a web-based platform and version control system that plays a crucial r
 
 3. Your favorite coding text editor
 
-4. Username and password for the Github website (optional)
+4. Username and password for the Github website 
 
 
 ## Setup via Web browser
 
-Step_1 Create a GitHub Account
+ **Step-1** Create a GitHub Account
 
 Go to GitHub's website and sign up for a new account if you don't have one.
 
@@ -62,43 +62,39 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 ***
 
-## INSTALLATION IS COMPLETE 
+# Installation Proccess
 
 Now github ready to use 
 
-## showing :- How to Create an Organization
-
-## Now open your organisation as showing in image
-
+# Organization Creation
 
 ![Screenshot from 2024-01-18 18-08-30](https://github.com/avengers-p7/Documentation/assets/156644891/55d3a536-309b-4cfd-b616-e28bb80e2014)
 
 
-showing :- How to Create an Organization
+## How to Create an Organization
 
 
 ![Screenshot from 2024-01-16 11-35-53](https://github.com/avengers-p7/Documentation/assets/156644891/7644efd9-7d0b-44a3-a509-54d9ee14f811)
 
 
 ***
-***
 
 ![Screenshot from 2024-01-16 11-46-08](https://github.com/avengers-p7/Documentation/assets/156644891/9be801f3-155e-434a-8dfb-3e67180ab9df)
 
-***
+
 ***
 
 
 ![Screenshot from 2024-01-16 11-49-09](https://github.com/avengers-p7/Documentation/assets/156644891/559e5207-5c21-461d-b27d-dba31caa0e12)
 
-***
+
 ***
 
 ![Screenshot from 2024-01-16 11-49-46](https://github.com/avengers-p7/Documentation/assets/156644891/3b22f335-68b1-4ac9-844c-12e547890994)
 
 ***
 
-## Showing : How to create Repository 
+# Repository Creation 
 
 ***
 
@@ -116,7 +112,7 @@ showing :- How to Create an Organization
 
 ***
 
-## Showing : How to create Team
+# How to create Team
 
 ***
 ![Screenshot from 2024-01-16 14-06-39](https://github.com/avengers-p7/Documentation/assets/156644891/2cb91edd-6eae-466c-bd97-508ea25173fc)
@@ -128,100 +124,21 @@ showing :- How to Create an Organization
 
 
 ***
-***
 
+# Conclusion  
 
-## Git Installation for Local Development
-
-![Screenshot from 2024-01-18 12-48-44](https://github.com/avengers-p7/Documentation/assets/156644891/231eaf1d-1c82-4824-8de9-e9d6f70e0817)
-
-
-Step_1 Download git
-
-Visit the official Git website and download the latest version of Git for Windows.
-
-1. Browse to the official Git website: https://git-scm.com/downloads
-   
-2. Click the download link for Windows and allow the download to complete.
-
-![Screenshot from 2024-01-18 12-44-13](https://github.com/avengers-p7/Documentation/assets/156644891/79a94c27-acc0-4685-9d8f-76b20368ed7a)
-
-
- ***
-
-Step_2 Extract and Launch Git Installer
-
-
-Browse to the download location (or use the download shortcut in your browser). Double-click the file to extract and launch the installer.
-
-
-![Screenshot from 2024-01-18 12-51-22](https://github.com/avengers-p7/Documentation/assets/156644891/8aeeaafb-17f0-4ebb-9d05-42fad1e2619c)
-
-
-***
-
-Step_3 Allow the app to make changes to your device by clicking Yes on the User Account Control dialog that opens.
-
-
-![Screenshot from 2024-01-18 12-53-47](https://github.com/avengers-p7/Documentation/assets/156644891/355f65dc-be35-43a5-a3d6-9e7284451e09)
-
-
-***
-
-Step_4 Review the GNU General Public License, and when you’re ready to install, click Next.
-
-
-![Screenshot from 2024-01-18 12-55-11](https://github.com/avengers-p7/Documentation/assets/156644891/0631f84e-db7b-48ca-a87a-f13989d02f59)
-
-***
-
-Step_5 The installer will ask you for an installation location. Leave the default, unless you have reason to change it, and click Next.
-
-
-![Screenshot from 2024-01-18 12-58-01](https://github.com/avengers-p7/Documentation/assets/156644891/0e834467-efcd-49c5-9b4f-5a4171f6dfc4)
-
-***
-
-Step_6 The installer will offer to create a start menu folder. Simply click Next.
-
-
-![Screenshot from 2024-01-18 12-59-03](https://github.com/avengers-p7/Documentation/assets/156644891/87dafc1d-3ad5-4255-a844-3eb89676d786)
-
-***
-
-
-Step_7 Once the installation is complete, tick the boxes to view the Release Notes or Launch Git Bash, then click Finish.
-
-
-
-![Screenshot from 2024-01-18 13-00-13](https://github.com/avengers-p7/Documentation/assets/156644891/e5b156c2-0348-49ed-a443-4233cb232ae5)
-
-***
-***
-
-## How to Launch Git in Windows
-
-
-Launch Git Bash Shell
-
-
-![Screenshot from 2024-01-18 13-02-43](https://github.com/avengers-p7/Documentation/assets/156644891/77213765-cc04-4f5a-b9a5-402aea681a67)
-
-***
-
-## NOW WE ARE READY TO USE GIT 
 
 
 ## CONTACT INFORMATION 
 
-|NAME | EMAIL ID |
+| Name | Email ID |
 |------|----------|
 |NIDHI BHARDWAJ| nidhi.bhardwaj.snaatak@mygurukulam.co |
 
 ***
 
-|REFERENCES  | DESCRIPTIONS|
-|------|--------------|
+| Reference  | Description |
+| ---------  |------------ |
 |https://docs.github.com/en |FOR DOCUMENTATION|
 |https://phoenixnap.com/kb/how-to-install-git-windows| FOR SETUP |
 
