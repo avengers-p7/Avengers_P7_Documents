@@ -21,7 +21,7 @@ ScyllaDB is a high-performance, distributed NoSQL database designed for horizont
 | **Fault Tolerance:**   | Ensure high availability and fault tolerance with a distributed architecture that distributes data across multiple nodes. |
 | **Elasticity**     | ScyllaDB supports dynamic scaling, allowing you to add or remove nodes from the cluster without downtime.   |
 
-The ScyllaDB Manual Setup Guide provides step-by-step instructions for installing, configuring, and setting up ScyllaDB on your system. This guide is intended to help users seamlessly deploy and manage ScyllaDB, a highly performant NoSQL database.
+This  Guide gives brief overview about scylladb & provides step-by-step instructions for installing, configuring, and setting up ScyllaDB on your system. This guide is intended to help users seamlessly deploy and manage ScyllaDB, a highly performant NoSQL database.
 
 ---
 
