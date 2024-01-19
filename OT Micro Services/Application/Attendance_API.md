@@ -65,16 +65,16 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 ## 2. API Setup Dependencies:
 Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
 
-1) *Install make:*
+1) **Install make:**
 ```shell
 sudo apt install make -y 
 ```
-2) *Install pip:*
+2) **Install pip:**
 ```shell
 sudo apt install python3-pip
 ```
      
-3) *Install poetry:*
+3) **Install poetry:**
 ```shell
 curl -sSL https://install.python-poetry.org | python3 -
 ```
@@ -83,7 +83,7 @@ Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration fi
 <img width="960" alt="Screenshot 2024-01-19 at 1 28 04 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cd0a1807-5864-4ae5-92e7-c9aca68e664f">
 
     
-4) *Install Postgres*
+4) **Install Postgres**
 
 For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
@@ -106,14 +106,14 @@ NOTE: Remember to alter the superuser password based on the config.yaml file. Ot
 ```shell
 ALTER USER postgres WITH PASSWORD 'password';
 ``` 
-5) *Install Redis* 
+5) **Install Redis**
 ```shell
 sudo apt install redis-server
 ```
 <img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
 
     
-6) *Install Liquibase*
+6) **Install Liquibase**
    
 Liquibase helps in versioning and managing database schema changes in a flexible and automated way.
 
@@ -136,13 +136,13 @@ sudo apt-get install liquibase
 <img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
 
 ## 3.  Building and running:
-1) *Run Migrations*
+1) **Run Migrations**
    
 * Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
-2) *Make build*
+2) **Make build**
 * To successfully run the make command, ensure that your Makefile is configured as follows
   
 <img width="1132" alt="Screenshot 2024-01-19 at 2 51 00 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f8fe40c-d9af-4d95-9232-0ce31cb761e6">
@@ -152,7 +152,7 @@ sudo apt-get install liquibase
 * Execute the `make build` command to install necessary dependencies using Poetry.
 * To inspect the installed dependencies by Poetry, you can use the command `poetry show`.
    
-4)  *Run Application*
+4)  **Run Application**
 After installing the required dependencies in the Poetry shell environment for running the API, it's advisable to install Gunicorn directly within the virtual environment. Execute the following command to achieve this:
 ```shell
 poetry shell
