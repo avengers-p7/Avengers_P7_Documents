@@ -99,8 +99,8 @@ curl -sSL https://install.python-poetry.org | python3 -
 Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration file.
 
 <img width="960" alt="Screenshot 2024-01-19 at 1 28 04 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cd0a1807-5864-4ae5-92e7-c9aca68e664f">
-***
-    
+
+*** 
 4) **Install Postgres**
 
 For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
@@ -131,8 +131,8 @@ ALTER USER postgres WITH PASSWORD 'password';
 sudo apt install redis-server
 ```
 <img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
-***
 
+***
 6) **Install Liquibase**
    
 Liquibase helps in versioning and managing database schema changes in a flexible and automated way.
@@ -154,6 +154,7 @@ sudo apt-get install liquibase
 * To establish the connect between liquibase and postgres you need to make changes in liquibase.properties file. This is how you may do it. 
 
 <img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
+
 ***
 ## 3.  Building and running:
 1) **Run Migrations**
@@ -162,6 +163,7 @@ sudo apt-get install liquibase
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
+***
 2) **Make build**
 * To successfully run the make command, ensure that your Makefile is configured as follows
   
@@ -171,7 +173,8 @@ sudo apt-get install liquibase
 
 * Execute the `make build` command to install necessary dependencies using Poetry.
 * To inspect the installed dependencies by Poetry, you can use the command `poetry show`.
-   
+
+***
 4)  **Run Application**
 After installing the required dependencies in the Poetry shell environment for running the API, it's advisable to install Gunicorn directly within the virtual environment. Execute the following command to achieve this:
 ```shell
@@ -198,7 +201,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 
 <img width="1308" alt="Screenshot 2024-01-11 at 10 49 25 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/25ec75f6-7680-49e9-899b-de8f6ed55504">
 
-
+***
 # API Endpoints 
 
 ## Endpoints Information
@@ -213,12 +216,14 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 | /api/v1/attendance/health        | GET        | Provides shallow health check information about application health and readiness        |
 | /api/v1/attendance/health/detail | GET        | Provides detailed health check about dependencies as well like - PostgresSQL and Redis |
 
+***
 ## Best Practices for API security
 
 1. **Always use TLS:** Use HTTPS to encrypt data transmitted between clients and the API server. This helps prevent man-in-the-middle attacks. Obtain and install an SSL certificate for your domain.
 
 2. **Use OAuth for SSO:** Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
 
+***
 #  Troubleshoot
 1. **Problem -** The error suggests that psycopg2 requires pg_config to be available in the system. pg_config is a utility that is part of the PostgreSQL installation and is necessary for building Python packages that depend on it.
 
@@ -243,7 +248,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
    **Solution -** Resolved compatibility issues by utilizing Python 3.11, then used a virtual environment to successfully install all required dependencies specified in the pyproject.toml file.
 
    
-
+***
 # Contact Information
 
 |Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
