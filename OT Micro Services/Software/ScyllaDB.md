@@ -3,13 +3,13 @@
 
 |   Author     |  Created on   |  Version   | Last updated by | Last edited on |
 | ------------ | --------------| -----------|---------------- | -------------- |
-| Vikram BISHT | 10 Jan 2024   |     v1     | Vikram Bisht    | 10 Jan 2024  |
+| Vikram BISHT | 10 Jan 2024   |     v1     | Vikram Bisht    | 19 Jan 2024  |
 
 ---
 
 # Introduction
 
-ScyllaDB is a highly performant and scalable NoSQL database that combines the best features of Apache Cassandra with innovative optimizations, resulting in superior throughput and lower latency. Designed for high-performance applications, ScyllaDB provides seamless scalability and fault tolerance, making it an excellent choice for various use cases.
+ScyllaDB is a high-performance, distributed NoSQL database designed for horizontal scalability and low-latency operations. It was developed as an open-source alternative to Apache Cassandra, but with a focus on improved performance and efficiency. ScyllaDB is written in C++ and is optimized for modern hardware architectures. The database is designed to handle large volumes of data and high-throughput workloads, making it well-suited for applications with demanding performance requirements.
 
 ## Key Features
 
@@ -19,6 +19,7 @@ ScyllaDB is a highly performant and scalable NoSQL database that combines the be
 | **Flexibility:**   |  Adapt to diverse application needs with a NoSQL database model, offering flexibility in data modeling.          |
 | **Performance:**   |  Achieve superior throughput and low-latency performance, making ScyllaDB ideal for high-performance applications. |
 | **Fault Tolerance:**   | Ensure high availability and fault tolerance with a distributed architecture that distributes data across multiple nodes. |
+| **Elasticity**     | ScyllaDB supports dynamic scaling, allowing you to add or remove nodes from the cluster without downtime.   |
 
 The ScyllaDB Manual Setup Guide provides step-by-step instructions for installing, configuring, and setting up ScyllaDB on your system. This guide is intended to help users seamlessly deploy and manage ScyllaDB, a highly performant NoSQL database.
 
