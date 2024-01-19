@@ -23,7 +23,10 @@
 
 ***
 # Introduction 
-A pull request (PR) is a fundamental aspect of collaborative development on GitHub. It allows contributors to propose changes to a repository and initiate a discussion around those changes before merging them into the main codebase.
+A pull request is a proposal to merge a set of changes from one branch into another. This mechanism is fundamental in collaborative software development workflows, allowing team members to thoroughly review and discuss the proposed alterations before incorporating them into the main codebase. 
+
+The pull request acts as a communication hub where developers can engage in discussions, ask questions, and collaborate to ensure that the proposed changes align with the project's objectives and coding standards.
+The primary purpose of this process is to maintain code quality, prevent errors, and promote a more informed decision-making process.
 
 *** 
 # Pull Requests flow 
