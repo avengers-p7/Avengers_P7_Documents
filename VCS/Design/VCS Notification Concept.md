@@ -19,6 +19,9 @@ A Version Control System (VCS) plays a crucial role in software development by m
 ***
 ## Why VCS Notifications
 A Version Control System (VCS) notification system is crucial in a collaborative development environment for several reasons:
+
+| Features                        | Description                                                                                                                   |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|.
 | Collaboration and Communication | Stakeholders need to be aware of changes made by their peers to avoid conflicts and ensure that everyone is on the same page. |
 | Timely Resolution of Issues     | Alerts team members about new issues or updates on existing ones. This ensures that critical issues are addressed promptly.   |
 | Continuous Integration and Deployment (CI/CD) | Integrates with CI/CD systems to provide notifications on build successes, failures, and other pipeline events. | 
