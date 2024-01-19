@@ -90,6 +90,7 @@ A pull request proposes changes to the original repository. Navigate to the orig
 - [x] Explain your testing approach to ensure the reliability of your change.
 
 ***
+
 ## Rules and Guidelines
 
 + Use the provided checklist in the pull request template for verbosity and completeness.
@@ -98,6 +99,7 @@ A pull request proposes changes to the original repository. Navigate to the orig
 + Engage in the review process actively. Address and incorporate feedback from reviewers, fostering collaboration and maintaining code quality.
 
 ***
+
 # Reviewing Pull Requests
 
 + Reviewers analyze the code for adherence to coding standards, logic errors, and potential issues. Provide constructive feedback to improve code quality.
