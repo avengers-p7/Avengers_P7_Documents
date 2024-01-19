@@ -6,9 +6,9 @@
 
 ## Table  of Contents
 
-1. Introduction
-2. Features
-3. Advantages
+1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md#introduction)
+2. [Features](#features)
+3. [Advantages](#Advantages)
 4. Challenges/Disadvantages
 5. Best Practices
 6. Conclusion
