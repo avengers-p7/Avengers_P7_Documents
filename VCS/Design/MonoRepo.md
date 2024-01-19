@@ -76,3 +76,5 @@ When using a mono repo for all our code we might face a few challenges, some of 
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
 |     Mono Repo                    | https://www.perforce.com/blog/vcs/what-monorepo#what-01 |
+|                                  | https://circleci.com/blog/monorepo-dev-practices/ |
+| Mono Repo Best Practices | https://buildkite.com/blog/monorepo-ci-best-practices |
