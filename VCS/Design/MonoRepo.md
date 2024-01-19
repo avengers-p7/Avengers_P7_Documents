@@ -47,7 +47,7 @@ The monorepo approach has several advantages:
 ## Challenges/Disadvantages 
 
 When using a mono repo for all our code we might face a few challenges, some of them are:-
-|         Practice       | Description |
+|         Problem       | Description |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Slower Development Cycles** | Breaking changes in a library can cause dependent libraries' tests to fail, requiring fixes before merging changes. Dependencies on other teams may lead to development stalls. Project progression may be hindered by the slowest team's pace, causing frustration among faster teams.
 | **Requires Download of Entire Codebase** | A monorepo containing all company code can be large, requiring contributors to download the entire repository. Inefficient disk space usage and slower interactions with the vast codebase, affect everyday actions like git status or code searches.
