@@ -5,18 +5,18 @@
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 10-01-2024  | 1.0   | Harshit Singh | 16-01-2024 |
 
 # Table of Contents 
-1. Purpose
-2.  Pre-Requisites
-3. Key Components
-4. System Requirements
-5. Important Ports
-6. Dependencies
-7. Architecture
-8. Setup API
-9. Results
-10. Troubleshooting
-11. Contact Information
-12. References
+1. [Purpose](#purpose)
+2. [Pre-Requisites](#Pre-Requisites)
+3. [Key Components](#Key Components)
+4. [System Requirements](#system requirements)
+5. [Important Ports]
+6. [Dependencies]
+7. [Architecture]
+8. [Setup API]
+9. [Results]
+10. [Troubleshooting]
+11. [Contact Information]
+12. [References]
 
 
 ## Purpose
