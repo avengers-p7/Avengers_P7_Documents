@@ -33,15 +33,15 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 # Flow Diagram 
 <img width="802" alt="Screenshot 2024-01-12 at 1 04 42 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c8e7795b-a96e-4570-b47a-cb0e2fda8b4f">
 
-
-# Pre-Requisites
+# Getting Started
+## Pre-Requisites
   Before running the Attendance API, certain pre-requisites need to be configured:
 * PostgreSQL Database
 * Redis
 * Poetry (Package Manager)
 * Liquibase (Database Schema Version Control)
 
-# System Requirements:
+## System Requirements:
  | Requirement | Recommendation |
  |-------------|----------------|
  | Processor/Instance Type |  Dual-Core/t2.medium |
@@ -49,13 +49,22 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
  | Disk Space | 16 GB or 2GB per core |
  | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
 
- # Important Ports
+ ## Important Ports
    |  Inbound Traffic|	Description  |
    |---------|---------|
    | 5432	| Postgresql port|
    | 6379 | Redis port | |
    | 8080 | Attendance API port |
    | 22 | Port 22 to establish an SSH connection to an EC2 |
+ 
+# Dependencies:
+|  Runtime Dependency|	Version 
+   |---------|---------|
+   | 5432	| Postgresql port|
+   | 6379 | Redis port | |
+   | 8080 | Attendance API port |
+   | 22 | Port 22 to establish an SSH connection to an EC2 |
+
  
 # API Installation
 ## 1. Clone Repository:
