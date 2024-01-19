@@ -105,6 +105,8 @@ sudo apt install python3-pip
 Install poetry and add Path to your shell configuration file. 
 ```shell
 curl -sSL https://install.python-poetry.org | python3 -
+```
+```shell
 export PATH="/home/ubuntu/.local/bin:$PATH"
 ```
 
