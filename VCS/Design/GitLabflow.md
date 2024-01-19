@@ -49,6 +49,17 @@ In today's fast-paced software development world, teams need a way to work toget
 | Additional testing or configuration can be performed in the staging environment. | -                                                                                                               |
 | Once ready, the code from the environment branch is merged into production. | -                                                                                                               |
 | The production deployment takes place, making the new features or bug fixes available to users. | -                                                                                                               |
+## Note:- Conflicts can arise in several ways
+
+1. Overlapping Functionality
+
+2. Conflicting Data Definitions
+   
+3. Versioning Issues
+
+4. Dependency Conflicts
+
+5. Security Vulnerabilities
 
 
 ***
