@@ -21,17 +21,32 @@ A Version Control System (VCS) plays a crucial role in software development by m
 A Version Control System (VCS) notification system is crucial in a collaborative development environment for several reasons:
 
 | Features | Description |
-|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------|.
-| Collaboration and Communication | Stakeholders need to be aware of changes made by their peers to avoid conflicts and ensure that everyone is on the same page. |
-| Timely Resolution of Issues     | Alerts team members about new issues or updates on existing ones. This ensures that critical issues are addressed promptly.   |
-| Continuous Integration and Deployment (CI/CD) | Integrates with CI/CD systems to provide notifications on build successes, failures, and other pipeline events. | 
-| Security Alerts | Notifies developers about security vulnerabilities in the codebase or dependencies and alerts on access/changes to the codebase.              |.
-| User Mentions and Discussions| Allows for targeted communication through user mentions in commit messages, pull requests, or issues. 
-| Customizable Notifications |Enables users to customize their notification preferences based on their role, responsibilities, and the areas of the project they are interested in. This helps avoid information overload. |
-
+| -------- | ----------- |
+| **Collaboration and Communication** | Stakeholders need to be aware of changes made by their peers to avoid conflicts and ensure that everyone is on the same page. |
+| **Timely Resolution of Issues** |  Alerts team members about new issues or updates on existing ones. This ensures that critical issues are addressed promptly. |
+| **Continuous Integration and Deployment (CI/CD)** | Stakeholders need to be aware of changes made by their peers to avoid conflicts and ensure that everyone is on the same page. |
+| **Security Alerts** |  Alerts team members about new issues or updates on existing ones. This ensures that critical issues are addressed promptly. |
+| **User Mentions and Discussions**| Allows for targeted communication through user mentions in commit messages, pull requests, or issues. 
+| **Customizable Notifications** |Enables users to customize their notification preferences based on their role, responsibilities, and the areas of the project they are interested in. This helps avoid information overload. |
 ***
 ## Types of Notifications 
-The frontend application have dependencies on other REST API of **[OT-Microservices](https://github.com/OT-MICROSERVICES)**. To run the application successfully, we need these things configured:
+Version Control Systems (VCS) provide notifications to users about various events and activities related to the versioned repositories. The types of notifications can vary depending on the specific VCS platform being used, but here are some common types of notifications:
+| Type | Description |
+| -------- | ----------- |
+| **Commit Notifications** | Notification when a new commit is made to the repository.Information about the changes made, the author, and the commit message. |
+| **Pull Request Notifications** |  Alerts when a new pull request is opened.Notifications about pull request comments, approvals, or merges. |
+| **Branch Activity Notifications** | Notifications related to the creation, deletion, or modification of branches. |
+| **Conflict Notifications** |  Alerts when conflicts occur during a merge or pull operation.Information on files or lines where conflicts need resolution. |
+| **Repository Events**| Notifications about events such as repository creation, deletion, or changes to repository settings. |
+| **Build and CI/CD Notifications** |Integration with Continuous Integration (CI) or Continuous Deployment (CD) systems can trigger notifications for build success or failure. |
+| **Security Alerts** |  Notifications about security vulnerabilities detected in project dependencies. |
+| **Permission Changes**| Notifications about changes in user permissions or access control settings.. |
+| **Webhook Notifications** |Custom notifications triggered by webhooks, allowing integration with external services. |
+| **Mentions and Discussions**| Notifications when a user is mentioned in comments or discussions within the repository. |
+
+The specific types of notifications available may depend on the VCS platform (e.g., Git, Mercurial, Subversion) and the collaboration tools or services integrated with it (e.g., GitHub, GitLab, Bitbucket). Users can often customize notification preferences based on their roles and responsibilities within a project.
+
+***
 
 ## Events for VCS Notifications 
 
