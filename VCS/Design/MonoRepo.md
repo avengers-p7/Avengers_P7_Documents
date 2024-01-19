@@ -8,14 +8,15 @@
 
 ## Table  of Contents
 
-1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md#introduction)
+1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Challenges/Disadvantages](#challengesdisadvantages)
-4. [Best Practices](#Best-Practices)
-5. [Who Uses](#who-uses)
-6. [Conclusion](#Conclusion)
-7. [Contact Information](#contact-information)
-8. [Refrences](#references) 
+3. [Advantages of Mono Repo](#Advantages-of-Mono-Repo)
+4. [Challenges/Disadvantages](#challengesdisadvantages)
+5. [Best Practices](#Best-Practices)
+6. [Who Uses](#who-uses)
+7. [Conclusion](#Conclusion)
+8. [Contact Information](#contact-information)
+9. [Refrences](#references) 
 ***
 ## Introduction 
 
@@ -31,7 +32,6 @@
 - The projects can depend on each other, so they can share code.
 - When you make a change, you do not rebuild or retest every project in the monorepo. Instead, you only rebuild and retest the projects that can be affected by your change.
 
-  ![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
 ***
 ## Features 
 
@@ -45,7 +45,19 @@ The monorepo approach has several advantages:
 | **Discoverability** | A monorepo offers a single view of the whole code. You can review the status of the whole repository, screen all branches, and keep track of modifications much more easily in monorepos than in polyrepos.
 | **Release management** | A monorepo retains all the information about how to deploy the whole system. An automated build and deploy pipeline doesn’t hide deployment knowledge within each team the way it does in a polyrepo.
 | **Easier refactoring** | Direct access to all microservices makes it easier to refactor the code in a monorepo. Also, you can change the code structure. Moving the source code between folders and subfolders is much easier than moving the source code between multiple repositories.
+  ![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
 ***
+# Advantages of Mono Repo
+
+| Key Principle             | Description |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Simplicity and Transparency | Easy to learn and implement, especially for Git beginners. The workflow is well-defined and relies on a limited number of key branches, fostering transparency through issue-linking and clear change visibility.               |
+| Efficiency                | Promotes small, focused feature branches that merge frequently, minimizing merge conflicts and streamlining development iteration.                                                                                                  |
+| Integration with GitLab    | Built-in integration with GitLab features like merge requests, CI/CD pipelines, and issue tracking, optimizing collaboration and automation.                                                                                           |
+| Flexibility               | Adaptable to specific team needs and project complexity. Additional branches or workflows can be incorporated to fit your requirements.                                                                                               |
+| Emphasis on Testing       | Merge requests and CI/CD pipelines encourage continuous testing and code quality checks throughout the development cycle.  |
+*** 
+
 ## Challenges/Disadvantages 
 
 When using a mono repo for all our code we might face a few challenges, some of them are:-
