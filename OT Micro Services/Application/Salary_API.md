@@ -107,7 +107,7 @@ Maven will be used as a package manager to download specific versions of depende
    Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
    Make sure the databases (ScyllaDB and Redis) are up and running. Access your ScyllaDB.
    ```shell
-   cqlsh < IP >
+   cqlsh <IP>
    ```
    Now, create the keyspace mentioned `employee_db` manually in your ScyllDB.
    
