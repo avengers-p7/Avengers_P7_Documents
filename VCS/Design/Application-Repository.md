@@ -1,6 +1,6 @@
 | Author |	Created on | Last updated by | Last edited on |
 |--------|-------------|-----------------|----------------|
-| Shikha | 17-01-2024 | Shikha    |   17-01-2024 |
+| Shikha | 17-01-2024  |  Shikha         | 17-01-2024     |
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 ## Introduction
@@ -28,9 +28,9 @@
  | **Source Code Repository** | Central storage for the application's source code. |
  |**Documentation Repository** |	Comprehensive repository for storing documentation related to the application. |
  | **Dependency Management Repository**| Manages and versions external dependencies crucial for the application. |
- | Configuration Repository |	Stores configuration files for different environments to manage settings. |
- | Testing Repository | Repository for test cases, automated tests, and other testing-related resources. |
- | Deployment Scripts Repository	| Holds scripts related to the deployment process, ensuring automation and consistency. |
+ | **Configuration Repository**|	Stores configuration files for different environments to manage settings. |
+ | **Testing Repository**| Repository for test cases, automated tests, and other testing-related resources. |
+ | **Deployment Scripts Repository**	| Holds scripts related to the deployment process, ensuring automation and consistency. |
 
  
 -----------------------------------------------------------------------------------------------------------------------------------------------          
@@ -38,10 +38,10 @@
 
 | Aspect	| Description |
 |--------|-------------|
-| Efficient Collaboration	| Streamlines collaboration by offering a central location for both code and documentation. |
-| Version Control	| Enables precise versioning, simplifying the tracking of changes and providing reversion capabilities. |
-| Organization and Maintainability | Facilitates a well-organized codebase, contributing to improved maintainability and reduced complexity. |
-| History and Accountability | Maintains a detailed history, supporting auditing, compliance, and ensuring accountability for code changes. |
+| **Efficient Collaboration**	| Streamlines collaboration by offering a central location for both code and documentation. |
+| **Version Control**	| Enables precise versioning, simplifying the tracking of changes and providing reversion capabilities. |
+| **Organization and Maintainability** | Facilitates a well-organized codebase, contributing to improved maintainability and reduced complexity. |
+| **History and Accountability** | Maintains a detailed history, supporting auditing, compliance, and ensuring accountability for code changes. |
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
@@ -50,8 +50,8 @@
 
 | Aspect	| Description |
 |--------|-------------|
-| Overhead and Complexity	| Managing multiple repositories may introduce overhead and complexity, particularly notable for smaller projects. |
-| Synchronization Challenges | Ensuring synchronization between different repositories can be challenging, requiring careful coordination and planning. |
+| **Overhead and Complexity**	| Managing multiple repositories may introduce overhead and complexity, particularly notable for smaller projects. |
+| **Synchronization Challenges**| Ensuring synchronization between different repositories can be challenging, requiring careful coordination and planning. |
 
 
 
@@ -69,3 +69,10 @@
    | Name	| Email address |
    |--------|---------------|
    | Shikha Tripathi | shikha.tripathi.snaatak@mygurukulam.co |
+
+## References
+
+| Links	| Descriptions |
+|--------|--------------|
+| https://devops.stackexchange.com/questions/12803/best-practices-for-app-and-infrastructure-code-repositories| Document format followed from this link |
+| https://dev.to/n3wt0n/i-store-my-infra-as-code-this-way-you-should-too-1pa3 | Document format followed from this link |
