@@ -236,7 +236,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 
    **Solution -** Installed psycopg2 using poetry along with python3-dev libpq-dev.
 <img width="1401" alt="Screenshot 2024-01-19 at 2 53 54 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/2e5908f1-b7e3-4b4c-bdc5-90928ddbdf7c">
-**
+***
 
 2. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
    
