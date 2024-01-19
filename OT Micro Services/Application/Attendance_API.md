@@ -86,7 +86,6 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 ```
 
 ## 2. API Setup Dependencies:
-Prior to any installation, make sure to install Python 3.11 or a higher version, as Poetry is compatible with Python versions 3.11 and above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
 
 1) **Install Make:**
 ```shell
@@ -100,9 +99,12 @@ sudo apt install make -y
 sudo apt install python3-pip
 ```
 *** 
+3) **Python3.11**
+* Prior to poetry installation, make sure to install Python 3.11, as Poetry is compatible with Python versions 3.11 or above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
+
 3) **Poetry:**
 
-Install poetry and add Path to your shell configuration file. 
+* Install poetry and add Path to your shell configuration file. 
 ```shell
 curl -sSL https://install.python-poetry.org | python3 -
 ```
@@ -115,7 +117,7 @@ export PATH="/home/ubuntu/.local/bin:$PATH"
 *** 
 4) **PostgreSQL**
 
-For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
+* For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
 
 ```shell
 sudo apt update
@@ -171,7 +173,10 @@ sudo apt-get install liquibase
 ## 3.  Building and running:
 1) **Run-Migrations**
    
-* Ensure the PostgreSQL database is up and running, then use `make run-migrations` to keep track of database schema updates.
+* Ensure the PostgreSQL database is up and running, then liquibase to keep track of database schema updates.
+```shell
+make run-migrations
+``` 
 
 <img width="1383" alt="Screenshot 2024-01-11 at 10 07 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9f9f629a-6929-4480-a489-19582f691e3f">
 
@@ -198,7 +203,7 @@ make build
 ***
 3)  **Run Application**
    
-After installing the required dependencies in the Poetry shell environment for running the API, it's advisable to install Gunicorn directly within the virtual environment. Execute the following command to achieve this:
+* After installing the required dependencies in the Poetry shell environment for running the API, it's advisable to install Gunicorn directly within the virtual environment. Execute the following command to achieve this:
 
 ```shell
 poetry shell
