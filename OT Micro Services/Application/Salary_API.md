@@ -6,10 +6,10 @@
 
 # Table of Contents 
 1. Purpose
-2. Key Components
-3. System Requirements
-4. Important Ports
-5. Pre-Requisites
+2.  Pre-Requisites
+3. Key Components
+4. System Requirements
+5. Important Ports
 6. Dependencies
 7. Architecture
 8. Setup API
@@ -23,7 +23,20 @@
 
 Salary API is a Java-based microservice which is responsible for all the salary-related transactions and records in **[OT-Microservices](https://github.com/OT-MICROSERVICES/salary-api)** stack. The application is platform-independent and can be run on multiple operating systems. **[Java Runtime](https://www.java.com/en/download/manual.jsp)** would be required to run this application.
 
-### Key Components  
+## Pre-Requisites
+
+The Salary API application has some database, cache manager and package dependencies. Some of the dependencies are optional and some are mandatory. To compile the application, we only need `maven` as a build tool, but for running the application following things are required:-
+
+- **[ScyllaDB](https://www.scylladb.com/)**
+- **[Redis](https://redis.io/)**
+- **[Migrate](https://github.com/golang-migrate/migrate)**
+- **[Maven](https://maven.apache.org/)**
+- **[Java 17](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)**
+- **[migrate](https://github.com/golang-migrate/migrate)**
+
+Maven will be used as a package manager to download specific versions of dependencies to run the Salary API.
+
+## Key Components  
 
 | Tool/Software | Usage  |
 | ------------- | --------------------------------------------------------- | 
@@ -32,6 +45,8 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 | `Redis`       | as cache manager to store the cache response.|
 | `Prometheus and Open-telemetry` | metrics support for monitoring and observability. |
 | `migrate`     | Database migration |
+
+
 
 ## System Requirements
 
@@ -62,18 +77,7 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 | ----------    |    -----------    |
 |    22         |    SSH            |
 
-## Pre-Requisites
 
-The Salary API application has some database, cache manager and package dependencies. Some of the dependencies are optional and some are mandatory. To compile the application, we only need `maven` as a build tool, but for running the application following things are required:-
-
-- **[ScyllaDB](https://www.scylladb.com/)**
-- **[Redis](https://redis.io/)**
-- **[Migrate](https://github.com/golang-migrate/migrate)**
-- **[Maven](https://maven.apache.org/)**
-- **[Java 17](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04)**
-- **[migrate](https://github.com/golang-migrate/migrate)**
-
-Maven will be used as a package manager to download specific versions of dependencies to run the Salary API.
 
 ## Dependencies
 
@@ -92,7 +96,7 @@ Maven will be used as a package manager to download specific versions of depende
 |        Make         |      4.2.1    |
 ## Architecture
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/9188610e-121d-4f9a-ac6d-a1145970dd46)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/6992da87-fbb3-4eb6-972c-a02d031bbb90)
 
 ## Setup API
 
