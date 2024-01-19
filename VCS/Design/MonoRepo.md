@@ -96,3 +96,5 @@ In conclusion, a monorepo offers advantages like improved visibility, code shari
 |                                  | https://www.toptal.com/front-end/guide-to-monorepos#:~:text=Instead%20of%20managing%20multiple%20repositories,website%20and%20its%20iOS%20app.
 |                                  | https://circleci.com/blog/monorepo-dev-practices/ |
 | Mono Repo Best Practices | https://buildkite.com/blog/monorepo-ci-best-practices |
+| Use Case | https://kinsta.com/blog/monorepo-vs-multi-repo/
+|          | https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext
