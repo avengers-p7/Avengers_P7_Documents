@@ -16,7 +16,12 @@ PostgreSQL is a powerful open-source relational database management system (RDBM
 | **Transaction Support** | Ensures the execution of a series of operations as a single unit, providing atomicity and consistency. |
 | **Concurrency Control** | Manages simultaneous access to data to prevent conflicts and ensure data integrity in concurrent environments. |
 | **Advanced Querying Capabilities** | Supports complex queries, including the ability to  join tables, filter data, and aggregate results. |
-|  **Replication and High  Availability** | Offers mechanisms for duplicating data across multiple nodes to enhance reliability and availability. |         |
+| **Data Type**	| Specifies data column types in the database (e.g., INT for integers, VARCHAR for strings). |
+| **Parallel Queries**	| Executes queries using multiple parallel processes to enhance performance, particularly on multi-core systems. |
+| **Replication**	| Maintains database copies for high availability, fault tolerance, and scalable read access (Streaming, Logical). |
+| **Table Partitioning** | Divides large tables into manageable partitions based on criteria, improving query performance and data management. |
+| **Indexes**	| Improves query performance by providing quick data lookup, with various types like B-Tree, Hash, GIN, GiST, etc. |
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
