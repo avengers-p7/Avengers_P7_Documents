@@ -81,6 +81,15 @@ GitHub serves as a vital testing ground for validating and refining the effectiv
 
 **Step-8:** Use the SSH-based GitHub URL in your Git client to clone your repository.
 
+# Best Practices
+* Implement access control
+* Add security testing during development
+* Rotate Personal Access Tokens and SSH keys
+* Never hardcode credentials in GitHub
+
+# Conclusion
+The successful implementation of best practices underscores the importance of robust authentication measures in safeguarding against unauthorized access. Lessons learned from the PoC will aid in future enhancements, ensuring a resilient and up-to-date security framework. Overall, this PoC lays a solid foundation for security in the verifying authentication of identity to access in GitHub. 
+
 # Contact Information
 | Name | Email Address |
 | ---- | ------------- |
@@ -89,3 +98,4 @@ GitHub serves as a vital testing ground for validating and refining the effectiv
 | Source | Description  | 
 | -------- | ------- | 
 | https://docs.github.com/en/authentication | Authentication |
+| https://www.gitguardian.com/glossary/what-are-github-security-best-practices | Best Practices |
