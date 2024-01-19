@@ -179,7 +179,8 @@ sudo apt-get install liquibase
 2) **Make build**
 * To successfully run the make command, ensure that your Makefile is configured as follows
   
-<img width="1132" alt="Screenshot 2024-01-19 at 2 51 00 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f8fe40c-d9af-4d95-9232-0ce31cb761e6">
+<img width="1125" alt="Screenshot 2024-01-19 at 5 12 26 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/03c830d4-46c2-40fa-a276-04774e9d36de">
+
 
 * To ensure Poetry runs without errors, install psycopg2 is installed . Additionally, you may need to install python3.11-dev using.
   
