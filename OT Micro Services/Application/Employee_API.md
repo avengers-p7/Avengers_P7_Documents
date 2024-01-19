@@ -56,7 +56,8 @@ Supported features in the applications are:-
 ***
 
 # Architecture
-![image](https://github.com/avengers-p7/Documentation/assets/156056570/e63e2b35-b616-4c0a-8135-674013fb8628)
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/f42b5db5-f38a-4348-879e-bc6222dd4f3b)
+
 
 ***
 
