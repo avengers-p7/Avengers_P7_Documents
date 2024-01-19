@@ -4,11 +4,11 @@
 
 ---
 
-## Introduction
+# Introduction
 The Feature Branch Workflow in Git is a powerful approach to software development that keeps your codebase clean and collaborative. At its core, it promotes feature development in dedicated branches, separate from the main codebase. This documentation outlines the key principles and practices involved in this workflow.
 
 ---
-## Why Feature Branching?
+# Why Feature Branching?
 Feature Branching ensures that all feature development occurs in dedicated branches, keeping the main branch clean. This encapsulation allows multiple developers to collaborate on specific features without affecting the main codebase. The key advantages include:
 
 |           Features        |                                 Descriptions                                |
@@ -18,20 +18,20 @@ Feature Branching ensures that all feature development occurs in dedicated branc
 |**Efficiency in Parallel Development**|Multiple developers can work on features simultaneously without disrupting the main codebase, maximizing efficiency and avoiding merge conflicts.|
 
 ---
-## Feature Branch Workflow
+# Feature Branch Workflow
 
 This section provides a detailed explanation of the step-by-step process involved in the Git Feature Branch Workflow.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/c2e4c381-5149-4b68-bcbf-a99cbae35a14)
 
 
-### Step-1: Creating Feature Branches
+Step-1: Creating Feature Branches
 Developers create new branches for each feature, keeping a highly-focused purpose for each branch. Descriptive names such as animated-menu-items or issue-#1061 are recommended.
 
         # Create a new feature branch
         git checkout -b new-feature
 
-### Step-2: Making Changes
+Step-2: Making Changes
 On the feature branch, developers can edit, stage, and commit changes as necessary.
 
         # Stage changes
@@ -40,22 +40,22 @@ On the feature branch, developers can edit, stage, and commit changes as necessa
         # Commit changes
         git commit
 
-### Step-3: Pushing Feature Branches
+Step-3: Pushing Feature Branches
 Pushing feature branches to the central repository allows collaboration without impacting the main codebase.
 
         # Push the feature branch to the central repository
         git push -u origin new-feature
 
-### Step-4: Pull Requests
+Step-4: Pull Requests
 Pull requests facilitate code review and discussions before merging features into the main branch.
 
 Developers create a pull request to initiate discussions.
 Interested parties are notified automatically, enabling them to review changes and provide feedback.
 
-### Step-5: Resolving Feedback
+Step-5: Resolving Feedback
 Developers resolve feedback locally, commit changes, and push updates to Github. Changes appear in the pull request.
 
-### Step-6: Merging Feature Branches
+Step-6: Merging Feature Branches
 Once the pull request is approved and conflict-free, developers merge the feature branch into the main branch.
 
         # Merge the feature branch into the main branch
@@ -66,7 +66,7 @@ Once the pull request is approved and conflict-free, developers merge the featur
         git push origin main
 
 ---
-#### Advantages of Feature Branch Workflow
+# Advantages of Feature Branch Workflow
 
 | **Advantage**                                | **Description**                                                                                         |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ Once the pull request is approved and conflict-free, developers merge the featur
 | Code Review with Pull Requests               | Pull requests facilitate code review and discussion, allowing team members to sign off on features before integration, promoting collaboration and improving code quality. |
 
 ---
-#### Disadvantage of Feature Branch Workflow
+# Disadvantage of Feature Branch Workflow
 
 | **Disadvantage**                             | **Description**                                                                                         |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Once the pull request is approved and conflict-free, developers merge the featur
 | Overhead in Creating and Managing Branches   | Creating, managing, and tracking numerous feature branches may introduce overhead, especially in larger projects with frequent feature development. |
 
 ---
-## Best Practices for Feature Branch Workflow
+# Best Practices for Feature Branch Workflow
 
 The Feature Branch Workflow is a powerful tool for managing software development projects. To maximize its effectiveness, consider the following best practices:
 
@@ -100,7 +100,7 @@ The Feature Branch Workflow is a powerful tool for managing software development
 By following these practices, you can use the Feature Branch Workflow effectively in your software development projects.
 
 ---
-## Conclusion
+# Conclusion
 
 The Git Feature Branch Workflow streamlines collaboration by allowing developers to work on features without disrupting the main codebase. It promotes efficient parallel development, ensures a stable main branch, and facilitates code review through pull requests.
 
@@ -109,14 +109,14 @@ While the workflow enhances collaboration, managing multiple branches introduces
 In essence, the Feature Branch Workflow is a valuable tool for code quality and collaboration. Consider its benefits and challenges when deciding on its adoption for your project.
 
 ---
-## Contact Information
+# Contact Information
 
 |    Name    | Email Address |
 | -----------| --------------|
 | Parasharam | parasharam.desai.snaatak@mygurukulam.co |
 
 ---
-## Resources and References
+# Resources and References
 
 | **Source**                                              | **Description**                               |
 |---------------------------------------------------------|-----------------------------------------------|
