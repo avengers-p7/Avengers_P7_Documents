@@ -75,11 +75,45 @@ A pull request proposes changes to the original repository. Navigate to the orig
 - [x] Describe your change in detail to provide comprehensive context.
 - [x] Explain your testing approach to ensure the reliability of your change.
 
+***
 ## Rules and Guidelines
 
 + Use the provided checklist in the pull request template for verbosity and completeness.
 + Thoroughly test your changes to ensure they work as intended. Provide test cases where applicable to maintain code reliability.
 + Update or create documentation to reflect your changes. This ensures that others can easily understand and use your contributions.
 + Engage in the review process actively. Address and incorporate feedback from reviewers, fostering collaboration and maintaining code quality.
+
+***
+# Reviewing Pull Requests
+
++ Reviewers analyze the code for adherence to coding standards, logic errors, and potential issues. Provide constructive feedback to improve code quality.
++ Engage in discussions during the review process. Collaborate with contributors to enhance the quality of the code and address concerns.
++ Only authorized maintainers can merge pull requests. Ensure that all review comments are addressed before merging to maintain code integrity.
++ Emphasize the caution associated with force pushing commits to a pull request. Highlight the potential risks of altering repository history and the impact on collaborators.
+
+***
+# Closing Pull Requests
+After successful review and approval, the pull request is merged. Contributors should delete their feature branches after merging to keep the repository clean.
+
+<img width="998" alt="Screenshot 2024-01-19 at 7 51 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f7d17b0-bf71-4019-8a3f-76dcec5b388d">
+
+***
+# Conclusion
+Following these guidelines fosters a clean and efficient development process. Contributors' adherence to these steps and rules enhances collaboration and ensures high-quality contributions.
+
+***
+# Contact Information
+
+|Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
+|---------------------------------|------------------------------------------------------------|
+
+***
+# References
+
+|     Description                  | References  
+| ---------------------------------| ------------------------------------------------------------------- |
+|     PR Checklist                | https://opensource.creativecommons.org/contributing-code/pr-guidelines/
+|     Force pushing caution     | https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests        
+|     PR Understanding                   | https://www.youtube.com/watch?v=For9VtrQx58
 
 
