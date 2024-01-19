@@ -7,16 +7,16 @@
 ***
 # Table of Contents 
 + [Introduction](#Introduction)
-2. [Key Components](#key-components)
-3. [Architecture](#architecture)
-4. [Pre requisites](#pre-requisites)
-5. [System Requirements](#system-requirements)
-6. [Dependencies](#dependencies)
-7. [API Setup](#api-setup)
-8. [Security](#best-practices-for-api-security)
-9. [Troubleshoot](#troubleshoot)
-10. [Contact Information](#contact-information)
-11. [References](#references)
++ [Key Components](#key-components)
++ [Architecture](#architecture)
++ [Pre requisites](#pre-requisites)
++ [System Requirements](#system-requirements)
++ [Dependencies](#dependencies)
++ [API Setup](#api-setup)
++ [Security](#best-practices-for-api-security)
++ [Troubleshoot](#troubleshoot)
++ [Contact Information](#contact-information)
++ [References](#references)
 
 ***
 # Introduction
