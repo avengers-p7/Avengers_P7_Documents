@@ -69,5 +69,5 @@ The best GitHub authentication method often involves a combination of these opti
 # References
 | Source | Description  | 
 | -------- | ------- | 
-| https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github | Authentication |
+| https://docs.github.com/en/authentication)https://docs.github.com/en/authentication | Authentication |
 
