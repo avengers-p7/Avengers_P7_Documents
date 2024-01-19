@@ -7,9 +7,9 @@
 ***
 # Table of Contents 
 1. [Introduction](#Introduction)
-2. ([Key Components](#key-components)
-3. Architecture
-4. Pre-Requisites
+2. [Key Components](#key-components)
+3. [Architecture](#architecture)
+4. [Pre requisites](#pre-requisites)
 5. System Requirements
 6. API Installation
 7. API Security
