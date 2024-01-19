@@ -1,5 +1,5 @@
 
-# VCS Notifications Concept 
+# VCS Notifications
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
