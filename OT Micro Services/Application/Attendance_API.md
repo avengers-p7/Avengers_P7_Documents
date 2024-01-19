@@ -134,7 +134,7 @@ sudo -u postgres psql
 ```shell
 CREATE DATABASE attendance_db;
 ``` 
-NOTE: Remember to alter the superuser password based on the config.yaml file. Otherwise, the connection would not be established. 
+> NOTE: Remember to alter the superuser password based on the config.yaml file. Otherwise, the connection would not be established. 
 
 * To alter the password you may use the following command
 ```shell
