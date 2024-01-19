@@ -10,9 +10,10 @@
 2. [Features](#features)
 3. [Challenges/Disadvantages](#challengesdisadvantages)
 4. [Best Practices](#Best-Practices)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#contact-information)
-7. [Refrences](#references) 
+5. [Who Uses](#who-uses)
+6. [Conclusion](#Conclusion)
+7. [Contact Information](#contact-information)
+8. [Refrences](#references) 
 
 ## Introduction 
 
@@ -63,9 +64,22 @@ To optimize our mono repo we can use the following practices:-
 | **Managing access and merge approvals** | Managing access control with a monorepo is essential, due to the unique challenges and requirements presented by housing multiple projects or components in a single repository.
 | **Use Git features to enhance repo performance** | As the size of your repository grows, the amount of bandwidth and system resources required to effectively utilize the project will increase, and the time it takes to clone can become substantial, especially when employing modern CI/CD strategies such as parallelism. In this case, we can use features like Shallow Clone and Sparse Checkout. 
 | **Use Trunk-based development** | ‘Trunk-based development’ (TBD) is a strategy where all developers work in a single branch, often called the 'trunk' or 'main' branch, and use short-lived feature branches (or no branches at all). It reduces divergence, minimizes merge conflicts, and aligns with CI/CD practices.
+
+## Who Uses
+
+Several big tech companies favour the monorepo approach, while others have decided to use the multi-repo method. `Google, Facebook, Twitter, and Uber` have all publicly vouched for the monorepo approach. 
+
+Google chose the monolithic source management strategy in 1999 when the existing Google codebase was migrated from CVS to Perforce. Early Google engineers maintained that a single repository was strictly better than splitting up the codebase, though at the time they did not anticipate the future scale of the codebase and all the supporting tooling that would be built to make the scaling feasible.
+
+Over the years, as the investment required to continue scaling the centralized repository grew, Google leadership occasionally considered whether it would make sense to move from the monolithic model. Despite the effort required, Google repeatedly chose to stick with the central repository due to its advantages.
+
+The monolithic model of source code management is not for everyone. It is best suited to organizations like Google, with an open and collaborative culture. It would not work well for organizations where large parts of the codebase are private or hidden between groups.
+
 ## Conclusion 
 
 In conclusion, a monorepo offers advantages like improved visibility, code sharing, and standardized practices for managing microservices. However, challenges include slower development cycles and potential complexities. To optimize monorepo usage, consider best practices such as selective builds, effective dependency management, and trunk-based development. The decision to adopt a monorepo should be based on a careful evaluation of specific needs and a balanced consideration of its benefits and challenges. Successful implementation requires a thoughtful approach and collaboration within the development team.
+
+
 
 ## Contact Information
 
