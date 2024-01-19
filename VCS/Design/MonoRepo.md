@@ -91,6 +91,11 @@ Using a single repository for all our code has several drawbacks.
   Open source projects must make it as easy as possible for contributors to become involved. With multiple repositories, contributors can head directly to the specific repository for the project they want to contribute to. With a monorepo hosting various projects, though, contributors must first navigate their way into the right project and will need to understand how their contribution may affect all other projects.
 
 ## Best Practices 
+
+| Aspect | Description |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Use selective builds | "Selective builds" refer to the process of building only the parts of the codebase that have been changed or are affected by a change, rather than building the entire monorepo.
+
 ## Conclusion 
 
 ## Contact Information
