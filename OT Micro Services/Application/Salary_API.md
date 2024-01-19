@@ -152,7 +152,7 @@ Once the schema, table and database are configured, we can start our application
    make build
    ```
 
-3. Salary API also contains different test cases and code quality-related integrations. To check the code quality, we can use `checkstyle` plugin with Maven.
+3. Salary API also contains different test cases and code quality-related integrations. To check the code quality, we will use `checkstyle` plugin with Maven.
 
    ```shell
    make fmt
