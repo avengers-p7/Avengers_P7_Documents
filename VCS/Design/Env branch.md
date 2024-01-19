@@ -1,8 +1,8 @@
 # Environment branch workflow
 
-|   Author     |  Created on   |  Version   | Last updated by | 
-| ------------ | --------------| -----------|---------------- |
-| Vikram BISHT | 16 Jan 2024   |     v1     | Vikram Bisht    | 
+|   Author     |  Created on   |  Version   | Last updated by | Last edited on |
+| ------------ | --------------| -----------|---------------- |--------------- |
+| Vikram BISHT | 16 Jan 2024   |     v1     | Vikram Bisht    | 19 Jan 2024    |
 
 ---
 
