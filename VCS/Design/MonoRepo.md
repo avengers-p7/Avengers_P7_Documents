@@ -12,6 +12,12 @@
   
   Using a mono repo, it’s easier to standardize code and tooling across the teams. The single view of the whole code available in a mono repo increases the discoverability of status and changes. This results in smoother release management and easier refactoring.
 
+### Monorepo-style development is a software development approach where:
+
+- You develop multiple projects in the same repository.
+- The projects can depend on each other, so they can share code.
+- When you make a change, you do not rebuild or retest every project in the monorepo. Instead, you only rebuild and retest the projects that can be affected by your change.
+
   ![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
 
 ## Why
