@@ -7,15 +7,15 @@
 ---
 
 # Table of Content
-1. Introduction
-2. Need of Environment Branch
-3. Types of Environment Branches
-4. Creating a feature branch
-5. Advantages
-6. Disadvantages
-7. Conclusion
-8. Contact Information
-9. Resources and References
+1. ### Introduction
+2. ### Need of Environment Branch
+3. ### Types of Environment Branches
+4. ### Creating a feature branch
+5. ### Advantages
+6. ### Disadvantages
+7. ### Conclusion
+8. ### Contact Information
+9. ### Resources and References
 ***
 
 # Introduction
