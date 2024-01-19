@@ -26,6 +26,8 @@ Forking creates a personal copy of the repository on your GitHub account. It all
 ### **Step 2: Clone the Forked Repository**
 Use the git clone command with the URL of your forked repository to download a local copy. This copy is where you'll make and test your changes.
 
+<img width="1078" alt="Screenshot 2024-01-19 at 5 53 22 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/d1c521ff-04a8-460e-8c48-f85668733bd5">
+
 ***
 ### **Step 3: Create a Branch**
 Branches isolate changes from the main codebase. Use `git checkout -b branch-name` to create and switch to a new branch. Naming your branch appropriately helps others understand the purpose of your changes.
