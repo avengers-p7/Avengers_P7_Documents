@@ -1,4 +1,4 @@
-# Manual Setup of ScyllaDb
+# ScyllaDb Documentation
 
 
 |   Author     |  Created on   |  Version   | Last updated by | Last edited on |
