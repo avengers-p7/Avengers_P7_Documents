@@ -9,9 +9,11 @@
 1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md#introduction)
 2. [Features](#features)
 3. [Advantages](#Advantages)
-4. Challenges/Disadvantages
-5. Best Practices
-6. Conclusion
+4. [Challenges/Disadvantages](#Challenges/Disadvantages)
+5. [Best Practices](#Best-Practices)
+6. [Conclusion](#Conclusion)
+7. [Contact Information](#contact-information)
+8. [Refrences](#Refrences)
 
 ## Introduction 
 
@@ -42,7 +44,7 @@ Easier to organize projects: A monorepo allows projects to be organized and grou
 
 ## Advantages 
 ## Challenges/Disadvantages 
-## Best Practices for Monorepo Management 
+## Best Practices 
 ## Conclusion 
 
 ## Contact Information
