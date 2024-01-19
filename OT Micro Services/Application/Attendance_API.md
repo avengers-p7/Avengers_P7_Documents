@@ -10,12 +10,13 @@
 2. [Key Components](#key-components)
 3. [Architecture](#architecture)
 4. [Pre requisites](#pre-requisites)
-5. System Requirements
-6. API Installation
-7. API Security
-8. Troubleshoot
-9. Contact Information
-10. References
+5. [System Requirements](#system-requirements)
+6. [Dependencies](#dependencies)
+7. [API Setup](#api-setup)
+8. [API Security](#best-practices-for-api-security)
+9. [Troubleshoot](#troubleshoot)
+10. [Contact Information](#contact-information)
+11. [References](#references)
 
 ***
 # Introduction
@@ -80,7 +81,7 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
    | Java | 11.0.21 |
 
 *** 
-# API Installation
+# API Setup
 ## 1. Clone Repository:
 ```shell
     git clone https://github.com/OT-MICROSERVICES/attendance-api.git
