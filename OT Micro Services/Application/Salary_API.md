@@ -14,9 +14,10 @@
 7. [Architecture](#Architecture)
 8. [Setup API](#Setup-API)
 9. [Results](#Results)
-10. [Troubleshooting](#Troubleshooting)
-11. [Contact Information](#Contact-Information)
-12. [References](#References)
+10. [API Security](#API-Security)
+11. [Troubleshooting](#Troubleshooting)
+12. [Contact Information](#Contact-Information)
+13. [References](#References)
 
 
 ## Purpose
@@ -193,6 +194,25 @@ Once the schema, table and database are configured, we can start our application
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/3c2c0835-c1f3-44a2-964e-bc8892b05057)
 
+## API Security
+
+1. **Identify Vulnerabilities:**
+   - Understand and secure all stages of the API lifecycle.
+   - Consider the API as a software artifact from planning to production.
+
+2. **Leverage OAuth:**
+   - Implement OAuth for robust access control, authentication, and authorization.
+   - Use token-based authentication to allow secure third-party access without exposing credentials.
+
+3. **Encrypt Data:**
+   - Encrypt sensitive data, especially personally identifiable information (PII).
+   - Implement encryption at rest and in transit (TLS) to protect against unauthorized access and modifications.
+
+4. **Use Rate Limiting and Throttling:**
+   - Set rate limits to prevent denial-of-service (DoS) attacks.
+   - Protect against peak traffic to maintain performance and security.
+   - Regulate user connections to balance access and availability.
+
 ## Troubleshooting
 
 1. **Error-01** 
@@ -223,6 +243,7 @@ Once the schema, table and database are configured, we can start our application
        ![image](https://github.com/avengers-p7/Documentation/assets/156056444/75cdfe88-4c38-4300-9dcd-3797e63864fa)
 
        To solve this error add CORS config in **[src/main/java/com/opstree/microservice/salary/contollers/SpringDataController.java](https://github.com/OT-MICROSERVICES/salary-api/blob/main/src/main/java/com/opstree/microservice/salary/contollers/SpringDataController.java)** as per your requirement.
+
 
 
 ## Contact Information
