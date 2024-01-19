@@ -183,7 +183,7 @@ sudo apt-get install liquibase
   
 ```shell
 poetry add psycopg2-binary
-apt-get install python3.11-dev
+sudo apt-get install libpq-dev
 ```
 
 * Execute the build command to install necessary dependencies using Poetry
