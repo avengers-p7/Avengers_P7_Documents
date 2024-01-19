@@ -32,10 +32,13 @@ Use the git clone command with the URL of your forked repository to download a l
 ### **Step 3: Create a Branch**
 Branches isolate changes from the main codebase. Use `git checkout -b branch-name` to create and switch to a new branch. Naming your branch appropriately helps others understand the purpose of your changes.
 
+<img width="776" alt="Screenshot 2024-01-19 at 6 57 25 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9e8402d8-a880-4f65-a030-67afa35ad9f4">
 
 ***
 ### **Step 4: Make Changes**
-Make necessary code or documentation modifications in your local branch. Ensure your changes align with the purpose of your contribution, whether it's fixing a bug or adding a new feature.
+Make necessary code or documentation modifications in your local branch. Ensure your changes align with the purpose of your contribution, whether it's fixing a bug, adding a documentation or any new feature.
+
+<img width="1135" alt="Screenshot 2024-01-19 at 7 04 41 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/423618dd-b53a-411e-a890-d1369f7f0bff">
 
 
 ***
