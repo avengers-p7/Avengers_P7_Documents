@@ -92,9 +92,10 @@ Using a single repository for all our code has several drawbacks.
 
 ## Best Practices 
 
-| Aspect | Description |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Use selective builds | "Selective builds" refer to the process of building only the parts of the codebase that have been changed or are affected by a change, rather than building the entire monorepo.
+|         Aspect         | Description |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Use selective builds` | "Selective builds" refer to the process of building only the parts of the codebase that have been changed or are affected by a change, rather than building the entire monorepo. |
+| `Use selective builds` | "Selective builds" refer to the process of building only the parts of the codebase that have been changed or are affected by a change, rather than building the entire monorepo. |
 
 ## Conclusion 
 
