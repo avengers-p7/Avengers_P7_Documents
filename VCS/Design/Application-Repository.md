@@ -22,73 +22,41 @@
 
 ## List of Application Repositories
 
-  **Source Code Repository**
+ | Repository Type | Purpose |
+ |-----------------|---------|
+ | Source Code Repository | Central storage for the application's source code. |
+ | Documentation Repository |	Comprehensive repository for storing documentation related to the application. |
+ | Dependency Management Repository	| Manages and versions external dependencies crucial for the application. |
+ | Configuration Repository |	Stores configuration files for different environments to manage settings. |
+ | Testing Repository | Repository for test cases, automated tests, and other testing-related resources. |
+ | Deployment Scripts Repository	| Holds scripts related to the deployment process, ensuring automation and consistency. |
 
-**Purpose**: Central storage for the application's source code.
-
-------------------------------------------------------------------------------------------------------------------------------------------------
-
-**Documentation Repository:**
-
-**Purpose**: Comprehensive repository for storing documentation related to the application.
-
-------------------------------------------------------------------------------------------------------------------------------------------------
-
-**Dependency Management Repository:**
-
-**Purpose**: Manages and versions external dependencies crucial for the application.
-
-------------------------------------------------------------------------------------------------------------------------------------------------
-
-**Configuration Repository:**
-
-**Purpose**: Stores configuration files for different environments to manage environment-specific settings.
-
-------------------------------------------------------------------------------------------------------------------------------------------------
-
-**Testing Repository:**
-
-**Purpose**: Repository for test cases, automated tests, and other testing-related resources.
-
-------------------------------------------------------------------------------------------------------------------------------------------------
-
-**Deployment Scripts Repository:**
-
-**Purpose:** Holds scripts related to the deployment process, ensuring automation and consistency.
-
+ 
 -----------------------------------------------------------------------------------------------------------------------------------------------          
 ## Advantages
 
-**Efficient Collaboration:**
+| Aspect	| Description |
+|--------|-------------|
+| Efficient Collaboration	| Streamlines collaboration by offering a central location for both code and documentation. |
+| Version Control	| Enables precise versioning, simplifying the tracking of changes and providing reversion capabilities. |
+| Organization and Maintainability | Facilitates a well-organized codebase, contributing to improved maintainability and reduced complexity. |
+| History and Accountability | Maintains a detailed history, supporting auditing, compliance, and ensuring accountability for code changes. |
 
-Streamlines collaboration by providing a central location for code and documentation.
-
-**Version Control:**
-
-Enables precise versioning, making it easy to track changes and revert if necessary.
-
-**Organization and Maintainability:**
-
-Facilitates a well-organized codebase, enhancing maintainability and reducing complexity.
-
-**History and Accountability:**
-
-Maintains a detailed history, supporting auditing, compliance, and accountability.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Disadvantages
 
-**Overhead and Complexity:**
-
-Managing multiple repositories may introduce overhead and complexity, especially for smaller projects.
-
-**Synchronization Challenges:**
-
-Ensuring synchronization between different repositories can be challenging.
+| Aspect	| Description |
+|--------|-------------|
+| Overhead and Complexity	| Managing multiple repositories may introduce overhead and complexity, particularly notable for smaller projects. |
+| Synchronization Challenges | Ensuring synchronization between different repositories can be challenging, requiring careful coordination and planning. |
 
 
-## conclusion
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Conclusion
    application repositories are indispensable for efficient and collaborative software development. They provide centralized control, 
    streamline collaboration, and maintain an organized codebase. Despite potential challenges, the overall advantages make repositories 
    crucial for modern development, ensuring version control, accountability, and scalability. As short-term solutions, repositories 
