@@ -139,7 +139,8 @@ Maven will be used as a package manager to download specific versions of depende
 > 1. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
 > 2. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
 >    ```shell
->     make run-migrations ```
+>     make run-migrations
+>    ```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0245aa4-bcf0-4e22-81e1-0b567fd9715c)
 
 
