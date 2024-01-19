@@ -82,6 +82,7 @@ Here is a snippet view showcasing the use of scylla-db in OT-Microservices.
     sudo apt update
     
 **Install OpenJDK 17**
+
 OpenJDK for ScyllaDB because ScyllaDB relies on Java for its client-side functionality.
 
     sudo apt install openjdk-17-jre -y
