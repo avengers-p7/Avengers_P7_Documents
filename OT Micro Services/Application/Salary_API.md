@@ -46,9 +46,9 @@ Salary API is a Java-based microservice which is responsible for all the salary-
 
 ### Inbound Ports 
 
-|   Port        |    Description    |
-| ----------    |    -----------    |
-|    8080       |   Salary  API port       | 
+|   Port        |    Description     |
+| ----------    |    -----------     |
+|    8080       |   Salary  API port | 
 
 ### Outbound Port
 
@@ -88,8 +88,8 @@ Maven will be used as a package manager to download specific versions of depende
 |   Tool/ Software    |    Version    |
 | ------------------- |  -----------  |
 |        Java         |       17      |
-|        Maven        |             |
-
+|        Maven        |      3.6.3    |
+|        Make         |      4.2.1    |
 ## Architecture
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/9188610e-121d-4f9a-ac6d-a1145970dd46)
