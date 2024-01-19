@@ -125,8 +125,10 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 ***
 
+# Reference
+
 | Reference  | Description |
-| ---------  |------------ |
+| ---------  | ----------- |
 | https://docs.github.com/en | Link For Documentation |
 | https://phoenixnap.com/kb/how-to-install-git-windows | Link For Setup |
 
