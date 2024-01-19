@@ -1,17 +1,19 @@
-| Author | Created on |last updated| Document Version |
-| ------ | ---------- |-----------|------------------
-| Nidhi | 15-01-24   | 17-01-24           |  V1       
+| Author | Created on | last updated | Document Version |
+| ------ | ---------- | ------------ | ---------------- |
+| Nidhi  | 15-01-24   | 17-01-24     |  V1              |
 
 ***
+
 # Introduction
+
 GitHub is a web-based platform and version control system that plays a crucial role in modern software development. It provides a collaborative environment for developers to host, manage, and share their code repositories. 
 
 ***
 
-# FEATURES AND DESCRIPITON
+# Features And Description
 
-|FEATURES |DESCRIPTION |
-|---------|------------|
+| FEATURES  | DESCRIPTION |
+| --------- | ----------- |
 | Version Control| GitHub serves as a distributed version control system, built on top of Git. It allows developers to track changes in their code, collaborate on projects, and manage different versions of their software.|
 |Repository Hosting|GitHub provides a platform for hosting code repositories. Developers can create repositories to store and organize their project files, making it easy to manage and share code with others|
 |Collaboration|GitHub facilitates collaboration among developers. Multiple contributors can work on the same project simultaneously by cloning repositories, creating branches, and merging changes|
@@ -35,8 +37,9 @@ GitHub is a web-based platform and version control system that plays a crucial r
 
 4. Username and password for the Github website 
 
+***
 
-## Setup via Web browser
+# Setup via Web browser
 
  **Step-1** Create a GitHub Account
 
@@ -46,7 +49,7 @@ Go to GitHub's website and sign up for a new account if you don't have one.
 
 ***
 
-Step_2 Verification
+**Step-2** Verification
 
 Verify your email address to complete the registration process.
 
@@ -54,7 +57,7 @@ Verify your email address to complete the registration process.
 
 ***
 
-Step_3 Explore GitHub
+**Step-3** Explore GitHub
 
 Once logged in, you can explore GitHub repositories, contribute to projects, and create your own repositories.
 
@@ -87,7 +90,6 @@ Now github ready to use
 
 ![Screenshot from 2024-01-16 11-49-09](https://github.com/avengers-p7/Documentation/assets/156644891/559e5207-5c21-461d-b27d-dba31caa0e12)
 
-
 ***
 
 ![Screenshot from 2024-01-16 11-49-46](https://github.com/avengers-p7/Documentation/assets/156644891/3b22f335-68b1-4ac9-844c-12e547890994)
@@ -106,7 +108,6 @@ Now github ready to use
 ![Screenshot from 2024-01-16 11-52-38](https://github.com/avengers-p7/Documentation/assets/156644891/0f8d3b52-5233-4dcf-ae1b-94ef9e88ad20)
 
 ***
-
 
 ![Screenshot from 2024-01-16 14-06-28](https://github.com/avengers-p7/Documentation/assets/156644891/bd5c8a7a-5eb6-4594-adfd-a73ceb58e047)
 
@@ -129,18 +130,18 @@ Now github ready to use
 
 
 
-## CONTACT INFORMATION 
+# Contact Information
 
 | Name | Email ID |
-|------|----------|
-|NIDHI BHARDWAJ| nidhi.bhardwaj.snaatak@mygurukulam.co |
+|----- | -------- |
+| NIDHI BHARDWAJ | nidhi.bhardwaj.snaatak@mygurukulam.co |
 
 ***
 
 | Reference  | Description |
 | ---------  |------------ |
-|https://docs.github.com/en |FOR DOCUMENTATION|
-|https://phoenixnap.com/kb/how-to-install-git-windows| FOR SETUP |
+| https://docs.github.com/en | Link For Documentation |
+| https://phoenixnap.com/kb/how-to-install-git-windows | Link For Setup |
 
 ***
 
