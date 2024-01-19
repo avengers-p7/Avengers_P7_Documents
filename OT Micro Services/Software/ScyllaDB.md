@@ -9,7 +9,7 @@
 
 # Introduction
 
-Welcome to the ScyllaDB Installation Guide! ScyllaDB is a highly performant and scalable NoSQL database that combines the best features of Apache Cassandra with innovative optimizations, resulting in superior throughput and lower latency. Designed for high-performance applications, ScyllaDB provides seamless scalability and fault tolerance, making it an excellent choice for various use cases.
+ScyllaDB is a highly performant and scalable NoSQL database that combines the best features of Apache Cassandra with innovative optimizations, resulting in superior throughput and lower latency. Designed for high-performance applications, ScyllaDB provides seamless scalability and fault tolerance, making it an excellent choice for various use cases.
 
 ## Key Features
 
@@ -32,7 +32,7 @@ The ScyllaDB Manual Setup Guide provides step-by-step instructions for installin
 
 ---
 
-# Software Overview
+# Software Version
 
 |   Software   |  Version   |
 | ------------ | -----------|
