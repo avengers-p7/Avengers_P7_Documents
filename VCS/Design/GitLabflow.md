@@ -1,6 +1,6 @@
 | Author           | Created on  | Last Updated | Document Version |
 |------------------|-------------|--------------|-------------------|
-| Khushi Malhotra | 16-01-2024  | 17-01-2024   |        v1          |
+| Khushi Malhotra | 16-01-2024  | 18-01-2024   |        v1          |
 ***
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/449e3787-fb85-4131-bdf2-4fc2154c60e8)
