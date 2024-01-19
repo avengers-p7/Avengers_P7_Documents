@@ -54,5 +54,38 @@ GitHub serves as a vital testing ground for validating and refining the effectiv
 
 **Step-4:** Select Generate new token
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/c9eb825a-d8ad-41bf-bf75-25d9b6ea302c)
+***
 
+**Step-5:** Define the Name / Note of your token, Expiration and scopes then hit the green generate token button.
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/3bb48bcf-270c-4dfe-8d99-1411febae70a)
+***
 
+## SSH Key Configuration
+**Step-1:** Create a GitHub SSH key on your local machine by using the ssh-keygen command.
+
+**Step-2:** The public SSH key’s value should be copied to the clipboard.
+
+**Step-3:** After logging in, go to your account settings on GitHub.
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/bf261024-cbfc-4d0c-8225-4cd2ce37f919)
+***
+
+**Step-4:** Select the SSH and GPG links.
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/944b6b15-c2ac-43bc-9362-a614bb952a2d)
+***
+
+**Step-5:** To link the public SSH key to your account, click Add Key.
+
+**Step-6:** Put the copied value in the text box after naming the key.
+
+**Step-7:** Save your changes
+
+**Step-8:** Use the SSH-based GitHub URL in your Git client to clone your repository.
+
+# Contact Information
+| Name | Email Address |
+| ---- | ------------- |
+| Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
+# References
+| Source | Description  | 
+| -------- | ------- | 
+| https://docs.github.com/en/authentication | Authentication |
