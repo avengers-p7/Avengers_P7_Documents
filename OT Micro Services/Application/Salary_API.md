@@ -158,7 +158,7 @@ Once the schema, table and database are configured, we can start our application
    make fmt
    make test
    ```
-The test cases are present in **[src/test/java/com/opstree/microservice/salary](./src/test/java/com/opstree/microservice/salary)**. For dev testing, the Swagger UI can be used for sample payload generation and requests. The swagger page will be accessible on http://localhost:8080/salary-documentation.
+   The test cases are present in **[src/test/java/com/opstree/microservice/salary](./src/test/java/com/opstree/microservice/salary)**. For dev testing, the Swagger UI can be used for sample          payload generation and requests. The swagger page will be accessible on http://localhost:8080/salary-documentation.
 
 ### Step3: Running API
 
