@@ -14,7 +14,8 @@
 6. API Installation
 7. API Security
 8. Troubleshoot
-9. References
+9. Contact Information
+10. References
 
 ***
 # Introduction
