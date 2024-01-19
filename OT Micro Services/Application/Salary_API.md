@@ -110,7 +110,7 @@ Maven will be used as a package manager to download specific versions of depende
    Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md)** to install Redis in your system/server.
 
 > [!NOTE]
-> If you are not accessible to repo then please refer to the official page link shared above _(in the Pre-requisites section)_.
+> If the documentation repo is not accessible then please refer to the official page link shared above _(in the Pre-requisites section)_.
 
 3. _Maven_
     ```shell
