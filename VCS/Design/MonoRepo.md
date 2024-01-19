@@ -52,3 +52,4 @@ Easier to organize projects: A monorepo allows projects to be organized and grou
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
+|     Mono Repo                    | https://www.perforce.com/blog/vcs/what-monorepo#what-01 |
