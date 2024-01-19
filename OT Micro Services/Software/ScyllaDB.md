@@ -147,6 +147,7 @@ Upon running the script, you may encounter a prompt with a question, such as:
     sudo vim /etc/scylla/scylla.yaml
 
 **Update the following parameters**
+
 According to your requirements you can change the following parameters.
 
 	seeds: <ip>
