@@ -35,13 +35,7 @@ GitHub is a web-based platform and version control system that plays a crucial r
 
 # Prerequisites 
 
-1. Administrator privileges
-
-2. Access to a command-line
-
-3. Your favorite coding text editor
-
-4. Username and password for the Github website 
+1.Working Email ID 
 
 ***
 
