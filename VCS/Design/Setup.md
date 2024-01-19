@@ -1,11 +1,13 @@
 | Author | Created on | last updated | Document Version |
 | ------ | ---------- | ------------ | ---------------- |
-| Nidhi  | 15-01-24   | 17-01-24     |  V1              |
+| Nidhi  | 15-01-24   | 19-01-24     |  V1              |
 
 ***
 
 # Table Of Contents
 
+
+***
 
 
 # Introduction
@@ -16,8 +18,8 @@ GitHub is a web-based platform and version control system that plays a crucial r
 
 # Features And Description
 
-| FEATURES  | DESCRIPTION |
-| --------- | ----------- |
+| Feature | Description |
+| ------- | ----------- |
 | Version Control| GitHub serves as a distributed version control system, built on top of Git. It allows developers to track changes in their code, collaborate on projects, and manage different versions of their software.|
 |Repository Hosting|GitHub provides a platform for hosting code repositories. Developers can create repositories to store and organize their project files, making it easy to manage and share code with others|
 |Collaboration|GitHub facilitates collaboration among developers. Multiple contributors can work on the same project simultaneously by cloning repositories, creating branches, and merging changes|
