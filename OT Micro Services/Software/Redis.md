@@ -56,7 +56,7 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 | OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
 
 
-# Important Ports
+# Ports
 
 | Configuration       | Port  | 
 | ------------------- |-------|
@@ -68,7 +68,7 @@ Redis is an open-source, in-memory data structure. Redis stores data in memory a
 | Dependencies           | Description            | 
 | ---------------------- |------------------------|           
 | Run-time dependencies  | None                   |
-| Other dependencies     | Optional Redis modules |
+
 
 
 # Redis Setup Guide
@@ -84,8 +84,6 @@ Here is a snippet view showcasing the use of Redis in OT-Microservices.
 You can install recent stable versions of Redis from the official [packages.redis.io](http://packages.redis.io/) APT repository.
 
 # Prerequisites
-- connect to each server over SSH
-If you're running a very minimal distribution (such as a Docker container) you may need to install lsb-release, curl and gpg first:
 
 ### Run the following commands to install Redis.
 
@@ -106,12 +104,12 @@ If you're running a very minimal distribution (such as a Docker container) you m
 	sudo apt-get install -y redis-server
 
 
-## Verify Installation
+#### Step 5: Verify Installation
 
 	redis-cli --version
 	redis-server --version
 
-### Activate the redis-server service 
+#### Step 6: Activate the redis-server service 
 
     sudo systemctl start redis-server.service 
 
@@ -119,25 +117,12 @@ If you're running a very minimal distribution (such as a Docker container) you m
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/63d809b4-484b-4c4f-b78e-b3abbb2fbc60)
 
-### Redis Connection Confirmation
-#### redis-cli: 
-This is the Redis command-line interface, and you're invoking it to interact with the Redis server.
-
-#### 127.0.0.1:6379>: 
-This is the Redis prompt, indicating that you are connected to the Redis server running on the local machine (127.0.0.1) on port 6379.
-
-#### PING: 
-This is a Redis command used to check if the server is running and responding. It's a simple "ping-pong" test.
-
-#### PONG: 
-The Redis server responds with "PONG," indicating that it is indeed running and responding to commands.
-
-	redis-cli
+#### Step 7:  Redis Connection Confirmation
     
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/5f17f6c9-a36f-4004-9e7f-2d6b992c49ab)
 
 
-## Setup the Master Node
+# Setup the Master Node
 
 This section shows how to set up the master node with password authentication.
 - Connect to your master server over SSH.
@@ -173,6 +158,9 @@ This section shows how to set up the master node with password authentication.
 ### See the Status Of redis-server.
 
     sudo systemctl status redis-server
+***
+
+# Security
 
 ### Redis CLI Authentication and Access
 
