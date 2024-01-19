@@ -12,24 +12,12 @@
 
    ## Why Application Repositories
   
-  **Centralized Version Control**
-      
-  Application repositories offer a centralized platform for version control, allowing developers to track changes, collaborate seamlessly,         and maintain a historical record of the codebase. This ensures transparency, accountability, and the ability to roll back to previous 
-  states if needed.
-
-  **Collaborative Development**
-  
- Repositories serve as collaboration hubs, providing a shared space where developers can contribute to the codebase simultaneously. This fosters 
- teamwork, facilitates efficient communication, and minimizes conflicts in collaborative projects.
-
- **Organized Codebase**
- 
-Structured repositories enhance the organization of an application's codebase, making it easier for developers to navigate, understand, and contribute to the project. A well-organized repository improves maintainability and supports scalability.
-
-**History and Auditing**
-
-The version control capabilities of repositories maintain a detailed history of code changes, supporting auditing, compliance, and troubleshooting. Developers can identify who made specific changes and understand the evolution of the project.
-
+  | Aspect | Description  |
+  |--------|--------------|
+  |Centralized Version Control | Application repositories provide a centralized platform for version control, enabling developers to track changes, collaborate, and maintain a historical record for transparency and accountability. |
+  | Collaborative Development |	Repositories serve as collaboration hubs, fostering teamwork by providing a shared space where developers can contribute simultaneously, facilitating efficient communication and minimizing conflicts. |
+  | Organized Codebase |	Structured repositories enhance codebase organization, making it easier for developers to navigate, understand, and contribute. A well-organized repository improves maintainability and supports scalability. |
+  | History and Auditing | Version control capabilities maintain a detailed history of code changes, supporting auditing, compliance, and troubleshooting. Developers can identify contributors and understand the project's evolution. |
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## List of Application Repositories
