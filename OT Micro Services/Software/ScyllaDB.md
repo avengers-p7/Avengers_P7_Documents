@@ -44,8 +44,8 @@ The ScyllaDB Manual Setup Guide provides step-by-step instructions for installin
 
 |   System Requirement              |             Minimum                     |
 |-----------------------------------|-----------------------------------------|
-| Processor/Instance Type           |             t2.medium                   | 
-| RAM                               |      4 Gigabytes or Dual-Core           |
+| Processor/Instance Type           |         Dual-Core/t2.medium             | 
+| RAM                               |            4 Gigabytes            |
 | Disk Space                        |              16 GB                      |
 | OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8 |
 
