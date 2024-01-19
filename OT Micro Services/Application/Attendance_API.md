@@ -4,6 +4,7 @@
 | -----------------| --------------| -----------|---------------- | -------------- |
 | Vidhi Yadav      | 10 Jan 2024   |     v1     | Vidhi Yadav     | 17 Jan 2024    |
 
+***
 # Table of Contents 
 1. Introduction
 2. Key Components
@@ -14,10 +15,12 @@
 7. API Security
 8. Troubleshoot
 9. References
-   
+
+***
 # Introduction
 Attendance API is a Python-based microservice designed to handle attendance-related transactions in the context of the OT-Microservices ecosystem. This microservice serves as a central component for managing attendance records and transactions, providing a set of RESTful APIs for integration with other services.
 
+***
 # Key Components
 **Flask Web Framework**: The API is built using Flask, a lightweight and flexible web framework for Python, which simplifies the development of RESTful APIs.
 
@@ -30,9 +33,11 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
 **Liquibase**: To track the changes over time, liquibase acts as a version control for your database schema.  
 **Swagger Integration:** Swagger is integrated for API documentation, making it easy for developers to test and interact with API endpoints.
 
+***
 # Flow Diagram 
 <img width="802" alt="Screenshot 2024-01-12 at 1 04 42 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c8e7795b-a96e-4570-b47a-cb0e2fda8b4f">
 
+***
 # Getting Started
 ## Pre-Requisites
   Before running the Attendance API, certain pre-requisites need to be configured:
@@ -56,7 +61,8 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
    | 6379 | Redis port | |
    | 8080 | Attendance API port |
    | 22 | Port 22 to establish an SSH connection to an EC2 |
- 
+
+***
 # Dependencies:
 |  Buildtime Dependency|	Version 
    |---------|---------|
@@ -72,7 +78,7 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
    | Liquibase | 4.25.1 |
    | Java | 11.0.21 |
 
- 
+*** 
 # API Installation
 ## 1. Clone Repository:
 ```shell
