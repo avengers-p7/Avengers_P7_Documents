@@ -211,8 +211,6 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ***
 # API Endpoints 
 
-## Endpoints Information
-
 | **Endpoint**                     | **API Method** | **Description**                                                                                      |
 |----------------------------------|------------|------------------------------------------------------------------------------------------------------|
 | /metrics                         | GET        | Health check and performance metrics for application                    |
