@@ -105,8 +105,12 @@ Maven will be used as a package manager to download specific versions of depende
 1. _ScyllaDB_
 
    Here is a step-by-step **[documentation (in Ubuntu)](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)** to install ScyllaDB in your system/server.
-   Make sure  the database (ScyllaDB and Redis) is up and running.
+   Make sure the databases (ScyllaDB and Redis) are up and running. Access your ScyllaDB.
+   ```shell
+   cqlsh < IP >
+   ```
    Now, create the keyspace mentioned `employee_db` manually in your ScyllDB.
+   
    ```shell
     CREATE KEYSPACE IF NOT EXISTS employee_db WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
    ```
@@ -172,6 +176,11 @@ Once the schema, table and database are configured, we can start our application
 
    ```shell
    java -jar target/salary-0.1.0-RELEASE.jar
+   ```
+   You can check your API 
+   
+   ```shell
+   http://localhost:8080/salary-documentation
    ```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d1ed67d6-a0d7-498f-8c42-76222f8863c0)
 
