@@ -7,16 +7,16 @@
 # Table of Contents 
 1. [Purpose](#purpose)
 2. [Pre-Requisites](#Pre-Requisites)
-3. [Key Components](#Key Components)
-4. [System Requirements](#system requirements)
-5. [Important Ports]
-6. [Dependencies]
-7. [Architecture]
-8. [Setup API]
-9. [Results]
-10. [Troubleshooting]
-11. [Contact Information]
-12. [References]
+3. [Key Components](#Key-Components)
+4. [System Requirements](#system-requirements)
+5. [Important Ports](#Important-Ports)
+6. [Dependencies](#Dependencies)
+7. [Architecture](#Architecture)
+8. [Setup API](#Setup-API)
+9. [Results](#Results)
+10. [Troubleshooting](#Troubleshooting)
+11. [Contact Information](#Contact-Information)
+12. [References](#References)
 
 
 ## Purpose
