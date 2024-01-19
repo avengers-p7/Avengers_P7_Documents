@@ -31,7 +31,7 @@ Supported features in the applications are:-
 | OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
 
 ***
-# Important Ports
+# Ports
 ## Inbound Ports 
 
 |   Port        |    Description    |
