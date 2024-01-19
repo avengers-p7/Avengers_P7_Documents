@@ -175,7 +175,8 @@ sudo apt-get install liquibase
 * To inspect the installed dependencies by Poetry, you can use the command `poetry show`.
 
 ***
-4)  **Run Application**
+3)  **Run Application**
+   
 After installing the required dependencies in the Poetry shell environment for running the API, it's advisable to install Gunicorn directly within the virtual environment. Execute the following command to achieve this:
 ```shell
 poetry shell
