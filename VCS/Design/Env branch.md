@@ -6,7 +6,6 @@
 
 ---
 # Introduction
-### Environment Branch Workflow in VCS
 In version control systems, branching is a powerful feature that allows developers to work on new features or bug fixes without affecting the main codebase. This document describes an environment branch workflow in Git, which is a popular version control system. This workflow is based on creating separate branches for different environments, such as development, staging, and production.
 
 # Need of Environment Branch
@@ -52,7 +51,6 @@ The environment branch workflow involves the following steps:
 | Disadvantage | Description                                                                                                   |
 | ------------ | ------------------------------------------------------------------------------------------------------------- |
 | Complexity   | The environment branch workflow can be complex, particularly for large teams simultaneously working on multiple features. |
-| Overhead     | Creating and merging branches can introduce additional overhead to the development process.                   |
 | Delay        | There may be a delay between making changes and deploying them to the production environment.                   |
 
 # Conclusion 
@@ -70,5 +68,4 @@ The environment branch workflow is a useful tool for teams that work on large pr
 |  Source                                                             |        Description                                                           |
 | ------------                                                        | --------------------------------                                             |
 | https://nvie.com/posts/a-successful-git-branching-model/            |  Refer to this tutorial for more information on the Feature Branch Workflow  |  
-| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md | Feature branch doc refrence                                   |
-	
+| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md | Feature branch Doc                                            |	
