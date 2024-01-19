@@ -86,17 +86,18 @@ Prior to any installation, make sure to install Python 3.11 or a higher version,
 ```shell
 sudo apt install make -y 
 ```
+***
 2) **Install pip:**
 ```shell
 sudo apt install python3-pip
 ```
-     
+*** 
 3) **Install poetry:**
 ```shell
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 Add `export PATH="/home/ubuntu/.local/bin:$PATH"` to your shell configuration file.
-***
+
 <img width="960" alt="Screenshot 2024-01-19 at 1 28 04 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cd0a1807-5864-4ae5-92e7-c9aca68e664f">
 ***
     
@@ -108,9 +109,8 @@ For data storage and cache you need to setup postgreSQL and redis either as a co
 sudo apt update
 sudo apt install postgresql
 ```
-***
+
 <img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
-***
 
 * Create Database and user
 ```shell
@@ -124,14 +124,15 @@ NOTE: Remember to alter the superuser password based on the config.yaml file. Ot
 * To alter the password you may use the following command
 ```shell
 ALTER USER postgres WITH PASSWORD 'password';
-``` 
+```
+***
 5) **Install Redis**
 ```shell
 sudo apt install redis-server
 ```
 <img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
+***
 
-    
 6) **Install Liquibase**
    
 Liquibase helps in versioning and managing database schema changes in a flexible and automated way.
@@ -153,7 +154,7 @@ sudo apt-get install liquibase
 * To establish the connect between liquibase and postgres you need to make changes in liquibase.properties file. This is how you may do it. 
 
 <img width="883" alt="Screenshot 2024-01-18 at 12 19 23 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1e68f50a-d880-49e1-b841-f6ba98318418">
-
+***
 ## 3.  Building and running:
 1) **Run Migrations**
    
