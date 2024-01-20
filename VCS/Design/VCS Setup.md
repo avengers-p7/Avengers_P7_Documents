@@ -1,8 +1,8 @@
 # Github Documentation
 
-| Author | Created on | last updated | Document Version |
-| ------ | ---------- | ------------ | ---------------- |
-| Nidhi  | 15-01-24   | 19-01-24     |  V1              |
+| Author | Created on | last updated | Document Version | **Last Updated By** |
+| ------ | ---------- | ------------ | ---------------- | ------------------- |
+| Nidhi  | 15-01-24   | 19-01-24     |  V1              | Nidhi |
 
 ***
 
