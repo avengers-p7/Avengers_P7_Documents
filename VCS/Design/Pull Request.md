@@ -83,8 +83,8 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 ```shell
 gh pr create
 ```
+<img width="884" alt="Screenshot 2024-01-20 at 11 57 11 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/955246f7-e27a-44e0-a834-811eab1eed99">
 
-<img width="884" alt="Screenshot 2024-01-20 at 11 57 11 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/e72b2b8c-e174-49f8-9605-755403a34be5">
 
 * After initiating the pull request, it's beneficial to add a comment, especially when tagging the reviewer.
   
