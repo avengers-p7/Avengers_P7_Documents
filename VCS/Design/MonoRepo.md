@@ -51,13 +51,12 @@ The monorepo approach has several advantages:
 
 | Key Principle             | Description |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Simplicity and Transparency | Easy to learn and implement, especially for Git beginners. The workflow is well-defined and relies on a limited number of key branches, fostering transparency through issue-linking and clear change visibility.               |
-| Efficiency                | Promotes small, focused feature branches that merge frequently, minimizing merge conflicts and streamlining development iteration.                                                                                                  |
-| Integration with GitLab    | Built-in integration with GitLab features like merge requests, CI/CD pipelines, and issue tracking, optimizing collaboration and automation.                                                                                           |
-| Flexibility               | Adaptable to specific team needs and project complexity. Additional branches or workflows can be incorporated to fit your requirements.                                                                                               |
-| Emphasis on Testing       | Merge requests and CI/CD pipelines encourage continuous testing and code quality checks throughout the development cycle.  |
-*** 
-
+| **Code Sharing and Reuse** | In a monorepo, code can be shared across multiple projects, making it easier to reuse code without the need for duplicate code or complex dependency management. |
+| **Simplified Dependency Management** | With a monorepo, all projects use the same version of dependencies, eliminating “dependency hell.” |
+| **Ease of Collaboration**    | Monorepos make it easier for developers to work together, as all the code is available in a single location.
+                                                                                           |
+| **Atomic Commits and Cross-Project Changes** | Changes across multiple projects can be committed atomically, maintaining consistency and making rollback easier if necessary.
+***
 ## Challenges/Disadvantages 
 
 When using a mono repo for all our code we might face a few challenges, some of them are:-
