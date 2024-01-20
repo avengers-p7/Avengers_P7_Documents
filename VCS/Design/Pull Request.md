@@ -2,7 +2,7 @@
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Vidhi Yadav      | 19 Jan 2024   |     v1     | Vidhi Yadav     | 19 Jan 2024    |
+| Vidhi Yadav      | 19 Jan 2024   |     v1     | Vidhi Yadav     | 21 Jan 2024    |
 
 ***
 # Table of Contents 
@@ -16,8 +16,6 @@
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
-
-
 
 
 
@@ -54,6 +52,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 
 ***
 ### **Step 5: Commit Changes**
+
 * Commits save changes with a message describing what was done. Use `git commit -m "your message"` to commit changes. Clear and concise commit messages help collaborators understand your intentions.
 
 <img width="1039" alt="Screenshot 2024-01-19 at 7 10 19 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/b5b46607-731a-45d2-904d-17f888b9c0ce">
@@ -61,6 +60,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 
 ***
 ### **Step 6: Push Changes**
+
 * Pushing uploads your local branch and commits to your forked repository on GitHub. Execute `git push origin branch-name` to push changes. This makes your modifications accessible for creating a pull request.
 
 <img width="786" alt="Screenshot 2024-01-19 at 7 14 47 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8fb46275-92c3-4280-aadd-90ae4d4c3735">
@@ -75,7 +75,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 
 <img width="937" alt="Screenshot 2024-01-20 at 11 42 04 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ab8da8e7-d666-42db-98ba-01893c84a4f5">
 
-After initiating a pull request, it is valuable to engage with the reviewer by adding a comment to mention the specific changes incorporated into the request. Mentioning the modifications made helps the reviewer understand the intent behind the pull request and promotes a more efficient review process.
+* After initiating a pull request, it is valuable to engage with the reviewer by adding a comment to mention the specific changes incorporated into the request. Mentioning the modifications made helps the reviewer understand the intent behind the pull request and promotes a more efficient review process.
 
 <img width="1116" alt="Screenshot 2024-01-20 at 11 46 01 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/113feca7-d603-4420-a5a2-725fc25c729b">
 
@@ -107,11 +107,13 @@ gh pr list
 # Closing Pull Requests
 
 # Method 1: Using GUI 
-After successful review and approval, the pull request is merged. Contributors should delete their feature branches after merging to keep the repository clean.
+
+* After successful review and approval, the pull request is merged. Contributors should delete their feature branches after merging to keep the repository clean.
 
 <img width="998" alt="Screenshot 2024-01-19 at 7 51 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f7d17b0-bf71-4019-8a3f-76dcec5b388d">
 
 # Method 1: Using CLI
+
 * To close a pull request from the command line interface (CLI) using GitHub CLI, you can use the following command:
 
 ```shell
