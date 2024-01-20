@@ -6,20 +6,18 @@
 | Vikram BISHT | 10 Jan 2024   |     v1     | Vikram Bisht    | 19 Jan 2024  |
 
 ---
-
-# Table of Content
-1. Introduction
-2. Key Features
-3. Licensing & Versoning 
-4. System Requirements
-5. Ports
-6. Runtime Prerequisites
-7. ScyllaDB Installation Guide
-8. Configure and Run ScyllaDB
-9. Conclusion
-10. Resources and References
+# Table of Contents 
++ [Introduction](#introduction)
++ [Key Features](#Key-Features)
++ [Licensing & Versoning](#Licensing-&-Versoning)
++ [System Requirements](#System-Requirements)
++ [Ports](#Ports)
++ [Runtime Prerequisites](#Runtime-Prerequisites)
++ [ScyllaDB Installation Guide](#ScyllaDB-Installation-Guide)
++ [Configure and Run ScyllaDB](#Configure-and-Run-ScyllaDB)
++ [Conclusion](#Conclusion)
++ [Resources and References](#Resources-and-References)
 ***
-
 # Introduction
 
 ScyllaDB is a high-performance, distributed NoSQL database designed for horizontal scalability and low-latency operations. It was developed as an open-source alternative to Apache Cassandra, but with a focus on improved performance and efficiency. ScyllaDB is written in C++ and is optimized for modern hardware architectures. The database is designed to handle large volumes of data and high-throughput workloads, making it well-suited for applications with demanding performance requirements.
