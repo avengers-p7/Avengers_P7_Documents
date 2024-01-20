@@ -105,7 +105,7 @@ gh pr list
 <img width="837" alt="Screenshot 2024-01-21 at 12 54 45 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cff9362d-e33d-425d-948b-e462d26be5dd">
 
 ***
-# Step 7: Closing Pull Requests
+# Closing Pull Requests
 
 # Method 1: Using GUI 
 
