@@ -8,7 +8,7 @@
 # Table of Contents 
 + [Introduction](#introduction)
 + [Flow Diagram](#pull-requests-flow)
-+ [Pull Request Creation](#creating-a-pull-request)
++ [Pull Request Creation](#PR-Creation)
 + [Pull Request Checklist](#pull-request-checklist)
 + [Guidelines](#rules-and-guidelines)
 + [Reviewing Pull Requests](#review-process)
@@ -32,6 +32,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 <img width="1311" alt="Screenshot 2024-01-21 at 2 23 41 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/0541dbdb-73ea-472f-b9bd-18e5d28311a6">
 
 ***
+# PR Creation
 ### **Step 1: Clone the Repository**
 * Use the git clone command with the URL of your forked repository to download a local copy. This copy is where you'll make and test your changes.
 
@@ -51,7 +52,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 
 
 ***
-### **Step 5: Commit Changes**
+### **Step 4: Commit Changes**
 
 * Commits save changes with a message describing what was done. Use `git commit -m "your message"` to commit changes. Clear and concise commit messages help collaborators understand your intentions.
 
@@ -59,14 +60,14 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 
 
 ***
-### **Step 6: Push Changes**
+### **Step 5: Push Changes**
 
 * Pushing uploads your local branch and commits to your forked repository on GitHub. Execute `git push origin branch-name` to push changes. This makes your modifications accessible for creating a pull request.
 
 <img width="786" alt="Screenshot 2024-01-19 at 7 14 47 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8fb46275-92c3-4280-aadd-90ae4d4c3735">
 
 ***
-### **Step 7: Create Pull Request**
+### **Step 6: Create Pull Request**
 * A pull request proposes changes to the original repository. Navigate to the original repository, click `New Pull Request`, select your branch, and follow the prompts. Write a clear title and description to help reviewers understand the purpose of your contribution.
 
 ### Method 1: Using GUI 
@@ -104,7 +105,7 @@ gh pr list
 <img width="837" alt="Screenshot 2024-01-21 at 12 54 45 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cff9362d-e33d-425d-948b-e462d26be5dd">
 
 ***
-# Closing Pull Requests
+# Step 7: Closing Pull Requests
 
 # Method 1: Using GUI 
 
@@ -112,7 +113,7 @@ gh pr list
 
 <img width="998" alt="Screenshot 2024-01-19 at 7 51 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f7d17b0-bf71-4019-8a3f-76dcec5b388d">
 
-# Method 1: Using CLI
+# Method 2: Using CLI
 
 * To close a pull request from the command line interface (CLI) using GitHub CLI, you can use the following command:
 
