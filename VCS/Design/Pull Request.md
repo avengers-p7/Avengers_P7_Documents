@@ -30,7 +30,8 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 
 *** 
 # Pull Requests flow 
-![image](https://github.com/avengers-p7/Documentation/assets/156056349/3fc47489-9a3e-481a-b674-75acacbcaa1d)
+
+<img width="1311" alt="Screenshot 2024-01-21 at 2 23 41 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/0541dbdb-73ea-472f-b9bd-18e5d28311a6">
 
 ***
 # Creating a Pull Request
