@@ -75,14 +75,21 @@ Pushing uploads your local branch and commits to your forked repository on GitHu
 ### **Step 7: Create Pull Request**
 A pull request proposes changes to the original repository. Navigate to the original repository, click `New Pull Request`, select your branch, and follow the prompts. Write a clear title and description to help reviewers understand the purpose of your contribution.
 
+### Method 1: Using GUI 
 <img width="1259" alt="Screenshot 2024-01-19 at 7 26 27 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3f3d8aa3-d212-41c6-9638-bab825e1a72e">
-
-
-
 
 <img width="1001" alt="Screenshot 2024-01-19 at 7 28 35 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3e78b859-0bf8-4d7b-84e3-31f99c8eb944">
 
+### Method 2: Using CLI 
+
 > Note: While forking is common in organizational workflows, it's not mandatory for feature branches. Instead, create a branch within the existing repository. Submit a pull request from your branch, and if approved, changes can seamlessly integrate into the main branch without the need for a separate fork, streamlining collaboration.
+
+***
+# Closing Pull Requests
+After successful review and approval, the pull request is merged. Contributors should delete their feature branches after merging to keep the repository clean.
+
+<img width="998" alt="Screenshot 2024-01-19 at 7 51 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f7d17b0-bf71-4019-8a3f-76dcec5b388d">
+
 
 ***
 # Pull Request Checklist
@@ -92,8 +99,8 @@ A pull request proposes changes to the original repository. Navigate to the orig
 - [x] Describe your change in detail to provide comprehensive context.
 - [x] Explain your testing approach to ensure the reliability of your change.
 
-***
 
+***
 # Rules and Guidelines
 
 + Use the provided checklist in the pull request template for verbosity and completeness.
@@ -109,11 +116,7 @@ A pull request proposes changes to the original repository. Navigate to the orig
 + Only authorized maintainers can merge pull requests. Ensure that all review comments are addressed before merging to maintain code integrity.
 + Emphasize the caution associated with force pushing commits to a pull request. Highlight the potential risks of altering repository history and the impact on collaborators.
 
-***
-# Closing Pull Requests
-After successful review and approval, the pull request is merged. Contributors should delete their feature branches after merging to keep the repository clean.
 
-<img width="998" alt="Screenshot 2024-01-19 at 7 51 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f7d17b0-bf71-4019-8a3f-76dcec5b388d">
 
 ***
 # Conclusion
