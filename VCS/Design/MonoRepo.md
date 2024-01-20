@@ -8,15 +8,16 @@
 
 ## Table  of Contents
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Advantages of Mono Repo](#Advantages-of-Mono-Repo)
-4. [Challenges/Disadvantages](#challengesdisadvantages)
-5. [Best Practices](#Best-Practices)
-6. [Who Uses](#who-uses)
-7. [Conclusion](#Conclusion)
-8. [Contact Information](#contact-information)
-9. [Refrences](#references) 
+1. [Overview](#overview)
+2. [Introduction](#introduction)
+3. [Features](#features)
+4. [Advantages of Mono Repo](#Advantages-of-Mono-Repo)
+5. [Challenges/Disadvantages](#challengesdisadvantages)
+6. [Best Practices](#Best-Practices)
+7. [Who Uses](#who-uses)
+8. [Conclusion](#Conclusion)
+9. [Contact Information](#contact-information)
+10. [Refrences](#references) 
 ***
 ## Overview
 This document explains the _**Mono Repo**_ approach in software development. It covers various aspects, including its features, advantages, challenges, best practices, and notable use cases. The primary purpose is to provide developers, teams, and organizations with insights into the Mono Repo model, enabling them to make informed decisions about its adoption and implementation.
