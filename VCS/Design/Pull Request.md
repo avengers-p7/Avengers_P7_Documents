@@ -79,6 +79,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 > NOTE: If you wish to create a pull request from the command line interface (CLI), it's essential to have GitHub CLI installed. You can install it by visiting [this link](https://github.com/cli/cli/releases)
 
 * To initiate the creation of a pull request, use the following command in your shell:
+
 ```shell
 gh pr create
 ```
@@ -90,6 +91,7 @@ gh pr create
 <img width="1163" alt="Screenshot 2024-01-20 at 11 56 53 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dd25205a-5dce-4d62-9b23-9ebc6071de76">
 
 * You can check the status of your pull request by viewing the list of pull requests. This allows you to confirm whether the pull request has been successfully raised or not
+
 ```shell
 gh pr create
 ```
@@ -97,9 +99,20 @@ gh pr create
 
 ***
 # Closing Pull Requests
+
+# Method 1: Using GUI 
 After successful review and approval, the pull request is merged. Contributors should delete their feature branches after merging to keep the repository clean.
 
 <img width="998" alt="Screenshot 2024-01-19 at 7 51 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f7d17b0-bf71-4019-8a3f-76dcec5b388d">
+
+# Method 1: Using CLI
+* To close a pull request from the command line interface (CLI) using GitHub CLI, you can use the following command:
+
+```shell
+gh pr close <pull-request-number>
+```
+
+<img width="767" alt="Screenshot 2024-01-21 at 2 44 55 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/bc55365b-33ad-4932-9370-6de8ade34f01">
 
 
 ***
