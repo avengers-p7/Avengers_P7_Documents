@@ -16,7 +16,7 @@
 + [ScyllaDB Installation Guide](#ScyllaDB-Installation-Guide)
 + [Configure and Run ScyllaDB](#Configure-and-Run-ScyllaDB)
 + [Conclusion](#Conclusion)
-+ [Resources and References](#Resources-and-References)
++ [References](#References)
 ***
 # Introduction
 
