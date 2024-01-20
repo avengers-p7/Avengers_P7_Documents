@@ -20,13 +20,13 @@
 ***
 ## How to automate the hook
 ***
-## Types client side hook server side hook**
+## Types client side hook server side hook
 ***
-## Diagram**
+## Diagram
 ***
-## Operations flow of hook**
+## Operations flow of hook
 ***
-## Conclusion**
+## Conclusion
 ***
 
 ## Contact Information:
