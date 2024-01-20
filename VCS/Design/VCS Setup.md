@@ -170,6 +170,8 @@ In a distributed system, each developer has their own complete copy (clone) of t
 
 **Remote Repositories**: Developers push and pull changes to and from remote repositories, enabling collaboration.
 
+***
+
 # Conclusion  
 
 In conclusion, this GitHub Setup Documentation has guided you through the essential steps to establish a solid foundation for version control and collaborative development. GitHub's features will empower you to optimize your development workflow, collaborate efficiently, and maintain code quality. Embrace the collaborative nature of GitHub to elevate your coding projects to new heights. 
