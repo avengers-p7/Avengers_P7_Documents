@@ -9,7 +9,7 @@
 + [Introduction](#Introduction)
 + [Purpose of hook](#Purpose_of_hook)
 + [Why in our project](#Why_in_our_project)
-+ [Types client side hook server side hook](#Types_client_side_hook_server_side_hook)
++ [Types of CommitHooks](#Types_of_CommitHooks)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact_Information)
 + [References](#References)  
