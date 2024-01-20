@@ -45,8 +45,10 @@ The monorepo approach has several advantages:
 | **Discoverability** | A monorepo offers a single view of the whole code. You can review the status of the whole repository, screen all branches, and keep track of modifications much more easily in monorepos than in polyrepos.
 | **Release management** | A monorepo retains all the information about how to deploy the whole system. An automated build and deploy pipeline doesn’t hide deployment knowledge within each team the way it does in a polyrepo.
 | **Easier refactoring** | Direct access to all microservices makes it easier to refactor the code in a monorepo. Also, you can change the code structure. Moving the source code between folders and subfolders is much easier than moving the source code between multiple repositories.
-  ![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
 ***
+
+![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
+
 # Advantages of Mono Repo
 
 | Key Principle             | Description |
