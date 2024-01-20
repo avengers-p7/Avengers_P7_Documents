@@ -18,6 +18,8 @@
 8. [Contact Information](#contact-information)
 9. [Refrences](#references) 
 ***
+## Overview
+This document explains the _**Mono Repo**_ approach in software development. It covers various aspects, including its features, advantages, challenges, best practices, and notable use cases. The primary purpose is to provide developers, teams, and organizations with insights into the Mono Repo model, enabling them to make informed decisions about its adoption and implementation.
 ## Introduction 
 
   A repo (short for repository) is a storage for all the changes and files from a project, enabling developers to “version control” the project’s assets throughout its development stage.
