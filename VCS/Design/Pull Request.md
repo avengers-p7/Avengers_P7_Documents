@@ -70,9 +70,15 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 * A pull request proposes changes to the original repository. Navigate to the original repository, click `New Pull Request`, select your branch, and follow the prompts. Write a clear title and description to help reviewers understand the purpose of your contribution.
 
 ### Method 1: Using GUI 
-<img width="1259" alt="Screenshot 2024-01-19 at 7 26 27 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3f3d8aa3-d212-41c6-9638-bab825e1a72e">
 
-<img width="1001" alt="Screenshot 2024-01-19 at 7 28 35 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3e78b859-0bf8-4d7b-84e3-31f99c8eb944">
+* After making changes and pushing them to the remote repository, you'll be prompted to create a pull request. Take advantage of this prompt by clicking on it.
+
+<img width="937" alt="Screenshot 2024-01-20 at 11 42 04 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ab8da8e7-d666-42db-98ba-01893c84a4f5">
+
+After initiating a pull request, it is valuable to engage with the reviewer by adding a comment to mention the specific changes incorporated into the request. Mentioning the modifications made helps the reviewer understand the intent behind the pull request and promotes a more efficient review process.
+
+<img width="1116" alt="Screenshot 2024-01-20 at 11 46 01 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/113feca7-d603-4420-a5a2-725fc25c729b">
+
 
 ### Method 2: Using CLI 
 
@@ -86,7 +92,7 @@ gh pr create
 <img width="884" alt="Screenshot 2024-01-20 at 11 57 11 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/955246f7-e27a-44e0-a834-811eab1eed99">
 
 
-* After initiating the pull request, it's beneficial to add a comment, especially when tagging the reviewer.
+* After initiating the pull request, it's beneficial to add a comment.
   
 <img width="1163" alt="Screenshot 2024-01-20 at 11 56 53 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dd25205a-5dce-4d62-9b23-9ebc6071de76">
 
