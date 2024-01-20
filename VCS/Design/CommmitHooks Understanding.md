@@ -2,6 +2,15 @@
 | ---------------------- | ---------- | ------------ | ---------------- | --------------- |
 | Vishal Kumar Kesarwani | 16-01-2024 | 16-01-2024   | v1               | Vishal |
 ***
+## Agenda
+* **Intro**
+* **Purpose of hook**
+* **Why in our project**
+* **how to automate the hook**
+* **types client side hook server side hook**
+* **Diagram**
+* **Operations flow of hook**
+* **Conclusion**
 
 ## Contact Information:
 | Name | Email address |
