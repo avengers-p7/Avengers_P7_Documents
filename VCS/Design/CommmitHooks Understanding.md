@@ -1,8 +1,9 @@
+# Git Hooks 
 | Author                 | Created On | Last Updated | Document Version | Last Updated By |
 | ---------------------- | ---------- | ------------ | ---------------- | --------------- |
 | Vishal Kumar Kesarwani | 16-01-2024 | 16-01-2024   | v1               | Vishal |
 ***
-# Agenda
+# Table of Contents
 + [Introduction](#Introduction)
 + [Purpose of hook](#Purpose_of_hook)
 + [Why in our project](#Why_in_our_project)
