@@ -55,6 +55,16 @@ Using commit hooks in your project offers several advantages that contribute to 
 
 ## Types of CommitHooks
 
+ There are two types of hooks present in Git
+ 
+**1.Client-Side hooks**
+
+**2.Server-Side hooks**
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/f4dc2b35-3d60-492b-9f1d-0b42a3165116)
+
+
 | **Client-Side Hook** | **Server-Side Hook** |
 | -------------------- | -------------------- |
 | **pre-commit** The pre-commit hook runs on the git commit event. This can be used for Static analysis, Linting, Spell-checks, and Code style checks. It takes zero arguments and exiting with a non-zero status aborts the commit operation. | **pre-receive** This hook reacts to git push and updates the references in its repository. It takes no arguments but for each ref to be updated it receives standard input in this format. |
