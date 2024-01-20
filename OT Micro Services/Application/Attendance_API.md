@@ -188,8 +188,10 @@ make run-migrations
 <img width="1125" alt="Screenshot 2024-01-19 at 5 12 26 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/34f1e782-868f-4780-85fb-de59b8583564">
 
 
-* To ensure Poetry runs without errors, install psycopg2 is installed . Additionally, you may need to install python3.11-dev using.
-  
+* To ensure Poetry runs without errors, install psycopg2 is installed . Additionally, you may need to install python3.11-dev to add development packages and files. 
+```shell
+sudo apt-get install python3.11-dev
+```
 ```shell
 poetry add psycopg2-binary
 sudo apt-get install libpq-dev
