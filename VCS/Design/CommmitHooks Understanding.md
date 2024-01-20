@@ -4,21 +4,19 @@
 | Vishal Kumar Kesarwani | 16-01-2024 | 16-01-2024   | v1               |  Vishal         |
 
 ***
-
 # Table of Contents
 
 + [Introduction](#Introduction)
 + [Purpose of hook](#Purpose_of_hook)
 + [Why in our project](#Why_in_our_project)
-+ [How to automate the hook](#How_to_automate_the_hook)
 + [Types client side hook server side hook](#Types_client_side_hook_server_side_hook)
-+ [Diagram](#Diagram)
-+ [Operations flow of hook](#Operations_flow_of_hook)
 + [Conclusion](#Conclusion)
-  
++ [Contact Information](#Contact_Information)
++ [References](#References)  
 ***
-
 ## Introduction
+
+<img width="300" length="100" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156056413/93848227-e8d2-4166-83b4-39eea46e8871">
 
 Commit hooks in Git are scripts that run automatically before or after specific Git events, such as committing changes. They allow developers to enforce and automate certain tasks, ensuring code quality, adherence to standards, and consistency throughout the development process.
 
@@ -48,9 +46,6 @@ Using commit hooks in your project offers several advantages that contribute to 
 | **Integration with CI/CD Pipelines** | Commit hooks complement continuous integration/continuous deployment (CI/CD) pipelines by performing preliminary checks before changes are integrated into the shared repository. This integration ensures a smoother overall development pipeline. |
 | **Improved Collaboration** | By enforcing consistent commit message standards, commit hooks enhance collaboration among team members. Clear and well-documented commit messages improve code review processes and make it easier to understand the history of changes. |
 
-*** 
-
-## How to automate the hook
 ***
 
 ## Types of CommitHooks
@@ -61,8 +56,7 @@ Using commit hooks in your project offers several advantages that contribute to 
 
 **2.Server-Side hooks**
 
-
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/f4dc2b35-3d60-492b-9f1d-0b42a3165116)
+<img width="760" length="300" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156057205/f4dc2b35-3d60-492b-9f1d-0b42a3165116">
 
 
 | **Client-Side Hook** | **Server-Side Hook** |
@@ -76,13 +70,10 @@ Using commit hooks in your project offers several advantages that contribute to 
 
 ***
 
-## Diagram
-***
-## Operations flow of hook
-***
 ## Conclusion
 
-Git Hooks are a powerful tool for automating tasks and enforcing policies in Git. By writing custom scripts that Git can execute at key points in the development process, developers can streamline their workflow and ensure code quality. With the tips and techniques outlined in this guide, you'll be able to use Git Hooks effectively in your own projects.
+Git Hooks are a powerful tool for 
+automating tasks and enforcing policies in Git. By writing custom scripts that Git can execute at key points in the development process, developers can streamline their workflow and ensure code quality. With the tips and techniques outlined in this guide, you'll be able to use Git Hooks effectively in your own projects.
 
 ***
 
