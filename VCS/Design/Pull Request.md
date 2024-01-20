@@ -93,9 +93,9 @@ gh pr create
 * You can check the status of your pull request by viewing the list of pull requests. This allows you to confirm whether the pull request has been successfully raised or not
 
 ```shell
-gh pr create
+gh pr list
 ```
-<img width="976" alt="Screenshot 2024-01-20 at 11 32 05 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dde3ec6a-71ab-4a30-9e64-ef0ea74bc85b">
+<img width="837" alt="Screenshot 2024-01-21 at 12 54 45 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cff9362d-e33d-425d-948b-e462d26be5dd">
 
 ***
 # Closing Pull Requests
