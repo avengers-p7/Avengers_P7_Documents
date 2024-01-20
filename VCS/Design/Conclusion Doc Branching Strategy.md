@@ -7,8 +7,8 @@
 ---
 # Table of Contents 
 + [Best Pratices](#Best-Pratices)
-+ [Need of Environment Branch](#Need-of-Environment-Branch)
-+ [Types of Environment Branches](#Types-of-Environment-Branches)
++ [Use Cases](#Use-Cases)
++ [Conclusion](#Conclusion)
 + [Creating a feature branch](#Creating-a-feature-branch)
 + [Advantages](#Advantages)
 + [Disdvantages](#Disdvantages)
@@ -31,6 +31,22 @@ GitLab Flow promotes simplicity with a single main branch for development and co
 
 **Environment Branch Flow:**
 Environment Branch Flow involves creating branches specific to each environment (dev/, test/, prod/). Establish clear workflows for promoting changes between environments, automate where possible, and version-control configurations alongside code changes. Conduct thorough environment-specific testing, and define and test rollback procedures for each environment.
+
+# Use Cases
+Below table summarizes the strategies discussed in this article and which strategy is appropriate in which context:
+|   Workflow              |             Use Case                     |
+|-------------------------|----------------------------------------- |
+| Git Flow                |  Small teams or individual developers. - Projects with straightforward development processes                                                              | 
+| Feature Branch Flow     |  Large teams or projects with multiple features being developed simultaneously. Isolation of features for testing before merging into the main branch     |
+| GitLab Flow             |  Integrated CI/CD. - Collaboration with DevOps practices.   Teams adopting a more structured workflow                                                     |
+| Environment Branch      | Environments or deployment stages have dedicated branches.   Useful for projects with distinct development, testing, and production environments          |
+
+# Conclusion
+The strategy you choose will depend on your team and the nature and complexity of your project and so this should be evaluated on a case-by-case basis. Here, in this case we are proceeding with the Feature Workflow Strategy according to our team & use case.
+
+The Feature Branch Workflow is a versatile strategy suitable for projects of various sizes and complexities. Its emphasis on collaboration, isolation, and systematic testing makes it an excellent choice for teams aiming for organized and controlled feature development. The workflow accommodates different development paces and provides a structured approach to managing releases. Code reviews are efficient and focused, contributing to overall code quality. By maintaining a stable main branch, the Feature Branch Workflow supports a consistent and reliable code base.
+
+
 
 
 
