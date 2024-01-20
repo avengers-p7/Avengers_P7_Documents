@@ -9,11 +9,7 @@
 + [Best Pratices](#Best-Pratices)
 + [Use Cases](#Use-Cases)
 + [Conclusion](#Conclusion)
-+ [Creating a feature branch](#Creating-a-feature-branch)
-+ [Advantages](#Advantages)
-+ [Disdvantages](#Disdvantages)
-+ [Conclusion](#conclusion)
-+ [Contact Information](#contact-information)
++ [Contact Information](#Contact-Information)
 + [References](#References)
 ***
 
@@ -46,6 +42,20 @@ The strategy you choose will depend on your team and the nature and complexity o
 
 The Feature Branch Workflow is a versatile strategy suitable for projects of various sizes and complexities. Its emphasis on collaboration, isolation, and systematic testing makes it an excellent choice for teams aiming for organized and controlled feature development. The workflow accommodates different development paces and provides a structured approach to managing releases. Code reviews are efficient and focused, contributing to overall code quality. By maintaining a stable main branch, the Feature Branch Workflow supports a consistent and reliable code base.
 
+# Contact Information
+
+|  Name                     |        	Email Address           |
+| ------------              | --------------------------------|
+| Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
+
+# References
+
+|  Source                                                                             |        Description              |
+| ------------                                                                        | --------------------------------|
+| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Env%20branch.md   |    Environment Branch           |  
+| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md  |    Feature branch Doc           |	
+| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md     |      Git Lab Flow               |
+| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md        |       Git flow                  | 
 
 
 
