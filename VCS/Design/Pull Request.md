@@ -35,39 +35,39 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 
 ***
 ### **Step 1: Clone the Repository**
-Use the git clone command with the URL of your forked repository to download a local copy. This copy is where you'll make and test your changes.
+* Use the git clone command with the URL of your forked repository to download a local copy. This copy is where you'll make and test your changes.
 
 <img width="1078" alt="Screenshot 2024-01-19 at 5 53 22 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/d1c521ff-04a8-460e-8c48-f85668733bd5">
 
 ***
 ### **Step 2: Create a Branch**
-Branches isolate changes from the main codebase. Use `git checkout -b branch-name` to create and switch to a new branch. Naming your branch appropriately helps others understand the purpose of your changes.
+* Branches isolate changes from the main codebase. Use `git checkout -b branch-name` to create and switch to a new branch. Naming your branch appropriately helps others understand the purpose of your changes.
 
 <img width="776" alt="Screenshot 2024-01-19 at 6 57 25 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9e8402d8-a880-4f65-a030-67afa35ad9f4">
 
 ***
 ### **Step 3: Make Changes**
-Make necessary code or documentation modifications in your local branch. Ensure your changes align with the purpose of your contribution, whether it's fixing a bug, adding a documentation or any new feature.
+* Make necessary code or documentation modifications in your local branch. Ensure your changes align with the purpose of your contribution, whether it's fixing a bug, adding a documentation or any new feature.
 
 <img width="1135" alt="Screenshot 2024-01-19 at 7 04 41 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/423618dd-b53a-411e-a890-d1369f7f0bff">
 
 
 ***
 ### **Step 5: Commit Changes**
-Commits save changes with a message describing what was done. Use `git commit -m "your message"` to commit changes. Clear and concise commit messages help collaborators understand your intentions.
+* Commits save changes with a message describing what was done. Use `git commit -m "your message"` to commit changes. Clear and concise commit messages help collaborators understand your intentions.
 
 <img width="1039" alt="Screenshot 2024-01-19 at 7 10 19 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/b5b46607-731a-45d2-904d-17f888b9c0ce">
 
 
 ***
 ### **Step 6: Push Changes**
-Pushing uploads your local branch and commits to your forked repository on GitHub. Execute `git push origin branch-name` to push changes. This makes your modifications accessible for creating a pull request.
+* Pushing uploads your local branch and commits to your forked repository on GitHub. Execute `git push origin branch-name` to push changes. This makes your modifications accessible for creating a pull request.
 
 <img width="786" alt="Screenshot 2024-01-19 at 7 14 47 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8fb46275-92c3-4280-aadd-90ae4d4c3735">
 
 ***
 ### **Step 7: Create Pull Request**
-A pull request proposes changes to the original repository. Navigate to the original repository, click `New Pull Request`, select your branch, and follow the prompts. Write a clear title and description to help reviewers understand the purpose of your contribution.
+* A pull request proposes changes to the original repository. Navigate to the original repository, click `New Pull Request`, select your branch, and follow the prompts. Write a clear title and description to help reviewers understand the purpose of your contribution.
 
 ### Method 1: Using GUI 
 <img width="1259" alt="Screenshot 2024-01-19 at 7 26 27 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3f3d8aa3-d212-41c6-9638-bab825e1a72e">
@@ -78,14 +78,22 @@ A pull request proposes changes to the original repository. Navigate to the orig
 
 > NOTE: If you wish to create a pull request from the command line interface (CLI), it's essential to have GitHub CLI installed. You can install it by visiting [this link](https://github.com/cli/cli/releases)
 
-
+* To initiate the creation of a pull request, use the following command in your shell:
+```shell
+gh pr create
+```
 
 <img width="884" alt="Screenshot 2024-01-20 at 11 57 11 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/e72b2b8c-e174-49f8-9605-755403a34be5">
 
-
+* After initiating the pull request, it's beneficial to add a comment, especially when tagging the reviewer.
+  
 <img width="1163" alt="Screenshot 2024-01-20 at 11 56 53 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dd25205a-5dce-4d62-9b23-9ebc6071de76">
-<img width="976" alt="Screenshot 2024-01-20 at 11 32 05 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dde3ec6a-71ab-4a30-9e64-ef0ea74bc85b">
 
+* You can check the status of your pull request by viewing the list of pull requests. This allows you to confirm whether the pull request has been successfully raised or not
+```shell
+gh pr create
+```
+<img width="976" alt="Screenshot 2024-01-20 at 11 32 05 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dde3ec6a-71ab-4a30-9e64-ef0ea74bc85b">
 
 ***
 # Closing Pull Requests
