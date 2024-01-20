@@ -11,7 +11,7 @@
 + [Pull Request Creation](#creating-a-pull-request)
 + [Pull Request Checklist](#pull-request-checklist)
 + [Guidelines](#rules-and-guidelines)
-+ [Reviewing Pull Requests](#reviewing-pull-requests)
++ [Reviewing Pull Requests](#review-process)
 + [Closing Pull Requests](#closing-pull-requests)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
@@ -102,7 +102,7 @@ A pull request proposes changes to the original repository. Navigate to the orig
 + Engage in the review process actively. Address and incorporate feedback from reviewers, fostering collaboration and maintaining code quality.
 
 ***
-# Reviewing Pull Requests
+# Review Process
 
 + Reviewers analyze the code for adherence to coding standards, logic errors, and potential issues. Provide constructive feedback to improve code quality.
 + Engage in discussions during the review process. Collaborate with contributors to enhance the quality of the code and address concerns.
