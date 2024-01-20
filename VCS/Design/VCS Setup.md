@@ -38,22 +38,22 @@
 
 | Feature | Description |
 | ------- | ----------- |
-| Version Control| GitHub serves as a distributed version control system, built on top of Git. It allows developers to track changes in their code, collaborate on projects, and manage different versions of their software.|
-|Repository Hosting|GitHub provides a platform for hosting code repositories. Developers can create repositories to store and organize their project files, making it easy to manage and share code with others|
-|Collaboration|GitHub facilitates collaboration among developers. Multiple contributors can work on the same project simultaneously by cloning repositories, creating branches, and merging changes|
-|Branching and Merging|GitHub supports branching, enabling developers to work on isolated features or bug fixes in separate branches. Changes made in these branches can be merged back into the main codebase when ready|
-|Pull Requests|Pull Requests (PRs) are a mechanism for proposing changes to a project. Developers can submit PRs to suggest changes made in their branches, allowing others to review the code before it's merged|
-|Issue Tracking|GitHub includes an issue tracking system that allows users to report and discuss bugs, request new features, and manage project-related tasks. It provides a centralized way to organize and prioritize work|
-|GitHub Actions|GitHub Actions is an integrated CI/CD (Continuous Integration/Continuous Deployment) service. It enables developers to automate workflows, such as running tests, building applications, and deploying software directly from the repository|
-|Community and Social Features|GitHub fosters a sense of community among developers. Users can follow each other, star repositories, and contribute to open-source projects. This social aspect encourages collaboration and knowledge sharing|
-|Documentation|GitHub provides a space for project documentation. Developers can include README files and other documentation to explain the purpose, usage, and contribution guidelines for their projects|
-|Licensing|GitHub includes features for managing software licenses. This is important for open-source projects to define how others can use, modify, and distribute the code|
+| **Version Control** | GitHub serves as a distributed version control system, built on top of Git. It allows developers to track changes in their code, collaborate on projects, and manage different versions of their software.|
+|**Repository Hosting**|GitHub provides a platform for hosting code repositories. Developers can create repositories to store and organize their project files, making it easy to manage and share code with others|
+|**Collaboration**|GitHub facilitates collaboration among developers. Multiple contributors can work on the same project simultaneously by cloning repositories, creating branches, and merging changes|
+|**Branching and Merging**|GitHub supports branching, enabling developers to work on isolated features or bug fixes in separate branches. Changes made in these branches can be merged back into the main codebase when ready|
+|**Pull Requests**|Pull Requests (PRs) are a mechanism for proposing changes to a project. Developers can submit PRs to suggest changes made in their branches, allowing others to review the code before it's merged|
+|**Issue Tracking**|GitHub includes an issue tracking system that allows users to report and discuss bugs, request new features, and manage project-related tasks. It provides a centralized way to organize and prioritize work|
+|**GitHub Actions**|GitHub Actions is an integrated CI/CD (Continuous Integration/Continuous Deployment) service. It enables developers to automate workflows, such as running tests, building applications, and deploying software directly from the repository|
+|**Community and Social Features**|GitHub fosters a sense of community among developers. Users can follow each other, star repositories, and contribute to open-source projects. This social aspect encourages collaboration and knowledge sharing|
+|**Documentation**|GitHub provides a space for project documentation. Developers can include README files and other documentation to explain the purpose, usage, and contribution guidelines for their projects|
+|**Licensing**|GitHub includes features for managing software licenses. This is important for open-source projects to define how others can use, modify, and distribute the code|
 
 ***
 
 # Prerequisites 
 
-1.Working Email ID 
+* Working Email ID 
 
 ***
 
