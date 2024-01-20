@@ -7,15 +7,10 @@
 + [Purpose of hook](#Purpose of hook)
 + [Why in our project](#Why in our project)
 + [How to automate the hook](#How to automate the hook)
-+ [Introduction](#Introduction)
-+ [Introduction](#Introduction)
-+ [Introduction](#Introduction)
-+ [Introduction](#Introduction)
-+ [Introduction](#Introduction)
-* **types client side hook server side hook**
-* **Diagram**
-* **Operations flow of hook**
-* **Conclusion**
++ [Types client side hook server side hook](#Types client side hook server side hook)
++ [Diagram](#Diagram)
++ [Operations flow of hook](#Operations flow of hook)
++ [Conclusion](#Conclusion)
 ***
 ## Introduction
 ***
