@@ -84,6 +84,10 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 ***
 
 # Organization Creation
+Organizations provide a way to group and manage repositories. They are particularly useful for businesses, open-source projects, or any scenario where you have multiple repositories and collaborators.
+
+**Use Case/Example**: If you are working on a software development project with a team, creating an organization allows you to centralize repositories related to that project. For instance, if you're developing a web application, you might create an organization named "MyWebApp" to house all related repositories.
+
 
 ![Screenshot from 2024-01-18 18-08-30](https://github.com/avengers-p7/Documentation/assets/156644891/55d3a536-309b-4cfd-b616-e28bb80e2014)
 
@@ -112,6 +116,10 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 # Repository Creation 
 
+Repositories are where your project's source code and related files are stored. Each repository typically corresponds to a specific project or component of your software.
+
+**Use Case/Example**: Continuing with the example, you would create a repository within the "MyWebApp" organization to store the source code, configuration files, and documentation for your web application. This allows your team members to collaborate on the codebase, track changes, and manage versions effectively.
+
 ***
 
 ![Screenshot from 2024-01-16 11-51-31](https://github.com/avengers-p7/Documentation/assets/156644891/913f8f43-f11c-49c8-93de-c704f92bb4ea)
@@ -119,6 +127,10 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 ***
 
 # Team Creation
+
+Teams help organize members within an organization and control access to repositories. By creating teams, you can manage permissions and collaboration more effectively.
+
+**Use Case/Example**: Within the "MyWebApp" organization, you might have different teams such as "Developers," "Testers," and "Designers." Each team can have specific permissions for different repositories. For example, the "Developers" team may have write access to the source code repository, while the "Testers" team may only have read access.
 
 ***
 ![Screenshot from 2024-01-16 14-06-39](https://github.com/avengers-p7/Documentation/assets/156644891/2cb91edd-6eae-466c-bd97-508ea25173fc)
@@ -130,6 +142,33 @@ Once logged in, you can explore GitHub repositories, contribute to projects, and
 
 
 ***
+#  Version Control System
+
+Version Control Systems (VCS) are tools that help manage changes to source code and other files over time. There are two main types of version control systems: centralized and distributed. Below, I'll provide a brief description of each type along with a simplified diagram to illustrate the concepts.
+
+**1. Centralized Version Control System (CVCS)**:
+In a centralized system, there is a single central repository that stores the entire version history of the project. Developers clone the latest version from this central repository, make changes locally, and then commit those changes back to the central server.
+
+
+![Screenshot from 2024-01-20 20-56-03](https://github.com/avengers-p7/Documentation/assets/156644891/ad69b520-a1e0-4747-9e34-12a4b08b4a88)
+
+**Centralized Repository**: The central server stores the entire history of the project.
+
+**Developer A and B**: Developers clone the latest version, make changes, and commit back to the central repository.
+
+
+# 2. Distributed Version Control System (DVCS):
+
+In a distributed system, each developer has their own complete copy (clone) of the repository, including the entire history. Developers can work independently, commit changes locally, and share their changes with others by pushing and pulling between repositories.
+
+![Screenshot from 2024-01-20 20-59-50](https://github.com/avengers-p7/Documentation/assets/156644891/73f9bdd4-584b-482c-91e5-a5603e016ae5)
+
+
+**Developer A and B**: Each developer has a local repository with the complete project history.
+
+**Local Repositories**: Developers work independently in their local repositories.
+
+**Remote Repositories**: Developers push and pull changes to and from remote repositories, enabling collaboration.
 
 # Conclusion  
 
