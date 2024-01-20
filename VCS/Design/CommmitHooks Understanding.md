@@ -18,7 +18,7 @@
 
 <img width="300" length="100" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156056413/93848227-e8d2-4166-83b4-39eea46e8871">
 
-Commit hooks in Git are scripts that run automatically before or after specific Git events, such as committing changes. They allow developers to enforce and automate certain tasks, ensuring code quality, adherence to standards, and consistency throughout the development process.
+The documentation aims to empower developers with the knowledge and tools needed to maintain a secure and compliant codebase, ultimately contributing to the overall success and integrity of software projects.Commit hooks in Git are scripts that run automatically before or after specific Git events, such as committing changes. They allow developers to enforce and automate certain tasks, ensuring code quality, adherence to standards, and consistency throughout the development process.
 
 ***
 
