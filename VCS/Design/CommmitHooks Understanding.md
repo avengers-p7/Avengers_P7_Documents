@@ -3,7 +3,7 @@
 | Vishal Kumar Kesarwani | 16-01-2024 | 16-01-2024   | v1               | Vishal |
 ***
 ## Agenda
-* **Intro**
+* **Introduction**
 * **Purpose of hook**
 * **Why in our project**
 * **how to automate the hook**
