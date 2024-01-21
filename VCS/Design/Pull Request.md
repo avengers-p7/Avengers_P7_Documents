@@ -128,13 +128,13 @@ gh pr close <pull-request-number>
 
 * Conflicts may arise when a developer raises a pull request. Follow these steps to resolve conflicts during the merge process:
 
-### Identify Conflict:
+### 1. Identify Conflict:
 * Locate conflicted files marked with <<<<<<<, =======, and >>>>>>>.
 
-#### Review Changes:
+### 2. Review Changes:
 * Understand conflicting changes from both branches.
 
-### Resolve Conflict:
+### 3. Resolve Conflict:
 * Manually edit files to keep, discard, or combine changes.
 
 ### Commit and Push:
