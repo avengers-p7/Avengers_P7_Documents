@@ -8,7 +8,7 @@
 ***
 ## Table Of Contents 
 1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
-2. [Prerequisites](##Prerequisites) 
+2. [Prerequisites](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
 3. [Setup Guide](##setup-guide)
 4. [Best Practices](##best-practices)
 5. [Conclusion](##conclusion)
