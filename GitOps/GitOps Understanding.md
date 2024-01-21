@@ -3,6 +3,19 @@
 | ------ | ---------- | ------------ | ---------------- | --------------- |
 | Vishal Kumar Kesarwani | 12-01-2024 | 16-01-2024   | v1 | Vishal |
 ***
+# Table of Contents
+
++ [Introduction](#Introduction)
++ [Why GitOps](#Why_GitOps)
++ [GitOps Principles ](#GitOps_Principles )
++ [GitOps Tools ](#GitOps_Tools )
++ [GitOps Workflows ](#GitOps_Workflows )
++ [Benefits of GitOps](#Benefits_of_GitOps)
++ [Drawbacks of GitOps](#Drawbacks_of_GitOps)
++ [Contact Information](#Contact_Information)
++ [References](#References)
+
+***
 # Introduction
 <img width="260" length="100" alt="GitOps" src="https://github.com/avengers-p7/Documentation/assets/156056413/6d918855-2887-4fe4-b731-a66c683f3388">
  
