@@ -6,14 +6,14 @@
 | Khushi Malhotra | 16-01-2024  | 18-01-2024   |        v1          |
 ***
 # Table of Contents 
-- Introduction 
-- Why 
-- Gitlab flow Working 
-- Advantage 
-- Disadvantage
-- Conclusion 
-- Contact Information 
-- Resources and References 
+- [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#introduction) 
+- [Why](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#why)
+- [Gitlab flow Working](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#gitlab-flow-working)
+- [Advantage](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#advantage-of-gitlab-flow)
+- [Disadvantage](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#disadvantage-of-gitlab-flow)
+- [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#conclusion)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#contact-information) 
+- [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md#resources-and-references)
 ***
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/449e3787-fb85-4131-bdf2-4fc2154c60e8)
 
@@ -100,6 +100,12 @@ In today's fast-paced software development world, teams need a way to work toget
 
 GitLab Flow helps software teams work together smoothly by organizing code changes into mini-projects ("feature branches"). This keeps things clear, avoids messy merges, and lets everyone contribute without stepping on each other's toes.
 Good fit for: Teams who prioritize clean workflows, clear communication, and high-quality code. Consider your team's size, experience, and project needs before adopting it.
+***
+Some other alternatives of GitLabflow:-
+- [Feature Branch](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md)
+- [Environment Branch](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Env%20branch.md)
+- [GitFlow](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md)
+- [GitHub Flow](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitHub.md)
 ***
 
 # Contact Information
