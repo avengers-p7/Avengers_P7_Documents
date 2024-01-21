@@ -150,8 +150,8 @@ Maven will be used as a package manager to download specific versions of depende
    ```
    
 > [!NOTE]
-> 1. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
-> 2. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
+> 1. Configuration properties will be configured inside **[application.yml]([./src/main/resources/application.yml](https://github.com/OT-MICROSERVICES/salary-api/blob/main/src/main/resources/application.yml))** file in main and test directory.
+> 2. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](https://github.com/OT-MICROSERVICES/salary-api/blob/main/migration.json)**.
 >    ```shell
 >     make run-migrations
 >    ```
