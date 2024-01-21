@@ -1,23 +1,64 @@
-# Authentication POC
+# GitHub Authentication POC
 ***
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Shantanu  | 15 Jan 2024   |     v1     | Shantanu  | 19 Jan 2024    |
+| Shantanu  | 15 Jan 2024   |     v1     | Shantanu  | 21 Jan 2024    |
 ***
 
 # Table of Content
 1. Introduction
-2. Step-by-Step Setup
-3. Best Practices
-4. Conclusion
-5. Contact Information
-6. Refrences
+2. Advatages of PATs
+3. Step-by-Step Setup
+4. Best Practices
+5. Conclusion
+6. Contact Information
+7. Refrences
 ***
 
 # Introduction
-GitHub serves as a vital testing ground for validating and refining the effectiveness of identity verification mechanisms. By implementing and assessing various authentication methods, developers can gauge the resilience of access controls, ensuring a robust defense against unauthorized entry. This process is integral to fortifying GitHub repositories and maintaining the integrity of collaborative coding projects.
+Welcome to our GitHub Authentication Proof of Concept (POC). In this exploration, we are focusing on the implementation of Personal Access Tokens (PAT) as our chosen authentication method for GitHub. PATs offer a compelling combination of granular access control, enhanced security features including token expiration and revocation, seamless integration capabilities, and robust audit trails. This POC aims to underscore why PATs stand out as a versatile and secure choice among various GitHub authentication methods, emphasizing their effectiveness in modern development workflows. Join us as we delve into the advantages that make PATs the preferred authentication solution.
 ***
+
+# Advatages of PATs
+
+| Feature | Description |
+| ------- | ----------- |
+| Granular Access Control | Fine-grained control over permissions, allowing users to specify precise actions and access levels. |
+| Token Expiry | Configurable expiration periods enhance security by automatically invalidating tokens after a specified timeframe. |
+| Revocation Capabilities	 | Mechanisms to revoke PATs in real-time, providing administrators with prompt responses to security incidents. |
+| Integration Flexibility	 | Seamless integration with various tools and workflows, supporting popular CI/CD systems and third-party applications. |
+| Enhanced Security Practices	 | Generates unique tokens per user or application, reducing reliance on static credentials and aligning with best security practices. |
+| Auditability | Detailed audit logs for token usage, offering transparency into access patterns and aiding in accountability. |
+| User and Application Specificity	 | Generated on a per-user or per-application basis, ensuring tailored permissions and minimizing over-permissioned accounts. |
+| Ease of Use	| Simple token generation, management, and usage through the GitHub interface, facilitating a straightforward authentication process. |
+
+# Permissions
+
+| Permission                     | Description                                            |
+|---------------------------------|--------------------------------------------------------|
+| **Repository Permissions**      |                                                        |
+| **repo**                        | Grants full control of private repositories.            |
+| **repo:status**                 | Enables access to commit status.                        |
+| **repo_deployment**             | Allows access to deployment status for private repositories. |
+| **public_repo**                 | Provides access to public repositories.                  |
+| **repo:invite**                 | Allows access to repository invitations.                |
+| **security_events**             | Grants access to security events.                       |
+| **delete_repo**                 | Allows the deletion of repositories.                    |
+| **admin:repo_hook**             | Grants full control of repository hooks.                |
+| **write:repo_hook**             | Provides write access to repository hooks.              |
+| **read:repo_hook**              | Allows read access to repository hooks.                 |
+| **admin:org_hook**              | Provides full control of organization hooks.           |
+| **write:org_hook**              | Grants write access to organization hooks.              |
+| **read:org_hook**               | Allows read access to organization hooks.               |
+| **admin:gpg_key**               | Grants full control of GPG keys for the repository.    |
+| **write:gpg_key**               | Provides write access to GPG keys for the repository.   |
+| **read:gpg_key**                | Allows read access to GPG keys for the repository.     |
+| **Account Permissions**         |                                                        |
+| [Specify Account Permissions]   | [Description of Account Permissions]                   |
+| [Another Account Permission]    | [Description of Another Account Permission]            |
+
+
 
 # Step-by-Step Setup
 **Signin** using username and password 
