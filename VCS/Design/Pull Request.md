@@ -123,6 +123,27 @@ gh pr close <pull-request-number>
 
 <img width="767" alt="Screenshot 2024-01-21 at 2 44 55 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/bc55365b-33ad-4932-9370-6de8ade34f01">
 
+***
+# Conflict Resolution 
+
+* Conflicts may arise when a developer raises a pull request. Follow these steps to resolve conflicts during the merge process:
+
+### Identify Conflict:
+* Locate conflicted files marked with <<<<<<<, =======, and >>>>>>>.
+
+#### Review Changes:
+* Understand conflicting changes from both branches.
+
+### Resolve Conflict:
+* Manually edit files to keep, discard, or combine changes.
+
+### Commit and Push:
+* Add, commit, and push resolved changes.
+
+**Example Conflict:**
+
+<img width="572" alt="Screenshot 2024-01-22 at 12 37 41 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/82b58fbf-3e14-4851-8d6c-3496f2b689b4">
+
 
 ***
 # Pull Request Checklist
