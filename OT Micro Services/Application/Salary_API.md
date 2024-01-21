@@ -140,6 +140,15 @@ Maven will be used as a package manager to download specific versions of depende
       sudo apt install migrate -y  
     ```
 
+
+### Step2: Build/Artifact Generation 
+
+1. Clone Salary API repo
+
+   ```shell
+   git clone https://github.com/OT-MICROSERVICES/salary-api.git
+   ```
+   
 > [!NOTE]
 > 1. Configuration properties will be configured inside **[application.yml](./src/main/resources/application.yml)** file.
 > 2. Also, once the property file is defined and configured properly, we need to run migrations to create a database, schema etc. The connection details for migration are available in **[migration.json](./migration.json)**.
@@ -150,14 +159,7 @@ Maven will be used as a package manager to download specific versions of depende
 
 
 Once the schema, table and database are configured, we can start our application using Java runtime.
-
-### Step2: Build/Artifact Generation 
-
-1. Clone Salary API repo
-
-   ```shell
-   git clone https://github.com/OT-MICROSERVICES/salary-api.git
-   ```
+   
 2. For building the Salary API application, we can use `make` commands with our **[Makefile](./Makefile)**. But first, we need to install the dependencies which can be simply done using the `make` command.
 
    ```shell
