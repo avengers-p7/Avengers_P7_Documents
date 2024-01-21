@@ -3,10 +3,22 @@
 | ------ | ---------- | ------------ | ---------------- | --------------- |
 | Vishal Kumar Kesarwani | 12-01-2024 | 16-01-2024   | v1 | Vishal |
 ***
+# Table of Contents
+
++ [Purpose](#Purpose)
++ [Tools](#This-document-includes-evaluation-of-GitOps-tools)
++ [GitOps Principles ](#GitOps-Principles )
++ [GitOps Tools ](#GitOps-Tools )
++ [GitOps Workflows ](#GitOps-Workflows )
++ [Benefits of GitOps](#Benefits-of-GitOps)
++ [Drawbacks of GitOps](#Drawbacks-of-GitOps)
++ [Contact Information](#Contact-Information)
++ [References](#References)
+
+***
 # Purpose 
 
 This document will explore some of the popular tools that can help you enable GitOps workflow in your application environment by automating the testing and deployment of IaC codes.
-
 
 ***
 
