@@ -7,13 +7,13 @@
 | Aakash Tripathi | 19 Jan 2024   |     v1     | Aakash Tripathi | 19 Jan 2024    |
 ***
 ## Table Of Contents 
-1. Introduction
-2. Prerequisites 
-3. Setup Guide
-4. Best Practices
-5. Conclusion
-6. Contact Information
-7. References
+1. [Introduction](##Introduction)
+2. [Prerequisites](##Prerequisites) 
+3. [Setup Guide](##setup-guide)
+4. [Best Practices](##best-practices)
+5. [Conclusion](##conclusion)
+6. [Contact Information](##contact-information)
+7. [References](##refrences)
 ***
 ## Introduction
 GitHub provides notifications to users regarding activities related to their repositories, issues, pull requests, and other collaborative work on the platform. Notifications help users stay informed about changes, discussions, and events happening within repositories they are involved in. This document will explore how some of the Github notifications can be configured.
