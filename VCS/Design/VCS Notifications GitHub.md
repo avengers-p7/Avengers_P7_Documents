@@ -7,7 +7,7 @@
 | Aakash Tripathi | 19 Jan 2024   |     v1     | Aakash Tripathi | 19 Jan 2024    |
 ***
 ## Table Of Contents 
-1. [Introduction](##Introduction)
+1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
 2. [Prerequisites](##Prerequisites) 
 3. [Setup Guide](##setup-guide)
 4. [Best Practices](##best-practices)
