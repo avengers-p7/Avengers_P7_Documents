@@ -2,40 +2,67 @@
 
 |   Author     |  Created on   |  Version   | Last updated by | Last edited on |
 | ------------ | --------------| -----------|---------------- | ---------------|
-| Vikram BISHT | 18 Jan 2024   |     v1     | Vikram Bisht    | 20 Jan 2024    |
+| Vikram BISHT | 18 Jan 2024   |     v1     | Vikram Bisht    | 21 Jan 2024    |
 
 ---
 # Table of Contents 
-+ [Best Pratices](#Best-Pratices)
-+ [Use Cases](#Use-Cases)
++ [Introduction](#Introduction)
++ [Types of Branching Strategy](#Types-of-Branching-Strategy)
++ [How to Choose a Branching Strategy](#How-to-Choose-a-Branching-Strategy)
++ [Comparison](#Comparison)
++ [When to Use Each Strategy](#When-to-Use-Each-Strategy)
++ [Conclusion](#Conclusion)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [References](#References)
 ***
+# Introduction
+Branching strategies play a crucial role in the development lifecycle, offering a structured approach to collaboration and code management. In this document, we explored various branching strategies, their types, considerations for choosing a strategy, comparisons, and recommendations for usage.
 
-# Best Pratices
-Here are best practices for using different branching strategies:
+# Types of Branching Strategy
+* **Feature Branch Flow:** Feature Branching allows developers to work on isolated features, ensuring a clean and organized development process. It promotes parallel 
+    development and facilitates feature testing before integration into the main branch.
+  
+* **Git Flow:** Git Flow introduces a more complex branching model with separate branches for features, releases, and hotfixes. It is suitable for projects with regular 
+    releases and a need for strict version control.
 
-**Feature Branch Flow:**
-Feature Branch Flow encourages creating dedicated branches for each feature or bug fix, fostering collaboration and isolating changes. Regularly update feature branches from the main branch, communicate progress effectively, and integrate continuous testing. Keep commits small and focused for streamlined code reviews and maintenance.
+* **GitLab Flow:** GitLab Flow emphasizes continuous delivery by reducing the number of branches. It simplifies the process, making it suitable for projects that require 
+    quick and frequent releases.
 
-**Git Flow:**
-Git Flow recommends a structured approach with branch naming conventions (feature/, release/, hotfix/). Maintain a stable main branch, use release branches for versioned releases, and create hotfix branches for urgent bug fixes. Prioritize code reviews and pull requests, ensuring quality control and a well-organized release process.
+* **Env Branch Flow:** Environment Branching involves creating branches corresponding to different environments, such as development, testing, staging, and production. It 
+    ensures a clear separation of code for various stages of the deployment pipeline.     
 
-**GitLab Flow:**
-GitLab Flow promotes simplicity with a single main branch for development and continuous deployment. Feature branches are short-lived, directly merging into the main branch. Leverage GitLab CI/CD for automated testing and deployment. Use environment-specific branches (e.g., staging, production) and feature flags for controlled feature releases.
+# How to Choose a Branching Strategy
+Choosing the right branching strategy depends on various factors:
 
-**Environment Branch Flow:**
-Environment Branch Flow involves creating branches specific to each environment (dev/, test/, prod/). Establish clear workflows for promoting changes between environments, automate where possible, and version-control configurations alongside code changes. Conduct thorough environment-specific testing, and define and test rollback procedures for each environment.
+* **Project Size and Complexity:** Larger projects may benefit from more structured approaches like Git Flow, while smaller projects may find Feature Branching or GitLab 
+    Flow more suitable.
 
-# Use Cases
-Below table summarizes the strategies discussed in this article and which strategy is appropriate in which context:
-|   Workflow              |             Use Case                     |
-|-------------------------|----------------------------------------- |
-| Git Flow                |  Small teams or individual developers. - Projects with straightforward development processes                                                              | 
-| Feature Branch Flow     |  Large teams or projects with multiple features being developed simultaneously. Isolation of features for testing before merging into the main branch     |
-| GitLab Flow             |  Integrated CI/CD. - Collaboration with DevOps practices.   Teams adopting a more structured workflow                                                     |
-| Environment Branch      | Environments or deployment stages have dedicated branches.   Useful for projects with distinct development, testing, and production environments          |
+* **Release Frequency:** Projects with frequent releases may opt for GitLab Flow, while those with scheduled releases can consider Git Flow.
+
+* **Team Size and Structure:** Feature Branching may be ideal for smaller teams, whereas Git Flow or GitLab Flow can provide more structure for larger teams.
+
+* **Deployment Pipeline:** Consider how the code progresses through different environments and choose a strategy that aligns with your deployment pipeline.
+
+# Comparison
+
+| Branching Strategy | Advantages                            | Drawbacks | Focus            |
+| ------             | ----------                            | ----------| ---------------- |
+| Feature Branching	 | Isolation of features                 | May lead to longer integration periods       | Individual feature development and testing |
+| Git Flow           | Structured approach                   | Complexity increases with the project size   | Well-defined branching model for releases |
+| GitLab Flow        | Emphasis on continuous delivery       | May be less suitable for smaller projects    | Streamlined pipeline for continuous delivery |
+| Env Branching      | Environment-specific code management  | Might end up with lots of branches           | Managing code changes based on environments|
+
+This table provides a concise comparison of the mentioned branching strategies, highlighting their respective advantages, drawbacks, and primary focus. The choice among these strategies should be based on the specific needs and characteristics of the project at hand.
+
+# When to Use Each Strategy
+* **Feature Branch Flow:** Ideal for projects where parallel development and feature isolation are critical.
+
+* **Git Flow:** Suited for projects with regular releases and a need for strict version control.
+
+* **GitLab Flow:** Recommended for projects with frequent releases and a focus on continuous delivery.
+
+* **Environment Branch Flow:** Useful for projects with a clear separation of environments in the deployment pipeline.
 
 # Conclusion
 The strategy you choose will depend on your team and the nature and complexity of your project and so this should be evaluated on a case-by-case basis. Here, in this case we are proceeding with the Feature Workflow Strategy according to our team & use case.
