@@ -7,11 +7,13 @@
 
 + [Purpose](#Purpose)
 + [Tools](#This-document-includes-evaluation-of-GitOps-tools)
-+ [GitOps Principles ](#GitOps-Principles )
-+ [GitOps Tools ](#GitOps-Tools )
-+ [GitOps Workflows ](#GitOps-Workflows )
-+ [Benefits of GitOps](#Benefits-of-GitOps)
-+ [Drawbacks of GitOps](#Drawbacks-of-GitOps)
++ [ArgoCD ](#ArgoCD )
++ [FluxCD](#FluxCD)
++ [Jenkins X](#Jenkins-X)
++ [BuildPiper](#BuildPiper)
++ [Technical Specifications](#Technical-Specifications)
++ [Tools Comparison](#Tools-Comparison:-ArgoCD-vs-FluxCD-vs-Jenkins-X-vs-Bulidpiper)
++ [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [References](#References)
 
