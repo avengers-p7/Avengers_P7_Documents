@@ -6,7 +6,7 @@
 # Table of Contents
 
 + [Introduction](#Introduction)
-+ [Why GitOps](#Why_GitOps)
++ [Why GitOps](#Why-GitOps)
 + [GitOps Principles ](#GitOps_Principles )
 + [GitOps Tools ](#GitOps_Tools )
 + [GitOps Workflows ](#GitOps_Workflows )
