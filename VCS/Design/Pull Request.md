@@ -126,7 +126,8 @@ gh pr close <pull-request-number>
 ***
 # Conflict Resolution 
 
-* Conflicts may arise when a developer raises a pull request. Follow these steps to resolve conflicts during the merge process:
+* A conflict in a pull request arises when changes made in the source branch conflict with the changes made in the target branch . Consider two developers, A and B, each working on a separate feature branch, feature-A and feature-B. Both branches aim to introduce changes to the same file (eg. README.md).In this situation, Git cannot automatically determine which changes to apply.
+* Follow these steps to resolve conflicts during the merge process:
 
 ### 1. Identify Conflict:
 * Locate conflicted files marked with <<<<<<<, =======, and >>>>>>>.
