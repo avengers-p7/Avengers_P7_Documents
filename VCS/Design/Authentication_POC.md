@@ -37,7 +37,6 @@ Welcome to our GitHub Authentication Proof of Concept (POC). In this exploration
 
 | Permission                     | Description                                            |
 |---------------------------------|--------------------------------------------------------|
-| **Repository Permissions**      |                                                        |
 | **repo**                        | Grants full control of private repositories.            |
 | **repo:status**                 | Enables access to commit status.                        |
 | **repo_deployment**             | Allows access to deployment status for private repositories. |
@@ -54,79 +53,39 @@ Welcome to our GitHub Authentication Proof of Concept (POC). In this exploration
 | **admin:gpg_key**               | Grants full control of GPG keys for the repository.    |
 | **write:gpg_key**               | Provides write access to GPG keys for the repository.   |
 | **read:gpg_key**                | Allows read access to GPG keys for the repository.     |
-| **Account Permissions**         |                                                        |
-| [Specify Account Permissions]   | [Description of Account Permissions]                   |
-| [Another Account Permission]    | [Description of Another Account Permission]            |
+
 
 
 
 # Step-by-Step Setup
-**Signin** using username and password 
+
+**Step-1: Signin using username and password and 2FA, then click on settings under profile section.**
+
+![Screenshot 2024-01-21 at 9 21 23 PM](https://github.com/avengers-p7/Documentation/assets/156056364/678cdbed-e7a4-47d7-9309-1b19cbfb7724)
+
+**Step-2: Then click on developer settings.**
+![Screenshot 2024-01-21 at 9 22 11 PM](https://github.com/avengers-p7/Documentation/assets/156056364/f546741e-865f-4143-89f7-77736b2eeebb)
+
+**Step-3: Under PAT(Personal Access Tokens) choose either of Fine-grained tokens which is under Beta phase or classic Tokens to generate new tokens where in next step password will be prompted.**
+![Screenshot 2024-01-21 at 9 27 20 PM](https://github.com/avengers-p7/Documentation/assets/156056364/64cf8e9f-b3f8-4c6a-94e4-adfee47ac083)
+
+**Step-4: Provide token name, its expiration duration and a description. One can also control the access of repositories where the access can be made using repo access control and could provide permissions to control account access.**
+![Screenshot 2024-01-21 at 9 33 33 PM](https://github.com/avengers-p7/Documentation/assets/156056364/314cf060-ae6d-4827-9e13-cda9a01a42d4)
+![Screenshot 2024-01-21 at 9 34 02 PM](https://github.com/avengers-p7/Documentation/assets/156056364/99945d02-ea61-4e51-a331-057addb10887)
+
+**Step-5: Generate token.**
 ***
-![Screenshot 2024-01-19 at 2 30 56 PM](https://github.com/avengers-p7/Documentation/assets/156056364/3163d867-e81d-4106-958e-0782a29e088b)
-***
-
-## Set up Two-factor Authentication
-**Step-1:** Click on your GitHub profile photo, in the upper-right corner, and select Settings from the menu.
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/3d0a8d22-dc24-41ab-b3b1-a4b5a227040e)
-***
-
-**Step-2:** In the user settings sidebar, click Security.
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/b1d301c7-1e89-4f70-9d3b-e52ddf174e39)
-***
-
-**Step-3:** Under "Two-factor authentication" section, click Enable two-factor authentication.
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/59265454-41b4-467a-bfba-4830ab0fb78c)
-***
-
-## Creating Personal Access Token
-**Step-1:** Select Settings from the menu
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/0549a08b-3ed4-439a-ad58-3f1110bec1cf)
-***
-
-**Step-2:** Next select “Developer Settings” as highlighted below.
-
-![Screenshot 2024-01-19 at 2 54 16 PM](https://github.com/avengers-p7/Documentation/assets/156056364/573eeef8-54e1-42b5-9e3d-76ad53a4b43d)
-***
-
-**Step-3:** Next choose Personal Access Token
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/dc0e163c-8a35-41b7-a285-be7dc23ade17)
-***
-
-**Step-4:** Select Generate new token
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/c9eb825a-d8ad-41bf-bf75-25d9b6ea302c)
-***
-
-**Step-5:** Define the Name / Note of your token, Expiration and scopes then hit the green generate token button.
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/3bb48bcf-270c-4dfe-8d99-1411febae70a)
-***
-
-## SSH Key Configuration
-**Step-1:** Create a GitHub SSH key on your local machine by using the ssh-keygen command.
-
-**Step-2:** The public SSH key’s value should be copied to the clipboard.
-
-**Step-3:** After logging in, go to your account settings on GitHub.
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/bf261024-cbfc-4d0c-8225-4cd2ce37f919)
-***
-
-**Step-4:** Select the SSH and GPG links.
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/944b6b15-c2ac-43bc-9362-a614bb952a2d)
-***
-
-**Step-5:** To link the public SSH key to your account, click Add Key.
-
-**Step-6:** Put the copied value in the text box after naming the key.
-
-**Step-7:** Save your changes
-
-**Step-8:** Use the SSH-based GitHub URL in your Git client to clone your repository.
 
 # Best Practices
-* Implement access control
-* Add security testing during development
-* Rotate Personal Access Tokens and SSH keys
-* Never hardcode credentials in GitHub
+| Practices | Description |
+| ---- | ------------- |
+| Implement Access Control | Enforce role-based access and permissions on GitHub repositories to control who can view, contribute, or administer, ensuring a secure and organized collaborative development environment |
+| Add Security Testing During Development | Integrate security testing tools into the development pipeline on GitHub to identify and address vulnerabilities early in the development process. |
+| Rotate Personal Access Tokens and SSH Keys | Regularly update and replace Personal Access Tokens and SSH keys on GitHub to mitigate the risk of unauthorized access and enhance overall security. |
+| Never Hardcode Credentials in GitHub | Avoid embedding sensitive credentials directly into code on GitHub to prevent exposure and adhere to security best practices in managing authentication information. |
+
+
+
 
 # Conclusion
 The successful implementation of best practices underscores the importance of robust authentication measures in safeguarding against unauthorized access. Lessons learned from the PoC will aid in future enhancements, ensuring a resilient and up-to-date security framework. Overall, this PoC lays a solid foundation for security in the verifying authentication of identity to access in GitHub. 
