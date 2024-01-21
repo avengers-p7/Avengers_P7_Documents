@@ -10,6 +10,7 @@
 + [Flow Diagram](#pull-requests-flow)
 + [Pull Request Creation](#PR-Creation)
 + [Closing Pull Requests](#closing-pull-requests)
++ [Resolve Conflicts](#conflict-resolution)
 + [Pull Request Checklist](#pull-request-checklist)
 + [Guidelines](#rules-and-guidelines)
 + [Reviewing Pull Requests](#review-process)
