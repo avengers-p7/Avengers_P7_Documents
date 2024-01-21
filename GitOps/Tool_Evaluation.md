@@ -12,8 +12,6 @@
 + [Jenkins X](#Jenkins-X)
 + [BuildPiper](#BuildPiper)
 + [Technical Specifications](#Technical-Specifications)
-+ [Tools Comparison](#Tools-Comparison:-ArgoCD-vs-FluxCD-vs-Jenkins-X-vs-Bulidpiper)
-+ [Tools Comparison: ArgoCD vs FluxCD vs Jenkins X vs Bulidpiper](#Tools-Comparison:-ArgoCD-vs-FluxCD-vs-Jenkins-X-vs-Bulidpiper)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [References](#References)
@@ -66,7 +64,8 @@ It provides functionality for modern approaches of CI, CD, GitOps, Observability
 
 
 ***
-# Tools Comparison: ArgoCD vs FluxCD vs Jenkins X vs Bulidpiper
+# Tools Comparison: 
+## ArgoCD vs FluxCD vs Jenkins X vs Bulidpiper
 
 | **Feature** | **ArgoCD** | **FluxCD** | **Jenkins X** | **Buildpiper** |
 |-------------|------------|------------|---------------|----------------|
