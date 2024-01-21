@@ -10,7 +10,7 @@
 1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
 2. [Prerequisites](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
 3. [Setup Guide](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
-4. [Best Practices](##best-practices)
+4. [Best Practices](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
 5. [Conclusion](##conclusion)
 6. [Contact Information](##contact-information)
 7. [References](##refrences)
