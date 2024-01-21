@@ -7,12 +7,12 @@
 
 + [Introduction](#Introduction)
 + [Why GitOps](#Why-GitOps)
-+ [GitOps Principles ](#GitOps_Principles )
-+ [GitOps Tools ](#GitOps_Tools )
-+ [GitOps Workflows ](#GitOps_Workflows )
-+ [Benefits of GitOps](#Benefits_of_GitOps)
-+ [Drawbacks of GitOps](#Drawbacks_of_GitOps)
-+ [Contact Information](#Contact_Information)
++ [GitOps Principles ](#GitOps-Principles )
++ [GitOps Tools ](#GitOps-Tools )
++ [GitOps Workflows ](#GitOps-Workflows )
++ [Benefits of GitOps](#Benefits-of-GitOps)
++ [Drawbacks of GitOps](#Drawbacks-of-GitOps)
++ [Contact Information](#Contact-Information)
 + [References](#References)
 
 ***
