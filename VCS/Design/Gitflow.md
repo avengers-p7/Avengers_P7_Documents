@@ -9,14 +9,14 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Table of Contents
-- Introduction 
-- Purpose 
-- Key benefits
-- How it works
-- Advantages and Disadvantages
-- Conclusion 
-- Contact Information 
-- Resources and Reference
+- [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#introduction)
+- [Purpose](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#purpose)
+- [Key benefits](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#key-benefits)
+- [How it works](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#how-it-works)
+- [Advantages and Disadvantages](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#advantages-and-disadvantages)
+- [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#conclusion)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#contact-information) 
+- [Resources and Reference](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md#resources-and-references)
 ***
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/48e501b0-c7f1-44cb-9893-593840731d61)
 # Introduction
