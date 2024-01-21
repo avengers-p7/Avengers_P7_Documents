@@ -12,6 +12,7 @@
 + [Jenkins X](#Jenkins-X)
 + [BuildPiper](#BuildPiper)
 + [Technical Specifications](#Technical-Specifications)
++ [Tools Comparison](#Tools-Comparison)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [References](#References)
