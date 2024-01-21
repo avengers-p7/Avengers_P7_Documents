@@ -86,9 +86,9 @@ To optimize our mono repo we can use the following practices:-
 
 Several big tech companies favour the monorepo approach, while others have decided to use the multi-repo method. `Google, Facebook, Twitter, and Uber` have all publicly vouched for the monorepo approach. 
 
-`Google` chose the monolithic source management strategy in 1999 when the existing Google codebase was migrated from CVS to Perforce. Early Google engineers maintained that a single repository was strictly better than splitting up the codebase, though at the time they did not anticipate the future scale of the codebase and all the supporting tooling that would be built to make the scaling feasible.
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/568ab32d-7406-4ca1-857e-07bddf4b8007)
 
-Over the years, as the investment required to continue scaling the centralized repository grew, Google leadership occasionally considered whether it would make sense to move from the monolithic model. Despite the effort required, Google repeatedly chose to stick with the central repository due to its advantages.
+`Google` chose the monolithic source management strategy in 1999 when the existing Google codebase was migrated from CVS to Perforce. Early Google engineers maintained that a single repository was strictly better than splitting up the codebase, though at the time they did not anticipate the future scale of the codebase and all the supporting tooling that would be built to make the scaling feasible.
 
 The monolithic model of source code management is not for everyone. `It is best suited to organizations like Google, with an open and collaborative culture`. It would not work well for organizations where large parts of the codebase are private or hidden between groups.
 ***
