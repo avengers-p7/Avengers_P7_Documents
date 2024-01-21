@@ -104,8 +104,6 @@ Good fit for: Teams who prioritize clean workflows, clear communication, and hig
 Some other alternatives of GitLabflow:-
 - [Feature Branch](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md)
 - [Environment Branch](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Env%20branch.md)
-- [GitFlow](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Gitflow.md)
-- [GitHub Flow](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitHub.md)
 ***
 
 # Contact Information
