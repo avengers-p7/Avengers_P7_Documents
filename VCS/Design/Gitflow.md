@@ -90,8 +90,6 @@ Gitflow is a branching model for Git that aims to streamline the release managem
 Gitflow, while powerful, isn't a one-size-fits-all solution. Its structured approach shines in large projects with defined release cycles, but its complexity can burden smaller teams or those needing frequent releases. Consider alternative workflows for agility and simplicity, prioritizing Gitflow only if control, organization, and predictable launches are top priorities.
 ***
 Some other alternatives of GitFlow are:- 
-- [GitHub](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitHub.md)
-- [GitLab](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/GitLabflow.md)
 - [Environment Branch](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/Env%20branch.md)
 - [Feature Branch](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md)
 
