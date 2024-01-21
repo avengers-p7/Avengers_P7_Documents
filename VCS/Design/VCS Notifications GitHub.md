@@ -8,12 +8,12 @@
 ***
 ## Table Of Contents 
 1. [Introduction](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
-2. [Prerequisites](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
-3. [Setup Guide](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
-4. [Best Practices](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#introduction)
-5. [Conclusion](##conclusion)
-6. [Contact Information](##contact-information)
-7. [References](##refrences)
+2. [Prerequisites](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#prerequisites)
+3. [Setup Guide](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#setup-guide)
+4. [Best Practices](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#best-practices)
+5. [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#conclusion)
+6. [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#contact-information)
+7. [References](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#references)
 ***
 ## Introduction
 GitHub provides notifications to users regarding activities related to their repositories, issues, pull requests, and other collaborative work on the platform. Notifications help users stay informed about changes, discussions, and events happening within repositories they are involved in. This document will explore how some of the Github notifications can be configured.
