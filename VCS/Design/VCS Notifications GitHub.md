@@ -1,6 +1,6 @@
 
 
-# VCS Notifications : GitHub Notifications Setup Document
+# GitHub Notifications
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
@@ -8,69 +8,90 @@
 ***
 ## Table Of Contents 
 1. Introduction
-2. Key Elements
-3. Prerequisites 
-4. Setup Guide
-5. Best Practices
-6. Conclusion
-7. Contact Information
-8. Refrences
+2. Prerequisites 
+3. Setup Guide
+4. Best Practices
+5. Conclusion
+6. Contact Information
+7. References
 ***
 ## Introduction
-A Version Control System (VCS) plays a crucial role in software development by managing changes to source code, documents, and other project assets. A VCS notification system is a mechanism that informs users or stakeholders about changes, updates, or events related to a version-controlled project. A notification system enhances collaboration, communication, and awareness among team members. 
-***
-## Key Elements 
-A Version Control System (VCS) notification system is crucial in a collaborative development environment for several reasons:
-
-| Features | Description |
-| -------- | ----------- |
-| **Collaboration and Communication** | Stakeholders need to be aware of changes made by their peers to avoid conflicts and ensure that everyone is on the same page. |
-| **Timely Resolution of Issues** |  Alerts team members about new issues or updates on existing ones. This ensures that critical issues are addressed promptly. |
-| **Continuous Integration and Deployment (CI/CD)** | Stakeholders need to be aware of changes made by their peers to avoid conflicts and ensure that everyone is on the same page. |
-| **Security Alerts** |  Alerts team members about new issues or updates on existing ones. This ensures that critical issues are addressed promptly. |
-| **User Mentions and Discussions**| Allows for targeted communication through user mentions in commit messages, pull requests, or issues. 
-| **Customizable Notifications** |Enables users to customize their notification preferences based on their role, responsibilities, and the areas of the project they are interested in. This helps avoid information overload. |
+GitHub provides notifications to users regarding activities related to their repositories, issues, pull requests, and other collaborative work on the platform. Notifications help users stay informed about changes, discussions, and events happening within repositories they are involved in. This document will explore how some of the Github notifications can be configured.
 ***
 ## Prerequisites 
-Version Control Systems (VCS) provide notifications to users about various events and activities related to the versioned repositories. The types of notifications can vary depending on the specific VCS platform being used, but here are some common types of notifications:
-| Type | Description |
-| -------- | ----------- |
-| **Commit Notifications** | Notification when a new commit is made to the repository.Information about the changes made, the author, and the commit message. |
-| **Pull Request Notifications** |  Alerts when a new pull request is opened.Notifications about pull request comments, approvals, or merges. |
-| **Branch Activity Notifications** | Notifications related to the creation, deletion, or modification of branches. |
-| **Conflict Notifications** |  Alerts when conflicts occur during a merge or pull operation.Information on files or lines where conflicts need resolution. |
-| **Repository Events**| Notifications about events such as repository creation, deletion, or changes to repository settings. |
-| **Build and CI/CD Notifications** |Integration with Continuous Integration (CI) or Continuous Deployment (CD) systems can trigger notifications for build success or failure. |
-| **Security Alerts** |  Notifications about security vulnerabilities detected in project dependencies. |
-| **Permission Changes**| Notifications about changes in user permissions or access control settings.. |
-| **Webhook Notifications** |Custom notifications triggered by webhooks, allowing integration with external services. |
-| **Mentions and Discussions**| Notifications when a user is mentioned in comments or discussions within the repository. |
-
-The specific types of notifications available may depend on the VCS platform (e.g., Git, Mercurial, Subversion) and the collaboration tools or services integrated with it (e.g., GitHub, GitLab, Bitbucket). Users can often customize notification preferences based on their roles and responsibilities within a project.
-
+To configure notifications on Github we need : 
+1. A working GitHub account
+2. An Organization and Teams
+3. A repository
+4. Make sure you have the authorization to configure notifications
 ***
-
 ## Setup Guide
-Various stakeholders may be interested in receiving VCS notifications about different events and activities within the system. The stakeholders could include:
+### **Configuring GitHub notifications for Code Review**
+1. Login to your GitHub Account and select "Your organizations"
+   ![Screenshot 2024-01-21 230919](https://github.com/avengers-p7/Documentation/assets/156056344/fb58920d-381c-4110-9169-e4be4802164a)
 
-| Stakeholder | Types of Notifications |
-| -------- | ----------- |
-| **Developers** | Developers may be interested in Commit and PR notifications |
-| **Project Managers** |  PMs may need notifications on specific milestones or releases.They may also be interested in branch notifications. |
-| **System Administrators** | Notifications related repository events and security alerts may be directed to System Administrators. |
-| **Quality Assurance (QA) Teams** |  QA teams need to be informed about the status of builds and continuous integration processes to ensure code quality. |
-| **Collaborators and Contributors**| Collaborators and contributors may want to be notified about comments and discussions related to code reviews.Notifications about updates to project dependencies are also important for collaborators. |
-| **Security Teams** | Security teams need to be promptly notified about any security vulnerabilities detected in the codebase. |
-| **Product Owners** |  Product owners may want to be notified when new releases are created, especially if they include features or improvements relevant to the product roadmap. |
-| **Documentation Teams**| Documentation teams may be interested in changes made to the repository's integrated wiki. |
-| **Automation and Integration Systems** | Automated systems and integrations can use webhooks to receive notifications and trigger custom actions based on specific VCS events. |
+2. From the list of all you organizations , select the one you want to configure notifications for
+   ![Screenshot 2024-01-21 231627](https://github.com/avengers-p7/Documentation/assets/156056344/31aede03-5b7e-427e-b31d-fec108c8e326)
+
+3. Go to the 'Teams' tab and pick the team you wan to configure the notifications for
+   ![Screenshot 2024-01-21 232016](https://github.com/avengers-p7/Documentation/assets/156056344/d6f65814-68fa-4609-a81f-f88dcdaabd1b)
+
+   ![Screenshot 2024-01-21 232232](https://github.com/avengers-p7/Documentation/assets/156056344/e011010b-72e5-426e-a539-8de8716798b6)
+
+4. Select the "Settings" tab
+   ![Screenshot 2024-01-21 232647](https://github.com/avengers-p7/Documentation/assets/156056344/7c56678c-9fb7-4a71-8867-7da5a483cd49)
+
+5. Select "Code Review" form the left-side pan
+   ![Screenshot 2024-01-21 233227](https://github.com/avengers-p7/Documentation/assets/156056344/61028c4a-71bd-450d-9bf9-4bcf5365873c)
+
+6. Pick and configure the code review settings based on your requirement and click 'Save Changes'
+   ![Screenshot 2024-01-21 233602](https://github.com/avengers-p7/Documentation/assets/156056344/df1577cf-99a2-4133-8835-1e628cab8b7b)
+
+### **Configuring GitHub notifications for Teams**
+1. In the "Settings Tab" from above we can enable/disable notifications for your team. Pick 'Enabled' click 'Save Changes'
+   ![Screenshot 2024-01-21 234106](https://github.com/avengers-p7/Documentation/assets/156056344/568e4019-8275-4e85-bf12-e791dc88f5ba)
+
+### **Configuring GitHub notifications for Repository Push Events**
+1. On the main page of your organization, select "Repositories"
+   ![Screenshot 2024-01-21 234631](https://github.com/avengers-p7/Documentation/assets/156056344/f5676bff-7a32-4b8d-9053-b50f94d16c02)
+
+2. Pick the  repository you want to configure notifications for
+   ![Screenshot 2024-01-21 234706](https://github.com/avengers-p7/Documentation/assets/156056344/b366cd37-7ed1-4a7b-9148-9df9d8bfdc28)
+
+3. Select "Settings"
+   ![Screenshot 2024-01-21 235309](https://github.com/avengers-p7/Documentation/assets/156056344/39b26071-fd90-4d28-93e7-687e42c20fa9)
+
+4. Scroll down to the "Integrations" section and select "Email Notifications"
+    ![Screenshot 2024-01-21 235518](https://github.com/avengers-p7/Documentation/assets/156056344/dbcb5135-1532-4801-bb5c-4c7bdf61de2f)
+
+5. In the "Address" field, type up to two email addresses, separated by whitespace, where you'd like notifications to be sent. If you'd like to send emails to more than two accounts, set one of the email addresses to a group email address.
+   ![Screenshot 2024-01-21 235731](https://github.com/avengers-p7/Documentation/assets/156056344/814c77ec-c35a-40bc-b537-ac20f9f921e6)
+
+   Check "Active" and click "Setup Notifications"
+
+**Note:** *Individual users can configure their notifications from the 'Notifications' tab in the 'Settings' section 
+          ![Screenshot 2024-01-22 001153](https://github.com/avengers-p7/Documentation/assets/156056344/c9937eaa-bb51-4aae-9341-d60d55d838bd)
+
 ***
 ## Best Practices 
-Best Practices 
+Effectively managing GitHub notifications is crucial for staying informed without being overwhelmed. Here are some best practices to help you handle GitHub notifications efficiently:
+
+1. Customize Notification Settings: Go to your GitHub account settings and adjust notification preferences based on the types of activities you want to be notified about.
+
+2. Use "Watching," "Starring," and "Ignoring": GitHub allows you to "Watch," "Star," or "Ignore" repositories. Watching a repository means you'll receive notifications for all activity, starring means you'll receive notifications only for updates, and ignoring means you won't receive any notifications.
+
+3. Prioritize Repositories:If you're part of multiple repositories, prioritize them based on importance. You can mark repositories as "Pinned" to have them appear at the top of your GitHub dashboard, making it easier to focus on essential projects.
+
+4. Unsubscribe from Unnecessary Threads: If you find yourself receiving notifications for threads or issues that are not relevant, unsubscribe from them. Open the thread and click on the "Unsubscribe" button to stop receiving updates.
+
+5. Use Filters and Labels:Leverage GitHub's filtering options to sort and categorize your notifications. You can filter by repository, type, or reason. Additionally, use labels to categorize and tag specific notifications for easier identification.
+
+6. Utilize Mention Only When Necessary:Limit the use of mentions to situations where you genuinely need someone's attention. Excessive mentions can clutter notification feeds and lead to important updates being overlooked.
+
+By adopting these best practices, you can streamline your GitHub notification experience, ensuring that you stay informed about relevant activities without feeling overwhelmed by unnecessary updates.
 ***
 ## Conclusion
-VCS notifications are vital for real-time collaboration and code quality assurance in software development. Notifications enhance team coordination, automate workflows, and minimize conflicts, ensuring a transparent and streamlined development process. 
-It's essential to tailor notifications to the specific needs and responsibilities of each stakeholder group. Many modern VCS platforms provide customizable notification settings, allowing users to choose the types of events they want to be notified about and the channels through which they receive those notifications.
+GitHub notifications play a pivotal role in fostering effective collaboration within development teams. By providing timely updates on issues, pull requests, and repository activities, they ensure that team members stay informed, enabling seamless coordination and quick responses. Managing notifications thoughtfully not only enhances communication but also contributes to a more organized and efficient software development workflow on GitHub.
 
 ***
 ## Contact Information
@@ -84,3 +105,4 @@ It's essential to tailor notifications to the specific needs and responsibilitie
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 | Github Docs for Notification | https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications |
+| Best Practices | https://ben.balter.com/2020/08/25/how-i-manage-github-notifications/ |
