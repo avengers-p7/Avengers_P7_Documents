@@ -5,7 +5,20 @@
 |--------|-------------|-----------------|----------------|
 | Shikha Tripathi| 17-01-2024  |  Shikha Tripathi | 22-01-2024     |
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+***
+# Table of Contents
+
++ [Introduction](#Introduction)
++ [Why](#Why)
++ [List of Application Repositories](#ListofApplicatioREpositories)
++ [Advantage](#Advantage)
++ [Disadvantage](#Disadvantage)
++ [Conclusion](#Conclusion)
++ [Contact Information](#Contact_Information)
++ [References](#References)  
+***
+
+
 ## Introduction
    Application repositories are fundamental components in modern software development, serving as centralized hubs for managing source code, 
    documentation, dependencies, and other critical resources throughout the development lifecycle. These repositories play a pivotal role in 
