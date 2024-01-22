@@ -14,4 +14,4 @@
 + [References](#References)
 
 # Introduction
-GitOps is a set of practices for managing infrastructure and application configuration. It leverages Git, an open source version control system that is commonly used in software development projects. This document explores different GitOps deployment strategies. For information related to GitOps Concepts please refer 
+GitOps is a set of practices for managing infrastructure and application configuration. It leverages Git, an open source version control system that is commonly used in software development projects. This document explores different GitOps deployment strategies. For information related to GitOps Concepts please refer **[GitOps Understanding](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps%20Understanding.md)**
