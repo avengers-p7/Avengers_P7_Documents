@@ -35,8 +35,6 @@ Microrepos offer specific advantages in certain scenarios. Let's take a look at 
 | **Migration** |  Migrating multi-repos to alternative ways of managing a codebase is much easier to do, compared to mono-repos |
 | **CI/CD with Micro-repo** | It’s much easier to do CI/CD with a multi-repo. This is because there is a basic separation, which makes it easier to facilitate resources between teams. |
 
-
-
  ***
 
 # Challenges with  Micro-repo
