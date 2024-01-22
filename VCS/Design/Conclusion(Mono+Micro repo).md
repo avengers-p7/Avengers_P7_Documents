@@ -41,7 +41,15 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 | Clear Owernship             |    ✅     |    ✅      |
 | Intergration(CI/CD)         |     ⚠️     |    ✅      |
 | Dependency Administration   |    ✅     |     ⚠️      |
-| Migrating to another type of repository managenment    |    ❌     |    ✅      |
+| Migrating to another type of repository managenment    |    ❌     |    ✅      |4
+
+
+✅ (Benefit) = Represents something obtainable without much effort.
+
+⚠️ (Attention) = Represents something not easily obtainable.
+
+❌ (Challenge) = Represents something difficult to obtain.  
+
 ### Cultural aspect
 |                     Concept                      | Mono Repo | Micro Repo |
 | ------------------------------------------------ | :-------: | :--------: |
@@ -51,11 +59,6 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 | Prioritization of needs(features, bugs, etc)     |    ❌     |    ✅      |
 | Isolation and good  communication between teams  |    ✅     |     ⚠️      |
 
-✅ (Benefit) = Represents something obtainable without much effort.
-
-⚠️ (Attention) = Represents something not easily obtainable.
-
-❌ (Challenge) = Represents something difficult to obtain.  
 ***
 ## Choosing the Right Approach:
 When deciding between a monorepo and microrepo strategy for a project with separate backend and frontend components, several factors should be considered.
