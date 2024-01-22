@@ -142,6 +142,8 @@ Specify the important ports used by the microservices and their descriptions.
 
 **Attendance API Setup**
 
+Attendance API is a Python-based microservice designed to handle attendance-related transactions in the context of the OT-Microservices ecosystem. This microservice serves as a central component for managing attendance records and transactions, providing a set of RESTful APIs for integration with other services.
+
 First we need to setup Attendance API with the help of above mentioned [Attendance API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Attendance_API.md) 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/940ec9e0-874d-49c9-a9f6-f9af7491bef5)
@@ -149,6 +151,8 @@ First we need to setup Attendance API with the help of above mentioned [Attendan
 ***
 
 **Salary API Setup**
+
+Salary API is a Java-based microservice which is responsible for all the salary-related transactions and records in OT-Microservices stack. The application is platform-independent and can be run on multiple operating systems. Java Runtime would be required to run this application.
 
 Setup Salary API with the help of above mentioned [Salary API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Salary_API.md)  
 
@@ -158,6 +162,8 @@ Setup Salary API with the help of above mentioned [Salary API Documentation](htt
 
 **Employee API Setup**
 
+Employee REST API is a golang based microservice which is responsible for all the employee related transactions in the OT-Microservices. This application is completely platform independent and can be run on any kind of platform.
+
 Setup Employee API with the help of above mentioned [Employee API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API.md) 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/b6672346-29b9-49cc-ac84-c132a612cc9a)
@@ -165,6 +171,8 @@ Setup Employee API with the help of above mentioned [Employee API Documentation]
 ***
 
 **Frontend Setup**
+
+Frontend Web is a REACTJS based application that is the primary user-interface for OT-Microservices stack.The app is designed for cross-platform fuctionality and requires only the presence of javascript runtime modules.The ReactJS based web framework facilitates complete web page based operations.
 
 Setup Frontend with the help of above mentioned [Frontend Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Frontend.md) 
 
