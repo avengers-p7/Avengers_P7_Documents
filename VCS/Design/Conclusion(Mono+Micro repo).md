@@ -70,7 +70,18 @@ When deciding between a monorepo and microrepo strategy for a project with separ
 ***
 ## Conclusion
 
-Choosing a microrepo strategy for separate components offers flexibility and autonomy, aligning well with our requirements. This approach allows independent development and deployment, fostering scalability and streamlined processes. While a monorepo has its merits, the decision hinges on project size, complexity, and team structure. In our case, the microrepo approach suits our needs for agile development and component autonomy. Successful implementation demands thoughtful planning and collaboration within the development team.
+Choosing a microrepo strategy for separate components offers flexibility and autonomy, aligning well with our requirements. This approach allows independent development and deployment, fostering scalability and streamlined processes. 
+Microrepos offer specific advantages in certain scenarios. Let's take a look at some of the benefits of this approach
+
+|         Feature         | Description |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Security** | It is one of the main benefits of using a multi-repo. This is because, unlike mono-repos, in this strategy it’s possible to grant specific and necessary permissions according to the specific scope of a project.|
+| **Scalability** | With a multi-repo, scalability should be much more feasible and manageable from the beginning. This is because projects are abstracted earlier.|
+| **Versioning** | It is also almost instantaneous when you use a multi-repo — when you have separate environments in multiple different repositories, little coordination is required.|
+| **Assign Ownership** | With a multi-repo it is much easier to assign ownership since, for example, each repository can satisfy a specific business domain. |
+| **Independent Approach** | The independence and performance provided by multi-repos makes it much easier for organizations to distribute their resources and evaluate results.|
+| **Migration** |  Migrating multi-repos to alternative ways of managing a codebase is much easier to do, compared to mono-repos |
+| **CI/CD with Micro-repo** | It’s much easier to do CI/CD with a multi-repo. This is because there is a basic separation, which makes it easier to facilitate resources between teams. |
 ***
 
 ## Contact Information
