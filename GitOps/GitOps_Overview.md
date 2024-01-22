@@ -89,13 +89,13 @@ Here are a few best practices you can use to improve your GitOps implementation.
 # Conclusion 
 In summary, GitOps deployment represents a modern paradigm for continuous delivery and infrastructure management. By centralizing configurations in Git repositories, it promotes transparency and collaboration while enabling version-controlled updates for both application code and infrastructure. The pull-based deployment model and automated processes enhance efficiency, ensuring that the actual system state aligns with the desired state declared in Git. Best practices include embracing Infrastructure as Code (IaC), adhering to declarative configurations, employing robust version control, and implementing role-based access control for security. Automation, observability, and testing further contribute to a reliable and agile workflow. GitOps emerges as a resilient methodology, fostering agility, minimizing errors, and facilitating swift adaptation to evolving development and operational requirements in the dynamic landscape of DevOps.
 ***
-## Contact Information:
+# Contact Information:
 | Name | Email address |
 | ---- | ------------- |
 | Vishal | vishal.kesarwani.snaatak@mygurukulam.co |
 | Aakash | aakash.tripathi.snaatak@mygurukulam.co |
 ***
-## References:
+# References:
 | Source | Description |
 | ------ | ----------- |
 | https://www.techtarget.com/searchitoperations/definition/GitOps  | Gitops Features |
