@@ -29,7 +29,7 @@ To configure notifications on Github we need :
    We configure notifications for :
    | **Notification** | **Description** |
    | ---------------- | --------------- |
-   | [Code Review] | Notifications to reviewer team to review code |
+   | [Code Review](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#configuring-github-notifications-for-code-review) | Notifications to reviewer team to review code |
    | [Team Mentions] | Notifications to team members when mentioned |
    | [Repository Events] | Notifications to owner/group on repository push events |
    
