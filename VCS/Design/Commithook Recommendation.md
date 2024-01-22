@@ -31,8 +31,29 @@ I recommend using pre-commit hooks to streamline and manage various hooks effect
 
 A pre-commit hook is a script or program that runs before a Git commit is finalized. It allows developers to enforce certain checks, validations, or formatting requirements on their code before it gets committed to the version control system.
 
-## Why  
+## Why Use Pre-commit Hooks:
+
+| **Feature** | **Description** |
+|------------ | --------------- |
+| **Code Quality Assurance**| Pre-commit hooks enable checks for code quality, formatting, and linting to be enforced before finalizing a commit, ensuring a high standard of code.|
+| **Consistency** | They ensure a consistent coding style across the project by automatically enforcing coding standards. |
+| **Early Issue Detection** | Identifying and addressing issues early in the development process, prior to code review, helps prevent the introduction of errors into the codebase. |
+| **Time Savings** | Automated checks save developers time that might be spent manually fixing issues during code review or after commits, improving overall development efficiency. |
+
 ***
+
+## Comparison of Git Hooks
+
+| **Feature**             | **Pre-commit Hook**         | **Commit Hook**             | **Post-commit Hook**        |
+|-------------------------|-----------------------------|------------------------ ----|-----------------------------|
+| **Timing**              | Runs before committing      | Runs during committing      | Runs after committing       |
+| **Purpose**             | Preemptively checks         | Validates during commit     | Actions after commit        |
+| **Scope of Checks**     | Code formatting, linting    | Commit message format       | Push-related operations     |
+| **Interactivity**       | Allows code modification    | Can block commit            | No code modification        |
+| **Execution Dependency**| Local environment           | Local environment           | Local or remote setup       |
+
+***
+
 ## Setting Up Commit Hooks  
 
 To set up commit hooks, follow these general steps:
@@ -53,8 +74,8 @@ If hooks are not working as expected, check the following:
 ***
 
 ## Conclusion
-
-Pre-commit Git hooks can be used to automate tasks and ensure that code meets a certain level of quality and consistency. By using pre-commit hooks, developers can catch potential issues before they are committed to the repository, saving time and improving productivity. 
+ 
+Pre-commit hooks offer a proactive approach to code quality by allowing developers to catch and address issues before they become part of the version control history. While other hooks serve specific purposes during or after the commit process, pre-commit hooks focus on preventive measures, making them a valuable tool for maintaining a clean and consistent codebase.
 
 ***
 
