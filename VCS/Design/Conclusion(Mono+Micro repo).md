@@ -42,8 +42,7 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 | Clear Owernship            |    ✅     |    ✅      |
 | Intergration(CI/CD)        |     ⚠️     |    ✅      |
 | Dependency Administration  |    ✅     |     ⚠️      |
-| Migrating to another type  
-of repository managenment    |    ❌     |    ✅      |
+| Migrating to another type of repository managenment    |    ❌     |    ✅      |
 
 ✅ (Benefit) = Represents something obtainable without much effort.
 
