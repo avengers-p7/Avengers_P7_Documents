@@ -32,7 +32,23 @@
 
 # Introduction
 
-Our OT microservices full stack setup is crafted with a modern and modular architecture, prioritizing scalability and efficiency. The system features dedicated APIs for managing employees (**Employee**), salaries (**Salary**), and attendance(**Attendance**), ensuring precision in workforce-related processes.At the heart of our system lies **PostgreSQL**, a reliable database renowned for handling structured data, providing a robust foundation for crucial business information. **ScyllaDB**, a powerful NoSQL database, excels in efficiently managing large datasets, making it particularly valuable in scenarios where high performance and scalability are essential. Additionally, **Redis** plays a crucial role as an in-memory data store, enhancing system responsiveness by quickly providing access to frequently used information.This combination of technologies forms the backbone of our microservices.
+**Modern and Modular Architecture**
+Our OT microservices full stack setup is designed with a contemporary and modular architecture, placing a strong emphasis on scalability and efficiency.
+
+**Dedicated APIs for Workforce Management**
+The system incorporates dedicated APIs for managing crucial aspects of the workforce, including employees (Employee), salaries (Salary), and attendance (Attendance). This ensures precision in handling workforce-related processes.
+
+**Central Role of PostgreSQL**
+At the core of our system is PostgreSQL, a reliable and widely acclaimed relational database known for its proficiency in handling structured data. It provides a robust foundation for storing and managing crucial business information.
+
+**ScyllaDB for Large Datasets**
+The system leverages ScyllaDB, a powerful NoSQL database, known for its efficiency in managing large datasets. This makes it particularly valuable in scenarios where high performance and scalability are essential.
+
+**Redis for Enhanced System Responsiveness**
+Playing a crucial role, Redis serves as an in-memory data store. Its purpose is to enhance system responsiveness by swiftly providing access to frequently used information. This contributes to a more agile and responsive overall system.
+
+**Technological Backbone**
+The combination of PostgreSQL, ScyllaDB, and Redis forms the robust technological backbone of our microservices architecture. This strategic blend of technologies ensures a reliable, scalable, and high-performance foundation for our system.
 
 ***
 # Prerequisites
@@ -124,23 +140,23 @@ Specify the important ports used by the microservices and their descriptions.
 ***
 # Full Stack Setup
 
-### Application Setup
+**Attendance API Setup**
 
-**Step 1** First we need to setup Attendance API with the help of above mentioned [Attendance API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Attendance_API.md)  
+First we need to setup Attendance API with the help of above mentioned [Attendance API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Attendance_API.md) 
 
-**Step 2** Setup Salary API with the help of above mentioned [Salary API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Salary_API.md)  
+**Salary API Setup**
 
-**Step 3** Setup Employee API with the help of above mentioned [Employee API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API.md) 
+Setup Salary API with the help of above mentioned [Salary API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Salary_API.md)  
 
-**Step 4** Setup Frontend API with the help of above mentioned [Frontend Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Frontend.md) 
+**Employee API Setup**
 
-### Software Installation
+Setup Employee API with the help of above mentioned [Employee API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API.md) 
 
-**Step 1**  Install PostgreSQL Database with the help of above mentioned [PostgreSQL Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL.md)  
+**Frontend Setup**
 
-**Step 2**  Install Scylla Database with the help of above mentioned [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)
+Setup Frontend with the help of above mentioned [Frontend Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Frontend.md) 
 
-**Step 3**  Install Redis Database with the help of above mentioned [Redis Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md) 
+
 
 
 ***
