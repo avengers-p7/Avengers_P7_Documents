@@ -33,6 +33,9 @@ The environment branch workflow is useful for teams that work on large projects 
 | Staging Branch           | This environment closely mirrors the production environment and serves as a final testing ground before deployment |
 | Production Branch        | The production branch contains the stable and tested code that is ready for deployment to the live environment     |
 
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/75d1cbf9-0afe-4698-949a-e29760ecb8b9)
+
+
 
 # Creating a feature branch
 
