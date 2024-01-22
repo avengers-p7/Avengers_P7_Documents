@@ -9,17 +9,17 @@
 ## Table  of Contents
 Detailed documentation which includes Purpose, Introduction of each, Comparison table of Mono and Micro, Conclusion and Contact Information, References 
 
-1. [Purpose](#Purpose)
-2. [Introduction](#introduction)
-3. [Comparison](#Comparison)
-4. [Conclusion](#Conclusion)
-5. [Contact Information](#contact-information)
-6. [Refrences](#references)
+1. [Introduction](#introduction)
+2. [Comparison](#Comparison)
+3. [Conclusion](#Conclusion)
+4. [Contact Information](#contact-information)
+5. [Refrences](#references)
 ***
 
 ## Purpose
 ***
 ## Introduction 
+In this document, we explore the choice between Mono Repo and Micro Repo for version control by defining and comparing them. We have also stated the points through which we should choose the right approach. 
 ### Mono Repo
   A monorepo stores all your application and microservice code in a single source code repository like Git. A mono repo with unified and automated build and deploy pipelines can mitigate many development issues. (https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md)
   
