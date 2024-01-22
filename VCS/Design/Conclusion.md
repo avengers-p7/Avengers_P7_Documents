@@ -2,7 +2,7 @@
 | ------ | ---------- | ------------ | ---------------- |
 | Shreya Jaiswal | 12-01-2024 | 18-01-2024 | V1 |
 -------------------------------------------------------------------------------------------
-# Agenda:-
+# Table of Contents
 
 **1. Introduction**
 
@@ -26,7 +26,7 @@
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# Introduction:-
+# Introduction
 
 Choosing a perfect platform for our project is one of the most important task anyone can have, so, in this document, i have compared the VCS Platforms, i.e., GitHub vs Gitlab vs BitBucket and at last selected GitHub and also defined the reasons of  selecting GitHub over Gitlab and BitBucket by evaluating it's features.
 
@@ -55,19 +55,19 @@ In the modern software development landscape, where teams are often distributed 
 
 -------------------------------------------------------------------------------------------------------------------------
 
-# Flow Diagram of Distributed and Centralized VCS:-
+# Flow Diagram of Distributed and Centralized VCS
 
-## 01.Distributed Version Control System:-
+## 01.Distributed Version Control System
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/3bfe865f-7b53-4f56-8ef1-38a3d6cbb645)
 
-## 02.Centralized Version Control System:-
+## 02.Centralized Version Control System
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/e04a5910-69d9-40b4-8c5a-64dfb9c846b5)
 
 ---------------------------------------------------------------------------------------------------------------
 
-# Key Features of GitHub vs Gitlab vs BitBucket:- 
+# Key Features of GitHub vs Gitlab vs BitBucket 
 
 | Features | GitHub | Gitlab | BitBucket |
 | -------- | ------ | ------ | --------- |
@@ -81,7 +81,7 @@ In the modern software development landscape, where teams are often distributed 
 ---------------------------------------------------------------------------------------------------------------------------
  
 
-# Reasons for selecting GitHub over Gitlab and BitBucket:-
+# Reasons for selecting GitHub over Gitlab and BitBucket
 
 | **Reason** | **Description** |
 | ---------- | --------------- |
@@ -89,13 +89,13 @@ In the modern software development landscape, where teams are often distributed 
 | **Industry Adoption and Case Studies** | **GitHub** is widely adopted by a broad range of companies and organizations. Many high-profile open-source projects and enterprises use GitHub, adding credibility and trust in the platform.**GitLab** and **Bitbucket**, Both platforms are used by various organizations, but GitHub's extensive adoption may provide a sense of reliability and industry acceptance. |
 | **Social Coding and Project Visibility** | **GitHub** is known for its strong emphasis on social coding. It provides features such as stars, forks, and a trending section, contributing to greater project visibility. **GitLab** and **Bitbucket**, While both platforms support social coding, GitHub's interface and social features have traditionally been more prominent. |
 --------------------------------------------------------------------------------------------------------------------------
-# Conclusion:-
+# Conclusion
 
 In conclusion, the decision to choose GitHub is rooted in its status as the industry leader, its thriving community, versatile features, and the inclusive GitHub Pages offering. While GitLab and Bitbucket have their merits, GitHub's comprehensive ecosystem, user-friendly interface, and proven effectiveness in facilitating collaborative coding make it the optimal choice for the project's version control needs.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-# Contact Information:-
+# Contact Information
 
 | **Name** | **Email Address** |
 | -------- | ----------------- |
@@ -103,7 +103,7 @@ In conclusion, the decision to choose GitHub is rooted in its status as the indu
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# Reference Links:-
+# Reference Links
 
 | Links | Description |
 | ----- | ----------- |
