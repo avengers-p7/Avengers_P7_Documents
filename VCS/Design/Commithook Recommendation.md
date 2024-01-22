@@ -7,10 +7,10 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction-of-Commithook)
++ [Comparison of Git Hooks](#Comparison-of-Git-Hooks)
 + [Recommended Commit Hook](#Recommended-Commit-Hook)
 + [Pre-Commit Hook](Pre-Commit-Hook)
 + [Why Use Pre-commit Hooks](#Why-Use-Pre-commit-Hooks)
-+ [Comparison of Git Hooks](#Comparison-of-Git-Hooks)
 + [Setting Up Commit Hooks](#Setting-Up-Commit-Hooks)
 + [Troubleshooting](#Troubleshooting)
 + [Conclusion](#Conclusion)
@@ -22,6 +22,18 @@
 Commit hooks are scripts that run automatically before or after specific events in the Git lifecycle. They help maintain code quality, enforce coding standards, and prevent undesirable changes from being committed. for more detail Click [here](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/CommmitHooks%20Understanding.md)
 
 ***
+## Comparison of Git Hooks
+
+| **Feature** | **Pre-commit Hook** | **Commit Hook** | **Post-commit Hook** |
+| ----------- | ------------------- | ---------------- | ------------------- |
+| **Timing**              | Runs before committing      | Runs during committing      | Runs after committing       |
+| **Purpose**             | Preemptively checks         | Validates during commit     | Actions after commit        |
+| **Scope of Checks**     | Code formatting, linting    | Commit message format       | Push-related operations     |
+| **Interactivity**       | Allows code modification    | Can block commit            | No code modification        |
+| **Execution Dependency**| Local environment           | Local environment           | Local or remote setup       |
+
+***
+
 ## Recommended Commit Hook
 
 I recommend using pre-commit hooks to streamline and manage various hooks effectively.
@@ -40,18 +52,6 @@ A pre-commit hook is a script or program that runs automatically before a Git co
 | **Consistency** | They ensure a consistent coding style across the project by automatically enforcing coding standards. |
 | **Early Issue Detection** | Identifying and addressing issues early in the development process, prior to code review, helps prevent the introduction of errors into the codebase. |
 | **Time Savings** | Automated checks save developers time that might be spent manually fixing issues during code review or after commits, improving overall development efficiency. |
-
-***
-
-## Comparison of Git Hooks
-
-| **Feature** | **Pre-commit Hook** | **Commit Hook** | **Post-commit Hook** |
-| ----------- | ------------------- | ---------------- | ------------------- |
-| **Timing**              | Runs before committing      | Runs during committing      | Runs after committing       |
-| **Purpose**             | Preemptively checks         | Validates during commit     | Actions after commit        |
-| **Scope of Checks**     | Code formatting, linting    | Commit message format       | Push-related operations     |
-| **Interactivity**       | Allows code modification    | Can block commit            | No code modification        |
-| **Execution Dependency**| Local environment           | Local environment           | Local or remote setup       |
 
 ***
 
