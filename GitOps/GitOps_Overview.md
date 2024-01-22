@@ -1,4 +1,4 @@
-# GitOps
+# GitOps Conclusion Document 
 | Author | Created On | Last Updated | Document Version | Last Updated By |
 | ------ | ---------- | ------------ | ---------------- | --------------- |
 | Vishal Kumar Kesarwani, Aakash Tripathi | 19-01-2024 | 19-01-2024   | v1 | Aakash Tripathi |
@@ -12,3 +12,6 @@
 + [Conclusion](#Conclusions)
 + [Contact Information](#Contact-Information)
 + [References](#References)
+
+# Introduction
+GitOps is a set of practices for managing infrastructure and application configuration. It leverages Git, an open source version control system that is commonly used in software development projects. This document explores different GitOps deployment strategies. For information related to GitOps Concepts please refer 
