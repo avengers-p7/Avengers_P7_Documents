@@ -3,6 +3,7 @@
 | Author | Created on  | Version    | Last Updated by | Last Updated on |
 | -------- | ------- | -------------- | --------------| ---------------- |
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 15-01-2024  | 1.0   | Harshit Singh | 19-01-2024 |
+***
 
 ## Table  of Contents
 Detailed documentation which includes Purpose, Introduction of each, Comparison table of Mono and Micro, Conclusion and Contact Information, References 
