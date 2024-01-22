@@ -146,17 +146,23 @@ First we need to setup Attendance API with the help of above mentioned [Attendan
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/79d4d041-5f0c-4746-982e-f6871ac4c5b9)
 
+***
+
 **Salary API Setup**
 
 Setup Salary API with the help of above mentioned [Salary API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Salary_API.md)  
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/fc25571a-7348-4262-9ad8-c3e1eee191e8)
 
+***
+
 **Employee API Setup**
 
 Setup Employee API with the help of above mentioned [Employee API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API.md) 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/266b3207-80b2-40c8-8dfb-99875804ad33)
+
+***
 
 **Frontend Setup**
 
