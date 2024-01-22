@@ -26,14 +26,22 @@
 
 ## List of Application Repositories
 
- | Repository Type | Purpose |
- |-----------------|---------|
- | **Source Code Repository** | Central storage for the application's source code. |
- |**Documentation Repository** |	Comprehensive repository for storing documentation related to the application. |
- | **Dependency Management Repository**| Manages and versions external dependencies crucial for the application. |
- | **Configuration Repository**|	Stores configuration files for different environments to manage settings. |
- | **Testing Repository**| Repository for test cases, automated tests, and other testing-related resources. |
- | **Deployment Scripts Repository**	| Holds scripts related to the deployment process, ensuring automation and consistency. |
+ 
+| Application Component | Repository Type   | Example Repository                                       |
+|-----------------------|-------------------|-----------------------------------------------------------|
+| Frontend (React)      | Source Repository | [GitHub - Frontend (React)](https://github.com/example/frontend-react) |
+| Backend (Django)      | Source Repository | [GitHub - Backend (Django)](https://github.com/example/backend-django)  |
+
+***
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/0325245e-1b6e-4432-bf77-003609692384)
+
+
+***
+
+**Note:**
+  Frontend (React) code is stored on GitHub for React-based applications, and Backend (Django) code is separately stored on GitHub, designed 
+  for Django framework-backed backend applications. 
 
  
 -----------------------------------------------------------------------------------------------------------------------------------------------          
