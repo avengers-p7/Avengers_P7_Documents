@@ -23,7 +23,7 @@ Commit hooks are scripts that run automatically before or after specific events 
 
 ## Why Choosing Pre-Commit Hooks 
 
-
+ 
 ### 1. Pre-Commit Hook
 **Purpose:** Runs before a commit is created. It's ideal for checking syntax, running quick tests, and ensuring the commit won't break the build.
 
