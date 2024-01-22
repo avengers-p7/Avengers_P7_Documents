@@ -21,9 +21,9 @@
 
 ***
 # Introduction 
-A pull request is a proposal to merge a set of changes from one branch into another. This mechanism is fundamental in collaborative software development workflows, allowing team members to thoroughly review and discuss the proposed alterations before incorporating them into the main codebase. 
+* A pull request is a proposal to merge a set of changes from one branch into another. This mechanism is fundamental in collaborative software development workflows, allowing team members to thoroughly review and discuss the proposed alterations before incorporating them into the main codebase. 
 
-The pull request acts as a communication hub where developers can engage in discussions, ask questions, and collaborate to ensure that the proposed changes align with the project's objectives and coding standards.
+* The pull request acts as a communication hub where developers can engage in discussions, ask questions, and collaborate to ensure that the proposed changes align with the project's objectives and coding standards.
 The primary purpose of this process is to maintain code quality, prevent errors, and promote a more informed decision-making process.
 
 *** 
@@ -158,6 +158,9 @@ gh pr close <pull-request-number>
 - [x] Describe your change in detail to provide comprehensive context.
 - [x] Explain your testing approach to ensure the reliability of your change.
 
+<img width="1269" alt="Screenshot 2024-01-22 at 4 58 29 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/168d642c-e572-489c-b93a-e8fb81c45d9d">
+
+
 
 ***
 # Rules and Guidelines
@@ -179,7 +182,7 @@ gh pr close <pull-request-number>
 
 ***
 # Conclusion
-In conclusion, the outlined guidelines not only streamline the collaborative development process but also contribute to the overall health of the project. By adhering to these established steps and rules, contributors actively contribute to a culture of transparency, thorough review, and continuous improvement. This collaborative approach not only ensures the integration of high-quality contributions but also promotes a positive and effective working environment within the development community.
+* In conclusion, the outlined guidelines not only streamline the collaborative development process but also contribute to the overall health of the project. By adhering to these established steps and rules, contributors actively contribute to a culture of transparency, thorough review, and continuous improvement. This collaborative approach not only ensures the integration of high-quality contributions but also promotes a positive and effective working environment within the development community.
 
 ***
 # Contact Information
