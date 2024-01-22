@@ -154,7 +154,8 @@ gh pr close <pull-request-number>
 ***
 # Pull Request Checklist
 
-- [x] Tag the issue author or reviewer @[author] (e.g., @issue_author) for visibility.
+- [x] Tag the issue assignee or reviewer @[reviewer] (e.g., @assignee) for visibility.
+- [x] Attach relevant labels to categorize your pull request (e.g., `bug-fix`, `documentation`).
 - [x] Describe your change in detail to provide comprehensive context.
 - [x] Explain your testing approach to ensure the reliability of your change.
 
