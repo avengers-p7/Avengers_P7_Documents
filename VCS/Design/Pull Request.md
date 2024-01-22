@@ -150,8 +150,7 @@ gh pr close <pull-request-number>
 ***
 # Pull Request Checklist
 
-- [x] Tag the issue #[issue_number] (e.g., #42) to automatically close it upon merging.
-- [x] Tag the issue author @[author] (e.g., @issue_author) for visibility.
+- [x] Tag the issue author or reviewer @[author] (e.g., @issue_author) for visibility.
 - [x] Describe your change in detail to provide comprehensive context.
 - [x] Explain your testing approach to ensure the reliability of your change.
 
