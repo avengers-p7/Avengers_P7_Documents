@@ -19,7 +19,6 @@
 + [References](#references)
 
 
-
 ***
 # Introduction 
 A pull request is a proposal to merge a set of changes from one branch into another. This mechanism is fundamental in collaborative software development workflows, allowing team members to thoroughly review and discuss the proposed alterations before incorporating them into the main codebase. 
@@ -30,7 +29,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 *** 
 # Pull Requests flow 
 
-<img width="1311" alt="Screenshot 2024-01-21 at 2 23 41 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/0541dbdb-73ea-472f-b9bd-18e5d28311a6">
+<img width="1306" alt="Screenshot 2024-01-22 at 2 57 19 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1eebc306-6536-472a-97fc-d89236d29d25">
 
 ***
 # PR Creation
