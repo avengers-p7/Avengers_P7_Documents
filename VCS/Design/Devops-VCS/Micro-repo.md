@@ -20,15 +20,6 @@
 Microrepos, or "microservices repositories," involve maintaining separate repositories for each microservice or component of a project. In the case of a backend and frontend project, there would be a dedicated repository for the backend and another for the frontend.
 
 ***
-# Folder Structure
-A microrepo can be structured in different ways. Let's take a look at some common approaches to give you the idea how could it be structured.
-
-As there are multiple repositories, each repository can have its own folder structure. For example, the backend repository could be structured as follows:
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056570/db36bb24-d0d7-4b0d-a327-cf0551bbd734)
-
-***
-
 
 # Advantages of Micro-repo
 
