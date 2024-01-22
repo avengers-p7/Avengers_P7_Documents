@@ -7,3 +7,4 @@
 | Harsit | 18 Jan | Not present |
 | Khushi | 18 Jan | not present |
 | Shantanu | 19 Jan | Not Present |
+| Nidhi | 22 Jan | Not present |  |
