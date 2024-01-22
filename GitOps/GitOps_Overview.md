@@ -22,7 +22,7 @@ For evaluation of various GitOps tools , please refer **[GitOps Tool Evaluation]
 ***
 # Why GitOps 
 Organizations adopting GitOps are looking to be on the cutting edge of agile development practices. GitOps provides the following benefits over existing development processes:
-| Feature | Description |
+| **Feature** | **Description** |
 | ------- | ----------- |
 | Productivity | GitOps is a practical way to implement continuous deployment, which improves development productivity. GitOps teams can deploy every change to production instead of only pushing selected releases several times a day. This faster feedback loop can dramatically improve development velocity. |
 | Developer experience | Modern CI/CD pipelines are complex, with a variety of tools that not all developers are familiar with. With the advent of Kubernetes, environments have gotten much more complex. However, all developers are familiar with Git source control. So a GitOps model enables much faster ramp up and a smoother experience, based on concepts all developers are familiar with. |
@@ -65,7 +65,7 @@ GitOps can also use other tools for Git push, development, and continuous integr
 # GitOps Deployment Strategies
 Deployment strategies are techniques developers can use to modify or update applications with minimal downtime. GitOps makes it much easier to implement deployment strategies in a consistent manner. Here are some of the most common deployment strategies.
 
-| Strategy | Description |
+| **Strategy** | **Description** |
 | -------- | ----------- |
 | Rolling Strategy | A rolling deployment replaces instances of an application with a new version gradually. It updates some pods, performs a readiness check, and when they are confirmed to be working, shuts down older instances. This means that in case of major issues, a rolling update can be aborted, new instances are terminated and replaced by the current version. |
 | Canary Deployments | A canary deployment is a type of rolling strategy. It involves introducing a new version for a small subset of application users and observing their behavior, for a period of time that can span from minutes to several weeks. If users respond well to the change, it is rolled out to additional users, until the new version replaces the old. |
@@ -75,7 +75,7 @@ Deployment strategies are techniques developers can use to modify or update appl
 # GitOps Best Practices
 Here are a few best practices you can use to improve your GitOps implementation.
 
-| Best Practice | Description |
+| **Best Practice** | **Description** |
 | -------- | ----------- |
 | Plan branching strategies | Remember that the branching strategy you use in your source control repository has a direct effect on your environments. You must carefully plan source control branches according to the taxonomy of environments you need to set up. |
 | Avoid mixed environments | GitOps is “all or nothing”. For it to be effective, all parts of an environment must be controlled by infrastructure as code (IaC) tools and all the configuration must be checked into the repository. Running environments where some components are managed via GitOps, and other components manually or via other automated techniques, will have unpredictable results. |
