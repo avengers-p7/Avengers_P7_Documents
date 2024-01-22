@@ -18,11 +18,11 @@
 ## Introduction 
 In this document, we explore the choice between Mono Repo and Micro Repo for version control by defining and comparing them. We have also stated the points through which we should choose the right approach according to our requirement/ use case. 
 ### Mono Repo
-  A monorepo stores all your application and microservice code in a single source code repository like Git. A mono repo with unified and automated build and deploy pipelines can mitigate many development issues. (https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md)
+  A monorepo stores all your application and microservice code in a single source code repository like Git. A mono repo with unified and automated build and deploy pipelines can mitigate many development issues. [learn more...](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md)
   
   Using a mono repo, it’s easier to standardize code and tooling across the teams. The single view of the whole code available in a mono repo increases the discoverability of status and changes. This results in smoother release management and easier refactoring.
 ### Micro Repo
-Microrepos, or "microservices repositories," involve maintaining separate repositories for each microservice or component of a project. In the case of a backend and frontend project, there would be a dedicated repository for the backend and another for the frontend.(https://github.com/avengers-p7/Documentation/wiki/Micro%E2%80%90repos)
+Microrepos, or "microservices repositories," involve maintaining separate repositories for each microservice or component of a project. In the case of a backend and frontend project, there would be a dedicated repository for the backend and another for the frontend.[learn more...](https://github.com/avengers-p7/Documentation/wiki/Micro%E2%80%90repos)
 
 ### Folder Structure
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/ac2a02a1-e4bf-48a3-91d3-76d02e05c299)
