@@ -6,10 +6,11 @@
 
 ***
 ## Table of Contents
-+ [Introduction](#Introduction)
-+ [Why Choosing Pre-Commit Hooks ](#Why-Choosing-Pre-Commit-Hooks )
++ [Introduction](#Introduction-of-Commithook)
++ [Recommended Commit Hoo](#Recommended-Commit-Hook)
 + [Pre-Commit Hook](Pre-Commit-Hook)
-+ [Why Choosing Pre-Commit Hooks ](#Why-Choosing-Pre-Commit-Hooks )
++ [Why Use Pre-commit Hooks](#Why-Use-Pre-commit-Hooks)
++ [Comparison of Git Hooks](#Comparison-of-Git-Hooks)
 + [Setting Up Commit Hooks](#Setting-Up-Commit-Hooks)
 + [Troubleshooting](#Troubleshooting)
 + [Conclusion](#Conclusion)
@@ -31,7 +32,7 @@ I recommend using pre-commit hooks to streamline and manage various hooks effect
 
 A pre-commit hook is a script or program that runs before a Git commit is finalized. It allows developers to enforce certain checks, validations, or formatting requirements on their code before it gets committed to the version control system.
 
-## Why Use Pre-commit Hooks:
+## Why Use Pre-commit Hooks
 
 | **Feature** | **Description** |
 |------------ | --------------- |
@@ -60,17 +61,39 @@ To set up commit hooks, follow these general steps:
 
 * Navigate to the root directory of your Git repository.
 * Create a new directory named .git/hooks if it doesn't exist.
-  
- ![Screenshot from 2024-01-22 22-30-14](https://github.com/avengers-p7/Documentation/assets/156056413/0f5baf96-1072-4f05-b06d-86054e7a9c01)
 
-* Make sure the scripts are executable (chmod +x script-name).
+  <img width="550" length="200" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156056413/0f5baf96-1072-4f05-b06d-86054e7a9c01">
+* Take a look at the `.git/hooks` directory to see some default scripts.
+   
+  <img width="350" length="75" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156056413/ef20acbd-1674-42bc-aa03-7c741d56dd1a">
+
+* Write a simple Git hook
+    
+  Do you want to put in guardrails to prevent mistakes when making commits to your Git repository? A simple Git hook trick is to    prompt the user for confirmation before they commit something to a branch.
+  Create a new file named `.git/hooks/pre-commit` and open it in a text editor. Add the following text, which queries Git for a     list of the files about to be committed for the current branch name and then enters a while loop until it gets a response from    the user:
+  
+  <img width="750" length="475" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156056413/2f9fe825-7d5d-476e-8c5d-89d7a71a6402">
+  
+  <img width="650" length="275" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156056413/841de1d0-0917-48e1-85cb-c0e5acc3e6a6">  
+  
+  Save and Exit.
+
+* Mark the file executable.  
+  `chmod +x .git/hooks/pre-commit`
+  
+* And then try it out by creating, adding, and committing a file.
+
+   <img width="650" length="275" alt="Hooks" src="https://github.com/avengers-p7/Documentation/assets/156056413/9ed4d44e-b86d-4b80-a704-1783ddf38b01">  
 
 ***
 
 ## Troubleshooting
-If hooks are not working as expected, check the following:
+If hooks are not working as expected, check the following:  
 
-* Ensure scripts are executable (chmod +x script-name).
+![Screenshot from 2024-01-22 23-04-04](https://github.com/avengers-p7/Documentation/assets/156056413/8abafcfa-e2b6-457c-abb4-6c4129843718)
+
+* Ensure scripts are executable (chmod +x script-name).  
+  `chmod +x .git/hooks/pre-commit`
 * Verify that the hooks are in the correct .git/hooks directory.
 
 ***
