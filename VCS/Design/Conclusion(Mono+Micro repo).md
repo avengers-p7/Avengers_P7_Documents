@@ -17,11 +17,11 @@ Detailed documentation which includes Purpose, Introduction of each, Comparison 
 ## Purpose
 ## Introduction 
 ### Mono Repo
-  A monorepo stores all your application and microservice code in a single source code repository like Git. A mono repo with unified and automated build and deploy pipelines can mitigate many development issues. 
+  A monorepo stores all your application and microservice code in a single source code repository like Git. A mono repo with unified and automated build and deploy pipelines can mitigate many development issues. (https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.mdhttps://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md)
   
   Using a mono repo, it’s easier to standardize code and tooling across the teams. The single view of the whole code available in a mono repo increases the discoverability of status and changes. This results in smoother release management and easier refactoring.
 ### Micro Repo
-Microrepos, or "microservices repositories," involve maintaining separate repositories for each microservice or component of a project. In the case of a backend and frontend project, there would be a dedicated repository for the backend and another for the frontend.
+Microrepos, or "microservices repositories," involve maintaining separate repositories for each microservice or component of a project. In the case of a backend and frontend project, there would be a dedicated repository for the backend and another for the frontend.(https://github.com/avengers-p7/Documentation/wiki/Micro%E2%80%90repos)
 
 ### Folder Structure
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d91b3961-665b-48b3-8ad6-76bf9d193d2a)
