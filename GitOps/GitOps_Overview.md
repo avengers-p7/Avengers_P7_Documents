@@ -5,15 +5,15 @@
 ***
 # Table of Contents
 
-+ [Introduction](#Introduction)
-+ [Why GitOps](#Why-GitOps)
-+ [GitOps Workflows ](#GitOps-Workflows )
-+ [GitOps Deployment Strategies](#Types-Of-Gitops-Workflows)
-+ [GitOps Best Practices]
-+ [Conclusion](#Conclusions)
-+ [Contact Information](#Contact-Information)
-+ [References](#References)
-
++ [Introduction](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#introduction)
++ [Why GitOps](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#why-gitops)
++ [GitOps Workflows ](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#gitops-workflows)
++ [GitOps Deployment Strategies](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#gitops-deployment-strategies)
++ [GitOps Best Practices](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#gitops-best-practices)
++ [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#conclusion)
++ [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#contact-information)
++ [References](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#references)
+***
 # Introduction
 GitOps is a set of practices for managing infrastructure and application configuration. It leverages Git, an open source version control system that is commonly used in software development projects. This document explores different GitOps deployment strategies. For information related to GitOps Concepts please refer **[GitOps Understanding](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps%20Understanding.md)**.
 ![Gitops-cover](https://github.com/avengers-p7/Documentation/assets/156056344/58ccc877-675d-425e-a669-4260a36533e1)
