@@ -26,6 +26,13 @@ To configure notifications on Github we need :
 4. Make sure you have the authorization to configure notifications
 ***
 ## Setup Guide
+   We configure notifications for :
+   | **Notification** | **Description** |
+   | ---------------- | --------------- |
+   | [Code Review] | Notifications to reviewer team to review code |
+   | [Team Mentions] | Notifications to team members when mentioned |
+   | [Repository Events] | Notifications to owner/group on repository push events |
+   
 ### **Configuring GitHub notifications for Code Review**
 1. Login to your GitHub Account and select "Your organizations"
    ![Screenshot 2024-01-21 230919](https://github.com/avengers-p7/Documentation/assets/156056344/fb58920d-381c-4110-9169-e4be4802164a)
@@ -75,18 +82,14 @@ To configure notifications on Github we need :
 ***
 ## Best Practices 
 Effectively managing GitHub notifications is crucial for staying informed without being overwhelmed. Here are some best practices to help you handle GitHub notifications efficiently:
-
-1. Customize Notification Settings: Go to your GitHub account settings and adjust notification preferences based on the types of activities you want to be notified about.
-
-2. Use "Watching," "Starring," and "Ignoring": GitHub allows you to "Watch," "Star," or "Ignore" repositories. Watching a repository means you'll receive notifications for all activity, starring means you'll receive notifications only for updates, and ignoring means you won't receive any notifications.
-
-3. Prioritize Repositories:If you're part of multiple repositories, prioritize them based on importance. You can mark repositories as "Pinned" to have them appear at the top of your GitHub dashboard, making it easier to focus on essential projects.
-
-4. Unsubscribe from Unnecessary Threads: If you find yourself receiving notifications for threads or issues that are not relevant, unsubscribe from them. Open the thread and click on the "Unsubscribe" button to stop receiving updates.
-
-5. Use Filters and Labels:Leverage GitHub's filtering options to sort and categorize your notifications. You can filter by repository, type, or reason. Additionally, use labels to categorize and tag specific notifications for easier identification.
-
-6. Utilize Mention Only When Necessary:Limit the use of mentions to situations where you genuinely need someone's attention. Excessive mentions can clutter notification feeds and lead to important updates being overlooked.
+| **Best Practice** | **Description** |
+| ----------------- | --------------- |
+| **Customize Notification Settings** | In your GitHub account settings,adjust notification preferences based on the types of activities you want to be notified about. |
+| **Use "Watching," "Starring," and "Ignoring"** | GitHub allows you to "Watch," "Star," or "Ignore" repositories. Watching a repository means you'll receive notifications for all activity, starring means you'll receive notifications only for updates, and ignoring means you won't receive any notifications. |
+| **Prioritize Repositories** | If you're part of multiple repositories, prioritize them based on importance. You can mark repositories as "Pinned" to have them appear at the top of your GitHub dashboard, making it easier to focus on essential projects. |
+| **Unsubscribe from Unnecessary Threads** | If you find yourself receiving notifications for threads or issues that are not relevant, unsubscribe from them. Open the thread and click on the "Unsubscribe" button to stop receiving updates. |
+| **Use Filters and Labels** | Leverage GitHub's filtering options to sort and categorize your notifications. You can filter by repository, type, or reason. Additionally, use labels to categorize and tag specific notifications for easier identification. |
+| **Utilize Mention Only When Necessary** | Limit the use of mentions to situations where you genuinely need someone's attention. Excessive mentions can clutter notification feeds and lead to important updates being overlooked. |
 
 By adopting these best practices, you can streamline your GitHub notification experience, ensuring that you stay informed about relevant activities without feeling overwhelmed by unnecessary updates.
 ***
