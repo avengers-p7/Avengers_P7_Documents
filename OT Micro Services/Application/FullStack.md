@@ -2,33 +2,31 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Shreya Jaiswal** | 14-01-2024 | 22-01-2024 | V1 |
-| **Parasharam Desai** | 14-01-2024 | 22-01-2024 | V1 |
+| **Shreya Jaiswal** | 14-01-2024 | 17-01-2024 | V1 |
+| **Parasharam Desai** | 14-01-2024 | 17-01-2024 | V1 |
 
 *** 
 # Table Of Content
 
-### 1. [Introduction](#Introduction)
+### 01. [Introduction](#Introduction)
 
-### 2. [Prerequisites](#Prerequisites)
+### 02. [Prerequisites](#Prerequisites)
 
-### 3. [System Requirements](#System-Requirements)
+### 03. [System Requirements](#System-Requirements)
 
-### 4. [Dependencies](#Dependencies)
+### 04. [Dependencies](#Dependencies)
 
-### 5. [Ports](#Ports)                                                                 
+### 05. [Ports](#Ports)                                                                 
 
-### 6. [Architecture](#Architecture)
+### 06. [Architecture](#Architecture)
 
-### 7. [Full Stack Setup](#Full-Stack-Setup)
+### 07. [Full Stack Setup](#Full-Stack-Setup)
 
-### 8. [Error Handling](#Error-Handling)
+### 08. [Conclusion](#Conclusion)
 
-### 9. [Conclusion](#Conclusion)
+### 09. [Reference](#Reference)
 
-### 10. [Reference](#Reference)
-
-### 11. [Contact Information](#Contact-Information)
+### 10. [Contact Information](#Contact-Information)
 
 ***
 
@@ -43,7 +41,7 @@ This combination of technologies forms the backbone of our microservices, delive
 ***
 # Prerequisites
 
-Before you proceed with the setup, make sure you have reviewed the following documentation:
+Before initiating the setup process, it is crucial to thoroughly review the following documentation and ensure the installation of all dependencies in a systematic manner. This step-by-step approach guarantees a smooth setup of our OT microservices full stack:
 
 | **APIs/Software** | **Link** |
 | ----------------- | -------- |
@@ -55,21 +53,26 @@ Before you proceed with the setup, make sure you have reviewed the following doc
 | ScyllaDB Link | [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md) |
 | PostgreSQL Link | [PostgreSQL Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL.md) |
 
+By carefully following these guides, you'll be ready to set up our microservices system accurately.
+
+
 ***
 
 # System Requirements
 
 |   System Requirement              |             Minimum                     |
 |-----------------------------------|-----------------------------------------|
-| Processor/Instance Type           |                                         | 
-| RAM                               |                                         |
-| Disk Space                        |                                         |
-| OS Required (Linux Distributions) |                                         |
+| Instance Type                     |             t2.large                    | 
+| RAM                               |               8GB                       |
+| Disk Space                        |              30GB                       |
+| OS Required (Linux Distributions) |          Ubuntu 22.04 LTS, Debian       |
 
 
 ***
+
 # Dependencies
-Before you proceed with the setup, make sure the following dependencies are installed in your setup:
+
+Assuming you've followed the prerequisite documentation steps, the required dependencies for the setup should already be installed. However, for clarity, here's a recap of the dependencies:
 
 ### Build time Dependency
 
@@ -114,26 +117,13 @@ Specify the important ports used by the microservices and their descriptions.
 | 9042   | Scylla DB port        | 
 | 8080   | All API ports (Collective)| 
 
-                     
-
-
+                    
 ***
 
 # Architecture
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/57b0df34-d415-4c50-abc2-240add12e423)
 
-
-
-***
-
-# Full Stack Setup
-
-***
-
-# Error Handling
-
-Document common errors and their resolutions during the setup and usage of the microservices.
 
 ***
 
@@ -144,24 +134,9 @@ In conclusion, the OT Microservices Full Stack Setup provides a modern and modul
 The combination of robust databases such as PostgreSQL for structured data, ScyllaDB for efficient handling of large datasets, and Redis as an in-memory data store forms the backbone of our microservices. 
 
 
-
-
-
-***
-
-# Contact Information
-
-
-| Name                 | Email                      |
-| -------------------- | -------------------------- |
-| Shreya Jaiswal       | shreya.jaiswal.snatak@mygurukulam.co |                          
-| Parasharam Desai     |  parasharam.desai.snaatak@mygurukulam.co |
-
 ***
 
 # Reference
-
-Include any external sources or references used in the documentation.
 
 | Source               | Description                |
 | -------------------- | -------------------------- |
@@ -174,7 +149,11 @@ Include any external sources or references used in the documentation.
 | [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md) | SycllaDB Setup Documentation |
 
 
+# Contact Information
 
 
-
+| Name                 | Email                      |
+| -------------------- | -------------------------- |
+| Shreya Jaiswal       | shreya.jaiswal.snatak@mygurukulam.co |                          
+| Parasharam Desai     |  parasharam.desai.snaatak@mygurukulam.co                          |
 
