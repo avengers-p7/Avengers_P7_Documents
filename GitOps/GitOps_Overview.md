@@ -8,7 +8,6 @@
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#introduction)
 + [Why GitOps](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#why-gitops)
 + [GitOps Workflows ](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#gitops-workflows)
-+ [GitOps Deployment Strategies](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#gitops-deployment-strategies)
 + [GitOps Best Practices](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#gitops-best-practices)
 + [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#conclusion)
 + [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/GitOps/GitOps_Overview.md#contact-information)
@@ -62,16 +61,6 @@ GitOps can also use other tools for Git push, development, and continuous integr
 
 ***
 
-# GitOps Deployment Strategies
-Deployment strategies are techniques developers can use to modify or update applications with minimal downtime. GitOps makes it much easier to implement deployment strategies in a consistent manner. Here are some of the most common deployment strategies.
-
-| **Strategy** | **Description** |
-| -------- | ----------- |
-| **Rolling Strategy** | A rolling deployment replaces instances of an application with a new version gradually. It updates some pods, performs a readiness check, and when they are confirmed to be working, shuts down older instances. This means that in case of major issues, a rolling update can be aborted, new instances are terminated and replaced by the current version. |
-| **Canary Deployments** | A canary deployment is a type of rolling strategy. It involves introducing a new version for a small subset of application users and observing their behavior, for a period of time that can span from minutes to several weeks. If users respond well to the change, it is rolled out to additional users, until the new version replaces the old. |
-| **Blue-Green Deployment** | In a blue-green deployment, developers run two versions of an application in parallel. Using a load balancer or service routing, they gradually transition traffic from the current production version (green) to the new version (blue). At this point it is still possible to rollback to the old version by rerouting traffic from blue to green. When the blue version is confirmed to be working well, the production route is reconfigured to point to it, and it becomes the new production version. The old green deployment is then shut down.
-| **A/B Deployment** | An A/B deployment is similar to a blue-green deployment, in that it also runs two versions of the application in parallel. However, unlike blue-green, it defines a percentage of traffic that should go to each version—for example, 50/50 or 20/80—and diverts traffic based on this rule. Over time, when there is more confidence in the new version, the percentage of traffic diverted to it can be increased.This method is often used to experiment with different versions of the user experience. In other words, both versions run the same back end but with a small variation in the user interface, and development teams can observe differences in metrics like user engagement and conversion. |
-***
 # GitOps Best Practices
 Here are a few best practices you can use to improve your GitOps implementation.
 
