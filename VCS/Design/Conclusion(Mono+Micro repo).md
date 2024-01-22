@@ -13,8 +13,10 @@ Detailed documentation which includes Purpose, Introduction of each, Comparison 
 4. [Conclusion](#Conclusion)
 5. [Contact Information](#contact-information)
 6. [Refrences](#references)
+***
 
 ## Purpose
+***
 ## Introduction 
 ### Mono Repo
   A monorepo stores all your application and microservice code in a single source code repository like Git. A mono repo with unified and automated build and deploy pipelines can mitigate many development issues. (https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md)
@@ -25,7 +27,7 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 
 ### Folder Structure
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/ac2a02a1-e4bf-48a3-91d3-76d02e05c299)
-
+***
 ## Comparison
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056570/ba8a766f-32b8-4666-bab8-be46119bc41d)
@@ -35,7 +37,7 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 ⚠️ (Attention) = Represents something not easily obtainable.
 
 ❌ (Challenge) = Represents something difficult to obtain.  
-
+***
 ## Choosing the Right Approach:
 When deciding between a monorepo and microrepo strategy for a project with separate backend and frontend components, several factors should be considered.
 
@@ -50,12 +52,11 @@ If backend and frontend teams work independently and prefer autonomy in their co
 **3. Deployment and Scalability Needs:**
 
 If the project follows a microservices' architecture, where components need independent deployment and scalability, microrepos align more closely with this approach. Monorepos may be preferred when a unified release and deployment process across all components is required.
-
+***
 ## Conclusion
 
 In conclusion, a monorepo offers advantages like improved visibility, code sharing, and standardized practices for managing microservices. However, challenges include slower development cycles and potential complexities. To optimize monorepo usage, consider best practices such as selective builds, effective dependency management, and trunk-based development. The decision to adopt a monorepo should be based on a careful evaluation of specific needs and a balanced consideration of its benefits and challenges. Successful implementation requires a thoughtful approach and collaboration within the development team.
-
-
+***
 
 ## Contact Information
 
@@ -63,6 +64,7 @@ In conclusion, a monorepo offers advantages like improved visibility, code shari
 | -----------------| ------------------------------------ |
 | Harshit Singh    | harshit.singh.snaatak@mygurukulam.co |
 | Samir Kesare     | samir.kesare.snaatak@mygurukulam.co |        
+***
 
 ## References
 
@@ -74,5 +76,6 @@ In conclusion, a monorepo offers advantages like improved visibility, code shari
 |                                  | https://circleci.com/blog/monorepo-dev-practices/ |
 | Mono Repo Best Practices | https://buildkite.com/blog/monorepo-ci-best-practices |
 | Use Case | https://kinsta.com/blog/monorepo-vs-multi-repo/
-|          | https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext
+|          | https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext |
+***
 |Comparison | https://www.thoughtworks.com/en-de/insights/blog/agile-engineering-practices/monorepo-vs-multirepo |
