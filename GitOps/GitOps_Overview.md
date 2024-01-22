@@ -1,7 +1,7 @@
 # GitOps
 | Author | Created On | Last Updated | Document Version | Last Updated By |
 | ------ | ---------- | ------------ | ---------------- | --------------- |
-| Vishal Kumar Kesarwani | 19-01-2024 | 19-01-2024   | v1 | Vishal |
+| Vishal Kumar Kesarwani, Aakash Tripathi | 19-01-2024 | 19-01-2024   | v1 | Aakash Tripathi |
 ***
 # Table of Contents
 
