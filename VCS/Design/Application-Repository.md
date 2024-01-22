@@ -41,8 +41,8 @@
 
 ### Frontend
 
-**1: Static**  
-**2: Src**
+**1: Index.js**  
+**2: App.react.js**
 
 ### Backend
 
