@@ -123,6 +123,11 @@ gh pr close <pull-request-number>
 
 <img width="767" alt="Screenshot 2024-01-21 at 2 44 55 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/bc55365b-33ad-4932-9370-6de8ade34f01">
 
+* To reference a particular branch, utilize the --head option for the branch where modifications are made and the --base option for the branch into which you intend to merge your changes.
+
+<img width="1077" alt="Screenshot 2024-01-22 at 4 04 33 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9fe1e7fd-178d-4f51-863a-c3755f41ba33">
+
+
 ***
 # Conflict Resolution 
 
