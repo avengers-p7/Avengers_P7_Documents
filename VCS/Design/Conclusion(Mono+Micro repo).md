@@ -1,4 +1,4 @@
-# Mono Repo
+i999909# Mono Repo
 
 | Author | Created on  | Version    | Last Updated by | Last Updated on |
 | -------- | ------- | -------------- | --------------| ---------------- |
@@ -47,7 +47,8 @@ If backend and frontend teams work independently and prefer autonomy in their co
 
 3. Deployment and Scalability Needs:
 If the project follows a microservices' architecture, where components need independent deployment and scalability, microrepos align more closely with this approach. Monorepos may be preferred when a unified release and deployment process across all components is required.
-## Conclusion 
+
+## Conclusion +
 
 In conclusion, a monorepo offers advantages like improved visibility, code sharing, and standardized practices for managing microservices. However, challenges include slower development cycles and potential complexities. To optimize monorepo usage, consider best practices such as selective builds, effective dependency management, and trunk-based development. The decision to adopt a monorepo should be based on a careful evaluation of specific needs and a balanced consideration of its benefits and challenges. Successful implementation requires a thoughtful approach and collaboration within the development team.
 
