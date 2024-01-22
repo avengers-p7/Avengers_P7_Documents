@@ -23,6 +23,7 @@ Detailed documentation which includes Purpose, Introduction of each, Comparison 
 ### Micro Repo
 Microrepos, or "microservices repositories," involve maintaining separate repositories for each microservice or component of a project. In the case of a backend and frontend project, there would be a dedicated repository for the backend and another for the frontend.
 
+### Folder Structure
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d91b3961-665b-48b3-8ad6-76bf9d193d2a)
 
 ## Comparison
