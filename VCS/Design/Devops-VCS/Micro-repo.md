@@ -20,6 +20,12 @@
 Microrepos, or "microservices repositories," involve maintaining separate repositories for each microservice or component of a project. In the case of a backend and frontend project, there would be a dedicated repository for the backend and another for the frontend.
 
 ***
+# Famous Companies which use Micro Repositories.
+
+Micro Repository is used by companies like Slack, Github, Gitlab, SoundCloud etc.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/99fd60cd-a62d-4a5a-886f-3433300ad928)
+
 
 # Advantages of Micro-repo
 
@@ -55,12 +61,6 @@ When deciding between a monorepo and microrepo strategy for a project with separ
 | **Project Size and Complexity** |Monorepos are generally more suitable for large projects with complex interdependencies. If the backend and frontend are tightly coupled and share many common dependencies, a monorepo can simplify development and maintenance.Microrepos are often preferred for smaller projects or those with loosely coupled components, as they allow for more granular control and flexibility.|
 | **Team Structure and Autonomy** | If backend and frontend teams work independently and prefer autonomy in their codebases, microrepos can provide more flexibility and ownership.Monorepos are beneficial for fostering collaboration and sharing code among teams working on different components.|
 | **Deployment and Scalability Needs** | If the project follows a microservices' architecture, where components need independent deployment and scalability, microrepos align more closely with this approach.Monorepos may be preferred when a unified release and deployment process across all components is required.|
-
-# Famous Companies which use Micro Repositories.
-
-Micro Repository is used by companies like Slack, Github, Gitlab, SoundCloud etc.
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056570/99fd60cd-a62d-4a5a-886f-3433300ad928)
 
 ***
 # Contact Information
