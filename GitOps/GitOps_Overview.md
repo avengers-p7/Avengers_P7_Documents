@@ -35,7 +35,7 @@ GitOps is based on pull requests. When a pull request is initialized, users can 
 
 After developers create a pull request, they can add a commit in the topic branch. This allows all contributors to see the actual proposed changes. Once everyone approves the changes, they can be merged with the pull request.
 
-**Which configuration changes can be included in a pull request?**
+## **Which configuration changes can be included in a pull request?**
 
 A GitOps pull request can include configuration changes such as:
 
@@ -46,11 +46,11 @@ A GitOps pull request can include configuration changes such as:
 + Defining new infrastructure via declarative configuration
 + Updating an environment to new requirements
 
-**Troubleshooting**
+## **Troubleshooting**
 
 After a pull request is approved and the changes are deployed, if there are any problems, troubleshooting is simple. With GitOps, any problem in an environment can be tracked to specific pull requests, and then troubleshooting can focus on the changes introduced in those pull requests.
 
-**Integration with other systems**
+## **Integration with other systems**
 
 GitOps can also use other tools for Git push, development, and continuous integration:
 
