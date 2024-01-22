@@ -32,11 +32,7 @@
 
 # Introduction
 
-"Our OT microservices full stack setup is crafted with a modern and modular architecture, prioritizing scalability and efficiency. The system features dedicated APIs for managing employees (**Employee**), salaries (**Salary**), and attendance(**Attendance**), ensuring precision in workforce-related processes.
-
-At the heart of our system lies **PostgreSQL**, a reliable database renowned for handling structured data, providing a robust foundation for crucial business information. **ScyllaDB**, a powerful NoSQL database, excels in efficiently managing large datasets, making it particularly valuable in scenarios where high performance and scalability are essential. Additionally, **Redis** plays a crucial role as an in-memory data store, enhancing system responsiveness by quickly providing access to frequently used information.
-
-This combination of technologies forms the backbone of our microservices, delivering a solution that meets the demands of various industries, including manufacturing, energy, and utilities."
+Our OT microservices full stack setup is crafted with a modern and modular architecture, prioritizing scalability and efficiency. The system features dedicated APIs for managing employees (**Employee**), salaries (**Salary**), and attendance(**Attendance**), ensuring precision in workforce-related processes.At the heart of our system lies **PostgreSQL**, a reliable database renowned for handling structured data, providing a robust foundation for crucial business information. **ScyllaDB**, a powerful NoSQL database, excels in efficiently managing large datasets, making it particularly valuable in scenarios where high performance and scalability are essential. Additionally, **Redis** plays a crucial role as an in-memory data store, enhancing system responsiveness by quickly providing access to frequently used information.This combination of technologies forms the backbone of our microservices.
 
 ***
 # Prerequisites
