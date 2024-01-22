@@ -8,7 +8,8 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Choosing Pre-Commit Hooks ](#Why-Choosing-Pre-Commit-Hooks )
-  + [Pre-Commit Hook](Pre-Commit-Hook)
++ [Pre-Commit Hook](Pre-Commit-Hook)
++ [Why Choosing Pre-Commit Hooks ](#Why-Choosing-Pre-Commit-Hooks )
 + [Setting Up Commit Hooks](#Setting-Up-Commit-Hooks)
 + [Troubleshooting](#Troubleshooting)
 + [Conclusion](#Conclusion)
@@ -20,11 +21,13 @@
 Commit hooks are scripts that run automatically before or after specific events in the Git lifecycle. They help maintain code quality, enforce coding standards, and prevent undesirable changes from being committed. for more detail Click [here](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/CommmitHooks%20Understanding.md)
 
 ***
+## Recommended Commit Hook
 
-## Why Choosing Pre-Commit Hooks 
+I recommend using pre-commit hooks to streamline and manage various hooks effectively.
 
- 
-### 1. Pre-Commit Hook
+***
+
+## Pre-Commit Hook
 **Purpose:** Runs before a commit is created. It's ideal for checking syntax, running quick tests, and ensuring the commit won't break the build.
 
 **Implementation:** Create a script (e.g., pre-commit) that performs necessary checks. Examples include running linting tools, checking for debug statements, or validating coding standards.
