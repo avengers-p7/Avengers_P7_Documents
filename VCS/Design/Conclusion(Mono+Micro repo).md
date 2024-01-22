@@ -19,7 +19,7 @@ Detailed documentation which includes Purpose, Introduction of each, Comparison 
 ## Purpose
 ***
 ## Introduction 
-In this document, we explore the choice between Mono Repo and Micro Repo for version control by defining and comparing them. We have also stated the points through which we should choose the right approach. 
+In this document, we explore the choice between Mono Repo and Micro Repo for version control by defining and comparing them. We have also stated the points through which we should choose the right approach according to our requirement/ use case. 
 ### Mono Repo
   A monorepo stores all your application and microservice code in a single source code repository like Git. A mono repo with unified and automated build and deploy pipelines can mitigate many development issues. (https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/MonoRepo.md)
   
