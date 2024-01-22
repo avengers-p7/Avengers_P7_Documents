@@ -8,7 +8,7 @@
 + [Introduction](#Introduction)
 + [Why GitOps](#Why-GitOps)
 + [GitOps Workflows ](#GitOps-Workflows )
-+ [Types of GitOps Workflows]
-+ [Conclusion]
++ [Types of GitOps Workflows](#Types-Of-Gitops-Workflows)
++ [Conclusion](#Conclusions)
 + [Contact Information](#Contact-Information)
 + [References](#References)
