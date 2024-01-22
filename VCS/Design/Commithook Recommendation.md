@@ -44,8 +44,8 @@ A pre-commit hook is a script or program that runs before a Git commit is finali
 
 ## Comparison of Git Hooks
 
-| **Feature**             | **Pre-commit Hook**         | **Commit Hook**             | **Post-commit Hook**        |
-|-------------------------|-----------------------------|------------------------ ----|-----------------------------|
+| **Feature** | **Pre-commit Hook** | **Commit Hook** | **Post-commit Hook** |
+| ----------- | ------------------- | ---------------- | ------------------- |
 | **Timing**              | Runs before committing      | Runs during committing      | Runs after committing       |
 | **Purpose**             | Preemptively checks         | Validates during commit     | Actions after commit        |
 | **Scope of Checks**     | Code formatting, linting    | Commit message format       | Push-related operations     |
@@ -60,7 +60,9 @@ To set up commit hooks, follow these general steps:
 
 * Navigate to the root directory of your Git repository.
 * Create a new directory named .git/hooks if it doesn't exist.
-* Inside the .git/hooks directory, create or copy the hook scripts.
+  
+ ![Screenshot from 2024-01-22 22-30-14](https://github.com/avengers-p7/Documentation/assets/156056413/0f5baf96-1072-4f05-b06d-86054e7a9c01)
+
 * Make sure the scripts are executable (chmod +x script-name).
 
 ***
