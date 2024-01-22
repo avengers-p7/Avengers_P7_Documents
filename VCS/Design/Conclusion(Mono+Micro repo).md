@@ -7,7 +7,6 @@
 ***
 
 ## Table  of Contents
-Detailed documentation which includes Purpose, Introduction of each, Comparison table of Mono and Micro, Conclusion and Contact Information, References 
 
 1. [Introduction](#introduction)
 2. [Comparison](#Comparison)
