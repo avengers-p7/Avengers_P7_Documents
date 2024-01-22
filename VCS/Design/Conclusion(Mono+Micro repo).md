@@ -43,13 +43,11 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 | Dependency Administration   |    ✅     |     ⚠️      |
 | Migrating to another type of repository managenment    |    ❌     |    ✅      |4
 
-
 ✅ (Benefit) = Represents something obtainable without much effort.
 
 ⚠️ (Attention) = Represents something not easily obtainable.
 
 ❌ (Challenge) = Represents something difficult to obtain.  
-
 ### Cultural aspect
 |                     Concept                      | Mono Repo | Micro Repo |
 | ------------------------------------------------ | :-------: | :--------: |
