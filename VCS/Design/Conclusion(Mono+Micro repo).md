@@ -39,16 +39,19 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 ## Choosing the Right Approach:
 When deciding between a monorepo and microrepo strategy for a project with separate backend and frontend components, several factors should be considered.
 
-1. Project Size and Complexity:
+**1. Project Size and Complexity:**
+
 Monorepos are generally more suitable for large projects with complex interdependencies. If the backend and frontend are tightly coupled and share many common dependencies, a monorepo can simplify development and maintenance. Microrepos are often preferred for smaller projects or those with loosely coupled components, as they allow for more granular control and flexibility.
 
-2. Team Structure and Autonomy:
+**2. Team Structure and Autonomy:**
+
 If backend and frontend teams work independently and prefer autonomy in their codebases, microrepos can provide more flexibility and ownership. Monorepos are beneficial for fostering collaboration and sharing code among teams working on different components.
 
-3. Deployment and Scalability Needs:
+**3. Deployment and Scalability Needs:**
+
 If the project follows a microservices' architecture, where components need independent deployment and scalability, microrepos align more closely with this approach. Monorepos may be preferred when a unified release and deployment process across all components is required.
 
-## Conclusion +
+## Conclusion
 
 In conclusion, a monorepo offers advantages like improved visibility, code sharing, and standardized practices for managing microservices. However, challenges include slower development cycles and potential complexities. To optimize monorepo usage, consider best practices such as selective builds, effective dependency management, and trunk-based development. The decision to adopt a monorepo should be based on a careful evaluation of specific needs and a balanced consideration of its benefits and challenges. Successful implementation requires a thoughtful approach and collaboration within the development team.
 
