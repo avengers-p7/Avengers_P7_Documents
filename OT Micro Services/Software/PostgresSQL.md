@@ -1,7 +1,7 @@
 
 | Author | Created on | Version | Last updated by | Last edited on |
 |--------|------------|---------|-----------------|----------------|
-|Shikha  | 11-01-2024 | v16    | Shikha          | 11-01-2024     |
+|Shikha Tripathi | 11-01-2024 | v16 | Shikha Tripathi | 13-01-2024 |
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## Introduction
 PostgreSQL is a powerful open-source relational database management system (RDBMS). It is known for its extensibility, standards compliance, and support for SQL (Structured Query Language). 
