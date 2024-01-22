@@ -2,8 +2,8 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Shreya Jaiswal** | 14-01-2024 | 17-01-2024 | V1 |
-| **Parasharam Desai** | 14-01-2024 | 17-01-2024 | V1 |
+| **Shreya Jaiswal** | 14-01-2024 | 22-01-2024 | V1 |
+| **Parasharam Desai** | 14-01-2024 | 22-01-2024 | V1 |
 
 *** 
 # Table Of Content
@@ -122,13 +122,43 @@ Specify the important ports used by the microservices and their descriptions.
 
 
 ***
+# Full Stack Setup
 
+### Application Setup
+
+**Step 1** First we need to setup Attendance API with the help of above mentioned [Attendance API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Attendance_API.md)  
+
+**Step 2** Setup Salary API with the help of above mentioned [Salary API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Salary_API.md)  
+
+**Step 3** Setup Employee API with the help of above mentioned [Employee API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API.md) 
+
+**Step 4** Setup Frontend API with the help of above mentioned [Frontend Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Frontend.md) 
+
+### Software Installation
+
+**Step 1**  Install PostgreSQL Database with the help of above mentioned [PostgreSQL Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL.md)  
+
+**Step 2**  Install Scylla Database with the help of above mentioned [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md)
+
+**Step 3**  Install Redis Database with the help of above mentioned [Redis Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md) 
+
+
+***
 # Conclusion
 
 In conclusion, the OT Microservices Full Stack Setup provides a modern and modular architecture that emphasizes scalability and efficiency. With dedicated APIs for employee management, salary processing, and attendance tracking, the system ensures precision in workforce-related processes.
 
 The combination of robust databases such as PostgreSQL for structured data, ScyllaDB for efficient handling of large datasets, and Redis as an in-memory data store forms the backbone of our microservices. 
 
+***
+
+# Contact Information
+
+
+| Name                 | Email                      |
+| -------------------- | -------------------------- |
+| Shreya Jaiswal       | shreya.jaiswal.snatak@mygurukulam.co |                          
+| Parasharam Desai     |  parasharam.desai.snaatak@mygurukulam.co   |
 
 ***
 
@@ -145,11 +175,5 @@ The combination of robust databases such as PostgreSQL for structured data, Scyl
 | [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md) | SycllaDB Setup Documentation |
 
 
-# Contact Information
 
-
-| Name                 | Email                      |
-| -------------------- | -------------------------- |
-| Shreya Jaiswal       | shreya.jaiswal.snatak@mygurukulam.co |                          
-| Parasharam Desai     |  parasharam.desai.snaatak@mygurukulam.co                          |
 
