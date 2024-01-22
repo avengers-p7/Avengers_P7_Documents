@@ -29,8 +29,8 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 ***
 ## Comparison
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056570/8e01306f-d544-4cc1-839d-a3f2164705f0)
-| Technical aspect by concept | Mono Repo | Micro Repo |
+### Technical aspect
+|           Concept           | Mono Repo | Micro Repo |
 | --------------------------  | :-------: | :--------: |
 | Clean Code                  |    ✅     |    ❌      | 
 | Refator Code                |    ✅     |    ❌      |
@@ -42,8 +42,8 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 | Intergration(CI/CD)         |     ⚠️     |    ✅      |
 | Dependency Administration   |    ✅     |     ⚠️      |
 | Migrating to another type of repository managenment    |    ❌     |    ✅      |
-
-| Cultural aspect by concept                       | Mono Repo | Micro Repo |
+### Cultural aspect
+|                     Concept                      | Mono Repo | Micro Repo |
 | ------------------------------------------------ | :-------: | :--------: |
 | Onboarding                                       |    ✅     |    ❌      | 
 | Independance for maintenance                     |    ✅     |    ❌      |
