@@ -116,4 +116,5 @@ Pre-commit hooks offer a proactive approach to code quality by allowing develope
 
 | Source | Description |
 | ------ | ----------- |
-| https://www.redhat.com/sysadmin/git-hooks | Git hook Example |
+| https://www.redhat.com/sysadmin/git-hooks | Git Hook Example |
+| https://www.atlassian.com/git/tutorials/git-hooks | Git Hook Basic Info |
