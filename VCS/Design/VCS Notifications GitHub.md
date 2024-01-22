@@ -26,7 +26,7 @@ To configure notifications on Github we need :
 4. Make sure you have the authorization to configure notifications
 ***
 ## Setup Guide
-   We configure notifications for :
+   We will configure notifications for :
    | **Notification** | **Description** |
    | ---------------- | --------------- |
    | [Code Review](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#configuring-github-notifications-for-code-review) | Notifications to reviewer team to review code |
