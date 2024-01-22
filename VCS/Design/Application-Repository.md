@@ -1,4 +1,4 @@
-# Application-Repository
+# Application-Repositories
 
 
 | Author |	Created on | Last updated by | Last edited on |
@@ -52,12 +52,11 @@
 ***
 
 
-### Frontend-Repository
+### Frontend-Repositories
 
-### Frontend
 1. [Frontend Repository](https://github.com/OT-MICROSERVICES/frontend)
 
-### Backend-Repository
+### Backend-Repositories
 1. [Employee-api Repository](https://github.com/OT-MICROSERVICES/employee-api)
 2. [Salary-api Repository](https://github.com/OT-MICROSERVICES/salary-api)
 3. [Attendance-api Repository](https://github.com/OT-MICROSERVICES/attendance-api)
