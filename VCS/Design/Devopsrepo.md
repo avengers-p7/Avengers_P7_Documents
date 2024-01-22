@@ -6,8 +6,19 @@
 | Shikha Tripathi | 17-01-2024 | Shikha Tripathi | 19-01-2024 |
 
 
- -----------------------------------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------------------------------------------------
 
+***
+# Table of Contents
+
++ [Introduction](#Introduction)
++ [Why](#Why)
++ [Type](#Type)
++ [Features](#Features)
++ [Conclusion](#Conclusion)
++ [Contact Information](#Contact_Information)
++ [References](#References)  
+***
 
 ## Introduction
    DevOps repositories serve as fundamental components in the DevOps toolchain, providing a centralized and collaborative platform for managing 
