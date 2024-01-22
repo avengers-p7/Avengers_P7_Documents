@@ -50,7 +50,7 @@ The monorepo approach has several advantages:
 | **Easier refactoring** | Direct access to all microservices makes it easier to refactor the code in a monorepo. Also, you can change the code structure. Moving the source code between folders and subfolders is much easier than moving the source code between multiple repositories. |
 ***
 
-![Mono Repo](https://github.com/avengers-p7/Documentation/assets/156056444/93fab22f-263e-4390-8e12-2e1e1885d918)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/021a5f9c-9ff7-4018-a3ea-73813d9d1d42)
 
 # Advantages of Mono Repo
 
