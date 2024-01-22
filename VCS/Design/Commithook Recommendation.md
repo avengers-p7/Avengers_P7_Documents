@@ -28,11 +28,10 @@ I recommend using pre-commit hooks to streamline and manage various hooks effect
 ***
 
 ## Pre-Commit Hook
-**Purpose:** Runs before a commit is created. It's ideal for checking syntax, running quick tests, and ensuring the commit won't break the build.
 
-**Implementation:** Create a script (e.g., pre-commit) that performs necessary checks. Examples include running linting tools, checking for debug statements, or validating coding standards.
- 
+A pre-commit hook is a script or program that runs before a Git commit is finalized. It allows developers to enforce certain checks, validations, or formatting requirements on their code before it gets committed to the version control system.
 
+## Why  
 ***
 ## Setting Up Commit Hooks  
 
