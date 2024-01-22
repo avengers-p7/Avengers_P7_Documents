@@ -7,9 +7,10 @@
 # Table of Content 
 1. Introduction
 2. Authentication Methods
-3. Conclusion
-4. Contact Information
-5. References
+3. Comparision of Authentication Methods
+4. Conclusion
+5. Contact Information
+6. References
 ***
 
 # Introduction
@@ -34,6 +35,14 @@ One can access  resources in GitHub in a variety of ways like, in the browser, w
 | SSH | GitHub CLI finds and prompts to upload existing SSH public keys. Generates new keys if not found. | Command line interactions with GitHub using CLI. |
 
 ***
+# Comparision of Authentication Methods
+| Method | Description | Strength | Weakness |
+| ---- | ------------- | -------- | -------- |
+| Username and Password | Basic authentication using a combination of a username and password. | Easy to set up and use.	| Vulnerable to password-based attacks. No second factor for added security. |
+| Personal Access Token (PAT)	| Token-based authentication tied to a user account. | Provides granular access control. Supports two-factor authentication (2FA). | Requires manual token management. Can be compromised if mishandled. |
+| SSH Keys | Secure Shell (SSH) key pairs for authentication.	| Strong security with public-private key pairs. No need for password entry. | Requires key generation and management. Initial setup can be more complex. |
+***
+
 
 # Conclusion
 
