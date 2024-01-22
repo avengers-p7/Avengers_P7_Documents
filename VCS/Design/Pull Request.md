@@ -29,7 +29,7 @@ The primary purpose of this process is to maintain code quality, prevent errors,
 *** 
 # Pull Requests flow 
 
-<img width="1293" alt="Screenshot 2024-01-22 at 2 58 22 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7677f855-6684-4054-b0d7-29c29fe809d2">
+<img width="1316" alt="Screenshot 2024-01-22 at 6 46 12 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/72de7e7a-3637-4679-8176-330446adfb68">
 
 ***
 # PR Creation
