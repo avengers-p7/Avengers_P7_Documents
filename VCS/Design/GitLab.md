@@ -9,11 +9,12 @@
 2. Features
 3. Plan & Pricing
 4. Comparision of Plans
-5. Advantages
-6. Disadvatages
-7. Conclusion
-8. Contact Information
-9. References
+5. Terminology Comparison
+6. Advantages
+7. Disadvatages
+8. Conclusion
+9. Contact Information
+10. References
 
 # Introduction
 GitLab is a web-based Git repository that provides free open and private repositories, issue-following capabilities, and wikis. It is a complete DevOps platform that enables professionals to perform all the tasks in a project—from project planning and source code management to monitoring and security. Additionally, it allows teams to collaborate and build better software. 
@@ -34,6 +35,11 @@ GitLab is a web-based Git repository that provides free open and private reposit
 | Built-in Monitoring	| Monitor applications and infrastructure within GitLab. |
 | Instance-level Analytics | Gain insights into user activity and instance performance. |
 
+This table provides a snapshot of some key features that make GitLab a comprehensive and integrated solution for modern software development and DevOps practices. Keep in mind that GitLab's features may evolve, and for the most up-to-date information, it's recommended to refer to the official GitLab documentation.
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/a2fc8a5f-042e-45cb-8ffb-193fcccf1bad)
+
 ***
 
 # Plans & Pricing
@@ -42,7 +48,10 @@ GitLab is a web-based Git repository that provides free open and private reposit
 | -------- | ------- | -------------- |
 | $0 per user/month   | $29 per user/month | Contact Sales   |
 
-## Comparision of Plans
+GitLab's pricing plans are categorized based on the features and support offered. The plans typically include free, bronze, silver, gold, and ultimate tiers. The free plan provides essential version control features, while the paid plans introduce more advanced capabilities such as CI/CD pipelines, security scanning, collaboration tools, and premium support. The pricing structure may vary based on factors such as the number of users, storage requirements, and additional features.
+***
+
+# Comparision of Plans
 
 | Feature |     Free     |                Standard                   |     Premium    |
 | ----------- | ------------ | ------------------------------------------ | -------------- |
@@ -65,6 +74,8 @@ GitLab is a web-based Git repository that provides free open and private reposit
 | Free guest users	|   |    | Yes |
 
 ***
+# Terminology Comparison
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/bebb5345-95a5-449e-b238-107c4c6e3854)
 
 # Advantages
 * GitLab provides GitLab Community Edition version for users to locate, on which servers their code is present.
