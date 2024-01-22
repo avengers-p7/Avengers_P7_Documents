@@ -54,13 +54,15 @@
 
 ### Frontend-Repository
 
-**1: frontend (https://github.com/OT-MICROSERVICES/frontend/tree/main/src)**
+**1: frontend (https://github.com/OT-MICROSERVICES/frontend)**
 
 ### Backend-Repository
 
- **1: Employee-api**  
- **2: Salary-api**
- **3: Attendance-api (https://github.com/OT-MICROSERVICES/)**
+ **1: Employee-api (https://github.com/OT-MICROSERVICES/employee-api)**
+ 
+ **2: Salary-api (https://github.com/OT-MICROSERVICES/salary-api)**
+ 
+ **3: Attendance-api (https://github.com/OT-MICROSERVICES/attendance-api)**
 
  ***
 
