@@ -6,8 +6,6 @@
 | Shikha Tripathi | 17-01-2024 | Shikha Tripathi | 19-01-2024 |
 
 
- ----------------------------------------------------------------------------------------------------------------------------------------------
-
 ***
 # Table of Contents
 
@@ -26,7 +24,7 @@
    repositories in modern software development.
    
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -47,14 +45,36 @@
 
 
 ## Types of DevOps Repositories:
-   **There are the two main types of repositories commonly used in DevOps:**
-| Repository Type       | Description                                                       | Example Platforms                         |
-|-----------------------|-------------------------------------------------------------------|-------------------------------------------|
-| **Source Repository** | Manages and stores the source code of software projects.           | GitHub, GitLab, Bitbucket,  |
-| **Artifact Repository**| Stores and manages binary artifacts produced during development and deployment processes. | Nexus Repository, Docker Hub, AWS CodeArtifact, GitLab Container Registry |
+   **There are the main types of repositories commonly used in DevOps:**
+
+| Repository Type       | Description                                                                                          | Example |
+|------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| **Source Repository**  | Manages and stores the source code of software projects.                                             | GitHub, GitLab, Bitbucket                              |
+| **Artifact Repository**| Stores and manages binary artifacts produced during development and deployment processes.           | Nexus Repository, Docker Hub, AWS CodeArtifact, GitLab Container Registry |
+| **Ansible Repository** | Manages and stores Ansible playbooks and roles, including private modules for secure configuration management. | GitHub (Private Repos), GitLab (Private Repos)       |
+| **Terraform Repository**| Manages and stores Terraform configurations, modules, and state files. Supports private module handling. | GitHub (Private Repos), GitLab (Private Repos), AWS CodeCommit (Terraform Cloud) |
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ***
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/36a741d3-3b19-4917-9c48-90e320c28c96)
+
+
+***
+
+**Note:**
+  Ansible Repository manages Ansible playbooks and roles with secure handling of private modules on platforms like GitHub or GitLab, while 
+  Terraform Repository handles Terraform configurations, modules, and state files, supporting private module storage on platforms like GitHub 
+  or GitLab, or utilizing AWS CodeCommit for Terraform Cloud.
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
