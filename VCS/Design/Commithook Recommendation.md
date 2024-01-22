@@ -30,7 +30,7 @@ I recommend using pre-commit hooks to streamline and manage various hooks effect
 
 ## Pre-Commit Hook
 
-A pre-commit hook is a script or program that runs before a Git commit is finalized. It allows developers to enforce certain checks, validations, or formatting requirements on their code before it gets committed to the version control system.
+A pre-commit hook is a script or program that runs automatically before a Git commit is finalized. It is one of the various hooks provided by Git, and its purpose is to perform checks, validations, or tasks on the code before it becomes part of the version control system. The pre-commit hook allows developers to ensure code quality, consistency, and adherence to coding standards before changes are committed to the repository.
 
 ## Why Use Pre-commit Hooks
 
