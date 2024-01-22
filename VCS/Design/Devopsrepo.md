@@ -3,7 +3,7 @@
 
 | Author	| Created on | Last updated by |	Last edited on |
 |---------|------------|-----------------|-----------------|
-| Shikha  | 17-01-2024 | Shikha | 17-01-2024 |
+| Shikha Tripathi | 17-01-2024 | Shikha Tripathi | 19-01-2024 |
 
 
  -----------------------------------------------------------------------------------------------------------------------------------------------
@@ -13,8 +13,11 @@
    DevOps repositories serve as fundamental components in the DevOps toolchain, providing a centralized and collaborative platform for managing 
    versioned source code, configuration files, and other assets. This document explores the significance, types, features, and the role of DevOps 
    repositories in modern software development.
+   
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 ##  Why DevOps Repositories
 | Feature   | Description  |                                                                                                              
@@ -29,6 +32,9 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+
+
 ## Types of DevOps Repositories:
    **There are the two main types of repositories commonly used in DevOps:**
 | Repository Type       | Description                                                       | Example Platforms                         |
@@ -36,8 +42,11 @@
 | **Source Repository** | Manages and stores the source code of software projects.           | GitHub, GitLab, Bitbucket,  |
 | **Artifact Repository**| Stores and manages binary artifacts produced during development and deployment processes. | Nexus Repository, Docker Hub, AWS CodeArtifact, GitLab Container Registry |
 
-  
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
@@ -55,6 +64,8 @@
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
