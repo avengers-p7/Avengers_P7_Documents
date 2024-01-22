@@ -149,6 +149,16 @@ The combination of robust databases such as PostgreSQL for structured data, Scyl
 
 ***
 
+# Contact Information
+
+
+| Name                 | Email                      |
+| -------------------- | -------------------------- |
+| Shreya Jaiswal       | shreya.jaiswal.snatak@mygurukulam.co |                          
+| Parasharam Desai     |  parasharam.desai.snaatak@mygurukulam.co |
+
+***
+
 # Reference
 
 Include any external sources or references used in the documentation.
@@ -163,14 +173,8 @@ Include any external sources or references used in the documentation.
 | [Redis Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md) | Redis Setup Documentation |
 | [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md) | SycllaDB Setup Documentation |
 
-***
-
-# Contact Information
 
 
-| Name                 | Email                      |
-| -------------------- | -------------------------- |
-| Shreya Jaiswal       | shreya.jaiswal.snatak@mygurukulam.co |                          
-| Parasharam Desai     |  parasharam.desai.snaatak@mygurukulam.co |
+
 
 
