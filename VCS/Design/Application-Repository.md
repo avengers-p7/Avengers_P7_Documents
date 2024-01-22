@@ -52,12 +52,11 @@
 ***
 
 
-### Frontend
+### Frontend-Repository
 
-**1: Index.js**  
-**2: App.react.js**
+**1: frontend**
 
-### Backend
+### Backend-Repository
 
  **1: Employee-api**  
  **2: Salary-api**
