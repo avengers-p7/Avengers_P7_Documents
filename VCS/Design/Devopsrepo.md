@@ -6,7 +6,7 @@
 | Shikha  | 17-01-2024 | Shikha | 17-01-2024 |
 
 
- -------------------------------------------------------------------------------------------------------------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## Introduction
@@ -18,7 +18,7 @@
 
 ##  Why DevOps Repositories
 | Feature   | Description  |                                                                                                              
-|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
+|---------------------------|------------------------------------------------------------------------------------------------------------------|
 | **Facilitate Collaboration** | Enables multiple team members to work on the same codebase simultaneously, fostering collaboration and knowledge sharing. |
 | **Ensure Version Control**   | Allows tracking changes in the codebase, ensuring version consistency and providing the ability to roll back to previous states. |
 | **Streamline Automation**    | Integrates seamlessly with CI/CD pipelines, automating testing, building, and deployment processes for faster and more reliable software delivery. |
@@ -31,12 +31,11 @@
 
 ## Types of DevOps Repositories:
 
-   | Repository Type           | Description                                                                                                      |
-|---------------------------|------------------------------------------------------------------------------------------------------------------|
-| **Version Control Systems (VCS)** | Includes distributed systems like Git and Mercurial, essential for tracking changes in source code.           |
-| **Package Repositories**   | Hosts packages and dependencies used in software development, such as npm for Node.js or Maven for Java.       |
-| **Artifact Repositories**  | Stores build artifacts and binaries generated during the CI/CD process.                                            |
-| **Configuration Repositories** | Manages infrastructure-as-code configurations, ensuring consistency across different environments.         |
+   | Repository Type  | Description  |
+   |---------------------------|---------------------------------------------------------------------------------------------------------------|
+   | **Version Control Systems (VCS)** | Includes distributed systems like Git and Mercurial, essential for tracking changes in source code.|
+   | **Artifact Repositories** | Stores build artifacts and binaries generated during the CI/CD process. |
+        
 
 
 
@@ -46,15 +45,17 @@
 
 
 ## Features of DevOps Repositories:
-   | Feature                   | Description                                                                                                              |
-|---------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| **Versioning**               | Tracks changes in the codebase, enabling collaboration and ensuring version consistency.                                 |
-| **Branching and Merging**    | Facilitates parallel development efforts through branching and integrates changes back into the main codebase via merging. |
-| **Code Review Tools**        | Supports collaborative code reviews, fostering a culture of knowledge sharing and quality improvement.                   |
-| **Issue Tracking**           | Manages and tracks issues, bugs, and feature requests for effective project management.                                   |
-| **Access Control**           | Defines roles and permissions to control access to repositories, ensuring security and compliance.                       |
-| **Integration Capabilities** | Integrates with various development tools, CI/CD pipelines, and third-party services to streamline workflows.             |
-| **Security Features**        | Implements security measures to protect source code and sensitive information from unauthorized access.  |
+   | Feature  | Description |
+   |---------------------------|---------------------------------------------------------------------------------------------------------------|
+   | **Versioning** | Tracks changes in the codebase, enabling collaboration and ensuring version consistency.|
+   | **Branching and Merging**| Facilitates parallel development efforts through branching and integrates changes back into the main 
+   codebase via merging. |
+   | **Code Review Tools**| Supports collaborative code reviews, fostering a culture of knowledge sharing and quality improvement.|
+   | **Issue Tracking**| Manages and tracks issues, bugs, and feature requests for effective project management.|
+   | **Access Control**| Defines roles and permissions to control access to repositories, ensuring security and compliance.|
+   | **Integration Capabilities** | Integrates with various development tools, CI/CD pipelines, and third-party services to streamline 
+   workflows.|
+   | **Security Features**| Implements security measures to protect source code and sensitive information from unauthorized access.  |
 
 
 
