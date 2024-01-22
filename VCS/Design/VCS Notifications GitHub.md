@@ -30,8 +30,8 @@ To configure notifications on Github we need :
    | **Notification** | **Description** |
    | ---------------- | --------------- |
    | [Code Review](https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#configuring-github-notifications-for-code-review) | Notifications to reviewer team to review code |
-   | [Team Mentions] | Notifications to team members when mentioned |
-   | [Repository Events] | Notifications to owner/group on repository push events |
+   | [Team Mentions]( https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/VCS%20Notifications%20GitHub.md#configuring-github-notifications-for-code-review)| Notifications to team members when mentioned |
+   | [Repository Events]() | Notifications to owner/group on repository push events |
    
 ### **Configuring GitHub notifications for Code Review**
 1. Login to your GitHub Account and select "Your organizations"
