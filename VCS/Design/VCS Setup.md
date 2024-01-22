@@ -157,7 +157,7 @@ In a centralized system, there is a single central repository that stores the en
 **Developer A and B**: Developers clone the latest version, make changes, and commit back to the central repository.
 
 
-# 2. Distributed Version Control System (DVCS):
+**2. Distributed Version Control System (DVCS)**:
 
 In a distributed system, each developer has their own complete copy (clone) of the repository, including the entire history. Developers can work independently, commit changes locally, and share their changes with others by pushing and pulling between repositories.
 
@@ -169,6 +169,19 @@ In a distributed system, each developer has their own complete copy (clone) of t
 **Local Repositories**: Developers work independently in their local repositories.
 
 **Remote Repositories**: Developers push and pull changes to and from remote repositories, enabling collaboration.
+
+
+**3. Local Version Control System (LVCS):**
+
+A Local VCS involves a single database on the user's hard disk that keeps track of changes to files. It allows users to revert files to a previous state and track changes within a single system.
+
+ ![Screenshot from 2024-01-22 16-09-01](https://github.com/avengers-p7/Documentation/assets/156644891/a3d8c3a5-f00e-48d7-b337-194dbbb3d78f)
+
+**Working Directory**: A box labeled "Working Directory" represents the directory where your project files are stored.
+
+**Local Database**: Another box labeled "Local Database" represents the database or system that the Local VCS uses to keep track of changes.
+
+**Arrows**: An arrow pointing from the "Working Directory" to the "Local Database" indicates that changes made in the working directory are recorded in the local database.
 
 ***
 
