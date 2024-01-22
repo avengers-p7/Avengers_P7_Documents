@@ -15,8 +15,6 @@
 5. [Refrences](#references)
 ***
 
-## Purpose
-***
 ## Introduction 
 In this document, we explore the choice between Mono Repo and Micro Repo for version control by defining and comparing them. We have also stated the points through which we should choose the right approach according to our requirement/ use case. 
 ### Mono Repo
