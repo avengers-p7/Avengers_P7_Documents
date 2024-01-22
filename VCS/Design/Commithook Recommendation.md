@@ -7,7 +7,7 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction-of-Commithook)
-+ [Recommended Commit Hoo](#Recommended-Commit-Hook)
++ [Recommended Commit Hook](#Recommended-Commit-Hook)
 + [Pre-Commit Hook](Pre-Commit-Hook)
 + [Why Use Pre-commit Hooks](#Why-Use-Pre-commit-Hooks)
 + [Comparison of Git Hooks](#Comparison-of-Git-Hooks)
