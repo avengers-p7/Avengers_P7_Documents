@@ -4,6 +4,32 @@
 
 ***
 
+# Table Of Contents
+
+**1. Introduction**
+
+**2. Purpose**
+
+**3. Evolution of Version Control Systems (VCS) Before Git**
+
+**4. Key points that enhances GitHub tool follows**
+
+**5. Additional Benefits of GitHub**
+
+**6. Branching Strategies**
+
+**7. Benefits of GitHub**
+
+**8. Challenges of GitHub**
+
+**9. Conclusion**
+
+**10. Contact Information**
+
+**11. Reference**
+
+***
+
 # Introduction:-
   This is the documentation for GitHub including it's features and also covered the necessary points to enhance the tool. It combines the distributed 
   version control system Git with powerful collaboration features, making it a central hub for developers to work on projects, share code, and 
@@ -31,7 +57,9 @@ GitHub, founded in 2008 by Chris Wanstrath, PJ Hyett, and Tom Preston-Werner, bu
 | -------- | ----------- |
 | **Collaboration and Social Coding** | GitHub transformed version control into a social platform. Developers can follow projects, star repositories, and contribute to open-source projects seamlessly. |
 | **Pull Requests and Code Review** | GitHub introduced the concept of pull requests, allowing contributors to propose changes, discuss modifications, and request code reviews. This workflow has become a standard for collaboration. |
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+***
+
 # Key points that enhances GitHub tool follows:-
 | Features | Description |
 | -------- | ----------- |
@@ -44,6 +72,7 @@ GitHub, founded in 2008 by Chris Wanstrath, PJ Hyett, and Tom Preston-Werner, bu
 |  **Issue Tracking** | GitHub includes a robust issue-tracking system. Teams can use it to create, assign, and prioritize tasks, bugs, and feature requests. |
 
 ***
+
 # Additional Benefits of GitHub:-
 
  # GitHub Pages:-
@@ -84,13 +113,16 @@ GitLab-Flow strikes a balance between Git-Flow and GitHub-Flow. It adopts GitHub
 Trunk Based Development promotes a single shared branch called “trunk” and eliminates long-living branches. There are two variations based on team size: smaller teams commit directly to the trunk, while larger teams create short-lived feature branches. Frequent integration of smaller feature slices is encouraged to ensure regular merging.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/ce4652f1-6571-4600-9c96-3a61f620bc2c)
-*****************************************************************************************************************************************************************************
+
+***
+
 # Benefits of GitHub:-
 | Features | Description |
 | -------- | ----------- |
 | **Collaboration and Code Review** | GitHub provides a platform for collaborative development with features such as pull requests, which facilitate code review and discussion. |
 | **Repository Hosting** | GitHub hosts Git repositories, providing a centralized location for storing, sharing, and managing source code. Repositories can be public or private, allowing for open-source projects or private development work. |
 | **Community Support** | GitHub has a large and active community of developers. This community support can be valuable for troubleshooting, seeking advice, and learning best practices from others in the field. |
+
 *** 
 
 # Challenges of GitHub:-
@@ -109,6 +141,7 @@ Trunk Based Development promotes a single shared branch called “trunk” and e
   contribute to its widespread adoption.
 
 ***
+
 # Contact Information:-
 | Name | Email Address |
 | ---- | ------------- |
