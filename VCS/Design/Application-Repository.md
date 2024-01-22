@@ -36,8 +36,21 @@
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/0325245e-1b6e-4432-bf77-003609692384)
 
-
 ***
+
+
+### Frontend
+
+**1: Static**  
+**2: Src**
+
+### Backend
+
+ **1: Employee-api**  
+ **2: Salary-api**
+
+ ***
+
 
 **Note:**
   Frontend (React) code is stored on GitHub for React-based applications, and Backend (Django) code is separately stored on GitHub, designed 
