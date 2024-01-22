@@ -33,14 +33,10 @@
    **There are the two main types of repositories commonly used in DevOps:**
 | Repository Type       | Description                                                       | Example Platforms                         |
 |-----------------------|-------------------------------------------------------------------|-------------------------------------------|
-| **Source Repository** | Manages and stores the source code of software projects.           | GitHub, GitLab, Bitbucket, Azure DevOps    |
-| **Artifact Repository**| Stores and manages binary artifacts produced during development and deployment processes. | JFrog Artifactory, Sonatype Nexus Repository, Docker Hub, AWS CodeArtifact, GitLab Container Registry |
+| **Source Repository** | Manages and stores the source code of software projects.           | GitHub, GitLab, Bitbucket,  |
+| **Artifact Repository**| Stores and manages binary artifacts produced during development and deployment processes. | Nexus Repository, Docker Hub, AWS CodeArtifact, GitLab Container Registry |
 
   
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
