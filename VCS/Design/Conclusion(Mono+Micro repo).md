@@ -56,7 +56,7 @@ If the project follows a microservices' architecture, where components need inde
 ***
 ## Conclusion
 
-In conclusion, a monorepo offers advantages like improved visibility, code sharing, and standardized practices for managing microservices. However, challenges include slower development cycles and potential complexities. To optimize monorepo usage, consider best practices such as selective builds, effective dependency management, and trunk-based development. The decision to adopt a monorepo should be based on a careful evaluation of specific needs and a balanced consideration of its benefits and challenges. Successful implementation requires a thoughtful approach and collaboration within the development team.
+Choosing a microrepo strategy for separate components offers flexibility and autonomy, aligning well with our requirements. This approach allows independent development and deployment, fostering scalability and streamlined processes. While a monorepo has its merits, the decision hinges on project size, complexity, and team structure. In our case, the microrepo approach suits our needs for agile development and component autonomy. Successful implementation demands thoughtful planning and collaboration within the development team.
 ***
 
 ## Contact Information
@@ -72,11 +72,5 @@ In conclusion, a monorepo offers advantages like improved visibility, code shari
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
-|     Mono Repo                    | https://www.perforce.com/blog/vcs/what-monorepo#what-01 |
-|                                  | https://www.toptal.com/front-end/guide-to-monorepos#:~:text=Instead%20of%20managing%20multiple%20repositories,website%20and%20its%20iOS%20app.
-|                                  | https://circleci.com/blog/monorepo-dev-practices/ |
-| Mono Repo Best Practices | https://buildkite.com/blog/monorepo-ci-best-practices |
-| Use Case | https://kinsta.com/blog/monorepo-vs-multi-repo/
-|          | https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext |
-***
-|Comparison | https://www.thoughtworks.com/en-de/insights/blog/agile-engineering-practices/monorepo-vs-multirepo |
+|     Mono Repo  vs  Micro Repo    | https://www.thoughtworks.com/en-de/insights/blog/agile-engineering-practices/monorepo-vs-multirepo |
+
