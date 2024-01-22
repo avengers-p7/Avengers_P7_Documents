@@ -201,7 +201,7 @@ The combination of robust databases such as PostgreSQL for structured data, Scyl
 | [Salary_API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Salary_API.md) | Salary_API Setup Documentation |
 | [PostgreSQL Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL.md) | PostgreSQL Setup Documentation |
 | [Redis Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md) | Redis Setup Documentation |
-| [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md) | SycllaDB Setup Documentation |
+| [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md) | ScyllaDB Setup Documentation |
 
 
 
