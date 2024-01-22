@@ -11,7 +11,7 @@
 + [How to Choose a Branching Strategy](#How-to-Choose-a-Branching-Strategy)
 + [Comparison](#Comparison)
 + [When to Use Each Strategy](#When-to-Use-Each-Strategy)
-+ [Conclusion](#Conclusion)
++ [Reason for selecting Feature Workflow Strategy](#Reason-for-selecting-Feature-Workflow-Strategy)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [References](#References)
@@ -44,7 +44,7 @@ Choosing the right branching strategy depends on various factors:
 
 * **Deployment Pipeline:** Consider how the code progresses through different environments and choose a strategy that aligns with your deployment pipeline.
 
-# Comparison
+# Comparison 
 
 | Branching Strategy | Advantages                            | Drawbacks | Focus            |
 | ------             | ----------                            | ----------| ---------------- |
@@ -55,6 +55,7 @@ Choosing the right branching strategy depends on various factors:
 
 This table provides a concise comparison of the mentioned branching strategies, highlighting their respective advantages, drawbacks, and primary focus. The choice among these strategies should be based on the specific needs and characteristics of the project at hand.
 
+
 # When to Use Each Strategy
 * **Feature Branch Flow:** Ideal for projects where parallel development and feature isolation are critical.
 
@@ -64,10 +65,12 @@ This table provides a concise comparison of the mentioned branching strategies, 
 
 * **Environment Branch Flow:** Useful for projects with a clear separation of environments in the deployment pipeline.
 
-# Conclusion
-The strategy you choose will depend on your team and the nature and complexity of your project and so this should be evaluated on a case-by-case basis. Here, in this case we are proceeding with the Feature Workflow Strategy according to our team & use case.
-
+# Reason for selecting Feature Workflow Strategy
+Here, in this case we are proceeding with the Feature Workflow Strategy according to our team & use case.
 The Feature Branch Workflow is a versatile strategy suitable for projects of various sizes and complexities. Its emphasis on collaboration, isolation, and systematic testing makes it an excellent choice for teams aiming for organized and controlled feature development. The workflow accommodates different development paces and provides a structured approach to managing releases. Code reviews are efficient and focused, contributing to overall code quality. By maintaining a stable main branch, the Feature Branch Workflow supports a consistent and reliable code base.
+
+# Conclusion
+The strategy you choose will depend on your team and the nature and complexity of your project and so this should be evaluated on a case-by-case basis. Selecting the right branching strategy is pivotal for a successful development process. Assessing project requirements, team dynamics, and release needs is essential. There is no one-size-fits-all solution; the choice depends on the project's unique characteristics.
 
 # Contact Information
 
