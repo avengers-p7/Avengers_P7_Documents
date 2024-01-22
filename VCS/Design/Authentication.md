@@ -36,11 +36,14 @@ One can access  resources in GitHub in a variety of ways like, in the browser, w
 
 ***
 # Comparision of Authentication Methods
-| Method | Description | Strength | Weakness |
-| ---- | ------------- | -------- | -------- |
-| Username and Password | Basic authentication using a combination of a username and password. | Easy to set up and use.	| Vulnerable to password-based attacks. No second factor for added security. |
-| Personal Access Token (PAT)	| Token-based authentication tied to a user account. | Provides granular access control. Supports two-factor authentication (2FA). | Requires manual token management. Can be compromised if mishandled. |
-| SSH Keys | Secure Shell (SSH) key pairs for authentication.	| Strong security with public-private key pairs. No need for password entry. | Requires key generation and management. Initial setup can be more complex. |
+| Method | Ease of Setup	 | Security Level	 | Usability | Granularity of Access Control	|  Integration Complexity	 |  Multi-Factor Authentication (MFA)	 |
+| ---- | ------------- | -------- | -------- | ---------- | ---------- | ---------- |
+| Username and Password | Easy | Low | High |  Limited |  N/A	 |  Optional (password-based)	 |
+| Personal Access Token (PAT)	 |  Moderate |  Medium to High | Moderate | High | Moderate |  Optional (token-based)	|
+| SSH Keys	 |  Moderate	 |  High |  Moderate |  High |  Moderate to High	 |  Optional (key-based)	 |
+| OAuth Apps	|  Moderate | Medium | High | High |  Moderate to High  | Optional (token-based)	 |
+| GitHub App Installation Token	 |  Moderate |  High |  Moderate |  High  | Moderate to High	 |  Optional (token-based)	 |
+| Single Sign-On (SSO)	 | Moderate to Complex	 |  High | High | High | Moderate to Complex	 |  Optional (depends on SSO provider)	 | 
 ***
 
 
