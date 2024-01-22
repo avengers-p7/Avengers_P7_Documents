@@ -31,17 +31,17 @@ Microrepos, or "microservices repositories," involve maintaining separate reposi
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056570/ba8a766f-32b8-4666-bab8-be46119bc41d)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056570/8e01306f-d544-4cc1-839d-a3f2164705f0)
-|Technical aspect by concept | Mono Repo | Micro Repo |
-| :------------------------: | :-------: | :--------: |
-| Clean Code                 |    ✅     |    ❌      | 
-| Refator Code               |    ✅     |    ❌      |
-| Security                   |    ❌     |    ✅      |
-| Scalibilty                 |    ❌     |    ✅      |
-| Tests(Unit, Int, e2e)      |    ✅     |     ⚠️      |
-| Module Versioning          |     ⚠️     |    ✅      |
-| Clear Owernship            |    ✅     |    ✅      |
-| Intergration(CI/CD)        |     ⚠️     |    ✅      |
-| Dependency Administration  |    ✅     |     ⚠️      |
+| Technical aspect by concept | Mono Repo | Micro Repo |
+| :------------------------:  | :-------: | :--------: |
+| Clean Code                  |    ✅     |    ❌      | 
+| Refator Code                |    ✅     |    ❌      |
+| Security                    |    ❌     |    ✅      |
+| Scalibilty                  |    ❌     |    ✅      |
+| Tests(Unit, Int, e2e)       |    ✅     |     ⚠️      |
+| Module Versioning           |     ⚠️     |    ✅      |
+| Clear Owernship             |    ✅     |    ✅      |
+| Intergration(CI/CD)         |     ⚠️     |    ✅      |
+| Dependency Administration   |    ✅     |     ⚠️      |
 | Migrating to another type of repository managenment    |    ❌     |    ✅      |
 
 ✅ (Benefit) = Represents something obtainable without much effort.
