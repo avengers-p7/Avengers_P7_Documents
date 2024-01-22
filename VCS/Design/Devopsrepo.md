@@ -46,17 +46,15 @@
 
 
 ## Features of DevOps Repositories:
-   | Feature  | Description |
-   |---------------------------|---------------------------------------------------------------------------------------------------------------|
-   | **Versioning** | Tracks changes in the codebase, enabling collaboration and ensuring version consistency.|
-   | **Branching and Merging**| Facilitates parallel development efforts through branching and integrates changes back into the main 
-   codebase via merging. |
-   | **Code Review Tools**| Supports collaborative code reviews, fostering a culture of knowledge sharing and quality improvement.|
-   | **Issue Tracking**| Manages and tracks issues, bugs, and feature requests for effective project management.|
-   | **Access Control**| Defines roles and permissions to control access to repositories, ensuring security and compliance.|
-   | **Integration Capabilities** | Integrates with various development tools, CI/CD pipelines, and third-party services to streamline 
-   workflows.|
-   | **Security Features**| Implements security measures to protect source code and sensitive information from unauthorized access.  |
+   | Feature        | Description | Example|
+|------------------------|------------------------------------------------------------------------------------------------------|--------------|
+| **Versioning**         | Tracks changes in the codebase, enabling collaboration and ensuring version consistency.             | Git (GitHub, GitLab, Bitbucket), SVN         |
+| **Branching and Merging** | Facilitates parallel development efforts through branching and integrates changes back into the main codebase via merging. | Git (GitHub, GitLab, Bitbucket), Mercurial   |
+| **Code Review Tools**  | Supports collaborative code reviews, fostering a culture of knowledge sharing and quality improvement.| GitHub, GitLab, Bitbucket, Crucible          |
+| **Issue Tracking**     | Manages and tracks issues, bugs, and feature requests for effective project management.               | Jira, GitHub Issues, GitLab Issues, Trello  |
+| **Access Control**     | Defines roles and permissions to control access to repositories, ensuring security and compliance.   | GitHub, GitLab, Bitbucket, Azure DevOps       |
+| **Integration Capabilities** | Integrates with various development tools, CI/CD pipelines, and third-party services to streamline workflows. | Jenkins, Travis CI, CircleCI, GitLab CI   |
+| **Security Features**  | Implements security measures to protect source code and sensitive information from unauthorized access. | Git (GitHub, GitLab, Bitbucket), GitLab CI, SonarQube |
 
 
 
