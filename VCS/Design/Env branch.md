@@ -30,6 +30,7 @@ The environment branch workflow is useful for teams that work on large projects 
 | ------------             | ---------------------------------------------------------------------------------------------------------          |
 | Development Branch       |  This is where all new features and bug fixes are developed and tested                                             |  
 | Testing Branch           |  This environment is dedicated to comprehensive testing to identify and fix bugs before moving to the next stage   |
+| Pre-Production Branch    | A dedicated environment for pre-production testing, ensuring compatibility and readiness for the live environment  |
 | Staging Branch           | This environment closely mirrors the production environment and serves as a final testing ground before deployment |
 | Production Branch        | The production branch contains the stable and tested code that is ready for deployment to the live environment     |
 
