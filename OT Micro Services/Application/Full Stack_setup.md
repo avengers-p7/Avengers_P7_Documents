@@ -127,6 +127,10 @@ Specify the important ports used by the microservices and their descriptions.
 
 ***
 
+# Full Stack Setup
+
+***
+
 # Error Handling
 
 Document common errors and their resolutions during the setup and usage of the microservices.
@@ -151,9 +155,14 @@ Include any external sources or references used in the documentation.
 
 | Source               | Description                |
 | -------------------- | -------------------------- |
-| Source 1             | Description 1              |
-| Source 2             | Description 2              |
-| Source 3             | Description 3              |
+| [Frontend Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Frontend.md)            | Fronend Setup Documentation |
+| [Attendence_API Documentation]( https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Attendance_API.md)            | Attendence_Api Setup Documentation |
+| [Employee_API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API.md)            | Employee_API Setup Documentation |
+| [Salary_API Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Salary_API.md) | Salary_API Setup Documentation |
+| [PostgreSQL Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL.md) | PostgreSQL Setup Documentation |
+| [Redis Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis.md) | Redis Setup Documentation |
+| [ScyllaDB Documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/ScyllaDB.md) | SycllaDB Setup Documentation |
+
 ***
 
 # Contact Information
