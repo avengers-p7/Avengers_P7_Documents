@@ -1,4 +1,4 @@
-# Documentations of  Code Complication in Java CI checks
+|# Documentations of  Code Complication in Java CI checks
 
 |Author  | Created on |version | last updated on|
 |--------|------------|---------|----------------|
@@ -79,8 +79,8 @@ Here's a comparison table of some key features and characteristics of the mentio
 |Convention over Configuration	| No |	Yes, follows conventions (standard project structure)	| Yes, supports convention-based development	| No |
 |Plugins and Extensions	|  Limited |	Rich ecosystem of plugins | 	Extensive plugin system	| Various plugins available |
 | Incremental Builds	| No	| Yes, supports incremental builds |	Yes, incremental builds for improved performance	| No |
-Integrations with IDEs	Integrated	Integration available (e.g., Eclipse, IntelliJ IDEA)	Integration available (e.g., IntelliJ IDEA)	Integration available (e.g., Eclipse)
-Community Support	N/A	Active community support	Active community support	Moderate community support
+| Integrations with IDEs	| Integrated	| Integration available (e.g., Eclipse, IntelliJ IDEA)	| Integration available (e.g., IntelliJ IDEA)	| Integration available (e.g., Eclipse)|
+| Community Support | 	N/A	 |Active community support	| Active community support |	Moderate community support |
 
 
 
