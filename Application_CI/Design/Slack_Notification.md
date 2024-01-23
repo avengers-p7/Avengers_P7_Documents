@@ -47,7 +47,9 @@ Go to the Slack website.Click on "Get started for free" or "Create a new workspa
 
 ***
 
-**Step-2 Channel Creation** Creating a dedicated channel for Jenkins notifications helps isolate and organize build-related messages.
+**Step-2 Channel Creation**
+
+Creating a dedicated channel for Jenkins notifications helps isolate and organize build-related messages.
 
 Log in to your Slack workspace.In the left sidebar, click on the "+" button next to "Channels."Choose "Create a channel."
 
@@ -56,7 +58,9 @@ Log in to your Slack workspace.In the left sidebar, click on the "+" button next
 
 ***
 
-**Step-3 Jenkins CI Setup** This step includes the steps for "Password" or "Secret Text" creation,which is an important part for Slack Notification.With this,will get the "Team Subdomain" & "Password" which is needed for jenkins slack notification configuration.
+**Step-3 Jenkins CI Setup**
+
+This step includes the steps for "Password" or "Secret Text" creation,which is an important part for Slack Notification.With this,will get the "Team Subdomain" & "Password" which is needed for jenkins slack notification configuration.
 
 <img width="945" alt="Screenshot 2024-01-23 181736" src="https://github.com/avengers-p7/Documentation/assets/156057205/ac515c7a-4501-48b6-b84d-2724d1084572">
 
@@ -74,7 +78,9 @@ Log in to your Slack workspace.In the left sidebar, click on the "+" button next
 
 ***
 
-**Step-4 Jenkins Configuration** Setting up Jenkins Global Configuration for Slack notifications allows you to centralize and manage Slack-related settings at a global level. This global configuration provides a convenient way to store and share common information, such as Slack team domain and integration tokens, across multiple Jenkins jobs.
+**Step-4 Jenkins Configuration** 
+
+Setting up Jenkins Global Configuration for Slack notifications allows you to centralize and manage Slack-related settings at a global level. This global configuration provides a convenient way to store and share common information, such as Slack team domain and integration tokens, across multiple Jenkins jobs.
 
 Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.In the "Team Domain" field, enter the Slack team domain.In the "Integration Token Credential" section, click on "Add" to add your Slack integration token as a Jenkins credential.Enter the necessary information, such as the token itself and an ID to identify the credential.In the "Test Connection" section, enter a Slack channel name and click on "Test Connection" to verify that Jenkins can communicate with Slack.
 
@@ -86,7 +92,9 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 ***
 
-**Step-5 Creation Of Freestyle Job** Creating a freestyle job in Jenkins for Slack notifications allows you to automate the process of notifying your team about build statuses, failures, or other events directly within your Slack workspace. 
+**Step-5 Creation Of Freestyle Job** 
+
+Creating a freestyle job in Jenkins for Slack notifications allows you to automate the process of notifying your team about build statuses, failures, or other events directly within your Slack workspace. 
 
 Click on "New Item" on the Jenkins dashboard.Enter a name for your project "Doc-Job".
 
@@ -94,7 +102,9 @@ Click on "New Item" on the Jenkins dashboard.Enter a name for your project "Doc-
 
 ***
 
-**Step-6 Job Configuration** Configure any other general settings based on your project requirements.In the "Build" section, click on "Add build step" and select "Execute shell".Scroll down to the "Post-build Actions" section.Click on "Add post-build action" and select "Slack Notifications".
+**Step-6 Job Configuration** 
+
+Configure any other general settings based on your project requirements.In the "Build" section, click on "Add build step" and select "Execute shell".Scroll down to the "Post-build Actions" section.Click on "Add post-build action" and select "Slack Notifications".
 
 <img width="952" alt="Screenshot 2024-01-23 182859" src="https://github.com/avengers-p7/Documentation/assets/156057205/6f1b76f6-aa23-4ae6-853a-7c796cd4acc1">
 
@@ -108,13 +118,17 @@ Click on "New Item" on the Jenkins dashboard.Enter a name for your project "Doc-
 
 ***
 
-**Step-7 Build Status** After configuring,build the job and check the console output for the job's status.
+**Step-7 Build Status** 
+
+After configuring,build the job and check the console output for the job's status.
 
 <img width="955" alt="Screenshot 2024-01-23 182619" src="https://github.com/avengers-p7/Documentation/assets/156057205/79713aee-4436-4ae0-86f7-80476a2a64f1">
 
 ***
 
-**Step-8 Slack Notification** Now,go to slack and check for the notification.
+**Step-8 Slack Notification** 
+
+Now,go to slack and check for the notification.
 
 <img width="654" alt="Screenshot 2024-01-23 182532" src="https://github.com/avengers-p7/Documentation/assets/156057205/d81b0d91-fd0d-4cf9-b977-14eed33a7ced">
 
