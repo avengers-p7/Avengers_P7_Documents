@@ -1,4 +1,4 @@
-# Build Piper
+# BuildPiper
 
 | Author | Created on  | Version    | Last Updated by | Last Updated on |
 | -------- | ------- | -------------- | --------------| ---------------- |
@@ -14,7 +14,7 @@
 ***
 
 ## Introduction 
-This documentation provide a introduction of  _**Build Piper**_  and its features as a CI orchestration tool.
+This documentation provide a introduction of  _**BuildPiper**_  and its features as a CI orchestration tool.
 
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
    
@@ -32,8 +32,22 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 | **Observability with Detailed Insights** | Obtain insights across every aspect of your Services( right from build to deployment), all Kubernetes resources and stages of Pipelines delivery via smart dashboards. These details help the development teams in analyzing and enhancing the application performance. |
 | **Seamless & Flexible CI/CD Operations** | Equipped with feature-rich, secure delivery & setup of CD Pipelines for Macro & Micro builds & deployments, `automated and customizable CI gate checks`, comprehensive `CI analysis with multiple language support` and more. |
 | **GitOps Integration to accelerate the App Delivery Process** | BuildPiper supports comprehensive GitOps-based workflow orchestration to make the software delivery process developer-centric. With essential check gates and approval, the platform enables seamless & faster deployments with standardization. Right from build, to quality validation and ultimately releasing the source code to the production, developers can manage the complete application lifecycle, through git workflows and events. |
-
 ***
+
+## How BuildPiper manages Pipeline
+
+Management of microservice repositories and CI/CD pipeline becomes much more complex and challenging as the number of applications increases. For businesses looking for solutions to manage CI/CD pipelines, BuildPiper is the ideal choice for effective CI/CD pipeline management. It enables intuitive and easy setup of feature-rich delivery pipelines for a seamless and secure product release.
+
+Automated CI checks and complete CI analysis help in identifying the defects and vulnerabilities in the initial stages, thus enabling a quick, complaint, and hassle-free code release. With BuildPiper, the initial set-up and execution of CI/CD pipelines are structured around these 4 primary levers that make it ready for a quick and bug-free software release.
+
+- Automated CI Checks
+   - Comprehensive CI analysis
+   - Multi-language CI support
+- Intuitive and easy setup of feature-rich delivery pipelines
+   - Multiple options to trigger the pipeline
+   - Easy pipeline construct of stages & jobs
+- Realtime details via an interactive and user-friendly UI
+- Simple and easy to understand UI and YAML view
 ## Conclusion
 ***
 
