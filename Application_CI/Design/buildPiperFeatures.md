@@ -71,4 +71,5 @@ Automated CI checks and complete CI analysis help in identifying the defects and
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
-|     Mono Repo  vs  Micro Repo    | https://www.thoughtworks.com/en-de/insights/blog/agile-engineering-practices/monorepo-vs-multirepo |
+|     Introduction    | https://www.buildpiper.io/documentation/docs/getting/introducing |
+|     CI    | https://www.buildpiper.io/documentation/docs/set-up-pipeline/ci-scope |
