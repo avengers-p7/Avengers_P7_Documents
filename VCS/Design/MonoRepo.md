@@ -52,7 +52,7 @@ The monorepo approach has several advantages:
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/021a5f9c-9ff7-4018-a3ea-73813d9d1d42)
 
-# Advantages of Mono Repo
+## Advantages
 
 | Key Principle             | Description |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
