@@ -11,12 +11,11 @@
 # Table Of Contents
 
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#introduction)
-2. [Purpose](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#purpose)
-3. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#pre-requisites)
-4. [Slack Notification Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#slacknotificationsetup)
-5. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#conclusion)
-6. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#contactinformation)
-7. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#reference)
+2. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#pre-requisites)
+3. [Slack Notification Setup](https://github.com/avengersp7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#slacknotificationsetup)
+4. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#conclusion)
+5. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#contactinformation)
+6. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#reference)
 
 ***
 
@@ -122,7 +121,7 @@ Click on "New Item" on the Jenkins dashboard.Enter a name for your project "Doc-
 
 # Conclusion
 
-In conclusion, integrating Slack notifications is a straightforward process using incoming webhooks. This enhances communication and collaboration within your team by keeping everyone informed in real-time. Whether through programming languages or automation tools, Slack notifications are a powerful way to streamline workflows and improve team productivity.
+In conclusion, this documentation has provided a comprehensive guide on integrating Jenkins with Slack for notifications through the creation of a freestyle job. By following the outlined steps, users can seamlessly connect Jenkins and Slack, enabling automated notifications about build statuses, failures, and other relevant events directly within the Slack workspace.
 
 ***
 
