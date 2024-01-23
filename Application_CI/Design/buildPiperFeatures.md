@@ -12,7 +12,7 @@
 3. [How BuildPiper manages Pipeline](#How-BuildPiper-manages-Pipeline)
 4. [Conclusion](#Conclusion)
 5. [Contact Information](#Contact-Information)
-6. [Refrences](#References)
+6. [References](#References)
 ***
 
 ## Introduction 
