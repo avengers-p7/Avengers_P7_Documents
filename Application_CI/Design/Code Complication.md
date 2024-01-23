@@ -1,8 +1,17 @@
-|# Documentations of  Code Complication in Java CI checks
+# Documentations of  Code Complication in Java CI checks
 
 |Author  | Created on |version | last updated on|
 |--------|------------|---------|----------------|
 |Nidhi Bhardwaj | 23-01-2024  | V1 | 23-01-2024 |
+
+***
+# Table of Content
+
+1. Introduction
+2. Different Tools of java Complication 
+3. Comparison
+4. Best Practices 
+
 
 # Introduction 
 
