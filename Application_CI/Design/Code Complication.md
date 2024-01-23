@@ -52,6 +52,19 @@ In the Java ecosystem, there are several tools commonly used for compiling Java 
 
 Compiling is typically triggered automatically when you build or run your project within the IDE.
 
+***
+
+# comparison
+
+Here's a comparison table of some key features and characteristics of the mentioned Java CI/Build tools:
+
+| Feature | javac | Apache Maven | Gradle | Apache Ant|
+|----------|-------|--------------|--------|-----------|
+| Build File Format | java files | pom.xml (XML) | build.gradle (Groovy or Kotlin DSL) | build.xml (XML) |
+|-------------------|-------------|---------------|------------------------------------|-----------------|
+| Dependency Management | Manual (Classpath) | Yes (Central Repository) | Yes (Central Repository) | Yes (Central Repository) | Manual (Libraries) |
+
+
 
 
 
