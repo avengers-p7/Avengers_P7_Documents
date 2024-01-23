@@ -14,10 +14,11 @@
 4. [Advantages](#Advantages)
 5. [Disadvantages](#disadvantages)
 6. [Best Practices](#Best-Practices)
-7. [Who Uses](#who-uses)
-8. [Conclusion](#Conclusion)
-9. [Contact Information](#contact-information)
-10. [Refrences](#references) 
+7. [Choosing the Right Approach](#Choosing-the-Right-Approach)
+8. [Who Uses](#who-uses)
+9. [Conclusion](#Conclusion)
+10. [Contact Information](#contact-information)
+11. [Refrences](#references) 
 ***
 ## Overview
 This document explains the _**Mono Repo**_ approach in software development. It covers various aspects, including its features, advantages, challenges, best practices, and notable use cases. The primary purpose is to provide developers, teams, and organizations with insights into the Mono Repo model, enabling them to make informed decisions about its adoption and implementation.
@@ -82,7 +83,7 @@ To optimize our mono repo we can use the following practices:-
 | **Use Git features to enhance repo performance** | As the size of your repository grows, the amount of bandwidth and system resources required to effectively utilize the project will increase, and the time it takes to clone can become substantial, especially when employing modern CI/CD strategies such as parallelism. In this case, we can use features like `Shallow Clone` and `Sparse Checkout`. 
 | **Use Trunk-based development** | ‘Trunk-based development’ (TBD) is a strategy where all developers work in a single branch, often called the 'trunk' or 'main' branch, and use short-lived feature branches (or no branches at all). It reduces divergence, minimizes merge conflicts, and aligns with CI/CD practices.
 ***
-## Choosing the Right Approach:
+## Choosing the Right Approach
 When deciding between a monorepo and microrepo strategy for a project with separate backend and frontend components, several factors should be considered.
 
 |         Factors        | Description |
