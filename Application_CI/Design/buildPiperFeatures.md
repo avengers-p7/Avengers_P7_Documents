@@ -50,6 +50,12 @@ Automated CI checks and complete CI analysis help in identifying the defects and
    - Easy pipeline construct of stages & jobs
 - Realtime details via an interactive and user-friendly UI
 - Simple and easy to understand UI and YAML view
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/2ff08f16-7315-491a-9281-9c8e2c96139e)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/22aa47ec-83a2-4c35-b298-946e4b228d7c)
+
+
 ## Conclusion
 ***
 
