@@ -61,7 +61,7 @@ The monorepo approach has several advantages:
 | **Ease of Collaboration**    | Monorepos make it easier for developers to work together, as all the code is available in a single location. |
 | **Atomic Commits and Cross-Project Changes** | Changes across multiple projects can be committed atomically, maintaining consistency and making rollback easier if necessary.
 ***
-## Challenges/Disadvantages 
+## Disadvantages 
 
 When using a mono repo for all our code we might face a few challenges, some of them are:-
 |         Problem       | Description |
@@ -82,6 +82,16 @@ To optimize our mono repo we can use the following practices:-
 | **Use Git features to enhance repo performance** | As the size of your repository grows, the amount of bandwidth and system resources required to effectively utilize the project will increase, and the time it takes to clone can become substantial, especially when employing modern CI/CD strategies such as parallelism. In this case, we can use features like `Shallow Clone` and `Sparse Checkout`. 
 | **Use Trunk-based development** | ‘Trunk-based development’ (TBD) is a strategy where all developers work in a single branch, often called the 'trunk' or 'main' branch, and use short-lived feature branches (or no branches at all). It reduces divergence, minimizes merge conflicts, and aligns with CI/CD practices.
 ***
+## Choosing the Right Approach:
+When deciding between a monorepo and microrepo strategy for a project with separate backend and frontend components, several factors should be considered.
+
+|         Factors        | Description |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Project Size and Complexity** |Monorepos are generally more suitable for large projects with complex interdependencies. If the backend and frontend are tightly coupled and share many common dependencies, a monorepo can simplify development and maintenance.Microrepos are often preferred for smaller projects or those with loosely coupled components, as they allow for more granular control and flexibility.|
+| **Team Structure and Autonomy** | If backend and frontend teams work independently and prefer autonomy in their codebases, microrepos can provide more flexibility and ownership.Monorepos are beneficial for fostering collaboration and sharing code among teams working on different components.|
+| **Deployment and Scalability Needs** | If the project follows a microservices' architecture, where components need independent deployment and scalability, microrepos align more closely with this approach.Monorepos may be preferred when a unified release and deployment process across all components is required.|
+***
+
 ## Who Uses
 
 Several big tech companies favour the monorepo approach, while others have decided to use the multi-repo method. `Google, Facebook, Twitter, and Uber` have all publicly vouched for the monorepo approach. 
