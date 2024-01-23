@@ -92,7 +92,7 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 ***
 
-**Step-5 Creation Of Freestyle Job** 
+**Step-5 Creation of Freestyle Job** 
 
 Creating a freestyle job in Jenkins for Slack notifications allows you to automate the process of notifying your team about build statuses, failures, or other events directly within your Slack workspace. 
 
