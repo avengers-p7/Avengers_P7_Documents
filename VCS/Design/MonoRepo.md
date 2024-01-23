@@ -84,6 +84,7 @@ To optimize our mono repo we can use the following practices:-
 | **Use Trunk-based development** | ‘Trunk-based development’ (TBD) is a strategy where all developers work in a single branch, often called the 'trunk' or 'main' branch, and use short-lived feature branches (or no branches at all). It reduces divergence, minimizes merge conflicts, and aligns with CI/CD practices.
 ***
 ## Choosing the Right Approach
+### Mono Repo or Micro Repo
 When deciding between a monorepo and microrepo strategy for a project with separate backend and frontend components, several factors should be considered.
 
 |         Factors        | Description |
