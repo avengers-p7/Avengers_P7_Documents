@@ -8,9 +8,11 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Conclusion](#Conclusion)
-3. [Contact Information](#Contact-Information)
-4. [Refrences](#References)
+2. [Features](#Features)
+3. [How BuildPiper manages Pipeline](#How-BuildPiper-manages-Pipeline)
+4. [Conclusion](#Conclusion)
+5. [Contact Information](#Contact-Information)
+6. [Refrences](#References)
 ***
 
 ## Introduction 
