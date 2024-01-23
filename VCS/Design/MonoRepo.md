@@ -12,7 +12,7 @@
 2. [Introduction](#introduction)
 3. [Features](#features)
 4. [Advantages of Mono Repo](#Advantages-of-Mono-Repo)
-5. [Challenges/Disadvantages](#challengesdisadvantages)
+5. [Disadvantages](#disadvantages)
 6. [Best Practices](#Best-Practices)
 7. [Who Uses](#who-uses)
 8. [Conclusion](#Conclusion)
