@@ -7,6 +7,10 @@
 # Table of Contents
 
 + [Introduction](#Introduction)
++ [Why](#Why)
++ [Before-Jenkins](#Before-Jenkins)
++ [Jenkins-helped in SDLC](#Jenkins-helpedinSDLC)
++ [Companies that Use Jenkins](#CompaniesthatUseJenkins)
 + [Features of Jenkins](#FeaturesofJenkins)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
