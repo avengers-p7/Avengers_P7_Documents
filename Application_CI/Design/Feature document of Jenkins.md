@@ -25,6 +25,50 @@ Jenkins is a widely-used open-source automation server designed to facilitate co
 
 
 ***
+## Before Jenkins: Issues in Software Development
+
+| Issues in Software Development | Problem | Impact |
+|--------------------------------|---------|---------|
+| **Manual Build and Deployment** | Manual build and deployment processes were error-prone | Inconsistencies between environments, deployment failures, and delays |
+| **Lack of Continuous Integration** | Frequent integration of code changes was not standard | Longer feedback loops, difficulty identifying integration issues, slower response |
+| **Limited Automation** | Repetitive tasks like testing and code analysis manual | Time-consuming manual testing, higher risk of errors, slower release cycles.|
+| **Inefficient Collaboration** | 	Collaboration between teams (dev, test, ops) was siloed | Slow response times to issues, hindering overall software delivery |
+| **Difficulty in Scalability** | Scaling development for larger codebases was challenging | Increased complexity, management overhead, especially in growing projects.|
+
+***
+
+**Note:** This table provides a clear overview of the issues in software development before the introduction of Jenkins, highlighting the problems and their corresponding impacts.
+
+***
+
+***
+## How Jenkins Helped in SDLC:
+|Jenkins Contributions to SDLC | Solution | Impact |
+|------------------------------|----------|---------|
+| **Automated Builds** | Jenkins automated the build process. | Consistent and reliable builds, reducing errors and ensuring reproducibility.|
+| **Continuous Integration**| Jenkins facilitated continuous integration. | Faster feedback, early detection of integration issues, and improved collaboration.|
+| **CI/CD Pipelines** | Jenkins introduced CI/CD pipelines. | Streamlined development cycles, rapid and reliable software delivery. |
+| **Collaborative Workflows**| Jenkins promoted collaborative workflows with merge requests.| Improved collaboration between teams, leading to faster issue resolution.|
+|**Scalability and Flexibility**| Jenkins is flexible, allowing organizations to scale automation. | Improved scalability, adapting to changing project sizes and complexities.|
+
+***
+
+**Note:** This table summarizes how Jenkins has positively impacted the Software Development Life Cycle (SDLC) by introducing automated builds, continuous integration, CI/CD pipelines, collaborative workflows, and providing scalability and flexibility to development processes.
+
+***
+## Companies that Use Jenkins:
+| Companies Using Jenkins	| Description |
+|-------------------------|-------------|
+|**Google**	| Jenkins is integral to Google's CI/CD workflows, ensuring project reliability. |
+|**Netflix**	| Netflix relies on Jenkins for automating testing and deployment, enhancing release cycles. |
+|**Uber**| Jenkins plays a key role in Uber's CI/CD pipeline, ensuring rapid and reliable software delivery. |
+| **LinkedIn**| LinkedIn utilizes Jenkins for continuous integration, streamlining development processes.|
+| **eBay**|	Jenkins is a crucial component of eBay's automation strategy, contributing to development efficiency. |
+
+***
+**Note:** This table provides a concise overview of some prominent companies and how they leverage Jenkins in their software development processes.
+
+***
 
 ## Features:
 | Feature	| Description |
