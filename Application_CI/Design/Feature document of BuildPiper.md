@@ -8,7 +8,7 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Minimum Infrastructure Requirements to Setup BuildPiper](#Minimum-Infrastructure-Requirements-to-Setup-BuildPiper)
+2. [System Requirements](#System-Requirements)
 3. [Features](#Features)
 4. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
 5. [Conclusion](#Conclusion)
@@ -35,8 +35,7 @@ Management of microservice repositories and CI/CD pipeline becomes much more com
 Automated CI checks and complete CI analysis help in identifying the defects and vulnerabilities in the initial stages, thus enabling a quick, complaint, and hassle-free code release. 
 ***
 
-## Minimum Infrastructure Requirements to Setup BuildPiper
-
+## System Requirements
 For stand-alone setup :-
 
 |   System Requirement              |             Minimum           |
