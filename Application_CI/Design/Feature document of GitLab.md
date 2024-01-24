@@ -1,4 +1,4 @@
-## Feature document of GitLab.md
+## Feature document of GitLab
 
 ***
 
