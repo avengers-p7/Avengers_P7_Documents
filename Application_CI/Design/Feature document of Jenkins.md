@@ -88,9 +88,7 @@ Jenkins for automated and efficient software development, enabling continuous in
 | **Monitoring and Notifications** | Jenkins offers monitoring features and notifications, keeping users informed about build status, failures, and other critical events.|
 | **Parameterized Builds** | Jenkins supports parameterized builds, allowing customization of build processes based on user-defined parameters.|
 
-***
-### Note:
-This table summarizes the key features of Jenkins, providing a quick reference to its capabilities in automation, extensibility, scalability, version control integration, community support, monitoring, and customization of build processes.
+**Note:** This table summarizes the key features of Jenkins, providing a quick reference to its capabilities in automation, extensibility, scalability, version control integration, community support, monitoring, and customization of build processes.
 
 ***
 
