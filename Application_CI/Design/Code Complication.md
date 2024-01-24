@@ -187,6 +187,26 @@ Implement robust error handling in your build script to catch and report errors.
 Ensure that the build logs provide sufficient information for debugging.
 
 
+# Recommendation/conclusion
+
+In conclusion, implementing effective Continuous Integration (CI) checks within the context of Java application design is crucial for ensuring the reliability, maintainability, and efficiency of the software development process. By integrating CI checks into the development workflow, teams can establish a systematic approach to identifying and addressing issues early in the development cycle. 
+
+# Contact Information 
+
+|Name | Email ID |
+|------|---------|
+|Nidhi Bhardwaj | nidhi.bhardwaj.snaatak@mygurukulam.co |
+
+***
+
+# References 
+
+|Link | Description |
+|-----|--------------|
+| https://www.toptal.com/java/java-continuous-integration-setup-tutorial | Documentation |
+
+
+
 
 
 
