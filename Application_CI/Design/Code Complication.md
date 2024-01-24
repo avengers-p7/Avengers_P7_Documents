@@ -1,4 +1,4 @@
-# Documentations of  Code Complication in Java CI checks
+# Documentations of  Code compilation in Java CI checks
 
 |Author  | Created on |version | last updated on|
 |--------|------------|---------|----------------|
@@ -8,12 +8,13 @@
 # Table of Content
 
 1. Introduction
-2. What/Why
-3. Different Tools of java Complication 
+2. What
+3. Different Tools of java compilation
 4. Comparison
 5. Best Practices
-6. Recommendation/conclusion
-7. Contact Information and References
+6. conclusion
+7. Contact Information
+8. References
 
 ***
 
@@ -27,7 +28,7 @@ Java CI code compilation in the context of checking in code. Continuous Integrat
 
 ***
 
-# What is java ci code complication 
+# What is java ci code compilation
 
 ***Java CI (Continuous Integration)**:
 
@@ -39,7 +40,7 @@ Code compilation is the process of converting human-readable source code into ma
 
 ***
 
-# Different Tools of java Complication 
+# Different Tools of java compilation
 
 In the Java ecosystem, there are several tools commonly used for compiling Java code. Here are some of the prominent ones
 
@@ -114,97 +115,28 @@ Here's a comparison table of some key features and characteristics of the mentio
 
 Continuous Integration (CI) specifically for Java code compilation, there are several best practices that can help streamline the process and ensure code quality. Here are some recommendations:
 
-**1. Use a Build Tool**:
-
-Employ a robust build tool such as Maven or Gradle for managing dependencies and compiling Java code.
-
-Define project configurations and dependencies in a build file (pom.xml for Maven, build.gradle for Gradle).
-
-**2. Build Isolation**:
-
-Ensure that each CI build is isolated to prevent interference from other builds.
-
-Avoid shared resources to prevent conflicts and ensure reproducibility.
-
-**3. Automate Compilation**:
-
-Automate the compilation process to catch syntax errors and ensure code consistency.
-Include compilation as a step in your CI pipeline.
-
-**4. Dependency Management**:
-
-Clearly specify and manage dependencies in your build tool configuration.
-
-Regularly update dependencies to the latest versions to benefit from bug fixes and improvements.
-
-**5. JDK Version Compatibility**:
-
-Specify the target JDK version in your build configuration to ensure compatibility.
-
-Consider testing code with different JDK versions, especially if your application needs to support multiple versions.
-
-**6. Parallel Compilation**:
-
-Leverage the parallel compilation feature of your build tool to speed up the build process.
-
-Configure the number of threads for compilation based on your build server's capabilities.
-
-**7. Incremental Builds**:
-
-Use incremental builds to only compile the files that have changed since the last build.
-
-This can significantly reduce build times, especially for larger projects.
-
-**8. Static Code Analysis**:
-
-Integrate static code analysis tools (e.g., FindBugs, Checkstyle, PMD) into your build process.
-
-Enforce coding standards and identify potential issues early in development.
-
-**9. Code Quality Metrics**:
-
-Integrate tools like SonarQube to measure and monitor code quality metrics.
-
-Set up quality gates to enforce code quality standards.
-
-**10. Automated Testing**:
-
-Include unit tests in your build process to verify the correctness of your code.
-
-Integrate automated tests to run after successful compilation.
-
-**11. Continuous Inspection**:
-
-Regularly inspect the build artifacts and ensure they conform to coding standards.
-
-Consider using tools like JDepend to analyze package dependencies.
-
-**12. Artifact Management:**
-
-Publish build artifacts to a repository manager (e.g., Nexus, Artifactory) for versioning and reuse.
-
-Cache dependencies to speed up subsequent builds.
-
-**13. Documentation**:
-
-Include documentation in your project to explain the build process, dependencies, and any specific compilation considerations.
-
-Keep documentation up-to-date to help new contributors understand the build setup.
-
-**14. Versioning and Tagging**:
-
-Tag releases with version numbers to ensure traceability.
-
-Use versioning consistently across your project and in build configurations.
-
-**15. Error Handling and Logging**:
-
-Implement robust error handling in your build script to catch and report errors.
-
-Ensure that the build logs provide sufficient information for debugging.
+|Name | Description  |
+|------|----- |
+|Use a Build Tool  | Employ a robust build tool such as Maven or Gradle for managing dependencies and compiling Java code.Define project configurations and dependencies in a build file (pom.xml for Maven, build.gradle for Gradle) |
+| Build Isolation| Ensure that each CI build is isolated to prevent interference from other builds. Avoid shared resources to prevent conflicts and ensure reproducibility.|
+| Automate Compilation |Automate the compilation process to catch syntax errors and ensure code consistency. Include compilation as a step in your CI pipeline.|
+|Dependency Management|Clearly specify and manage dependencies in your build tool configuration.Regularly update dependencies to the latest versions to benefit from bug fixes and improvements.|
+|JDK Version Compatibility |Specify the target JDK version in your build configuration to ensure compatibility. Consider testing code with different JDK versions, especially if your application needs to support multiple versions.|
+|Parallel Compilation |Leverage the parallel compilation feature of your build tool to speed up the build process. Configure the number of threads for compilation based on your build server's capabilities |
+|Incremental Builds |Use incremental builds to only compile the files that have changed since the last build. This can significantly reduce build times, especially for larger projects. |
+|Static Code Analysis |Integrate static code analysis tools (e.g., FindBugs, Checkstyle, PMD) into your build process. Enforce coding standards and identify potential issues early in development.|
+|Code Quality Metrics |Integrate tools like SonarQube to measure and monitor code quality metrics. Set up quality gates to enforce code quality standards.|
+|Automated Testing | Include unit tests in your build process to verify the correctness of your code. Integrate automated tests to run after successful compilation |
+|Continuous Inspection |Regularly inspect the build artifacts and ensure they conform to coding standards.Consider using tools like JDepend to analyze package dependencies.|
+|Artifact Management |Publish build artifacts to a repository manager (e.g., Nexus, Artifactory) for versioning and reuse. Cache dependencies to speed up subsequent builds.|
+|Documentation |Include documentation in your project to explain the build process, dependencies, and any specific compilation considerations. Keep documentation up-to-date to help new contributors understand the build setup.|
+| Versioning and Tagging | Tag releases with version numbers to ensure traceability. Use versioning consistently across your project and in build configurations.|
+| Error Handling and Logging | Implement robust error handling in your build script to catch and report errors. Ensure that the build logs provide sufficient information for debugging |
 
 
-# Recommendation/conclusion
+***
+
+# Conclusion
 
 In conclusion, implementing effective Continuous Integration (CI) checks within the context of Java application design is crucial for ensuring the reliability, maintainability, and efficiency of the software development process. By integrating CI checks into the development workflow, teams can establish a systematic approach to identifying and addressing issues early in the development cycle. 
 
