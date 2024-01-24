@@ -46,14 +46,22 @@ Automated CI checks and complete CI analysis help in identifying the defects and
 
 With BuildPiper, the initial set-up and execution of CI/CD pipelines are structured around these 4 primary levers that make it ready for a quick and bug-free software release.
 
-1. Automated CI Checks
+<!-- 1. Automated CI Checks
    - Comprehensive CI analysis
    - Multi-language CI support
 2. Intuitive and easy setup of feature-rich delivery pipelines
    - Multiple options to trigger the pipeline
    - Easy pipeline construct of stages & jobs
 3. Realtime details via an interactive and user-friendly UI
-4. Simple and easy to understand UI and YAML view
+4. Simple and easy to understand UI and YAML view -->
+
+|                            Points                           |                                                  Description                                                |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Automated CI Checks                                         | <ul><li>Comprehensive CI analysis</li><li>Multi-language CI support</li></ul>                               |
+| Intuitive and easy setup of feature-rich delivery pipelines | <ul><li>Multiple options to trigger the pipeline</li><li>Easy pipeline construct of stages & jobs</li></ul> |
+| Realtime details via an interactive and user-friendly UI    |                                                                                                             |
+| Simple and easy to understand UI and YAML view              |                                                                                                             |
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/2ff08f16-7315-491a-9281-9c8e2c96139e)
 
