@@ -15,6 +15,7 @@
 6. Recommendation/conclusion
 7. Contact Information and References
 
+***
 
 # Introduction 
 
@@ -36,6 +37,7 @@ CI refers to the practice of continuously integrating code changes from multiple
 
 Code compilation is the process of converting human-readable source code into machine-readable code or bytecode that can be executed by a computer. In Java, this typically involves using a compiler (e.g., javac) to convert .java source files into .class files
 
+***
 
 # Different Tools of java Complication 
 
@@ -205,6 +207,8 @@ Ensure that the build logs provide sufficient information for debugging.
 # Recommendation/conclusion
 
 In conclusion, implementing effective Continuous Integration (CI) checks within the context of Java application design is crucial for ensuring the reliability, maintainability, and efficiency of the software development process. By integrating CI checks into the development workflow, teams can establish a systematic approach to identifying and addressing issues early in the development cycle. 
+
+***
 
 # Contact Information 
 
