@@ -4,6 +4,16 @@
 | Shikha Tripathi | 23-01-2024| Shikha Tripathi | 23-01-2024|
 
 ***
+# Table of Contents
+
++ [Introduction](#Introduction)
++ [Features of Jenkins](#FeaturesofJenkins)
++ [Advantages](#Advantages)
++ [Disadvantages](#Disadvantages)
++ [Conclusion](#Conclusion)
++ [Contact Information](#Contact_Information)
++ [References](#References)  
+***
 
 ## Introduction:
 Jenkins is a widely-used open-source automation server designed to facilitate continuous integration and continuous delivery (CI/CD) in software development. It serves as the backbone of DevOps practices by automating various aspects of the software delivery lifecycle. Jenkins enables teams to streamline the build, test, and deployment processes, contributing to faster and more reliable software releases.
