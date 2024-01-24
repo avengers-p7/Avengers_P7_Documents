@@ -60,6 +60,11 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 
 # Advantages of AMI
 
+- AMIs allow users to quickly launch instances with pre-configured environments, reducing the time needed for provisioning and deployment.
+- AMIs seamlessly support the scaling of resources up or down based on demand.
+- AMIs facilitate the creation of snapshots, allowing users to back up and restore instances.
+- AMIs support versioning, allowing users to manage and track changes to configurations over time.
+
 ***
 
 # Best Practices
