@@ -25,6 +25,7 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
    
    - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
    - It facilitates zero-touch, fully automated, and secured CI/CD pipelines.
+***
 
 ## Why use BuildPiper?
 
@@ -62,12 +63,12 @@ With BuildPiper, the initial set-up and execution of CI/CD pipelines are structu
 | 2. Intuitive and easy setup of feature-rich delivery pipelines | <ul><li>Multiple options to trigger the pipeline</li><li>Easy pipeline construct of stages & jobs</li></ul> |
 | 3. Realtime details via an interactive and user-friendly UI    |                                                                                                             |
 | 4. Simple and easy to understand UI and YAML view              |                                                                                                             |
-
+***
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/2ff08f16-7315-491a-9281-9c8e2c96139e)
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/22aa47ec-83a2-4c35-b298-946e4b228d7c)
-
+***
 
 ## Conclusion
 
