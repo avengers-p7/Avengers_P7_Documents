@@ -73,3 +73,11 @@ GitLab for an integrated solution to version control, collaboration, and CI/CD, 
 
 ## Conclusion:
 GitLab stands as a powerful platform offering a comprehensive set of features to support the entire software development lifecycle. Its integrated approach to version control, collaboration, and CI/CD provides numerous benefits. However, potential challenges such as a learning curve and resource intensity should be considered based on the specific needs of the development team. GitLab's flexibility and extensive feature set make it a compelling choice for modern software development practices.
+
+***
+## Contact Information
+ | Name |	Email address |
+ | Shikha Tripathi	| shikha.tripathi.snaatak@mygurukulam.co |
+
+ ***
+ 
