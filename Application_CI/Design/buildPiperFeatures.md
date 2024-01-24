@@ -35,7 +35,7 @@ Management of microservice repositories and CI/CD pipeline becomes much more com
 Automated CI checks and complete CI analysis help in identifying the defects and vulnerabilities in the initial stages, thus enabling a quick, complaint, and hassle-free code release. 
 ***
 
-## Minimum Infrastructure Requirements to Setup BuildPiper : 
+## Minimum Infrastructure Requirements to Setup BuildPiper
 
 For stand-alone setup- 1 VM of 4 CPU - 8 GB RAM
 |   System Requirement              |             Minimum                     |
