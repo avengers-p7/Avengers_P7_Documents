@@ -12,13 +12,14 @@
 2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
 3. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
 4. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
-5. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#pre-requisites)
-6. [AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
-7. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
-8. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
-9. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
-10. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
-11. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
+5. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
+6. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#pre-requisites)
+7. [AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
+8. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
+9. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
+10. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
+11. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
+12. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
 
 ***
 
@@ -47,6 +48,17 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 ***
 
 # Different Tools for AMI Management
+
+***
+
+# Reasons for selecting "Jenkins" as a toll for AMI
+
+| **Feature** | **Description** |
+| ----------- | --------------- |
+| **Versatility and Extensibility** | Jenkins is highly versatile and extensible, offering a wide range of plugins for integrating with different tools and services. |
+| **Integration Capabilities** | Jenkins has a robust ecosystem of plugins that can seamlessly integrate with AWS services, including EC2 for AMI creation. |
+| **Continuous Integration and Deployment** | Jenkins is purpose-built for continuous integration and deployment. It is well-suited for managing end-to-end CI/CD pipelines. |
+| **Scripting and Automation** | Jenkins supports scripting in various languages, and you can use these scripts to automate AMI creation tasks. |
 
 ***
 
