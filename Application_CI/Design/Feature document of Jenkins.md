@@ -21,6 +21,11 @@ Jenkins is a widely-used open-source automation server designed to facilitate co
 
 ***
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/466af238-ed4c-4f77-a3d3-44b40fbb72ba)
+
+
+***
+
 ## Features:
 | Feature	| Description |
 |---------|-------------|
