@@ -8,11 +8,12 @@
 # Table of Content
 
 1. Introduction
-2. Different Tools of java Complication 
-3. Comparison
-4. Best Practices
-5. Recommendation/conclusion
-6. Contact Information and References
+2. What/Why
+3. Different Tools of java Complication 
+4. Comparison
+5. Best Practices
+6. Recommendation/conclusion
+7. Contact Information and References
 
 
 # Introduction 
