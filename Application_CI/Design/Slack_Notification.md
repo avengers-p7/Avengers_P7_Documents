@@ -12,10 +12,11 @@
 
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#introduction)
 2. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#pre-requisites)
-3. [Slack Notification Setup](https://github.com/avengersp7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#slacknotificationsetup)
-4. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#conclusion)
-5. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#contactinformation)
-6. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#reference)
+3. [Architecture](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#Architecture)
+4. [Slack Notification Setup](https://github.com/avengersp7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#slacknotificationsetup)
+5. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#conclusion)
+6. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#contactinformation)
+7. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#reference)
 
 ***
 
@@ -30,6 +31,12 @@ This document provides a detailed guide on implementing Slack notifications, inc
 **1.Jenkins Installed**
 
 **2.Slack Notification Plugin**
+
+***
+
+# Architecture
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/5bdcfc50-1e15-4829-921f-1df5964cdfb7)
 
 ***
 
