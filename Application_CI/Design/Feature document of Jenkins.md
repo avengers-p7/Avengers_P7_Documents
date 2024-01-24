@@ -25,6 +25,11 @@ Jenkins is a widely-used open-source automation server designed to facilitate co
 
 
 ***
+## Why:
+Jenkins for automated and efficient software development, enabling continuous integration, streamlined workflows, and rapid, reliable software delivery.
+
+***
+
 ## Before Jenkins: Issues in Software Development
 
 | Issues in Software Development | Problem | Impact |
@@ -38,8 +43,6 @@ Jenkins is a widely-used open-source automation server designed to facilitate co
 ***
 
 **Note:** This table provides a clear overview of the issues in software development before the introduction of Jenkins, highlighting the problems and their corresponding impacts.
-
-***
 
 ***
 ## How Jenkins Helped in SDLC:
