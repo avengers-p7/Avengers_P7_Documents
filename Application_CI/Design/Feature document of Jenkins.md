@@ -68,3 +68,10 @@ Jenkins stands out as a powerful and flexible automation tool, offering numerous
 |Name |	Email address |
 |-----|---------------|
 |Shikha Tripathi | shikha.tripathi.snaatak@mygurukulam.co |
+
+***
+## References
+| Links |	Descriptions |
+|-------|--------------|
+|  https://www.jenkins.io/doc/book/managing/system-properties/ |	Document format followed from this link |
+
