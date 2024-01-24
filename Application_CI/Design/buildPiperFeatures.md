@@ -36,11 +36,11 @@ Automated CI checks and complete CI analysis help in identifying the defects and
 
 | Features | Description |
 |  --------- | ----------- |
-| **Shift Left Philosophy** |  allows developers and QA engineers to manage their Microservices Management-related tasks (that include build, deployment, observability, and environment management) independently. |
-| **Security across all Stages of Deployment**| enables teams to conduct regular security audits and perform automated CI checks in the pipeline stages. (AWS secret manager, trivy, gitLeaks, Owasp and Sonar)I|
+| **Shift Left Philosophy** |  allows developers and QA engineers to manage their Microservices Management-related tasks `that include build, deployment, observability, and environment management` independently. |
+| **Security across all Stages of Deployment**| enables teams to conduct regular security audits and perform automated CI checks in the pipeline stages. `AWS secret manager, trivy, gitLeaks, Owasp and Sonar`I|
 | **Observability with Detailed Insights** | Obtain insights across every aspect of your Services( right from build to deployment), all Kubernetes resources and stages of Pipelines delivery via smart dashboards. These details help the development teams in analyzing and enhancing the application performance. |
 | **Seamless & Flexible CI/CD Operations** | Equipped with feature-rich, secure delivery & setup of CD Pipelines for Macro & Micro builds & deployments, `automated and customizable CI gate checks`, comprehensive `CI analysis with multiple language support` and more. |
-| **GitOps Integration to accelerate the App Delivery Process** | BuildPiper supports comprehensive GitOps-based workflow orchestration to make the software delivery process developer-centric. With essential check gates and approval, the platform enables seamless & faster deployments with standardization. Right from build, to quality validation and ultimately releasing the source code to the production, developers can manage the complete application lifecycle, through git workflows and events. |
+| **GitOps Integration to accelerate the App Delivery Process** | BuildPiper supports comprehensive `GitOps-based workflow orchestration` to make the software delivery process developer-centric. With essential check gates and approval, the platform enables seamless & faster deployments with standardization. Right from build, to quality validation and ultimately releasing the source code to the production, developers `can manage the complete application lifecycle, through git workflows and events`. |
 ***
 
 ## How BuildPiper manages CI/CD
