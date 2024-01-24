@@ -8,11 +8,12 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Features](#Features)
-3. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
-4. [Conclusion](#Conclusion)
-5. [Contact Information](#Contact-Information)
-6. [References](#References)
+2. [Minimum Infrastructure Requirements to Setup BuildPiper](#Minimum-Infrastructure-Requirements-to-Setup-BuildPiper)
+3. [Features](#Features)
+4. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
+5. [Conclusion](#Conclusion)
+6. [Contact Information](#Contact-Information)
+7. [References](#References)
 ***
 
 ## Introduction 
@@ -37,6 +38,11 @@ Automated CI checks and complete CI analysis help in identifying the defects and
 ## Minimum Infrastructure Requirements to Setup BuildPiper : 
 
 For stand-alone setup- 1 VM of 4 CPU - 8 GB RAM
+|   System Requirement              |             Minimum                     |
+|-----------------------------------|-----------------------------------------|
+| Processor/Instance Type           |         1 VM of 4 CPU                   | 
+| RAM                               |            8 Gigabytes                  |
+| Disk Space                        |              16 GB                      |
 
 ## Features
 
