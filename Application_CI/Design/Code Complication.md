@@ -10,7 +10,9 @@
 1. Introduction
 2. Different Tools of java Complication 
 3. Comparison
-4. Best Practices 
+4. Best Practices
+5. Recommendation/conclusion
+6. Contact Information and References
 
 
 # Introduction 
@@ -20,6 +22,18 @@ Java CI code compilation in the context of checking in code. Continuous Integrat
 **Definition**: Continuous Integration is a development practice where developers frequently integrate their code changes into a shared repository. Each integration triggers automated processes such as builds, tests, and validations.
 
 **Objective**: To detect and address integration issues early in the development process, ensuring a consistent and reliable codebase.
+
+***
+
+# What is java ci code complication 
+
+***Java CI (Continuous Integration)**:
+
+CI refers to the practice of continuously integrating code changes from multiple contributors into a shared repository. CI systems automate the process of building, testing, and validating code changes. Common CI tools for Java include Jenkins, Travis CI, GitLab CI, and others.
+
+***Code Compilation**
+
+Code compilation is the process of converting human-readable source code into machine-readable code or bytecode that can be executed by a computer. In Java, this typically involves using a compiler (e.g., javac) to convert .java source files into .class files
 
 
 # Different Tools of java Complication 
