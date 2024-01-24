@@ -54,7 +54,7 @@ This table summarizes the key features of Jenkins, providing a quick reference t
 |---------|-------------|
 | **Learning Curve**	| Setting up and configuring Jenkins, especially for complex build pipelines, may pose a challenge for users unfamiliar with the platform.|
 | **Resource Intensive** |	Jenkins can be resource-intensive, particularly in large projects with extensive build processes, requiring careful resource management.|
-| Security Concerns	| Improper configuration may pose security risks, emphasizing the need for diligent security measures during Jenkins setup and maintenance.|
+| **Security Concerns**	| Improper configuration may pose security risks, emphasizing the need for diligent security measures during Jenkins setup and maintenance.|
 | **Limited Support for Modern DevOps Practices**|	While robust, Jenkins may have limitations in supporting some of the more advanced features and practices of modern DevOps.|
 
 ***
