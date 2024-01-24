@@ -39,10 +39,10 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 
 | **Reason** | **Description** |
 | ---------- | --------------- |
-| **Rapid Deployment** | AMIs enable quick and consistent instance provisioning, reducing deployment time |
-| **Version Control** | Facilitates versioning of configurations, supporting easy rollback and updates |
-| **Scalability** | Supports auto-scaling and dynamic provisioning for varying workloads |
-| **Pay-as-You-Go Model** | AMIs align with AWS's pay-as-you-go pricing model, optimizing costs |
+| **Rapid Deployment** | AMIs enable quick and consistent instance provisioning, reducing deployment time. |
+| **Version Control** | Facilitates versioning of configurations, supporting easy rollback and updates. |
+| **Scalability** | Supports auto-scaling and dynamic provisioning for varying workloads. |
+| **Pay-as-You-Go Model** | AMIs align with AWS's pay-as-you-go pricing model, optimizing costs. |
 
 
 ***
@@ -51,7 +51,7 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 
 ***
 
-# Reasons for selecting "Jenkins" as a toll for AMI
+# Reasons for selecting "Jenkins" as a tool for AMI
 
 | **Feature** | **Description** |
 | ----------- | --------------- |
