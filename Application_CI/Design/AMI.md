@@ -48,6 +48,11 @@
 
 # Best Practices
 
+- Include only necessary software and configurations in the AMI to keep it lightweight.
+- Restrict access to AMIs based on the principle of least privilege.
+- Implement tagging for AMIs to categorize and manage them efficiently.
+- Regularly review and clean up unused or outdated AMIs to reduce security risks.
+
 ***
 
 # Conclusion
