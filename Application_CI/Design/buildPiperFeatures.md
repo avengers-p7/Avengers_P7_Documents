@@ -9,7 +9,7 @@
 
 1. [Introduction](#Introduction)
 2. [Features](#Features)
-3. [How BuildPiper manages Pipeline](#How-BuildPiper-manages-Pipeline)
+3. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
 4. [Conclusion](#Conclusion)
 5. [Contact Information](#Contact-Information)
 6. [References](#References)
@@ -18,12 +18,18 @@
 ## Introduction 
 This documentation provide a introduction of  _**BuildPiper**_  and its features as a CI orchestration tool.
 
+### What
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
    
    - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
    - It facilitates zero-touch, fully automated, and secured CI/CD pipelines.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/35ce2db4-5302-43a6-b2f9-f138891003f7)
+### Why
+
+Management of microservice repositories and CI/CD pipeline becomes much more complex and challenging as the number of applications increases. For businesses looking for solutions to manage CI/CD pipelines, BuildPiper is the ideal choice for effective CI/CD pipeline management. It enables intuitive and easy setup of feature-rich delivery pipelines for a seamless and secure product release.
+
+Automated CI checks and complete CI analysis help in identifying the defects and vulnerabilities in the initial stages, thus enabling a quick, complaint, and hassle-free code release. 
 ***
 ## Features
 
@@ -36,20 +42,18 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 | **GitOps Integration to accelerate the App Delivery Process** | BuildPiper supports comprehensive GitOps-based workflow orchestration to make the software delivery process developer-centric. With essential check gates and approval, the platform enables seamless & faster deployments with standardization. Right from build, to quality validation and ultimately releasing the source code to the production, developers can manage the complete application lifecycle, through git workflows and events. |
 ***
 
-## How BuildPiper manages Pipeline
+## How BuildPiper manages CI/CD
 
-Management of microservice repositories and CI/CD pipeline becomes much more complex and challenging as the number of applications increases. For businesses looking for solutions to manage CI/CD pipelines, BuildPiper is the ideal choice for effective CI/CD pipeline management. It enables intuitive and easy setup of feature-rich delivery pipelines for a seamless and secure product release.
+With BuildPiper, the initial set-up and execution of CI/CD pipelines are structured around these 4 primary levers that make it ready for a quick and bug-free software release.
 
-Automated CI checks and complete CI analysis help in identifying the defects and vulnerabilities in the initial stages, thus enabling a quick, complaint, and hassle-free code release. With BuildPiper, the initial set-up and execution of CI/CD pipelines are structured around these 4 primary levers that make it ready for a quick and bug-free software release.
-
-- Automated CI Checks
+1. Automated CI Checks
    - Comprehensive CI analysis
    - Multi-language CI support
-- Intuitive and easy setup of feature-rich delivery pipelines
+2. Intuitive and easy setup of feature-rich delivery pipelines
    - Multiple options to trigger the pipeline
    - Easy pipeline construct of stages & jobs
-- Realtime details via an interactive and user-friendly UI
-- Simple and easy to understand UI and YAML view
+3. Realtime details via an interactive and user-friendly UI
+4. Simple and easy to understand UI and YAML view
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/2ff08f16-7315-491a-9281-9c8e2c96139e)
 
