@@ -89,7 +89,7 @@ In conclusion, Amazon Machine Images (AMIs) play a pivotal role in the realm of 
 
 | **Name** | **Email Address** |
 | -------- | ----------------- |
-| **Shreya Jaiswal** | shreya.jaiswal.snatak@mygurukulam.co |
+| **Shreya Jaiswal** | shreya.jaiswal.snaatak@mygurukulam.co |
 
 ***
 
