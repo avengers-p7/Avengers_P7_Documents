@@ -69,6 +69,9 @@ With BuildPiper, the initial set-up and execution of CI/CD pipelines are structu
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/22aa47ec-83a2-4c35-b298-946e4b228d7c)
 ***
+## Who uses BuildPiper? 
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/5d786728-802a-449b-be0a-a5de01159342)
 
 ## Conclusion
 
