@@ -1,5 +1,9 @@
 # Documentation of AMI
 
+| **Author** | **Created On** | **Last Updated** | **Document Version** |
+| ---------- | -------------- | ---------------- | -------------------- |
+| **Shreya Jaiswal** | **24-01-2024** | **24-01-2024** | **v1** |
+
 ***
 
 # Table of Contents
