@@ -37,12 +37,13 @@ Automated CI checks and complete CI analysis help in identifying the defects and
 
 ## Minimum Infrastructure Requirements to Setup BuildPiper
 
-For stand-alone setup- 1 VM of 4 CPU - 8 GB RAM
-|   System Requirement              |             Minimum                     |
-|-----------------------------------|-----------------------------------------|
-| Processor/Instance Type           |         1 VM of 4 CPU                   | 
-| RAM                               |            8 Gigabytes                  |
-| Disk Space                        |              16 GB                      |
+For stand-alone setup :-
+
+|   System Requirement              |             Minimum           |
+| --------------------------------- | ----------------------------- |
+| Processor/Instance Type           |         1 VM of 4 CPU         | 
+| RAM                               |            8 GB               |
+| Disk Space                        |            16 GB              |
 
 ## Features
 
