@@ -30,9 +30,19 @@ This documentation serves as a comprehensive guide, offering insights into the c
 
 # What is AMI
 
+An Amazon Machine Image is a special type of virtual appliance that is used to instantiate (create) a virtual machine within EC2. It serves as the basic unit of deployment for services delivered using EC2. Whenever you want to launch an instance, you need to specify AMI.It serves as a template for virtual servers, encapsulating the operating system, application software, configurations, and associated data. AMIs enable users to replicate computing environments efficiently and deploy applications consistently.
+
 ***
 
 # Why AMI
+
+| **Reason** | **Description** |
+| ---------- | --------------- |
+| **Rapid Deployment** | AMIs enable quick and consistent instance provisioning, reducing deployment time |
+| **Version Control** | Facilitates versioning of configurations, supporting easy rollback and updates |
+| **Scalability** | Supports auto-scaling and dynamic provisioning for varying workloads |
+| **Pay-as-You-Go Model** | AMIs align with AWS's pay-as-you-go pricing model, optimizing costs |
+
 
 ***
 
