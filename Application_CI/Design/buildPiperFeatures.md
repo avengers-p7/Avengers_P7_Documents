@@ -43,7 +43,9 @@ For stand-alone setup :-
 | --------------------------------- | ----------------------------- |
 | Processor/Instance Type           |         1 VM of 4 CPU         | 
 | RAM                               |            8 GB               |
-| Disk Space                        |            16 GB              |
+
+> [!NOTE]
+> There are no software requirements for _BuiildPiper_ setup.
 
 ## Features
 
