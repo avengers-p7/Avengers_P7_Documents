@@ -61,3 +61,10 @@ This table summarizes the key features of Jenkins, providing a quick reference t
 
 ## Conclusion:
 Jenkins stands out as a powerful and flexible automation tool, offering numerous advantages such as its open-source nature, extensibility, and strong community support. However, potential challenges, including a learning curve and security considerations, should be carefully evaluated. The decision to adopt Jenkins should align with specific project requirements and the need for a reliable CI/CD solution that can adapt to evolving development practices.
+
+***
+
+## Contact Information
+|Name |	Email address |
+|-----|---------------|
+|Shikha Tripathi | shikha.tripathi.snaatak@mygurukulam.co |
