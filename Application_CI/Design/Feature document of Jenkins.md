@@ -33,7 +33,7 @@ Jenkins is a widely-used open-source automation server designed to facilitate co
 | **Plugin Ecosystem** | Jenkins boasts a robust plugin architecture, allowing seamless integration with a wide array of tools and technologies to enhance its functionality.|
 | **Distributed Builds** | Jenkins supports the distribution of build tasks across multiple machines, enabling parallel execution and reducing overall build times.|
 | **Integration with Version Control Systems**| Jenkins integrates seamlessly with popular version control systems like Git, SVN, etc., facilitating version tracking and collaboration.|
-|**Extensive Community Support** | Jenkins benefits from a large and active community, providing support, resources, and a wealth of plugins to extend its capabilities.|
+|**Community Support** | Jenkins benefits from a large and active community, providing support, resources, and a wealth of plugins to extend its capabilities.|
 | **Monitoring and Notifications** | Jenkins offers monitoring features and notifications, keeping users informed about build status, failures, and other critical events.|
 | **Parameterized Builds** | Jenkins supports parameterized builds, allowing customization of build processes based on user-defined parameters.|
 
