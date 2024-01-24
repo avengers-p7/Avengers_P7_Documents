@@ -52,6 +52,9 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 
 # Pre-requisites
 
+1. AWS Account
+2. Ensure that your AWS account has the necessary IAM permissions to create, manage, and launch instances from AMIs.
+
 ***
 
 # AMI Setup
