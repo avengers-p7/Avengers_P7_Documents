@@ -29,13 +29,13 @@ This documentation serves as a comprehensive guide, offering insights into the c
 
 ***
 
-# What is AMI
+# What is AMI?
 
 An Amazon Machine Image is a special type of virtual appliance that is used to instantiate (create) a virtual machine within EC2. It serves as the basic unit of deployment for services delivered using EC2. Whenever you want to launch an instance, you need to specify AMI.It serves as a template for virtual servers, encapsulating the operating system, application software, configurations, and associated data. AMIs enable users to replicate computing environments efficiently and deploy applications consistently.
 
 ***
 
-# Why AMI
+# Why AMI?
 
 | **Reason** | **Description** |
 | ---------- | --------------- |
@@ -48,6 +48,17 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 ***
 
 # Different Tools for AMI Management
+
+| **Tools** | **Pros** | **Cons** |
+| --------- | -------- | -------- |
+| **AWS Management Console** | User-friendly, especially for those who prefer a graphical interface. |  Not ideal for large-scale or automated AMI creation workflows. |
+| **Hashicrop Packer** | Supports multiple platforms, not limited to AWS. | Additional tool to manage and learn. |
+| **Netflix Aminator** | Simplifies software installation and configuration tasks. | Limited community support compared to more widely adopted tools. |
+| **Terraform** | Supports multiple cloud providers, not limited to AWS. | May require additional modules for specific tasks. |
+| **Ansible** | Declarative language and YAML syntax for configuration. | May not be as suitable for complex orchestration tasks. |
+| **Docker** | Enables consistency across development and production. | Focuses on application containers rather than full system images. | 
+| **Jenkins** | Highly extensible and customizable. | Requires additional plugins for specific AWS tasks. |
+
 
 ***
 
