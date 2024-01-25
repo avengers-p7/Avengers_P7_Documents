@@ -67,18 +67,19 @@ Unit testing offers several benefits, including:
 
 There are various unit testing frameworks available for different programming languages. Some popular ones include:
 
-| #   | Tool                           | Official Link                                    | Open Source | Supported Languages | Description                                                                                       |
-| --- | ------------------------------ | ------------------------------------------------- | ----------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 1   | JUnit                          | [JUnit](https://junit.org/junit5/)               | Yes         | Java               | Open-source, widely used for Java, supports TDD (Test-Driven Development).                                                                           |
-| 2   | TestNG                         | [TestNG](https://testng.org/doc/index.html)      | Yes         | Java               | Flexible, parallel testing, highly configurable.                                                                  |
-| 3   | NUnit                          | [NUnit](https://nunit.org/)                      | Yes         | .NET               | Popular for .NET, supports data-driven tests.                                                                            |
-| 4   | Unity Test Tools                | [Unity Test Tools](https://docs.unity3d.com/560/Documentation/Manual/testing-editortestsrunner.html) | No          | Unity (C#)          | Essential for Unity game development, supports various test types.                                                        |
-| 5   | Microsoft Unit Testing Framework | [Microsoft Unit Testing Framework](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test) | Yes      | .NET               | Integrated with Visual Studio, suitable for .NET development, supports data-driven testing.                                |
-| 6   | HtmlUnit                       | [HtmlUnit](http://htmlunit.sourceforge.net/)    | Yes         | Java               | GUI-less, supports JavaScript, commonly used with JUnit and TestNG for testing web applications.                  |
-| 7   | Parasoft                       | [Parasoft](https://www.parasoft.com/solutions/unit-testing/) | No          | C, C++              | Proprietary tool for C and C++, offers static and dynamic analysis, comprehensive testing for large codebases.           |
-| 8   | Cantata                        | [Cantata](https://www.cantata-testing.com/)     | No          | C, C++              | Commercial testing framework, advanced productivity, widely used for unit and integration testing.        |
-| 9   | Karma                          | [Karma](https://karma-runner.github.io/)        | Yes         | JavaScript         | Open-source, runs tests on real devices, supports easy debugging and CI/CD integration.                    |
-| 10  | pytest                | [pytest](https://docs.pytest.org/en/latest/)    | Yes        | Python             | Third-party library, concise syntax, user-friendly, good command-line support, extensible with plugins.        |
+| Framework  | Pros                                                | Cons                                          | Use Cases                                              |
+|------------|-----------------------------------------------------|-------------------------------------------------|--------------------------------------------------------|
+| Katalon    | - Fast assertions for API, web, mobile, desktop.    | - Limited customization.                        | Alternative for integration, API, UI, and regression testing. |
+| Selenide    | - Stable tests, concise API.                        | - Customization workarounds.                   | UI testing for web applications.                        |
+| JUnit      | - Efficient testing with assertions.                | - No GUI support, not for large test suites.    | Unit and regression testing following TDD.             |
+| TestNG     | - HTML reports, supports dependent tests.           | - Requires time, not for all projects.          | Recommended for projects with many test cases.          |
+| Mockito    | - Better void method handling.                      | - Doesn't support final/static methods.         | Cost-effective mock generation for unit testing.       |
+| Cucumber   | - Intuitive, code reusability.                      | - Complexity with Gherkin.                     | Automated acceptance tests for initial requirements.   |
+| JBehave    | - Intuitive, user story reporting.                  | - Requires effective communication.            | BDD testing with easy-to-understand tests.             |
+| Serenity   | - Integrated, readable, scalable tests.              | - Requires regular communication.              | Writing and reporting acceptance criteria.             |
+| Spock      | - Compatibility, built-in mocking.                  | - Requires basic Groovy understanding.         | Robust framework for behavior-driven development.      |
+| Geb        | - Cross-browser tests, minimal code changes.        | - Only supports Groovy with WebDriver via Geb. | Functional and user acceptance testing.                 |
+
 
 
 ***
@@ -217,7 +218,7 @@ This command will generate an html report. To access unit test report, navigate 
  
 ### POC Conclusion
 
-In conclusion, Java unit testing is an essential practice in software development that ensures code quality, reliability, and maintainability. By following best practices, such as using a reliable testing framework like JUnit, writing isolated and independent test cases, and automating test execution with tools like Maven and Gradle, developers can efficiently validate individual units of code. Additionally, adopting test-driven development (TDD) methodologies and regularly generating and reviewing test reports promotes the creation of robust, error-free software. Java unit testing serves as a foundation for building high-quality applications and is crucial in identifying and addressing issues early in the development process, ultimately improving the overall software development lifecycle.  
+In summary, Java unit testing is vital for ensuring code quality, reliability, and maintainability in software development. Utilizing best practices, including employing a dependable testing framework like JUnit, writing isolated test cases, and automating testing with tools like Maven and Gradle, enables developers to validate code units effectively. Embracing test-driven development (TDD) methodologies and regular test report reviews contribute to the creation of robust, error-free software. Java unit testing lays the foundation for high-quality applications, playing a crucial role in early issue detection and overall improvement of the software development lifecycle.
 
 ***
 
@@ -233,13 +234,9 @@ In conclusion, Java unit testing is an essential practice in software developmen
 
 ***
 
-# Recommendation/General Conclusion
+# General Conclusion
 
-Unit testing is a crucial practice for building high-quality, maintainable software. By following best practices and using appropriate tools, developers can ensure their codebase is robust, reliable, and easy to maintain.
-
-In terms of unit testing tools, the choice often depends on the programming language and the specific needs of the project. However, based on its widespread adoption, excellent features, and strong community support, I recommend considering [JUnit](https://junit.org/junit5/) for Java projects and [pytest](https://docs.pytest.org/en/latest/) for Python projects.
-
-Choose a tool that aligns with your project's requirements and the preferences of your development team. Regardless of the tool you choose, the key is to integrate unit testing seamlessly into your development workflow for optimal results.
+In conclusion, the choice of a unit testing framework depends on specific project needs. For traditional Java unit testing, JUnit and TestNG are robust choices. Mockito excels in mocking scenarios, while Cucumber and Serenity are ideal for behavior-driven development. Geb stands out for web testing. The best framework is the one that aligns with project goals, team expertise, and testing requirements. 
 
 
 ***
