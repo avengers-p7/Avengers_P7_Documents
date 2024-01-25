@@ -34,11 +34,11 @@ The purpose of a Signed-off-by trailer in Git is:-
 | **Method**                                         | **Description**                                                                                                              |
 |-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | **1. Web Interface:**                                |                                                                                                                              |
-|    - *Manual Line Addition:*                         | Include the Signed-off-by: Your Name <your_email_address> line at the end of your commit message.                              |
+|     *Manual Line Addition:*                         | Include the Signed-off-by: Your Name <your_email_address> line at the end of your commit message.                              |
 |                                                                                                                             |                                                                                                                              |
 | **2. Command Line Interface (CLI):**                 |                                                                                                                              |
-|    - *-s or --signoff Flag:*                         | Adds Signed-off-by with your Git config settings automatically.                                                              |
-|    - *Manual Line Addition:*                         | Similar to the web, append the Signed-off-by line to your commit message in the editor.                                      |
+|     *-s or --signoff Flag:*                         | Adds Signed-off-by with your Git config settings automatically.                                                              |
+|     *Manual Line Addition:*                         | Similar to the web, append the Signed-off-by line to your commit message in the editor.                                      |
 
 ***
 # Advantages
