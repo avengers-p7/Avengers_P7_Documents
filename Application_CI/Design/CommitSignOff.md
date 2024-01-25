@@ -135,3 +135,17 @@ Signed-off-by: Your Name <your_email_address>"
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/2adb69c3-5021-457f-b385-460be59d56cf)
 ***
+
+# Conclusion 
+Commit sign-off plays a valuable role in maintaining code ownership and accountability within version control systems like Git. It offers several key benefits:
+- Transparency
+- Accountability
+- Legality
+- Workflow Improvement
+
+# Contact Information
+| Name            | Email Address                        |
+|-----------------|--------------------------------------|
+| Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
+
+# Resources and References
