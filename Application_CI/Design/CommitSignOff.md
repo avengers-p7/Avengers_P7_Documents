@@ -38,7 +38,6 @@ The purpose of a Signed-off-by trailer in Git is:-
 |                                                                                                                             |                                                                                                                              |
 | **2. Command Line Interface (CLI):**                 |                                                                                                                              |
 |     *-s or --signoff Flag:*                         | Adds Signed-off-by with your Git config settings automatically.                                                              |
-|     *Manual Line Addition:*                         | Similar to the web, append the Signed-off-by line to your commit message in the editor.                                      |
 
 ***
 # Advantages
