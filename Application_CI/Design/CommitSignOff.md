@@ -31,14 +31,8 @@ The purpose of a Signed-off-by trailer in Git is:-
 - Encourages code ownership: By requiring sign-offs, projects can encourage contributors to take ownership of their code and ensure that it meets the project's standards.
 ***
 # Ways you can perform Commit Sign-off
-| **Method**                                         | **Description**                                                                                                              |
-|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| **1. Web Interface:**                                |                                                                                                                              |
-|     *Manual Line Addition:*                         | Include the Signed-off-by: Your Name <your_email_address> line at the end of your commit message.                              |
-|                                                                                                                             |                                                                                                                              |
-| **2. Command Line Interface (CLI):**                 |                                                                                                                              |
-|     *-s or --signoff Flag:*                         | Adds Signed-off-by with your Git config settings automatically.                                                              |
-
+- Web Interface/UI
+- Command Line Interface
 ***
 # Advantages
 
