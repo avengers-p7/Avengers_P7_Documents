@@ -59,19 +59,19 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
 ## Advantages
 | Advantages of GitLab |	Description |
 |----------------------|--------------|
-| Comprehensive Platform | All-in-one solution for version control, collaboration, and CI/CD.|
-| Integrated CI/CD	| Streamlines testing and deployment processes, improving efficiency.|
-| Flexibility	| GitLab can be used as a cloud-based service or self-hosted, providing deployment flexibility. |
-| Open Source	| Core features are available for free, and GitLab is open source. |
+| **Comprehensive Platform**| All-in-one solution for version control, collaboration, and CI/CD.|
+| **Integrated CI/CD**| Streamlines testing and deployment processes, improving efficiency.|
+| **Flexibility**	| GitLab can be used as a cloud-based service or self-hosted, providing deployment flexibility. |
+| **Open Source**	| Core features are available for free, and GitLab is open source. |
 
 ***
 
 ## Disadvantages
 | Disadvantages of GitLab	| Description |
 |-------------------------|-------------|
-| Learning Curve | Setting up and configuring GitLab may be challenging for new users.|
-| Resource Intensive |	GitLab can be resource-intensive, especially in large projects.|
-| Feature Complexity | Abundance of features may be overwhelming, particularly for simpler projects.|
+| **Learning Curve** | Setting up and configuring GitLab may be challenging for new users.|
+| **Resource Intensive**|	GitLab can be resource-intensive, especially in large projects.|
+| **Feature Complexity** | Abundance of features may be overwhelming, particularly for simpler projects.|
 
 ***
 
