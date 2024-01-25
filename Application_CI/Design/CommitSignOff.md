@@ -77,7 +77,7 @@ Now the Commit also displays the Committer details.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/3c81b43f-96d5-4423-8f54-6cf72b03bd2e)
 ***
-In the Slack Notification and Email notification also the Committer details are displayed.
+In the Slack Notification and Email notification the Committer details are displayed.
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/a9f45a5a-c330-4017-874b-6b1f7a7b6a5f)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/9670c773-15e8-4d1a-8fa3-907510560dc5)
 ***
