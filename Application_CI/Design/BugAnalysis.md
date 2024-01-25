@@ -166,16 +166,16 @@ As the salary code is Java-based, it is designed to be compatible with Java vers
 
 ### Add the Spotbug dependency in pom.xml file.
 
-		<dependency>
-			<groupId>com.github.spotbugs</groupId>
-			<artifactId>spotbugs-maven-plugin</artifactId>
-			<version>4.8.2.0</version>
-       </dependency>
-	   <dependency>
-			<groupId>com.github.spotbugs</groupId>
-			<artifactId>spotbugs</artifactId>
-			<version>4.8.3</version>
-       </dependency>
+	<dependency>
+		<groupId>com.github.spotbugs</groupId>
+		<artifactId>spotbugs-maven-plugin</artifactId>
+		<version>4.8.2.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.github.spotbugs</groupId>
+		<artifactId>spotbugs</artifactId>
+		<version>4.8.3</version>
+	</dependency>
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/d7242123-21df-4b2c-8547-dba58adf5670)
 
