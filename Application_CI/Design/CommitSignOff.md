@@ -7,15 +7,18 @@
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/6d952a76-4498-416b-8a4e-9f07eec2612c)
 ***
 # Table of Content 
-- What is Commit Sign-Off
-- Why
-- Ways you can perform Commit Sign-off
-- Advantages
-- Disadvantages
-- Proof of Concept
-  1. Enforce Commit Sign-offs through Web Interface
-  2. Enforce Commit Sign-offs through CLI
-
+- [What is Commit Sign-Off](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#what-is-commit-sign-off)
+- [Why](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#why)
+- [Ways you can perform Commit Sign-off](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#ways-you-can-perform-commit-sign-off)
+- [Advantages](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#advantages)
+- [Disadvantages](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#disadvantages)
+- [Proof of Concept](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#proof-of-concept)
+  1. [Enforce Commit Sign-offs through Web Interface](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#1-enforce-commit-sign-offs-through-web-interface)
+  2. [Enforce Commit Sign-offs through CLI](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#2-enforce-commit-sign-offs-through-cli)
+- [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#conclusion)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#contact-information)
+- [Resource and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#resources-and-references)
+***
 # What is Commit Sign-Off
 A commit sign-off is a line added to the end of a commit message in a version control system, like Git, to indicate that the contributor:
 
@@ -28,10 +31,15 @@ The purpose of a Signed-off-by trailer in Git is:-
 - Encourages code ownership: By requiring sign-offs, projects can encourage contributors to take ownership of their code and ensure that it meets the project's standards.
 ***
 # Ways you can perform Commit Sign-off
-| Option                       | Description                                                                                                                                                          |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Manually adding sign-off** | This is the simplest method and doesn't require any additional tools. Just follow these steps:<br>When composing your commit message in any Git client (including the command line or GitHub web interface), add the sign-off line at the end.  |
-| **Using automation**         | Several tools and techniques can automate the sign-off process, saving you time and effort. Here are some options:<br>- **Git configuration:** You can configure Git globally or per repository to automatically add the sign-off line to every commit.  |
+| **Method**                                         | **Description**                                                                                                              |
+|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **1. Web Interface:**                                |                                                                                                                              |
+|    - *Manual Line Addition:*                         | Include the Signed-off-by: Your Name <your_email_address> line at the end of your commit message.                              |
+|                                                                                                                             |                                                                                                                              |
+| **2. Command Line Interface (CLI):**                 |                                                                                                                              |
+|    - *-s or --signoff Flag:*                         | Adds Signed-off-by with your Git config settings automatically.                                                              |
+|    - *Manual Line Addition:*                         | Similar to the web, append the Signed-off-by line to your commit message in the editor.                                      |
+
 ***
 # Advantages
 
@@ -149,3 +157,7 @@ Commit sign-off plays a valuable role in maintaining code ownership and accounta
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
 # Resources and References
+
+| [Commit Sign-off](https://medium.com/@MarkEmeis/git-commit-signoff-vs-signing-9f37ee272b14) |
+| [Commands](https://docs.pi-hole.net/guides/github/how-to-signoff/) |
+| [Hands-on](https://youtu.be/6hu3cbBhHqQ?si=fZS5MNgmyQPuDQxU) |
