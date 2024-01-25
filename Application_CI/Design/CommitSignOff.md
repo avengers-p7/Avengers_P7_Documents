@@ -151,5 +151,6 @@ Commit sign-off plays a valuable role in maintaining code ownership and accounta
 # Resources and References
 
 | [Commit Sign-off](https://medium.com/@MarkEmeis/git-commit-signoff-vs-signing-9f37ee272b14) |
+|---------------------------------------------------------------------------------------------|
 | [Commands](https://docs.pi-hole.net/guides/github/how-to-signoff/) |
 | [Hands-on](https://youtu.be/6hu3cbBhHqQ?si=fZS5MNgmyQPuDQxU) |
