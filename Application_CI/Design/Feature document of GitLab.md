@@ -42,7 +42,6 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
 | **Integrated CI/CD**	| Built-in continuous integration and continuous delivery pipelines for automated testing and deployment.|
 | **Container Registry**	| Offers an integrated container registry for managing and storing Docker images. |
 | **Issue Tracking and Project Management**	| Comprehensive tools for issue tracking, project management, and collaboration within the platform.|
-| **Web IDE**	| A web-based integrated development environment for quick and collaborative coding.|
 | **Security Features**	| Includes security features such as container scanning, dependency scanning, and code quality analysis.|
 | **Code Review**|	Facilitates efficient code reviews with features like merge requests, inline commenting, and version comparison.|
 | **Branching Strategies** |	Supports various branching strategies, enabling teams to manage code versions effectively.|
