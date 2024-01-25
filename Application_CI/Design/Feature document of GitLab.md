@@ -68,6 +68,7 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
 
 ## Disadvantages:
 | Disadvantages of GitLab	| Description |
+|-------------------------|-------------|
 | Learning Curve | Setting up and configuring GitLab may be challenging for new users.|
 | Resource Intensive |	GitLab can be resource-intensive, especially in large projects.|
 | Feature Complexity | Abundance of features may be overwhelming, particularly for simpler projects.|
