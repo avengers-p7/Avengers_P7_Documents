@@ -212,12 +212,15 @@ To integrate Find Security Bugs into SpotBugs plugin, you can configure your pom
 ### 	Analyze Code with SpotBugs:
 
  mvn spotbugs:check
+ 
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/ea6f930e-cb52-4e51-8cdd-2277e0d669e1)
 
 ### Generate SpotBugs Reports: 
 This command will generate an html report. After running this command, generate various types of reports, such as HTML and XML: (target/spotbugs.html)(target/spotbugsXml.xml).
 
 	mvn spotbugs:spotbugs
  
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/42809da9-b19e-4b49-a35b-f993ffd8c305)
 
 
  
