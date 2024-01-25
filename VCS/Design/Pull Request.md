@@ -180,8 +180,23 @@ gh pr close <pull-request-number>
 + Emphasize the caution associated with force pushing commits to a pull request. Highlight the potential risks of altering repository history and the impact on collaborators.
 
 ***
-# Other Git Operations 
+# Other Git Operations
 
+Explore various Git operations beyond pull requests:
+
+| Operation       | Description                                                      |
+|-----------------|------------------------------------------------------------------|
+| Cherry Pick     | Select specific commits from one branch and apply them elsewhere.|
+| Rebase          | Rearrange or combine commits for a cleaner commit history.       |
+| Git Fetch       | Retrieve changes from a remote repository without merging.       |
+| Git Merge       | Combine changes from different branches into the current branch. |
+| Git Clone       | Copy a repository into a new directory on your local machine.    |
+| Git Branch      | Create, list, or delete branches.                                |
+| Git Status      | Show the status of changes as untracked, modified, or staged.    |
+| Git Diff        | Display the differences between commits, branches, or files.     |
+| Git Reset       | Unstage changes or move the HEAD to a specific commit.           |
+| Git Revert      | Reverse changes made in a commit.                                |
+| Git Tag         | Create, list, or delete tags.                                    |
 
 
 ***
