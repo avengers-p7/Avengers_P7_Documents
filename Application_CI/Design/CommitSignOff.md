@@ -10,11 +10,11 @@
 - [What is Commit Sign-Off](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#what-is-commit-sign-off)
 - [Why](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#why)
 - [Ways you can perform Commit Sign-off](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#ways-you-can-perform-commit-sign-off)
-- [Advantages](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#advantages)
-- [Disadvantages](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#disadvantages)
 - [Proof of Concept](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#proof-of-concept)
   1. [Enforce Commit Sign-offs through Web Interface](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#1-enforce-commit-sign-offs-through-web-interface)
   2. [Enforce Commit Sign-offs through CLI](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#2-enforce-commit-sign-offs-through-cli)
+- [Advantages](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#advantages)
+- [Disadvantages](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#disadvantages)
 - [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#conclusion)
 - [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#contact-information)
 - [Resource and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/CommitSignOff.md#resources-and-references)
@@ -33,32 +33,6 @@ The purpose of a Signed-off-by trailer in Git is:-
 # Ways you can perform Commit Sign-off
 - Web Interface/UI
 - Command Line Interface
-***
-# Advantages
-
-| **Advantages of Commit Sign-off**                                   | 
-|---------------------------------------------------------------------|
-| **1. Accountability:**                                              | 
-|     Commit sign-off clearly identifies who is responsible for the changes introduced in a particular commit. This improves traceability and facilitates debugging or reverting changes if needed. | 
-| **2. Code ownership:**                                              | 
-|     Sign-off can imply ownership and acceptance of the code within a project. This helps maintain code quality and ensures that changes adhere to project standards. | 
-| **3. Review process:**                                              | 
-|     Sign-off often signifies that the code has undergone proper review and approval before being merged into the main branch. This strengthens the code quality and reduces the risk of regressions. | 
-| **4. Contributor recognition:**                                    | 
-|     Publicly acknowledging contributions through sign-off can boost developer morale and encourage participation.                | 
-***
-# Disadvantages
-
-| **Disadvantages of Commit Sign-off**                               | 
-|---------------------------------------------------------------------|
-| **1. Overhead:**                                                    | 
-|     Implementing and enforcing a sign-off process can add complexity and overhead to the development workflow, especially for small projects or frequent contributors. |
-| **2. Attribution disputes:**                                        | 
-|     In some cases, disputes may arise regarding the actual responsibility for changes when multiple developers are involved in a single commit. |
-| **3. Fear of contribution:**                                         | 
-|     Strict sign-off requirements might discourage junior developers or new contributors from submitting their work due to fear of making mistakes or not meeting expectations. |
-| **4. False sense of security:**                                     | 
-|     Relying solely on sign-off as a quality measure can be misleading. Thorough code review and testing remain crucial for ensuring code quality. |
 ***
 # Proof of Concept 
 ***
@@ -136,7 +110,32 @@ Signed-off-by: Your Name <your_email_address>"
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/2adb69c3-5021-457f-b385-460be59d56cf)
 ***
+# Advantages
 
+| **Advantages of Commit Sign-off**                                   | 
+|---------------------------------------------------------------------|
+| **1. Accountability:**                                              | 
+|     Commit sign-off clearly identifies who is responsible for the changes introduced in a particular commit. This improves traceability and facilitates debugging or reverting changes if needed. | 
+| **2. Code ownership:**                                              | 
+|     Sign-off can imply ownership and acceptance of the code within a project. This helps maintain code quality and ensures that changes adhere to project standards. | 
+| **3. Review process:**                                              | 
+|     Sign-off often signifies that the code has undergone proper review and approval before being merged into the main branch. This strengthens the code quality and reduces the risk of regressions. | 
+| **4. Contributor recognition:**                                    | 
+|     Publicly acknowledging contributions through sign-off can boost developer morale and encourage participation.                | 
+***
+# Disadvantages
+
+| **Disadvantages of Commit Sign-off**                               | 
+|---------------------------------------------------------------------|
+| **1. Overhead:**                                                    | 
+|     Implementing and enforcing a sign-off process can add complexity and overhead to the development workflow, especially for small projects or frequent contributors. |
+| **2. Attribution disputes:**                                        | 
+|     In some cases, disputes may arise regarding the actual responsibility for changes when multiple developers are involved in a single commit. |
+| **3. Fear of contribution:**                                         | 
+|     Strict sign-off requirements might discourage junior developers or new contributors from submitting their work due to fear of making mistakes or not meeting expectations. |
+| **4. False sense of security:**                                     | 
+|     Relying solely on sign-off as a quality measure can be misleading. Thorough code review and testing remain crucial for ensuring code quality. |
+***
 # Conclusion 
 Commit sign-off plays a valuable role in maintaining code ownership and accountability within version control systems like Git. It offers several key benefits:
 - Transparency
