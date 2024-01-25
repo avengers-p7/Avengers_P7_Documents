@@ -196,14 +196,21 @@ Address compatibility issue with JUnit by uncommenting and updating surefire plu
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/7bd0ec27-bffe-48c2-ac85-8f4a93bbfe75)
 
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/53847503-a743-4fa3-ae59-d42d5ac4d6dc)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/6ac027a8-85e3-4b31-8ad1-8da93035cf82)
+
 
 ### Generate html report with surefire.
 
 	mvn surefire-report:report
  
+ This command will generate an html report. To access unit test report, navigate to the target > site > right-click > Open in Browser.
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/486dbecd-8438-4367-a5b3-ab123ac27a3a)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/39df6f1b-f373-4db4-9cdf-f904c1c544ba)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/de771f0f-419e-4ab9-ae3b-643d8282b271)
+
+ 
 ### POC Conclusion
-This command will generate an html report. To access unit test report, navigate to the target > site > right-click > Open in Browser.
+
 In conclusion, Java unit testing is an essential practice in software development that ensures code quality, reliability, and maintainability. By following best practices, such as using a reliable testing framework like JUnit, writing isolated and independent test cases, and automating test execution with tools like Maven and Gradle, developers can efficiently validate individual units of code. Additionally, adopting test-driven development (TDD) methodologies and regularly generating and reviewing test reports promotes the creation of robust, error-free software. Java unit testing serves as a foundation for building high-quality applications and is crucial in identifying and addressing issues early in the development process, ultimately improving the overall software development lifecycle.  
 
 ***
