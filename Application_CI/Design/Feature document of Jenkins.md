@@ -19,7 +19,7 @@
 + [References](#References)  
 ***
 
-## Introduction:
+## Introduction
 Jenkins is a widely-used open-source automation server designed to facilitate continuous integration and continuous delivery (CI/CD) in software development. It serves as the backbone of DevOps practices by automating various aspects of the software delivery lifecycle. Jenkins enables teams to streamline the build, test, and deployment processes, contributing to faster and more reliable software releases.
 
 
@@ -29,7 +29,7 @@ Jenkins is a widely-used open-source automation server designed to facilitate co
 
 
 ***
-## Why:
+## Why
 Jenkins for automated and efficient software development, enabling continuous integration, streamlined workflows, and rapid, reliable software delivery.
 
 ***
@@ -49,7 +49,7 @@ Jenkins for automated and efficient software development, enabling continuous in
 **Note:** This table provides a clear overview of the issues in software development before the introduction of Jenkins, highlighting the problems and their corresponding impacts.
 
 ***
-## How Jenkins Helped in SDLC:
+## How Jenkins Helped in SDLC
 |Jenkins Contributions to SDLC | Solution | Impact |
 |------------------------------|----------|---------|
 | **Automated Builds** | Jenkins automated the build process. | Consistent and reliable builds, reducing errors and ensuring reproducibility.|
@@ -63,7 +63,7 @@ Jenkins for automated and efficient software development, enabling continuous in
 **Note:** This table summarizes how Jenkins has positively impacted the Software Development Life Cycle (SDLC) by introducing automated builds, continuous integration, CI/CD pipelines, collaborative workflows, and providing scalability and flexibility to development processes.
 
 ***
-## Companies that Use Jenkins:
+## Companies that Use Jenkins
 | Companies Using Jenkins	| Description |
 |-------------------------|-------------|
 |**Google**	| Jenkins is integral to Google's CI/CD workflows, ensuring project reliability. |
@@ -73,11 +73,12 @@ Jenkins for automated and efficient software development, enabling continuous in
 | **eBay**|	Jenkins is a crucial component of eBay's automation strategy, contributing to development efficiency. |
 
 ***
+
 **Note:** This table provides a concise overview of some prominent companies and how they leverage Jenkins in their software development processes.
 
 ***
 
-## Features:
+## Features
 | Feature	| Description |
 |---------|-------------|
 | **Automation of Builds and Deployments**| Jenkins automates the entire process of building and deploying software, reducing manual intervention and ensuring consistency.|
@@ -92,7 +93,7 @@ Jenkins for automated and efficient software development, enabling continuous in
 
 ***
 
-## Advantages:
+## Advantages
 | Aspect	| Description |
 |---------|-------------|
 | **Open Source**| Jenkins is freely available, making it accessible to a broad user base. Its open-source nature encourages collaboration and community contributions.|
@@ -103,7 +104,7 @@ Jenkins for automated and efficient software development, enabling continuous in
 
 ***
 
-## Disadvantages:
+## Disadvantages
 | Aspect	| Description |
 |---------|-------------|
 | **Learning Curve**	| Setting up and configuring Jenkins, especially for complex build pipelines, may pose a challenge for users unfamiliar with the platform.|
@@ -113,7 +114,7 @@ Jenkins for automated and efficient software development, enabling continuous in
 
 ***
 
-## Conclusion:
+## Conclusion
 Jenkins stands out as a powerful and flexible automation tool, offering numerous advantages such as its open-source nature, extensibility, and strong community support. However, potential challenges, including a learning curve and security considerations, should be carefully evaluated. The decision to adopt Jenkins should align with specific project requirements and the need for a reliable CI/CD solution that can adapt to evolving development practices.
 
 ***
