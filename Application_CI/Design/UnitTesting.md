@@ -109,15 +109,15 @@ While unit testing is integral to any software development and testing strategy,
 
 # Proof of Concept (POC) for Java Base Application
 
-## Introduction 
+### Introduction 
 
 Unit testing in Java is a crucial practice that involves testing individual units or components of Java code to ensure their correctness and functionality. Java unit testing is typically performed by Java developers and is an essential part of the software development process. Below, I'll provide the steps of performing unit testing in Java.
 
-## Testing Framework
+### Testing Framework
 
 Java unit testing is often facilitated by testing frameworks, with JUnit being one of the most popular choices. These frameworks provide a structured and organized way to write and execute unit tests. Some other frameworks like TestNG and Mockito are also commonly used in Java unit testing.
 
-## Overview
+### Overview
 
 The developer has already authored the unit test cases for the application.
 
@@ -132,7 +132,7 @@ JUnit, a testing framework, plays a pivotal role in enabling Java unit testing w
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e4437f15-a559-43a4-9367-eb7aecca1f78)
 
-## Prerequisites
+### Prerequisites
 
 **Java Version 17** (mentioned in pom.xml)  
 
@@ -142,7 +142,7 @@ JUnit, a testing framework, plays a pivotal role in enabling Java unit testing w
 
 **JUnit** - As it's a library on which the project's tests is depended on. 
 
-## Steps
+### Steps
 
 ### Cloning a Java App
 
@@ -206,6 +206,7 @@ Address compatibility issue with JUnit by uncommenting and updating surefire plu
 
 
 ### Generate html report with surefire.
+
 This command will generate an html report. To access unit test report, navigate to the target > site > right-click > Open in Browser.
 
 	mvn surefire-report:report
@@ -241,7 +242,7 @@ In conclusion, the choice of a unit testing framework depends on specific projec
 
 ***
 
-## Contact Information
+# Contact Information
 
 |    Name                                   | Email Address                    |
 |-------------------------------------------|----------------------------------|
@@ -249,7 +250,7 @@ In conclusion, the choice of a unit testing framework depends on specific projec
 
 ***
 
-## Resources and References
+# Resources and References
 
 | **Source**                                              | **Description**                               |
 |---------------------------------------------------------|-----------------------------------------------|
