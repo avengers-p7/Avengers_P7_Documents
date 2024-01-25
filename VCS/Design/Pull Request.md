@@ -14,8 +14,8 @@
 + [Pull Request Checklist](#pull-request-checklist)
 + [Guidelines](#rules-and-guidelines)
 + [Reviewing Pull Requests](#review-process)
-+ [Conclusion](#conclusion)
 + [Git Operations](#other-git-operations)
++ [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
 
