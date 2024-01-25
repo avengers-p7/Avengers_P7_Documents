@@ -166,20 +166,19 @@ As the salary code is Java-based, it is designed to be compatible with Java vers
 
 ### Add the Spotbug dependency in pom.xml file.
 
-        <plugin>
-          <groupId>com.github.spotbugs</groupId>
-          <artifactId>spotbugs-maven-plugin</artifactId>
-          <version>4.8.2.0</version>
-          <dependencies>
-            <dependency>
-              <groupId>com.github.spotbugs</groupId>
-              <artifactId>spotbugs</artifactId>
-              <version>4.8.3</version>
-            </dependency>
-          </dependencies>
-        </plugin>
+		<dependency>
+			<groupId>com.github.spotbugs</groupId>
+			<artifactId>spotbugs-maven-plugin</artifactId>
+			<version>4.8.2.0</version>
+       </dependency>
+	   <dependency>
+			<groupId>com.github.spotbugs</groupId>
+			<artifactId>spotbugs</artifactId>
+			<version>4.8.3</version>
+       </dependency>
 
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/be28309d-4765-42a8-91e5-36fc945e2e3d)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/d7242123-21df-4b2c-8547-dba58adf5670)
+
 
 ### Integrate Find Security Bugs into spotbugs-maven-plugin
 
@@ -204,6 +203,8 @@ To integrate Find Security Bugs into SpotBugs plugin, you can configure your pom
               </plugin>
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e7ab5723-42ac-4d9e-a671-36f1fbf90781)
+
+
 
 
 
