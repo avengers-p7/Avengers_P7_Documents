@@ -1,7 +1,21 @@
+|   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
+| --------------- | --------------| -----------|----------------- | -------------- |
+| Khushi Malhotra |  25 Jan 2024  |  Version 1 | Khushi Malhotra  | 25 Jan 2024    |
+***
 # Commit Sign-Off
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/6d952a76-4498-416b-8a4e-9f07eec2612c)
 ***
+# Table of Content 
+- What is Commit Sign-Off
+- Why
+- Ways you can perform Commit Sign-off
+- Advantages
+- Disadvantages
+- Proof of Concept
+  1. Enforce Commit Sign-offs through Web Interface
+  2. Enforce Commit Sign-offs through CLI
+
 # What is Commit Sign-Off
 A commit sign-off is a line added to the end of a commit message in a version control system, like Git, to indicate that the contributor:
 
