@@ -64,8 +64,26 @@ Setting up Single Sign-On (SSO) in GitHub involves using an identity provider (I
 * Under "Settings," click on "Security & analysis."
 * Then, click on "Authentication."
 
+**Initiate Setup:**
+* Scroll down to the "Authentication" section and find "Single sign-on."
+* Click on "Set up SAML."
 
+**Configure Identity Provider:**
+* You'll need to provide the IdP metadata URL or upload the IdP metadata XML file.
+* Configure the necessary settings on your IdP side according to GitHub's requirements.
 
+**Provision Users:**
+* Configure user provisioning settings, if supported by your IdP. This can include mapping user attributes and specifying how user accounts are created.
+
+**Testing:**
+* After configuring SSO, it's a good practice to test the setup. GitHub provides a "Test SSO" button that allows you to authenticate with your IdP and confirm that everything is working as expected.
+
+**Enable SSO:**
+* Once testing is successful, enable SSO by checking the "Enforce SAML SSO" option.
+
+**Review and Save:**
+* Review your settings and make sure everything is configured correctly.
+* Save your changes.
 
 # Conclusion
 
