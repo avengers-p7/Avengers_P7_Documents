@@ -61,7 +61,6 @@ In software development, bugs can take various forms, each with distinct charact
 
 Understanding these bug types is vital for effective bug resolution and software quality assurance.
 
-
 ***
 
 # Factors Leading to Bugs
@@ -81,22 +80,35 @@ Understanding and addressing these factors contributes to a more user-friendly a
 
 ## Different Tools for Bug Analysis
 
-There are various tools available for bug analysis in software development. Here's a list of popular ones:
+## Overview Table
 
+| Tool          | Description | Key Features |
+|---------------|-------------|--------------|
+| **Checkstyle**| Static code analysis tool for Java | - Enforces naming conventions<br>- Reports size violations<br>- Identifies missing Javadoc comments |
+| **Spotbugs**  | Java code review tool and static analyzer | - Wide-ranging bug patterns detection<br>- Plugin architecture for extensibility<br>- Integrations with popular build tools |
+| **PMD Java**  | Source code analyzer for detecting programming mistakes | - Rule-based analysis for potential issues<br>- Copy-paste detector (CPD) to prevent duplicate code<br>- Efficient integration with popular development tools |
+| **Coverity**  | Scalable static analysis tool for bug detection | - Advanced defect detection for complex bugs<br>- Vigorous security scans<br>- Smooth integration with CI/CD pipelines |
+| **JUnit**     | Unit testing framework for Java | - Simple and intuitive test case creation<br>- Robust framework for test execution and assertions<br>- Detailed reference documentation available |
+| **Infer**     | Static analyzer for mobile and desktop applications | - Advanced analysis for detecting a range of bugs<br>- Scalable static-analysis tool<br>- Seamless integration with build systems like Gradle or Maven |
+| **jQAssistant** | Tool for analysis and control of software systems | - In-depth dependency analysis for architectural issues<br>- Enforced coding standards through rule-based analysis<br>- Build tool integrations and configuration |
+| **SonarQube** | Code quality and security solution for teams and enterprises | - Enterprise-level reporting and aggregation for security oversight<br>- Go/no-go Sonar Quality Gate<br>- Super-fast analysis for actionable Clean Code metrics |
+| **Spoon**     | Library for analyzing and transforming Java source code | - Powerful API for programmatic Java source code manipulation<br>- Automated operations and generation of metrics and documentation<br>- Suitable for code analysis, generation, and educational projects |
 
-| # | Tool                     | Open Source | Description                                                                                                                                       |
-|---|--------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | **JIRA Software**        | No          | Versatile incident management tool used for bug tracking, supporting agile projects with seamless integration into the code development environment. |
-| 2 | **QACoverage**           | No          | Features a defect management module, customizable defect tracking process, and graphical reports based on severity and priority.                   |
-| 3 | **Zoho Projects**        | No          | Task management software with a bug tracker module for creating projects, milestones, tasks, bugs, reports, and documents.                         |
-| 4 | **Userback**             | No          | Facilitates fast bug reporting and feedback with annotated screenshots, video recordings, console logs, and browser info.                            |
-| 5 | **Kualitee**             | No          | Defect management tool for development and QA teams with integrated test case and test execution workflows.                                       |
-| 6 | **Bugzilla**             | Yes         | Web-based interface for bug tracking, known for its simplicity and essential features in defect tracking.                                         |
-| 7 | **Mantis**               | Yes         | Simple and easy-to-use bug tracking tool available as a web application and mobile version, implemented in PHP, and free for use.                    |
-| 8 | **Trac**                 | Yes         | Web-based issue tracking system written in Python, integrates seamlessly with SCM systems and can be used for defect management using "tickets."     |
-| 9 | **Redmine**              | Yes         | Open-source issue tracking system that integrates with SCM systems, presented as a web application requiring Ruby availability.                    |
+## Detailed Comparison
 
-These tools are commonly utilized for effective bug analysis and tracking in software development.
+| Tool          | Features and Benefits                               | Drawbacks                                       |
+|---------------|-----------------------------------------------------|-------------------------------------------------|
+| **Checkstyle**| - Identifies layout and formatting issues             | - May generate false positives and negatives    |
+| **Spotbugs**  | - Supports integration with build tools               | - Requires manual determination of next steps   |
+| **PMD Java**  | - Offers rule-based analysis                           | - May require customization for specific projects|
+| **Coverity**  | - Offers advanced defect detection                     | - Requires integration into existing DevOps pipelines |
+| **JUnit**     | - Simplifies test case creation and execution          | - Focuses solely on testing and may require additional frameworks |
+| **Infer**     | - Scalable for different-sized projects                | - May require reconfiguration for project-specific requirements |
+| **jQAssistant**| - Enforces coding standards                            | - Requires customization if default plug-ins are insufficient |
+|               | - Validates data through living documentation         |                                                 |
+| **SonarQube** | - Supports multiple languages and frameworks          | - Requires customization for specific enterprise needs |
+| **Spoon**     | - Offers a powerful API for manipulation               | - Requires JDK 11+ and may warn about invalid programs |
+
 
 ***
 
@@ -111,17 +123,112 @@ These tools are commonly utilized for effective bug analysis and tracking in sof
 
 
 ***
+# Proof of Concept (POC) for Java Base Application
 
-## Proof of Concept (POC)
+## Introduction 
 
-To conduct a proof of concept for bug analysis, you can follow these steps:
+The Proof of Concept (POC) focuses on demonstrating the bug analysis process for a Java-based application. The project under consideration is the "salary-api" from the [OT-MICROSERVICES repository](https://github.com/OT-MICROSERVICES/salary-api.git).
 
-1. Select a bug analysis tool that aligns with your development environment.
-2. Identify a software application with known bugs or introduce test scenarios to simulate issues.
-3. Use the selected bug analysis tool to analyze and categorize the identified bugs.
-4. Assess the tool's effectiveness in providing insights into root causes and potential resolutions.
-5. Document the bug analysis process and results for future reference.
-***
+	Repository Link: [OT-MICROSERVICES](https://github.com/OT-MICROSERVICES/salary-api.git)
+ 
+
+![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e4437f15-a559-43a4-9367-eb7aecca1f78)
+
+## Prerequisites
+
+**Java Version 17** (mentioned in pom.xml)  
+
+![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/3a93c93a-5008-418e-b2f5-ff7e1ef1bef4)
+
+**Maven** - As it simplifies the process of managing project dependencies, including testing dependencies.
+
+**Spotbug** - As it's a library on which the project's bug tests is depended on. 
+
+## Steps
+
+### Cloning a Java App
+
+Within the directory, make a clone of the repository.
+
+	mkdir snaatak-P7
+	cd snaatak
+	git clone https://github.com/OT-MICROSERVICES/salary-api.git
+
+
+### Install Java 17 and Maven
+
+As the salary code is Java-based, it is designed to be compatible with Java version 17. It is advisable to install Maven, a crucial tool for managing and building Java projects.
+
+	sudo apt update
+	sudo apt install openjdk-17-jdk
+	sudo apt install maven
+
+
+### Add the Spotbug dependency in pom.xml file.
+
+        <plugin>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs-maven-plugin</artifactId>
+          <version>4.8.2.0</version>
+          <dependencies>
+            <dependency>
+              <groupId>com.github.spotbugs</groupId>
+              <artifactId>spotbugs</artifactId>
+              <version>4.8.3</version>
+            </dependency>
+          </dependencies>
+        </plugin>
+
+![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/be28309d-4765-42a8-91e5-36fc945e2e3d)
+
+### Integrate Find Security Bugs into spotbugs-maven-plugin
+
+To integrate Find Security Bugs into SpotBugs plugin, you can configure your pom.xml like below:
+
+
+              <plugin>
+                  <groupId>com.github.spotbugs</groupId>
+                  <artifactId>spotbugs-maven-plugin</artifactId>
+                  <version>4.8.2.0</version>
+                  <configuration>
+                      <includeFilterFile>spotbugs-security-include.xml</includeFilterFile>
+                      <excludeFilterFile>spotbugs-security-exclude.xml</excludeFilterFile>
+                      <plugins>
+                          <plugin>
+                              <groupId>com.h3xstream.findsecbugs</groupId>
+                              <artifactId>findsecbugs-plugin</artifactId>
+                              <version>1.12.0</version>
+                          </plugin>
+                      </plugins>
+                  </configuration>
+              </plugin>
+
+![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e7ab5723-42ac-4d9e-a671-36f1fbf90781)
+
+
+
+
+
+### 	Analyze Code with SpotBugs:
+
+ mvn spotbugs:check
+
+### Generate SpotBugs Reports: 
+This command will generate an html report. After running this command, generate various types of reports, such as HTML and XML: (target/spotbugs.html)(target/spotbugsXml.xml).
+
+	mvn spotbugs:spotbugs
+ 
+
+
+ 
+### POC Conclusion
+## Conclusion
+
+In conclusion, the Proof of Concept showcased effective bug analysis practices for the Java-based "salary-api" application. By leveraging Java 17, Maven, and SpotBugs with Find Security Bugs integration, the POC demonstrated a systematic approach to identify and address potential issues in the codebase.
+
+The outlined steps, from repository cloning to SpotBugs report generation, provide a clear roadmap for bug analysis. Additionally, the recommendation of SonarQube emphasizes its role in enhancing code reliability, security, and maintainability.
+
+Adopting these practices empowers development teams to proactively address potential issues, ensuring the delivery of high-quality and secure software.
 
 ## Best Practices for Bug Tracking and Management
 
@@ -136,9 +243,10 @@ Effective bug tracking and management is crucial for successful software develop
 7. Continuously monitor and analyze bug data to identify patterns and areas for improvement.
 ***
 
-## Recommendation/Conclusion
+Recommendation/Conclusion
+Effective bug analysis is a crucial component of software development, contributing to the delivery of high-quality and reliable software. Through the implementation of sound bug analysis practices and the use of appropriate tools, development teams can significantly improve the overall software development process.
 
-Bug analysis is a fundamental aspect of software development that contributes to delivering high-quality, reliable software. By employing effective bug analysis practices and utilizing appropriate tools, development teams can enhance the overall software development process.
+In conclusion, SonarQube emerges as a robust choice for static code analysis, offering comprehensive solutions for code quality and security. Its features, including enterprise-level reporting, the Go/No-Go Sonar Quality Gate, wide integration support, and a trusted community, make SonarQube well-suited for teams seeking to elevate code reliability, enhance security, and improve maintainability in their development processes.
 ***
 
 ## Contact Information
@@ -154,5 +262,5 @@ Bug analysis is a fundamental aspect of software development that contributes to
 | **Source**                                              | **Description**                               |
 |---------------------------------------------------------|-----------------------------------------------|
 | [What is Bug in Software Development](https://www.bacareers.in/what-is-bug-in-software-development/) | Understand the concept of bugs in software development. |
-| [Bug Tracking Software](https://www.softwaretestinghelp.com/popular-bug-tracking-software/) | Explore a list of popular bug tracking software. |
-| [Best practices for bug tracking and management](https://www.bacareers.in/what-is-bug-in-software-development/) | Understand the concept of bugs in software development. |
+| [Bug Analysis Tools](https://www.bairesdev.com/blog/java-static-code-analysis-tools/) | Explore a list of popular bug tracking tools. |
+| [Best practices for bug tracking and management](https://www.bacareers.in/what-is-bug-in-software-development/) | Best practices for bug tracking and management. |
