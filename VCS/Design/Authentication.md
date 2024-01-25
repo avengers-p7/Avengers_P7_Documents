@@ -47,8 +47,24 @@ One can access  resources in GitHub in a variety of ways like, in the browser, w
 ***
 
 # Setup & Use SSO
-Setting up Single Sign-On (SSO) in GitHub involves using an identity provider (IdP) that supports SAML (Security Assertion Markup Language) or OAuth. Common identity providers include Okta, Azure AD, OneLogin, and others. 
-**Prerequisites:**
+Setting up Single Sign-On (SSO) in GitHub involves using an identity provider (IdP) that supports SAML (Security Assertion Markup Language) or OAuth. Common identity providers include Okta, Azure AD, OneLogin, and others.
+ 
+### Prerequisites:
+
+ * **GitHub Organization:** You need to have administrative access to a GitHub organization.
+
+ * **Identity Provider (IdP) Account:** You must have an account with an identity provider that supports SAML, like Okta, Azure AD, or OneLogin.
+
+### Steps:
+**Access GitHub Organization Settings:**
+* Go to your GitHub organization.
+* Click on "Settings."
+
+**Navigate to SAML SSO Settings:**
+* Under "Settings," click on "Security & analysis."
+* Then, click on "Authentication."
+
+
 
 
 # Conclusion
