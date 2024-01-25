@@ -114,26 +114,26 @@ Signed-off-by: Your Name <your_email_address>"
 
 | **Advantages of Commit Sign-off**                                   | 
 |---------------------------------------------------------------------|
-| **1. Accountability**                                              | 
+| **Accountability**                                              | 
 |     Commit sign-off clearly identifies who is responsible for the changes introduced in a particular commit. This improves traceability and facilitates debugging or reverting changes if needed. | 
-| **2. Code ownership**                                              | 
+| **Code ownership**                                              | 
 |     Sign-off can imply ownership and acceptance of the code within a project. This helps maintain code quality and ensures that changes adhere to project standards. | 
-| **3. Review process**                                              | 
+| **Review process**                                              | 
 |     Sign-off often signifies that the code has undergone proper review and approval before being merged into the main branch. This strengthens the code quality and reduces the risk of regressions. | 
-| **4. Contributor recognition**                                    | 
+| **Contributor recognition**                                    | 
 |     Publicly acknowledging contributions through sign-off can boost developer morale and encourage participation.                | 
 ***
 # Disadvantages
 
 | **Disadvantages of Commit Sign-off**                               | 
 |---------------------------------------------------------------------|
-| **1. Overhead**                                                    | 
+| **Overhead**                                                    | 
 |     Implementing and enforcing a sign-off process can add complexity and overhead to the development workflow, especially for small projects or frequent contributors. |
-| **2. Attribution disputes**                                        | 
+| **Attribution disputes**                                        | 
 |     In some cases, disputes may arise regarding the actual responsibility for changes when multiple developers are involved in a single commit. |
-| **3. Fear of contribution**                                         | 
+| **Fear of contribution**                                         | 
 |     Strict sign-off requirements might discourage junior developers or new contributors from submitting their work due to fear of making mistakes or not meeting expectations. |
-| **4. False sense of security**                                     | 
+| **False sense of security**                                     | 
 |     Relying solely on sign-off as a quality measure can be misleading. Thorough code review and testing remain crucial for ensuring code quality. |
 ***
 # Conclusion 
