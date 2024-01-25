@@ -15,6 +15,7 @@
 + [Guidelines](#rules-and-guidelines)
 + [Reviewing Pull Requests](#review-process)
 + [Conclusion](#conclusion)
++ [Git Operations](#other-git-operations)
 + [Contact Information](#contact-information)
 + [References](#references)
 
