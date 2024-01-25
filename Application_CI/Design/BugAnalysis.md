@@ -9,7 +9,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [What is a Bug?](#what-is-a-bug)
+2. [What is a Bug?](#what-is-a-bug-in-Software-Development)
 3. [Why is Bug Analysis Important?](#why-is-bug-analysis-important)
 4. [Types of Bugs and Their Impact on Software](#types-of-bugs-and-their-impact-on-software)
 5. [Factors Leading to Bugs](#factors-leading-to-bugs)
@@ -29,7 +29,7 @@ This document provides a detailed analysis of bugs, focusing on the importance o
 
 ***
 
-## What is a Bug?
+## What is a Bug in Software Development?
 
 In software development, a **'bug'** refers to an error, flaw, or unexpected behavior in a software application. Bugs can manifest in various forms, such as incorrect output, system crashes, or unexpected behavior. The goal of bug analysis is to identify, categorize, and understand these issues to facilitate effective resolution.
 
