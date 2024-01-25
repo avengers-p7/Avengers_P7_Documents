@@ -2,10 +2,10 @@
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Vidhi Yadav      | 19 Jan 2024   |     v1     | Vidhi Yadav     | 21 Jan 2024    |
+| Vidhi Yadav      | 19 Jan 2024   |     v1     | Vidhi Yadav     | 25 Jan 2024    |
 
 ***
-# Table of Contents 
+## Table of Contents 
 + [Introduction](#introduction)
 + [Flow Diagram](#pull-requests-flow)
 + [Pull Request Creation](#PR-Creation)
@@ -20,19 +20,19 @@
 
 
 ***
-# Introduction 
+## Introduction 
 * A pull request is a proposal to merge a set of changes from one branch into another. This mechanism is fundamental in collaborative software development workflows, allowing team members to thoroughly review and discuss the proposed alterations before incorporating them into the main codebase. 
 
 * The pull request acts as a communication hub where developers can engage in discussions, ask questions, and collaborate to ensure that the proposed changes align with the project's objectives and coding standards.
 The primary purpose of this process is to maintain code quality, prevent errors, and promote a more informed decision-making process.
 
 *** 
-# Pull Requests flow 
+## Pull Requests flow 
 
 <img width="1316" alt="Screenshot 2024-01-22 at 6 46 12 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/72de7e7a-3637-4679-8176-330446adfb68">
 
 ***
-# PR Creation
+## PR Creation
 ### **Step 1: Clone the Repository**
 * Use the git clone command with the URL of your forked repository to download a local copy. This copy is where you'll make and test your changes.
 
@@ -105,15 +105,15 @@ gh pr list
 <img width="837" alt="Screenshot 2024-01-21 at 12 54 45 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cff9362d-e33d-425d-948b-e462d26be5dd">
 
 ***
-# Closing Pull Requests
+## Closing Pull Requests
 
-# Method 1: Using GUI 
+### Method 1: Using GUI 
 
 * After successful review and approval, the pull request is merged. Contributors should delete their feature branches after merging to keep the repository clean.
 
 <img width="998" alt="Screenshot 2024-01-19 at 7 51 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8f7d17b0-bf71-4019-8a3f-76dcec5b388d">
 
-# Method 2: Using CLI
+### Method 2: Using CLI
 
 * To close a pull request from the command line interface (CLI) using GitHub CLI, you can use the following command:
 
@@ -129,7 +129,7 @@ gh pr close <pull-request-number>
 
 
 ***
-# Conflict Resolution 
+## Conflict Resolution 
 
 * A conflict in a pull request arises when changes made in the source branch conflict with the changes made in the target branch . Consider two developers, A and B, each working on a separate feature branch, feature-A and feature-B. Both branches aim to introduce changes to the same file (eg. README.md).In this situation, Git cannot automatically determine which changes to apply.
 * Follow these steps to resolve conflicts during the merge process:
@@ -152,7 +152,7 @@ gh pr close <pull-request-number>
 
 
 ***
-# Pull Request Checklist
+## Pull Request Checklist
 
 - [x] Tag the issue assignee or reviewer @[reviewer] (e.g., @assignee) for visibility.
 - [x] Attach relevant labels to categorize your pull request (e.g., `bug-fix`, `documentation`).
@@ -164,7 +164,7 @@ gh pr close <pull-request-number>
 
 
 ***
-# Rules and Guidelines
+## Rules and Guidelines
 
 + Use the provided checklist in the pull request template for verbosity and completeness.
 + Thoroughly test your changes to ensure they work as intended. Provide test cases where applicable to maintain code reliability.
@@ -172,7 +172,7 @@ gh pr close <pull-request-number>
 + Engage in the review process actively. Address and incorporate feedback from reviewers, fostering collaboration and maintaining code quality.
 
 ***
-# Review Process
+## Review Process
 
 + Reviewers analyze the code for adherence to coding standards, logic errors, and potential issues. Provide constructive feedback to improve code quality.
 + Engage in discussions during the review process. Collaborate with contributors to enhance the quality of the code and address concerns.
@@ -180,7 +180,7 @@ gh pr close <pull-request-number>
 + Emphasize the caution associated with force pushing commits to a pull request. Highlight the potential risks of altering repository history and the impact on collaborators.
 
 ***
-# Other Git Operations
+## Other Git Operations
 
 Explore various Git operations beyond pull requests:
 
@@ -200,17 +200,17 @@ Explore various Git operations beyond pull requests:
 
 
 ***
-# Conclusion
+## Conclusion
 * In conclusion, the outlined guidelines not only streamline the collaborative development process but also contribute to the overall health of the project. By adhering to these established steps and rules, contributors actively contribute to a culture of transparency, thorough review, and continuous improvement. This collaborative approach not only ensures the integration of high-quality contributions but also promotes a positive and effective working environment within the development community.
 
 ***
-# Contact Information
+## Contact Information
 
 |Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
 |---------------------------------|------------------------------------------------------------|
 
 ***
-# References
+## References
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
