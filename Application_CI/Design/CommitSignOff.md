@@ -45,3 +45,40 @@ The purpose of a Signed-off-by trailer in Git is:-
 | **4. False sense of security:**                                     | 
 |     Relying solely on sign-off as a quality measure can be misleading. Thorough code review and testing remain crucial for ensuring code quality. |
 ***
+# Proof of Concept 
+***
+### Enforce Commit Sign-offs through the Web Interface
+
+**Step-1** Access the repository:
+- Navigate to the GitHub repository in your web browser.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/0a9ea5eb-1be1-433c-a92e-14edb7b53016)
+***
+**Step-2** Make your changes:
+- Click on the file(s) you want to edit.
+- Make the necessary changes directly in the web editor.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/2d35a8a5-2719-4e20-8ed8-e764ea37258a)
+***
+**Step-3** Commit your changes:
+- Locate the "Commit changes" section.
+- Manually add sign-off.
+- Type a clear and concise commit message summarizing your changes.
+- Add the following line at the end of the message:
+```shell
+Signed-off-by: Your Name <your_email_address>
+```
+- Replace with your actual name and email address.
+- Click the "Commit changes" button to create the commit with the sign-off.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/ab294094-d8fb-4df4-b10e-a2ecf829542f)
+***
+Now the Commit also displays the Committer details.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/3c81b43f-96d5-4423-8f54-6cf72b03bd2e)
+***
+In the Slack Notification and Email notification also the Committer details are displayed.
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/a9f45a5a-c330-4017-874b-6b1f7a7b6a5f)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/9670c773-15e8-4d1a-8fa3-907510560dc5)
+***
+
