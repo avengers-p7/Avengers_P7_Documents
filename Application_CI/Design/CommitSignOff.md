@@ -87,7 +87,7 @@ In the Slack Notification and Email notification the Committer details are displ
 **Step-1** Clone the repository:
 - Open your terminal or command prompt.
 - Navigate to the desired directory using the cd command.
-- Run ```shell git clone <repository_url>``` to clone the repository to your local machine. Replace "<repository_url>" with the actual HTTPS or SSH URL of the repository.
+- Run ```git clone <repository_url>``` to clone the repository to your local machine. Replace "<repository_url>" with the actual HTTPS or SSH URL of the repository.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/9b37caf6-f36f-4773-b49f-44bce1bd7606)
 ***
@@ -98,7 +98,7 @@ In the Slack Notification and Email notification the Committer details are displ
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/60cc2c2c-2a83-45e1-a568-b0f55f2005dc)
 ***
 **Step-3** Stage your changes:
-- Run ```shell git add <modified_files>``` to stage the specific files you've changed, or git add . to stage all modified files.
+- Run ```git add <modified_files>``` to stage the specific files you've changed, or git add . to stage all modified files.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/b2d1260e-7180-4505-acb3-93406695d860)
 ***
@@ -112,12 +112,12 @@ Signed-off-by: Your Name <your_email_address>"
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/8cf56189-5fbd-4861-a2c3-f50cd17f7956)
 ***
 **Step-5** Push your changes:
-- Run ```shell git push``` to push your committed changes, including the sign-off, to the remote repository on GitHub.
+- Run ``` git push``` to push your committed changes, including the sign-off, to the remote repository on GitHub.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/05075dab-0399-4bd1-8f5c-1a931dc936eb)
 ***
 **Step-6** Verify sign-off: 
-- Run ```shell git show ```to view the complete commit message and confirm the Signed-off-by line is present.
+- Run ``` git show ```to view the complete commit message and confirm the Signed-off-by line is present.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/2adb69c3-5021-457f-b385-460be59d56cf)
 ***
