@@ -1,4 +1,4 @@
-# Comprehensive Guide to Bug Analysis in Software Development
+# Documentation of Bug Analysis 
 
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
@@ -6,7 +6,7 @@
 
 ***
 
-## Table of Contents
+# Table of Contents
 
 1. [Introduction](#introduction)
 2. [What is a Bug?](#what-is-a-bug-in-Software-Development)
@@ -23,13 +23,13 @@
 
 ***
 
-## Introduction
+# Introduction
 
 This document provides a detailed analysis of bugs, focusing on the importance of unit testing in detecting and preventing software defects. The document includes an introduction to bugs, their impact, and the need for thorough analysis. It also covers various tools, techniques, and best practices for bug analysis, along with a proof of concept, advantages, recommendations, contact information, and references.
 
 ***
 
-## What is a Bug in Software Development?
+# What is a Bug in Software Development?
 
 In software development, a **'bug'** refers to an error, flaw, or unexpected behavior in a software application. Bugs can manifest in various forms, such as incorrect output, system crashes, or unexpected behavior. The goal of bug analysis is to identify, categorize, and understand these issues to facilitate effective resolution.
 
@@ -37,7 +37,7 @@ In software development, a **'bug'** refers to an error, flaw, or unexpected beh
 
 ***
 
-## Why is Bug Analysis Important?
+# Why is Bug Analysis Important?
 
 | #   | Reason                   | Description                                                                                                                                                     |
 | --- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -78,7 +78,7 @@ Understanding and addressing these factors contributes to a more user-friendly a
 
 ***
 
-## Different Tools for Bug Analysis
+# Different Tools for Bug Analysis
 
 ## Overview Table
 
@@ -112,7 +112,7 @@ Understanding and addressing these factors contributes to a more user-friendly a
 
 ***
 
-## Bug Analysis Advantages
+# Bug Analysis Advantages
 
 | #   | Advantage                       | Description                                                                                                                                                                                            |
 | --- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -125,7 +125,7 @@ Understanding and addressing these factors contributes to a more user-friendly a
 ***
 # Proof of Concept (POC) for Java Base Application
 
-## Introduction 
+### Introduction 
 
 The Proof of Concept (POC) focuses on demonstrating the bug analysis process for a Java-based application. The project under consideration is the "salary-api" from the [OT-MICROSERVICES repository](https://github.com/OT-MICROSERVICES/salary-api.git).
 
@@ -134,7 +134,7 @@ The Proof of Concept (POC) focuses on demonstrating the bug analysis process for
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e4437f15-a559-43a4-9367-eb7aecca1f78)
 
-## Prerequisites
+### Prerequisites
 
 **Java Version 17** (mentioned in pom.xml)  
 
@@ -205,12 +205,7 @@ To integrate Find Security Bugs into SpotBugs plugin, you can configure your pom
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e7ab5723-42ac-4d9e-a671-36f1fbf90781)
 
 
-
-
-
-
-
-### 	Analyze Code with SpotBugs:
+### Analyze Code with SpotBugs:
 
  mvn spotbugs:check
  
@@ -223,10 +218,8 @@ This command will generate an html report. After running this command, generate 
  
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/42809da9-b19e-4b49-a35b-f993ffd8c305)
 
-
  
 ### POC Conclusion
-## Conclusion
 
 In conclusion, the Proof of Concept showcased effective bug analysis practices for the Java-based "salary-api" application. By leveraging Java 17, Maven, and SpotBugs with Find Security Bugs integration, the POC demonstrated a systematic approach to identify and address potential issues in the codebase.
 
@@ -234,7 +227,7 @@ The outlined steps, from repository cloning to SpotBugs report generation, provi
 
 Adopting these practices empowers development teams to proactively address potential issues, ensuring the delivery of high-quality and secure software.
 
-## Best Practices for Bug Tracking and Management
+# Best Practices for Bug Tracking and Management
 
 Effective bug tracking and management is crucial for successful software development. Here are some best practices to follow:
 
@@ -247,13 +240,13 @@ Effective bug tracking and management is crucial for successful software develop
 7. Continuously monitor and analyze bug data to identify patterns and areas for improvement.
 ***
 
-Recommendation/Conclusion
+# Recommendation/Conclusion
 Effective bug analysis is a crucial component of software development, contributing to the delivery of high-quality and reliable software. Through the implementation of sound bug analysis practices and the use of appropriate tools, development teams can significantly improve the overall software development process.
 
 In conclusion, SonarQube emerges as a robust choice for static code analysis, offering comprehensive solutions for code quality and security. Its features, including enterprise-level reporting, the Go/No-Go Sonar Quality Gate, wide integration support, and a trusted community, make SonarQube well-suited for teams seeking to elevate code reliability, enhance security, and improve maintainability in their development processes.
 ***
 
-## Contact Information
+# Contact Information
 
 |    Name                                   | Email Address                    |
 |-------------------------------------------|----------------------------------|
@@ -261,7 +254,7 @@ In conclusion, SonarQube emerges as a robust choice for static code analysis, of
 
 ***
 
-## Resources and References
+# Resources and References
 
 | **Source**                                              | **Description**                               |
 |---------------------------------------------------------|-----------------------------------------------|
