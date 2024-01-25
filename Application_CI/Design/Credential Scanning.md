@@ -3,7 +3,12 @@
 
 ***
 ## Table Of Contents 
-
++ [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/Credential%20Scanning.md#introduction)
++ [Why Credential Scanning]()
++ [Types Of Credentials]()
++ [Credential Scanning Tools]()
++ [Tool Comparison]
++ [When To Scan For Credentials]()
 ***
 ## Introduction 
 Credential scanning is the practice of automatically inspecting a project to ensure that no secrets are included in the project's source code. Secrets include database passwords, storage connection strings, admin logins, service principals, etc.
