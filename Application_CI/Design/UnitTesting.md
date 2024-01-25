@@ -67,19 +67,21 @@ Unit testing offers several benefits, including:
 
 There are various unit testing frameworks available for different programming languages. Some popular ones include:
 
-| #   | Tool                           | Official Link                                    | Open Source | Description                                                                                       |
-| --- | ------------------------------ | ------------------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 1   | JUnit                          | [JUnit](https://junit.org/junit5/)               | Yes         | Open-source, widely used for Java, supports TDD (Test-Driven Development).                                                                           |
-| 2   | TestNG                         | [TestNG](https://testng.org/doc/index.html)      | Yes         | Flexible, parallel testing, highly configurable.                                                                  |
-| 3   | NUnit                          | [NUnit](https://nunit.org/)                      | Yes         | Popular for .NET, supports data-driven tests.                                                                            |
-| 4   | Unity Test Tools                | [Unity Test Tools](https://docs.unity3d.com/560/Documentation/Manual/testing-editortestsrunner.html) | No          | Essential for Unity game development, supports various test types.                                                        |
-| 5   | Microsoft Unit Testing Framework | [Microsoft Unit Testing Framework](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test) | Yes      | Integrated with Visual Studio, suitable for .NET development, supports data-driven testing.                                |
-| 6   | HtmlUnit                       | [HtmlUnit](http://htmlunit.sourceforge.net/)    | Yes         | GUI-less, supports JavaScript, commonly used with JUnit and TestNG for testing web applications.                  |
-| 7   | Parasoft                       | [Parasoft](https://www.parasoft.com/solutions/unit-testing/) | No          | Proprietary tool for C and C++, offers static and dynamic analysis, comprehensive testing for large codebases.           |
-| 8   | Cantata                        | [Cantata](https://www.cantata-testing.com/)     | No          | Commercial testing framework, advanced productivity, widely used for unit and integration testing.        |
-| 9   | Karma                          | [Karma](https://karma-runner.github.io/)        | Yes         | Open-source, runs tests on real devices, supports easy debugging and CI/CD integration.                    |
-| 10  | pytest                | [pytest](https://docs.pytest.org/en/latest/)    | Yes        | Third-party library, concise syntax, user-friendly, good command-line support, extensible with plugins.        |
+| #   | Tool                           | Official Link                                    | Open Source | Supported Languages | Description                                                                                       |
+| --- | ------------------------------ | ------------------------------------------------- | ----------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 1   | JUnit                          | [JUnit](https://junit.org/junit5/)               | Yes         | Java               | Open-source, widely used for Java, supports TDD (Test-Driven Development).                                                                           |
+| 2   | TestNG                         | [TestNG](https://testng.org/doc/index.html)      | Yes         | Java               | Flexible, parallel testing, highly configurable.                                                                  |
+| 3   | NUnit                          | [NUnit](https://nunit.org/)                      | Yes         | .NET               | Popular for .NET, supports data-driven tests.                                                                            |
+| 4   | Unity Test Tools                | [Unity Test Tools](https://docs.unity3d.com/560/Documentation/Manual/testing-editortestsrunner.html) | No          | Unity (C#)          | Essential for Unity game development, supports various test types.                                                        |
+| 5   | Microsoft Unit Testing Framework | [Microsoft Unit Testing Framework](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test) | Yes      | .NET               | Integrated with Visual Studio, suitable for .NET development, supports data-driven testing.                                |
+| 6   | HtmlUnit                       | [HtmlUnit](http://htmlunit.sourceforge.net/)    | Yes         | Java               | GUI-less, supports JavaScript, commonly used with JUnit and TestNG for testing web applications.                  |
+| 7   | Parasoft                       | [Parasoft](https://www.parasoft.com/solutions/unit-testing/) | No          | C, C++              | Proprietary tool for C and C++, offers static and dynamic analysis, comprehensive testing for large codebases.           |
+| 8   | Cantata                        | [Cantata](https://www.cantata-testing.com/)     | No          | C, C++              | Commercial testing framework, advanced productivity, widely used for unit and integration testing.        |
+| 9   | Karma                          | [Karma](https://karma-runner.github.io/)        | Yes         | JavaScript         | Open-source, runs tests on real devices, supports easy debugging and CI/CD integration.                    |
+| 10  | pytest                | [pytest](https://docs.pytest.org/en/latest/)    | Yes        | Python             | Third-party library, concise syntax, user-friendly, good command-line support, extensible with plugins.        |
 
+
+***
 
 # Unit Testing Advantages
 
@@ -118,11 +120,14 @@ Java unit testing is often facilitated by testing frameworks, with JUnit being o
 
 The developer has already authored the unit test cases for the application.
 
-You can find these test cases located in the directory path: src/test/java/com/opstree/microservice/salary.
+You can find these test cases located in the directory path: 
+
+	src/test/java/com/opstree/microservice/salary.
 
 JUnit, a testing framework, plays a pivotal role in enabling Java unit testing within this context.
 
 	Repository Link: [OT-MICROSERVICES](https://github.com/OT-MICROSERVICES/salary-api.git)
+ 
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e4437f15-a559-43a4-9367-eb7aecca1f78)
 
@@ -200,10 +205,11 @@ Address compatibility issue with JUnit by uncommenting and updating surefire plu
 
 
 ### Generate html report with surefire.
+This command will generate an html report. To access unit test report, navigate to the target > site > right-click > Open in Browser.
 
 	mvn surefire-report:report
  
- This command will generate an html report. To access unit test report, navigate to the target > site > right-click > Open in Browser.
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/486dbecd-8438-4367-a5b3-ab123ac27a3a)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/39df6f1b-f373-4db4-9cdf-f904c1c544ba)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/de771f0f-419e-4ab9-ae3b-643d8282b271)
