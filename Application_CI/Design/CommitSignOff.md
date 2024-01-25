@@ -80,7 +80,7 @@ In the Slack Notification and Email notification the Committer details are displ
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/9b37caf6-f36f-4773-b49f-44bce1bd7606)
 ***
-**Step-2**Make changes to the code:
+**Step-2** Make changes to the code:
 - Use your preferred text editor or IDE to edit the files in the cloned repository.
 - Make the necessary changes to the code.
 
