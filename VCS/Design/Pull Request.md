@@ -179,6 +179,9 @@ gh pr close <pull-request-number>
 + Only authorized maintainers can merge pull requests. Ensure that all review comments are addressed before merging to maintain code integrity.
 + Emphasize the caution associated with force pushing commits to a pull request. Highlight the potential risks of altering repository history and the impact on collaborators.
 
+***
+# Other Git Operations 
+
 
 
 ***
