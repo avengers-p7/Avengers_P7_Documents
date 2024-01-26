@@ -194,7 +194,7 @@ The combination of robust databases such as PostgreSQL for structured data, Scyl
 
 | Name                 | Email                      |
 | -------------------- | -------------------------- |
-| Shreya Jaiswal       | shreya.jaiswal.snatak@mygurukulam.co |                          
+| Shreya Jaiswal       | shreya.jaiswal.snaatak@mygurukulam.co |                          
 | Parasharam Desai     |  parasharam.desai.snaatak@mygurukulam.co   |
 
 ***
