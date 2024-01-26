@@ -152,7 +152,7 @@ In conclusion, this documentation has provided a comprehensive guide on integrat
 
 | **Name** | **Email Address** |
 | -------- | ----------------- |
-| **Shreya Jaiswal** | shreya.jaiswal.snatak@mygurukulam.co |
+| **Shreya Jaiswal** | shreya.jaiswal.snaatak@mygurukulam.co |
 
 ***
 
