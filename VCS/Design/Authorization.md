@@ -155,7 +155,7 @@ In conclusion, GitHub's robust access control features, audit trails, and integr
 
 | Name | Email Address |
 | ---- | ------------- |
-| Shreya Jaiswal | shreya.jaiswal.snatak@mygurukulam.co |
+| Shreya Jaiswal | shreya.jaiswal.snaatak@mygurukulam.co |
 
 ----------------------------------------------------------------------------------------------------------------------------
 
