@@ -139,6 +139,11 @@ Maven will be used as a package manager to download specific versions of depende
       sudo apt update
       sudo apt install migrate -y  
     ```
+7.  install jq
+   
+   ```shell
+       sudo apt install jq -y 
+   ```
 
 
 ### Step2: Build/Artifact Generation 
