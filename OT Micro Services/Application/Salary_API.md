@@ -56,7 +56,7 @@ Maven will be used as a package manager to download specific versions of depende
 | Processor/Instance Type           |             Dual Core/t2.medium            | 
 | RAM                               |               4GB                          |
 | Disk Space                        |               16GB                         |            
-| OS Required (Linux Distributions) | Ubuntu 20.04 LTS, Debian, or CentOS 7/8    |
+| OS Required | Ubuntu   |
 
 ## Important Ports
 
