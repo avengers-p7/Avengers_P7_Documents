@@ -154,7 +154,7 @@ The careful consideration of organization-level and repository-level authorizati
 
 | **Name** | **Email Address** |
 | -------- | ----------------- |
-| **Shreya Jaiswal** | shreya.jaiswal.snatak@mygurukulam.co |
+| **Shreya Jaiswal** | shreya.jaiswal.snaatak@mygurukulam.co |
 
 ***
 
