@@ -38,7 +38,7 @@ The purpose of the documentation comparing GitHub, GitLab, and Bitbucket, and ul
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-# why selecting the right version control platform is critical for project success in the Introduction part?
+# Why selecting the right version control platform is critical for project success in the Introduction part?
 
 In the modern software development landscape, where teams are often distributed geographically and projects involve multiple contributors, version control plays a pivotal role in maintaining code integrity and fostering a collaborative environment. The success of a project hinges on the effectiveness of version control, and the platform chosen directly impacts key aspects of the development lifecycle. A well-chosen system not only streamlines development workflows but also promotes collaboration, code quality, and the ability to adapt to evolving project requirements.
 
