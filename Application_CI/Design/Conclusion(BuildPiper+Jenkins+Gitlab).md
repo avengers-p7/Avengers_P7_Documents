@@ -79,4 +79,4 @@ Automated CI checks and complete CI analysis help in identifying the defects and
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
-|     Jenkins vs Gitlab   | https://www.browserstack.com/guide/jenkins-vs-gitlab |
+|     Jenkins vs Gitlab CI | https://www.browserstack.com/guide/jenkins-vs-gitlab |
