@@ -36,7 +36,7 @@ GitLab CI is a self-contained platform supporting the DevOps lifecycle through w
 
 GitLab works on a freemium basis, i.e., it offers both free and paid services. It enables automating the entire DevOps lifecycle, which involves planning, building, testing, deployment, and monitoring through release cycles.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/92c566e2-4599-40a1-8959-8d9696b8d9fe)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/53283b3b-45ad-4234-a702-891bcb746af9)
 ***
 ## What is BuildPiper?
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
