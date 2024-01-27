@@ -11,9 +11,9 @@
 
 1. [Introduction](#Introduction)
 2. [What is Jenkins?](#What-is-Jenkins)
-3. [System Requirements](#System-Requirements)
-4. [Features](#Features)
-5. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
+3. [What is GitLab?](#What-is-GitLab)
+4. [What is BuilPiper?](#What-is-BuilPiper)
+5. [Comparision](#Comparision)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#Contact-Information)
 8. [References](#References)
