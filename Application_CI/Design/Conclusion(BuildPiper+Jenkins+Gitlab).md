@@ -47,8 +47,17 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f)
 ***
 ## Comparision
-
-## Why use BuildPiper?
+| Criteria  | Jenkins | GitLab | BuildPiper |
+| --------- | -------- | ------ | --------- |
+| **Language** | Java  |   Ruby |           |
+| **Ease of Installation** | easy to install  |   easy to install | easy to install |
+| **Plugins** | 1700+ plugins |   Limited plugins |  |
+| **Prerequisites** | JRE should be installed	| Ruby, Go, Git, Node.js, and Redis should be installed | |
+| **Operating Systems Supported** |	Windows, Mac OS X, and Unix-like OS |	Supports only particular Unix-like OS such as Ubuntu, Debian, Red Hat Linux, Scientific Linux, Oracle Linux, CentOS, and OpenSUSE. It does not support Windows and macOS. | |
+| **Open Source**	| Open Source and Free	| Open Source and Freemium | |
+| **Issue Tracking**	| Don’t have such functionality	| Offers various features for issue tracking and management | |
+| **Extensiveness** |	Highly extensive as it can be used as a simple CI server or can be transformed into a complex CD system with the help of plugins	| Offers scalability to enhance the DevOps lifecycle for a project | |
+| **Support** |	Offers documentation and open source community support, but no technical support is provided as part of the SLA |	Provides 24×5 support for paid users and only self-support documents to free users as part of the SLA | |
 
 Management of microservice repositories and CI/CD pipeline becomes much more complex and challenging as the number of applications increases. For businesses looking for solutions to manage CI/CD pipelines, BuildPiper is the ideal choice for effective CI/CD pipeline management. It enables intuitive and easy setup of feature-rich delivery pipelines for a seamless and secure product release.
 
