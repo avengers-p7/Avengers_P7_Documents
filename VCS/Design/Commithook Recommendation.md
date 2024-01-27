@@ -59,6 +59,10 @@ A pre-commit hook is a script or program that runs automatically before a Git co
 
 To set up commit hooks, follow these general steps:
 
+**flow:**  
+![image](https://github.com/avengers-p7/Documentation/assets/156056413/1831c9e1-fc86-457f-9425-a7e80ea92739)
+
+
 * Navigate to the root directory of your Git repository.
 * Create a new directory named .git/hooks if it doesn't exist.
 
