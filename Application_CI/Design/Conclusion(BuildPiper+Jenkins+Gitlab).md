@@ -34,7 +34,7 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
    - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
    - It facilitates zero-touch, fully automated, and secured CI/CD pipelines.
 ***
-[Comparision](#Comparision)
+## Comparision
 
 ## Why use BuildPiper?
 
