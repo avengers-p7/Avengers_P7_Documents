@@ -13,7 +13,7 @@
 2. [What is Jenkins?](#What-is-Jenkins)
 3. [What is GitLab?](#What-is-GitLab)
 4. [What is BuilPiper?](#what-is-buildpiper)
-5. [Comparision](#Comparision)
+5. [Comparison](#Comparison)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#Contact-Information)
 8. [References](#References)
@@ -46,7 +46,7 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f)
 ***
-## Comparision
+## Comparison
 | Criteria  | Jenkins | GitLab | BuildPiper |
 | --------- | -------- | ------ | --------- |
 | **Plugins** | 1700+ plugins |   Limited plugins |  |
