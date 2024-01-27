@@ -256,7 +256,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 2. **Use OAuth for SSO:** Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
 
 ***
-#  Troubleshoot
+#  Problems Faced
 1. **Problem -** The error suggests that psycopg2 requires pg_config to be available in the system. pg_config is a utility that is part of the PostgreSQL installation and is necessary for building Python packages that depend on it.
 
    **Solution -** Installed psycopg2 using poetry along with python3-dev libpq-dev.
