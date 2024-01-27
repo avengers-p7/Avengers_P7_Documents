@@ -10,7 +10,7 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [What is Jenkins?](#What-is-Jenkins?)
+2. [What is Jenkins?](#What-is-Jenkins)
 3. [System Requirements](#System-Requirements)
 4. [Features](#Features)
 5. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
