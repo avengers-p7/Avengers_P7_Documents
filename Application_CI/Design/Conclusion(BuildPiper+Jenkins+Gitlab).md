@@ -26,7 +26,7 @@ This documentation provide a introduction of  _**BuildPiper**_  and its features
 
 ## What is Jenkins?
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/35ce2db4-5302-43a6-b2f9-f138891003f7)
+## What is GitLab?
 
 ## What is BuildPiper?
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
@@ -34,6 +34,7 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
    - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
    - It facilitates zero-touch, fully automated, and secured CI/CD pipelines.
 ***
+[Comparision](#Comparision)
 
 ## Why use BuildPiper?
 
