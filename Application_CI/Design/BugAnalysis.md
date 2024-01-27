@@ -1,4 +1,4 @@
-# Bug Analysis in Software Development
+# Bug Analysis/Tracking in Software Development
 
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
