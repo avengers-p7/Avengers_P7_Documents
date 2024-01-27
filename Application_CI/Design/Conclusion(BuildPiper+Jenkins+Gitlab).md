@@ -10,18 +10,21 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [System Requirements](#System-Requirements)
-3. [Features](#Features)
-4. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+2. [What is Jenkins?](#What-is-Jenkins?)
+3. [System Requirements](#System-Requirements)
+4. [Features](#Features)
+5. [How BuildPiper manages CI/CD](#How-BuildPiper-manages-CICD)
+6. [Conclusion](#Conclusion)
+7. [Contact Information](#Contact-Information)
+8. [References](#References)
 ***
 
 ## Introduction 
 
 Detailed documentation with Comparison table and final recommendation as per template
 This documentation provide a introduction of  _**BuildPiper**_  and its features as a CI orchestration tool.
+
+## What is Jenkins?
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/35ce2db4-5302-43a6-b2f9-f138891003f7)
 
