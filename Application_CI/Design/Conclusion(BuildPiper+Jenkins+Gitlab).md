@@ -12,7 +12,7 @@
 1. [Introduction](#Introduction)
 2. [What is Jenkins?](#What-is-Jenkins)
 3. [What is GitLab?](#What-is-GitLab)
-4. [What is BuilPiper?](#What-is-BuilPiper)
+4. [What is BuilPiper?](#What-is-builpiper)
 5. [Comparision](#Comparision)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#Contact-Information)
