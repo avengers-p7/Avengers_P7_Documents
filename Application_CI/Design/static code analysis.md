@@ -32,7 +32,12 @@ Static code analysis tools help developers analyze source code for potential iss
 | Name |Language Support |Purpose|
 |------|-----------------|-------|
 |Checkstyle |  Primarily for Java |  Enforces coding standards and conventions, such as naming conventions, code formatting, and other style-related rules|
-|PMD | ava, JavaScript, Salesforce.com Apex, PLSQL, XML.
+|PMD | java, JavaScript, Salesforce.com Apex, PLSQL, XML| Identifies issues like suboptimal code, unused variables, and potential bugs. Offers a set of rules that can be customized|
+| FindBugs | Java | Identifies common programming errors, potential bugs, and performance issues in Java code. No longer actively maintained, but its successor is the SpotBugs tool|
+| SpotBugs | Java | A successor to FindBugs, SpotBugs is a static analysis tool for Java bytecode. It can identify bugs and other issues in compiled Java code |
+| SonarQube | Multi-language support, including Java, JavaScript, C#, and many others |  Provides a comprehensive platform for continuous inspection of code quality, security vulnerabilities, and code smells. Integrates with various build tools and CI servers|
+|ESLint |  JavaScript, TypeScript | static analysis tool for identifying and fixing problems in JavaScript and TypeScript code. Primarily used for enforcing coding standards and identifying common programming errors |
+| TSLint | TypeScript | Deprecated in favor of ESLint for TypeScript. TSLint was a static analysis tool for TypeScript that checked for code quality and style issues |
 
 
 
