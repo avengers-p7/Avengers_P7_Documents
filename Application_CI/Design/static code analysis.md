@@ -32,7 +32,7 @@ Static code analysis tools help developers analyze source code for potential iss
 | Name |Language Support |Purpose|
 |------|-----------------|-------|
 |Checkstyle |  Primarily for Java |  Enforces coding standards and conventions, such as naming conventions, code formatting, and other style-related rules|
-
+|PMD | ava, JavaScript, Salesforce.com Apex, PLSQL, XML.
 
 
 
