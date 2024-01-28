@@ -39,5 +39,9 @@ Static code analysis tools help developers analyze source code for potential iss
 |ESLint |  JavaScript, TypeScript | static analysis tool for identifying and fixing problems in JavaScript and TypeScript code. Primarily used for enforcing coding standards and identifying common programming errors |
 | TSLint | TypeScript | Deprecated in favor of ESLint for TypeScript. TSLint was a static analysis tool for TypeScript that checked for code quality and style issues |
 
+# Comparison 
+
+
+
 
 
