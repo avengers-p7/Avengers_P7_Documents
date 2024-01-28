@@ -8,7 +8,7 @@
 # Table of Contents 
 + [Introduction](#introduction)
 + [What is Python CI Checks](#What-is-Python-CI-Checks)
-+ [Why Python CI Checks](#Why Python-CI-Checks)
++ [Why Python CI Checks](Why-Python-CI-Checks)
 + [Creating a feature branch](#Creating-a-feature-branch)
 + [Advantages](#Advantages)
 + [Disdvantages](#Disdvantages)
