@@ -9,9 +9,10 @@
 + [Introduction](#introduction)
 + [What is Python CI Checks](#What-is-Python-CI-Checks)
 + [Why Python CI Checks](Why-Python-CI-Checks)
-+ [Creating a feature branch](#Creating-a-feature-branch)
++ [Different Tools](#Different-Tools)
 + [Advantages](#Advantages)
-+ [Disdvantages](#Disdvantages)
++ [Proof of Concept (POC)](#Proof-of-Concept-(POC))
++ [Best Practices](Best-Pratices)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#References)
@@ -19,9 +20,9 @@
 
 
 # Introduction
-Continuous Integration (CI) is a development practice that involves regularly merging code changes and automatically building and testing the application to catch integration issues early. In the context of Python development, CI checks typically involve running automated tests, linters, and code formatters to ensure code quality and consistency. One important aspect of CI checks is code compilation, which involves checking if the code can be successfully compiled into executable form.
+Continuous Integration is a software development practice where developers frequently integrate their code changes into a shared repository. Code compilation in Python CI checks is a crucial aspect of this process. It involves automating the build and compilation of Python code to ensure that it meets quality standards and functions as intended.
 
-# What is Python CI Checks?
+# What is CI Checks?
 
 Python CI checks involve setting up automated processes to compile, test, and verify Python code changes. These checks are typically performed whenever code is pushed to a version control repository, ensuring that the software remains stable and error-free throughout its development lifecycle.
 
@@ -29,82 +30,53 @@ Python CI checks involve setting up automated processes to compile, test, and ve
 
 Code compilation is an essential step in Python CI checks because it ensures that the code can be built and executed successfully. By catching errors and issues early in the development process, developers can save time and effort by fixing issues before they become more significant problems. Additionally, code compilation can help ensure that the code meets certain quality and reliability standards, making it easier to maintain and scale over time.
 
-# Different Tools for Python CI Checks
+# Different Tools
 
-|  Tool                   |        Description                                                                                                 |
-| ------------             | ---------------------------------------------------------------------------------------------------------          |
-| Jenkins                  |  An open-source automation server that supports continuous integration and continuous delivery pipelines.                                            |  
-| Travis CI	               |  This environment is dedicated to comprehensive testing to identify and fix bugs before moving to the next stage   |
-| CircleCI                 | Another cloud-based CI/CD platform that automates the build, test, and deployment processes.                       |
-| GitHub Actions           | This environment closely mirrors the production environment and serves as a final testing ground before deployment |
-| Production Branch        | The production branch contains the stable and tested code that is ready for deployment to the live environment     |
+|  Tool                  |        Description                                                                                                                     |
+| ------------           | ---------------------------------------------------------------------------------------------------------                              |
+| Python Compiler        | The Python compiler is a built-in tool that converts Python source code into bytecode that can be executed by the Python interpreter   |  
+| PyInstaller            | PyInstaller is a popular tool for packaging Python applications into standalone executables that can be run on any platform            |
+| cx_Freeze              | cx_Freeze is another tool for packaging Python applications into standalone executables that can be run on any platform                |
+| PyOxidizer             | PyOxidizer is a newer tool for packaging Python applications into standalone executables that can be run on any platform               |
 
+# Comparison
 
+When comparing tools for code compilation in Python CI checks, several factors should be considered:
 
+  factors                       |        Description                                                    |
+| ------------                  | ----------------------------------------------------------------------|
+| Platform compatibility        | Does the tool support the target platform or environment              |  
+| Ease of use                   | How easy is the tool to use, and what is the learning curve           |
+| Customization                 | Can the tool be customized to meet specific project requirements      |
+| Speed                         | How fast is the tool in converting source code into executable code   |
+| Licensing                     | What are the licensing requirements for the tool                      |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Creating a feature branch
-
-* Create a new feature branch from the development branch.
-* Make changes and commit them to the feature branch.
-* Open a pull request to merge the feature branch into the development branch.
-* Once the changes have been reviewed and tested, merge the feature branch into the staging branch.
-* Test the changes in the staging environment.
-* If the changes are successful, merge the staging branch into the production branch.
-* Deploy the changes to the live site.
-
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/c8584f6b-f7cc-47c9-b006-0c83cd49cee9)
-
-
-***
- 
 # Advantages
 
-| Advantage          | Description                                                                                                     |
-| ------------------ | --------------------------------------------------------------------------------------------------------------- |
-| Isolation          | By using separate branches for each environment, teams can avoid conflicts and maintain a stable codebase.      |
-| Testing            | Changes can be thoroughly tested in the staging environment before being deployed to production.                  |
-| Review             | Pull requests allow for code reviews, which can help to catch bugs and improve code quality.                     |
-| Auditing           | Environment branches provide a clear record of changes, which can be useful for auditing and debugging.           |
+|  Advantages              |        Description                                                                                                                     |
+| ------------             | ---------------------------------------------------------------------------------------------------------                              |
+| Improved code quality    | The Python compiler is a built-in tool that converts Python source code into bytecode that can be executed by the Python interpreter   |  
+| PyInstaller              | PyInstaller is a popular tool for packaging Python applications into standalone executables that can be run on any platform            |
+| cx_Freeze                | cx_Freeze is another tool for packaging Python applications into standalone executables that can be run on any platform                |
+| PyOxidizer               | PyOxidizer is a newer tool for packaging Python applications into standalone executables that can be run on any platform               |
+
+# Proof of Concept (POC)
+
+!!.......baad me banaunga.......!!
 
 
-# Disadvantages
+# Best practices
 
-| Disadvantage | Description                                                                                                   |
-| ------------ | ------------------------------------------------------------------------------------------------------------- |
-| Complexity   | The environment branch workflow can be complex, particularly for large teams simultaneously working on multiple features. |
-| Delay        | There may be a delay between making changes and deploying them to the production environment.                   |
+When implementing code compilation in Python CI checks, the following best practices should be considered:
+* Use a consistent naming convention for executables
+* Use a standard directory structure for compiled code
+* Use version control to track changes to the source code and compiled code
+* Use automated testing to ensure that the compiled code meets quality standards
+* Use continuous integration to automate the code compilation process
 
-# Conclusion 
-The environment branch workflow is a useful tool for teams that work on large projects with multiple environments. By using separate branches for each environment, teams can maintain a stable codebase, thoroughly test changes, and ensure that code is reviewed before being deployed to production. However, the workflow can be complex and add overhead to the development process.
+ # Conclusion
+
+Code compilation is an essential step in Python CI checks to ensure that the code can be built and executed successfully. By using the right tools and best practices, teams can improve code quality, reduce technical debt, and accelerate development cycles
 
 
 # Contact Information
@@ -115,7 +87,10 @@ The environment branch workflow is a useful tool for teams that work on large pr
 
 # References
 
-|  Source                                                             |        Description                                                           |
-| ------------                                                        | --------------------------------                                             |
-| https://nvie.com/posts/a-successful-git-branching-model/            |  Refer to this tutorial for more information on the Feature Branch Workflow  |  
-| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md | Feature branch Doc                                            |	
+|  Source                                                                                 |        Description                 |
+| ------------                                                                            | -----------------------            |
+| https://pyinstaller.org/en/stable/                                                      | PyInstaller                        |  
+| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md      | cx_Freeze                          |	
+| https://pyoxidizer.readthedocs.io/en/latest                                             | PyOxidizer                         |
+      
+
