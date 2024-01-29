@@ -11,16 +11,17 @@
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#introduction)
 2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
 3. [Types of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
-4. [Pros and Cons of AMI's Types ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIspros,cons)
-5. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
-6. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
-7. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
-8. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
-9. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
-10. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
-11. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
-12. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
-13. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
+4. [EBS vs Instance-store AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#difference)
+5. [Pros and Cons of AMI's Types ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIspros,cons)
+6. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
+7. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
+8. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
+9. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
+10. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
+11. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
+12. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
+13. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
+14. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
 
 ***
 
@@ -43,12 +44,24 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 | **Types** | **Description** |
 | --------- | --------------- |
-| **EBS-Backed AMI** | EBS is a block storage service provided by AWS that allows you to create resizable block-level storage volumes and attach them to EC2 instances.EBS volumes are highly available and reliable, and they can be used as the root device for instances.EBS-backed instances are more flexible in terms of storage management and can be easily snapshot for backup purposes.|
-| **Instance-store (S3-backed) AMI** | An instance-store AMI uses instance-store volumes for the root device.The root file system is on an instance-store volume, and it is ephemeral, meaning it is tied to the life of the instance.|
+| **EBS-Backed AMI** | An AMI with the root volume created using an Amazon Elastic Block Store (Amazon EBS) volume. This ensures that the data is persisted, even after the EC2 instance is shut down.|
+| **Instance-store (S3-backed) AMI** | An AMI that uses an Instance Store volume created from a template stored in Amazon S3. When using an Instance Stored-backed AMI, the data in the EC2 instance is not persisted after shut down since the instance gets terminated.|
 
 ***
 
-# Pros,Cons and Limitations of AMI's Types
+# Difference between EBS-Backed AMI and Instance-store AMI
+
+| **Characteristic** | **Amazon EBS-backed AMI** | **Amazon instance store-backed AMI** |
+| ------------------ | ------------------------- | ------------------------------------ |
+| **Boot time for an instance** | Usually less than 1 minute	| Usually less than 5 minutes |
+| **Root device volume** | EBS volume | Instance store volume |
+| **Data persistence** | By default, the root volume is deleted when the instance terminates. But the data on any other EBS volume persists. | Data on any instance store volumes is deleted when the instance terminates |
+| **Charges** | Charged for instance usage, EBS volume usage, and storing the AMI as an EBS snapshot.| Charged for instance usage and storing your AMI in Amazon S3 |
+| **Stopped state** | Can be in a stopped state. Even when the instance is stopped and not running, the root volume is persisted in Amazon EBS.| Cannot be in a stopped state, instances are running or terminated.|
+
+***
+
+# Pros and Cons of AMI's Types
 
  | **AMIs** | **Pros** | **Cons** | 
  | ------------------ | -------- | -------- | 
