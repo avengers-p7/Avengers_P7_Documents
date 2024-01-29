@@ -1,4 +1,4 @@
-# Comprehensive Guide to Unit Testing in Software Development
+# Unit Testing in Software Development
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
@@ -10,7 +10,7 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [What is Unit & Unit Testing?](#what-is-unit--unit-testing)
+2. [What is Unit Testing?](#what-is-unit-testing)
 3. [Why is Unit Testing Important?](#why-is-unit-testing-important)
 4. [Unit Testing Advantages](#unit-testing-advantages)
 5. [Unit Testing Disadvantages](#unit-testing-disadvantages)
@@ -28,7 +28,7 @@ Welcome to the documentation on Unit and Unit Testing in Software Development. T
 
 ***
 
-# What is Unit & Unit Testing?
+# What is Unit Testing?
 
 In unit testing, a **'unit'** refers to the smallest testable part of a software program, such as a function or method. A **module,** which is nothing but a single unit of software, can also be considered a 'unit.' The goal of unit testing is to test each unit, including modules, in isolation to ensure they work as intended before integrating them into the larger system.
 
