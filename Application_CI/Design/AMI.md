@@ -11,7 +11,7 @@
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#introduction)
 2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
 3. [Types of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
-4. [Pros,Cons & Limitations of AMI's Types ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIspros,cons,limitations)
+4. [Pros and Cons of AMI's Types ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIspros,cons)
 5. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
 6. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
 7. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
@@ -47,11 +47,11 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 
 # Pros,Cons and Limitations of AMI's Types
 
- | **AMIs** | **Pros** | **Cons** | **Limitations** |
- | ------------------ | -------- | -------- | --------------- |
- | **EBS-Backed AMI** | EBS-backed AMIs use Amazon Elastic Block Store (EBS) volumes for the root device, providing persistent storage even if the instance is stopped.| EBS-backed instances might incur additional costs due to the EBS volumes used for storage.| EBS-backed AMIs are tied to a specific AWS region. |
- | **Instance-store (S3-backed) AMI** | Instance-store AMIs often have faster boot times as they rely on ephemeral (temporary) storage that is part of the instance itself.|  Instance-store instances lose all data when stopped or terminated since the root device is ephemeral.| Like EBS-backed AMIs, instance-store AMIs are also tied to a specific AWS region.|
-
+ | **AMIs** | **Pros** | **Cons** | 
+ | ------------------ | -------- | -------- | 
+ | **EBS-Backed AMI** | EBS-backed AMIs use Amazon Elastic Block Store (EBS) volumes for the root device, providing persistent storage even if the instance is stopped.| EBS-backed instances might incur additional costs due to the EBS volumes used for storage.|
+ | **Instance-store (S3-backed) AMI** | Instance-store AMIs often have faster boot times as they rely on ephemeral (temporary) storage that is part of the instance itself.|  Instance-store instances lose all data when stopped or terminated since the root device is ephemeral.| 
+ 
  ***
 
 # Why AMI?
