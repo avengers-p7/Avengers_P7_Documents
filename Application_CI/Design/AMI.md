@@ -38,6 +38,9 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 # Types Of AMI
 
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/950075ec-1096-4a5d-9e44-60a46c2546b5)
+
+
 | **Types** | **Description** |
 | --------- | --------------- |
 | **EBS-Backed AMI** | EBS is a block storage service provided by AWS that allows you to create resizable block-level storage volumes and attach them to EC2 instances.EBS volumes are highly available and reliable, and they can be used as the root device for instances.EBS-backed instances are more flexible in terms of storage management and can be easily snapshot for backup purposes.|
