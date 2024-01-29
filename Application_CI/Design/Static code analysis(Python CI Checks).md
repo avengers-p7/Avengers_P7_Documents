@@ -37,7 +37,7 @@ Static code analysis offers benefits, including:
 | Maintainability              | Helps in maintaining and evolving codebases by identifying areas for improvement |
 
 
-# Different Tools/Comparison
+# Different Tools and Comparison
 Tools available for static code analysis in Python CI checks:
 
 |  Tool                  |        Description                                                                                                                    |
