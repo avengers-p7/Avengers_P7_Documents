@@ -122,6 +122,10 @@ In conclusion, Amazon Machine Images (AMIs) play a pivotal role in the realm of 
 
 And at last,i choose **"Packer"** as a tool for **AMI Creation**.Packer is often preferred for creating Amazon Machine Images (AMIs) due to its multi-platform support, infrastructure as code approach, and template-based configuration. Its extensibility, supporting various builders and provisioners, allows seamless integration into existing workflows.  The strong community support and integration with other HashiCorp tools further contribute to its popularity for efficient and scalable AMI creation.
 
+# Note- POC for AMI Creation is prepared in different doc,use the below link if you want to see the AMI Creation Process:-
+
+
+
 ***
 
 # Contact Information
