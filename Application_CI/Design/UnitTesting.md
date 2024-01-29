@@ -229,7 +229,7 @@ In summary, Java unit testing is vital for ensuring code quality, reliability, a
 
 # General Conclusion
 
-In conclusion, the choice of a unit testing framework depends on specific project needs. For traditional Java unit testing, JUnit and TestNG are robust choices. Mockito excels in mocking scenarios, while Cucumber and Serenity are ideal for behavior-driven development. Geb stands out for web testing. The best framework is the one that aligns with project goals, team expertise, and testing requirements. 
+In conclusion, the choice of a unit testing framework depends on specific project needs. For traditional Java unit testing, JUnit and TestNG are robust choices. Mockito excels in mocking scenarios. The best framework is the one that aligns with project goals, team expertise, and testing requirements. 
 
 
 ***
