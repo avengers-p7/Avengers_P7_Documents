@@ -158,5 +158,5 @@ In conclusion, Amazon Machine Images (AMIs) play a pivotal role in the realm of 
 | ---------- | --------------- |
 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html | Documentation Link |                 
 | https://www.techtarget.com/searchaws/definition/Amazon-Machine-Image-AMI | Concept of AMI |
-| https://medium.com/@mbbhawsar28/ami-creation-with-jenkins-for-efficient-ci-cd-workflows-54429c2f686d | Link for Setup |
+| https://www.scaler.com/topics/aws/amazon-machine-image/ | AMI reference Link |
 
