@@ -145,14 +145,9 @@ here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkin
 
 # Step 1: Create a Simple Java Project with Maven
 
-1. Create a simple Maven Java project. You can use the following pom.xml for your project:
-
-   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/db67be89-ee6d-4e61-88bc-448cc5dfc439)
-
+1. Create a simple Maven Java project. You can use the following pom.xml for your project
+   
    Create a simple Java class, e.g., HelloWorld.java
-
-   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/3394cdac-69a6-4546-987e-a47e02f988bd)
-
 
 # Step 2: Set Up a GitHub Repository
 
