@@ -28,6 +28,13 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 
 # Why Monitoring Metrics
 
+| **Feature** | **Description** |
+| ----------- | --------------- |
+| **Early Issue Detection** | Monitoring metrics in SonarQube allows you to detect and address issues early in the development process, reducing the likelihood of critical problems later on. |
+| **Continuous Improvement** | Regularly monitoring metrics facilitates continuous improvement by identifying areas that need attention and enabling the team to take proactive measures. |
+| **Enhanced Code Collaboration** |  By tracking metrics, development teams can collaborate more effectively, ensuring a shared understanding of code quality standards and goals. |
+| **Risk Mitigation** | Monitoring security vulnerabilities and addressing them promptly helps mitigate potential risks and ensures the overall security of your application. |
+
 ***
 
 # Key Metrics in Sonarqube commonly monitored
