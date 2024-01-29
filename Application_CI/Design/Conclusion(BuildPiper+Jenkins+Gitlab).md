@@ -21,7 +21,7 @@
 
 ## Introduction 
 
-This documentation provide a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
+This documentation provides a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
 
 ## What is Jenkins?
 Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
