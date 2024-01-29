@@ -21,11 +21,11 @@
 This documentation provides a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
 
 ## Prerquisites
-Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
-
-Moreover, since Jenkins is written in Java, it is compatible with any system with Java Runtime Environment (JRE) installed. This makes Jenkins widely usable due to its easy availability.
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
+| Prerequisite | Description |
+| ------------ | ------------ |
+| **Jenkins Installation** | Jenkins server must be installed and accessible |
+| **Administrator Access** | Administrative access to Jenkins instance |
+| **Configure Security Realm** | Access to the Jenkins security configuration section |
 ***
 ## Authentication Methods
 GitLab CI is a self-contained platform supporting the DevOps lifecycle through web-based services. It manages the Git repository through its Continuous Integration and Deployment pipelines, issue-tracking features, and wiki to store relevant files.
