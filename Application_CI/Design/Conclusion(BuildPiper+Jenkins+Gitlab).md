@@ -49,17 +49,14 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 ## Comparison
 | Criteria  | Jenkins | GitLab | BuildPiper |
 | --------- | -------- | ------ | --------- |
-| **Plugins** | 1700+ plugins |   Limited plugins |  |
+| **Plugins** | 1700+ plugins |   Limited plugins |  Limited plugins/tools |
 | **Prerequisites** | JRE should be installed	| Ruby, Go, Git, Node.js, and Redis should be installed | none |
-| **Operating Systems Supported** |	Windows, Mac OS X, and Unix-like OS |	Supports only particular Unix-like OS such as Ubuntu, Debian, Red Hat Linux, Scientific Linux, Oracle Linux, CentOS, and OpenSUSE. It does not support Windows and macOS. | |
-| **Open Source**	| Open Source and Free	| Open Source and Freemium | |
-| **Issue Tracking**	| Don’t have such functionality	| Offers various features for issue tracking and management | |
+| **Operating Systems Supported** |	Windows, Mac OS X, and Unix-like OS |	Supports only particular Unix-like OS such as Ubuntu, Debian, Red Hat Linux, Scientific Linux, Oracle Linux, CentOS, and OpenSUSE. It does not support Windows and macOS. | SAAS/Web |
+| **Open Source**	| Open Source and Free	| Open Source and Freemium | Open Source and Freemium |
+| **Issue Tracking**	| Don’t have such functionality	| Offers various features for issue tracking and management | Gain immediate insights into the potential reasons for a deployment failure- from service logs to container to pod status. |
 | **Extensiveness** |	Highly extensive as it can be used as a simple CI server or can be transformed into a complex CD system with the help of plugins	| Offers scalability to enhance the DevOps lifecycle for a project | |
-| **Support** |	Offers documentation and open source community support, but no technical support is provided as part of the SLA |	Provides 24×5 support for paid users and only self-support documents to free users as part of the SLA | |
+| **Support** |	Offers documentation and open source community support, but no technical support is provided as part of the SLA |	Provides 24×5 support for paid users and only self-support documents to free users as part of the SLA | Documentation , 24x7 and online suppprt |
 
-Management of microservice repositories and CI/CD pipeline becomes much more complex and challenging as the number of applications increases. For businesses looking for solutions to manage CI/CD pipelines, BuildPiper is the ideal choice for effective CI/CD pipeline management. It enables intuitive and easy setup of feature-rich delivery pipelines for a seamless and secure product release.
-
-Automated CI checks and complete CI analysis help in identifying the defects and vulnerabilities in the initial stages, thus enabling a quick, complaint, and hassle-free code release. 
 ***
 
 ## Conclusion
@@ -79,4 +76,5 @@ Automated CI checks and complete CI analysis help in identifying the defects and
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
-|     Jenkins vs Gitlab CI | https://www.browserstack.com/guide/jenkins-vs-gitlab |
+|     Jenkins vs Gitlab CI         | https://www.browserstack.com/guide/jenkins-vs-gitlab |
+|     BuildPIper                   | https://www.buildpiper.io/documentation/docs/getting/introducing |
