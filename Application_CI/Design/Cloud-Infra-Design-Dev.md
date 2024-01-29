@@ -33,16 +33,15 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 ### Region
 
-| Item                  | Description            |
-|-----------------------|------------------------|
-| Europe                | Frankfurt              |
-| Region Code           | eu-central-1           |
-
+| Service | Item                  | Description            |
+|----------|-----------------------|------------------------|
+|**Region**| Europe                | Frankfurt (eu-central-1) |
+|          | Region Code           | eu-central-1           |
+| **AZ**   | eu-central-1a     | Primary availability zone for the region.|
 ### Availability Zone
 
 | Item                  | Description            |
 |-----------------------|------------------------|
-| 1.eu-central-1a       | Primary availability zone for the region. |
 
 ### Virtual Private Cloud (VPC)
 
