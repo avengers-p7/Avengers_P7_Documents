@@ -2,7 +2,7 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Parasharam Desai & Vishal Kumar Kesarwani** | 23-01-2024 | 23-01-2024 | V1 |
+| **Parasharam & Vishal & Shantanu** | 23-01-2024 | 23-01-2024 | V1 |
 
 ***
 
@@ -10,7 +10,7 @@
 # Table of Contents
 
 * [Introduction](#introduction)
-* [What is Unit & Unit Testing?](#what-is-unit--unit-testing)
+* [What is Unit Testing?](#what-is-unit-testing)
 * [Why is Unit Testing Important?](#why-is-unit-testing-important)
 * [Unit Testing Advantages](#unit-testing-advantages)
 * [Unit Testing Disadvantages](#unit-testing-disadvantages)
@@ -25,18 +25,17 @@ Welcome to the documentation on Unit and Unit Testing in Software Development. T
 
 ***
 
-# What is Unit & Unit Testing?
+# What is Unit Testing?
 
 In unit testing, a **'unit'** refers to the smallest testable part of a software program, such as a function or method. A **module,** which is nothing but a single unit of software, can also be considered a 'unit.' The goal of unit testing is to test each unit, including modules, in isolation to ensure they work as intended before integrating them into the larger system.
 
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/cdfe8356-c6ea-407f-800a-01063a1d21b4)
+<img width="560" length="300" alt="ut" src="https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/cdfe8356-c6ea-407f-800a-01063a1d21b4">
 
 **Unit testing** is a type of software testing where individual units or components of a software application are tested to ensure they meet their design and behavior requirements. These units can be functions, methods, or classes, and they are tested in isolation, without any dependencies on external components.
 
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/1810e1da-a206-4e80-b609-5dcda30550aa)
+<img width="560" length="300" alt="ut" src="https://github.com/avengers-p7/Documentation/assets/156056413/b20adeca-16bc-4b75-bf24-0a8fc6d20d3b">
 
-
-
+***
 ## Types of Unit Testing
 
 **Manual Unit Testing**
