@@ -27,10 +27,9 @@
 
 # Pre-requisites
 
-1. AWS Account
-2. EC2 Instance
-3. Ensure that your AWS account has the necessary IAM permissions to create, manage, and launch instances from AMIs.
-4. Jenkins setup
+1. AWS CLI Configured
+2. EC2 Instance for AMI ID Generation
+3. Packer Installed
 
 ***
 
@@ -40,7 +39,9 @@
 
 ![Screenshot 2024-01-30 005719](https://github.com/avengers-p7/Documentation/assets/156057205/4a2fe7c1-ca33-4046-b7fd-d6a95d98b914)
 
+***
 
+<img width="958" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/f2639637-8554-4369-843d-f1d46152dcec">
 
 ***
 
@@ -119,6 +120,6 @@ In conclusion, Packer stands out as a robust and versatile tool for AMI creation
 
 | **Source** | **Description** |
 | ---------- | --------------- |
-|            |                 |
-|            |                 |
+| https://www.pluralsight.com/cloud-guru/labs/aws/using-packer-to-create-an-ami | Reference Link AMI Setup |
+| https://developer.hashicorp.com/packer/tutorials/aws-get-started/aws-get-started-build-image | Link for Installation of Packer and AMI Creation |
 
