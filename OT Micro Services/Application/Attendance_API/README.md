@@ -120,8 +120,6 @@ export PATH="$HOME/ubuntu/.local/bin:$PATH"
 
 * Here is a step-by-step [documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md) (in Ubuntu) to install Postgresql in your system. Make sure it is up and running.
 
-<img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
-
 * Create Database and user
 ```shell
 sudo -u postgres psql
@@ -137,10 +135,8 @@ ALTER USER postgres WITH PASSWORD 'password';
 ```
 ***
 5) **Redis**
-```shell
-sudo apt install redis-server
-```
-<img width="1107" alt="Screenshot 2024-01-12 at 2 48 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ae0c0cc-0edd-436b-a6b4-9ee5bb3b75ed">
+* Follow these step-by-step [guidelines](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis/README.md) on installing Redis on your Ubuntu system to ensure it is successfully installed and operational.
+
 
 ***
 6) **Liquibase**
