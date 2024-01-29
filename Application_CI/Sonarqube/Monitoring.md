@@ -50,9 +50,8 @@
 
 | **Source** | **Description** |
 | ---------- | --------------- |
-|            |                 |
-|            |                 |
-|            |                 |
+| https://developer.harness.io/docs/software-engineering-insights/sei-metrics-and-reports/quality-metrics-reports/sonarqube-reports/ | Metrics Reference |
+| https://unicorn-dev.medium.com/control-source-code-quality-using-the-sonarqube-platform-fe8f9904b6d9 | Sonarqube Documentation Link |           | https://docs.sonarsource.com/sonarqube/9.9/instance-administration/monitoring/ | Documentation Link |
 
 
 
