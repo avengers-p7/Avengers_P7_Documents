@@ -43,6 +43,14 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 
 # Best Practices
 
+| **Practices** | **Description** |
+| ------------- | --------------- |
+| **Regularly Schedule Analyses** | Set up regular code analyses in SonarQube as part of your continuous integration process. This ensures that code quality is assessed with each code change, providing timely feedback to developers. |
+| **Customize Quality Profiles** | Customize rules based on your project's specific requirements for better alignment with your development goals. |
+| **Include Security Scans** | Integrate security scans into your analysis process. SonarQube can identify and report on security vulnerabilities, helping teams proactively address potential risks. |
+| **Encourage Collaboration** | Use SonarQube as a collaborative tool. Share dashboards and reports with team members, encouraging a shared responsibility for code quality and fostering a culture of continuous improvement. |
+| **Monitor Code Coverage** | Ensure that critical parts of your code are adequately tested, and use coverage metrics to identify areas that require additional testing.  |
+
 ***
 
 # Conclusion
