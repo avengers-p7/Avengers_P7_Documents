@@ -60,7 +60,6 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 
 ## Conclusion
 
-
 ***
 
 ## Contact Information
