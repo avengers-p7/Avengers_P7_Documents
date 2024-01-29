@@ -39,11 +39,15 @@
 
 **Instance Craetion**
 
+Creating an Amazon Machine Image (AMI) involves launching an Amazon EC2 instance, customizing it to meet your requirements, and then creating an image from the instance.I have created an EC2 instance named **"New_Instance"**
+
 ![Screenshot 2024-01-30 005719](https://github.com/avengers-p7/Documentation/assets/156057205/4a2fe7c1-ca33-4046-b7fd-d6a95d98b914)
 
 ***
 
 **AMI Creation**
+
+when using Packer to create a new Amazon Machine Image (AMI), you typically start with an existing AMI as a base and then customize it according to your requirements. This existing AMI is specified using the source_ami parameter in your Packer configuration.I have created an AMI named **"New_Image"**
 
 <img width="958" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/f2639637-8554-4369-843d-f1d46152dcec">
 
@@ -51,11 +55,14 @@
 
 **Step-2 AWS Configure**
 
+Packer needs AWS credentials to authenticate and interact with your AWS account when creating and managing resources. Configuring the AWS CLI allows Packer to leverage the credentials stored in the AWS CLI configuration.
+
 ![Screenshot 2024-01-30 010140](https://github.com/avengers-p7/Documentation/assets/156057205/6cff8c8b-6a34-414a-b253-d64c23879f95)
 
 ***
 
 **Step-3 Installation of Packer**
+
 Ensure that Packer is installed on your local machine. You can download the latest version from the official Packer website.
 
 ![Screenshot 2024-01-30 005924](https://github.com/avengers-p7/Documentation/assets/156057205/45545f06-acb5-4ff2-ac62-270845f6b152)
@@ -73,13 +80,15 @@ Ensure that Packer is installed on your local machine. You can download the late
 
 **Step-4 Checking Packer Version**
 
+After all the installation process,just make sure that Packer is installed successfully.For this we can use the command **"packer --version"**.
 
 ![Screenshot 2024-01-30 010025](https://github.com/avengers-p7/Documentation/assets/156057205/29401eeb-3778-4cc0-8dcb-c5b194fb211b)
-
 
 ***
 
 **Step-5 Template File for AMI Craetion with ".pkr.hcl" extension**
+
+
 
 <img width="943" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/781f6ce4-897e-4c86-83c8-eaff3ad0e646">
 
