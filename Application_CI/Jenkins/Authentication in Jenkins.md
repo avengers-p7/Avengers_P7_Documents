@@ -28,11 +28,13 @@ This documentation provides a brief introduction of CI Orchestration tools(Jenki
 | **Configure Security Realm** | Access to the Jenkins security configuration section |
 ***
 ## Authentication Methods
-GitLab CI is a self-contained platform supporting the DevOps lifecycle through web-based services. It manages the Git repository through its Continuous Integration and Deployment pipelines, issue-tracking features, and wiki to store relevant files.
+| Security Realm | Description |
+| -------------- | ----------- |
+| **Delegate to Servlet Container** ||
+|**Jenkins Own User Database**||
+|**LDAP (Lightweight Directory Access Protocol)**||
+|**Unix User/Group Database**||
 
-GitLab works on a freemium basis, i.e., it offers both free and paid services. It enables automating the entire DevOps lifecycle, which involves planning, building, testing, deployment, and monitoring through release cycles.
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/53283b3b-45ad-4234-a702-891bcb746af9)
 ***
 ## Why Use Jenkins Own User Database?
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
