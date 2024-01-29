@@ -43,6 +43,15 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 
 # Key Metrics in Sonarqube commonly monitored
 
+| **Key Metrics** | **Description** |
+| --------------- | --------------- |
+| **Code Quality Metrics** | SonarQube analyzes the source code and identifies code smells, bugs, and other issues that can impact the overall quality of the code. |
+| **Security Metrics** | Monitoring security metrics is crucial for ensuring the application's resilience against potential threats.SonarQube scans for security vulnerabilities in the code, helping teams identify and fix potential risks. |
+| **Code Duplication** | SonarQube measures the percentage of duplicated code and identifies duplicated code blocks. Monitoring code duplication metrics helps in maintaining code consistency and reducing complexity. |
+| **Code Coverage** | Monitoring code coverage metrics helps ensure that critical parts of the code are thoroughly tested.SonarQube assesses the extent to which the codebase is covered by automated tests. |
+| **Code Complexity** | SonarQube provides metrics like Cyclomatic Complexity, measuring the complexity of the code. Monitoring code complexity metrics helps in understanding and managing code intricacy. |
+| **Unit Test Metrics** | SonarQube evaluates unit test success and failure rates. Monitoring unit test metrics helps ensure the reliability of the test suite and identifies areas for improvement. |
+
 ***
 
 # Best Practices
