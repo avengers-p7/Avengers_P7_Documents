@@ -12,6 +12,7 @@
 + [Jenkins-helped in SDLC](#Jenkins-helpedinSDLC)
 + [Companies that Use Jenkins](#CompaniesthatUseJenkins)
 + [Features of Jenkins](#FeaturesofJenkins)
++ [Jenkins Architecture](#JenkinsArchitecture)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Conclusion](#Conclusion)
@@ -25,7 +26,9 @@ Jenkins is a widely-used open-source automation server designed to facilitate co
 
 ***
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/466af238-ed4c-4f77-a3d3-44b40fbb72ba)
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/5d8427c1-67e9-4339-8b08-aaf4dd6b080e)
+
+
 
 
 ***
@@ -101,7 +104,9 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
 
 
 ## Jenkins Architecture
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/a1a4185c-2e2c-4a20-b5bb-8a124c238db7)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/18d15547-c0e9-4a95-992a-090f6f673062)
+
 
 
 
