@@ -11,17 +11,18 @@
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#introduction)
 2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
 3. [Types of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
-4. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
-5. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
-6. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
-7. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#pre-requisites)
-8. [AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
-9. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
-10. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
-11. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
-12. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
-13. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
-14. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
+4. [Pros,Cons & Limitations of AMI's Types ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIspros,cons,limitations)
+5. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
+6. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
+7. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
+8. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#pre-requisites)
+9. [AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
+10. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
+11. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
+12. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
+13. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
+14. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
+15. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
 
 ***
 
@@ -36,6 +37,24 @@ This documentation serves as a comprehensive guide, offering insights into the c
 An Amazon Machine Image is a special type of virtual appliance that is used to instantiate (create) a virtual machine within EC2. It serves as the basic unit of deployment for services delivered using EC2. Whenever you want to launch an instance, you need to specify AMI.It serves as a template for virtual servers, encapsulating the operating system, application software, configurations, and associated data. AMIs enable users to replicate computing environments efficiently and deploy applications consistently.
 
 ***
+
+# Types Of AMI
+
+| **Types** | **Description** |
+| --------- | --------------- |
+| **EBS-Backed AMI** | EBS is a block storage service provided by AWS that allows you to create resizable block-level storage volumes and attach them to EC2 instances.EBS volumes are highly available and reliable, and they can be used as the root device for instances.EBS-backed instances are more flexible in terms of storage management and can be easily snapshot for backup purposes.|
+| **Instance-store (S3-backed) AMI** | An instance-store AMI uses instance-store volumes for the root device.The root file system is on an instance-store volume, and it is ephemeral, meaning it is tied to the life of the instance.|
+
+***
+
+# Pros,Cons and Limitations of AMI's Types
+
+ | **AMIs** | **Pros** | **Cons** | **Limitations** |
+ | ------------------ | -------- | -------- | --------------- |
+ | **EBS-Backed AMI** | EBS-backed AMIs use Amazon Elastic Block Store (EBS) volumes for the root device, providing persistent storage even if the instance is stopped.| EBS-backed instances might incur additional costs due to the EBS volumes used for storage.| EBS-backed AMIs are tied to a specific AWS region. |
+ | **Instance-store (S3-backed) AMI** | Instance-store AMIs often have faster boot times as they rely on ephemeral (temporary) storage that is part of the instance itself.|  Instance-store instances lose all data when stopped or terminated since the root device is ephemeral.| Like EBS-backed AMIs, instance-store AMIs are also tied to a specific AWS region.|
+
+ ***
 
 # Why AMI?
 
