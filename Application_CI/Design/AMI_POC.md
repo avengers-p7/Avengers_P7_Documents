@@ -6,13 +6,20 @@
 
 ***
 
+# Table Of Contents
 
+1.[Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#introduction)
+2.[Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#pre-requisites)
+3.[AMI Creation Process](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#AMIcreation)
+4.[Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#conclusion)
+5.[Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#contactinformation)
+6.[Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#reference)
+ 
+***
 
+# Introduction
 
-
-
-[AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
-[Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#pre-requisites)
+***
 
 # Pre-requisites
 
@@ -82,4 +89,23 @@ Here is the result of the AMI creation with pipeline with the help of jenkins.
 <img width="939" alt="Screenshot 2024-01-25 143054" src="https://github.com/avengers-p7/Documentation/assets/156057205/56f1ed0c-40c3-4f0e-9836-b5800a17981a">
 
 ***
+
+# Conclusion
+
+***
+
+# Contact Information
+
+| **Name** | **Email Address** |
+| -------- | ----------------- |
+| **Shreya Jaiswal** | shreya.jaiswal.snaatak@mygurukulam.co |
+
+***
+
+# Reference
+
+| **Source** | **Description** |
+| ---------- | --------------- |
+|            |                 |
+|            |                 |
 
