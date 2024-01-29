@@ -11,7 +11,7 @@
 + [Why Python CI Checks](Why-Python-CI-Checks)
 + [Different Tools](#Different-Tools)
 + [Advantages](#Advantages)
-+ [Proof of Concept (POC)](#Proof-of-Concept-(POC))
++ [Proof of Concept](#Proof-of-Concept)
 + [Best Practices](Best-Pratices)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
@@ -60,12 +60,12 @@ When comparing tools for code compilation in Python CI checks, several factors s
 | cx_Freeze                | cx_Freeze is another tool for packaging Python applications into standalone executables that can be run on any platform                |
 | PyOxidizer               | PyOxidizer is a newer tool for packaging Python applications into standalone executables that can be run on any platform               |
 
-# Proof of Concept (POC)
+# Proof of Concept
 
 !!.......baad me banaunga.......!!
 
 
-# Best practices
+# Best Practices
 
 When implementing code compilation in Python CI checks, the following best practices should be considered:
 * Use a consistent naming convention for executables
