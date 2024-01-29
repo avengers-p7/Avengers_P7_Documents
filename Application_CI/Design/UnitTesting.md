@@ -142,7 +142,7 @@ JUnit, a testing framework, plays a pivotal role in enabling Java unit testing w
 Within the directory, make a clone of the repository.
 
 	mkdir snaatak-P7
-	cd snaatak
+	cd snaatak-P7
 	git clone https://github.com/OT-MICROSERVICES/salary-api.git
 
 
