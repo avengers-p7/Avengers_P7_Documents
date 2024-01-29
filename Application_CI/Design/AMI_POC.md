@@ -19,6 +19,10 @@
 
 # Introduction
 
+ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a preferred choice for creating AMIs. Offering multi-platform 
+ support, an infrastructure-as-code paradigm, and extensibility through various builders and provisioners, Packer streamlines the AMI creation 
+ process. 
+
 ***
 
 # Pre-requisites
