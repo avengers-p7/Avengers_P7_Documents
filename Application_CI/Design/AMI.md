@@ -16,7 +16,7 @@
 6. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
 7. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
 8. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#pre-requisites)
-9. [AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
+9. 
 10. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
 11. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
 12. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
