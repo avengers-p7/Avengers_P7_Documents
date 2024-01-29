@@ -10,8 +10,8 @@
 
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#introduction)
 2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
-3. [EBS Backed and Instance-Store AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
-4. [EBS vs Instance-store AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#difference)
+3. [EBS Backed and Instance Store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
+4. [EBS Backed vs Instance store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#difference)
 5. [Comparision of EBS and Instance Store AMI ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#comparision)
 6. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
 7. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
@@ -36,7 +36,7 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 ***
 
-# EBS-Backed AMI and Instance-Store AMI
+# EBS-Backed AMI and Instance Store-Backed AMI
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/950075ec-1096-4a5d-9e44-60a46c2546b5)
 
@@ -48,7 +48,7 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 ***
 
-# Difference between EBS-Backed AMI and Instance-store AMI
+# Difference between EBS-Backed AMI and Instance Store-Backed AMI
 
 | **Characteristic** | **Amazon EBS-backed AMI** | **Amazon instance store-backed AMI** |
 | ------------------ | ------------------------- | ------------------------------------ |
@@ -129,6 +129,8 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 # Conclusion
 
 In conclusion, Amazon Machine Images (AMIs) play a pivotal role in the realm of cloud computing, offering unparalleled advantages in terms of efficiency, scalability, and resource optimization within the AWS ecosystem. This documentation has provided a comprehensive exploration of AMIs, covering their definition, components, and purpose. 
+
+And at last,i choose **"Packer"** as a tool for **AMI Creation** 
 
 ***
 
