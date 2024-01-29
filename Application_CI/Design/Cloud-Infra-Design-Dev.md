@@ -31,7 +31,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 | Service         | Item                  | Description                                         |
 |-----------------|-----------------------|-----------------------------------------------------|
 | **Region**      | **Europe**               | Frankfurt (eu-central-1)                         |
-| **AZ**          | **eu-central-1a**         | Primary availability zone for the region.       |
+| **Availability Zone**          | **eu-central-1a**         | Primary availability zone for the region.       |
 | **VPC**         | **OT-Micro-Dev-Vpc**      | VPC for Devlopement Infrastructure              |
 | **Subnets**     | **Public Subnet-1**   | Hosts the Bastion Host for secure access.           |
 |                 | **Private Subnet-1**  | Hosts the Frontend application components.         |
