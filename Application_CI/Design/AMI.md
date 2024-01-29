@@ -165,10 +165,12 @@ Here is the result of the AMI creation with pipeline with the help of jenkins.
 
 # Advantages of AMI
 
-- AMIs allow users to quickly launch instances with pre-configured environments, reducing the time needed for provisioning and deployment.
-- AMIs seamlessly support the scaling of resources up or down based on demand.
-- AMIs facilitate the creation of snapshots, allowing users to back up and restore instances.
-- AMIs support versioning, allowing users to manage and track changes to configurations over time.
+| **Advantages** | **Description** |
+| -------------- | --------------- |
+| **Fast and Repeatable Deployments** | Enables rapid and consistent deployments, reducing the time and effort needed to set up new instances. |
+| **Scaling and Elasticity** | AMIs play a crucial role in auto-scaling and load balancing strategies. |
+| **Backup and Disaster Recovery** | AMIs serve as a basis for creating backups and implementing disaster recovery strategies. |
+| **Versioning and Rollback** | AMIs can be versioned, allowing for easy rollbacks to previous configurations. |
 
 ***
 
