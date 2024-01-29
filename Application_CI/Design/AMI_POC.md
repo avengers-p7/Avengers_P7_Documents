@@ -1,3 +1,5 @@
+[AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
+
 # Pre-requisites
 
 1. AWS Account
