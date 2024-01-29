@@ -6,13 +6,13 @@
 
 ---
 # Table of Contents 
-+ [Introduction](#introduction)
++ [Introduction](#Introduction)
 + [What is Static Code Analysis?](#What-is-Static-Code-Analysis?)
 + [Why Static Code Analysis?](Why-Static-Code-Analysis?)
 + [Different Tools/Comparison](#Different-Tools/Comparison)
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
-+ [Best Practices](Best-Pratices)
++ [Best Practices](Best-Practices)
 + [Recommendations and Conclusion](#Recommendations-and-Conclusion)
 + [Contact Information](#contact-information)
 + [References](#References)
@@ -68,9 +68,6 @@ Tools available for static code analysis in Python CI checks:
 * **Integrate with CI/CD:** Incorporate static code analysis into CI/CD pipelines for automated checks
 * **Regular Review:** Conduct regular reviews of analysis reports and address identified issues promptly
 * **Continuous Improvement:** Evolve analysis configurations and rulesets based on feedback and evolving project needs
-
-
-
 
  # Recommendations and Conclusion
 
