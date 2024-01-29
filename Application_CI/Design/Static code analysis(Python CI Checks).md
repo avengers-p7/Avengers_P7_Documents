@@ -7,9 +7,9 @@
 ---
 # Table of Contents 
 + [Introduction](#Introduction)
-+ [What is Static Code Analysis?](#What-is-Static-Code-Analysis?)
-+ [Why Static Code Analysis?](Why-Static-Code-Analysis?)
-+ [Different Tools/Comparison](#Different-Tools/Comparison)
++ [What is Static Code Analysis](#What-is-Static-Code-Analysis)
++ [Why Static Code Analysis](Why-Static-Code-Analysis)
++ [Different Tools and Comparison](#Different-Tools-and-Comparison)
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
 + [Best Practices](Best-Practices)
@@ -59,7 +59,7 @@ Tools available for static code analysis in Python CI checks:
 
 # Proof of Concept
 
-!!.......baad me banaunga.......!!
+baad me banaunga yaaar
 
 # Best Practices
 
