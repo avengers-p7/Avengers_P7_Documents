@@ -115,15 +115,15 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 # Different Tools for AMI Management
 
-| **Tools** | **Pros** | **Cons** |
-| --------- | -------- | -------- |
-| **AWS Management Console** | User-friendly, especially for those who prefer a graphical interface. |  Not ideal for large-scale or automated AMI creation workflows. |
-| **Hashicrop Packer** | Supports multiple platforms, not limited to AWS. | Additional tool to manage and learn. |
-| **Netflix Aminator** | Simplifies software installation and configuration tasks. | Limited community support compared to more widely adopted tools. |
-| **Terraform** | Supports multiple cloud providers, not limited to AWS. | May require additional modules for specific tasks. |
-| **Ansible** | Declarative language and YAML syntax for configuration. | May not be as suitable for complex orchestration tasks. |
-| **Docker** | Enables consistency across development and production. | Focuses on application containers rather than full system images. | 
-| **Jenkins** | Highly extensible and customizable. | Requires additional plugins for specific AWS tasks. |
+| **Tools** | **Description** |
+| --------- | --------------- | 
+| **AWS Management Console** | The AWS Management Console provides a web-based interface for creating and managing AMIs. You can use the EC2 service to launch an instance, customize it, and then create an AMI from it. |
+| **Packer** | Packer is an open-source tool for creating machine images from a single source configuration. It supports multiple builders, including the Amazon EC2 builder, allowing you to automate the creation of AMIs. |
+| **AWS Command Line Interface (CLI)** | The AWS CLI allows you to perform AWS operations from the command line. You can use commands like create-image to create an AMI based on a running or stopped instance. |
+| **Terraform** | Terraform is an infrastructure as code tool that can be used to define and provision infrastructure. You can use Terraform to create and manage EC2 instances and then create AMIs from those instances. |
+| **Ansible** | Ansible is an open-source automation tool. You can use Ansible playbooks to configure instances and then create AMIs. The ec2_ami module can be helpful in this context. |
+| **AWS SDKs** | Software Development Kits (SDKs) are available for various programming languages (e.g., Python, Java, Ruby). You can use SDKs to programmatically interact with AWS services, including creating AMIs. | 
+
 
 ***
 
