@@ -88,28 +88,31 @@ After all the installation process,just make sure that Packer is installed succe
 
 **Step-5 Template File for AMI Craetion with ".pkr.hcl" extension**
 
-
+Create a Packer template file in either JSON or HashiCorp Configuration Language (HCL). This file defines the configuration for building the AMI, including the source image, provisioners, and post-processors.Created a template file named **"ami.pkr.hcl"**.
 
 <img width="943" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/781f6ce4-897e-4c86-83c8-eaff3ad0e646">
-
 
 ***
 
 **Step-6 Packer Initialization**
 
-![Screenshot 2024-01-30 010052](https://github.com/avengers-p7/Documentation/assets/156057205/05298741-a85c-49fb-bb18-55189107d740)
+**"packer init"** is a command provided by Packer to initialize configuration files and download any necessary plugins. It helps ensure the correctness and consistency of your configuration files and plugin dependencies.
 
+![Screenshot 2024-01-30 010052](https://github.com/avengers-p7/Documentation/assets/156057205/05298741-a85c-49fb-bb18-55189107d740)
 
 ***
 
 **Step-7 Building the .pkr.hcl file**
 
-![Screenshot 2024-01-30 005806](https://github.com/avengers-p7/Documentation/assets/156057205/3a42fdac-f3cd-4740-b68d-c68534496611)
+To use the packer build command, navigate to the directory containing your Packer configuration file. Running this command kicks off the process of building the machine image according to the specifications in your Packer configuration.
 
+![Screenshot 2024-01-30 005806](https://github.com/avengers-p7/Documentation/assets/156057205/3a42fdac-f3cd-4740-b68d-c68534496611)
 
 ***
 
 **Step-8 Confirmation of AMI Creation from AWS Console**
+
+Once the process of AMI Creation completes,check the newly created AMI from the AWS Console to confirm the creation of AMI. 
 
 ![Screenshot 2024-01-30 005653](https://github.com/avengers-p7/Documentation/assets/156057205/bafb650e-19e1-403d-8a91-18611f1468bd)
 
