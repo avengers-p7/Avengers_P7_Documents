@@ -1,4 +1,4 @@
-# Documentations of  Code compilation in Java CI checks
+# Documentation of  Code compilation in Java CI checks
 
 |Author  | Created on |version | last updated on|
 |--------|------------|---------|----------------|
