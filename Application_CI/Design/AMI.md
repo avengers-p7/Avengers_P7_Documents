@@ -83,7 +83,7 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 
 ***
 
-# Reasons for selecting "Jenkins" as a tool for AMI
+# Reasons for selecting "Jenkins" as a medium for creating AMI with AWS CLI
 
 | **Feature** | **Description** |
 | ----------- | --------------- |
