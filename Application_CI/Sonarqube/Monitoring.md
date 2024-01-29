@@ -8,13 +8,15 @@
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#introduction)
 2. [What is Monitoring Metrics](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#whatismonitoringmetrics)
 3. [Why Monitoring Metrics](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#whymonitoringmetrics)
-4. [Types of Montoring Metrics](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#Types)
+4. [ Key Metrics in Sonarqube commonly monitored](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#Types)
 5. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#bestpractices)
 6. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#conclusion)
 7. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#contactinformation)
 8. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#reference)
 
 # Introduction
+
+As software development continues to evolve, maintaining code quality is paramount for ensuring the success and sustainability of projects. SonarQube stands as a robust platform, offering developers and teams the tools they need to continuously inspect and enhance the quality of their codebase.
 
 *** 
 
@@ -26,7 +28,7 @@
 
 ***
 
-# Types of Monitoring Metrics in Sonarqube
+# Key Metrics in Sonarqube commonly monitored
 
 ***
 
@@ -35,6 +37,8 @@
 ***
 
 # Conclusion
+
+Monitoring SonarQube metrics is a critical component of a successful software development lifecycle. It provides valuable insights into the code quality, security, and maintainability of your project. By regularly assessing and addressing these metrics, development teams can deliver high-quality software that meets both functional and non-functional requirements.
 
 ***
 
