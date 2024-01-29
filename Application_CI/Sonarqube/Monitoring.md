@@ -20,13 +20,13 @@ As software development continues to evolve, maintaining code quality is paramou
 
 *** 
 
-# What is Monitoring Metrics in Sonarqube
+# What is Monitoring Metrics in Sonarqube?
 
 Monitoring metrics in SonarQube involves regularly observing and analyzing various quantitative measures that assess the quality, maintainability, security, and other aspects of the codebase.By regularly monitoring the metrics in SonarQube, development teams can gain insights into the overall health of their codebase. This proactive approach allows for early detection of issues, continuous improvement, and the delivery of high-quality software. 
 
 ***
 
-# Why Monitoring Metrics
+# Why Monitoring Metrics?
 
 | **Feature** | **Description** |
 | ----------- | --------------- |
