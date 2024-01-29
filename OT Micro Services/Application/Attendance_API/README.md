@@ -52,7 +52,7 @@ Attendance API is a Python-based microservice designed to handle attendance-rela
  | Processor/Instance Type |  Dual-Core/t2.medium |
  | RAM (Memory) |	4 Gigabytes  |
  | Disk Space | 16 GB or 2GB per core |
- | OS Required (Linux Distributions) | Ubuntu 22.04 LTS, Debian, or CentOS 7/8 |
+ | OS Required (Linux Distributions) | Ubuntu 22.04|
 
  ## Ports
    |  Inbound Traffic|	Description  |
@@ -118,12 +118,7 @@ export PATH="$HOME/ubuntu/.local/bin:$PATH"
 *** 
 4) **PostgreSQL**
 
-* For data storage and cache you need to setup postgreSQL and redis either as a container or locally. To setup locally you may use the following commands:
-
-```shell
-sudo apt update
-sudo apt install postgresql
-```
+* Here is a step-by-step [documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md) (in Ubuntu) to install Postgresql in your system. Make sure it is up and running.
 
 <img width="1028" alt="Screenshot 2024-01-12 at 2 47 15 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/46a21c38-8ef8-4d57-bafa-b6a76649f310">
 
