@@ -12,15 +12,14 @@
 2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
 3. [EBS Backed and Instance Store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
 4. [EBS Backed vs Instance store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#difference)
-5. [Comparision of EBS and Instance Store AMI ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#comparision)
-6. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
-7. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
-8. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
-9. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
-10. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
-11. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
-12. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
-13. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
+5. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
+6. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
+7. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
+8. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
+9. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
+10. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
+11. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
+12. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
 
 ***
 
@@ -59,15 +58,6 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 | **Stopped state** | Can be in a stopped state. Even when the instance is stopped and not running, the root volume is persisted in Amazon EBS.| Cannot be in a stopped state, instances are running or terminated.|
 
 ***
-
-# Pros and Cons of AMI's Types
-
- | **AMIs** | **Pros** | **Cons** | 
- | ------------------ | -------- | -------- | 
- | **EBS-Backed AMI** | EBS-backed AMIs use Amazon Elastic Block Store (EBS) volumes for the root device, providing persistent storage even if the instance is stopped.| EBS-backed instances might incur additional costs due to the EBS volumes used for storage.|
- | **Instance-store (S3-backed) AMI** | Instance-store AMIs often have faster boot times as they rely on ephemeral (temporary) storage that is part of the instance itself.|  Instance-store instances lose all data when stopped or terminated since the root device is ephemeral.| 
- 
- ***
 
 # Why AMI?
 
@@ -130,7 +120,7 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 In conclusion, Amazon Machine Images (AMIs) play a pivotal role in the realm of cloud computing, offering unparalleled advantages in terms of efficiency, scalability, and resource optimization within the AWS ecosystem. This documentation has provided a comprehensive exploration of AMIs, covering their definition, components, and purpose. 
 
-And at last,i choose **"Packer"** as a tool for **AMI Creation** 
+And at last,i choose **"Packer"** as a tool for **AMI Creation**.Packer is often preferred for creating Amazon Machine Images (AMIs) due to its multi-platform support, infrastructure as code approach, and template-based configuration. Its extensibility, supporting various builders and provisioners, allows seamless integration into existing workflows.  The strong community support and integration with other HashiCorp tools further contribute to its popularity for efficient and scalable AMI creation.
 
 ***
 
