@@ -1,149 +1,77 @@
 # Cloud Infra Design Dev
 
+| **Author**           | **Created On** | **Last Updated** | **Document Version** |
+| -------------------- | -------------- | ---------------- | -------------------- |
+| **Parasharam Desai** | 29-01-2024     | 29-01-2024       | V1                   |
+
 # Table of Contents
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Cloud Infra Design Dev Details](#cloud-infra-design-dev-details)
-   - [Region](#region)
-   - [Availability Zone](#availability-zone)
-   - [Virtual Private Cloud (VPC)](#vpc)
-   - [Subnets](#subnets)
-   - [Internet Gateway](#internet-gateway)
-   - [Route Table](#route-table)
-   - [Network Access Control List (NACL)](#network-access-control-list)
-   - [Security Groups](#security-groups)
-   - [NAT Gateway](#nat-gateway)
-   - [Application Load Balancer](#application-load-balancer)
 4. [Infrastructure Diagram](#infrastructure-diagram)
 5. [Contact Information](#contact-information)
 6. [Resources and References](#resources-and-references)
 
+***
 # Introduction
 
 The Cloud Infra Design Dev documentation provides an in-depth overview of the development infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
 
-
+***
 # Prerequisites
 | Tool                  | Description                                  |
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.     |
 
+
+***
 # Cloud Infra Design Dev Details
 
-### Region
+| Service         | Item                  | Description                                         |
+|-----------------|-----------------------|-----------------------------------------------------|
+| **Region**      | **Europe**               | Frankfurt (eu-central-1)                         |
+| **AZ**          | **eu-central-1a**         | Primary availability zone for the region.       |
+| **VPC**         | **OT-Micro-Dev-Vpc**      | VPC for Devlopement Infrastructure              |
+| **Subnets**     | **Public Subnet-1**   | Hosts the Bastion Host for secure access.           |
+|                 | **Private Subnet-1**  | Hosts the Frontend application components.         |
+|                 | **Private Subnet-2**  | Hosts the Attendance, Employee, and Salary APIs.    |
+|                 | **Private Subnet-3**  | Hosts PostgreSQL, Scylla, and Redis databases.      |
+| **Internet Gateway** | **Igw**              | Internet Gateway for OT-Micro-Dev-Vpc.              |
+| **Route Table**  | **Public-rt**        | Associates with Public Subnet-1 for internet access.|
+|                 | **Private-rt**       | Associates with Private Subnet-1, Subnet-2, and Subnet-3.|
+| **NACL**        | **Nacl-1**           | Associates with Private Subnet-1.                  |
+|                 | **Nacl-2**           | Associates with Private Subnet-2.                  |
+|                 | **Nacl-3**           | Associates with Private Subnet-3.                  |
+| **Security Groups** | **Bastion-sg**    | Security Group for Bastion.                         |
+|                 | **Frontend-sg**      | Security Group for Frontend.                        |
+|                 | **ATT-sg**           | Security Group for Attendance API.                 |
+|                 | **EMP-sg**           | Security Group for Employee API.                   |
+|                 | **Sal-sg**           | Security Group for Salary API.                     |
+|                 | **PSql-sg**          | Security Group for PostgreSQL.                     |
+|                 | **Scylla-sg**        | Security Group for Scylla database.                |
+|                 | **Redis-sg**         | Security Group for Redis database.                 |
+| **NAT Gateway** | **ALB**                   | NAT Gateway for private subnet internet access.    |
+| **ALB**         | **Nat-gateway**           | Application Load Balancer for distributing traffic.|
 
-| Service | Item                  | Description            |
-|----------|-----------------------|------------------------|
-|**Region**| Europe                | Frankfurt (eu-central-1) |
-|          | Region Code           | eu-central-1           |
-| **AZ**   | eu-central-1a     | Primary availability zone for the region.|
-### Availability Zone
-
-| Item                  | Description            |
-|-----------------------|------------------------|
-
-### Virtual Private Cloud (VPC)
-
-| Item                  | Description            |
-|-----------------------|------------------------|
-| Name                  | OT-Micro-Dev-Vpc       |
-
-### Subnets
-
-1. **Public Subnet-1**
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| Purpose               | Hosts the Bastion Host for secure access.|
-
-2. **Private Subnet-1**
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| Purpose               | Hosts the Frontend application components.|
-
-3. **Private Subnet-2**
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| Instances             | Hosts the Attendance, Employee, and Salary APIs.|
-
-4. **Private Subnet-3**
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| Instances             | Hosts PostgreSQL, Scylla, and Redis databases.|
-
-### Internet Gateway
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| Name                  | Internet Gateway for OT-Micro-Dev-Vpc.   |
-
-### Route Table
-
-| Item                  | Description                                  |
-|-----------------------|----------------------------------------------|
-| **Public-rt**     | Associates with Public Subnet-1 for internet access.|
-| **Private-rt**     | Associates with Private Subnet-1, Subnet-2, and Subnet-3..|
-
-### Network Access Control List (NACL)
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| **Nacl-1**     | Associates with Private Subnet-1.        |
-| **Nacl-2**     | Associates with Private Subnet-2.        |
-| **Nacl-3**     | Associates with Private Subnet-3.        |
-
-### Security Groups
-**For Public Subnet-1 (Bastion)**
-
-| Item                  | Description                                  |
-|-----------------------|----------------------------------------------|
-| **Bastion-sg**            | Security Group for Bastion.          |
-
-**For Private Subnet-1 (Frontend)**
-
-| Item                  | Description                                  |
-|-----------------------|----------------------------------------------|
-| **Frontend-sg**            | Security Group for Frontend.          |
-
-
-**For Private Subnet-2 (APIs)**
-
-| Item                  | Description                                  |
-|-----------------------|----------------------------------------------|
-| **ATT-sg**            | Security Group for Attendance API.          |
-| **EMP-sg**            | Security Group for Employee API.            |
-| **Sal-sg**            | Security Group for Salary API.              |
-
-**For Private Subnet-3 (Databases)**
-
-| Item                  | Description                                  |
-|-----------------------|----------------------------------------------|
-| **PSql-sg**           | Security Group for PostgreSQL.              |
-| **Scylla-sg**         | Security Group for Scylla database.         |
-| **Redis-sg**          | Security Group for Redis database.          |
-
-### NAT Gateway
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| ALB                  | NAT Gateway for private subnet internet access.|
-
-### Application Load Balancer
-
-| Item                  | Description                              |
-|-----------------------|------------------------------------------|
-| Nat gateway                | Application Load Balancer for distributing traffic.|
+***
 
 # Infrastructure Diagram
 
-The diagram illustrates the flow of AWS-hosted development infrastructure. Users connect to the environment through the internet, and traffic is directed through public subnets and security groups to reach specific resources. Private components have internet access through the NAT gateway, and secure access to private resources is managed by bastion instances. The architecture encompasses central, AWS cloud, network, security, and application components, all deployed within Virtual Private Clouds (VPCs). This high-level overview provides insights into connectivity and interactions within the development environment.
-
 ![Main-Dev](https://github.com/avengers-p7/Documentation/assets/156056709/1ebe5354-fec2-47de-9e60-8f6701f6d33c)
 
+**Description**
+
+* Users connect to the environment through the internet.
+* Traffic is directed through public subnets and security groups.
+* Private components have internet access via the NAT gateway.
+* Secure access to private resources is facilitated by bastion instances.
+* Architecture includes central, AWS cloud, network, security, and application components.
+* Components are deployed within Virtual Private Clouds (VPCs).
+* Overview offers insights into connectivity and interactions within the development environment.
+
+
+***
 
 # Contact Information
 
@@ -151,6 +79,7 @@ The diagram illustrates the flow of AWS-hosted development infrastructure. Users
 | ------------------ | ------------------------------------------- |
 | Parasharam Desai   | parasharam.desai.snaatak@mygurukulam.co     |
 
+***
 # Resources and References
 
 - [Reference 1]
