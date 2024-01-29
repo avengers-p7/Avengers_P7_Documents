@@ -13,11 +13,11 @@
 3. [Types of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
 4. [Pros and Cons of AMI's Types ](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIspros,cons)
 5. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
-6. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
-7. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
-8.  [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
-9. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
-10. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
+6. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
+7. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
+8. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
+9. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
+10. [Reason for choosing jenkins](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Jenkins)
 11. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
 12. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
 13. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
@@ -66,32 +66,6 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 
 ***
 
-# Different Tools for AMI Management
-
-| **Tools** | **Pros** | **Cons** |
-| --------- | -------- | -------- |
-| **AWS Management Console** | User-friendly, especially for those who prefer a graphical interface. |  Not ideal for large-scale or automated AMI creation workflows. |
-| **Hashicrop Packer** | Supports multiple platforms, not limited to AWS. | Additional tool to manage and learn. |
-| **Netflix Aminator** | Simplifies software installation and configuration tasks. | Limited community support compared to more widely adopted tools. |
-| **Terraform** | Supports multiple cloud providers, not limited to AWS. | May require additional modules for specific tasks. |
-| **Ansible** | Declarative language and YAML syntax for configuration. | May not be as suitable for complex orchestration tasks. |
-| **Docker** | Enables consistency across development and production. | Focuses on application containers rather than full system images. | 
-| **Jenkins** | Highly extensible and customizable. | Requires additional plugins for specific AWS tasks. |
-
-
-***
-
-# Reasons for selecting "Jenkins" as a medium for creating AMI with AWS CLI
-
-| **Feature** | **Description** |
-| ----------- | --------------- |
-| **Versatility and Extensibility** | Jenkins is highly versatile and extensible, offering a wide range of plugins for integrating with different tools and services. |
-| **Integration Capabilities** | Jenkins has a robust ecosystem of plugins that can seamlessly integrate with AWS services, including EC2 for AMI creation. |
-| **Continuous Integration and Deployment** | Jenkins is purpose-built for continuous integration and deployment. It is well-suited for managing end-to-end CI/CD pipelines. |
-| **Scripting and Automation** | Jenkins supports scripting in various languages, and you can use these scripts to automate AMI creation tasks. |
-
-***
-
 # Advantages of AMI
 
 | **Advantages** | **Description** |
@@ -120,6 +94,31 @@ An Amazon Machine Image is a special type of virtual appliance that is used to i
 - Restrict access to AMIs based on the principle of least privilege.
 - Implement tagging for AMIs to categorize and manage them efficiently.
 - Regularly review and clean up unused or outdated AMIs to reduce security risks.
+
+***
+
+# Different Tools for AMI Management
+
+| **Tools** | **Pros** | **Cons** |
+| --------- | -------- | -------- |
+| **AWS Management Console** | User-friendly, especially for those who prefer a graphical interface. |  Not ideal for large-scale or automated AMI creation workflows. |
+| **Hashicrop Packer** | Supports multiple platforms, not limited to AWS. | Additional tool to manage and learn. |
+| **Netflix Aminator** | Simplifies software installation and configuration tasks. | Limited community support compared to more widely adopted tools. |
+| **Terraform** | Supports multiple cloud providers, not limited to AWS. | May require additional modules for specific tasks. |
+| **Ansible** | Declarative language and YAML syntax for configuration. | May not be as suitable for complex orchestration tasks. |
+| **Docker** | Enables consistency across development and production. | Focuses on application containers rather than full system images. | 
+| **Jenkins** | Highly extensible and customizable. | Requires additional plugins for specific AWS tasks. |
+
+***
+
+# Reasons for selecting "Jenkins" as a medium for creating AMI with AWS CLI
+
+| **Feature** | **Description** |
+| ----------- | --------------- |
+| **Versatility and Extensibility** | Jenkins is highly versatile and extensible, offering a wide range of plugins for integrating with different tools and services. |
+| **Integration Capabilities** | Jenkins has a robust ecosystem of plugins that can seamlessly integrate with AWS services, including EC2 for AMI creation. |
+| **Continuous Integration and Deployment** | Jenkins is purpose-built for continuous integration and deployment. It is well-suited for managing end-to-end CI/CD pipelines. |
+| **Scripting and Automation** | Jenkins supports scripting in various languages, and you can use these scripts to automate AMI creation tasks. |
 
 ***
 
