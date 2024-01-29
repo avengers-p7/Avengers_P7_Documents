@@ -1,4 +1,4 @@
-# Authentication and Authorization in Jenkins
+# Authentication  in Jenkins
 
 | Author | Created on  | Version    | Last Updated by | Last Updated on |
 | -------- | ------- | -------------- | --------------| ---------------- |
