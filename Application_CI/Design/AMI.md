@@ -153,6 +153,17 @@ Here is the result of the AMI creation with pipeline with the help of jenkins.
 
 ***
 
+# Limitations Of AMI
+
+| **Limitation** | **Description** |
+| -------------- | --------------- |
+| **Region Specific** | AMIs are region-specific, and you need to create or copy them for use in different AWS regions. |
+| **Instance Type Compatibility** | AMIs are often specific to certain instance types, and you need to ensure compatibility when launching instances. |
+| **AMI Size Limit** | There is a limit on the size of an AMI. If your AMI is large, it might take longer to launch instances from it. |
+| **Customization Challenges** | Once an AMI is created, making changes requires creating a new AMI. |
+
+***
+
 # Best Practices
 
 - Include only necessary software and configurations in the AMI to keep it lightweight.
