@@ -107,6 +107,11 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
 
 ***
 
+**Note** The Master-Slave architecture in Jenkins works by distributing the workload across multiple machines, where the central Jenkins Master server manages and coordinates the build and deployment tasks, and one or more Jenkins Slave nodes carry out the actual execution of jobs.
+
+
+***
+
 
 ## Advantages
 | Aspect	| Description |
