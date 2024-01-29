@@ -100,7 +100,7 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 | **Region Specific** | AMIs are region-specific, and you need to create or copy them for use in different AWS regions. |
 | **Instance Type Compatibility** | AMIs are often specific to certain instance types, and you need to ensure compatibility when launching instances. |
 | **Time Taken** | There is a limit on the size of an AMI. If your AMI is large, it might take longer to launch instances from it. |
-| **Customization Challenges** | Once an AMI is created, making changes requires creating a new AMI. |
+| **Network Configuration** | AMIs may have specific network configurations tied to the region in which they were created.When deploying an AMI in a different region, you may need to adjust network settings.|
 
 ***
 
