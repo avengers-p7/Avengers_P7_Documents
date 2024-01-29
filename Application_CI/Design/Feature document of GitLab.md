@@ -80,16 +80,16 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
     
 | Category	| Tools |
 |-----------|-------|
-| Continuous Integration and Deployment	| Jenkins, Travis CI, CircleCI, GitLab CI/CD |
-| Issue Tracking and Project Management |	Jira, Redmine, YouTrack |
-| Code Quality and Security	| SonarQube, GitLab Code Quality, GitLab SAST |
-| Collaboration and Communication	| Slack, Mattermost, Microsoft Teams |
-| Artifact Repositories	| JFrog Artifactory, Nexus Repository Manager |
-| Monitoring and Logging	| Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana) |
-| Container Orchestration	| Kubernetes |
-| Cloud Platforms	| Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure |
-| Deployment and Provisioning	| Terraform, Ansible |
-| IDEs (Integrated Development Environments)	| Visual Studio Code, Eclipse |
+| **Continuous Integration and Deployment**	| Jenkins, Travis CI, CircleCI, GitLab CI/CD |
+| **Issue Tracking and Project Management** |	Jira, Redmine, YouTrack |
+| **Code Quality and Security**	| SonarQube, GitLab Code Quality, GitLab SAST |
+| **Collaboration and Communication**	| Slack, Mattermost, Microsoft Teams |
+| **Artifact Repositories**| JFrog Artifactory, Nexus Repository Manager |
+| **Monitoring and Logging**| Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana) |
+| **Container Orchestration**	| Kubernetes |
+| **Cloud Platforms**	| Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure |
+| **Deployment and Provisioning**| Terraform, Ansible |
+| **IDEs (Integrated Development Environments)**	| Visual Studio Code, Eclipse |
 
 ***
     
