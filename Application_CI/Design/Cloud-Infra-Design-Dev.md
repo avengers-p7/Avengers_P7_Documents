@@ -104,7 +104,8 @@ The OT-Microservices project follows a modern and modular architecture with a fo
 
 ## Diagram
 
-![Infrastructure Diagram](https://github.com/avengers-p7/Documentation/assets/156056709/ee12c86a-268a-4f36-b6bb-9b3b6d58fd8f)
+![Main-Dev](https://github.com/avengers-p7/Documentation/assets/156056709/1ebe5354-fec2-47de-9e60-8f6701f6d33c)
+
 
 ## Contact Information
 
