@@ -1,3 +1,16 @@
+# POC For AMI Creation
+
+| **Author** | **Created On** | **Last Updated** | **Document Version** |
+| ---------- | -------------- | ---------------- | -------------------- |
+| **Shreya Jaiswal** | **29-01-2024** | **30-01-2024** | **v1** |
+
+***
+
+
+
+
+
+
 [AMI Setup](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#AMIsetup)
 [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#pre-requisites)
 
