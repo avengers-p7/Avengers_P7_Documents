@@ -101,6 +101,10 @@ sudo apt install python3-pip
 *** 
 3) **Python3.11**
 * Prior to poetry installation, make sure to install Python 3.11, as Poetry is compatible with Python versions 3.11 or above. You can find the installation link [here](https://vegastack.com/tutorials/how-to-install-python-3-11-on-ubuntu-22-04/)
+* Additionally, you may need to install python3.11-dev to add development packages and files. 
+```shell
+sudo apt-get install python3.11-dev
+```
 
 ***
 3) **Poetry:**
@@ -116,6 +120,15 @@ export PATH="$HOME/ubuntu/.local/bin:$PATH"
 <img width="960" alt="Screenshot 2024-01-19 at 1 28 04 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cd0a1807-5864-4ae5-92e7-c9aca68e664f">
 
 *** 
+4) To make sure poetry run without any error you will need to install psycopg2
+```shell
+poetry add psycopg2-binary
+```
+```shell
+sudo apt-get install libpq-dev
+```
+
+***
 4) **PostgreSQL**
 
 * Here is a step-by-step [documentation](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md) (in Ubuntu) to install Postgresql in your system. Make sure it is up and running.
@@ -136,7 +149,6 @@ ALTER USER postgres WITH PASSWORD 'password';
 ***
 5) **Redis**
 * Follow these step-by-step [guidelines](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/Redis/README.md) on installing Redis on your Ubuntu system to ensure it is successfully installed and operational.
-
 
 ***
 6) **Liquibase**
@@ -178,15 +190,6 @@ make run-migrations
 
 <img width="1125" alt="Screenshot 2024-01-19 at 5 12 26 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/34f1e782-868f-4780-85fb-de59b8583564">
 
-
-* To ensure Poetry runs without errors, install psycopg2 is installed . Additionally, you may need to install python3.11-dev to add development packages and files. 
-```shell
-sudo apt-get install python3.11-dev
-```
-```shell
-poetry add psycopg2-binary
-sudo apt-get install libpq-dev
-```
 
 * Execute the build command to install necessary dependencies using Poetry
 ```shell
@@ -245,29 +248,6 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 1. **Always use TLS:** Use HTTPS to encrypt data transmitted between clients and the API server. This helps prevent man-in-the-middle attacks. Obtain and install an SSL certificate for your domain.
 
 2. **Use OAuth for SSO:** Nearly every app will need to associate some private data with a single person. That means user accounts, and that means logging in and logging out. SSO allows users to verify themselves with a trusted third party (e.g., Google, Microsoft Azure, AWS) via token exchange to access a resource.
-
-***
-#  Problems Faced
-1. **Problem -** The error suggests that psycopg2 requires pg_config to be available in the system. pg_config is a utility that is part of the PostgreSQL installation and is necessary for building Python packages that depend on it.
-
-   **Solution -** Installed psycopg2 using poetry along with python3-dev libpq-dev.
-<img width="1401" alt="Screenshot 2024-01-19 at 2 53 54 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/2e5908f1-b7e3-4b4c-bdc5-90928ddbdf7c">
-
-2. **Problem -** There was a need to create and manage mocks in pytest for testing, but this functionality wasn't built into pytest itself.
-   
-   **Solution -** The problem was resolved by installing the pytest-mock plugin using the command: `pip install pytest-mock`. The plugin provides a "mocker" fixture for creating and managing mocks in test functions.
-
-
-<img width="1186" alt="Screenshot 2024-01-11 at 11 16 31 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/97e0f816-7a19-4bbf-b1af-c35bf95a1b26">
-
-
-3. **Problem -** Encountered issues in loading application through gunicorn.
-   
-   **Solution -** Resolved problem by modifying config.yaml to fix connectivity issues with PostgreSQL and Redis.
-
-4. **Problem -** Encountered an Error13 while running make build as Poetry struggled to install dependencies without a virtual environment.
-
-   **Solution -** Resolved compatibility issues by utilizing Python 3.11, then used a virtual environment to successfully install all required dependencies specified in the pyproject.toml file.
 
    
 ***
