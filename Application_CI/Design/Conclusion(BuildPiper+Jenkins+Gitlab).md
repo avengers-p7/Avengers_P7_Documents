@@ -49,7 +49,7 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 | Criteria  | Jenkins | GitLab | BuildPiper |
 | --------- | -------- | ------ | --------- |
 | **Plugins** | 1700+ plugins |   Limited plugins |  Limited plugins/tools |
-| **Prerequisites** | JRE should be installed	| Ruby, Go, Git, Node.js, and Redis should be installed | none |
+| **Prerequisites** | JRE should be installed	| Ruby, Go, Git, Node.js, and Redis should be installed | None |
 | **Operating Systems Supported** |	Windows, Mac OS X, and Unix-like OS |	Supports only particular Unix-like OS such as Ubuntu, Debian, Red Hat Linux, Scientific Linux, Oracle Linux, CentOS, and OpenSUSE. It does not support Windows and macOS. | SAAS/Web |
 | **Open Source**	| Open Source and Free	| Open Source and Freemium | Open Source and Freemium |
 | **Issue Tracking**	| Don’t have such functionality	| Offers various features for issue tracking and management | Gain immediate insights into the potential reasons for a deployment failure- from service logs to container to pod status. |
