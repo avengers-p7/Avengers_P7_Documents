@@ -8,34 +8,33 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [What is Jenkins?](#What-is-Jenkins)
-3. [What is GitLab?](#What-is-GitLab)
-4. [What is BuilPiper?](#what-is-buildpiper)
-5. [Comparison](#Comparison)
-6. [Conclusion](#Conclusion)
-7. [Contact Information](#Contact-Information)
-8. [References](#References)
+2. [Prerquisites](#Prerquisites)
+3. [Authentication Methods](#Authentication-Methods)
+4. [Pros and Cons](#Pros-and-Cons)
+5. [Conclusion](#Conclusion)
+6. [Contact Information](#Contact-Information)
+7. [References](#References)
 ***
 
 ## Introduction 
 
 This documentation provides a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
 
-## What is Jenkins?
+## Prerquisites
 Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
 
 Moreover, since Jenkins is written in Java, it is compatible with any system with Java Runtime Environment (JRE) installed. This makes Jenkins widely usable due to its easy availability.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
 ***
-## What is GitLab?
+## Authentication Methods
 GitLab CI is a self-contained platform supporting the DevOps lifecycle through web-based services. It manages the Git repository through its Continuous Integration and Deployment pipelines, issue-tracking features, and wiki to store relevant files.
 
 GitLab works on a freemium basis, i.e., it offers both free and paid services. It enables automating the entire DevOps lifecycle, which involves planning, building, testing, deployment, and monitoring through release cycles.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/53283b3b-45ad-4234-a702-891bcb746af9)
 ***
-## What is BuildPiper?
+## Why Use Jenkins Own User Database?
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
    
    - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
@@ -43,7 +42,7 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f)
 ***
-## Comparison
+## Pros and Cons
 | Criteria  | Jenkins | GitLab | BuildPiper |
 | --------- | -------- | ------ | --------- |
 | **Plugins** | 1700+ plugins |   Limited plugins |  Limited plugins/tools |
