@@ -37,9 +37,13 @@
 
 **Step-1 Instance and AMI Creation for the requirement of AMI_ID**
 
+**Instance Craetion**
+
 ![Screenshot 2024-01-30 005719](https://github.com/avengers-p7/Documentation/assets/156057205/4a2fe7c1-ca33-4046-b7fd-d6a95d98b914)
 
 ***
+
+**AMI Creation**
 
 <img width="958" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/f2639637-8554-4369-843d-f1d46152dcec">
 
