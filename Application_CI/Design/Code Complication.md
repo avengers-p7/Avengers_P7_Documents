@@ -12,9 +12,10 @@
 3. Different Tools of java compilation
 4. Comparison
 5. Best Practices
-6. conclusion
-7. Contact Information
-8. References
+6. Proof of concepts (POC)
+7. conclusion
+8. Contact Information
+9. References
 
 ***
 
@@ -135,6 +136,57 @@ Continuous Integration (CI) specifically for Java code compilation, there are se
 
 
 ***
+
+# Proof of concepts (POC)
+
+here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkins
+
+
+# Step 1: Create a Simple Java Project with Maven
+
+1. Create a simple Maven Java project. You can use the following pom.xml for your project:
+
+   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/db67be89-ee6d-4e61-88bc-448cc5dfc439)
+
+   Create a simple Java class, e.g., HelloWorld.java
+
+   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/3394cdac-69a6-4546-987e-a47e02f988bd)
+
+# Step 2: Set Up a GitHub Repository
+
+Create a GitHub repository and push the Maven Java project to it.
+
+# Step 3: Install Jenkins and Maven
+
+Install Jenkins and Maven on your server. Follow the official installation guides for Jenkins and Maven.
+
+# Step 4: Configure Jenkins
+
+1. Install the necessary plugins in Jenkins:
+
+GitHub plugin
+
+Maven Integration plugin
+
+2. Configure the JDK and Maven in Jenkins:
+
+Go to "Manage Jenkins" > "Global Tool Configuration."
+
+Add JDK and Maven installations.
+
+# Step 5: Create a Jenkins Pipeline
+
+1. Create a new pipeline job in Jenkins.
+
+2. In the pipeline configuration, select "Pipeline script from SCM" as the definition.
+
+3. Choose Git as the SCM, and provide the URL of your GitHub repository.
+
+4. In the pipeline script, define the stages for Maven compilation. Here's an example
+
+# Step 6: Trigger the Jenkins Job
+
+Make a change in your GitHub repository and push it to trigger the Jenkins job. Jenkins will automatically start the pipeline, compile the Java code using Maven, and execute any other tasks you've defined in your pipeline.
 
 # Conclusion
 
