@@ -8,7 +8,7 @@
 
 # Table Of Contents
 
-1.[Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#introduction)
+1[Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#introduction)
 2.[Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#pre-requisites)
 3.[AMI Creation Process](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#AMIcreation)
 4.[Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI_POC.md#conclusion)
