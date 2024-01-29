@@ -15,6 +15,7 @@
 + [Features of GitLab](#FeaturesofGitLab)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
++ [GItLab Integration with other Tool](#GItLabIntegrationwithotherTool)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact_Information)
 + [References](#References)
@@ -89,6 +90,8 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
 | Cloud Platforms	| Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure |
 | Deployment and Provisioning	| Terraform, Ansible |
 | IDEs (Integrated Development Environments)	| Visual Studio Code, Eclipse |
+
+***
     
 
 ## Conclusion
