@@ -139,6 +139,7 @@ Continuous Integration (CI) specifically for Java code compilation, there are se
 
 # Proof of concepts (POC)
 
+
 here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkins
 
 
@@ -152,29 +153,38 @@ here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkin
 
    ![image](https://github.com/avengers-p7/Documentation/assets/156644891/3394cdac-69a6-4546-987e-a47e02f988bd)
 
+
 # Step 2: Set Up a GitHub Repository
+
 
 Create a GitHub repository and push the Maven Java project to it.
 
+
 # Step 3: Install Jenkins and Maven
+
 
 Install Jenkins and Maven on your server. Follow the official installation guides for Jenkins and Maven.
 
+
 # Step 4: Configure Jenkins
 
-1. Install the necessary plugins in Jenkins:
 
-GitHub plugin
+1.  Install the necessary plugins in Jenkins:
 
-Maven Integration plugin
+    GitHub plugin
+
+    Maven Integration plugin
 
 2. Configure the JDK and Maven in Jenkins:
 
-Go to "Manage Jenkins" > "Global Tool Configuration."
+    Go to "Manage Jenkins" > "Global Tool Configuration."
 
-Add JDK and Maven installations.
+    Add JDK and Maven installations.
+
+   
 
 # Step 5: Create a Jenkins Pipeline
+
 
 1. Create a new pipeline job in Jenkins.
 
@@ -184,9 +194,12 @@ Add JDK and Maven installations.
 
 4. In the pipeline script, define the stages for Maven compilation. Here's an example
 
+
 # Step 6: Trigger the Jenkins Job
 
 Make a change in your GitHub repository and push it to trigger the Jenkins job. Jenkins will automatically start the pipeline, compile the Java code using Maven, and execute any other tasks you've defined in your pipeline.
+
+***
 
 # Conclusion
 
