@@ -99,6 +99,15 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
 
 ***
 
+
+## Jenkins Architecture
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/a1a4185c-2e2c-4a20-b5bb-8a124c238db7)
+
+
+
+***
+
+
 ## Advantages
 | Aspect	| Description |
 |---------|-------------|
@@ -108,7 +117,9 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
 | **Cross-Platform Compatibility** | Jenkins is platform-independent, allowing it to run on different operating systems, providing flexibility in deployment environments.|
 | **Continuous Integration and Deployment**| Jenkins excels in automating CI/CD processes, ensuring rapid and reliable software delivery through continuous integration and deployment.|
 
+
 ***
+
 
 ## Disadvantages
 | Aspect	| Description |
@@ -118,12 +129,16 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
 | **Security Concerns**	| Improper configuration may pose security risks, emphasizing the need for diligent security measures during Jenkins setup and maintenance.|
 | **Limited Support for Modern DevOps Practices**|	While robust, Jenkins may have limitations in supporting some of the more advanced features and practices of modern DevOps.|
 
+
 ***
+
 
 ## Conclusion
 Jenkins stands out as a powerful and flexible automation tool, offering numerous advantages such as its open-source nature, extensibility, and strong community support. However, potential challenges, including a learning curve and security considerations, should be carefully evaluated. The decision to adopt Jenkins should align with specific project requirements and the need for a reliable CI/CD solution that can adapt to evolving development practices.
 
+
 ***
+
 
 ## Contact Information
 |Name |	Email address |
