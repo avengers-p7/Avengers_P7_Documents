@@ -67,20 +67,13 @@ Unit testing offers several benefits, including:
 
 There are various unit testing frameworks available for different programming languages. Some popular ones include:
 
-| Framework  | Pros                                                | Cons                                          | Use Cases                                              |
-|------------|-----------------------------------------------------|-------------------------------------------------|--------------------------------------------------------|
-| Katalon    | - Fast assertions for API, web, mobile, desktop.    | - Limited customization.                        | Alternative for integration, API, UI, and regression testing. |
-| Selenide    | - Stable tests, concise API.                        | - Customization workarounds.                   | UI testing for web applications.                        |
-| JUnit      | - Efficient testing with assertions.                | - No GUI support, not for large test suites.    | Unit and regression testing following TDD.             |
-| TestNG     | - HTML reports, supports dependent tests.           | - Requires time, not for all projects.          | Recommended for projects with many test cases.          |
-| Mockito    | - Better void method handling.                      | - Doesn't support final/static methods.         | Cost-effective mock generation for unit testing.       |
-| Cucumber   | - Intuitive, code reusability.                      | - Complexity with Gherkin.                     | Automated acceptance tests for initial requirements.   |
-| JBehave    | - Intuitive, user story reporting.                  | - Requires effective communication.            | BDD testing with easy-to-understand tests.             |
-| Serenity   | - Integrated, readable, scalable tests.              | - Requires regular communication.              | Writing and reporting acceptance criteria.             |
-| Spock      | - Compatibility, built-in mocking.                  | - Requires basic Groovy understanding.         | Robust framework for behavior-driven development.      |
-| Geb        | - Cross-browser tests, minimal code changes.        | - Only supports Groovy with WebDriver via Geb. | Functional and user acceptance testing.                 |
-
-
+| **Tool Name** | **Purpose** | **Programming Language** | **Testing Types Supported** | **Ease of Learning** | **Integration with IDEs** | **Parallel Execution** | **Data-Driven Testing** | **Reports and Documentation** | **Community Support** | **Pros** | **Cons** | **Ideal Scenarios** |
+|---------------|-------------|---------------------------|-----------------------------|-----------------------|---------------------------|------------------------|-------------------------|-----------------------------|------------------------|----------|----------|---------------------|
+| Selenium      | Browser automation and testing | Java, Python, C#, Ruby, JavaScript (via WebDriver) | Browser automation, cross-browser testing | Moderate | Integrates well with various IDEs | Yes | Yes | Requires additional tools or frameworks for detailed reporting | Large and active community | Widely used for web application testing | Learning curve for beginners | Web application testing requiring automation |
+| JUnit         | Unit testing | Java | Unit testing, regression testing | Easy | Well-supported in popular IDEs like IntelliJ, Eclipse | Limited support in JUnit 4, better in JUnit 5 | Limited support | Provides basic reporting; additional tools may be needed for detailed reports | Large community | Standard in Java development | Limited support for parallel execution | Unit testing and regression testing |
+| TestNG        | Versatile testing | Java | Unit testing, functional testing, end-to-end testing, integration testing | Moderate to easy | Excellent integration with popular IDEs like Eclipse, IntelliJ | Yes | Yes | Extensive reporting features, including HTML reports and custom listeners | Active community | Versatile, supports various testing types | Learning curve for beginners, can be verbose | Versatile testing needs including unit, functional, and integration testing |
+| SerenityBDD   | Automated acceptance and regression testing with BDD | Java | Automated acceptance testing, regression testing | Moderate | Integrates with IDEs like IntelliJ, Eclipse | Yes | Yes | Comprehensive reports, including narrative reports | Active community | BDD support, narrative reporting | Additional complexity for BDD | BDD-driven acceptance testing, regression testing |
+| Mockito       | Mocking for unit testing | Java | Unit testing | Moderate | Integrates with popular IDEs for Java development | No direct support; can be achieved using other tools or frameworks | Limited support for parameterized tests | Limited; primarily focused on verification errors | Active community | Powerful mocking capabilities, simple syntax | Limited testing scope, not a complete testing framework | Unit testing with a focus on behavior verification |
 
 ***
 
@@ -259,3 +252,5 @@ In conclusion, the choice of a unit testing framework depends on specific projec
 | Advantage & disadvantage                                | [Definition of Unit Testing](https://www.techtarget.com/searchsoftwarequality/definition/unit-testing) |
 | Unit Testing Best Practices                              | [Unit Testing Best Practices](https://www.softwaretestinghelp.com/unit-testing-best-practices/) |
 | JUnit – Generating HTML Reports                            | [JUnit – Generating HTML Reports](https://howtodoinjava.com/junit5/junit-html-report/) |
+| Top 10 Java Unit Testing Frameworks for 2023                           | [Explore Top 10 Unit Testing Frameworks](https://www.scalosoft.com/blog/top-10-java-unit-testing-frameworks-for-2023/) |
+
