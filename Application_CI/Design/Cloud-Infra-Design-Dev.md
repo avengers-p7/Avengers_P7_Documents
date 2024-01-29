@@ -21,7 +21,8 @@
 
 ## Introduction
 
-The OT-Microservices project follows a modern and modular architecture with a focus on scalability and efficiency. The infrastructure is designed to utilize AWS services to ensure a reliable, scalable, and high-performance foundation.
+The Cloud Infra Design Dev documentation provides an in-depth overview of the development infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
+
 
 ## Prerequisites
 | Tool                  | Description                                  |
@@ -150,6 +151,7 @@ The OT-Microservices project follows a modern and modular architecture with a fo
 The diagram illustrates the flow of AWS-hosted development infrastructure. Users connect to the environment through the internet, and traffic is directed through public subnets and security groups to reach specific resources. Private components have internet access through the NAT gateway, and secure access to private resources is managed by bastion instances. The architecture encompasses central, AWS cloud, network, security, and application components, all deployed within Virtual Private Clouds (VPCs). This high-level overview provides insights into connectivity and interactions within the development environment.
 
 ![Main-Dev](https://github.com/avengers-p7/Documentation/assets/156056709/1ebe5354-fec2-47de-9e60-8f6701f6d33c)
+
 
 ## Contact Information
 
