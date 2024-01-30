@@ -41,7 +41,7 @@ For a comprehensive understanding of unit testing, including its importance, adv
 - Unit Testing Disadvantages
 - Best Practices for Unit Testing
 
-**Documentation Link:** [Detailed Unit Testing Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro-of-Unit-Testing.md?plain=1)
+**Documentation Link:** [Detailed Unit Testing Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro-of-Unit-Testing.md)
 
 ***
 # Different Tools for Unit Testing
