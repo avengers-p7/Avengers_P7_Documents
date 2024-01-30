@@ -132,6 +132,20 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 ## Contact Information
 
-## References 
+|Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
+|---------------------------------|------------------------------------------------------------|
+
+***
+## References
+
+                                           |
+| Title                                      | URL                                           |
+|--------------------------------------------|-----------------------------------------------|
+| Dependency-Check User Guide           | https://jeremylong.github.io/DependencyCheck/    |
+| OWASP Dependency-Check GitHub Repository    | https://github.com/jeremylong/DependencyCheck  |
+| OWASP Dependency-Check benefits                 | https://medium.com/@sudheer.barakers/integrate-owasp-dependency-check-in-jenkins-pipeline-748d8aefc2b7 |
+| Installation                                 | https://www.youtube.com/watch?v=bImOWD4b6o8 |
+
+
 
 
