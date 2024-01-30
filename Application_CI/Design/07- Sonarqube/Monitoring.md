@@ -7,15 +7,15 @@
 ***
 
 # Table of contents
-1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#introduction)
-2. [What is Monitoring Metrics](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#whatismonitoringmetrics)
-3. [Why Monitoring Metrics](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#whymonitoringmetrics)
-4. [ Key Metrics in Sonarqube commonly monitored](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#Types)
-5. [Flow Diagram for Monitoring in SonarQube](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#diagram)
-6. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#bestpractices)
-7. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#conclusion)
-8. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#contactinformation)
-9. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Sonarqube/Monitoring.md#reference)
+1. [Introduction](#introduction)
+2. [What is Monitoring Metrics in SonarQube](#what-is-monitoring-metrics-in-sonarqube)
+3. [Why Monitoring Metrics](#why-monitoring-metrics)
+4. [Key Metrics in Sonarqube commonly monitored](#key-metrics-in-sonarqube-commonly-monitored)
+5. [Flow Diagram of Monitoring Metrics in SonarQube](#flow-diagram-of-monitoring-metrics-in-sonarQube)
+6. [Best Practices](#best-practices)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [Reference](#reference)
 
 ***
 
@@ -25,7 +25,7 @@ As software development continues to evolve, maintaining code quality is paramou
 
 *** 
 
-# What is Monitoring Metrics in Sonarqube?
+# What is Monitoring Metrics in SonarQube?
 
 Monitoring metrics in SonarQube involves regularly observing and analyzing various quantitative measures that assess the quality, maintainability, security, and other aspects of the codebase.By regularly monitoring the metrics in SonarQube, development teams can gain insights into the overall health of their codebase. This proactive approach allows for early detection of issues, continuous improvement, and the delivery of high-quality software. 
 
@@ -57,7 +57,7 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 
 # Flow Diagram of Monitoring Metrics in SonarQube
 
-
+***
 
 # Best Practices
 
