@@ -18,6 +18,8 @@
 
 [7. Conclusion](#conclusion)
 
+[8. Contact Information](#contact-information)
+
 # Introduction 
 In the landscape of DevOps, infrastructure management is a critical aspect that directly impacts the reliability, scalability, and agility of software applications. Two prominent paradigms in this context are mutable and immutable infrastructure. This documentation provides an in-depth exploration of both concepts, highlighting their definitions, purposes, detailed comparisons, advantages, disadvantages, and a conclusive summary.
 
@@ -116,4 +118,15 @@ Immutable infrastructure revolves around creating and deploying servers or infra
 
 # Conclusion
 Both mutable and immutable infrastructures have their merits, and the choice depends on the specific needs and requirements of the application and organization. Striking a balance or adopting a hybrid approach may also be suitable in some cases. Understanding the strengths and weaknesses of each approach is essential for making informed decisions in managing DevOps infrastructure.
+***
 
+# Contact Information
+| Name | Email Address |
+| ---- | ------------- |
+| Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
+
+# References
+| Source | Description  | 
+| -------- | ------- |
+| https://devopscube.com/immutable-infrastructure/#:~:text=Mutable%3A%20Something%20that%20can%20be,cannot%20change%20anything%20in%20that. | Introduction |
+| https://www.bridge-global.com/blog/mutable-vs-immutable-infrastructure/ | Mutable v/s Immutable |
