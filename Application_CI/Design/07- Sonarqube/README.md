@@ -51,7 +51,7 @@ Using SonarQube offers certain key benefits :
 | **Code Quality Improvement** | It enforces coding standards, detects code smells, and provides insights into improving code quality, leading to more maintainable and readable code. |
 | **Security Assurance**| SonarQube scans code for security vulnerabilities, aiding in the identification and mitigation of potential threats, thus enhancing the overall security of applications. |
 | **Automated Code Analysis** | Integration with CI/CD pipelines allows for automated code analysis, ensuring that code quality checks are performed consistently with each code change. |
-| **Consistency Across Projects** By promoting coding standards and best practices, SonarQube helps maintain consistency across the entire codebase, making collaboration more efficient. |
+| **Consistency Across Projects** | By promoting coding standards and best practices, SonarQube helps maintain consistency across the entire codebase, making collaboration more efficient. |
 | **Comprehensive Reporting** | The platform provides a centralized dashboard with detailed reports, offering a holistic view of code quality metrics, trends, and issues, aiding in decision-making and continuous improvement.
 | **Cost-Efficient Maintenance** | Early issue detection and proactive code quality improvement contribute to reducing the overall cost and effort of software maintenance over the software development life cycle.
 
