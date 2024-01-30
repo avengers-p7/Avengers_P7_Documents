@@ -8,13 +8,13 @@
 
 # Table Of Contents
 
-1. [Introduction](#introduction)
-2. [Pre-requisites](#pre-requisites)
-3. [AMI Creation Process](#amicreation)
-4. [Conclusion](#conclusion)
-5. [Contact Information](#contactinformation)
-6. [Reference](#reference)
- 
++ [Introduction](#introduction)
++ [Pre-requisites](#pre-requisites)
++ [AMI Setup](#ami-setup)
++ [Conclusion](#conclusion)
++ [Contact Information](#contact-information)
++ [Reference](#reference)
+
 ***
 
 # Introduction
