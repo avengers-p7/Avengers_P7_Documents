@@ -7,7 +7,7 @@
 + [Why Credential Scanning]()
 + [Types Of Credentials]()
 + [Credential Scanning Tools]()
-+ [Tool Comparison]
++ [Tool Comparison]()
 + [When To Scan For Credentials]()
 ***
 ## Introduction 
@@ -46,4 +46,6 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 | **Hawkeye** | Hawkeye is a security tool that scans for secrets, API keys, and other sensitive information in source code repositories. It supports multiple file formats and can be integrated into CI workflows. |
 | **Detect-Secrets** | *detect-secrets* is an open-source Python tool that scans code repositories, using regex-based patterns to identify and prevent the accidental inclusion of sensitive information like passwords or API keys. It's easily integrated into CI/CD pipelines and supports customizable configuration for reduced false positives. |
 
+***
 
+## Tool Comparison
