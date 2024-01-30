@@ -9,7 +9,7 @@
 + [Introduction](#Introduction)
 + [Key Components](#key-points)
 + [Popular Tools](#popular-tools)
-+ [Guide to Installation](#Getting-started)
++ [Guide to Installation](#Installing-OWASP-Dependency-Check)
 + [Jenkins Job Configuration](#jenkins-job-setup)
 + [Pre requisites](#pre-requisites)
 + [Dependencies](#dependencies)
@@ -43,7 +43,18 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 3. [Retire.js](https://retirejs.github.io/retire.js/): Retire.js is a tool for detecting vulnerable JavaScript libraries. It can be used as a command-line tool or integrated into various build tools.
 4. [Bundler Audit](https://github.com/rubysec/bundler-audit#readme): Bundler Audit is a tool for checking RubyGem dependencies for known security vulnerabilities. It integrates with Ruby projects using Bundler and can be utilized in Jenkins for secure Ruby application development.
 
+***
+# Why Choose OWASP
 
+* OWASP Dependency-Check stands out as a robust and widely adopted tool for identifying vulnerabilities in project dependencies. Here are key reasons to consider using OWASP Dependency-Check in your CI/CD pipeline:
+
+1. **Identification of Vulnerabilities** - OWASP Dependency-Check utlizes a combination of public and private vulnerability databases to identify known vulnerabilities in project dependencies, ensuring a thorough security assessment.
+2. **Integration with Build Tools** - It seamlessly integrates into the project's build process, enabling developers to effortlessly incorporate regular vulnerability checks as part of their development workflow. It offers compatibility with popular build tools like Maven, Gradle, Ant, and others.
+3. **Versatile Language and Ecosystem Support** - With support for multiple programming languages and ecosystems including Java, .NET, Node.js, Ruby, Python, and more, OWASP Dependency-Check proves to be versatile and adaptable, catering to a diverse range of projects.
+4. **Flexible Report Generation** - The tool provides flexibility in report generation, offering outputs in various formats such as HTML, XML, JSON, and CSV. These detailed reports empower developers and security teams with comprehensive information about identified vulnerabilities, facilitating prompt and informed decision-making.
+5. **Active and Collaborative Community** - OWASP thrives on an active and collaborative community. This community-driven approach ensures continuous updates, improvements, and the introduction of new features, enhancing the tool's effectiveness and relevance.
+6. **Integration with Security Tools** - It can be seamlessly combined with other security tools to deliver a holistic security analysis of a project. This collaborative approach enhances the overall security posture and provides a more comprehensive understanding of potential risks.
+  
 ***
 ## Installing OWASP Dependency-Check
 
