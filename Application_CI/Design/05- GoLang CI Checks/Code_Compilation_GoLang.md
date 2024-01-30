@@ -125,3 +125,16 @@ func TestYourFunction(t *testing.T) {
 ```
 ![WhatsApp Image 2024-01-31 at 02 20 49_5ae975fe](https://github.com/avengers-p7/Documentation/assets/156056460/5675a57c-95b3-4c8e-9bf8-9ae24e4cbf85)
 
+#Conclusion
+- Go's straightforward compilation process, combined with built-in tools for dependency management, static analysis, and testing, promotes code quality and reliability.
+- Following these steps ensures a smooth development workflow and confidence in code functionality.
+- By integrating these tools into build systems or CI pipelines, you can automate quality checks and catch issues early, leading to more robust and maintainable Go applications.
+
+# Contact Information
+| Name            | Email Address                        |
+|-----------------|--------------------------------------|
+| Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
+
+# Resources and References
+| [Code Compilation](https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know) |
+| [POC](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/) |
