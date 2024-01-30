@@ -39,9 +39,6 @@ A **module,** which is nothing but a single unit of software, can also be consid
 <img width="560" length="300" alt="ut" src="https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/cdfe8356-c6ea-407f-800a-01063a1d21b4">
 
 
-
-<img width="560" length="300" alt="ut" src="https://github.com/avengers-p7/Documentation/assets/156056413/b20adeca-16bc-4b75-bf24-0a8fc6d20d3b">
-
 ***
 ## Types of Unit Testing
 
