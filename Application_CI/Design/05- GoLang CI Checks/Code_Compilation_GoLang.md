@@ -40,4 +40,8 @@ It depends on your needs!go build is generally better for most developers due to
 However, go tool compile has its own advantages for specific situations where fine-grained control or deep understanding of the compilation process is crucial.
 Here simplicity and building a complete application are key, I'll stick with the convenience of go build.
 
+# POC of Code Compilation in Go
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/348d107b-98f1-4e76-8241-9a2e1d6b1d0b)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/7d0a5a5a-f4f9-47b9-b92c-70c012d854fa)
