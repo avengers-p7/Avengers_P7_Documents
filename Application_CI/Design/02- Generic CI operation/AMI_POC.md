@@ -36,7 +36,7 @@
 
 # AMI Setup
 
-**Step-1 Instance and AMI Creation for source of AMI_ID**
+**Step-1 Instance and AMI Creation for source AMI_ID**
 
 **Instance Creation**
 
