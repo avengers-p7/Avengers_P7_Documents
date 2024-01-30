@@ -10,9 +10,9 @@
 
 1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#introduction)
 2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
-3. [EBS Backed and Instance Store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
-4. [EBS Backed vs Instance store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#difference)
-5. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
+3. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
+4. [EBS Backed and Instance Store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
+5. [EBS Backed vs Instance store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#difference)
 6. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
 7. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
 8. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
@@ -32,6 +32,17 @@ This documentation serves as a comprehensive guide, offering insights into the c
 # What is AMI?
 
 An Amazon Machine Image (AMI) is a supported and maintained image provided by AWS that provides the information required to launch an instance. You must specify an AMI when you launch an instance. You can launch multiple instances from a single AMI when you require multiple instances with the same configuration. You can use different AMIs to launch instances when you require instances with different configurations.
+
+***
+
+# Why AMI?
+
+| **Reason** | **Description** |
+| ---------- | --------------- |
+| **Rapid Deployment** | AMIs enable quick and consistent instance provisioning, reducing deployment time. |
+| **Version Control** | Facilitates versioning of configurations, supporting easy rollback and updates. |
+| **Scalability** | Supports auto-scaling and dynamic provisioning for varying workloads. |
+| **Pay-as-You-Go Model** | AMIs align with AWS's pay-as-you-go pricing model, optimizing costs. |
 
 ***
 
@@ -56,18 +67,6 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 | **Data persistence** | By default, the root volume is deleted when the instance terminates. But the data on any other EBS volume persists. | Data on any instance store volumes is deleted when the instance terminates |
 | **Charges** | Charged for instance usage, EBS volume usage, and storing the AMI as an EBS snapshot.| Charged for instance usage and storing your AMI in Amazon S3 |
 | **Stopped state** | Can be in a stopped state. Even when the instance is stopped and not running, the root volume is persisted in Amazon EBS.| Cannot be in a stopped state, instances are running or terminated.|
-
-***
-
-# Why AMI?
-
-| **Reason** | **Description** |
-| ---------- | --------------- |
-| **Rapid Deployment** | AMIs enable quick and consistent instance provisioning, reducing deployment time. |
-| **Version Control** | Facilitates versioning of configurations, supporting easy rollback and updates. |
-| **Scalability** | Supports auto-scaling and dynamic provisioning for varying workloads. |
-| **Pay-as-You-Go Model** | AMIs align with AWS's pay-as-you-go pricing model, optimizing costs. |
-
 
 ***
 
