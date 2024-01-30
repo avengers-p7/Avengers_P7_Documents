@@ -36,7 +36,12 @@ Commit hooks are scripts that run automatically before or after specific events 
 
 ## Recommended Commit Hook
 
-I recommend using pre-commit hooks to streamline and manage various hooks effectively.
+| Hook Name              | Scenario                                                                                         | Use Case                                                                                                                      |
+|------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **pre-commit hook**       | Your team follows strict code style guidelines and wants to ensure that all commits adhere to these standards. | Implement a pre-commit hook to run a code formatter and linter on staged files. If any files fail to meet the defined standards, the commit operation is aborted, prompting developers to fix the issues before proceeding. |
+| **prepare-commit-msg hook** | Your project requires each commit message to include a unique identifier corresponding to the associated task or issue. | Configure a prepare-commit-msg hook to automatically prepend the commit message with the task ID extracted from the branch name or issue tracker. This ensures consistency and traceability in commit messages. |
+| **commit-msg hook**        | Your team wants to enforce a standardized commit message format to facilitate easy navigation through the project history. | Implement a commit-msg hook to validate commit messages against a predefined format (e.g., prefixing with a type identifier like "feat", "fix", "docs", etc., followed by a concise description). Commits with invalid messages are rejected, guiding developers to adhere to the specified format. |
+| **post-commit hook**      | Your project maintains a changelog that needs to be updated with each commit to reflect the latest changes. | Configure a post-commit hook to automatically update the changelog file with details of the latest commit. This ensures that the project's documentation remains up-to-date without manual intervention after each commit. |
 
 ***
 
