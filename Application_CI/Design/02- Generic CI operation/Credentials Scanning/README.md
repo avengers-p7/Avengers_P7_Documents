@@ -64,7 +64,13 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 | **Open Source**             | Yes, open-source                   | Yes, open-source                  | Yes, open-source                  |
 | **Community Support**       | Active community                   | Active community                  | Limited                           |
 ***
+## Tool Recommendation
 
+***
+
+## Proof Of Concept : GitLeaks 
+
+***
 ## Advantages 
 
 | **Advantages of Credential Scanning Tools**                   |    **Description**                                   |
@@ -75,4 +81,21 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 | **Cost Savings:** | Prevent financial and reputational costs of security incidents & minimizes remediation costs through early detection |                        
 | **Maintaining Trust:** | Build customer and user trust through commitment to security as we avoid fallout from data breaches |
 ***
+
+## Best Practices 
+
+***
+# Contact Information
+
+| Name                 | Contact Information                                                                                     
+|---------------------------------|------------------------------------------------------------|
+| Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co
+***
+# References
+
+|     Description                  | References  
+| ---------------------------------| ------------------------------------------------------------------- |
+| Frontend API | https://github.com/OT-MICROSERVICES/frontend |
+| Javascript heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
+| Default index file for public folder | https://github.com/react-cosmos/create-react-app-example/blob/master/public/index.html |
 
