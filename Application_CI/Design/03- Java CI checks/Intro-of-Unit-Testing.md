@@ -27,7 +27,7 @@ Welcome to the documentation on Unit and Unit Testing in Software Development. T
 
 # What is Unit Testing?
 
-A **'unit'** refers to the smallest testable part of a software program, such as a function or method. 
+A **unit** refers to the smallest testable part of a software program, such as a function or method. 
 
 A **module,** which is nothing but a single unit of software, can also be considered a 'unit.' The goal of unit testing is to test each unit, including modules, in isolation to ensure they work as intended before integrating them into the larger system.
 
