@@ -138,7 +138,6 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 ***
 ## References
 
-                                           |
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
 | Dependency-Check User Guide           | https://jeremylong.github.io/DependencyCheck/    |
