@@ -10,6 +10,19 @@
 
 # Tables of Content 
 
+1.  Introduction
+2.  Why is it Important to monitor Jenkins
+3.  Key performance Metrics of Jenkins
+4.  What is Prometheus
+5.  features and components of Prometheus
+6.  Monitoring Websites using Grafana and Prometheus
+7.  Network Setup
+8.  POC for Grafana and Prometheus
+9.  conclusion
+10. Contact Informtion
+11. References
+
+
 ***
 # Introduction 
 
