@@ -65,5 +65,8 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 <img width="1407" alt="Screenshot 2024-01-31 at 12 15 51 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ef2fe711-3add-4462-bade-d7fc4d3cfe40">
 
-* 
+* You may use `Dependency-Check Publisher`, configured as a post-build action, independently processes the 'dependency-check-report.xml' file. It generates metrics, trends, and findings, with the ability to set configurable thresholds. This includes the option to mark the build as failed or in a warning state based on specified criteria.
+
+<img width="1358" alt="Screenshot 2024-01-31 at 12 32 38 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7b65ba1c-f4b5-4097-95a0-2584f33702ad">
+
 
