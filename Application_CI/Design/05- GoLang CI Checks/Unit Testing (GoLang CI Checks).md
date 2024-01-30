@@ -33,25 +33,29 @@ This document explores conducting unit tests in a Golang app using the standard 
 * **Install Golang**  
   Install golang-go     
   Install gccgo-go   
-  ```shell
-  sudo apt update
-  sudo apt install golang-go -y  
-  sudo apt install gccgo-go -y
-  ```
-
-
+ 
 ***  
 ## Steps of unit testing  
 
 #### 
 
-Within the directory, make a clone of the repository. 
-
-    mkdir snatak_p7
-    cd snatak_p7
-    git clone https://github.com/OT-MICROSERVICES/employee-api.git  
-    cd employee-api/
+* Within the directory, make a clone of the repository. 
+  ```shell
+  mkdir snatak_p7
+  cd snatak_p7
+  git clone https://github.com/OT-MICROSERVICES/employee-api.git  
+  cd employee-api/
+  ```
 <img width="760" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/c12a898d-f9bd-4865-82f4-0eaf01f6e481">  
+
+* Install Prerequisites
+   ```shell
+  sudo apt update
+  sudo apt install golang-go -y  
+  sudo apt install gccgo-go -y
+  ```
+  
+
 
 ***  
 
