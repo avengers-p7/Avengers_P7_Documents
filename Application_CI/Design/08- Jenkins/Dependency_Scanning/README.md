@@ -44,7 +44,7 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 4. [Bundler Audit](https://github.com/rubysec/bundler-audit#readme): Bundler Audit is a tool for checking RubyGem dependencies for known security vulnerabilities. It integrates with Ruby projects using Bundler and can be utilized in Jenkins for secure Ruby application development.
 
 ***
-# Why Choose OWASP
+## Why Choose OWASP
 
 * OWASP Dependency-Check stands out as a robust and widely adopted tool for identifying vulnerabilities in project dependencies. Here are key reasons to consider using OWASP Dependency-Check in your CI/CD pipeline:
 
