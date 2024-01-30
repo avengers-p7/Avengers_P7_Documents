@@ -8,7 +8,7 @@
 ## Table of Contents 
 + [Introduction](#Introduction)
 + [Key Components](#key-points)
-+ [Popular Tools](Popular-Dependency-Scanning-Tools)
++ [Popular Tools](popular-tools)
 + [Guide to Installation](#Getting-started)
 + [Jenkins Job Configuration](#jenkins-job-setup)
 + [Pre requisites](#pre-requisites)
@@ -34,7 +34,7 @@
 * **Awareness and Reporting** - Developers gain awareness of potential vulnerabilities through reports at an early stage, providing insights into the identified issues and their respective severity levels.
 
 ***
-## Popular Dependency Scanning Tools
+## Popular Tools
 
 Explore a variety of widely used tools for scanning dependencies and enhancing the security of your projects. These tools can be integrated into Jenkins or used independently, providing diverse options for identifying and addressing vulnerabilities:
 
