@@ -138,12 +138,18 @@ For Golang unit testing, refer to [Golang Unit Testing POC](./Golang_Unit_Testin
 
 In conclusion, JUnit is the recommended choice for Java unit testing due to its:
 
-**Standardization:** Widely accepted in Java development.
-**Integration:** Seamless integration with popular IDEs.
-**Ease of Learning:** Simple syntax for quick adoption.
-**Community Support:** Large and active community for ongoing assistance.
-**Parallel Execution:** Improved support for optimizing test suite performance.
-**Compatibility:** Works well with Maven and Gradle for versatile project setups.
+* Standardization: Widely accepted in Java development.
+
+* Integration: Seamless integration with popular IDEs.
+
+* Ease of Learning: Simple syntax for quick adoption.
+
+* Community Support: Large and active community for ongoing assistance.
+
+* Parallel Execution: Improved support for optimizing test suite performance.
+
+* Compatibility: Works well with Maven and Gradle for versatile project setups.
+
 By choosing JUnit, teams can ensure efficient, reliable unit testing, leading to higher code quality and faster development cycles.
 
 ***
