@@ -12,6 +12,7 @@ Sprint-0
 | Shantanu  | 19 Jan | Not Present   | 1st  | 05      |
 | Nidhi     | 22 Jan | Not present   | 1st  | 05      |
 | Khushi    | 23 Jan | Not present   | 3rd  | 15      |
+|           |        |  Total        |      | 65      | 
 ***
 
 Sprint-1
@@ -19,8 +20,8 @@ Sprint-1
 | ----      | ----    | ------      | ---- | ----   |
 | Shikha    | 24 Jan  | Camera off  | 1st  | 05     |
 | Vikram    | 24 Jan  | Staus mail  | 1st  | 05     |
-| Shantanu  | 26 Jan  | Not Present | 2nd  | 10     |
-| Nidhi     | 26 Jan  | Not Present | 2nd  | 10     |
+| Shantanu  | 26 Jan  | Not Present | 1st  | 05     |
+| Nidhi     | 26 Jan  | Not Present | 1st  | 05     |
 | Vikram    | 26 Jan  | Status Mail | 2nd  | 10     |
 | Shreya    | 26 Jan  | Status Mail | 1st  | 05     |
 | Nidhi     | 26 Jan  | Status Mail | 1st  | 05     |
@@ -28,3 +29,6 @@ Sprint-1
 | Harshit   | 26 Jan  | Status Mail | 1st  | 05     |
 | Khushi    | 26 Jan  | Status Mail | 1st  | 05     |
 | Vishal    | 26 Jan  | Status Mail | 1st  | 05     |
+| Vidhi     | 30 Jan  | Camera off  | 1st  | 05     |
+| Harshit   | 30 Jan  | Late Join   | 1st  | 05     |
+| Sameer    | 30 Jan  | Mail summary| 1st  | 10     |
