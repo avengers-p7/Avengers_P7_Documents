@@ -2,9 +2,6 @@
 ![1_rn-sO9oWLn9lYO7jkVO6og](https://github.com/avengers-p7/Documentation/assets/156056344/4034ee6e-ae7d-4664-8265-c5e5ca267b7a)
 
 ***
-
-# Frontend Setup 
-
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
 | Aakash Tripathi | 30 Jan 2024   |     v1     | Aakash Tripathi | 30 Jan 2024    |
