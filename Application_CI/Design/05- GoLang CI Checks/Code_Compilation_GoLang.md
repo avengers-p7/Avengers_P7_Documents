@@ -33,7 +33,7 @@ CI is a software development practice that involves automatically building and t
 | **Output**                    | - Produces an executable binary (.exe, .out) ready to run your program.                                    | - Generates individual object files (.o) containing compiled code for a specific package.<br>- Further linking is needed to create an executable.                                  |
 | **Use Cases**                 | - Building executables for testing, deployment, and running applications.<br>- Everyday development needs.  | - Debugging specific code sections by inspecting generated assembly.<br>- Integrating compilation into custom build systems or workflows.<br>- Understanding the internal workings of the Go compiler.  |
 | **Advantages**                | - Convenience: Handles everything in one step, including dependency resolution and linking.<br>- Simplicity: Easy to use and understand, ideal for everyday development tasks.<br>- Automation: Integrates seamlessly with build tools and CI pipelines.<br>- Output: Produces directly runnable executables for immediate testing and deployment. | - Granularity: Offers fine-grained control over individual package compilation.<br>- Debugging: Enables inspection of assembly code for specific packages.<br>- Customization: Useful for building complex programs with custom workflows.<br>- Learning: Provides insights into the internal workings of the Go compiler. |
- |
+
 
 # Is go build better than go tool compile?
 It depends on your needs!go build is generally better for most developers due to its simplicity and convenience for building complete applications.
