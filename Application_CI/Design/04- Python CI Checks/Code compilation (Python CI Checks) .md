@@ -43,7 +43,7 @@ Code compilation is an essential step in Python CI checks because it ensures tha
 
 When comparing tools for code compilation in Python CI checks, several factors should be considered:
 
-  factors                       |        Description                                                    |
+| Factors                       |        Description                                                    |
 | ------------                  | ----------------------------------------------------------------------|
 | Platform compatibility        | Does the tool support the target platform or environment              |  
 | Ease of use                   | How easy is the tool to use, and what is the learning curve           |
