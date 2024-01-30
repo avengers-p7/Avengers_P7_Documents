@@ -109,15 +109,12 @@ For a detailed proof of concept (POC) related to Java unit testing, please refer
 
 ---
 
-# Python Unit Testing
+# Unit Testing in Other Languages
 
-For Python unit testing, refer to [Python Unit Testing POC](./Python_Unit_Testing_POC.md). The documentation covers a comparison of various unit testing tools in Python along with a detailed POC.
-
----
-
-# Golang Unit Testing
-
-For Golang unit testing, refer to [Golang Unit Testing POC](./Golang_Unit_Testing_POC.md). The documentation includes a comparison of different unit testing tools in Golang and provides a detailed proof of concept (POC).
+| **Language**         | **Documentation**                                     |
+|----------------------|-------------------------------------------------------|
+| **Python**           | [Python Unit Testing POC](./Python_Unit_Testing_POC.md) - Comparison of unit testing tools and a detailed POC for Python. |
+| **Golang**           | [Golang Unit Testing POC](./Golang_Unit_Testing_POC.md) - Comparison of unit testing tools and a detailed POC for Golang. |
 
 ***
 
