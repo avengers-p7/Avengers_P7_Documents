@@ -12,7 +12,7 @@
 + [What is AMI](#what-is-AMI)
 + [Why AMI](#why-AMI)
 + [EBS Backed and Instance Store-Backed AMI](#types-of-AMI)
-+ [EBS Backed vs Instance store-Backed AMI](#EBS-Backed-vs-Instance-store-backed-AMI)
++ [EBS Backed vs Instance store Backed AMI](#EBS-Backed-vs-Instance-store-Backed-AMI)
 + [Advantages of AMI](#Advantages-of-ami)
 + [Limitations of AMI](#limitations-of-AMI)
 + [Best Practices](#Best-Practices)
