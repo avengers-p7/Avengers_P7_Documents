@@ -14,7 +14,6 @@
 + [Dependencies](#dependencies)
 + [API Setup](#api-setup)
 + [Security](#best-practices-for-api-security)
-+ [Troubleshoot](#troubleshoot)
 + [Contact Information](#contact-information)
 + [References](#references)
 
