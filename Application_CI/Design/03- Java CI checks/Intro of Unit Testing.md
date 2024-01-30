@@ -2,7 +2,7 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Parasharam & Vishal & Shantanu** | 23-01-2024 | 23-01-2024 | V1 |
+| **Parasharam & Vishal** | 23-01-2024 | 23-01-2024 | V1 |
 
 ***
 
