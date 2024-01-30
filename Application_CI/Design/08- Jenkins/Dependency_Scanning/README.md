@@ -45,7 +45,7 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 
 
 ***
-## Getting Started
+## Installing OWASP Dependency-Check
 
 ### 1. Pre-requisite
 
