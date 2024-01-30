@@ -19,7 +19,7 @@
 7.  Network Setup
 8.  POC for Grafana and Prometheus
 9.  conclusion
-10. Contact Informtion
+10. Contact Information 
 11. References
 
 
