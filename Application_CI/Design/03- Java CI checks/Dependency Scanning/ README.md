@@ -62,7 +62,7 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 6. **Integration with Security Tools** - It can be seamlessly combined with other security tools to deliver a holistic security analysis of a project. This collaborative approach enhances the overall security posture and provides a more comprehensive understanding of potential risks.
   
 ***
-## Installing OWASP Dependency-Check
+## OWASP Installation
 
 ### 1. Pre-requisite
 
