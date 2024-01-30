@@ -57,6 +57,24 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 
 # Flow Diagram of Monitoring Metrics in SonarQube
 
+<img width="598" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/52a84648-e4ec-4454-9d7e-1fe028a05647">
+
+**The scenario involves a streamlined process for code quality management:**
+
+**Code Repositories**                      Developers push code changes to version control (e.g., Git).
+
+**CI/CD Pipeline**                         Changes trigger the CI/CD pipeline for building and testing.
+
+**SonarQube Scanner**                      Integrated into the CI/CD pipeline, it analyzes code for quality issues.
+
+**SonarQube**                              Receives and processes code analysis results,Centralized platform for code quality monitoring.
+
+**Monitoring System (Metrics Dashboard)**  Retrieves and visualizes key metrics from SonarQube.Provides insights into code quality indicators.
+
+**Developers' Action**                     Developers use SonarQube or the Metrics Dashboard to review and address code quality issues.
+
+This workflow ensures continuous, automated code analysis, empowering developers with real-time feedback for proactive code quality improvements. The combination of SonarQube and the Monitoring System facilitates effective management and visualization of key metrics.
+
 ***
 
 # Best Practices
