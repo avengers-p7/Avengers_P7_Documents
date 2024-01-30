@@ -7,7 +7,7 @@
 # Table of Content
 [1. Introduction](#Introduction)
 
-[2. Key Components](# Key Components)
+[2. Key Components](#workflow)
 
 [3. Workflow](# Workflow)
 
