@@ -10,7 +10,7 @@
 
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
-3. [AMI Creation Process](#AMIcreation)
+3. [AMI Creation Process](#amicreation)
 4. [Conclusion](#conclusion)
 5. [Contact Information](#contactinformation)
 6. [Reference](#reference)
@@ -27,9 +27,10 @@
 
 # Pre-requisites
 
-1. AWS CLI Configured
-2. EC2 Instance for source of AMI ID Generation
-3. Packer Installed
+| **Tool** | **Version** |
+| -------- | ----------- |
+| **AWS CLI** |          |
+| **Packer** |           |
 
 ***
 
