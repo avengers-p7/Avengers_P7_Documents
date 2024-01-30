@@ -17,7 +17,7 @@
 6. [Different Tools for Unit Testing](#different-tools-for-unit-testing)
 7. [Proof of Concept (POC) for Java Base Application](#proof-of-concept-poc-for-java-base-application)
 8. [Best Practices for Unit Testing](#best-practices-for-unit-testing)
-9. [Recommendation/General Conclusion](#recommendationgeneral-conclusion)
+9. [Recommendation/Conclusion](#recommendation-conclusion)
 10. [Contact Information](#contact-information)
 11. [Resources and References](#resources-and-references)
 
@@ -32,23 +32,23 @@ Welcome to the documentation on Unit and Unit Testing in Software Development. T
 
 In unit testing, a **'unit'** refers to the smallest testable part of a software program, such as a function or method. A **module,** which is nothing but a single unit of software, can also be considered a 'unit.' The goal of unit testing is to test each unit, including modules, in isolation to ensure they work as intended before integrating them into the larger system.
 
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/cdfe8356-c6ea-407f-800a-01063a1d21b4)
+<img width="560" length="300" alt="ut" src="https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/cdfe8356-c6ea-407f-800a-01063a1d21b4">
 
 **Unit testing** is a type of software testing where individual units or components of a software application are tested to ensure they meet their design and behavior requirements. These units can be functions, methods, or classes, and they are tested in isolation, without any dependencies on external components.
 
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/1810e1da-a206-4e80-b609-5dcda30550aa)
+<img width="560" length="300" alt="ut" src="https://github.com/avengers-p7/Documentation/assets/156056413/b20adeca-16bc-4b75-bf24-0a8fc6d20d3b">
 
-
-
+***
 ## Types of Unit Testing
 
-**Manual Unit Testing**
+| Manual Unit Testing                                                                                               | Automated Unit Testing                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| Manual testing involves human testers creating test cases, testing software without automation tools, and providing final reports.                                               | Automated testing utilizes tools for testing, making it faster and more efficient compared to manual testing.            |
+| Testers manually execute test cases and observe software behavior, potentially allowing for human errors.         | Automation tools execute test cases automatically, reducing the chance of human errors and providing consistent results. |
+| Manual testing is slower due to human involvement and can be time-consuming.                                      | Automated testing is faster since it's performed with automation tools, saving time and resources.                        |
+| It's suitable for scenarios where human judgment and intuition are required, such as exploratory testing.         | Best suited for repetitive tasks, regression testing, and scenarios where rapid testing is needed, ensuring reliability. |
 
-Manual unit testing involves developers manually executing test cases without the use of automated testing tools. While it can be effective for small projects, it becomes impractical for larger and more complex systems due to time constraints and the risk of human error.
 
-**Automated Unit Testing**
-
-Automated unit testing involves using testing frameworks and tools to automate the execution of test cases. Below POC focuses on automated unit testing using JUnit, a popular Java testing framework.
 ***
 
 # Why is Unit Testing important?
@@ -71,7 +71,6 @@ There are various unit testing frameworks available for different programming la
 |---------------|-------------|---------------------------|-----------------------------|-----------------------|---------------------------|------------------------|-------------------------|-----------------------------|------------------------|----------|----------|---------------------|
 | JUnit         | Unit testing | Java | Unit testing, regression testing | Easy | Well-supported in popular IDEs like IntelliJ, Eclipse | Limited support in JUnit 4, better in JUnit 5 | Limited support | Provides basic reporting; additional tools may be needed for detailed reports | Large community | Standard in Java development | Limited support for parallel execution | Unit testing and regression testing |
 | TestNG        | Versatile testing | Java | Unit testing, functional testing, end-to-end testing, integration testing | Moderate to easy | Excellent integration with popular IDEs like Eclipse, IntelliJ | Yes | Yes | Extensive reporting features, including HTML reports and custom listeners | Active community | Versatile, supports various testing types | Learning curve for beginners, can be verbose | Versatile testing needs including unit, functional, and integration testing |
-| SerenityBDD   | Automated acceptance and regression testing with BDD | Java | Automated acceptance testing, regression testing | Moderate | Integrates with IDEs like IntelliJ, Eclipse | Yes | Yes | Comprehensive reports, including narrative reports | Active community | BDD support, narrative reporting | Additional complexity for BDD | BDD-driven acceptance testing, regression testing |
 | Mockito       | Mocking for unit testing | Java | Unit testing | Moderate | Integrates with popular IDEs for Java development | No direct support; can be achieved using other tools or frameworks | Limited support for parameterized tests | Limited; primarily focused on verification errors | Active community | Powerful mocking capabilities, simple syntax | Limited testing scope, not a complete testing framework | Unit testing with a focus on behavior verification |
 
 ***
@@ -80,11 +79,13 @@ There are various unit testing frameworks available for different programming la
 
 There are many advantages to unit testing, including the following:
 
-- The earlier a problem is identified, the fewer compound errors occur.
-- Fixing problems early is usually cheaper than fixing them later in development.
-- Easier debugging processes.
-- Developers can quickly make changes to the codebase.
-- Developers can reuse code and migrate it to new projects.
+| Point                                                  | Explanation                                                       |
+|--------------------------------------------------------|-------------------------------------------------------------------|
+| **Early problem identification**                           | Identifying issues early reduces the likelihood of compound errors. |
+| **Cost-effectiveness of early fixing**                     | Addressing problems in the early stages of development is usually less expensive than fixing them later. |
+| **Simplified debugging process**                           | Early detection of issues simplifies the debugging process.        |
+| **Agile codebase modifications**                           | Developers can swiftly make changes to the codebase as needed.     |
+| **Code reuse and migration**                               | Enables developers to reuse code and migrate it to new projects.    |
 
 ***
 
@@ -92,145 +93,46 @@ There are many advantages to unit testing, including the following:
 
 While unit testing is integral to any software development and testing strategy, there are some aspects to be aware of. Disadvantages to unit testing include the following:
 
-- Tests will not uncover every bug.
-- Unit tests only test sets of data and its functionality -- it will not catch errors in integration.
-- More lines of test code may need to be written to test one line of code -- creating a potential time investment.
-- Developers may have to learn new skills to implement unit testing correctly; for example, having to learn how to use specific automated software tools.
+| Point                                                         | Explanation                                            |
+|---------------------------------------------------------------|--------------------------------------------------------|
+| **Tests may not uncover every bug**                                | Despite thorough testing, it's possible for some bugs to remain undetected.                    |
+| **Limited scope of unit tests**                                    | Unit tests focus on specific sets of data and functionality, not integration aspects.           |
+| **Increased test code complexity**                                 | Writing tests may require more lines of code compared to the actual code being tested.          |
+| **Learning curve for implementing unit testing**                   | Developers might need to acquire new skills, such as using specific automated testing tools.    |
 
 ***
 
 # Proof of Concept (POC) for Java Base Application
 
-### Introduction 
-
-Unit testing in Java is a crucial practice that involves testing individual units or components of Java code to ensure their correctness and functionality. Java unit testing is typically performed by Java developers and is an essential part of the software development process. Below, I'll provide the steps of performing unit testing in Java.
-
-### Testing Framework
-
-Java unit testing is often facilitated by testing frameworks, with JUnit being one of the most popular choices. These frameworks provide a structured and organized way to write and execute unit tests. Some other frameworks like TestNG and Mockito are also commonly used in Java unit testing.
-
-### Overview
-
-The developer has already authored the unit test cases for the application.
-
-You can find these test cases located in the directory path: 
-
-	src/test/java/com/opstree/microservice/salary.
-
-JUnit, a testing framework, plays a pivotal role in enabling Java unit testing within this context.
-
-	Repository Link: [OT-MICROSERVICES](https://github.com/OT-MICROSERVICES/salary-api.git)
- 
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/e4437f15-a559-43a4-9367-eb7aecca1f78)
-
-### Prerequisites
-
-**Java Version 17** (mentioned in pom.xml)  
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/3a93c93a-5008-418e-b2f5-ff7e1ef1bef4)
-
-**Maven** - As it simplifies the process of managing project dependencies, including testing dependencies.
-
-**JUnit** - As it's a library on which the project's tests is depended on. 
-
-### Steps
-
-### Cloning a Java App
-
-Within the directory, make a clone of the repository.
-
-	mkdir snaatak-P7
-	cd snaatak-P7
-	git clone https://github.com/OT-MICROSERVICES/salary-api.git
-
-
-### Install Java 17 and Maven
-
-As the salary code is Java-based, it is designed to be compatible with Java version 17. It is advisable to install Maven, a crucial tool for managing and building Java projects.
-
-	sudo apt update
-	sudo apt install openjdk-17-jdk
-	sudo apt install maven
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/4c12c52e-dcba-48bd-aa1f-94a94c42dfdf)
-
-### Add the JUnit dependency in pom.xml file.
-
-	<dependency>
-		<groupId>junit</groupId>
-		<artifactId>junit</artifactId>
-		<version>4.12</version>
-		<scope>test</scope>
-	</dependency>
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/52947b33-cef9-42c7-970c-3e39a862f4a7)
-
-
-### Add maven dependency in pom.xml file.
-
-	<dependency>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-compiler-plugin</artifactId>
-		<version>3.11.0</version>
-		<type>maven-plugin</type>
-	</dependency>
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/6bced278-8a21-4959-89ed-7596ead60bd8)
-
-### Revise Surefire Plugin Configuration in pom.xml
-
-Address compatibility issue with JUnit by uncommenting and updating surefire plugin version.
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/76800f61-50ac-4ba7-99f2-13058980cdb2)
-
-### Uncomment the version of surefire plugin and also change the version from 2.17 to 3.0.0
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/090207f8-7a0a-4cd8-ace0-fe47aaecb1c7)
-
-### Run Java Unit Test
-
-	mvn test 
-
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/7bd0ec27-bffe-48c2-ac85-8f4a93bbfe75)
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/6ac027a8-85e3-4b31-8ad1-8da93035cf82)
-
-
-### Generate html report with surefire.
-
-This command will generate an html report. To access unit test report, navigate to the target > site > right-click > Open in Browser.
-
-	mvn surefire-report:report
- 
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/486dbecd-8438-4367-a5b3-ab123ac27a3a)
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/39df6f1b-f373-4db4-9cdf-f904c1c544ba)
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/de771f0f-419e-4ab9-ae3b-643d8282b271)
-
- 
-### POC Conclusion
-
-In summary, Java unit testing is vital for ensuring code quality, reliability, and maintainability in software development. Utilizing best practices, including employing a dependable testing framework like JUnit, writing isolated test cases, and automating testing with tools like Maven and Gradle, enables developers to validate code units effectively. Embracing test-driven development (TDD) methodologies and regular test report reviews contribute to the creation of robust, error-free software. Java unit testing lays the foundation for high-quality applications, playing a crucial role in early issue detection and overall improvement of the software development lifecycle.
+For a detailed proof of concept (POC) related to Java unit testing, please refer to [Unit Testing POC](./Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md).
 
 ***
 
 # Best Practices for Unit Testing
 
-- Write tests before implementing the corresponding functionality (Test-Driven Development).
-- Keep tests simple, isolated, and focused on a single unit.
-- Write tests that are easy to understand and maintain.
-- Ensure tests are independent and don't rely on external state.
-- Use test doubles (mocks, stubs, and fakes) to isolate units from external dependencies.
-- Aim for high test coverage, but don't sacrifice test quality for quantity.
-- Continuously maintain and update tests as the codebase evolves.
+| Point                                                         | Explanation                                                                                   |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Write tests before implementing functionality (TDD)**           | Following Test-Driven Development (TDD) methodology involves writing tests prior to coding.   |
+| **Keep tests simple and isolated**                                 | Tests should focus on a single unit and be kept simple for better readability and debugging.   |
+| **Write tests that are easy to understand and maintain**          | Ensure test cases are written in a clear and understandable manner to facilitate maintenance.  |
+| **Ensure tests are independent and stateless**                    | Tests should not rely on external state to maintain consistency and independence.             |
+| **Use test doubles for isolating units from dependencies**        | Employ mocks, stubs, and fakes to isolate units under test from external dependencies.        |
+| **Aim for high test coverage without sacrificing quality**        | Strive for comprehensive test coverage while ensuring tests are meaningful and effective.     |
+| **Continuously maintain and update tests as codebase evolves**    | Regularly update and refactor tests to align with changes in the codebase and requirements.    |
 
 ***
 
-# General Conclusion
+# Recommendation/Conclusion
 
-In conclusion, the choice of a unit testing framework depends on specific project needs. For traditional Java unit testing, JUnit and TestNG are robust choices. Mockito excels in mocking scenarios. The best framework is the one that aligns with project goals, team expertise, and testing requirements. 
+In conclusion, JUnit is the recommended choice for Java unit testing due to its:
 
+**Standardization:** Widely accepted in Java development.
+**Integration:** Seamless integration with popular IDEs.
+**Ease of Learning:** Simple syntax for quick adoption.
+**Community Support:** Large and active community for ongoing assistance.
+**Parallel Execution:** Improved support for optimizing test suite performance.
+**Compatibility:** Works well with Maven and Gradle for versatile project setups.
+By choosing JUnit, teams can ensure efficient, reliable unit testing, leading to higher code quality and faster development cycles.
 
 ***
 
@@ -244,12 +146,11 @@ In conclusion, the choice of a unit testing framework depends on specific projec
 
 # Resources and References
 
-| **Source**                                              | **Description**                               |
+|       **Description**                                   |           **References**                    |
 |---------------------------------------------------------|-----------------------------------------------|
 | what is unit                                             | [What Exactly Is a Unit in Unit Testing?](https://www.blinkingcaret.com/2016/04/27/what-exactly-is-a-unit-in-unit-testing/) |
 | what is unit testing                                     | [YouTube Video: What is Unit Testing?](https://www.youtube.com/watch?v=So0gxfFGmLs) |
 | Advantage & disadvantage                                | [Definition of Unit Testing](https://www.techtarget.com/searchsoftwarequality/definition/unit-testing) |
 | Unit Testing Best Practices                              | [Unit Testing Best Practices](https://www.softwaretestinghelp.com/unit-testing-best-practices/) |
-| JUnit – Generating HTML Reports                            | [JUnit – Generating HTML Reports](https://howtodoinjava.com/junit5/junit-html-report/) |
-| Top 10 Java Unit Testing Frameworks for 2023                           | [Explore Top 10 Unit Testing Frameworks](https://www.scalosoft.com/blog/top-10-java-unit-testing-frameworks-for-2023/) |
+| Top 10 Java Unit Testing Frameworks for 2023             | [Explore Top 10 Unit Testing Frameworks](https://www.scalosoft.com/blog/top-10-java-unit-testing-frameworks-for-2023/) |
 
