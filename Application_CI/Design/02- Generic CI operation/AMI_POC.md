@@ -29,7 +29,7 @@
 
 | **Tool** | **Version** |
 | -------- | ----------- |
-| **AWS CLI** |          |
+| **AWS CLI** | aws-cli/2.15.0 Python/3.11.6 Linux/5.15.133.1-microsoft-standard-WSL2 exe/x86_64.ubuntu.22 prompt/off |
 | **Packer** | Packer.v1.10.0 |
 
 ***
