@@ -72,3 +72,13 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 ### 2. Verification
 
+* Initiate the job in Jenkins that includes the OWASP Dependency-Check configuration. Monitor the console output and review results
+
+<img width="1317" alt="Screenshot 2024-01-30 at 3 06 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3c14c164-faa7-4b28-b43d-3d4c063fb156">
+
+* Navigate to the job's build artifacts or workspace. Locate the generated Dependency-Check reports. They are typically available in multiple formats (JSON, HTML, XML). Ensure that vulnerabilities are correctly identified, and severity levels align with expectations.
+
+<img width="1128" alt="Screenshot 2024-01-31 at 12 45 22 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/d5a23677-4118-4c4e-b03d-2bfd8894e00f">
+
+
+
