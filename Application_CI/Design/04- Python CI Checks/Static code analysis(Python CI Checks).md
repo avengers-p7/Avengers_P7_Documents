@@ -45,7 +45,7 @@ Tools available for static code analysis in Python CI checks:
 | Pylint                 | A widely used tool that checks for errors, enforces coding standards, and analyzes code quality                                       |  
 | Flake8                 | Combines multiple tools (including PyFlakes, pycodestyle, and McCabe complexity checker) to provide linting and static analysis       |
 | Bandit                 | Specifically designed for security analysis in Python code, identifying common security vulnerabilities and issues                    |
-| MyPy                   |  A static type checker for Python that helps identify type-related issues and enforce type hints                                      | 
+| MyPy                   | A static type checker for Python that helps identify type-related issues and enforce type hints                                      | 
 | Black                  | Focuses on code formatting and style enforcement, ensuring consistent code layout and structure                                       |
 
 # Advantages
