@@ -26,7 +26,7 @@ CI is a software development practice that involves automatically building and t
 | **1. go build**             | - Compiles entire Go projects, including dependencies.<br>- Generates an executable binary for immediate use.    |
 | **2. go tool compile**      | - Compiles individual Go packages into object files (.o).<br>- Lower-level tool suitable for specific tasks like debugging or custom build processes. |
 
-# Comparison between **go build** and **go tool compile*
+# Comparison between go build and go tool compile
 | **Aspect**                    | **go build**                                                                                               | **go tool compile**                                                                                                       |
 |-------------------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | **Description**               | - Compiles entire project with dependencies.<br>- Generates an executable binary.                          | - Compiles individual Go packages into object files (.o).<br>- A lower-level tool for specific tasks like debugging.       |
