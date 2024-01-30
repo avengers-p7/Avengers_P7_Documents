@@ -8,11 +8,11 @@
 # Table of Contents 
 + [Introduction](#Introduction)
 + [What is Static Code Analysis](#What-is-Static-Code-Analysis)
-+ [Why Static Code Analysis](Why-Static-Code-Analysis)
++ [Why Static Code Analysis](#Why-Static-Code-Analysis)
 + [Different Tools and Comparison](#Different-Tools-and-Comparison)
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
-+ [Best Practices](Best-Practices)
++ [Best Practices](#Best-Practices)
 + [Recommendations and Conclusion](#Recommendations-and-Conclusion)
 + [Contact Information](#contact-information)
 + [References](#References)
