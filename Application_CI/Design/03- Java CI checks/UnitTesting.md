@@ -106,6 +106,18 @@ While unit testing is integral to any software development and testing strategy,
 
 For a detailed proof of concept (POC) related to Java unit testing, please refer to [Unit Testing POC](./Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md).
 
+---
+
+# Python Unit Testing
+
+For Python unit testing, refer to [Python Unit Testing POC](./Python_Unit_Testing_POC.md).
+
+---
+
+# Golang Unit Testing
+
+For Golang unit testing, refer to [Golang Unit Testing POC](./Golang_Unit_Testing_POC.md).
+
 ***
 
 # Best Practices for Unit Testing
