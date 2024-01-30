@@ -235,6 +235,9 @@ Prometheus docker container started on port 9090
 
 **docker ps -a**
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/2da6ed45-43a3-404a-a748-41ab0207d3d1)
+
+
 # Prometheus
 
 Let’s navigate to Prometheus address http://localhost:9090/targets we should see all the black-box in the running status as follows.
@@ -260,6 +263,28 @@ Grafana Login Screen
 After Login we can see the following screen
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/1c8481c1-cc20-42cf-b89e-392a685e17e2)
+
+
+**Grafana Welcome Page**
+
+On the left side, we can see the Setting icon, click on the icon, and then click on Data Sources.
+
+![Screenshot from 2024-01-30 22-54-43](https://github.com/avengers-p7/Documentation/assets/156644891/53b32a03-1c09-4074-9dcd-33dcc39aa5c6)
+
+
+Then select Prometheus.
+
+![Screenshot from 2024-01-30 22-54-43](https://github.com/avengers-p7/Documentation/assets/156644891/e336581b-2749-4c42-af18-8fbe548179df)
+
+
+Add the local host address or Prometheus server address with the listening port.
+
+![Screenshot from 2024-01-30 22-57-10](https://github.com/avengers-p7/Documentation/assets/156644891/1f2ac600-4a6c-426a-a2ce-47ed48c7f9b6)
+
+
+Select HTTP Method method to GET then save and test.
+
+
 
 
 
