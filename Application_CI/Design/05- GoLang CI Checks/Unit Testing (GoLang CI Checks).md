@@ -23,7 +23,8 @@
 
 This document explores conducting unit tests in a Golang app using the standard testing framework provided by the testing package. Pre-written unit tests within the repository cover modules like API, client, config, middleware, and routes. Leveraging this framework ensures code quality and functionality, fostering confidence in the application's reliability.
 
-* **Repo Link :** https://github.com/OT-MICROSERVICES/employee-api.git
+* **Repo Link :**
+       `https://github.com/OT-MICROSERVICES/employee-api.git`
 ***
 ## Steps To Do Unit Test
 ***
