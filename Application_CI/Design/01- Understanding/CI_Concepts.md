@@ -5,17 +5,17 @@
 ***
 
 # Table of Content
-[1. Introduction](#Introduction)
+[1. Introduction](#introduction)
 
-[2. Key Components](#workflow)
+[2. Key Components](#key-components)
 
-[3. Workflow](# Workflow)
+[3. Workflow](#workflow)
 
-[4. Benefits](# Benefits)
+[4. Benefits](#benefits)
 
-[5. Best Practices](# Best Practices)
+[5. Best Practices](#best-practices)
 
-[6. Conclusion](# Conclusion)
+[6. Conclusion](#conclusion)
 
 # Introduction
 Continuous Integration is a software development practice where code changes are automatically integrated and tested frequently. Developers submit their code changes to a shared repository, triggering an automated build and test process. This ensures that the codebase is always in a functional state. Continuous Integration addresses challenges in software development by automating the integration of code changes from multiple contributors. It aims to detect and fix integration issues early in the development process, promoting collaboration and delivering more reliable software.
