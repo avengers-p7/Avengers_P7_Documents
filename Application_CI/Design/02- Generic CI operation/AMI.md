@@ -48,13 +48,13 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 # Types of AMI
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/950075ec-1096-4a5d-9e44-60a46c2546b5)
-
-
 | **Types** | **Description** |
 | --------- | --------------- |
 | **EBS-Backed AMI** | An AMI with the root volume created using an Amazon Elastic Block Store (Amazon EBS) volume. This ensures that the data is persisted, even after the EC2 instance is shut down.|
 | **Instance-store (S3-backed) AMI** | An AMI that uses an Instance Store volume created from a template stored in Amazon S3. When using an Instance Stored-backed AMI, the data in the EC2 instance is not persisted after shut down since the instance gets terminated.|
+
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/950075ec-1096-4a5d-9e44-60a46c2546b5)
+
 
 ***
 
