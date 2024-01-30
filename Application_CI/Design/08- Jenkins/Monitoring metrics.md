@@ -58,10 +58,8 @@ Prometheus is an open-source monitoring and alerting toolkit designed for reliab
 
 # Here are key features and components of Prometheus:
 
-**Time-Series Data Model**
-
-Prometheus follows a time-series data model, where metrics are identified by a combination of metric name and key-value pairs (labels). This allows for efficient querying and analysis of time-series data.
-
+|**Time-Series Data Model**|Prometheus follows a time-series data model, where metrics are identified by a combination of metric name and key-value pairs (labels). This allows for efficient querying and analysis of time-series data.|
+|-------------------------|-----------------------------|
 **Data Scraping**:
 
 Prometheus collects metrics from monitored targets through a process called scraping. It regularly pulls metrics from HTTP endpoints exposed by the monitored services. This pull-based approach allows Prometheus to discover and monitor new services dynamically.
