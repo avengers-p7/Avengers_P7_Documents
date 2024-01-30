@@ -20,6 +20,8 @@
 + [References](#References)
 ***
 ## Introduction
+
+In Go, unit testing is straightforward and follows a convention that makes it easy to get started. The testing package provides a testing framework that includes functions for writing and running tests, as well as reporting test results. For more detail click [here](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro%20of%20Unit%20Testing.md)
 ***
 ## Steps To Do Unit Test
 ***
