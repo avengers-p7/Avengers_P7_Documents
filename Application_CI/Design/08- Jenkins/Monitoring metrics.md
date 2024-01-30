@@ -284,6 +284,32 @@ Add the local host address or Prometheus server address with the listening port.
 
 Select HTTP Method method to GET then save and test.
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/0206b062-a29d-4c99-9002-20a045471bd0)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/5d3dd248-94b1-4d56-be1c-2cd10665edb2)
+
+
+**Here** We are going to import the existing website monitoring dashboard.
+
+Select upload JSON file and upload the dashboard.json file from the Website-Monitoring directory.
+
+The following screen should appear on the screen.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/9d7f8ed4-3a26-4d88-8979-3834898c28a6)
+
+
+After some time all the data will get updated on the dashboard.
+
+We can see the website is up and running.
+
+# Clean up
+
+Execute the following script to clean all docker containers and remove BlackBox exporter.
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/3aaf28c5-e384-4e7f-85f5-f231764bd257)
+
+
 
 
 
