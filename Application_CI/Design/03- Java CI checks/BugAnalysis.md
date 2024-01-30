@@ -1,4 +1,4 @@
-# Bug Analysis/Tracking in Software Development
+# Bug Analysis in JAVA
 
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
@@ -33,6 +33,20 @@ This document provides a detailed analysis of bugs, focusing on the importance o
 In software development, a **'bug'** refers to an error, flaw, or unexpected behavior in a software application. Bugs can manifest in various forms, such as incorrect output, system crashes, or unexpected behavior. The goal of bug analysis is to identify, categorize, and understand these issues to facilitate effective resolution.
 
 ![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/7e0ebcf8-81ea-4db1-991e-56fe1afe0709)
+
+# More on Bug Life Cycle in Software Development:
+
+For a detailed understanding of the Bug Life Cycle, specifically focusing on the process, stages, and status of bugs during testing, refer to our comprehensive documentation. In this documentation, we cover the following key points:
+
+## Bug Life Cycle Overview
+
+- What Is a Bug Life Cycle (Defect Life Cycle)?
+- Defect/Bug Status
+- Stages of Bug Life Cycle in Testing
+
+**Documentation Link:** [Bug Life Cycle Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/BugLifeCycle.md)
+
+
 
 ***
 
