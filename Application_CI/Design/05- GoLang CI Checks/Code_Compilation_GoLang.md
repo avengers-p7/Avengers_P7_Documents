@@ -42,6 +42,26 @@ Here simplicity and building a complete application are key, I'll stick with the
 
 # POC of Code Compilation in Go
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/348d107b-98f1-4e76-8241-9a2e1d6b1d0b)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/04b674e8-b3d8-4f6e-9b03-c39271c69d23)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/7d0a5a5a-f4f9-47b9-b92c-70c012d854fa)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/c7ce4925-86fb-4b5c-8dc3-933b4e706c37)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/fa3176fc-5528-444c-b325-c38218ffe4bf)
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/be03aea3-21a5-4be1-bb25-38075ee6a04d)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/1e1157c1-fc50-47a5-bdfa-9aa25e16c214)
+
+
+![WhatsApp Image 2024-01-31 at 02 44 17_a2bf763a](https://github.com/avengers-p7/Documentation/assets/156056460/8957a7ce-e4a7-4c1e-87b4-cdc96bfe3283)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/5e0c644b-96b3-45af-a8ae-b92c8c0064a3)
+
+
+![WhatsApp Image 2024-01-31 at 02 20 31_9fd2bc60](https://github.com/avengers-p7/Documentation/assets/156056460/9866c6c1-f436-4929-9415-f625cf0eee12)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/bee29298-023a-4bc6-9ff1-01a96a892194)
+
+![WhatsApp Image 2024-01-31 at 02 20 49_5ae975fe](https://github.com/avengers-p7/Documentation/assets/156056460/5675a57c-95b3-4c8e-9bf8-9ae24e4cbf85)
+
