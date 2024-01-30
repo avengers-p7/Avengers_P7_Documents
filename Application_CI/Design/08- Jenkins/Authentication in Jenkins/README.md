@@ -17,8 +17,17 @@
 ***
 
 ## Introduction 
+This documentation provides a brief information of Authentication methods provided by Jenkins.
 
-This documentation provides a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
+Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
+
+Access Control is the primary mechanism for securing a Jenkins environment against unauthorized usage. Two facts of configuration are necessary for configuring Access Control in Jenkins:
+
+1. A Security Realm which informs the Jenkins environment how and where to pull user (or identity) information from. Also commonly known as Authentication.
+
+2. Authorization configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/2fcad4dd-e3a4-4799-a35c-48336b519b1b)
 
 ## Prerquisites
 | Prerequisite | Description |
