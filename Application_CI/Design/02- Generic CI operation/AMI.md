@@ -8,18 +8,18 @@
 
 # Table of Contents
 
-1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#introduction)
-2. [What is AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whatisAMI)
-3. [Why AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#whyAMI)
-4. [EBS Backed and Instance Store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#typesofAMI)
-5. [EBS Backed vs Instance store-Backed AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#difference)
-6. [Advantages of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#Advantages)
-7. [Limitations of AMI](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#limitationofAMI)
-8. [Best Practices](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#BestPractices)
-9. [Different Tools for AMI Management](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#DifferentTools)
-10. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#conclusion)
-11. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#contactinformation)
-12. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/AMI.md#reference)
++ [Introduction](#introduction)
++ [What is AMI](#whatisAMI)
++ [Why AMI](#whyAMI)
++ [EBS Backed and Instance Store-Backed AMI](#typesofAMI)
++ [EBS Backed vs Instance store-Backed AMI](#difference)
++ [Advantages of AMI](#Advantages)
++ [Limitations of AMI](#limitationofAMI)
++ [Best Practices](#BestPractices)
++ [Different Tools for AMI Management](#DifferentTools)
++ [Conclusion](#conclusion)
++ [Contact Information](#contactinformation)
++ [Reference](#reference)
 
 ***
 
