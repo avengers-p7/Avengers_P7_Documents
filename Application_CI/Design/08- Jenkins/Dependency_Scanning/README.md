@@ -70,3 +70,5 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 <img width="1358" alt="Screenshot 2024-01-31 at 12 32 38 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7b65ba1c-f4b5-4097-95a0-2584f33702ad">
 
 
+### 2. Verification
+
