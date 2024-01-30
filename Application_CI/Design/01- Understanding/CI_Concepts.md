@@ -48,6 +48,17 @@ The pre-build phase in Continuous Integration (CI) is a crucial step designed to
 
 ![Screenshot 2024-01-25 at 9 20 17 PM](https://github.com/avengers-p7/Documentation/assets/156056364/c64fa417-0dc7-40bc-a5b4-69abfaf25d32)
 
+### Build
+The build phase, as a whole, aims to provide developers with timely feedback on code quality, security, and functionality, facilitating the continuous and reliable delivery of software updates. The primary objectives of the build phase in CI are as follows:
+
+| Build Phase Activity    | Description                                                                                                      |
+|-------------------------|------------------------------------------------------------------------------------------------------------------|
+| Dependency Resolution   | Necessary dependencies, libraries, and external components are fetched and integrated into the build to provide the software with access to required resources during execution.       |
+| Artifact Generation     | The output of the build process, known as artifacts, includes compiled binaries, libraries, configuration files, and other essential components needed to run the application. These artifacts are utilized in subsequent stages of the CI/CD pipeline. |
+| Unit Testing            | Some CI systems include unit testing as part of the build process to assess the functionality of individual units or components of the code. Successful unit tests indicate that each part of the code behaves as expected.  |
+| Code Quality Checks     | Static code analysis tools are used to assess code quality, checking for adherence to coding standards, identifying potential issues, and ensuring consistent code style. |
+
+
 ### Post-Build
 The post-build phase in Continuous Integration (CI) is vital for ensuring the completeness and reliability of the software after the compilation and build process. This phase involves executing various activities, such as running automated tests, generating deployable artifacts, and performing additional validations. The primary objective is to verify that the compiled code functions as expected, meets quality standards, and is ready for deployment. Post-build processes also facilitate the identification of integration issues, ensuring that the individual components work seamlessly together. Additionally, tasks like creating documentation, packaging the application, and preparing for deployment are typically handled in the post-build phase. By thoroughly validating the build outputs, the post-build phase ensures that the software is in a deployable state, providing confidence in the reliability and functionality of the application before it moves on to the deployment stage. Key activities in the post-build phase include:
 
