@@ -84,7 +84,7 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 <img width="870" alt="Screenshot 2024-01-31 at 12 49 25 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ae18d45c-af46-43ec-ab00-e2a9d28a058b">
 
-<img width="1073" alt="Screenshot 2024-01-31 at 12 50 53 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/72c15e20-8d21-4374-a431-1cc23bf461bf">
+<img width="1073" alt="Screenshot 2024-01-31 at 12 50 53 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ee6596ef-bc8a-428a-bdf1-7957dd2b90ce">
 
 
 
