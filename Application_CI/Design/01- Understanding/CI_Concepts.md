@@ -35,19 +35,20 @@ Continuous Integration is a software development practice where code changes are
 Workflow in context of CI refers to the series of automated steps and processes that code changes go through from development to deployment. It defines the sequence of tasks that are executed when changes are made to the version-controlled codebase. Workflow is further divides into two parts pre-build and post-build.
 
 ### Pre-Build
-This phase involves several preparatory steps and checks to ensure that the codebase is in a suitable state for the build process. The pre-build phase is crucial for identifying and addressing issues early in the development cycle. Key activities in the pre-build phase include:
+The pre-build phase in Continuous Integration (CI) is a crucial step designed to ensure the integrity, security, and efficiency of the software development process. By conducting various analyses and checks before the actual compilation and build of the code, the pre-build phase aims to detect and address potential issues at an early stage. Early issue detection is fundamental in minimizing the cost and effort associated with bug fixing and enhancing the overall code quality. Through processes such as static analysis, credential scanning, and dependency checking, developers can identify errors, security vulnerabilities, and compliance issues before they propagate to subsequent stages of the CI/CD pipeline. 
 
-* **Code Compilation:** Code compilation in the pre-build phase of CI involves translating source code into machine-readable form, ensuring syntactic correctness and generating artifacts essential for subsequent testing and deployment processes. This step is crucial for early detection of errors and maintaining a consistent and executable codebase.
+This phase is essential for maintaining a robust security posture by proactively mitigating risks such as exposed passwords or outdated dependencies. Additionally, it aids in evaluating the effectiveness of automated test suites and managing dependencies, contributing to a streamlined development workflow. In essence, the pre-build phase acts as a proactive quality assurance mechanism, ensuring that the codebase is sound, secure, and compliant before progressing to further stages of the CI pipeline, ultimately leading to more reliable and maintainable software releases. 
 
-* **Credential Scanning:** Identifying and mitigating potential security risks by searching for sensitive information, such as passwords or API keys, within the source code and build configurations to prevent unintentional exposure. This process aims to enhance security by proactively addressing credential-related vulnerabilities before the actual build and deployment.
+The pre-build phase is crucial for identifying and addressing issues early in the development cycle. Key activities in the pre-build phase include:
 
-* **Depemdency Scanning:** Analyzing the project's dependencies and identifying any known vulnerabilities or security issues in third-party libraries or components. This process helps ensure that the software is built on a foundation of secure and up-to-date dependencies.
-
-* **License Analysis:** Examining the project's dependencies to identify and manage software licenses associated with third-party libraries, ensuring compliance with licensing requirements and avoiding legal issues. This process aids in maintaining a clear understanding of the licenses governing the use of software components.
-
-* **Static Analysis:** Examining the source code without executing it to detect potential issues such as code quality, security vulnerabilities, or adherence to coding standards. This proactive analysis helps identify and address problems early in the development process.
-
-* **Code Coverage:** Code coverage in the pre-build phase of CI measures the proportion of code that automated tests exercise, providing insights into the effectiveness of test suites by identifying areas not covered. This analysis helps ensure comprehensive testing and higher confidence in the codebase's reliability.
+| CI Phase            | Process Description                                                                                            |
+|---------------------|---------------------------------------------------------------------------------------------------------------|
+| Code Compilation    | Translating source code into machine-readable form, ensuring syntactic correctness, and generating artifacts for testing and deployment. Early detection of errors and maintaining a consistent and executable codebase. |
+| Credential Scanning | Identifying and mitigating security risks by searching for sensitive information (e.g., passwords, API keys) within the source code and build configurations. Proactively addressing credential-related vulnerabilities before build and deployment. |
+| Dependency Scanning | Analyzing project dependencies to identify known vulnerabilities or security issues in third-party libraries/components. Ensuring a secure and up-to-date foundation for software development. |
+| License Analysis    | Examining project dependencies to identify and manage software licenses. Ensuring compliance with licensing requirements and avoiding legal issues associated with third-party libraries. |
+| Static Analysis      | Examining source code without execution to detect issues like code quality, security vulnerabilities, or adherence to coding standards. Proactive identification and resolution of problems in the development phase. |
+| Code Coverage        | Measuring the proportion of code exercised by automated tests in the pre-build phase. Providing insights into test suite effectiveness by identifying areas not covered and ensuring comprehensive testing. |
 
 ![Screenshot 2024-01-25 at 9 20 17 PM](https://github.com/avengers-p7/Documentation/assets/156056364/c64fa417-0dc7-40bc-a5b4-69abfaf25d32)
 
