@@ -76,9 +76,15 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 <img width="1317" alt="Screenshot 2024-01-30 at 3 06 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3c14c164-faa7-4b28-b43d-3d4c063fb156">
 
-* Navigate to the job's build artifacts or workspace. Locate the generated Dependency-Check reports. They are typically available in multiple formats (JSON, HTML, XML). Ensure that vulnerabilities are correctly identified, and severity levels align with expectations.
+* Navigate to the job's build artifacts or workspace. Locate the generated Dependency-Check reports. They are typically available in multiple formats (JSON, HTML, XML). 
 
 <img width="1128" alt="Screenshot 2024-01-31 at 12 45 22 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/d5a23677-4118-4c4e-b03d-2bfd8894e00f">
+
+* Open the reports in your preferred format and verify the content. Ensure that vulnerabilities are correctly identified, and severity levels align with expectations. If you configured multiple report formats , explore each format to understand the data presentation.
+
+<img width="870" alt="Screenshot 2024-01-31 at 12 49 25 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ae18d45c-af46-43ec-ab00-e2a9d28a058b">
+
+<img width="1073" alt="Screenshot 2024-01-31 at 12 50 53 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/72c15e20-8d21-4374-a431-1cc23bf461bf">
 
 
 
