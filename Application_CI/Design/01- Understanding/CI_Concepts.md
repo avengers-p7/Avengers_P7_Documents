@@ -88,11 +88,9 @@ The compiled code is subjected to additional automated tests, deployment to stag
 | ---------------------------------- | --------------------------------------------- | ------------------------------------------------------------ |
 | Keep Builds Fast                   | Enables quick feedback for developers         | Optimize build scripts and dependencies to minimize build times. |
 | Run Tests in Isolation             | Identifies and isolates issues efficiently    | Utilize containers (e.g., Docker) to isolate tests and dependencies. |
-| Maintain a Single Source of Truth  | Ensures consistency and avoids conflicts      | Use a version control system (e.g., Git) for source code management. |
 | Implement Version Control          | Facilitates collaboration and tracks changes  | Use Git for version control and enforce branching strategies.  |
 | Monitor and Analyze                | Provides insights for continuous improvement | Implement monitoring tools like Prometheus, Grafana, or New Relic. |
 | Parallelize Test Execution          | Accelerates testing by running tests concurrently | Divide test suites and run tests in parallel using CI/CD platforms. |
-| Practice Continuous Integration, Not Just CI | Emphasizes frequent and small integrations for stability | Encourage developers to integrate code continuously throughout the day. |
 | Version Build Artifacts            | Enables traceability and rollback if needed   | Tag releases in version control and use build numbers for artifacts. |
 | Use Immutable Infrastructure        | Ensures consistency and reproducibility       | Deploy applications using container orchestration tools (e.g., Kubernetes). |
 | Implement Pull Requests            | Facilitates code review and collaboration     | Use a pull request workflow, such as GitHub Pull Requests or Bitbucket. |
