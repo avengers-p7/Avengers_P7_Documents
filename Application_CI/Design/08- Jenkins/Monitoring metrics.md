@@ -10,10 +10,12 @@
 
 # Tables of Content 
 
-
+***
 # Introduction 
 
 Jenkins is an integral part of many modern IT infrastructures. It allows organizations to model CI/CD pipelines via code, automate operational workflows, increase efficiency, and reduce the time it takes to test, ship, and deploy applications.
+
+***
 
 # Why is it Important to monitor Jenkins 
 
@@ -24,8 +26,12 @@ Monitoring Jenkins will allow you to predict errors, ensure high availability, o
 Organizations use Jenkins jobs and pipelines to automate various areas of the IT ecosystem. For example, they might have Jenkins pipelines that:
 
 **Step 1** Move code from a temporary branch to the master branch, and then to production.
+
 **Step 2**Scan for memory leaks in newly committed code.
+
 **Step 3**Perform static code analysis on the entire codebase every week
+
+***
 
 # Key performance Metrics of Jenkins 
 
@@ -44,9 +50,9 @@ Jenkins is an open-source automation server widely used for continuous integrati
 |Plugin Performance | Performance metrics for Jenkins plugins |Ensures that plugins do not significantly impact Jenkins performance|
 |Pipeline Execution Time |Time taken for the entire CI/CD pipeline to execute| Measures the efficiency of the end-to-end automation process|
 
+***
 
 # What is Prometheus
-
 
 Prometheus is an open-source monitoring and alerting toolkit designed for reliability and scalability. It was originally developed by SoundCloud and later became a standalone open-source project under the Cloud Native Computing Foundation (CNCF). Prometheus is commonly used for monitoring systems and applications in a cloud-native environment, particularly in the context of containerized applications and microservices.
 
@@ -91,6 +97,9 @@ While Prometheus has a basic web interface for querying and visualizing data, it
 **Community and Ecosystem**:
 
 Prometheus has a vibrant open-source community and is part of the CNCF ecosystem. It is widely adopted in the cloud-native and DevOps communities, and its ecosystem includes integrations with other monitoring tools and platforms.
+
+
+***
 
 # What is Graphana 
 
@@ -139,9 +148,13 @@ Grafana Explore is a feature that allows users to interactively explore and quer
 
 Grafana has a large and active community, and it is widely adopted in various industries. It integrates with many other tools and platforms in the observability and monitoring ecosystem.
 
+
+***
+
 # Monitoring Websites using Grafana and Prometheus
 
 we are going to set up a Grafana and Prometheus server to monitor running websites 
+
 
 **Network Setup**
 
@@ -151,6 +164,8 @@ we are going to set up a Grafana and Prometheus server to monitor running websit
   
 3. Grafana setup
 
+***
+
 # Folder Structure
 
 Let’s clone the repo which contains the source code.
@@ -159,6 +174,7 @@ Let’s clone the repo which contains the source code.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/8921d93f-174e-4401-ba4b-f26df7c1869a)
 
+***
 
 # Folder Structure
 
@@ -170,7 +186,7 @@ Let’s clone the repo which contains the source code.
 
 **dashboard.json**: contains Grafana dashboard configuration
 
-
+***
 
 # Blackbox Exporter Setup
 
@@ -198,6 +214,8 @@ Now Let’s navigate to the browser and hit the following address http://localho
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/76aead40-4cf4-4b79-ba12-733eeebbff62)
 
+
+***
 
 # Grafana and Prometheus Setup
 
@@ -302,6 +320,8 @@ After some time all the data will get updated on the dashboard.
 
 We can see the website is up and running.
 
+***
+
 # Clean up
 
 Execute the following script to clean all docker containers and remove BlackBox exporter.
@@ -309,12 +329,13 @@ Execute the following script to clean all docker containers and remove BlackBox 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/3aaf28c5-e384-4e7f-85f5-f231764bd257)
 
+***
 
 # Conclusion 
 
 Jenkins is the go-to tool to automate the testing, analysis, and code deployment. It enables organizations to set up fully automated, multi-step CI/CD pipelines that enhance productivity and reduce time to production. Monitoring a Jenkins instance allows you to increase its performance, predict malfunctions, and avoid downtime.
 
-
+***
 
 # Contact Information
 
@@ -322,6 +343,8 @@ Jenkins is the go-to tool to automate the testing, analysis, and code deployment
 |----- | -------- |
 | NIDHI BHARDWAJ | nidhi.bhardwaj.snaatak@mygurukulam.co |
 
+
+***
 
 # Reference
 
