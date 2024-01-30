@@ -7,11 +7,11 @@
 | Aakash Tripathi | 30 Jan 2024   |     v1     | Aakash Tripathi | 30 Jan 2024    |
 ***
 ## Table Of Contents 
-
++ [Introduction]()
 
 
 ## Introduction
-
+SonarQube is a self-managed, automatic code review tool that systematically helps deliver *Clean Code*.SonarQube integrates into existing workflow and detects issues in  code to help  perform continuous code inspections. It analyses 30+ different programming languages and integrates into  Continuous Integration (CI) pipeline of DevOps platforms to ensure that code meets high-quality standards.
 ***
 # Contact Information
 
