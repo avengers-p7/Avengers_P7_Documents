@@ -141,4 +141,6 @@ And at last,I choose **"Packer"** as a tool for **AMI Creation**.Packer is often
 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html | Documentation Link |                 
 | https://www.techtarget.com/searchaws/definition/Amazon-Machine-Image-AMI | Concept of AMI |
 | https://www.scaler.com/topics/aws/amazon-machine-image/ | AMI reference Link |
+| https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ComponentsAMIs.html | Link for AMI Types |
+| https://awstip.com/create-an-ami-with-ansible-9ad446aa44e1 | Link for AMI Creation using Ansible |
 
