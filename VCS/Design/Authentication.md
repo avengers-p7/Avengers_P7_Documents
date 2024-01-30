@@ -6,10 +6,15 @@
 
 # Table of Content 
 [1. Introduction](#introduction)
+
 [2. Authentication Methods](#authentication-methods)
+
 [3. Comparision of Authentication Methods](#comparision-of-authentication-methods)
+
 [4. Conclusion](#conclusion)
+
 [5. Contact Information](#contact-information)
+
 [6. References](#refrences)
 ***
 
