@@ -1,6 +1,6 @@
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
-| Khushi Malhotra |  25 Jan 2024  |  Version 1 | Khushi Malhotra  | 25 Jan 2024    |
+| Khushi Malhotra |  30 Jan 2024  |  Version 1 | Khushi Malhotra  | 30 Jan 2024    |
 ***
 
 # Code Compilation - Go language CI Checks 
@@ -42,26 +42,86 @@ Here simplicity and building a complete application are key, I'll stick with the
 
 # POC of Code Compilation in Go
 
+**Step-1** Clone the Repository:
+
+- Open a terminal (or command prompt).
+- Navigate to the desired directory using cd commands.
+- Clone the repository using 
+
+``` shell 
+git clone https://github.com/avengers-p7/Employee-API.git
+```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/04b674e8-b3d8-4f6e-9b03-c39271c69d23)
+***
+**Step-2** Install Go:
 
+- Download the Go installer 
+``` shell
+sudo snap install go --classic
+```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/c7ce4925-86fb-4b5c-8dc3-933b4e706c37)
+***
+**Step-3** Tidy Dependencies:
 
+- Run go mod tidy to clean up and update dependencies.
+``` shell
+go mod tidy
+```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/fa3176fc-5528-444c-b325-c38218ffe4bf)
+***
+**Step-4** Run Static Analysis:
 
-
+- Check for potential code issues
+ ``` shell
+go vet main.go
+```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/be03aea3-21a5-4be1-bb25-38075ee6a04d)
+***
+**Step-5** Install lint
+- Install golint for code style checks
+``` shell
+  sudo snap install golint
+```
+- Then run command for enforcing code style
+``` shell
+  golint ./...
+```
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/1e1157c1-fc50-47a5-bdfa-9aa25e16c214)
-
-
+***
+**Step-6** Compile the Code:
+- Build the project
+``` shell
+go build -o employee-api
+```
 ![WhatsApp Image 2024-01-31 at 02 44 17_a2bf763a](https://github.com/avengers-p7/Documentation/assets/156056460/8957a7ce-e4a7-4c1e-87b4-cdc96bfe3283)
+***
+**Step-7** Create the Test File:
+- Open your code editor or IDE and navigate to the directory containing your main Go package (where your main.go file resides).
+- Create a new file named ```main_test.go``` within the same directory.
+- Structure the Test File:
+- Import necessary packages
+``` shell
+// main_test.go
+package main
 
+import "testing"
+
+func TestYourFunction(t *testing.T) {
+    // Your test logic here
+}
+```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/5e0c644b-96b3-45af-a8ae-b92c8c0064a3)
-
-
+***
 ![WhatsApp Image 2024-01-31 at 02 20 31_9fd2bc60](https://github.com/avengers-p7/Documentation/assets/156056460/9866c6c1-f436-4929-9415-f625cf0eee12)
-
+***
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/bee29298-023a-4bc6-9ff1-01a96a892194)
-
+***
+**Step-8** Run the Tests:
+- Open a terminal (or command prompt) in the project directory.
+- Execute the command
+```shell
+ go test
+```
 ![WhatsApp Image 2024-01-31 at 02 20 49_5ae975fe](https://github.com/avengers-p7/Documentation/assets/156056460/5675a57c-95b3-4c8e-9bf8-9ae24e4cbf85)
 
