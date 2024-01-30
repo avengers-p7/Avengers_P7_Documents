@@ -82,5 +82,6 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 ***
 # Resources and References
 
-- [Reference 1]
-- [Reference 2]
+|     Description                  | References  
+| ---------------------------------| ------------------------------------------------------------------- |
+|     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
