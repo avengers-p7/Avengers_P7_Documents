@@ -19,12 +19,13 @@
 
 ## Introduction 
 
-This documentation provides a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
+This documentation provides a brief information of Authorization methods provided by Jenkins.
 
-## What is Jenkins?
 Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
 
-Moreover, since Jenkins is written in Java, it is compatible with any system with Java Runtime Environment (JRE) installed. This makes Jenkins widely usable due to its easy availability.
+The Security Realm, or `authentication`, indicates who can access the Jenkins environment. 
+
+The other piece of the puzzle is `Authorization`, which indicates what they can access in the Jenkins environment. Authorization configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
 ***
