@@ -12,7 +12,7 @@
 + [What is AMI](#what-is-AMI)
 + [Why AMI](#why-AMI)
 + [Types of AMI](#types-of-AMI)
-+ [Comparision of AMI](#comparision-of-AMI)
++ [EBS-Backed AMI vs Instance Store-Backed AMI](#EBS-Backed-AMI-vs-Instance-Store-Backed-AMI)
 + [Advantages of AMI](#Advantages-of-ami)
 + [Limitations of AMI](#limitations-of-AMI)
 + [Best Practices](#Best-Practices)
@@ -46,7 +46,7 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 ***
 
-# EBS-Backed AMI and Instance Store-Backed AMI
+# Types of AMI
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/950075ec-1096-4a5d-9e44-60a46c2546b5)
 
@@ -58,7 +58,7 @@ An Amazon Machine Image (AMI) is a supported and maintained image provided by AW
 
 ***
 
-# Difference between EBS-Backed AMI and Instance Store-Backed AMI
+# EBS-Backed AMI vs Instance Store-Backed AMI
 
 | **Characteristic** | **Amazon EBS-backed AMI** | **Amazon instance store-backed AMI** |
 | ------------------ | ------------------------- | ------------------------------------ |
