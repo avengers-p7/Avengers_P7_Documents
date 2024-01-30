@@ -310,6 +310,16 @@ Execute the following script to clean all docker containers and remove BlackBox 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/3aaf28c5-e384-4e7f-85f5-f231764bd257)
 
 
+# Conclusion 
+
+Jenkins is the go-to tool to automate the testing, analysis, and code deployment. It enables organizations to set up fully automated, multi-step CI/CD pipelines that enhance productivity and reduce time to production. Monitoring a Jenkins instance allows you to increase its performance, predict malfunctions, and avoid downtime.
+
+
+
+
+
+
+
 
 
 
