@@ -28,16 +28,16 @@
 # Pre-requisites
 
 1. AWS CLI Configured
-2. EC2 Instance for AMI ID Generation
+2. EC2 Instance for source of AMI ID Generation
 3. Packer Installed
 
 ***
 
 # AMI Setup
 
-**Step-1 Instance and AMI Creation for the requirement of AMI_ID**
+**Step-1 Instance and AMI Creation for source of AMI_ID**
 
-**Instance Craetion**
+**Instance Creation**
 
 Creating an Amazon Machine Image (AMI) involves launching an Amazon EC2 instance, customizing it to meet your requirements, and then creating an image from the instance.I have created an EC2 instance named **"New_Instance"**
 
