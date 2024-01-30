@@ -27,15 +27,21 @@ The scanning process is typically automated and integrated into the development 
 *** 
 ## Getting Started
 
+### Pre-requisite
+
+**Internet Access to retreive NVD Data** 
+
+The NVD is a comprehensive source of vulnerability information. Dependency-Check can use this data to identify known vulnerabilities in your project's dependencies. It can be configured to fetch data from the NVD's Common Vulnerabilities and Exposures (CVE) database during the analysis process. This helps ensure that the tool has up-to-date information about known vulnerabilities. 
+
+If your environment does not have internet access or if there are restrictions on accessing external resources, Dependency-Check may still function, but it won't be able to fetch the latest vulnerability data from the NVD.
+
 ### Installation
 
-**Pre-requisite Installation**
+* OWASP Dependency-Check is a standalone tool, and it doesn't have additional prerequisites for its core functionality. You can download the Dependency-Check tool plugin in jenkins without requiring any specific plugins or additional installations.
 
-* Java Version
+* In your Jenkins dashboard, navigate to “Manage Jenkins” -> “Manage Plugins.” Search for “OWASP Dependency-Check” in the available plugins and install it.
 
-Minimum Java Version: Java 8. While dependency-check 9.0.0 and higher will still run on Java 8.
-
-<img width="1287" alt="Screenshot 2024-01-30 at 5 19 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/5938663f-ecf7-40a8-ba9c-2c2acfa930ff">
+<img width="1334" alt="Screenshot 2024-01-30 at 1 49 04 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cb44d7cc-d7a5-4699-a061-78e1cf24303f">
 
 
 
