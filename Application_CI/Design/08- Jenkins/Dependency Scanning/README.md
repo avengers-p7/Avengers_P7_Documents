@@ -27,7 +27,9 @@
 ## Key Points
 
 * **Automated Security Checks:** - Dependency check facilitates the automated detection of vulnerabilities within project dependencies, seamlessly integrating this crucial security check into CI/CD pipelines.
+  
 * **Efficiency and Accuracy:** - It reduces the need for manual effort, significantly improving accuracy and efficiency compared to traditional manual checks.
+  
 * **Awareness and Reporting** - Developers gain awareness of potential vulnerabilities through reports at an early stage, providing insights into the identified issues and their respective severity levels.
 
 ***
