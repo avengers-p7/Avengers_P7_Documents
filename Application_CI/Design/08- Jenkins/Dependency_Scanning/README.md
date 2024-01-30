@@ -35,7 +35,7 @@ The scanning process is typically automated and integrated into the development 
 
 Minimum Java Version: Java 8. While dependency-check 9.0.0 and higher will still run on Java 8.
 
-<img width="1287" alt="Screenshot 2024-01-30 at 5 19 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/fda7b812-a21d-46fa-989f-35b60684fec5">
+<img width="1287" alt="Screenshot 2024-01-30 at 5 19 44 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/5938663f-ecf7-40a8-ba9c-2c2acfa930ff">
 
 
 
