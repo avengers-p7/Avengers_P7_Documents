@@ -7,10 +7,10 @@
 ***
 ## Table of Contents 
 + [Introduction](#Introduction)
++ [Key Components](#key-points)
 + [Guide to Installation](#Getting-started)
 + [Jenkins Job Configuration](#jenkins-job-setup)
 + [Pre requisites](#pre-requisites)
-+ [System Requirements](#system-requirements)
 + [Dependencies](#dependencies)
 + [API Setup](#api-setup)
 + [Security](#best-practices-for-api-security)
@@ -20,11 +20,20 @@
 
 ***
 ## Introduction
-Dependency scanning is a process used in software development to identify and analyze the external dependencies or third-party components that a project relies on. These dependencies can include libraries, frameworks, modules, packages, or other code modules that are utilized to build and run the software. 
 
-The scanning process is typically automated and integrated into the development workflow, often as part of continuous integration or continuous delivery (CI/CD) pipelines. It serves as a crucial post-build process examines the project's dependencies to identify any known vulnerabilities, outdated versions, or security issues.
+* Dependency scanning is a process used in software development to identify and analyze the external dependencies or third-party components that a project relies on. These dependencies can include libraries, frameworks, modules, packages, or other code modules that are utilized to build and run the software. 
+
+* The scanning process is typically automated and integrated into the development workflow, often as part of continuous integration or continuous delivery (CI/CD) pipelines. It serves as a crucial post-build process examines the project's dependencies to identify any known vulnerabilities, outdated versions, or security issues.
 
 *** 
+## Key Points
+
+* **Automated Security Checks:** - Dependency check facilitates the automated detection of vulnerabilities within project dependencies, seamlessly integrating this crucial security check into CI/CD pipelines.
+* **Efficiency and Accuracy:** - It reduces the need for manual effort, significantly improving accuracy and efficiency compared to traditional manual checks.
+* **Awareness and Reporting** - Developers gain awareness of potential vulnerabilities through reports at an early stage, providing insights into the identified issues and their respective severity levels.
+
+
+***
 ## Getting Started
 
 ### 1. Pre-requisite
