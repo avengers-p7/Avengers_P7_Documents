@@ -11,11 +11,8 @@
 + [Popular Tools](#popular-tools)
 + [Guide to Installation](#Installing-OWASP-Dependency-Check)
 + [Jenkins Job Configuration](#jenkins-job-setup)
-+ [Pre requisites](#pre-requisites)
-+ [Dependencies](#dependencies)
-+ [API Setup](#api-setup)
-+ [Security](#best-practices-for-api-security)
-+ [Troubleshoot](#troubleshoot)
++ [Best Practices](#best-practices)
++ [Security Compliance](#security-compliance)
 + [Contact Information](#contact-information)
 + [References](#references)
 
@@ -121,7 +118,9 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 ## Best Practices
 
 1. **Regular Scanning Frequency** - Regular scanning of project dependencies is essential for maintaining a secure development environment. Conduct dependency scans at key points in the development lifecycle, such as during the build process, before major releases, and after significant changes.
+   
 2. **Integration with Other Security Tools** - Enhance the effectiveness of your security strategy by integrating OWASP Dependency-Check with other security tools. This synergistic approach provides a more comprehensive security analysis. (eg, DAST , Container security )
+   
 3. **Handling False Positives** - False positives in dependency scanning results can occasionally occur. Here's how to handle them effectively. Leverage Dependency-Check's suppression mechanism to manage false positives, ensuring accurate reporting and engage with the Dependency-Check community to share and verify findings, improving the accuracy of future scans.
 
 ## Security and Compliance
