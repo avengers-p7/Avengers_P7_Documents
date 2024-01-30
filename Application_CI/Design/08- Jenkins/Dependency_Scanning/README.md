@@ -8,7 +8,7 @@
 ## Table of Contents 
 + [Introduction](#Introduction)
 + [Key Components](#key-points)
-+ [Popular Tools](popular-tools)
++ [Popular Tools](#popular-tools)
 + [Guide to Installation](#Getting-started)
 + [Jenkins Job Configuration](#jenkins-job-setup)
 + [Pre requisites](#pre-requisites)
