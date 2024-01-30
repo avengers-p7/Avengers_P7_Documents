@@ -29,7 +29,7 @@ The scanning process is typically automated and integrated into the development 
 
 ### Pre-requisite
 
-<u>**Internet Access to retreive NVD Data**</u>
+<u>Internet Access to retreive NVD Data</u>
 
 The NVD is a comprehensive source of vulnerability information. Dependency-Check can use this data to identify known vulnerabilities in your project's dependencies. It can be configured to fetch data from the NVD's Common Vulnerabilities and Exposures (CVE) database during the analysis process. This helps ensure that the tool has up-to-date information about known vulnerabilities. 
 
