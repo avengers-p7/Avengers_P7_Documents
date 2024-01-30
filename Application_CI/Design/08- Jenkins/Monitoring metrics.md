@@ -316,6 +316,21 @@ Jenkins is the go-to tool to automate the testing, analysis, and code deployment
 
 
 
+# Contact Information
+
+| Name | Email ID |
+|----- | -------- |
+| NIDHI BHARDWAJ | nidhi.bhardwaj.snaatak@mygurukulam.co |
+
+
+# Reference
+
+| Reference  | Description |
+| ---------  | ----------- |
+|https://www.site24x7.com/learn/jenkins-performance-monitoring.html| link for Documentation |
+|https://www.site24x7.com/learn/jenkins-performance-monitoring.html |link for setup |
+
+
 
 
 
