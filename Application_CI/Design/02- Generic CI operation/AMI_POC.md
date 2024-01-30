@@ -30,7 +30,7 @@
 | **Tool** | **Version** |
 | -------- | ----------- |
 | **AWS CLI** |          |
-| **Packer** |           |
+| **Packer** | Packer.v1.10.0 |
 
 ***
 
