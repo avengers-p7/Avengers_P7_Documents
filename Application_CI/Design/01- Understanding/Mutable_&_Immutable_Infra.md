@@ -23,6 +23,10 @@
 # Introduction 
 In the landscape of DevOps, infrastructure management is a critical aspect that directly impacts the reliability, scalability, and agility of software applications. Two prominent paradigms in this context are mutable and immutable infrastructure. This documentation provides an in-depth exploration of both concepts, highlighting their definitions, purposes, detailed comparisons, advantages, disadvantages, and a conclusive summary.
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/edae834c-3e91-4a78-8d64-5010c2f3574c)
+
+
+***
 # Mutable and Immutable Infrastructure
 ### Mutable Infrastructure
 Mutable infrastructure involves making changes to existing servers or infrastructure components while they are running. This paradigm allows for real-time modifications without the need to recreate instances.
