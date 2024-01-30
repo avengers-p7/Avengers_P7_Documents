@@ -88,15 +88,7 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 <img width="1317" alt="Screenshot 2024-01-30 at 2 00 59 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f2936822-ff27-4e3c-b1cb-fede4d066d65">
 
 ***
-## Jenkins Job Setup
 
-### 1. Configure Job
-
-* Create a `Jenkins job` (freestyle/pipeline). Ensure that you have configured the source code management section with your GitHub repository details.
-
-<img width="1556" alt="Screenshot 2024-01-30 at 9 43 14 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/04a22c3f-0957-4513-bdeb-895b992a8591">
-
-* Add the `Invoke OWASP Dependency-Check` build step to your job configuration. This step is responsible for running the OWASP Dependency-Check analysis on your project.
 
 > Note: You can use dependency check arguments based on your requirements. These arguments allow you to customize the behavior of the tool according to your project's needs. You might use these arguments to control aspects such as output format, suppression of vulnerabilities, updating data feeds, etc. You can find detailed information by visiting the following link: [Dependency-Check Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html)."
 
