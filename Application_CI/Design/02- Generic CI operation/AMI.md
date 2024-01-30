@@ -9,16 +9,16 @@
 # Table of Contents
 
 + [Introduction](#introduction)
-+ [What is AMI](#whatisAMI)
-+ [Why AMI](#whyAMI)
-+ [EBS Backed and Instance Store-Backed AMI](#typesofAMI)
++ [What is AMI](#what-is-AMI)
++ [Why AMI](#why-AMI)
++ [EBS Backed and Instance Store-Backed AMI](#types-of-AMI)
 + [EBS Backed vs Instance store-Backed AMI](#difference)
 + [Advantages of AMI](#Advantages)
-+ [Limitations of AMI](#limitationofAMI)
-+ [Best Practices](#BestPractices)
-+ [Different Tools for AMI Management](#DifferentTools)
++ [Limitations of AMI](#limitation-o-fAMI)
++ [Best Practices](#Best-Practices)
++ [Different Tools for AMI Management](#Different-Tools)
 + [Conclusion](#conclusion)
-+ [Contact Information](#contactinformation)
++ [Contact Information](#contact-information)
 + [Reference](#reference)
 
 ***
