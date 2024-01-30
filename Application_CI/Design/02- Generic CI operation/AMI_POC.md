@@ -58,8 +58,7 @@ when using Packer to create a new Amazon Machine Image (AMI), you typically star
 
 Packer needs AWS credentials to authenticate and interact with your AWS account when creating and managing resources. Configuring the AWS CLI allows Packer to leverage the credentials stored in the AWS CLI configuration.
 
-![Screenshot 2024-01-30 010140](https://github.com/avengers-p7/Documentation/assets/156057205/6cff8c8b-6a34-414a-b253-d64c23879f95)
-
+**Link for aws cli configure** [AWS CLI Configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 ***
 
 **Step-3 Installation of Packer**
