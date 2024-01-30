@@ -49,3 +49,30 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 ***
 
 ## Tool Comparison
+
+| Feature                     | Gitleaks                           | detect-secrets                    | TruffleHog                        |
+|-----------------------------|------------------------------------|-----------------------------------|-----------------------------------|
+| **Purpose**                 | Scans git repositories for secrets | Searches for secrets in codebases | Searches for secrets in repositories |
+| **Installation**            | Simple, binary installation        | Python package, pip install      | Python package, pip install      |
+| **Configurability**         | Configurable through rulesets      | Configurable with regex patterns | Limited configuration options   |
+| **Supported Repositories**  | Git repositories                   | Any code repository              | Git repositories                 |
+| **Performance**             | Fast and lightweight               | Fast                              | Can be slow for large repositories |
+| **Integration with CI/CD**  | Yes                                | Yes                               | Yes                               |
+| **Custom Rulesets**         | Yes                                | Yes                               | Limited                           |
+| **Ease of Use**             | Straightforward CLI usage          | Straightforward CLI usage         | Straightforward CLI usage        |
+| **Output Formats**          | JSON, CSV, and others              | JSON, plain text                  | JSON, plain text                  |
+| **Open Source**             | Yes, open-source                   | Yes, open-source                  | Yes, open-source                  |
+| **Community Support**       | Active community                   | Active community                  | Limited                           |
+***
+
+## Advantages 
+
+| **Advantages of Credential Scanning Tools**                   |    **Description**                                   |
+|-------------------------------------------------------------|---------------------------------------|
+| **Security Improvement:** |  Prevent exposure of sensitive credentials in repositories & reduce attack surface and unauthorized access | 
+| **Compliance and Regulatory Compliance:** | Ensure adherence to security standards and regulations & address industry-specific and regional compliance |
+| **Early Detection of Vulnerabilities:** | Integrate with CI/CD for early detection in development & reduces time to remediate and mitigate vulnerabilities |      
+| **Cost Savings:** | Prevent financial and reputational costs of security incidents & minimizes remediation costs through early detection |                        
+| **Maintaining Trust:** | Build customer and user trust through commitment to security as we avoid fallout from data breaches |
+***
+
