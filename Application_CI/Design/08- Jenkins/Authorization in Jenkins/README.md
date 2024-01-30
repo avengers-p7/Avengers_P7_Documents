@@ -23,7 +23,7 @@ This documentation provides a brief information of Authorization methods provide
 
 Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
 
-The Security Realm, or `authentication`, indicates who can access the Jenkins environment. 
+The Security Realm, or `Authentication`, indicates who can access the Jenkins environment. 
 
 The other piece of the puzzle is `Authorization`, which indicates what they can access in the Jenkins environment. Authorization configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
 
