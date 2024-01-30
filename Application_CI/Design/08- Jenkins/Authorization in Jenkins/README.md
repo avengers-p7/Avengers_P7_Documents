@@ -26,9 +26,9 @@ Jenkins is an automation server that is self-contained and open source. It allow
 Access Control is the primary mechanism for securing a Jenkins environment against unauthorized usage. Two facts of configuration are necessary for configuring Access Control in Jenkins:
 
 
-The Security Realm, or `Authentication`, indicates who can access the Jenkins environment. A Security Realm which informs the Jenkins environment how and where to pull user (or identity) information from. Also commonly known as `Authentication`.
+1. The Security Realm, or `Authentication`, indicates who can access the Jenkins environment. 
 
-The other piece of the puzzle is `Authorization`, which indicates what they can access in the Jenkins environment. Authorization configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
+2. The other piece of the puzzle is `Authorization`, which indicates what they can access in the Jenkins environment. 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
 ***
