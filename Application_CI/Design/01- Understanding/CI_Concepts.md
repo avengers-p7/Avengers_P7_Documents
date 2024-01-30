@@ -5,7 +5,7 @@
 ***
 
 # Table of Content
-1. Introduction
+[1. Introduction](#Introduction)
 2. Key Components
 3. Workflow
 4. Benefits
