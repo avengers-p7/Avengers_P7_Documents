@@ -8,7 +8,7 @@
 ## Table of Contents 
 + [Introduction](#Introduction)
 + [Guide to Installation](#Getting-started)
-+ [Architecture](#architecture)
++ [Jenkins Job Configuration](#jenkins-job-setup)
 + [Pre requisites](#pre-requisites)
 + [System Requirements](#system-requirements)
 + [Dependencies](#dependencies)
@@ -41,7 +41,7 @@ The scanning process is typically automated and integrated into the development 
 
 * In your Jenkins dashboard, navigate to `Manage Jenkins` -> `Manage Plugins` Search for `OWASP Dependency-Check` in the available plugins and install it.
 
-<img width="1334" alt="Screenshot 2024-01-30 at 1 49 04 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cb44d7cc-d7a5-4699-a061-78e1cf24303f">
+<img width="1317" alt="Screenshot 2024-01-30 at 2 00 59 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/d5ce3ba7-c960-42c6-a30f-8a9630bece37">
 
 ### 3. Configuration
 
@@ -49,4 +49,9 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 <img width="1317" alt="Screenshot 2024-01-30 at 2 00 59 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/17500595-eb07-4bdf-ab6d-eb4c8a605083">
 
+# Jenkins Job Setup
+
+### 1. Configure Job
+
+* 
 
