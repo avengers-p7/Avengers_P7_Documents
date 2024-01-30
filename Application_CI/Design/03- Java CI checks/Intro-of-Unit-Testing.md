@@ -29,7 +29,7 @@ Welcome to the documentation on Unit and Unit Testing in Software Development. T
 
 A **unit** refers to the smallest testable part of a software program, such as a function or method. 
 
-A **module,** which is nothing but a single unit of software, can also be considered a 'unit.' The goal of unit testing is to test each unit, including modules, in isolation to ensure they work as intended before integrating them into the larger system.
+A **module,** which is nothing but a single unit of software, can also be considered a unit. The goal of unit testing is to test each unit, including modules, in isolation to ensure they work as intended before integrating them into the larger system.
 
 **Unit testing** is a type of software testing where individual units or components of a software application are tested to ensure they meet their design and behavior requirements. These units can be functions, methods, or classes, and they are tested in isolation, without any dependencies on external components.
 
