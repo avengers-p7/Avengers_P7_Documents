@@ -92,7 +92,7 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 * Add the `Invoke OWASP Dependency-Check` build step to your job configuration. This step is responsible for running the OWASP Dependency-Check analysis on your project.
 
-> Note: You can use dependency check arguments based on your requirements. These arguments allow you to customize the behavior of the tool according to your project's needs. You might use these arguments to control aspects such as output format, suppression of vulnerabilities, updating data feeds, etc. You can find detailed information by visiting the following link: [Dependency-Check Command-Line Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html)."
+> Note: You can use dependency check arguments based on your requirements. These arguments allow you to customize the behavior of the tool according to your project's needs. You might use these arguments to control aspects such as output format, suppression of vulnerabilities, updating data feeds, etc. You can find detailed information by visiting the following link: [Dependency-Check Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html)."
 
 <img width="1407" alt="Screenshot 2024-01-31 at 12 15 51 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ef2fe711-3add-4462-bade-d7fc4d3cfe40">
 
