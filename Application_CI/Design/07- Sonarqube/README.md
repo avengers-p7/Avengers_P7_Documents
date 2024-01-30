@@ -59,13 +59,13 @@ Using SonarQube offers certain key benefits :
 In conclusion, SonarQube stands as a pivotal tool in the realm of software development, offering a comprehensive platform for continuous code quality inspection. Its ability to detect code smells, bugs, and security vulnerabilities early in the development process proves invaluable for teams striving to deliver robust and secure software. By enforcing coding standards, promoting consistency, and providing detailed reports through an intuitive dashboard, SonarQube empowers developers to enhance code quality and maintainability. Integration with CI/CD pipelines ensures automated analysis, contributing to efficient and reliable software delivery. As a versatile and scalable solution with support for multiple programming languages, SonarQube remains a cornerstone in fostering a culture of continuous improvement, reducing maintenance costs, and ultimately elevating the overall software development process.
 ***
 
-# Contact Information
+## Contact Information
 
 | Name                 | Contact Information                                                                                     
 |---------------------------------|------------------------------------------------------------|
 | Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co
 ***
-# References
+## References
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
