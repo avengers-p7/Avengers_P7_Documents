@@ -6,10 +6,15 @@
 
 # Table of Content
 [1. Introduction](#Introduction)
+
 [2. Key Components](# Key Components)
+
 [3. Workflow](# Workflow)
+
 [4. Benefits](# Benefits)
+
 [5. Best Practices](# Best Practices)
+
 [6. Conclusion](# Conclusion)
 
 # Introduction
