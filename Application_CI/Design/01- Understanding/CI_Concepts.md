@@ -70,7 +70,7 @@ The compiled code is subjected to additional automated tests, deployment to stag
 # Benefits
 | **Description**            |     **Benefits**                                 |
 | ---------------------------------------------------- | --------------------------------------------------- |
-| **Early Detection of Issues**                       | -Identification of integration issues and bugs early in the development process.<br>- Quick resolution of problems leading to improved code quality. |
+| **Early Detection of Issues**                       | - Identification of integration issues and bugs early in the development process.<br>- Quick resolution of problems leading to improved code quality. |
 | **Consistent Builds**                               | - Automated processes ensure consistent code builds across different environments.<br>- Reduces errors caused by variations in developer machines or deployment settings. |
 | **Rapid Feedback**                                   | - Developers receive prompt feedback on the status of their code changes.<br>- Accelerates the development cycle by addressing issues quickly. |
 | **Reduced Integration Risks**                       | - Frequent, smaller integrations minimize the risk of large-scale integration problems.<br>- Easier management and resolution of conflicts. |
@@ -84,19 +84,19 @@ The compiled code is subjected to additional automated tests, deployment to stag
 ***
 
 # Best Practices
-| **Best Practice for CI**                               | **Effect on CI**                                                   |
-| ------------------------------------------------------ | ------------------------------------------------------------------- |
-| **Automate Everything**                              | -Reduces manual errors<br>- Streamlines processes for efficiency   |
-| **Keep Builds Fast**                                 | Enables quick feedback for developers                               |
-| **Run Tests in Isolation**                           | Identifies and isolates issues efficiently                           |
-| **Maintain a Single Source of Truth**               |  Ensures consistency and avoids versioning conflicts                |
-| **Implement Version Control**                       | Facilitates collaboration and tracks changes effectively           |
-| **Monitor and Analyze**                              | Provides insights for continuous improvement                        |
-| **Parallelize Test Execution**                       | Accelerates testing by running tests concurrently                    |
-| **Practice Continuous Integration, Not Just CI**    | Emphasizes frequent and small integrations for stability            |
-| **Version Build Artifacts**                          | Enables traceability and rollback to specific versions if needed     |
-| **Use Immutable Infrastructure**                   | Ensures consistency and reproducibility in deployment environments   |
-| **Implement Pull Requests**                         | Facilitates code review and collaboration before integration        |
+| Best Practice                     | Effect                                        | Examples of Implementation                                    |
+| ---------------------------------- | --------------------------------------------- | ------------------------------------------------------------ |
+| Keep Builds Fast                   | Enables quick feedback for developers         | Optimize build scripts and dependencies to minimize build times. |
+| Run Tests in Isolation             | Identifies and isolates issues efficiently    | Utilize containers (e.g., Docker) to isolate tests and dependencies. |
+| Maintain a Single Source of Truth  | Ensures consistency and avoids conflicts      | Use a version control system (e.g., Git) for source code management. |
+| Implement Version Control          | Facilitates collaboration and tracks changes  | Use Git for version control and enforce branching strategies.  |
+| Monitor and Analyze                | Provides insights for continuous improvement | Implement monitoring tools like Prometheus, Grafana, or New Relic. |
+| Parallelize Test Execution          | Accelerates testing by running tests concurrently | Divide test suites and run tests in parallel using CI/CD platforms. |
+| Practice Continuous Integration, Not Just CI | Emphasizes frequent and small integrations for stability | Encourage developers to integrate code continuously throughout the day. |
+| Version Build Artifacts            | Enables traceability and rollback if needed   | Tag releases in version control and use build numbers for artifacts. |
+| Use Immutable Infrastructure        | Ensures consistency and reproducibility       | Deploy applications using container orchestration tools (e.g., Kubernetes). |
+| Implement Pull Requests            | Facilitates code review and collaboration     | Use a pull request workflow, such as GitHub Pull Requests or Bitbucket. |
+
 ***
 
 # Conclusion
