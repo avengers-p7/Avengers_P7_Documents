@@ -60,41 +60,15 @@ Prometheus is an open-source monitoring and alerting toolkit designed for reliab
 
 |**Time-Series Data Model**|Prometheus follows a time-series data model, where metrics are identified by a combination of metric name and key-value pairs (labels). This allows for efficient querying and analysis of time-series data.|
 |-------------------------|-----------------------------|
-**Data Scraping**:
-
-Prometheus collects metrics from monitored targets through a process called scraping. It regularly pulls metrics from HTTP endpoints exposed by the monitored services. This pull-based approach allows Prometheus to discover and monitor new services dynamically.
-
-**PromQL (Prometheus Query Language)**:
-
-PromQL is the query language used by Prometheus to retrieve and manipulate time-series data. It provides powerful capabilities for filtering, aggregating, and transforming metrics, enabling users to create meaningful dashboards and alerts.
-
-**Multi-Dimensional Data Collection**:
-
-Prometheus collects various types of metrics, including counters, gauges, and histograms. It supports multi-dimensional data, allowing users to add labels to metrics for more granular and flexible querying.
-
-**Alerting**:
-
-Prometheus includes a built-in alerting system. Users can define alerting rules based on PromQL queries, and Prometheus evaluates these rules regularly. When an alert condition is met, Prometheus can trigger notifications or integrate with external alerting systems.
-
-**Service Discovery**:
-
-Prometheus supports service discovery mechanisms, enabling automatic detection and monitoring of new instances of services as they come and go. This is crucial in dynamic environments, such as those using container orchestration platforms like Kubernetes.
-
-**Storage**:
-
-Prometheus stores time-series data locally in a time-series database. The local storage is optimized for efficient querying, and retention policies can be configured to control how long data is retained.
-
-**Exporters**:
-
-Prometheus can collect metrics from various sources using exporters. Exporters are small programs that expose metrics in a format that Prometheus can scrape. There are many official and third-party exporters available for popular software and systems.
-
-**Grafana Integration**:
-
-While Prometheus has a basic web interface for querying and visualizing data, it is commonly used in conjunction with visualization tools like Grafana. Grafana allows users to create rich and customizable dashboards using data from Prometheus.
-
-**Community and Ecosystem**:
-
-Prometheus has a vibrant open-source community and is part of the CNCF ecosystem. It is widely adopted in the cloud-native and DevOps communities, and its ecosystem includes integrations with other monitoring tools and platforms.
+|**Data Scraping**|Prometheus collects metrics from monitored targets through a process called scraping. It regularly pulls metrics from HTTP endpoints exposed by the monitored services. This pull-based approach allows Prometheus to discover and monitor new services dynamically.|
+**PromQL (Prometheus Query Language)**|PromQL is the query language used by Prometheus to retrieve and manipulate time-series data. It provides powerful capabilities for filtering, aggregating, and transforming metrics, enabling users to create meaningful dashboards and alerts.|
+|**Multi-Dimensional Data Collection**|Prometheus collects various types of metrics, including counters, gauges, and histograms. It supports multi-dimensional data, allowing users to add labels to metrics for more granular and flexible querying.|
+|**Alerting**|Prometheus includes a built-in alerting system. Users can define alerting rules based on PromQL queries, and Prometheus evaluates these rules regularly. When an alert condition is met, Prometheus can trigger notifications or integrate with external alerting systems|
+|**Service Discovery**|Prometheus supports service discovery mechanisms, enabling automatic detection and monitoring of new instances of services as they come and go. This is crucial in dynamic environments, such as those using container orchestration platforms like Kubernetes|
+|**Storage**|Prometheus stores time-series data locally in a time-series database. The local storage is optimized for efficient querying, and retention policies can be configured to control how long data is retained|
+|**Exporters**|Prometheus can collect metrics from various sources using exporters. Exporters are small programs that expose metrics in a format that Prometheus can scrape. There are many official and third-party exporters available for popular software and systems|
+|**Grafana Integration**|While Prometheus has a basic web interface for querying and visualizing data, it is commonly used in conjunction with visualization tools like Grafana. Grafana allows users to create rich and customizable dashboards using data from Prometheus|
+|**Community and Ecosystem**|Prometheus has a vibrant open-source community and is part of the CNCF ecosystem. It is widely adopted in the cloud-native and DevOps communities, and its ecosystem includes integrations with other monitoring tools and platforms|
 
 
 ***
