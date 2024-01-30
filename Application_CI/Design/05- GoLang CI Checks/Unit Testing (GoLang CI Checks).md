@@ -5,7 +5,7 @@
 
 | Author                 | Created On | Last Updated | Document Version | Last Updated By |
 | ---------------------- | ---------- | ------------ | ---------------- | --------------- |
-| Vishal Kumar Kesarwani | 29-01-2024 | 30-01-2024   | v1               |  Vishal         |
+| **Vishal Kumar Kesarwani** | 29-01-2024 | 30-01-2024   | v1               |  **Vishal**        |
 ***
 ## Table of Contents
 
@@ -21,7 +21,9 @@
 ***
 ## Introduction
 
-In Go, unit testing is straightforward and follows a convention that makes it easy to get started. The testing package provides a testing framework that includes functions for writing and running tests, as well as reporting test results. For more detail click [here](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro%20of%20Unit%20Testing.md)
+This document explores conducting unit tests in a Golang app using the standard testing framework provided by the testing package. Pre-written unit tests within the repository cover modules like API, client, config, middleware, and routes. Leveraging this framework ensures code quality and functionality, fostering confidence in the application's reliability.
+
+* **Repo Link :** https://github.com/OT-MICROSERVICES/employee-api.git
 ***
 ## Steps To Do Unit Test
 ***
