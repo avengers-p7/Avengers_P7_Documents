@@ -27,7 +27,7 @@ The scanning process is typically automated and integrated into the development 
 *** 
 ## Getting Started
 
-### Pre-requisite
+1. ### Pre-requisite
 
 **Internet Access to retreive NVD Data**
 
@@ -35,7 +35,7 @@ The NVD is a comprehensive source of vulnerability information. Dependency-Check
 
 If your environment does not have internet access or if there are restrictions on accessing external resources, Dependency-Check may still function, but it won't be able to fetch the latest vulnerability data from the NVD.
 
-### Installation
+2. ### Installation
 
 * OWASP Dependency-Check is a standalone tool, and it doesn't have additional prerequisites for its core functionality. You can download the Dependency-Check tool plugin in jenkins without requiring any specific plugins or additional installations.
 
