@@ -25,11 +25,11 @@ Monitoring Jenkins will allow you to predict errors, ensure high availability, o
 
 Organizations use Jenkins jobs and pipelines to automate various areas of the IT ecosystem. For example, they might have Jenkins pipelines that:
 
-**Step 1** Move code from a temporary branch to the master branch, and then to production.
+**Step 1**  Move code from a temporary branch to the master branch, and then to production.
 
-**Step 2**Scan for memory leaks in newly committed code.
+**Step 2** Scan for memory leaks in newly committed code.
 
-**Step 3**Perform static code analysis on the entire codebase every week
+**Step 3** Perform static code analysis on the entire codebase every week
 
 ***
 
@@ -80,45 +80,17 @@ Grafana is an open-source platform for monitoring and observability that provide
 
 **Here are key features and components of Grafana**:
 
-**Data Source Integration**:
-
-Grafana supports a wide range of data sources, including popular time-series databases like Prometheus, InfluxDB, Graphite, and others. It can also integrate with relational databases, log storage systems, and cloud-based services.
-
-**Dashboard Creation**:
-
-Users can create highly customizable dashboards to visualize and analyze data. Grafana provides a drag-and-drop interface for adding panels, graphs, tables, and other visualizations to dashboards. Dashboards can contain panels from different data sources.
-
-**Plugins and Extensions**:
-
-Grafana has a rich ecosystem of plugins and extensions that extend its functionality. Users can install plugins to add support for additional data sources, integrate with alerting systems, or enhance visualization options.
-
-**Query Editor**:
-
-The query editor in Grafana allows users to construct queries using the specific syntax of the selected data source. It supports various query languages, such as PromQL for Prometheus or SQL for relational databases.
-
-**Alerting and Notifications**:
-
-Grafana provides a robust alerting system that allows users to set up alert rules based on the data being monitored. When alert conditions are met, Grafana can trigger notifications via channels like email, Slack, or others.
-
-**Templating**:
-
-Grafana supports templating, enabling dynamic dashboards that can adapt to changing conditions. Templating allows users to create variables in dashboards, making it easier to switch between different hosts, time ranges, or other parameters.
-
-**User Authentication and Authorization**:
-
-Grafana offers user authentication and authorization features. It supports integration with various authentication providers, including OAuth, LDAP, and others. Role-based access control (RBAC) allows administrators to define user roles and permissions.
-
-**Annotations**:
-
-Annotations in Grafana allow users to mark specific points or events on graphs, helping to correlate changes in metrics with external events or activities. Annotations can be manual or generated automatically.
-
-**Grafana Explore**:
-
-Grafana Explore is a feature that allows users to interactively explore and query their data. It supports ad-hoc queries and is particularly useful for investigating and troubleshooting issues.
-
-**Community and Integrations**:
-
-Grafana has a large and active community, and it is widely adopted in various industries. It integrates with many other tools and platforms in the observability and monitoring ecosystem.
+|**Data Source Integration**|Grafana supports a wide range of data sources, including popular time-series databases like Prometheus, InfluxDB, Graphite, and others. It can also integrate with relational databases, log storage systems, and cloud-based services|
+|----------------------------------|---------------------------------------------------|
+|**Dashboard Creation**|Users can create highly customizable dashboards to visualize and analyze data. Grafana provides a drag-and-drop interface for adding panels, graphs, tables, and other visualizations to dashboards. Dashboards can contain panels from different data sources|
+|**Plugins and Extensions**|Grafana has a rich ecosystem of plugins and extensions that extend its functionality. Users can install plugins to add support for additional data sources, integrate with alerting systems, or enhance visualization options|
+|**Query Editor**|The query editor in Grafana allows users to construct queries using the specific syntax of the selected data source. It supports various query languages, such as PromQL for Prometheus or SQL for relational databases|
+|**Alerting and Notifications**|Grafana provides a robust alerting system that allows users to set up alert rules based on the data being monitored. When alert conditions are met, Grafana can trigger notifications via channels like email, Slack, or others|
+|**Templating**|Grafana supports templating, enabling dynamic dashboards that can adapt to changing conditions. Templating allows users to create variables in dashboards, making it easier to switch between different hosts, time ranges, or other parameters|
+|**User Authentication and Authorization**|Grafana offers user authentication and authorization features. It supports integration with various authentication providers, including OAuth, LDAP, and others. Role-based access control (RBAC) allows administrators to define user roles and permissions|
+|**Annotations**|Annotations in Grafana allow users to mark specific points or events on graphs, helping to correlate changes in metrics with external events or activities. Annotations can be manual or generated automatically|
+|**Grafana Explore**|Grafana Explore is a feature that allows users to interactively explore and query their data. It supports ad-hoc queries and is particularly useful for investigating and troubleshooting issues|
+|**Community and Integrations**|Grafana has a large and active community, and it is widely adopted in various industries. It integrates with many other tools and platforms in the observability and monitoring ecosystem|
 
 
 ***
