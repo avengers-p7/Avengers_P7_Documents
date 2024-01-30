@@ -22,7 +22,7 @@
 ## Introduction
 Dependency scanning is a process used in software development to identify and analyze the external dependencies or third-party components that a project relies on. These dependencies can include libraries, frameworks, modules, packages, or other code modules that are utilized to build and run the software. 
 
-The scanning process is typically automated and integrated into the development workflow, often as part of continuous integration or continuous delivery (CI/CD) pipelines. It serves as a crucial pre-build process examines the project's dependencies to identify any known vulnerabilities, outdated versions, or security issues.
+The scanning process is typically automated and integrated into the development workflow, often as part of continuous integration or continuous delivery (CI/CD) pipelines. It serves as a crucial post-build process examines the project's dependencies to identify any known vulnerabilities, outdated versions, or security issues.
 
 *** 
 ## Getting Started
@@ -50,9 +50,14 @@ To set up the configuration, navigate to `tools` in `Manage Jenkins` and select 
 
 <img width="1317" alt="Screenshot 2024-01-30 at 2 00 59 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f2936822-ff27-4e3c-b1cb-fede4d066d65">
 
-# Jenkins Job Setup
+***
+## Jenkins Job Setup
 
 ### 1. Configure Job
 
-* 
+* Create a `Jenkins job` (freestyle/pipeline). Ensure that you have configured the source code management section with your GitHub repository details.
+
+<img width="1556" alt="Screenshot 2024-01-30 at 9 43 14 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/04a22c3f-0957-4513-bdeb-895b992a8591">
+
+* Add the `Invoke OWASP Dependency-Check` build step to your job configuration. This step is responsible for running the OWASP Dependency-Check analysis on your project.
 
