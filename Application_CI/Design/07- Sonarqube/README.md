@@ -9,6 +9,7 @@
 ## Table Of Contents 
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#introduction)
 + [Key Features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#key-features)
++ [SonarQube Editions](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#sonarqube-editions)
 
 
 ## Introduction
@@ -38,6 +39,7 @@ SonarQube offers different editions to cater to the diverse needs of users.
 | **Enterprise Edition** |The Enterprise Edition is designed for larger organizations and teams with more extensive needs.It typically includes advanced features related to scalability, governance, and collaboration.Additional features  include advanced reporting, extended language support, and more. |
 | **Data Center Edition** |The Data Center Edition is tailored for organizations with large-scale and distributed development environments.It provides features to ensure high availability, scalability, and performance across multiple instances. |
 ***
+
 # Contact Information
 
 | Name                 | Contact Information                                                                                     
