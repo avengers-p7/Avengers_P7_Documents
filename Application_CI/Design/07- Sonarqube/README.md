@@ -10,7 +10,7 @@
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#introduction)
 + [Key Features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#key-features)
 + [SonarQube Editions](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#sonarqube-editions)
-+ [SonarQube Benefits]()
++ [SonarQube Benefits](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#sonarqube-benefits)
 + [Conclusion]()
 + [Contact Information]()
 + [References]()
