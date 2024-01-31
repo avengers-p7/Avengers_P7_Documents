@@ -8,9 +8,8 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [OWASP](#owasp-dependency-check)
-+ [Proof of Concept](#Proof-of-Concept-(PoC)---Setting-Up-Dependency-Scanning)
-+ [Best Practices](#best-practices)
-+ [Security Compliance](#security-compliance)
++ [Proof of Concept](#Pre-requisite)
++ [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
 
