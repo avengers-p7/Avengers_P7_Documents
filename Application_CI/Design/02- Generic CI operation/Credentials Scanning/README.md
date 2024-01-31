@@ -76,7 +76,8 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 ***
 
 ## Proof Of Concept : GitLeaks 
-*Please refer the [GitLeaks Credential Scanning POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/02-%20Generic%20CI%20operation/Credentials%20Scanning/Credential%20Scanning%20via%20GitLeaks%20POC.md) for GitLeaks installtion process and proof of concept of credential scanning using GitLeaks.
+
+*Please refer the [GitLeaks Credential Scanning POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/02-%20Generic%20CI%20operation/Credentials%20Scanning/Credential%20Scanning%20via%20GitLeaks%20POC.md) for GitLeaks installtion process and proof of concept of credential scanning using GitLeaks.*
 
 ***
 ## Advantages 
