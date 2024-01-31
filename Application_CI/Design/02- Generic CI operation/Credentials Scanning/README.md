@@ -4,11 +4,16 @@
 ***
 ## Table Of Contents 
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/Credential%20Scanning.md#introduction)
-+ [Why Credential Scanning]()
-+ [Types Of Credentials]()
-+ [Credential Scanning Tools]()
-+ [Tool Comparison]()
-+ [When To Scan For Credentials]()
++ [Why Credential Scanning](#why-credential-scanning)
++ [Types Of Credentials](#types-of-credentials)
++ [When To Scan For Credentials](#when-to-scan-for-credentials)
++ [Credential Scanning Tools](#credential-scanning-tools)
++ [Tool Comparison](#tool-comparison)
++ [Tool Recommendation](#tool-recommendation)
++ []
++ [Advantages](#advantages)
++ [Best Practices](#best-practices)  
+
 ***
 ## Introduction 
 Credential scanning is the practice of automatically inspecting a project to ensure that no secrets are included in the project's source code. Secrets include database passwords, storage connection strings, admin logins, service principals, etc.
@@ -65,6 +70,7 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 | **Community Support**       | Active community                   | Active community                  | Limited                           |
 ***
 ## Tool Recommendation
+
 **GitLeaks** is a simple but powerful tool for the purposes of credential scanning. Gitleaks offers a number of powerful features, including:
 | **GitLeaks Feature** | **Description** |
 | -------------------- | --------------- |
