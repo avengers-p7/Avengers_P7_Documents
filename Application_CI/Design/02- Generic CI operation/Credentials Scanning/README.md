@@ -10,9 +10,12 @@
 + [Credential Scanning Tools](#credential-scanning-tools)
 + [Tool Comparison](#tool-comparison)
 + [Tool Recommendation](#tool-recommendation)
-+ []
++ [Proof Of Concept : GitLeaks](#proof-of-concept--gitleaks)
 + [Advantages](#advantages)
 + [Best Practices](#best-practices)  
++ [Conclusion](#conclusion)
++ [Contact Information](#contact-information)
++ [References](#references)
 
 ***
 ## Introduction 
