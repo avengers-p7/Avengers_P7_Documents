@@ -25,15 +25,9 @@ Logging metrics in Jenkins involves capturing and recording specific quantitativ
 |Jenkins Script Console|Use the Jenkins Script Console to run Groovy scripts that extract and log specific metrics.  Groovy scripts can access Jenkins API and extract information about builds, jobs, nodes, and other aspects of the Jenkins environment|
 |Metrics Plugins|Jenkins provides plugins, such as the Metrics plugin, that allow you to expose and visualize custom metrics. Configure these plugins to capture and log specific metrics, and use visualization tools to analyze the data |
 |Monitoring and Metrics Integration|Integrate Jenkins with external monitoring and metrics tools, such as Prometheus, Grafana, or Datadog. These tools often have Jenkins-specific plugins or integrations that facilitate the collection, aggregation, and visualization of metrics|
-|Jenkins Performance Plugin| Use the Jenkins Performance Plugin to record and log performance-related metrics during build execution. This plugin is particularly useful for capturing data related to response times, build duration, and resource usage.
-Custom Scripts and Logging:
-
-Develop custom scripts using Jenkins Groovy scripting capabilities to extract and log specific metrics.
-Log the extracted metrics to external files or systems for analysis.
-Logging Frameworks:
-
-Leverage logging frameworks within Jenkins plugins or custom scripts to record specific metrics.
-Common logging frameworks used in Jenkins include Log4j and SLF4J.
+|Jenkins Performance Plugin| Use the Jenkins Performance Plugin to record and log performance-related metrics during build execution. This plugin is particularly useful for capturing data related to response times, build duration, and resource usage|
+|Custom Scripts and Logging |Develop custom scripts using Jenkins Groovy scripting capabilities to extract and log specific metrics. Log the extracted metrics to external files or systems for analysis|
+|Logging Frameworks| Leverage logging frameworks within Jenkins plugins or custom scripts to record specific metrics. Common logging frameworks used in Jenkins include Log4j and SLF4J|
 
 
 
