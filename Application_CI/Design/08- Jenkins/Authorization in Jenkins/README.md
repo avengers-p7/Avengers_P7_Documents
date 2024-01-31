@@ -44,12 +44,25 @@ Authorization in Jenkins is essential for maintaining a secure and controlled en
 | **Resource Control**      | Regulating access to distributed nodes or agents.         |
 
 In essence, it ensures a secure, controlled, and compliant CI/CD environment.
-## What is GitLab?
-GitLab CI is a self-contained platform supporting the DevOps lifecycle through web-based services. It manages the Git repository through its Continuous Integration and Deployment pipelines, issue-tracking features, and wiki to store relevant files.
+## Authorization options
+**Anyone can do anything**
+Everyone gets full control of Jenkins, including anonymous users who haven’t logged in. Do not use this setting for anything other than local test Jenkins controllers.
 
-GitLab works on a freemium basis, i.e., it offers both free and paid services. It enables automating the entire DevOps lifecycle, which involves planning, building, testing, deployment, and monitoring through release cycles.
+**Legacy mode**
+Behaves exactly the same as Jenkins <1.164. Namely, if a user has the "admin" role, they will be granted full control over the system, and otherwise (including anonymous users) will only have the read access. Do not use this setting for anything other than local test Jenkins controllers.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/53283b3b-45ad-4234-a702-891bcb746af9)
+**Logged in users can do anything**
+In this mode, every logged-in user gets full control of Jenkins. Depending on an advanced option, anonymous users get read access to Jenkins, or no access at all. This mode is useful to force users to log in before taking actions, so that there is an audit trail of users' actions.
+
+**Matrix-based security**
+This authorization scheme allows for granular control over which users and groups are able to perform which actions in the Jenkins environment (see the screenshot below).
+
+**Project-based Matrix Authorization Strategy**
+This authorization scheme is an extension to Matrix-based security which allows additional access control lists (ACLs) to be defined for each project separately in the Project configuration screen. This allows granting specific users or groups access only to specified projects, instead of all projects in the Jenkins environment. The ACLs defined with Project-based Matrix Authorization are additive such that access grants defined in the Security screen will be combined with project-specific ACLs.
+
+Matrix-based security and Project-based Matrix Authorization Strategy are provided by the Matrix Authorization Strategy Plugin and may not be installed on your Jenkins.
+
+For most Jenkins environments, Matrix-based security provides the most security and flexibility so it is recommended as a starting point for "production" environments.
 ***
 ## What is BuildPiper?
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
