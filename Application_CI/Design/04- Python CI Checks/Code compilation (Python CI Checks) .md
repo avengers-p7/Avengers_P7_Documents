@@ -7,12 +7,12 @@
 ---
 # Table of Contents 
 + [Introduction](#introduction)
-+ [What is Python CI Checks](#What-is-Python-CI-Checks)
-+ [Why Python CI Checks](Why-Python-CI-Checks)
++ [What is Code compilation?](#What-is-Code-compilation?)
++ [Why Code Compilation?](#Why-Code-Compilation?)
 + [Different Tools](#Different-Tools)
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
-+ [Best Practices](Best-Pratices)
++ [Best Practices](#Best-Pratices)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#References)
@@ -20,45 +20,41 @@
 
 
 # Introduction
-Continuous Integration is a software development practice where developers frequently integrate their code changes into a shared repository. Code compilation in Python CI checks is a crucial aspect of this process. It involves automating the build and compilation of Python code to ensure that it meets quality standards and functions as intended.
+Code compilation in Continuous Integration (CI) checks is a crucial aspect of software development, especially in Python projects. It ensures that code changes integrate smoothly into the existing codebase and adhere to coding standards. This document explores the significance of code compilation in Python CI, different tools available, advantages, best practices, and recommendations.
 
-# What is CI Checks?
+# What is Code compilation?
 
-Python CI checks involve setting up automated processes to compile, test, and verify Python code changes. These checks are typically performed whenever code is pushed to a version control repository, ensuring that the software remains stable and error-free throughout its development lifecycle.
+Code compilation is the process of converting source code written in a high-level programming language into machine code that can be executed by a computer. In the context of Python, code compilation is the process of converting Python code into bytecode that can be executed by the Python interpreter.
 
-# Why Python CI Checks?
+# Why Code Compilation?
 
-Code compilation is an essential step in Python CI checks because it ensures that the code can be built and executed successfully. By catching errors and issues early in the development process, developers can save time and effort by fixing issues before they become more significant problems. Additionally, code compilation can help ensure that the code meets certain quality and reliability standards, making it easier to maintain and scale over time.
+Code compilation is an essential step in the software development lifecycle. It ensures that the code is free of syntax errors and can be executed without any issues. In the context of Python CI checks, code compilation helps to identify any issues early in the development process, reducing the time and effort required to fix them.
 
 # Different Tools
+Different Tools for Code Compilation in Python:
 
-|  Tool                  |        Description                                                                                                                     |
-| ------------           | ---------------------------------------------------------------------------------------------------------                              |
-| Python Compiler        | The Python compiler is a built-in tool that converts Python source code into bytecode that can be executed by the Python interpreter   |  
-| PyInstaller            | PyInstaller is a popular tool for packaging Python applications into standalone executables that can be run on any platform            |
-| cx_Freeze              | cx_Freeze is another tool for packaging Python applications into standalone executables that can be run on any platform                |
-| PyOxidizer             | PyOxidizer is a newer tool for packaging Python applications into standalone executables that can be run on any platform               |
+|  Tool         |        Description                                                                                       |
+| ---------     | -------------------------------------------------------------------------------------------------------- |
+| PyBuilder     | PyBuilder is a software build automation tool that can be used for code compilation in Python. It supports various plugins and provides a simple and flexible interface for building Python applications   |  
+| Pipenv        | Pipenv is a tool that provides a simple way to manage Python packages and environments. It can be used for code compilation in Python by creating a virtual environment and installing the required packages |
 
 # Comparison
 
-When comparing tools for code compilation in Python CI checks, several factors should be considered:
+Comparison of Tools: Here is a comparison of the different tools for code compilation in Python:
 
-| Factors                       |        Description                                                    |
-| ------------                  | ----------------------------------------------------------------------|
-| Platform compatibility        | Does the tool support the target platform or environment              |  
-| Ease of use                   | How easy is the tool to use, and what is the learning curve           |
-| Customization                 | Can the tool be customized to meet specific project requirements      |
-| Speed                         | How fast is the tool in converting source code into executable code   |
-| Licensing                     | What are the licensing requirements for the tool                      |
+| Tools                    |        Pros                                                        |          Cons                             |
+| ------------             | -------------------------------------------------------------------| ------------------------------------------|
+| PyBuilder                | Supports various plugins, simple and flexible interface            |  May require some setup and configuration |
+| Pipenv                   | Provides a simple way to manage Python packages and environments   | May require some setup and configuration  |
+
 
 # Advantages
 
-|  Advantages              |        Description                                                                                                                     |
-| ------------             | ---------------------------------------------------------------------------------------------------------                              |
-| Improved code quality    | The Python compiler is a built-in tool that converts Python source code into bytecode that can be executed by the Python interpreter   |  
-| PyInstaller              | PyInstaller is a popular tool for packaging Python applications into standalone executables that can be run on any platform            |
-| cx_Freeze                | cx_Freeze is another tool for packaging Python applications into standalone executables that can be run on any platform                |
-| PyOxidizer               | PyOxidizer is a newer tool for packaging Python applications into standalone executables that can be run on any platform               |
+* Identification of syntax errors early in the development process.
+* Improved performance due to the conversion of Python code into bytecode.
+* Simplified deployment and distribution of Python applications.
+
+
 
 # Proof of Concept
 
