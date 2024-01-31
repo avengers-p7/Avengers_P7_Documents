@@ -16,7 +16,7 @@
 + [Steps of unit testing](#Steps-of-unit-testing)
   - [Cloning the Go Application](#Within-the-directory-make-a-clone-of-the-repository)
   - [Install Prerequisites](#Install-Prerequisites)
-  - [Run the Tests](#Run-the-Tests)
+  - [Run the Tests](#Run-the-test)
   - [Generating the report](#Generating-the-report)
 + [Unit Testing in Other Languages](#Unit-Testing-in-Other-Languages)
 + [Conclusion](#Conclusion)
