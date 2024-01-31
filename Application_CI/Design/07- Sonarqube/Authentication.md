@@ -21,7 +21,8 @@ This document explores authentication mechanisms in SonarQube
 ## Authentication 
 By default, SonarQube forces user authentication. We can  disable forced user authentication, and allow anonymous users to browse projects and run analyses in our instance. To do this, log in as a **system administrator**, go to **Administration** > **Configuration** > **General Settings** > **Security**, and disable the **Force user authentication property**.
 
-**NOTE:** *Disabling the **Force user authentication** can expose your SonarQube instance to security risks. It is strongly recommended tp force user authentication on production instances or carefully configuring the security (user permissions, project visibility, etc.) on our instance.*
+> [!NOTE]
+> *Disabling the **Force user authentication** can expose your SonarQube instance to security risks. It is strongly recommended tp force user authentication on production instances or carefully configuring the security (user permissions, project visibility, etc.) on our instance.*
 
 ### API endpoints authentication
 If the **Force user authentication** property is set to *false*, the following API endpoints are accessible without authentication (click API endpoints below to expand the list):
@@ -64,7 +65,9 @@ If the **Force user authentication** property is set to *false*, the following A
 <br>api/webservices/list</br>
 <br>api/webservices/response_example</br>
 </details>
+
 ***
+
 ## Authentication Mechanisms
 Authentication can be managed through a number of mechanisms:
 + Via the SonarQube built-in users/groups database.
@@ -83,11 +86,15 @@ We can use one of the following authentication methods to allow the same authent
 | [ **GitLab** ](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/gitlab/)| We can delegate authentication to GitLab using a dedicated GitLab OAuth application. |
 ***
 ## Technical Details 
-When we create a user in SonarQube's own database, it is considered local and will only be authenticated against SonarQube's own user/group database rather than against any external tool (LDAP, Active Directory, Crowd, etc.). By default, admin is a local account.
+When we create a user in SonarQube's own database, it is considered local and will only be authenticated against SonarQube's own user/group database rather than against any external tool (LDAP, Active Directory, Crowd, etc.). By default, `admin` is a local account.
 
 Similarly, all non-local accounts will be authenticated only against the external tool.
 
-An Administrator can manage tokens on a user's behalf via Administration > Security > Users. From here, click in the user's Tokens column to see the user's existing tokens, and either revoke existing tokens or generate new ones. An Administrator can only create user tokens on behalf of another user. Once established, a token is the only credential needed to run an analysis. Tokens should be passed as the value of the sonar.token property.
+An Administrator can manage tokens on a user's behalf via **Administration** > **Security** > **Users**. From here, click in the user's Tokens column to see the user's existing tokens, and either revoke existing tokens or generate new ones. An *Administrator* can only create user tokens on behalf of another user. Once established, a token is the only credential needed to run an analysis. Tokens should be passed as the value of the `sonar.token` property.
+***
+
+## Conclusion
+
 # Contact Information
 
 | Name                 | Contact Information                                                                                     
@@ -98,6 +105,6 @@ An Administrator can manage tokens on a user's behalf via Administration > Secur
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-| Frontend API | https://github.com/OT-MICROSERVICES/frontend |
+| SonarQube Docs | https://github.com/OT-MICROSERVICES/frontend |
 | Javascript heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
 | Default index file for public folder | https://github.com/react-cosmos/create-react-app-example/blob/master/public/index.html |
