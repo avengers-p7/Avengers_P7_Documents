@@ -4,7 +4,7 @@
 ***
 ## Table Of Contents 
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/Credential%20Scanning.md#introduction)
-+ [Why Credential Scanning](#why-credential-scanning)
++ [Why Credential Scanning](#why-credential-scanning-)
 + [Types Of Credentials](#types-of-credentials)
 + [When To Scan For Credentials](#when-to-scan-for-credentials)
 + [Credential Scanning Tools](#credential-scanning-tools)
