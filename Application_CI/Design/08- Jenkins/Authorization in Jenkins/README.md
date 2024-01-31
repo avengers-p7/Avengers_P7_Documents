@@ -32,7 +32,6 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 
 2. The other piece of the puzzle is `Authorization`, which indicates what they can access in the Jenkins environment. 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
 ***
 ## Why 
 Authorization in Jenkins is essential for maintaining a secure and controlled environment for continuous integration and deployment.
