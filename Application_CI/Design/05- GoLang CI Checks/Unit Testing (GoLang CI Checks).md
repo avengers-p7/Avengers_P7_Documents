@@ -49,7 +49,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
 ***
 ## Prerequisites
 
-* Install Golang  
+* Install Golang (go version go1.21.6 )
   
 ***  
 ## Steps of unit testing  
@@ -59,14 +59,15 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   mkdir snatak_p7
   cd snatak_p7
   git clone https://github.com/OT-MICROSERVICES/employee-api.git  
-  cd employee-api/
+  cd employee-api/routes/
   ```
   <img width="760" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/c12a898d-f9bd-4865-82f4-0eaf01f6e481">  
 
 * Install Prerequisites
    ```shell
   sudo apt update
-  sudo snap install go
+  sudo snap install go --classic
+  go version
   ```
 ***
 ## Unit Testing in Other Languages
@@ -94,3 +95,4 @@ Choosing the best tool depends on specific project requirements, team preference
 | ------ | ----------- |
 | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro%20of%20Unit%20Testing.md) | Introduction of Unit Testing |
 | [Link](https://speedscale.com/blog/golang-testing-frameworks-for-every-type-of-test/) | Popular testing frameworks for Golang |
+| [Link](https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package) | POC Setup | 
