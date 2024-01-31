@@ -108,3 +108,4 @@ In conclusion, Jenkins offers a compelling combination of flexibility, extensibi
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
 |     Jenkins vs Gitlab CI         | https://www.browserstack.com/guide/jenkins-vs-gitlab |
 |     BuildPIper                   | https://www.buildpiper.io/documentation/docs/getting/introducing |
+|     CI                           | https://www.guru99.com/jenkin-continuous-integration.html        |
