@@ -36,9 +36,6 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 
 * Set the `JAVA_HOME` environment variable to the installation directory of your JDK. This variable is essential for Maven to locate the Java runtime.
 
-<img width="920" alt="Screenshot 2024-01-31 at 5 20 14 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/a3767e84-aa45-4fb8-9168-15cec81cd15e">
-
-
 **1.2) Maven**
 * Make sure to have Maven installed on your system. It is a powerful tool used for managing project dependencies. If you don't have Maven installed, please follow the installation instructions for your operating system, which can be found on the official Apache Maven website: [Maven Installation Guide](https://maven.apache.org/install.html).
 
