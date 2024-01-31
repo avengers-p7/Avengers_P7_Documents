@@ -13,7 +13,17 @@
 
 ### 1. Pre-requisite
 
-**1) Internet Access to retreive NVD Data**
+**1.1) Java**
+
+* Ensure that you have Java installed on your system. The project requires Java version 17. If you don't have it installed, you can download and install it from the official Java website: [Java Downloads](https://www.oracle.com/java/technologies/downloads/) or use your preferred package manager.
+
+<img width="785" alt="Screenshot 2024-01-31 at 5 04 51 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c53fd0f0-8a0d-4e7f-95ce-dfe1da987713">
+
+**1.2) Maven**
+* Make sure to have Maven installed on your system. It is a powerful tool used for managing project dependencies. If you don't have Maven installed, please follow the installation instructions for your operating system, which can be found on the official Apache Maven website: [Maven Installation Guide](https://maven.apache.org/install.html).
+
+
+**1.3) Internet Access to retreive NVD Data**
 
 * The NVD is a comprehensive source of vulnerability information. Dependency-Check can use this data to identify known vulnerabilities in your project's dependencies. It can be configured to fetch data from the NVD's Common Vulnerabilities and Exposures (CVE) database during the analysis process. This helps ensure that the tool has up-to-date information about known vulnerabilities. 
 
