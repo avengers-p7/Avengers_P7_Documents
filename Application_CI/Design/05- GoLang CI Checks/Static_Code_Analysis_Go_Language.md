@@ -46,8 +46,15 @@ Our primary concern is detecting and mitigating security vulnerabilities in my G
 1. Install go 
 2. Install gosec
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/53abdfe0-c8d3-43a2-80c1-c5ab37d721a7)
+![WhatsApp Image 2024-01-31 at 19 50 08_4281265c](https://github.com/avengers-p7/Documentation/assets/156056460/c8b08dad-aecf-4f02-a7e7-0938b4075c0b)
 
 ![WhatsApp Image 2024-01-31 at 18 29 49_ad9184ce](https://github.com/avengers-p7/Documentation/assets/156056460/db86ed1c-60c7-46ca-a9f3-77881921dd4e)
 
+![WhatsApp Image 2024-01-31 at 18 32 35_22af5693](https://github.com/avengers-p7/Documentation/assets/156056460/1c0ff99f-4177-444f-aed3-dd5cea9fdf02)
+
+![WhatsApp Image 2024-01-31 at 18 32 48_b096c587](https://github.com/avengers-p7/Documentation/assets/156056460/192174c5-3316-4f44-a189-a1ccf9c86943)
+
+![WhatsApp Image 2024-01-31 at 18 32 59_afa1689f](https://github.com/avengers-p7/Documentation/assets/156056460/37322234-bb24-4619-a479-c8ab876bb3fe)
+
+![WhatsApp Image 2024-01-31 at 18 33 43_6e7f4263](https://github.com/avengers-p7/Documentation/assets/156056460/966d3263-5618-4a6f-b2b6-be0e80cf6253)
 
