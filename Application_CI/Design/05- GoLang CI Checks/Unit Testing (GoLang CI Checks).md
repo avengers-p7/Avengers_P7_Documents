@@ -14,7 +14,7 @@
 + [Different Tools for Unit Testing](#Different-Tools-for-Unit-Testing)
 + [Prerequisites](#Prerequisites)
 + [Steps of unit testing](#Steps-of-unit-testing)
-  - [Cloning the Go Application](#Within-the-directory,-make-a-clone-of-the-repository)
+  - [Cloning the Go Application](#Within-the-directory-make-a-clone-of-the-repository)
   - [Install Prerequisites](#Install-Prerequisites)
   - [Run the Tests](#Run-the-Tests)
   - [Generating the report](#Generating-the-report)
@@ -58,7 +58,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
 ***  
 ## Steps of unit testing  
 
-####  Within the directory, make a clone of the repository. 
+####  Within the directory make a clone of the repository. 
   ```shell
   mkdir snatak_p7
   cd snatak_p7
@@ -75,7 +75,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   ```
    <img width="860" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/01d25209-8a1f-406a-9430-f12d47a94736"> 
 
-* **Run the test**  
+#### Run the test
   Open a terminal or command prompt, navigate to the directory containing your Go files, and run the tests using the go test command:
   ```shell
   go test
@@ -95,7 +95,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   <img width="760" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/15ebafbc-aab4-4b14-b217-772eb64d666e"> 
   <img width="760" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/4f46a24f-66c1-4380-9e9e-10c930f36f9f"> 
 
-* **Generating the report**    
+#### Generating the report    
   To generate a test coverage report in Go, you can use the built-in go test tool with the -coverprofile flag to generate a coverage profile, and then use the gohttps://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/UnitTesting.md tool cover command to generate an HTML coverage report.
   ```shell
   go test -coverprofile=coverage.out
