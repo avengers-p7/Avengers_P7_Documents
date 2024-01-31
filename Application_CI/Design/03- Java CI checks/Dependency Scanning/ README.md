@@ -42,7 +42,8 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 | [Synk](https://snyk.io/)  | Synk is a comprehensive security platform that helps developers find and fix vulnerabilities in open-source libraries. It provides insights into dependencies, container images, and infrastructure as code. |
 | [Retire.js](https://retirejs.github.io/retire.js/) | Retire.js is a tool for detecting vulnerable JavaScript libraries. It can be used as a command-line tool or integrated into various build tools. |
 
-*** Tool Comparison 
+***
+## Tool Comparison 
 | Feature / Tool              | OWASP Dependency-Check | Synk                     | Retire.js                |
 |-----------------------------|------------------------|--------------------------|--------------------------|
 | **Supported Languages**     | Java, .NET, Node.js, Ruby, Python, and more | Java, JVM-based languages | JavaScript (Node.js)     |
