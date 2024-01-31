@@ -58,7 +58,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
 ***  
 ## Steps of unit testing  
 
-* **Within the directory, make a clone of the repository.** 
+#### * Within the directory, make a clone of the repository. 
   ```shell
   mkdir snatak_p7
   cd snatak_p7
