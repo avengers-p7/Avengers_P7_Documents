@@ -34,16 +34,6 @@ Jenkins is an integral part of many modern IT infrastructures. It allows organiz
 
 Monitoring Jenkins will allow you to predict errors, ensure high availability, optimize your configuration sets, and track the progress of key automation workflows.
 
-# Ensure that critical automation workflows are working as expected
-
-Organizations use Jenkins jobs and pipelines to automate various areas of the IT ecosystem. For example, they might have Jenkins pipelines that:
-
-**Step 1**  Move code from a temporary branch to the master branch, and then to production.
-
-**Step 2** Scan for memory leaks in newly committed code.
-
-**Step 3** Perform static code analysis on the entire codebase every week
-
 ***
 
 # Key performance Metrics of Jenkins 
