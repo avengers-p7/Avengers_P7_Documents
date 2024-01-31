@@ -59,7 +59,7 @@ mvn clean install
 * To generate a comprehensive report for your project, run the following Maven command in your terminal:
 
 ```shell
-mvn dependency-check:aggregate -Dformat=ALL -Dscan -Dname="OWASP DP Check"
+mvn clean install dependency-check:check -Dformat=ALL
 ```
 
 > [!NOTE]
@@ -67,11 +67,13 @@ mvn dependency-check:aggregate -Dformat=ALL -Dscan -Dname="OWASP DP Check"
 
 ### 4. Verification
 
-* Initiate the job in Jenkins that includes the OWASP Dependency-Check configuration. Monitor the console output and review results
+* Navigate to the build artifacts or workspace. Locate the generated Dependency-Check reports in the `target` folder. They are typically available in multiple formats (JSON, HTML, XML). Ensure that vulnerabilities are correctly identified. If you configured multiple report formats , explore each format to understand the data presentation.
 
-<img width="1317" alt="Screenshot 2024-01-30 at 3 06 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3c14c164-faa7-4b28-b43d-3d4c063fb156">
 
-* Navigate to the build artifacts or workspace. Locate the generated Dependency-Check reports in the `target` folder. They are typically available in multiple formats (JSON, HTML, XML). 
+<img width="722" alt="Screenshot 2024-01-31 at 6 18 35 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/98a80636-753a-4cb6-b39e-5454472ada01">
 
-* Open the reports in your preferred format and verify the content. Ensure that vulnerabilities are correctly identified, and severity levels align with expectations. If you configured multiple report formats , explore each format to understand the data presentation.
+* The summary of your dependencies with vulnerabilities would be presented as follows:
+  
+<img width="1344" alt="Screenshot 2024-01-31 at 6 18 17 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/b92bf279-f597-4a02-b83f-19114dbc0e40">
+
 
