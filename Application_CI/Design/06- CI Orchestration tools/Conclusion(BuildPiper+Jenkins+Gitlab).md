@@ -23,7 +23,9 @@
 
 This documentation provides a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
 ### Continuous Integration
-Continuous Integration is a software development practice where code changes are automatically integrated and tested frequently. Developers submit their code changes to a shared repository, triggering an automated build and test process. This ensures that the codebase is always in a functional state. Continuous Integration addresses challenges in software development by automating the integration of code changes from multiple contributors. It aims to detect and fix integration issues early in the development process, promoting collaboration and delivering more reliable software.Please refer to this [link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/01-%20Understanding/CI_Concepts.md) for more info.
+Continuous Integration is a software development practice where code changes are automatically integrated and tested frequently. Developers submit their code changes to a shared repository, triggering an automated build and test process. This ensures that the codebase is always in a functional state. Continuous Integration addresses challenges in software development by automating the integration of code changes from multiple contributors. It aims to detect and fix integration issues early in the development process, promoting collaboration and delivering more reliable software.
+> [!NOTE]
+> Please refer to this [link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/01-%20Understanding/CI_Concepts.md) to know more about CI.
 ***
 
 ## Why CI?
