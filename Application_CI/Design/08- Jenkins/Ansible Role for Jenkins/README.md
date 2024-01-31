@@ -8,8 +8,8 @@
 
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Key Components](#key-points)
-+ [Popular Tools](#popular-tools)
++ [Pre-requisites](#pre-requisites)
++ [Setup Ansible Role](#steps)
 + [Tool Comparison](#tool-comparison)
 + [Guide to Installation](#Installing-OWASP-Dependency-Check)
 + [Best Practices](#best-practices)
@@ -20,7 +20,7 @@
 # Introduction
 This role is designed to automate the installation and configuration of Jenkins on target servers. Whether you're setting up Jenkins for continuous integration, continuous delivery, or other purposes, this role aims to simplify the process.
 
-## Prerequisites
+## Pre-requisites
 
 Before using this Ansible role to set up Jenkins, ensure that the following prerequisites are met:
 
