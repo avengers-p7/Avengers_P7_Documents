@@ -35,20 +35,20 @@
 * The NVD is a comprehensive source of vulnerability information. Dependency-Check can use this data to identify known vulnerabilities in your project's dependencies. It can be configured to fetch data from the NVD's Common Vulnerabilities and Exposures (CVE) database during the analysis process. This helps ensure that the tool has up-to-date information about known vulnerabilities. 
 
 * If your environment does not have internet access or if there are restrictions on accessing external resources, Dependency-Check may still function, but it won't be able to fetch the latest vulnerability data from the NVD.
+  
+### 2. Configuration
 
-### 2. Installation
+* To enable the `OWASP Dependency-Check` plugin in your Maven project, add the following configuration to your pom.xml file. Ensure this configuration is placed within the `<build>` section
 
-
-
-### 3. Configuration
-
-To set up the configuration, navigate to `tools` in `Manage Jenkins` and select `Dependency-Check Installations`. Within this section, opt for the option to install from GitHub.com. Next, pick the desired version, preferably the latest one available.
-
-<img width="1317" alt="Screenshot 2024-01-30 at 2 00 59 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f2936822-ff27-4e3c-b1cb-fede4d066d65">
+<img width="832" alt="Screenshot 2024-01-31 at 5 35 00 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/039a152a-8a25-4fef-b012-c87171be6d37">
 
 ***
 
+* To ensure compatibility and take advantage of the latest improvements, update the Maven Enforcer Plugin version to 3.6.3 in your project's pom.xml file. This change aligns the project with your system's Maven version.
 
+<img width="847" alt="Screenshot 2024-01-31 at 5 45 54 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/37707338-8903-4145-8568-edd9f395ebcf">
+
+  
 > Note: You can use dependency check arguments based on your requirements. These arguments allow you to customize the behavior of the tool according to your project's needs. You might use these arguments to control aspects such as output format, updating data feeds, etc. You can find detailed information by visiting the following link: [Dependency-Check Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html)."
 
 
