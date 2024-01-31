@@ -65,10 +65,18 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 | **Community Support**       | Active community                   | Active community                  | Limited                           |
 ***
 ## Tool Recommendation
+**GitLeaks** is a simple but powerful tool for the purposes of credential scanning. Gitleaks offers a number of powerful features, including:
+| **GitLeaks Feature** | **Description** |
+| -------------------- | --------------- |
+| Comprehensive scanning | Gitleaks scans not only your current codebase but also your entire repository history, ensuring that even secrets that were committed in the past can be identified. |
+| Low false positive rate | Gitleaks uses a combination of heuristics and machine learning to identify potential secrets, resulting in a low false positive rate.
+| Customizable rule-set | Gitleaks allows you to customize the rule-set to match your specific needs and environment. |
+| Integration with CI/CD pipelines | Gitleaks can be integrated with popular CI/CD pipelines, such as GitHub Actions  to automatically scan your repositories for secrets whenever you push code changes.|
 
 ***
 
 ## Proof Of Concept : GitLeaks 
+*Please refer the [GitLeaks Credential Scanning POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/02-%20Generic%20CI%20operation/Credentials%20Scanning/Credential%20Scanning%20via%20GitLeaks%20POC.md) for GitLeaks installtion process and proof of concept of credential scanning using GitLeaks.
 
 ***
 ## Advantages 
