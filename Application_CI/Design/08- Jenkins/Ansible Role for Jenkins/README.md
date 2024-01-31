@@ -37,9 +37,9 @@ Before using this Ansible role to set up Jenkins, ensure that the following prer
    - You will also need the URL of the Jenkins APT repository. Specify the URL when running the playbook by setting the `jenkins_repo_url` variable.
 
 # Steps 
-* Before going further check the link for Ansible Code:
+* Before going further check the link for Ansible Code: 
 
-**Step 1 - Dynamic Inventory Setup** 
+**Step 1: Dynamic Inventory Setup** 
 
 ```yaml
 [defaults]
@@ -66,5 +66,22 @@ enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto
 
 > [!NOTE]
 >Ensure that the dynamic inventory script is properly configured with the necessary AWS credentials and filters to fetch the desired hosts.
+
+**Step 2:  AWS EC2 Inventory**
+
+```yaml
+---
+plugin: aws_ec2
+regions:
+  - eu-north-1
+
+groups: 
+  ubuntu: "'ubuntu' in tags.OS"
+```
+
+1. `plugin: aws_ec2`: Specifies the use of the aws_ec2 plugin as the dynamic inventory source. This plugin is designed to fetch information about EC2 instances in AWS.
+2. `regions: - eu-north-1`: Indicates the AWS region(s) from which the dynamic inventory should fetch information. In this case, it's set to the eu-north-1 region.
+3. `groups`: Defines Ansible groups based on certain criteria. Groups are a way to organize and categorize hosts in the inventory.
+4. `ubuntu: "'ubuntu' in tags.OS"`: Creates an Ansible group named ubuntu. This group includes EC2 instances where the tag named OS has a value of 'ubuntu'.
 
 
