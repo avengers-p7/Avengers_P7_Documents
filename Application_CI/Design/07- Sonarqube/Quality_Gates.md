@@ -12,12 +12,11 @@
 2. [Purpose](#purpose)
 3. [What is Quality Gates in SonarQube](#what-is-quality-gates-in-sonarqube)
 4. [Why Quality Gates](#why-quality-gates)
-5. [Key Metrics in Sonarqube commonly monitored](#key-metrics-in-sonarqube-commonly-monitored)
-6. [Flow Diagram of Quality Gates in SonarQube](#flow-diagram-of-quality-gates-in-sonarqube)
-7. [Best Practices](#best-practices)
-8. [Conclusion](#conclusion)
-9. [Contact Information](#contact-information)
-10. [Reference](#reference)
+5. [Flow Diagram of Quality Gates in SonarQube](#flow-diagram-of-quality-gates-in-sonarqube)
+6. [Best Practices](#best-practices)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [Reference](#reference)
 
 # Introduction
 
