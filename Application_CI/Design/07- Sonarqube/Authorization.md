@@ -14,7 +14,7 @@
 + [Permission templates for default permissions]()
 + [Creators Permission](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#creators-permissions)
 + [Reset project permissions to a template](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#reset-project-permissions-to-a-template)
-+ [Conclusion]()
++ [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#conclusion)
 + [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#contact-information)
 + [References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#references)
 
