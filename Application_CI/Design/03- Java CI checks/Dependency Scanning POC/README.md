@@ -48,19 +48,30 @@
 
 <img width="847" alt="Screenshot 2024-01-31 at 5 45 54 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/37707338-8903-4145-8568-edd9f395ebcf">
 
-  
-> Note: You can use dependency check arguments based on your requirements. These arguments allow you to customize the behavior of the tool according to your project's needs. You might use these arguments to control aspects such as output format, updating data feeds, etc. You can find detailed information by visiting the following link: [Dependency-Check Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html)."
 
+### 3. Generate Reports
 
-### 2. Verification
+* This ensures a clean build of your project before checking for vulnerabilities, run the following Maven command to ensure a clean build:
+```shell
+mvn clean install
+```
+
+* To generate a comprehensive report for your project, run the following Maven command in your terminal:
+
+```shell
+mvn dependency-check:aggregate -Dformat=ALL -Dscan -Dname="OWASP DP Check"
+```
+
+> [!NOTE]
+> You can use dependency check arguments based on your requirements. These arguments allow you to customize the behavior of the tool according to your project's needs. You might use these arguments to control aspects such as output format, updating data feeds, etc. You can find detailed information by visiting the following link: [Dependency-Check Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html)."
+
+### 4. Verification
 
 * Initiate the job in Jenkins that includes the OWASP Dependency-Check configuration. Monitor the console output and review results
 
 <img width="1317" alt="Screenshot 2024-01-30 at 3 06 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3c14c164-faa7-4b28-b43d-3d4c063fb156">
 
 * Navigate to the build artifacts or workspace. Locate the generated Dependency-Check reports in the `target` folder. They are typically available in multiple formats (JSON, HTML, XML). 
-
-
 
 * Open the reports in your preferred format and verify the content. Ensure that vulnerabilities are correctly identified, and severity levels align with expectations. If you configured multiple report formats , explore each format to understand the data presentation.
 
