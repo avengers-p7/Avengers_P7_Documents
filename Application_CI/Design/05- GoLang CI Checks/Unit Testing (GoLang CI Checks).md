@@ -14,7 +14,7 @@
 + [Different Tools for Unit Testing](#Different-Tools-for-Unit-Testing)
 + [Prerequisites](#Prerequisites)
 + [Steps of unit testing](#Steps-of-unit-testing)
-  - [Cloning the Go Application](#Within-the-directory-make-a-clone-of-the-repository)
+  - [Cloning the Go Application](#Cloning-the-Go-Application)
   - [Install Prerequisites](#Install-Prerequisites)
   - [Run the Tests](#Run-the-test)
   - [Generating the report](#Generating-the-report)
@@ -58,7 +58,8 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
 ***  
 ## Steps of unit testing  
 
-####  Within the directory make a clone of the repository. 
+####  Cloning the Go Application
+  First make a directory, then Within that directory clone the repository. 
   ```shell
   mkdir snatak_p7
   cd snatak_p7
@@ -76,19 +77,19 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
    <img width="660" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/01d25209-8a1f-406a-9430-f12d47a94736"> 
 
 #### Run the test
-  Open a terminal or command prompt, navigate to the directory containing your Go files, and run the tests using the go test command:
+  * Open a terminal or command prompt, navigate to the directory containing your Go files, and run the tests using the go test command:
   ```shell
   go test
   ```
    <img width="660" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/51132d5d-afc0-4d56-8399-9ad784b243a9"> 
 
-  Run tests for the entire project, including all packages, you can run  
+  * Run tests for the entire project, including all packages, you can run  
   ```shell
   go test ./...
   ```
   <img width="560" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/c42b610e-0d84-4ff1-baec-19dea948e931"> 
 
-   To perform unit tests for the entire Go language repository and generate detailed output regarding the success and failure of test cases, you can use the go test command with the `-v (verbose) and -cover (test coverage)` flags. Here's the command:
+   * To perform unit tests for the entire Go language repository and generate detailed output regarding the success and failure of test cases, you can use the go test command with the `-v (verbose) and -cover (test coverage)` flags. Here's the command:
   ```shell
   go test -v -cover ./...
   ```
@@ -96,7 +97,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   <img width="660" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/4f46a24f-66c1-4380-9e9e-10c930f36f9f"> 
 
 #### Generating the report    
-  To generate a test coverage report in Go, you can use the built-in go test tool with the -coverprofile flag to generate a coverage profile, and then use the gohttps://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/UnitTesting.md tool cover command to generate an HTML coverage report.
+  * To generate a test coverage report in Go, you can use the built-in go test tool with the -coverprofile flag to generate a coverage profile, and then use the gohttps://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/UnitTesting.md tool cover command to generate an HTML coverage report.
   ```shell
   go test -coverprofile=coverage.out
   ```
