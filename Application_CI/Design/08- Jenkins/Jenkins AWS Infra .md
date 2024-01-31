@@ -24,6 +24,12 @@ This document shows an overview of our AWS Infra for Jenkins.
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.    |
 
+# Cloud Infra Design  Details
+
+| Service         | Item                  | Description                                         |
+|-----------------|-----------------------|-----------------------------------------------------|
+
+
 
 
 # Infrastructure Diagram
