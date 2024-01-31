@@ -83,8 +83,24 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 ***
 
 ## Best Practices 
+Here are some best practices for effective credential scanning:
+
+| **Best Practice**                   |    **Description**                                   |
+|-------------------------------------------------------------|---------------------------------------|
+| Regular Scanning | Implement regular and automated credential scanning across all code repositories, configuration files, and other relevant assets. |
+| Integration with CI/CD Pipelines | Integrate credential scanning into your continuous integration/continuous deployment (CI/CD) pipelines. |
+| Pattern-Based Scanning | Use pattern-based scanning tools that can recognize common formats of credentials, such as API keys, passwords, and access tokens. Customize these patterns to match your organization's specific credential formats. |
+| Exclude Trusted Files and Paths | Define exclusion rules for trusted files and paths where credentials might be legitimately stored. This prevents unnecessary alerts and false positives, focusing the scan on areas of higher risk. |
+| Secure Credential Storage | Encourage the use of secure credential storage solutions, such as vaults or key management services, rather than storing sensitive information directly in code or configuration files. |
+| Audit Trails | Maintain audit trails for credential scanning activities. Keep records of scan results, actions taken, and any identified vulnerabilities. This information can be valuable for compliance purposes and continuous improvement. |
+| Regular Updates |Keep your credential scanning tools and patterns up to date. Regularly update the tools to benefit from the latest security enhancements and ensure compatibility with evolving development practices. |
+
+By implementing these best practices, organizations can significantly reduce the risk of credential leaks and enhance the overall security of their software development lifecycle.
 
 ***
+## Conclusion  
+In conclusion, credential scanning emerges as a fundamental practice in modern cybersecurity, offering a proactive approach to identifying and mitigating potential vulnerabilities within code repositories and configurations. By systematically searching for sensitive information like passwords and API keys, this practice serves as a critical line of defense against unauthorized access and data breaches. Integrated into the development lifecycle and bolstered by automated tools, credential scanning not only safeguards the integrity of systems but also fortifies organizations against evolving threats in the digital realm. In prioritizing the protection of sensitive data, credential scanning underscores its indispensable role in fostering a resilient and secure environment for software development and IT operations.
+
 # Contact Information
 
 | Name                 | Contact Information                                                                                     
@@ -95,7 +111,7 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-| Frontend API | https://github.com/OT-MICROSERVICES/frontend |
-| Javascript heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
-| Default index file for public folder | https://github.com/react-cosmos/create-react-app-example/blob/master/public/index.html |
+| Credential Scanning | https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/credential_scanning/ |
+| GitLeaks |  https://akashchandwani.medium.com/what-is-gitleaks-and-how-to-use-it-a05f2fb5b034 | 
+| detect-secrets | https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/recipes/detect-secrets/ |
 
