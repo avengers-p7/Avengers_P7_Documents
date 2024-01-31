@@ -115,34 +115,16 @@ go build -o employee-api
 ```
 ![WhatsApp Image 2024-01-31 at 02 44 17_a2bf763a](https://github.com/avengers-p7/Documentation/assets/156056460/8957a7ce-e4a7-4c1e-87b4-cdc96bfe3283)
 ***
-**Step-7** Create the Test File:
-- Open your code editor or IDE and navigate to the directory containing your main Go package (where your main.go file resides).
-- Create a new file named ```main_test.go``` within the same directory.
-- Structure the Test File:
-- Import necessary packages
-``` shell
-// main_test.go
-package main
 
-import "testing"
-
-func TestYourFunction(t *testing.T) {
-    // Your test logic here
-}
-```
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/5e0c644b-96b3-45af-a8ae-b92c8c0064a3)
 ***
-![WhatsApp Image 2024-01-31 at 02 20 31_9fd2bc60](https://github.com/avengers-p7/Documentation/assets/156056460/9866c6c1-f436-4929-9415-f625cf0eee12)
-***
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/bee29298-023a-4bc6-9ff1-01a96a892194)
-***
-**Step-8** Run the Tests:
+**Step-7** Run the Tests:
 - Open a terminal (or command prompt) in the project directory.
 - Execute the command
 ```shell
  go test
 ```
-![WhatsApp Image 2024-01-31 at 02 20 49_5ae975fe](https://github.com/avengers-p7/Documentation/assets/156056460/5675a57c-95b3-4c8e-9bf8-9ae24e4cbf85)
+![WhatsApp Image 2024-01-31 at 20 23 27_a38d6a1e](https://github.com/avengers-p7/Documentation/assets/156056460/8feab0ce-55c4-44fa-b581-9bf9f98e279c)
+
 
 # Conclusion
 - Go's straightforward compilation process, combined with built-in tools for dependency management, static analysis, and testing, promotes code quality and reliability.
