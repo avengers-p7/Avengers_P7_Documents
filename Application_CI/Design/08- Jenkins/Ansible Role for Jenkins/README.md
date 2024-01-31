@@ -227,6 +227,14 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 
 <img width="947" alt="Screenshot 2024-02-01 at 2 07 24 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/17399616-2a58-406d-affd-ca529e5ed158">
 
+## Conclusion 
+
+* This guide illustrates the process of deploying Jenkins in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up Jenkins within your AWS infrastructure.
+
+
+
+
+
 
 
 
