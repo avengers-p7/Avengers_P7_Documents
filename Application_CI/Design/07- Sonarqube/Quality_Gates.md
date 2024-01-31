@@ -64,8 +64,8 @@ Quality Gates play a pivotal role in ensuring the integrity and reliability of s
 | **Code Re-commit** | Corrected code is re-committed to version control. |
 | **CI Re-Run** | CI detects new changes and triggers another build. |
 | **SonarQube Re-Analysis** | Modified code undergoes re-analysis. |
-| **Quality Gate Re-Check**: Code is re-evaluated against Quality Gate conditions. |
-| **Quality Gate Result (Re-Check)**: If conditions are met, code proceeds; otherwise, the cycle continues until criteria are satisfied. |
+| **Quality Gate Re-Check** | Code is re-evaluated against Quality Gate conditions. |
+| **Quality Gate Result (Re-Check)** | If conditions are met, code proceeds; otherwise, the cycle continues until criteria are satisfied. |
 
 ***
 
