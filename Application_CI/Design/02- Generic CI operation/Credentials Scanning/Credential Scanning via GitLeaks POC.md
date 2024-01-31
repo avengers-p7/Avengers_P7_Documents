@@ -72,7 +72,6 @@ gitleaks detect -v
 
 ![Screenshot 2024-02-01 013025](https://github.com/avengers-p7/Documentation/assets/156056344/84811b1a-98ca-4953-9835-858b4a18159d)
 
-If you have found some secrets in your source code repository and you want to erase them.
 
 ## Conclusion
 In conclusion, Gitleaks stands as a pivotal tool in the realm of cybersecurity, providing a robust solution for identifying and mitigating potential security risks within Git repositories. Its capacity to systematically scan codebases for sensitive information, such as passwords and API keys, underscores its significance in preemptively addressing vulnerabilities. Gitleaks not only contributes to the maintenance of secure development practices but also aligns with the proactive ethos necessary to navigate the dynamic landscape of digital security. By integrating Gitleaks into workflows, organizations can fortify their defenses against inadvertent credential leaks, ensuring a resilient and secure foundation for their software development endeavors.
