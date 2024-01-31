@@ -57,7 +57,7 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 
 # Flow Diagram of Monitoring Metrics in SonarQube
 
-<img width="598" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/52a84648-e4ec-4454-9d7e-1fe028a05647">
+<img width="521" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/7f754845-6d03-4c66-8ed8-09b368d99601">
 
 **The scenario involves a streamlined process for code quality management:**
 
