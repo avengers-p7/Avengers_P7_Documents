@@ -1,5 +1,10 @@
 # Proof of Concept (POC) for Dependency-Check
 
+|   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
+| -----------------| --------------| -----------|---------------- | -------------- |
+| Vidhi Yadav      | 25 Jan 2024   |     v1     | Vidhi Yadav     | 29 Jan 2024    |
+
+
 ## Table of Contents
 + [Introduction](#Introduction)
 + [OWASP](#owasp-dependency-check)
