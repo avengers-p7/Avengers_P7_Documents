@@ -9,8 +9,8 @@
 + [GitLeaks Installation](#gitleaks-installation)
 + [Credential Scanning via GitLeaks](#credential-scanning-via-gitleaks)
 + [Conclusion](#conclusion)
-+ [Contact Information]()
-+ [References]()
++ [Contact Information](#contact-information)
++ [References](#references)
 ***
 ## Introduction 
 Credential scanning is essential for maintaining the security of software development and IT environments. In the fast-paced world of technology, developers often work collaboratively on code repositories, and sensitive information such as passwords, API keys, and access tokens may unintentionally be included in the codebase. Credential scanning tools, like Gitleaks, play a crucial role in proactively identifying and mitigating security risks by systematically searching repositories for these potential vulnerabilities. 
