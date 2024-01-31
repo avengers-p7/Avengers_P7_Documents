@@ -64,7 +64,7 @@ remote_user = ubuntu
 enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto, ini, toml
 ```
 
->Note
+> [!NOTE]
 >Ensure that the dynamic inventory script is properly configured with the necessary AWS credentials and filters to fetch the desired hosts.
 
 
