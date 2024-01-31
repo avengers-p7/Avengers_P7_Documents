@@ -5,11 +5,13 @@
 ***
 ## Table Of Contents 
 + [Introduction]
-+ [Why Credential Scanning]()
-+ [Types Of Credentials]()
-+ [Credential Scanning Tools]()
-+ [Tool Comparison]()
-+ [When To Scan For Credentials]()
++ [GitLeaks]()
++ [GitLeaks Installation]()
++ [Credential Scanning via GitLeaks]()
++ [GitLeaks: Other Use Cases]()
++ [Conclusion]()
++ [Contact Information]()
++ [References]()
 ***
 ## Introduction 
 Credential scanning is essential for maintaining the security of software development and IT environments. In the fast-paced world of technology, developers often work collaboratively on code repositories, and sensitive information such as passwords, API keys, and access tokens may unintentionally be included in the codebase. Credential scanning tools, like Gitleaks, play a crucial role in proactively identifying and mitigating security risks by systematically searching repositories for these potential vulnerabilities. 
@@ -73,9 +75,9 @@ gitleaks detect -v
 
 If you have found some secrets in your source code repository and you want to erase them.
 
-## Best Practices 
+## Conclusion
+In conclusion, Gitleaks stands as a pivotal tool in the realm of cybersecurity, providing a robust solution for identifying and mitigating potential security risks within Git repositories. Its capacity to systematically scan codebases for sensitive information, such as passwords and API keys, underscores its significance in preemptively addressing vulnerabilities. Gitleaks not only contributes to the maintenance of secure development practices but also aligns with the proactive ethos necessary to navigate the dynamic landscape of digital security. By integrating Gitleaks into workflows, organizations can fortify their defenses against inadvertent credential leaks, ensuring a resilient and secure foundation for their software development endeavors.
 
-***
 # Contact Information
 
 | Name                 | Contact Information                                                                                     
