@@ -46,9 +46,17 @@ Before using this Ansible role to set up Jenkins, ensure that the following prer
 
 # some basic default values...
 
+
+# Use AWS EC2 dynamic inventory for managing hosts
 inventory      = aws_ec2.yml
+
+# Disable SSH host key checking for convenience.
 host_key_checking = False
+
+# Specify the path to the private key file for SSH connections.
 private_key_file = /home/ubuntu/vd.pem
+
+Sets the remote user for SSH connections to 'ubuntu'
 remote_user = ubuntu
 
 [inventory]
