@@ -35,7 +35,7 @@ This document explores conducting unit tests in a Golang app using the standard 
 
 ## Unit Testing   
 Unit Testing is a fundamental software testing method where individual modules or components are tested to verify their functional correctness. It involves assessing independent units, such as functions or procedures, to identify issues early in the development process. Typically performed by developers, it serves as the initial level of testing before integration testing in the software development lifecycle. While developers primarily conduct unit testing, quality assurance engineers may also participate due to developers' occasional reluctance to perform these tests.  
-For more detail click [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro%20of%20Unit%20Testing.md)  
+For more detail click [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro-of-Unit-Testing.md)  
 ***
 ## Different Tools for Unit Testing
 
@@ -133,6 +133,6 @@ Choosing the best tool depends on specific project requirements, team preference
 
 | Source | Description |
 | ------ | ----------- |
-| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro%20of%20Unit%20Testing.md) | Introduction of Unit Testing |
+| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro-of-Unit-Testing.md) | Introduction of Unit Testing |
 | [Link](https://speedscale.com/blog/golang-testing-frameworks-for-every-type-of-test/) | Popular testing frameworks for Golang |
 | [Link](https://www.digitalocean.com/community/tutorials/how-to-write-unit-tests-in-go-using-go-test-and-the-testing-package) | POC Setup | 
