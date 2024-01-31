@@ -22,8 +22,7 @@ Feature Branching ensures that all feature development occurs in dedicated branc
 
 This section provides a detailed explanation of the step-by-step process involved in the Git Feature Branch Workflow.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/c2e4c381-5149-4b68-bcbf-a99cbae35a14)
-
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/ed4c34c5-cb9d-4c68-9097-d902b40bf63c)
 
 Step-1: Creating Feature Branches
 Developers create new branches for each feature, keeping a highly-focused purpose for each branch. Descriptive names such as animated-menu-items or issue-#1061 are recommended.
