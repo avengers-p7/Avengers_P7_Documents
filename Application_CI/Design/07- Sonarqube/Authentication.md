@@ -8,6 +8,10 @@
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication%20&%20Authorization.md#introduction)
 + [Authentication]()
 + [Authentication Mechanism]()
++ [Technical Details]()
++ [Conclusion]
++ [Contact Information]()
++ [References]()
 
 
 ## Introduction
@@ -21,8 +25,8 @@ This document explores authentication mechanisms in SonarQube
 ## Authentication 
 By default, SonarQube forces user authentication. We can  disable forced user authentication, and allow anonymous users to browse projects and run analyses in our instance. To do this, log in as a **system administrator**, go to **Administration** > **Configuration** > **General Settings** > **Security**, and disable the **Force user authentication property**.
 
-> [!NOTE]
-> *Disabling the **Force user authentication** can expose your SonarQube instance to security risks. It is strongly recommended tp force user authentication on production instances or carefully configuring the security (user permissions, project visibility, etc.) on our instance.*
+> [!WARNING]
+> *Disabling the **Force user authentication** can expose your SonarQube instance to security risks. It is strongly recommended to force user authentication on production instances or carefully configuring the security (user permissions, project visibility, etc.) on our instance.*
 
 ### API endpoints authentication
 If the **Force user authentication** property is set to *false*, the following API endpoints are accessible without authentication (click API endpoints below to expand the list):
@@ -66,6 +70,9 @@ If the **Force user authentication** property is set to *false*, the following A
 <br>api/webservices/response_example</br>
 </details>
 
+> [!NOTE]
+> It is prudent to keep **Force user authentication** enabled if you have your SonarQube instance publicly accessible.
+
 ***
 
 ## Authentication Mechanisms
@@ -94,6 +101,13 @@ An Administrator can manage tokens on a user's behalf via **Administration** > *
 ***
 
 ## Conclusion
+SonarQube comes with its own user database, as well as the ability to delegate authentication via protocols and providers. Each method offers:
++ User identity management
++ Authentication
++ User and group provisioning 
++ Group synchronization (optional for JIT provisioning)
+
+These measures enhance security by controlling access to code analysis tools, ensuring a secure and accountable environment for developers.
 
 # Contact Information
 
@@ -105,6 +119,6 @@ An Administrator can manage tokens on a user's behalf via **Administration** > *
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-| SonarQube Docs | https://github.com/OT-MICROSERVICES/frontend |
-| Javascript heap out of memory error |https://geekflare.com/fix-javascript-heap-out-of-memory-error/ | 
-| Default index file for public folder | https://github.com/react-cosmos/create-react-app-example/blob/master/public/index.html |
+| SonarQube Security | https://docs.sonarsource.com/sonarqube/latest/instance-administration/security/ |
+| SonarQube Authentication & Provisioning  | https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/overview/ | 
+
