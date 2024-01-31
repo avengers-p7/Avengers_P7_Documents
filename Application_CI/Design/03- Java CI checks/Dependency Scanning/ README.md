@@ -10,7 +10,6 @@
 + [Key Components](#key-points)
 + [Popular Tools](#popular-tools)
 + [Guide to Installation](#Installing-OWASP-Dependency-Check)
-+ [Jenkins Job Configuration](#jenkins-job-setup)
 + [Best Practices](#best-practices)
 + [Security Compliance](#security-compliance)
 + [Contact Information](#contact-information)
