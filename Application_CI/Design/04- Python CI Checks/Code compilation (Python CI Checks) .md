@@ -24,11 +24,19 @@ Code compilation in Continuous Integration (CI) checks is a crucial aspect of so
 
 # What is Code compilation
 
-Code compilation is the process of converting source code written in a high-level programming language into machine code that can be executed by a computer. In the context of Python, code compilation is the process of converting Python code into bytecode that can be executed by the Python interpreter.
+Code compilation in Python CI refers to the process of checking code for syntax errors, compliance with coding standards, and potential runtime issues before merging it into the main codebase. It involves automated testing and validation to maintain code quality and reliability.
+
 
 # Why Code Compilation
 
-Code compilation is an essential step in the software development lifecycle. It ensures that the code is free of syntax errors and can be executed without any issues. In the context of Python CI checks, code compilation helps to identify any issues early in the development process, reducing the time and effort required to fix them.
+|  Reason                         |        Description                                                                                       |
+| ---------                       | -------------------------------------------------------------------------------------------------------- |
+| Early Detection of Bugs         | CI checks help catch bugs and errors in the codebase early in the development cycle, reducing the time and effort required for debugging later on  |  
+| Improved Code Quality           | By automating code compilation and testing, developers can maintain higher code quality standards and adhere to best practices |
+| Faster Development Cycles       | CI checks enable faster iteration cycles by providing rapid feedback on code changes, allowing developers to make timely adjustments and enhancements |
+| Collaboration and Integration   | CI checks facilitate seamless collaboration among team members by ensuring that all code changes integrate smoothly and do not break existing functionality|
+
+
 
 # Different Tools
 Different Tools for Code Compilation in Python:
