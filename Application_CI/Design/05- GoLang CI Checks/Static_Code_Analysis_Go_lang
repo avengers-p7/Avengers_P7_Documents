@@ -1,0 +1,10 @@
+|   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
+| --------------- | --------------| -----------|----------------- | -------------- |
+| Khushi Malhotra |  30 Jan 2024  |  Version 1 | Khushi Malhotra  | 31 Jan 2024    |
+***
+# Static Code Analysis - Go Langiage 
+
+# What is Static Code Analysis 
+Static code analysis is a method of debugging that is done by automatically examining the source code without having to execute the program. 
+Static code analysis tools attempt to highlight possible vulnerabilities within 'static' (non-dynamic) code.
+These tools are useful as they provide immediate feedback to the developer on issues they might be introducing into the code, which is very useful as compared to finding vulnerabilities much later in the development process. 
