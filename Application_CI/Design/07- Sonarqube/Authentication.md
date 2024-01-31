@@ -7,12 +7,11 @@
 ## Table Of Contents 
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication%20&%20Authorization.md#introduction)
 + [Authentication](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#authentication)
-+ [Authentication Mechanism]()
-+ [Technical Details]()
-+ [Conclusion]()
++ [Authentication Mechanism](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#authentication-mechanisms)
++ [Technical Details](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#technical-details)
++ [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#conclusion)
 + [Contact Information]()
 + [References]()
-
 
 ## Introduction
 SonarQube comes with a number of global security features:
@@ -109,13 +108,13 @@ SonarQube comes with its own user database, as well as the ability to delegate a
 
 These measures enhance security by controlling access to code analysis tools, ensuring a secure and accountable environment for developers.
 
-# Contact Information
+## Contact Information
 
 | Name                 | Contact Information                                                                                     
 |---------------------------------|------------------------------------------------------------|
 | Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co
 ***
-# References
+## References
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
