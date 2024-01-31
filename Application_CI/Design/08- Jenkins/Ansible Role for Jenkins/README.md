@@ -219,7 +219,7 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 ## Output
 1.  **Host-level output**: Output for each host would indicate whether the playbook execution was successful or not.
 
-<img width="1107" alt="Screenshot 2024-02-01 at 2 09 25 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3596ed2f-56b2-4d22-a542-abcb936fc3f4">
+<img width="1352" alt="Screenshot 2024-02-01 at 2 41 57 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/d69954c0-6182-4c73-883d-ea7e21fe323d">
 
 2. **Colorized Output**: Ansible uses colorized output to make it easier to identify successful, changed, or failed tasks. Successful tasks are often displayed in green, changed tasks in yellow, and failed tasks in red.
 
