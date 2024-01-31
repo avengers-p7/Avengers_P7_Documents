@@ -10,10 +10,14 @@
 ## Table of Contents
 
 + [Introduction](#Introduction)
++ [Unit Testing](#Unit-Testing)
++ [Different Tools for Unit Testing](#Different-Tools-for-Unit-Testing)
 + [Prerequisites](#Prerequisites)
 + [Steps of unit testing](#Steps-of-unit-testing)
-  + [Cloning the Go Application](#Cloning-the-Go-Application)
+  + [Cloning the Go Application](#Within-the-directory,-make-a-clone-of-the-repository)
+  + [Install Prerequisites](#Install-Prerequisites)
   + [Run the Tests](#Run-the-Tests)
+  + [Generating the report](#Generating-the-report)
 + [Unit Testing in Other Languages](#Unit-Testing-in-Other-Languages)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
@@ -104,7 +108,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   <img width="760" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/c8a09a6d-c41d-4405-a311-6753030e8cf8"> 
 
 After performing unit tests in Go code through the standard testing framework provided by the testing package in Go, we are getting a detailed report regarding that each unit, such as a function or method, works as intended and produces the expected output
-[coverage.html](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/coverage.html)
+[**coverage.htm**l](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/coverage.html)
 
 ***
 ## Unit Testing in Other Languages
@@ -112,7 +116,6 @@ After performing unit tests in Go code through the standard testing framework pr
 * For Python unit testing, refer to this link : [**Python**]()
 ***
 ## Conclusion
-
 
 Choosing the best tool depends on specific project requirements, team preferences, and trade-offs between features, dependencies, and performance. For lightweight testing without extra dependencies, the built-in testing package suffices. For more advanced assertion and mocking capabilities, Testify or GoMock can be beneficial. Ginkgo and GoConvey are suitable for teams favoring BDD-style testing or requiring real-time feedback and visual test representations.
 
