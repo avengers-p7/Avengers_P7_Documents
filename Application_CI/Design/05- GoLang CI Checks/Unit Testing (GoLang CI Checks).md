@@ -108,8 +108,8 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   ```
   <img width="660" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/c8a09a6d-c41d-4405-a311-6753030e8cf8"> 
 
-After running unit tests in Go using the standard testing framework provided by the testing package, we receive a comprehensive report confirming whether each unit, like a function or method, behaves correctly and generates the expected results.
-[**coverage.htm**l](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/coverage.html)
+After running unit tests in Go using the standard testing framework provided by the `testing package`, we receive a comprehensive report confirming whether each unit, like a function or method, behaves correctly and generates the expected results.  
+[**Coverage.htm**l](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/coverage.html)
 
 ***
 ## Unit Testing in Other Languages
