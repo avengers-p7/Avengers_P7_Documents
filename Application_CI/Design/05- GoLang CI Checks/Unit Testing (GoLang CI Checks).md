@@ -96,7 +96,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   <img width="760" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/4f46a24f-66c1-4380-9e9e-10c930f36f9f"> 
 
 * **Generating the report**    
-  To generate a test coverage report in Go, you can use the built-in go test tool with the -coverprofile flag to generate a coverage profile, and then use the go tool cover command to generate an HTML coverage report.
+  To generate a test coverage report in Go, you can use the built-in go test tool with the -coverprofile flag to generate a coverage profile, and then use the gohttps://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/UnitTesting.md tool cover command to generate an HTML coverage report.
   ```shell
   go test -coverprofile=coverage.out
   ```
@@ -113,7 +113,7 @@ After performing unit tests in Go code through the standard testing framework pr
 ***
 ## Unit Testing in Other Languages
 * For Java unit testing, refer to this link : [**Java**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md)
-* For Python unit testing, refer to this link : [**Python**]()
+* For Python unit testing, refer to this link : [**Python**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/UnitTesting.md)
 ***
 ## Conclusion
 
