@@ -4,6 +4,17 @@
 ***
 # Static Code Analysis - Go Language 
 
+# Table of Contents
+- [What is Static Code Analysis](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#what-is-static-code-analysis)
+- [Why we need Static Code Analysis](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#why-we-need-static-code-analysis)
+- [Different tool used in Static Code Analysis](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#different-tool-used-in-static-code-analysis)
+- [Comparison between static-lint, SonarQube and gosec](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#comparison-between-static-lint-sonarqube-and-gosec)
+- [Choosing gosec](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#choosing-gosec)
+- [POC of Static Code Analysis](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#poc-of-static-code-analysis)
+- [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#conclusion)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#contact-information)
+- [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static_Code_Analysis_Go_Language.md#resources-and-references)
+***
 # What is Static Code Analysis
 Static code analysis is a method of debugging that is done by automatically examining the source code without having to execute the program. 
 Static code analysis tools attempt to highlight possible vulnerabilities within 'static' (non-dynamic) code. 
@@ -89,5 +100,7 @@ Gosec is a powerful tool for enhancing Go code security through static analysis.
 
 # Resources and References
 [What is Static Code Analysis](https://owasp.org/www-community/controls/Static_Code_Analysis)
+
 [Why we need Static Code Analysis](https://softwareengineering.stackexchange.com/questions/27682/what-are-the-real-benefits-of-static-code-analysis)
+
 [gosec](https://opensource.com/article/20/9/gosec)
