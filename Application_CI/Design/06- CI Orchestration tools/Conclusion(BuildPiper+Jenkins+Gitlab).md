@@ -13,7 +13,7 @@
 2. [#CI Tools](#ci-tools)
 3. [Why CI?](#why-ci)
 4. [Case Study](#real-world-case-study-of-continuous-integration)
-5. [Comparison b/w CI tools](##comparison-bw-ci-tools)
+5. [Comparison b/w CI tools](#comparison-bw-ci-tools)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#Contact-Information)
 8. [References](#References)
