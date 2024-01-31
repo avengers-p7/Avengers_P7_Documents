@@ -5,13 +5,20 @@
 | Aakash Tripathi | 30 Jan 2024   |     v1     | Aakash Tripathi | 31 Jan 2024    |
 ***
 ## Table Of Contents 
-+ [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication%20&%20Authorization.md#introduction)
-+ [Authorization](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#authentication)
-+ [Authentication Mechanism](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#authentication-mechanisms)
-+ [Technical Details](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#technical-details)
-+ [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#conclusion)
-+ [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#contact-information)
-+ [References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#references)
++ [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#introduction)
++ [Authorization](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#authorization)
++ [User](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#user)
++ [Group](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#group)
++ [Global Permissions](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#global-permissions)
++ [Project Permissions](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#project-permissions)
++ [Permission templates for default permissions]()
++ [Creators Permission](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#creators-permissions)
++ [Reset project permissions to a template](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#reset-project-permissions-to-a-template)
++ [Conclusion]()
++ [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#contact-information)
++ [References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#references)
+
+
 
 ## Introduction
 SonarQube comes with a number of global security features:
@@ -31,16 +38,20 @@ Multiple integrations that allow the delegation of authentication are available 
 
 During both user creation and editing, we can set an account's screen name and email address. User login and email address will be implicitly recognized as SCM accounts if applicable, but we can set additional SCM accounts explicitly.
 
+***
+
 ## Group
 
 A group is a set of users.
-To administer groups, go to **Administration** > **Security** > **Groups.**
+To administer groups, go to **Administration** > **Security** > **Groups**
 
 To edit the membership of a group, click the icon next to the membership total.
 
 Two groups have a special meaning:
 + **Anyone** is a group that exists in the system, but that cannot be managed. Every user belongs to this group, including anonymous users.
 + **sonar-users** is the default group to which users are automatically added.
+
+***
 
 ## Global permissions
 To set global permissions, log in as a *System administrator* and go to **Administration** > **Security** > **Global Permissions.**
@@ -59,6 +70,8 @@ Users with any explicit create permission will see a `+` item in the top menu gi
 
 > [!NOTE]
 > Creating an item does not automatically grant rights to administer it. For that, see [Creators permission]() below.
+
+***
 
 ## Project permissions
 Project permissions are available from the project-level Administration menu: **Project Settings** > **Permissions**.
@@ -91,6 +104,8 @@ Private projects have two additional permissions:
 > [!IMPORTANT]
 > Note that permissions are not cumulative. For instance, if you want to be able to administer the project, you also have to be granted the Browse permission to be able to access the project (which is the default for public projects).You can either manually grant permissions for each project to some users and groups or apply permission templates to projects.
 
+***
+
 ## Permission templates for default permissions
 SonarQube ships with a *default permissions template*, which automatically grants specific permissions to certain groups when a project, portfolio, or application is created. It is possible to edit this template and to create additional templates. A separate template can be set for each type of resource. Further, for projects, you can have a template apply only to a subset of new projects using a project key regular expression (the template's Project Key Pattern). By default, every new project with a key that matches the supplied pattern will have the template's permissions applied.
 
@@ -98,10 +113,14 @@ Templates are empty immediately after creation. Clicking on the template name wi
 
 Templates are administered through **Administration** > **Security** > **Permission Templates**.
 
+***
+
 ## Creators permissions
 **Creators** is a special group that appears only in the permission template editing interface. Any permissions assigned to this group will at the time of project/portfolio/application creation be granted to the single user account used to create the project. This allows SonarQube administrators to let users autonomously create and administer their own projects.
 
 While templates can be applied after project creation, applying a template that includes Creators permissions to an existing project/portfolio/application will not grant the relevant permissions to the project's original creator because that association is not stored.
+
+***
 
 ## Reset project permissions to a template
 To apply permission templates to projects go to **Administration** > **Projects** > **Management**. You can either apply a template to a specific project using the project-specific **Actions** > **Apply Permission Template** option or use the **Bulk Apply Permission Template** to apply a template to all selected projects.
@@ -110,6 +129,12 @@ To apply permission templates to projects go to **Administration** > **Projects*
 > Note that there is no relation between a project and a permission template, meaning that:
 > + The permissions of a project can be modified after a permission template has been applied to this project.
 > + None of the project permissions are changed when a permission template is modified.
+
+***
+
+## Conclusion
+
+***
 
 ## Contact Information
 
