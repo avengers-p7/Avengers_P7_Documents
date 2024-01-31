@@ -30,12 +30,6 @@ Before using this Ansible role to set up Jenkins, ensure that the following prer
 2. **SSH Access to Target Servers:**
    - Ensure that you have SSH access to the target servers where Jenkins will be installed.
 
-4. **Jenkins Repository Key URL:**
-   - You will need the URL of the Jenkins repository key. Specify the URL when running the playbook by setting the `jenkins_repo_key_url` variable in the variables folder.
-
-5. **Jenkins Repository URL:**
-   - You will also need the URL of the Jenkins APT repository. Specify the URL when running the playbook by setting the `jenkins_repo_url` variable.
-
 ***
 # Steps 
 * Before going further check the link for Ansible Role: https://github.com/vyadavP7/Jenkins-AnsibleRole
