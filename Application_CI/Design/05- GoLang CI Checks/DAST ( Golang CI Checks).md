@@ -13,13 +13,10 @@
 + [What is dynamic application security testing?](#What-is-dynamic-application-security-testing?)
 + [How Does DAST Work](#How-Does-DAST-Work)
 + [Advantages and disadvantages of DAST](#Advantages-and-disadvantages-of-DAST)
-+ [Steps of unit testing](#Steps-of-unit-testing)
-  + [Cloning the Go Application](#Within-the-directory,-make-a-clone-of-the-repository)
-  + [Install Prerequisites](#Install-Prerequisites)
-  + [Run the Tests](#Run-the-Tests)
-  + [Generating the report](#Generating-the-report)
-+ [Unit Testing in Other Languages](#Unit-Testing-in-Other-Languages)
-+ [Conclusion](#Conclusion)
++ [Types of Dynamic Application Security Testing](#Types-of-Dynamic-Application-Security-Testing)
++ [How to Use DAST](#How-to-Use-DAST)
++ [SAST VS DAST](#SAST-VS-DAST)
++ [Tools for Golang DAST](#Tools-for-Golang-DAST)
 + [Contact Information](#Contact-Information)
 + [References](#References)
 ***
@@ -95,5 +92,75 @@ While there are no formal subtypes of DAST, security experts informally classify
 Most DAST tools are commercial products, although open-source alternatives exist. Open-source solutions like OWASP Zed Attack Proxy (ZAP) are often categorized as legacy DAST due to limited functionality. Many open-source projects are manual penetration testing tools rather than application security scanners.
 
 Some modern DAST tools meeting the criteria outlined above include Invicti and Acunetix by Invicti. These solutions offer full automation, integration, and vulnerability confirmation.
+***
+## How to Use DAST 
 
+The traditional approach to using DAST involved manual scanning of web assets on an ad-hoc basis or conducting vulnerability scans in the final stages of application development, such as on staging servers or production clones. However, this is no longer the recommended method. Modern DAST solutions offer interfaces that facilitate usage at various stages of application development:
+
+=== Early Development (Shift Left) ===
+- Modern DAST tools are intended for use in DevOps/DevSecOps environments to test applications as early as possible, even from the initial builds.
+- It's advisable to conduct DAST scans on a runtime app at the earliest stage to eliminate vulnerabilities before they progress to later stages.
+- Security testing should be integrated into the CI/CD pipeline, similar to functional testing.
+
+=== Staging/Pre-release ===
+- Security testing should be incorporated into the pre-release process, where application functionality is fully accessible.
+- The application should be fully deployed as it will be in production and thoroughly tested independently of earlier development-time testing.
+
+=== Regular Post-release (Shift Right) ===
+- Modern DAST tools offer less invasive scanning compared to legacy tools and can be fine-tuned for safe usage, even in live production environments.
+- Tuning includes ensuring no test data is introduced or deleted from the production system, no test emails are sent, and request volumes do not disrupt normal app operation.
+- If security testing in a live production environment is uncomfortable, consider creating a clone of the production environment for regular testing.
+- Recommended scanning schedules include daily checks for high-severity vulnerabilities and weekly full scans.
+
+Regular scans help detect unexpected modifications or new vulnerabilities resulting from changes in deployment configurations or updates to DAST tools to address newly discovered vulnerabilities and exploits.
+***
+## SAST VS DAST
+
+| Aspect               | SAST                                                | DAST                                                |
+|----------------------|-----------------------------------------------------|-----------------------------------------------------|
+| Testing Approach     | Analyzes source code or binaries without execution  | Tests the application in its running state          |
+| Timing               | Performed during development phase                  | Conducted post-development, in runtime              |
+| Scope                | Concentrates on source code analysis                | Focuses on runtime behavior                          |
+| Vulnerability Detection | Identifies potential vulnerabilities based on code analysis | Identifies vulnerabilities while interacting with the application |
+| False Positives      | May generate more false positives due to static analysis | Tends to have fewer false positives, simulating real user interactions |
+| Coverage             | Scans entire codebase regardless of execution paths | Provides coverage for implemented features and application logic |
+| Integration          | Often integrated into development environments or IDEs | Can integrate with CI/CD pipelines for automated testing |
+| Types of Vulnerabilities | Proficient at identifying code-level vulnerabilities such as injection flaws, buffer overflows, etc. | Better at identifying certain types of vulnerabilities like session management issues, authentication flaws, etc. |
+| Ease of Use          | May require expertise to configure and interpret results | Generally easier to set up and execute scans |
+| Runtime Impact       | Does not affect the runtime performance of the application | May have minimal impact on application performance |
+| Scalability          | May face challenges with large codebases or complex applications | Well-suited for dynamic and frequently changing applications |
+| Cost                 | Costs may vary based on tooling and licensing      | Costs may vary based on tooling and licensing      |
+
+***
+## Tools for Golang DAST
+ | Tool          | Description                                             | Features                                                      | Integration         | License       |
+|---------------|---------------------------------------------------------|---------------------------------------------------------------|---------------------|---------------|
+| OWASP ZAP     | Open-source web application security scanner            | - Automated scanning for common security vulnerabilities     | CLI, CI/CD          | Apache 2.0    |
+| Burp Suite    | Integrated platform for security testing of web apps    | - Advanced scanning, proxy, and vulnerability assessment     | GUI, API            | Commercial    |
+| GoSec         | Golang security checker                                 | - Static analysis for security vulnerabilities                | CLI, CI/CD          | MIT           |
+| Gosec Scanner | Golang security checker                                 | - Scans for common security vulnerabilities                    | CLI, CI/CD          | Apache 2.0    |
+| Safe          | Go library for security-related issues                  https://www.invicti.com/learn/dynamic-application-security-testing-dast/| - Scans for common security vulnerabilities                    | Library             | MIT           |
+| Staticcheck   | Go static analysis tools                                | - Detects bugs, performance problems, and much more            | CLI, CI/CD          | GPLv3         |
+
+***
+## Conclusion:
+
+- **OWASP ZAP**:
+                Offers powerful automated scanning for web applications, suitable for GoLang apps with integration options for CLI and CI/CD pipelines. Licensed 
+  under Apache 2.0.
+
+***
+## Contact Information
+
+| Name | Email address |
+| ---- | ------------- |
+| Samir | samir.kesare.snaatak@mygurukulam.co |
+
+***
+## References
+[What is dynamic application security testing?](https://www.invicti.com/learn/dynamic-application-security-testing-dast/)
+
+[How to Use DAST](https://www.invicti.com/learn/dynamic-application-security-testing-dast/)
+
+[DAST Tools for golang](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools)
 
