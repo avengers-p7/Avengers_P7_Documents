@@ -69,7 +69,7 @@ To set global permissions, log in as a *System administrator* and go to **Admini
 Users with any explicit create permission will see a `+` item in the top menu giving access to these functions. If these permissions are removed from global administrators, they will lose quick access to them via the `+` menu, but retain access to creation via the `Administration` menu.
 
 > [!NOTE]
-> Creating an item does not automatically grant rights to administer it. For that, see [Creators permission]() below.
+> Creating an item does not automatically grant rights to administer it. For that, see [Creators permission](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authorization.md#creators-permissions) below.
 
 ***
 
