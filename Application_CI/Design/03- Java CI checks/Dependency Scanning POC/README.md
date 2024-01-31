@@ -1,8 +1,19 @@
-# Proof Of Concept
+# Proof of Concept (POC) for Dependency-Check
+
+## Table of Contents
++ [Introduction](#Introduction)
++ [Key Components](#key-points)
++ [Popular Tools](#popular-tools)
++ [Guide to Installation](#Installing-OWASP-Dependency-Check)
++ [Jenkins Job Configuration](#jenkins-job-setup)
++ [Best Practices](#best-practices)
++ [Security Compliance](#security-compliance)
++ [Contact Information](#contact-information)
++ [References](#references)
 
 ### 1. Pre-requisite
 
-**Internet Access to retreive NVD Data**
+** * Internet Access to retreive NVD Data**
 
 * The NVD is a comprehensive source of vulnerability information. Dependency-Check can use this data to identify known vulnerabilities in your project's dependencies. It can be configured to fetch data from the NVD's Common Vulnerabilities and Exposures (CVE) database during the analysis process. This helps ensure that the tool has up-to-date information about known vulnerabilities. 
 
