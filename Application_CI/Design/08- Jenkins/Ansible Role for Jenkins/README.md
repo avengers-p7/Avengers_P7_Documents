@@ -5,7 +5,7 @@
 | -----------------| --------------| -----------|---------------- | -------------- |
 | Vidhi Yadav      |  31 Jan 2024   |     v1     | Vidhi Yadav     | 31 Jan 2024    |
 
-
+***
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Pre-requisites](#pre-requisites)
@@ -17,9 +17,11 @@
 + [Contact Information](#contact-information)
 + [References](#references)
 
+***
 # Introduction
 This role is designed to automate the installation and configuration of Jenkins on target servers. Whether you're setting up Jenkins for continuous integration, continuous delivery, or other purposes, this role aims to simplify the process.
 
+***
 ## Pre-requisites
 
 Before using this Ansible role to set up Jenkins, ensure that the following prerequisites are met:
@@ -36,6 +38,7 @@ Before using this Ansible role to set up Jenkins, ensure that the following prer
 5. **Jenkins Repository URL:**
    - You will also need the URL of the Jenkins APT repository. Specify the URL when running the playbook by setting the `jenkins_repo_url` variable.
 
+***
 # Steps 
 * Before going further check the link for Ansible Code: 
 
@@ -83,5 +86,81 @@ groups:
 2. `regions: - eu-north-1`: Indicates the AWS region(s) from which the dynamic inventory should fetch information. In this case, it's set to the eu-north-1 region.
 3. `groups`: Defines Ansible groups based on certain criteria. Groups are a way to organize and categorize hosts in the inventory.
 4. `ubuntu: "'ubuntu' in tags.OS"`: Creates an Ansible group named ubuntu. This group includes EC2 instances where the tag named OS has a value of 'ubuntu'.
+
+**Step 3: playbook.yml**
+* This file is defining a set of tasks to be executed on hosts belonging to the ubuntu group.
+
+```yaml
+---
+- hosts: ubuntu
+  become: yes
+  gather_facts: yes 
+  roles:
+    - jenkins      #includes role
+```
+**Step 4: Tasks**
+1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the `install_jenkins.yml` file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
+
+```yaml
+---
+# importing task files
+- name: Include file to install softwares
+  import_tasks: install_jenkins.yml
+```
+
+2. `install_jenkins.yml`: Ansible task folder for setting up Jenkins. It is split into several tasks. Let's break down each part.
+
+```yaml
+---
+# Update APT cache
+- name: Update APT cache
+  apt:
+    update_cache: yes
+
+# Installs jdk if not installed already
+- name: Ensure jdk is installed
+  apt:
+    name: default-jre
+    state: present
+
+# Adds the Jenkins repository's GPG key to the APT keyring
+- name: Add Jenkins apt key in system.
+  apt_key:
+    url: "{{ jenkins_repo_key_url }}"
+    state: present
+
+# Add Jenkins apt repository
+- name: Add Jenkins apt repository.
+  apt_repository:
+    repo: "{{ jenkins_repo_url }}"
+    state: present
+    update_cache: yes
+
+# Install Jenkins
+- name: Install jenkins 
+  apt:
+    name: jenkins
+    state: present 
+
+# Start Jenkins service
+- name: Start service 
+  service:
+    name: jenkins 
+    state: started 
+    enabled: yes 
+
+# Check Jenkins service status
+- name: Check Jenkins service status
+  systemd:
+    name: jenkins
+    state: started
+  ignore_errors: yes
+  register: jenkins_service_status
+
+# Display Jenkins service status
+- name: Display Jenkins service status
+  debug:
+    var: jenkins_service_status
+```
 
 
