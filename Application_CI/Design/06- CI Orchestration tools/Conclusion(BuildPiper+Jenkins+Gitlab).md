@@ -43,9 +43,30 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
    - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
    - It facilitates zero-touch, fully automated, and secured CI/CD pipelines.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f) 
 ***
-## Comparison
+
+Let’s understand the advantages of CI with Jenkins with the following example
+
+Let us imagine, that there are around 10 developers who are working on a shared repository. Some developer completes their task in 25 days while others take 30 days to complete.
+
+| Before CI	| After CI |
+| --------------- | -------------- |
+| <p>Once all Developers had completed their assigned coding tasks, they used to commit their code all at same time. Later, Build is tested and deployed.</p> <p>Code commit built, and test cycle was very infrequent, and a single build was done after many days.</p> | <p>The code is built and test as soon as Developer commits code. Jenkin will build and test code many times during the day.</p> <p>If the build is successful, then Jenkins will deploy the source into the test server and notifies the deployment team.</p> <p>If the build fails, then Jenkins will notify the errors to the developer team.</p> |
+| Since the code was built all at once, some developers would need to wait until other developers finish coding to check their build |	The code is built immediately after any of the Developer commits. |
+| It is not an easy task to isolate, detect, and fix errors for multiple commits. |	Since the code is built after each commit of a single developer, it’s easy to detect whose code caused the built to fail |
+| Code build and test process are entirely manual, so there are a lot of chances for failure. | Automated build and test process saving timing and reducing defects. |
+| The code is deployed once all the errors are fixed and tested.	| The code is deployed after every successful build and test. |
+| Development Cycle is slow | The development cycle is fast. New features are more readily available to users. Increases profits. |
+
+
+
+## Real-world case study of Continuous Integration
+
+I am sure all of you aware of old phone Nokia. Nokia used to implement a procedure called nightly build. After multiple commits from diverse developers during the day, the software built every night. Since the software was built only once in a day, it’s a huge pain to isolate, identify, and fix the errors in a large code base.
+
+Later, they adopted Continuous Integration approach. The software was built and tested as soon as a developer committed code. If any error is detected, the respective developer can quickly fix the defect.
+## Comparison b/w CI tools
 | Criteria  | Jenkins | GitLab | BuildPiper |
 | --------- | -------- | ------ | --------- |
 | **Plugins** | 1700+ plugins |   Limited plugins |  Limited plugins/tools |
