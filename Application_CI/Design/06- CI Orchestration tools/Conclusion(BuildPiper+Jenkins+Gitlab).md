@@ -56,6 +56,7 @@ Later, they adopted Continuous Integration approach. The software was built and 
 Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
 
 Moreover, since Jenkins is written in Java, it is compatible with any system with Java Runtime Environment (JRE) installed. This makes Jenkins widely usable due to its easy availability.
+[jenkins features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/06-%20CI%20Orchestration%20tools/Feature%20document%20of%20Jenkins.md)
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
 
@@ -63,6 +64,7 @@ Moreover, since Jenkins is written in Java, it is compatible with any system wit
 GitLab CI is a self-contained platform supporting the DevOps lifecycle through web-based services. It manages the Git repository through its Continuous Integration and Deployment pipelines, issue-tracking features, and wiki to store relevant files.
 
 GitLab works on a freemium basis, i.e., it offers both free and paid services. It enables automating the entire DevOps lifecycle, which involves planning, building, testing, deployment, and monitoring through release cycles.
+[GitLab features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/06-%20CI%20Orchestration%20tools/Feature%20document%20of%20GitLab.md)
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/53283b3b-45ad-4234-a702-891bcb746af9)
 
@@ -71,6 +73,7 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
    
    - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
    - It facilitates zero-touch, fully automated, and secured CI/CD pipelines.
+[BuildPiper features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/06-%20CI%20Orchestration%20tools/Feature%20document%20of%20BuildPiper.md)
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f) 
 ***
