@@ -62,30 +62,9 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 6. **Integration with Security Tools** - It can be seamlessly combined with other security tools to deliver a holistic security analysis of a project. This collaborative approach enhances the overall security posture and provides a more comprehensive understanding of potential risks.
   
 ***
-## OWASP Installation
+## Proof of Concept (POC) for Dependency-Check:
 
-### 1. Pre-requisite
-
-**Internet Access to retreive NVD Data**
-
-* The NVD is a comprehensive source of vulnerability information. Dependency-Check can use this data to identify known vulnerabilities in your project's dependencies. It can be configured to fetch data from the NVD's Common Vulnerabilities and Exposures (CVE) database during the analysis process. This helps ensure that the tool has up-to-date information about known vulnerabilities. 
-
-* If your environment does not have internet access or if there are restrictions on accessing external resources, Dependency-Check may still function, but it won't be able to fetch the latest vulnerability data from the NVD.
-
-### 2. Installation
-
-* OWASP Dependency-Check is a standalone tool, and it doesn't have additional prerequisites for its core functionality. You can download the Dependency-Check tool plugin in jenkins without requiring any specific plugins or additional installations.
-
-* In your Jenkins dashboard, navigate to `Manage Jenkins` -> `Manage Plugins` Search for `OWASP Dependency-Check` in the available plugins and install it.
-
-<img width="1334" alt="Screenshot 2024-01-30 at 1 49 04 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/7cee9449-7b7c-40e7-9bc1-08f20fc041f9">
-
-
-### 3. Configuration
-
-To set up the configuration, navigate to `tools` in `Manage Jenkins` and select `Dependency-Check Installations`. Within this section, opt for the option to install from GitHub.com. Next, pick the desired version, preferably the latest one available.
-
-<img width="1317" alt="Screenshot 2024-01-30 at 2 00 59 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f2936822-ff27-4e3c-b1cb-fede4d066d65">
+ * It is highly recommended to gain hands-on experience through our detailed Proof of Concept (POC) guide for [Dependency-Check](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning%20POC/README.md). This comprehensive document walks you through a practical demonstration, providing step-by-step instructions on setting up Dependency-Check for a sample project. The POC guide delves into essential concepts into identifying vulnerabilities within project dependencies.
 
 ***
 
