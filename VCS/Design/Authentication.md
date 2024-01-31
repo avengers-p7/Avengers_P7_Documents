@@ -90,6 +90,13 @@ Setting up Single Sign-On (SSO) in GitHub involves using an identity provider (I
 * Review your settings and make sure everything is configured correctly.
 * Save your changes.
 
+  **Note: while trying to configure sso, github is asking for enterprise version.**
+
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/4d96bc9d-389b-46f9-af9d-4e7b0a392caa)
+
+
+
+
 # Conclusion
 
 GitHub authentication plays a pivotal role in securing user accounts and ensuring the integrity of collaborative software development. GitHub provides multiple authentication mechanisms, including the traditional username-password pair, Personal Access Tokens (PATs), and SSH keys. Considering the evolving landscape of security and usability, a robust recommendation for GitHub authentication is to adopt a combination of Two-factor authentication (2FA) and Personal Access Tokens (PATs). Below are strong points for choosing this combination method:
