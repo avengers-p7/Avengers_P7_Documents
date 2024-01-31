@@ -41,7 +41,6 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 | [OWASP Dependency-Check](https://jeremylong.github.io/DependencyCheck/) | OWASP Dependency-Check is a mature and widely adopted tool that identifies project dependencies and checks if there are any known, publicly disclosed vulnerabilities.    |
 | [Synk](https://snyk.io/)  | Synk is a comprehensive security platform that helps developers find and fix vulnerabilities in open-source libraries. It provides insights into dependencies, container images, and infrastructure as code. |
 | [Retire.js](https://retirejs.github.io/retire.js/) | Retire.js is a tool for detecting vulnerable JavaScript libraries. It can be used as a command-line tool or integrated into various build tools. |
-| [Bundler Audit](https://github.com/rubysec/bundler-audit#readme) | Bundler Audit is a tool for checking RubyGem dependencies for known security vulnerabilities. It integrates with Ruby projects using Bundler and can be utilized in Jenkins for secure Ruby application development. |
 
 ***
 ## Why Choose OWASP
