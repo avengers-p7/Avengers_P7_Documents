@@ -8,7 +8,7 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [What is Jenkins?](#What-is-Jenkins)
+2. [Why](#why)
 3. [What is GitLab?](#What-is-GitLab)
 4. [What is BuilPiper?](#what-is-buildpiper)
 5. [Comparison](#Comparison)
