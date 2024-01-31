@@ -163,7 +163,7 @@ groups:
     var: jenkins_service_status
 ```
 
-3. `default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
+3. `Default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
 
 ```yaml
 ---
