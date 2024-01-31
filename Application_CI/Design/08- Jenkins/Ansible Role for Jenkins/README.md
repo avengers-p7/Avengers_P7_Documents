@@ -99,8 +99,20 @@ groups:
 - name: Include file to install softwares
   import_tasks: install_jenkins.yml
 ```
+2. `Default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
 
-2. `install_jenkins.yml`: Ansible task folder for setting up Jenkins. It is split into several tasks. Let's break down each part.
+```yaml
+---
+# defaults file for jenkins
+jenkins_repo_url:  deb https://pkg.jenkins.io/debian-stable binary/ 
+jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
+```
+
+> [!NOTE]
+> To customize the Jenkins version based on your specific requirements, you can override these default values in your playbook. This is particularly useful when you want to install a different version of Jenkins.
+
+
+3. `install_jenkins.yml`: Ansible task folder for setting up Jenkins. It is split into several tasks. Let's break down each part.
 
 ```yaml
 ---
@@ -173,20 +185,6 @@ groups:
 
 * `Display Jenkins service status` : This task simply displays the status of the Jenkins service. It can be helpful for debugging and understanding the result of the previous task.
 
-
-
-
-3. `Default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
-
-```yaml
----
-# defaults file for jenkins
-jenkins_repo_url:  deb https://pkg.jenkins.io/debian-stable binary/ 
-jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
-```
-
-> [!NOTE]
-> To customize the Jenkins version based on your specific requirements, you can override these default values in your playbook. This is particularly useful when you want to install a different version of Jenkins.
 
 **Step 4: Playbook Execution**
 
