@@ -10,9 +10,9 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [CI Tools](#ci-tools)
-3. [Why CI?](#why-ci)
-4. [Case Study](#real-world-case-study-of-continuous-integration)
+2. [Why CI?](#why-ci)
+3. [Case Study](#real-world-case-study-of-continuous-integration)
+4. [CI Tools](#ci-tools)
 5. [Comparison b/w CI tools](#comparison-bw-ci-tools)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#Contact-Information)
