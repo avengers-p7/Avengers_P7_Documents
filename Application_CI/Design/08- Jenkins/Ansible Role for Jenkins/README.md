@@ -163,4 +163,16 @@ groups:
     var: jenkins_service_status
 ```
 
+3. `default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
+
+```yaml
+---
+# defaults file for jenkins
+jenkins_repo_url:  deb https://pkg.jenkins.io/debian-stable binary/ 
+jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
+```
+
+> [!NOTE]
+> To customize the Jenkins version based on your specific requirements, you can override these default values in your playbook. This is particularly useful when you want to install a different version of Jenkins.
+
 
