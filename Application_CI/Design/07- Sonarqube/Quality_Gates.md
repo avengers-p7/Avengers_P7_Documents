@@ -30,13 +30,13 @@ The primary purpose of Quality Gates in SonarQube is to enforce and uphold strin
 
 ***
 
-# What is Quality Gates in SonarQube
+# What is Quality Gates in SonarQube?
 
 Quality Gates play a pivotal role in ensuring the integrity and reliability of software projects by serving as a set of predefined criteria that code must meet to be considered acceptable.In the realm of SonarQube, Quality Gates act as a gatekeeper, allowing only code that meets specified standards to progress through the development lifecycle. 
 
 ***
 
-# Why Quality Gates
+# Why Quality Gates?
 
 | **Reason** | **Description** |
 | ---------- | --------------- |
@@ -49,6 +49,32 @@ Quality Gates play a pivotal role in ensuring the integrity and reliability of s
 ***
 
 # Flow Diagram of Quality Gates in SonarQube
+
+<img width="880" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/505faf45-dcfd-4e48-ae46-f7967409b283">
+
+**Code Commit**: Developers commit code changes to version control.
+
+**Continuous Integration (CI)**: CI server triggers builds and runs tests.
+
+**SonarQube Analysis**: Code undergoes analysis for metrics and issues.
+
+**Quality Gate Check**: SonarQube evaluates against predefined criteria.
+
+**Quality Gate Result**: Code either passes or fails Quality Gate conditions.
+
+**Notification**: Stakeholders are notified, especially for failures.
+
+**Developer Action**: Developers address identified code quality issues.
+
+**Code Re-commit**: Corrected code is re-committed to version control.
+
+**CI Re-Run**: CI detects new changes and triggers another build.
+
+**SonarQube Re-Analysis**: Modified code undergoes re-analysis.
+
+**Quality Gate Re-Check**: Code is re-evaluated against Quality Gate conditions.
+
+**Quality Gate Result (Re-Check)**: If conditions are met, code proceeds; otherwise, the cycle continues until criteria are satisfied.
 
 ***
 
