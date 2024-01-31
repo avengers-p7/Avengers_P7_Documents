@@ -14,11 +14,11 @@
 2.  Why is it Important to monitor Jenkins
 3.  Key performance Metrics of Jenkins
 4.  What is Prometheus
-5.  features and components of Prometheus
+5.  Features and components of Prometheus
 6.  Monitoring Websites using Grafana and Prometheus
 7.  Network Setup
 8.  POC for Grafana and Prometheus
-9.  conclusion
+9.  Conclusion
 10. Contact Information 
 11. References
 
@@ -86,7 +86,7 @@ Prometheus is an open-source monitoring and alerting toolkit designed for reliab
 
 ***
 
-# What is Graphana 
+# What is Grafana 
 
 
 Grafana is an open-source platform for monitoring and observability that provides a flexible and powerful way to visualize and analyze metrics, logs, and other data. Originally focused on time-series data, Grafana has evolved into a comprehensive observability platform that can integrate with various data sources, including databases, logs, and other monitoring systems. It is widely used in the DevOps and IT communities for creating dashboards, exploring data, and setting up alerts.
