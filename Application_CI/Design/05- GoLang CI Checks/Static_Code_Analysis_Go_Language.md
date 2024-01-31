@@ -47,3 +47,7 @@ Our primary concern is detecting and mitigating security vulnerabilities in my G
 2. Install gosec
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/53abdfe0-c8d3-43a2-80c1-c5ab37d721a7)
+
+![WhatsApp Image 2024-01-31 at 18 29 49_ad9184ce](https://github.com/avengers-p7/Documentation/assets/156056460/db86ed1c-60c7-46ca-a9f3-77881921dd4e)
+
+
