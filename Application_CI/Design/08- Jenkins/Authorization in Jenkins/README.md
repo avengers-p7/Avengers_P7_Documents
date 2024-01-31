@@ -1,4 +1,6 @@
 # Authorization in Jenkins
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/b4e57fae-f987-4feb-9bec-e90d149b3759)
+
 
 | Author | Created on  | Version    | Last Updated by | Last Updated on |
 | -------- | ------- | -------------- | --------------| ---------------- |
