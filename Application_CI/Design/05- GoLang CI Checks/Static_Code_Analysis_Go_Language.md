@@ -41,3 +41,9 @@ These tools are useful as they provide immediate feedback to the developer on is
 Our primary concern is detecting and mitigating security vulnerabilities in my Go code, gosec is a compelling choice. Its focus, ease of use, and free availability make it an efficient and cost-effective tool for ensuring secure coding practices.
 
 # POC of Static Code Analysis
+
+# Prerequisites
+1. Install go 
+2. Install gosec
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/53abdfe0-c8d3-43a2-80c1-c5ab37d721a7)
