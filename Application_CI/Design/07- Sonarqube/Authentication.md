@@ -6,10 +6,10 @@
 ***
 ## Table Of Contents 
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication%20&%20Authorization.md#introduction)
-+ [Authentication]()
++ [Authentication](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#authentication)
 + [Authentication Mechanism]()
 + [Technical Details]()
-+ [Conclusion]
++ [Conclusion]()
 + [Contact Information]()
 + [References]()
 
