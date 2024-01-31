@@ -11,13 +11,15 @@
 + [Contact Information](#contact-information)
 + [References](#references)
 
+***
 ## Introduction 
 * Dependency scanning is a crucial aspect of modern software development, ensuring the security and reliability of your projects. This process involves identifying and managing the third-party libraries and frameworks your project depends on. By scanning for known vulnerabilities in these dependencies, you can proactively address potential security risks and keep your applications robust and secure. This document will guide you through a Proof of Concept (PoC) for setting up and utilizing OWASP Dependency-Check to perform comprehensive dependency scanning in your projects.
 
-
+***
 ## OWASP Dependency-Check
 OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects. 
 
+***
 ## Proof of Concept (PoC) - Setting Up Dependency Scanning
 ### 1. Pre-requisite
 
@@ -80,8 +82,24 @@ mvn clean install dependency-check:check -Dformat=ALL
 
 <img width="722" alt="Screenshot 2024-01-31 at 6 18 35 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/98a80636-753a-4cb6-b39e-5454472ada01">
 
-* The summary of your dependencies with vulnerabilities would be presented as follows:
-  
-<img width="1344" alt="Screenshot 2024-01-31 at 6 18 17 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/b92bf279-f597-4a02-b83f-19114dbc0e40">
+***
+## Conclusion
+
+* In conclusion, integrating OWASP Dependency-Check into your development process offers a proactive approach to identifying and mitigating potential security risks associated with third-party dependencies. By regularly scanning and analyzing your project dependencies, you can stay ahead of known vulnerabilities, ensuring the overall security and reliability of your software applications
+
+***
+## Contact Information
+
+|Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
+|---------------------------------|------------------------------------------------------------|
+
+***
+## References
+
+| Title                                      | URL                                           |
+|--------------------------------------------|-----------------------------------------------|
+| Dependency-Check User Guide           | https://jeremylong.github.io/DependencyCheck/    |
+| OWASP Dependency-Check GitHub Repository    | https://github.com/jeremylong/DependencyCheck  |
+
 
 
