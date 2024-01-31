@@ -24,7 +24,7 @@
 This documentation provides a brief introduction of CI Orchestration tools(Jenkins, GitLab and BuildPiper) and comparison between them.
 ### Continuous Integration
 Continuous Integration is a software development practice where code changes are automatically integrated and tested frequently. Developers submit their code changes to a shared repository, triggering an automated build and test process. This ensures that the codebase is always in a functional state. Continuous Integration addresses challenges in software development by automating the integration of code changes from multiple contributors. It aims to detect and fix integration issues early in the development process, promoting collaboration and delivering more reliable software.
-
+***
 ## CI Tools
 ### Jenkins
 Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
@@ -32,14 +32,14 @@ Jenkins is an automation server that is self-contained and open source. It allow
 Moreover, since Jenkins is written in Java, it is compatible with any system with Java Runtime Environment (JRE) installed. This makes Jenkins widely usable due to its easy availability.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
-***
+
 ### GitLab
 GitLab CI is a self-contained platform supporting the DevOps lifecycle through web-based services. It manages the Git repository through its Continuous Integration and Deployment pipelines, issue-tracking features, and wiki to store relevant files.
 
 GitLab works on a freemium basis, i.e., it offers both free and paid services. It enables automating the entire DevOps lifecycle, which involves planning, building, testing, deployment, and monitoring through release cycles.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/53283b3b-45ad-4234-a702-891bcb746af9)
-***
+
 ### BuildPiper
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
    
@@ -61,7 +61,7 @@ Let us imagine, that there are around 10 developers who are working on a shared 
 | Code build and test process are entirely manual, so there are a lot of chances for failure. | Automated build and test process saving timing and reducing defects. |
 | The code is deployed once all the errors are fixed and tested.	| The code is deployed after every successful build and test. |
 | Development Cycle is slow | The development cycle is fast. New features are more readily available to users. Increases profits. |
-
+***
 ## Real-world case study of Continuous Integration
 
 I am sure all of you aware of old phone Nokia company. Nokia used to implement a procedure called nightly build. After multiple commits from diverse developers during the day, the software built every night. Since the software was built only once in a day, it’s a huge pain to isolate, identify, and fix the errors in a large code base.
@@ -69,7 +69,7 @@ I am sure all of you aware of old phone Nokia company. Nokia used to implement a
 Later, they adopted Continuous Integration approach. The software was built and tested as soon as a developer committed code. If any error is detected, the respective developer can quickly fix the defect.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/f01db98d-747c-4e1a-b7a7-d9398654a8be)
-
+***
 ## Comparison b/w CI tools
 | Criteria  | Jenkins | GitLab | BuildPiper |
 | --------- | -------- | ------ | --------- |
