@@ -1,0 +1,124 @@
+{
+        "Golang errors": {},
+        "Issues": [
+                {
+                        "severity": "LOW",
+                        "confidence": "HIGH",
+                        "cwe": {
+                                "id": "703",
+                                "url": "https://cwe.mitre.org/data/definitions/703.html"
+                        },
+                        "rule_id": "G104",
+                        "details": "Errors unhandled.",
+                        "file": "/home/ubuntu/Employee-API/main.go",
+                        "code": "46: \trouter.GET(\"/swagger/*any\", ginSwagger.WrapHandler(swaggerfiles.Handler, url))\n47: \trouter.Run(\":8080\")\n48: }\n",
+                        "line": "47",
+                        "column": "2",
+                        "nosec": false,
+                        "suppressions": null
+                },
+                {
+                        "severity": "LOW",
+                        "confidence": "HIGH",
+                        "cwe": {
+                                "id": "703",
+                                "url": "https://cwe.mitre.org/data/definitions/703.html"
+                        },
+                        "rule_id": "G104",
+                        "details": "Errors unhandled.",
+                        "file": "/home/ubuntu/Employee-API/api/api.go",
+                        "code": "231: \t\t}\n232: \t\tjson.Unmarshal(jsonData, \u0026response)\n233: \t\tlogrus.Infof(\"Successfully fetched the data for %s from the ScyllaDB\", id)\n",
+                        "line": "232",
+                        "column": "3",
+                        "nosec": false,
+                        "suppressions": null
+                },
+                {
+                        "severity": "LOW",
+                        "confidence": "HIGH",
+                        "cwe": {
+                                "id": "703",
+                                "url": "https://cwe.mitre.org/data/definitions/703.html"
+                        },
+                        "rule_id": "G104",
+                        "details": "Errors unhandled.",
+                        "file": "/home/ubuntu/Employee-API/api/api.go",
+                        "code": "207: \t\t}\n208: \t\tjson.Unmarshal([]byte(redisData), \u0026response)\n209: \t\tif redisError == nil {\n",
+                        "line": "208",
+                        "column": "3",
+                        "nosec": false,
+                        "suppressions": null
+                },
+                {
+                        "severity": "LOW",
+                        "confidence": "HIGH",
+                        "cwe": {
+                                "id": "703",
+                                "url": "https://cwe.mitre.org/data/definitions/703.html"
+                        },
+                        "rule_id": "G104",
+                        "details": "Errors unhandled.",
+                        "file": "/home/ubuntu/Employee-API/api/api.go",
+                        "code": "151: \t\t}\n152: \t\tjson.Unmarshal([]byte(redisData), \u0026response)\n153: \t\tif redisError == nil {\n",
+                        "line": "152",
+                        "column": "3",
+                        "nosec": false,
+                        "suppressions": null
+                },
+                {
+                        "severity": "LOW",
+                        "confidence": "HIGH",
+                        "cwe": {
+                                "id": "703",
+                                "url": "https://cwe.mitre.org/data/definitions/703.html"
+                        },
+                        "rule_id": "G104",
+                        "details": "Errors unhandled.",
+                        "file": "/home/ubuntu/Employee-API/api/api.go",
+                        "code": "127: \tlogrus.Infof(\"Successfully fetched the data for all location from the ScyllaDB\")\n128: \tjson.Unmarshal(jsonData, \u0026locationResponse)\n129: \tc.JSON(http.StatusOK, locationResponse)\n",
+                        "line": "128",
+                        "column": "2",
+                        "nosec": false,
+                        "suppressions": null
+                },
+                {
+                        "severity": "LOW",
+                        "confidence": "HIGH",
+                        "cwe": {
+                                "id": "703",
+                                "url": "https://cwe.mitre.org/data/definitions/703.html"
+                        },
+                        "rule_id": "G104",
+                        "details": "Errors unhandled.",
+                        "file": "/home/ubuntu/Employee-API/api/api.go",
+                        "code": "94: \t\t}\n95: \t\tjson.Unmarshal([]byte(redisData), \u0026locationResponse)\n96: \t\tif redisError == nil {\n",
+                        "line": "95",
+                        "column": "3",
+                        "nosec": false,
+                        "suppressions": null
+                },
+                {
+                        "severity": "LOW",
+                        "confidence": "HIGH",
+                        "cwe": {
+                                "id": "703",
+                                "url": "https://cwe.mitre.org/data/definitions/703.html"
+                        },
+                        "rule_id": "G104",
+                        "details": "Errors unhandled.",
+                        "file": "/home/ubuntu/Employee-API/api/api.go",
+                        "code": "70: \tlogrus.Infof(\"Successfully fetched the data for all designation from the ScyllaDB\")\n71: \tjson.Unmarshal(jsonData, \u0026designationResponse)\n72: \tc.JSON(http.StatusOK, designationResponse)\n",
+                        "line": "71",
+                        "column": "2",
+                        "nosec": false,
+                        "suppressions": null
+                }
+        ],
+        "Stats": {
+                "files": 12,
+                "lines": 943,
+                "nosec": 0,
+                "found": 7
+        },
+        "GosecVersion": "v2.18.2"
+}
