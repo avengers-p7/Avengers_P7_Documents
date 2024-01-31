@@ -136,5 +136,6 @@ go build -o employee-api
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
 # Resources and References
-| [Code Compilation](https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know) |
-| [POC](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/) |
+[Code Compilation](https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know) 
+
+[POC](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/) 
