@@ -163,6 +163,25 @@ groups:
     var: jenkins_service_status
 ```
 
+**Explanation:**
+
+* `Update APT cache`: This task updates the local package cache on the target system. It ensures that the system has the latest information about available.
+
+* `Ensure JDK is installed`: This task ensures that the default Java Runtime Environment (JRE) is installed on the target system. It installs the package default-jre if it's not already installed.
+
+* `Add Jenkins apt key to the system`: Adds the Jenkins repository's GPG key to the APT keyring on the target system. `The jenkins_repo_key_url` variable should contain the URL of the Jenkins repository's GPG key.
+
+* `Add Jenkins apt repository`: Adds the Jenkins APT repository to the system's list of package sources. The jenkins_repo_url variable should contain the URL of the Jenkins APT repository. `The update_cache: yes` option ensures that the APT cache is updated after adding the repository.
+
+* `Install Jenkins`: Installs the Jenkins package on the target system.
+
+* `Start Jenkins service`: This task starts the Jenkins service and ensures that it is enabled to start on boot.
+
+* `Check Jenkins service status` : Checks the status of the Jenkins service. The `ignore_errors: yes` option allows the playbook to continue even if there is an error (e.g. if the service is not found). The result is registered in the jenkins_service_status variable.
+
+* `Display Jenkins service status` : This task simply displays the status of the Jenkins service. It can be helpful for debugging and understanding the result of the previous task.
+
+
 3. `Default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
 
 ```yaml
@@ -174,5 +193,41 @@ jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 
 > [!NOTE]
 > To customize the Jenkins version based on your specific requirements, you can override these default values in your playbook. This is particularly useful when you want to install a different version of Jenkins.
+
+**Step 4: Playbook Execution**
+
+* To set up Jenkins on your target servers, you will execute the Ansible playbook using the following command:
+
+```bash
+ansible-playbook -i aws_ec2.yml playbook.yml
+```
+
+1. `ansible-playbook`: To run Ansible playbook
+
+2. `-i aws_ec2.yml` : The -i option specifies the inventory file. In this case, it points to the aws_ec2.yml file, which contains information about your AWS EC2 instances.
+
+3. `playbook.yml`: This is the main playbook file containing the instructions for setting up Jenkins. You can customize this playbook according to your requirements.
+
+> Additional Option
+> --limit: You can use the --limit option to specify a subset of hosts from the inventory on which the playbook should be executed.
+> -e or --extra-vars: You can pass extra variables to the playbook using this option.
+
+
+<img width="925" alt="Screenshot 2024-02-01 at 2 07 56 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/38f31390-31ff-4591-a34d-8a23d96eaf49">
+
+<img width="947" alt="Screenshot 2024-02-01 at 2 07 24 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9e7fd3a7-5ac9-476c-8b55-35f969e0121b">
+
+
+## Output
+1.  **Host-level output**: Output for each host would indicate whether the playbook execution was successful or not.
+
+<img width="1107" alt="Screenshot 2024-02-01 at 2 09 25 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/3596ed2f-56b2-4d22-a542-abcb936fc3f4">
+
+2. **Colorized Output**: Ansible uses colorized output to make it easier to identify successful, changed, or failed tasks. Successful tasks are often displayed in green, changed tasks in yellow, and failed tasks in red.
+
+<img width="947" alt="Screenshot 2024-02-01 at 2 07 24 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/17399616-2a58-406d-affd-ca529e5ed158">
+
+
+
 
 
