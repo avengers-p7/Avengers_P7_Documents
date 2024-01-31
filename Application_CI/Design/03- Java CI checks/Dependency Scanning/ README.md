@@ -9,6 +9,7 @@
 + [Introduction](#Introduction)
 + [Key Components](#key-points)
 + [Popular Tools](#popular-tools)
++ [Tool Comparison](#tool-comparison)
 + [Guide to Installation](#Installing-OWASP-Dependency-Check)
 + [Best Practices](#best-practices)
 + [Security Compliance](#security-compliance)
