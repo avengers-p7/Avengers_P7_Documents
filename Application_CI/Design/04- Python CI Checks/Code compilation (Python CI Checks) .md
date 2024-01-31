@@ -12,7 +12,7 @@
 + [Different Tools](#Different-Tools)
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
-+ [Best Practices](#Best-Pratices)
++ [Best Practices](#Best-Practices)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#References)
