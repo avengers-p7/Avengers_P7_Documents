@@ -10,8 +10,8 @@
 + [Authentication Mechanism](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#authentication-mechanisms)
 + [Technical Details](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#technical-details)
 + [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#conclusion)
-+ [Contact Information]()
-+ [References]()
++ [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#contact-information)
++ [References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication.md#references)
 
 ## Introduction
 SonarQube comes with a number of global security features:
