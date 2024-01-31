@@ -9,8 +9,6 @@
 + [Introduction](#Introduction)
 + [OWASP](#owasp-dependency-check)
 + [Proof of Concept](#Proof-of-Concept-(PoC)---Setting-Up-Dependency-Scanning)
-+ [Guide to Installation](#Installing-OWASP-Dependency-Check)
-+ [Jenkins Job Configuration](#jenkins-job-setup)
 + [Best Practices](#best-practices)
 + [Security Compliance](#security-compliance)
 + [Contact Information](#contact-information)
