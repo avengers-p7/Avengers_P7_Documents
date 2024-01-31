@@ -7,8 +7,8 @@
 ---
 # Table of Contents 
 + [Introduction](#introduction)
-+ [What is Code compilation?](#What-is-Code-compilation?)
-+ [Why Code Compilation?](#Why-Code-Compilation?)
++ [What is Code compilation](#What-is-Code-compilation)
++ [Why Code Compilation](#Why-Code-Compilation)
 + [Different Tools](#Different-Tools)
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
@@ -22,11 +22,11 @@
 # Introduction
 Code compilation in Continuous Integration (CI) checks is a crucial aspect of software development, especially in Python projects. It ensures that code changes integrate smoothly into the existing codebase and adhere to coding standards. This document explores the significance of code compilation in Python CI, different tools available, advantages, best practices, and recommendations.
 
-# What is Code compilation?
+# What is Code compilation
 
 Code compilation is the process of converting source code written in a high-level programming language into machine code that can be executed by a computer. In the context of Python, code compilation is the process of converting Python code into bytecode that can be executed by the Python interpreter.
 
-# Why Code Compilation?
+# Why Code Compilation
 
 Code compilation is an essential step in the software development lifecycle. It ensures that the code is free of syntax errors and can be executed without any issues. In the context of Python CI checks, code compilation helps to identify any issues early in the development process, reducing the time and effort required to fix them.
 
