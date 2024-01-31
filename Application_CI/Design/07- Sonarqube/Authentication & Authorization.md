@@ -5,9 +5,9 @@
 | Aakash Tripathi | 30 Jan 2024   |     v1     | Aakash Tripathi | 30 Jan 2024    |
 ***
 ## Table Of Contents 
-+ [Introduction]
-+ [Authentication]
-+ 
++ [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/Authentication%20&%20Authorization.md#introduction)
++ [Authentication]()
++ [Authentication Mechanism]()
 
 
 ## Introduction
@@ -26,7 +26,7 @@ By default, SonarQube forces user authentication. We can  disable forced user au
 ### API endpoints authentication
 If the **Force user authentication** property is set to *false*, the following API endpoints are accessible without authentication (click API endpoints below to expand the list):
 
-<details open>
+<details close>
   <summary>API Endpoints</summary>
 <br>api/components/search</br>
 <br>api/issues/tags</br>
@@ -64,6 +64,23 @@ If the **Force user authentication** property is set to *false*, the following A
 <br>api/webservices/list</br>
 <br>api/webservices/response_example</br>
 </details>
+
+## Authentication Mechanisms
+Authentication can be managed through a number of mechanisms:
++ Via the SonarQube built-in users/groups database.
++ Via several delegated authentication method
+
+### Supported authentication methods
+We can use one of the following authentication methods to allow the same authentication between SonarQube and your authentication system:
+
+| **Authentication Method** | **Description** |
+| ------------------------- | --------------- |
+|[ **HTTP header** ](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/http-header/)| We can delegate user authentication to third-party systems (proxies/servers) using HTTP header authentication. |
+| [ **LDAP** ](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/ldap/) | You can configure SonarQube authentication and authorization to an LDAP server (including the LDAP service of Active Directory) by configuring the correct values in *<sonarqubeHome>/conf/sonar.properties* |
+| [ **SAML** ](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/saml/overview/) | You can delegate authentication to a SAML 2.0 identity provider using SAML authentication. SonarQube uses the Service Provider (SP) initiated SAML. Available with [Azure AD](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/saml/how-to-set-up-azure-ad/),[Keycloak](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/saml/how-to-set-up-keycloak/),[Okta](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/saml/how-to-set-up-okta/) |
+| [ **GitHub** ](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/github/) | To allow users to log in with GitHub credentials, you'll need to connect SonarQube to a GitHub App. This will also allow you to configure user, group, and permission provisioning. |
+| [ **Bitbucket Cloud** ](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/bitbucket-cloud/) | To allow users to log in with Bitbucket Cloud credentials, you need to use an OAuth consumer and set the authentication settings in SonarQube. |
+| [ **GitLab** ](https://docs.sonarsource.com/sonarqube/latest/instance-administration/authentication/gitlab/)| You can delegate authentication to GitLab using a dedicated GitLab OAuth application. |
 
 # Contact Information
 
