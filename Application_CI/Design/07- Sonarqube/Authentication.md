@@ -22,6 +22,8 @@ This document explores authentication mechanisms in SonarQube
 ***
 
 ## Authentication 
+![images](https://github.com/avengers-p7/Documentation/assets/156056344/cae35163-f68a-4fb6-9be3-eaacb432e004)
+
 By default, SonarQube forces user authentication. We can  disable forced user authentication, and allow anonymous users to browse projects and run analyses in our instance. To do this, log in as a **system administrator**, go to **Administration** > **Configuration** > **General Settings** > **Security**, and disable the **Force user authentication property**.
 
 > [!WARNING]
