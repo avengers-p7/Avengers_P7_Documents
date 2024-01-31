@@ -5,6 +5,17 @@
 
 # Code Compilation - Go language CI Checks 
 
+# Table of Contents
+[What is Code Compilation in CI Checks](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#what-is-code-compilation-in-ci-checks)
+[Why we need Code Compilation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#why-we-need-code-compilaton)
+[Different tools used in Code Compilation of Go lang](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#different-tools-used-in-code-compilation-of-go-lang)
+[Comparison between go build and go tool compile](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#comparison-between-go-build-and-go-tool-compile)
+[Is go build better than go tool compile?](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#is-go-build-better-than-go-tool-compile)
+[POC of Code Compilation in Go](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#poc-of-code-compilation-in-go)
+[Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#conclusion)
+[Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#contact-information)
+[Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#resources-and-references)
+***
 # What is Code Compilation in CI Checks
 Code compilation in CI checks refers to the process of compiling the source code of a project as part of a Continuous Integration (CI) pipeline. 
 CI is a software development practice that involves automatically building and testing code changes made by developers, ensuring that the code is free of errors and adheres to the rules of the programming language.
