@@ -76,4 +76,18 @@ gosec -fmt=json -out=gosec-report.json ./...
 ```
 ![WhatsApp Image 2024-01-31 at 18 33 43_6e7f4263](https://github.com/avengers-p7/Documentation/assets/156056460/966d3263-5618-4a6f-b2b6-be0e80cf6253)
 ***
+[gosec-report.json](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/gosec-report.json)
 
+
+# Conclusion
+Gosec is a powerful tool for enhancing Go code security through static analysis. Its integration into development workflows and careful attention to its findings can significantly reduce vulnerabilities and strengthen application resilience.
+
+# Contact Information
+| Name            | Email Address                        |
+|-----------------|--------------------------------------|
+| Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
+
+# Resources and References
+[What is Static Code Analysis](https://owasp.org/www-community/controls/Static_Code_Analysis)
+[Why we need Static Code Analysis](https://softwareengineering.stackexchange.com/questions/27682/what-are-the-real-benefits-of-static-code-analysis)
+[gosec](https://opensource.com/article/20/9/gosec)
