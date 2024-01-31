@@ -207,6 +207,7 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 3. `playbook.yml`: This is the main playbook file containing the instructions for setting up Jenkins. You can customize this playbook according to your requirements.
 
 > Additional Option
+> 
 > --limit: You can use the --limit option to specify a subset of hosts from the inventory on which the playbook should be executed.
 > -e or --extra-vars: You can pass extra variables to the playbook using this option.
 
