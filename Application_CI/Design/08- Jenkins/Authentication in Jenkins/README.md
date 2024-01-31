@@ -27,9 +27,7 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 1. A Security Realm which informs the Jenkins environment how and where to pull user (or identity) information from. Also commonly known as Authentication.
 
 2. Authorization configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/2fcad4dd-e3a4-4799-a35c-48336b519b1b)
-
+***
 ## Prerquisites
 | Prerequisite | Description |
 | ------------ | ------------ |
