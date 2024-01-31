@@ -38,7 +38,7 @@ Before using this Ansible role to set up Jenkins, ensure that the following prer
 
 ***
 # Steps 
-* Before going further check the link for Ansible Code: 
+* Before going further check the link for Ansible Code: https://github.com/vyadavP7/Jenkins-AnsibleRole
 
 **Step 1: Dynamic Inventory Setup** 
 
