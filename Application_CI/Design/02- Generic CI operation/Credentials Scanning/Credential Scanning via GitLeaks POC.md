@@ -5,11 +5,10 @@
 ***
 ## Table Of Contents 
 + [Introduction](#introduction)
-+ [GitLeaks]()
-+ [GitLeaks Installation]()
-+ [Credential Scanning via GitLeaks]()
-+ [GitLeaks: Other Use Cases]()
-+ [Conclusion]()
++ [GitLeaks](#gitleaks)
++ [GitLeaks Installation](#gitleaks-installation)
++ [Credential Scanning via GitLeaks](#credential-scanning-via-gitleaks)
++ [Conclusion](#conclusion)
 + [Contact Information]()
 + [References]()
 ***
