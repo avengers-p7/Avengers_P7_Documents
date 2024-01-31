@@ -66,7 +66,24 @@ Comparison of Tools: Here is a comparison of the different tools for code compil
 
 # Proof of Concept
 
-!!.......baad me banaunga.......!!
+**Step-1** Cloning repo
+
+``` shell 
+git clone https://github.com/avengers-p7/Attendance-API.git
+```
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/a7ad5dba-62d4-4449-b99c-ba7bd8862fa1)
+
+
+**Step-2** Install PyBuilder using pip
+
+``` shell 
+ pip install pybuilder
+```
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/b52662eb-6212-4386-ae6b-f3813232957a)
+
+
+
+
 
 
 # Best Practices
