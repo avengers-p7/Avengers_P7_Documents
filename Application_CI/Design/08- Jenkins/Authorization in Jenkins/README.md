@@ -32,6 +32,18 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/05ce71b6-4e02-467e-af7f-37f94a33d41e)
 ***
+## Why 
+Authorization in Jenkins is essential for maintaining a secure and controlled environment for continuous integration and deployment.
+
+| Reasons                   | Description                                               |
+| ------------------------- | --------------------------------------------------------- |
+| **Access Control**        | Restricting user access based on roles.                   |
+| **Security**              | Preventing unauthorized access and potential breaches.    |
+| **Compliance**            | Meeting regulatory standards through controlled access.   |
+| **Configuration Control** | Managing who can modify job configurations.               |
+| **Resource Control**      | Regulating access to distributed nodes or agents.         |
+
+In essence, it ensures a secure, controlled, and compliant CI/CD environment.
 ## What is GitLab?
 GitLab CI is a self-contained platform supporting the DevOps lifecycle through web-based services. It manages the Git repository through its Continuous Integration and Deployment pipelines, issue-tracking features, and wiki to store relevant files.
 
