@@ -1,4 +1,4 @@
-# Cloud Infra Design Dev
+# Cloud Infra Design 30k Feet
 
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
@@ -26,7 +26,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 
 ***
-# Cloud Infra Design Dev Details
+# Cloud Infra Design  Details
 
 | Service         | Item                  | Description                                         |
 |-----------------|-----------------------|-----------------------------------------------------|
@@ -58,7 +58,8 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 # Infrastructure Diagram
 
-![Cloud-Infra-30k feet](https://github.com/avengers-p7/Documentation/assets/156056709/b989a31a-00d1-4798-9e87-3b3f007c87d6)
+![Cloud-Infra-30k feet (2)](https://github.com/avengers-p7/Documentation/assets/156056709/4c99c101-c423-4c70-a189-a990eb4e5b1d)
+
 
 
 **Description**
