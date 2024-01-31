@@ -67,7 +67,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
   ```
   <img width="760" length="200" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/c12a898d-f9bd-4865-82f4-0eaf01f6e481">  
 
-* **Install Prerequisites**
+#### Install Prerequisites
    ```shell
   sudo apt update
   sudo snap install go --classic
