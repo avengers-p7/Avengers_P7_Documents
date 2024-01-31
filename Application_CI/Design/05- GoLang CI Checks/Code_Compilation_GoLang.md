@@ -116,7 +116,6 @@ go build -o employee-api
 ![WhatsApp Image 2024-01-31 at 02 44 17_a2bf763a](https://github.com/avengers-p7/Documentation/assets/156056460/8957a7ce-e4a7-4c1e-87b4-cdc96bfe3283)
 ***
 
-***
 **Step-7** Run the Tests:
 - Open a terminal (or command prompt) in the project directory.
 - Execute the command
