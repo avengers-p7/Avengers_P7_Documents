@@ -171,8 +171,9 @@ groups:
 
 * `Check Jenkins service status` : Checks the status of the Jenkins service. The `ignore_errors: yes` option allows the playbook to continue even if there is an error (e.g. if the service is not found). The result is registered in the jenkins_service_status variable.
 
----
 * `Display Jenkins service status` : This task simply displays the status of the Jenkins service. It can be helpful for debugging and understanding the result of the previous task.
+
+
 
 
 3. `Default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
