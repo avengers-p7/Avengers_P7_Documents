@@ -120,7 +120,7 @@ go build -o employee-api
 - Open a terminal (or command prompt) in the project directory.
 - Execute the command
 ```shell
- go test
+ go test ./...
 ```
 ![WhatsApp Image 2024-01-31 at 20 23 27_a38d6a1e](https://github.com/avengers-p7/Documentation/assets/156056460/8feab0ce-55c4-44fa-b581-9bf9f98e279c)
 
