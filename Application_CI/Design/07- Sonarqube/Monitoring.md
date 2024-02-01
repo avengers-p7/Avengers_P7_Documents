@@ -13,7 +13,7 @@
 4. [Key Metrics in Sonarqube commonly monitored](#key-metrics-in-sonarqube-commonly-monitored)
 5. [Flow Diagram of Monitoring Metrics in SonarQube](#flow-diagram-of-monitoring-metrics-in-sonarQube)
 6. [Advantages of Monitoring Metrics](#advantages-of-monitoring-metrics)
-7. [Disadvantages of Monitoring Metrics](#disadvantages-of-monotoring-metrics)
+7. [Disadvantages of Monitoring Metrics](#disadvantages-of-monitoring-metrics)
 8. [Best Practices](#best-practices)
 9. [Conclusion](#conclusion)
 10. [Contact Information](#contact-information)
