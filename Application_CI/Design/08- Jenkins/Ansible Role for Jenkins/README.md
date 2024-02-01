@@ -223,8 +223,7 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 
 3. **Verify Tags**: Verify that the Jenkins installation is on the instance with the mentioned tags.
 
-<img width="734" alt="Screenshot 2024-02-01 at 2 19 37 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8aeacd73-d81f-474e-b81a-63d80ee03d3d">
-
+<img width="764" alt="Screenshot 2024-02-01 at 9 26 33 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/aa56992e-6702-40f8-a80c-39c49f53856a">
 
 ***
 ## Conclusion 
