@@ -30,7 +30,7 @@ Unit testing involves breaking down a software system into small, testable parts
 ### Importance in Software Development
 Unit testing plays a pivotal role in maintaining code quality, reducing bugs, and facilitating continuous integration and delivery processes. It helps catch issues early in the development cycle, making it easier and less costly to fix defects.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/c7695499-a3e5-43a9-afe7-1de7d0e4fb22)
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/cef4045f-757a-46f4-a643-49a8dc223cac)
 
 ***
 # What is Unit Testing?
@@ -101,3 +101,6 @@ When selecting a unit testing tool, consider the specific needs of your applicat
 # References
 | Source | Description  | 
 | -------- | ------- | 
+| https://smartbear.com/learn/automated-testing/what-is-unit-testing/ | Unit Testing |
+| https://www.spiceworks.com/tech/devops/articles/what-is-unit-testing/ | Tools |
+| https://www.testingxperts.com/blog/python-unit-testing | Best practice & Advantages |
