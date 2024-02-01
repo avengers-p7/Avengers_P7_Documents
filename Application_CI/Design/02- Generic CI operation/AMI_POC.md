@@ -2,7 +2,7 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Shreya Jaiswal** | **29-01-2024** | **30-01-2024** | **v1** |
+| **Shreya Jaiswal** | **29-01-2024** | **01-02-2024** | **v1** |
 
 ***
 
@@ -57,7 +57,7 @@ when using Packer to create a new Amazon Machine Image (AMI), you typically star
 
 Packer needs AWS credentials to authenticate and interact with your AWS account when creating and managing resources.For this, I have created a **"variables.pkrvars.hcl"** file to store AWS credentials.In this file, I have added the **"Access Key & Secret Key"**.
 
-<img width="425" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/f6829560-c04b-43aa-9815-459e9c10d820">
+<img width="405" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4b0da971-8e57-42b2-b585-357839c0af63">
 
 ***
 
