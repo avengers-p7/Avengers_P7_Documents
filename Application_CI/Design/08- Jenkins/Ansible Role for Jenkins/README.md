@@ -19,6 +19,12 @@
 # Introduction
 This role is designed to automate the installation and configuration of Jenkins on target servers. Whether you're setting up Jenkins for continuous integration, continuous delivery, or other purposes, this role aims to simplify the process.
 
+
+***
+Flow Diagram
+
+<img width="1197" alt="Screenshot 2024-02-01 at 4 19 50 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/73aef5f2-f1ce-402f-8015-c44e7b14236b">
+
 ***
 ## Pre-requisites
 
