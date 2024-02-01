@@ -90,7 +90,7 @@ After all the installation process,just make sure that Packer is installed succe
 
 Create a Packer template file in either JSON or HashiCorp Configuration Language (HCL). This file defines the configuration for building the AMI, including the source image, provisioners, and post-processors.Created a template file named **"ami.pkr.hcl"**.
 
-<img width="738" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4638f024-4f94-46d3-8a9e-873dbd930ef5">
+<img width="950" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/12d832f9-2568-4fb4-bf96-2f9a6addc782">
 
 ***
 
