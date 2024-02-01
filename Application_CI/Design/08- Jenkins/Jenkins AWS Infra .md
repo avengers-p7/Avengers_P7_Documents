@@ -9,7 +9,7 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Infra Details](#infra-details)
+3. [Description](#Description)
 4. [Infrastructure Diagram](#infrastructure-diagram)
 5. [Contact Information](#contact-information)
 6. [References](#References)
@@ -24,12 +24,15 @@ This document shows an overview of our AWS Infra for Jenkins.
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.    |
 
-# Cloud Infra Design  Details
 
-| Service         | Item                  | Description                                         |
-|-----------------|-----------------------|-----------------------------------------------------|
+**Description**
 
-
+* Users connect to the environment through the internet.
+* Traffic is directed through public subnets and security groups.
+* Private components have internet access via the NAT gateway.
+* Secure access to private resources is facilitated by bastion instances.
+* Components are deployed within Virtual Private Clouds.
+* Load balancer is configured for HA. 
 
 
 # Infrastructure Diagram
