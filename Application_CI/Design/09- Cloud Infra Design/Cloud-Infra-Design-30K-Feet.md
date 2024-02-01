@@ -33,31 +33,30 @@ To create the infrastructure, I used the following services on AWS and implement
 
 | Service         | Item                  | Description                                         |
 |-----------------|-----------------------|-----------------------------------------------------|
-| **Region**      | **Europe**               | Frankfurt (eu-central-1)                         |
-| **Availability Zone**          | **eu-central-1a**         | Primary availability zone for the region.       |
+| **Region**      | **Europe**            |           Frankfurt (eu-central-1)                  |
+| **Availability Zone**          | **eu-central-1a**         | Primary availability zone for the region. |
 | **VPC**         | **OT-Micro-Dev-Vpc**      | VPC for Development Infrastructure              |
 | **Subnets**     | **Public Subnet-1**   | Hosts the Bastion Host for secure access.           |
 |                 | **Private Subnet-1**  | Hosts the Frontend application components.         |
 |                 | **Private Subnet-2**  | Hosts the Attendance, Employee, and Salary APIs.    |
 |                 | **Private Subnet-3**  | Hosts PostgreSQL, Scylla, and Redis databases.      |
-| **Internet Gateway** | **Igw**              | Internet Gateway for OT-Micro-Dev-Vpc.              |
 | **Route Table**  | **Public-rt**        | Associates with Public Subnet-1 for internet access.|
 |                 | **Private-rt**       | Associates with Private Subnet-1, Subnet-2, and Subnet-3.|
+| **Internet Gateway** | **Igw**              | Internet Gateway for OT-Micro-Dev-Vpc.           |
 | **NACL**        | **Nacl-1**           | Associates with Private Subnet-1.                  |
 |                 | **Nacl-2**           | Associates with Private Subnet-2.                  |
 |                 | **Nacl-3**           | Associates with Private Subnet-3.                  |
-| **Security Groups** | **Bastion-sg**    | Security Group for Bastion.                         |
-|                 | **Frontend-sg**      | Security Group for Frontend.                        |
+| **Security Groups** | **Bastion-sg**    | Security Group for Bastion.                       |
+|                 | **Frontend-sg**      | Security Group for Frontend.                       |
 |                 | **ATT-sg**           | Security Group for Attendance API.                 |
 |                 | **EMP-sg**           | Security Group for Employee API.                   |
 |                 | **Sal-sg**           | Security Group for Salary API.                     |
 |                 | **PSql-sg**          | Security Group for PostgreSQL.                     |
 |                 | **Scylla-sg**        | Security Group for Scylla database.                |
 |                 | **Redis-sg**         | Security Group for Redis database.                 |
-| **NAT Gateway** | **ALB**                   | NAT Gateway for private subnet internet access.    |
+| **NAT Gateway** | **ALB**              | NAT Gateway for private subnet internet access.|
 | **Application Load Balancer** | **ALB** |ALB for Frontend Traffic Distribution| 
-| **Auto Scaling Group**         | **ASG**           | Auto Scaling Group responsible for dynamically adjusting the number of instances for the frontend and API services based on demand. | 
-
+| **Auto Scaling Group**         | **ASG** | Auto Scaling Group responsible for dynamically adjusting the number of instances for the frontend and API services based on demand.| 
 
 ***
 
