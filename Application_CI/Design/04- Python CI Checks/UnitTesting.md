@@ -11,7 +11,7 @@
 
 [3. Why Unit Testing?](#why-unit-testing)
 
-[4. Tool Comparision](#tool-comparision)
+[4. Tool Comparision](#tool-comparison)
 
 [5. Advantages of Unit Testing](#advantages-of-unit-testing)
 
