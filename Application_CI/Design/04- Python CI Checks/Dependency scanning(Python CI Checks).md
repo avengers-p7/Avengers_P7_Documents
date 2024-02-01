@@ -21,7 +21,9 @@ Dependency scanning is vital in contemporary software development for securing a
 
 * For more detail click [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning/%20README.md)      
 ***
-## OWASP (Open Web Application Security Project) Dependency-Check
+## OWASP Dependency-Check    
+<img width="360" length="300" alt="OWASP" src="https://github.com/avengers-p7/Documentation/assets/156056413/4b0dadd1-816c-49d1-8436-b8d68ebe1c4c">  
+
 OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects.
 ***
 ## Contact Information
