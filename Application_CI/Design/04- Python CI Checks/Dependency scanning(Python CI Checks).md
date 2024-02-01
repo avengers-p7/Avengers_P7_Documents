@@ -6,15 +6,12 @@
 
 ## Table of Contents 
 + [Introduction](#Introduction)
-+ [Key Components](#key-points)
-+ [Popular Tools](#popular-tools)
-+ [Tool Comparison](#tool-comparison)
-+ [Guide to Installation](#Installing-OWASP-Dependency-Check)
-+ [Best Practices](#best-practices)
-+ [Security Compliance](#security-compliance)
 + [Contact Information](#contact-information)
 + [References](#references)
 
+***
+## Introduction
+Dependency scanning is vital in contemporary software development for securing and stabilizing your projects. This involves recognizing and handling the external libraries and frameworks your project relies on. By checking for known vulnerabilities in these dependencies, you can preemptively tackle security threats and maintain the strength and security of your applications. This guide will walk you through a Proof of Concept (PoC) for implementing and utilizing OWASP Dependency-Check to conduct thorough dependency scanning in your Go projects.
 ***
 ## Dependency scanning
 
@@ -22,8 +19,10 @@
 
 * The scanning process is typically automated and integrated into the development workflow, often as part of continuous integration or continuous delivery (CI/CD) pipelines. It serves as a crucial post-build process examines the project's dependencies to identify any known vulnerabilities, outdated versions, or security issues. 
 
-* For more detail click [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning/%20README.md)
-
+* For more detail click [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning/%20README.md)      
+***
+## OWASP (Open Web Application Security Project) Dependency-Check
+OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects.
 ***
 ## Contact Information
 
