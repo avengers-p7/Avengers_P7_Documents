@@ -92,7 +92,7 @@ Setting up Single Sign-On (SSO) in GitHub involves using an identity provider (I
 
   **Note: while trying to configure sso, github is asking for enterprise version.**
 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/4d96bc9d-389b-46f9-af9d-4e7b0a392caa)
+![Screenshot 2024-02-01 at 8 55 11 PM](https://github.com/avengers-p7/Documentation/assets/156056364/cc934c9d-8ef3-4fee-8cea-27ee6eaefa96)
 
 
 
