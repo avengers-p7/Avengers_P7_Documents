@@ -10,7 +10,7 @@
 
 + [Introduction](#introduction)
 + [Pre-requisites](#pre-requisites)
-+ [Flow Diagram For AMI Creation With Packer](flow-diagram-for-ami-creation-with-packer)
++ [Flow Diagram](flow-diagram)
 + [AMI Setup](#ami-setup)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
@@ -34,7 +34,7 @@
 
 ***
 
-# Flow Diagram For AMI Creation With Packer
+# Flow Diagram 
 
 <img width="866" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/10b0bc5e-9394-46e5-bf28-6a64d67c9522">
 
