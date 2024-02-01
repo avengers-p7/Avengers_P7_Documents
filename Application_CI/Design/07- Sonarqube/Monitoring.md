@@ -12,10 +12,12 @@
 3. [Why Monitoring Metrics](#why-monitoring-metrics)
 4. [Key Metrics in Sonarqube commonly monitored](#key-metrics-in-sonarqube-commonly-monitored)
 5. [Flow Diagram of Monitoring Metrics in SonarQube](#flow-diagram-of-monitoring-metrics-in-sonarQube)
-6. [Best Practices](#best-practices)
-7. [Conclusion](#conclusion)
-8. [Contact Information](#contact-information)
-9. [Reference](#reference)
+6. [Advantages of Monitoring Metrics](#advantages-of-monitoring-metrics)
+7. [Disadvantages of Monitoring Metrics](#disadvantages-of-monotoring-metrics)
+8. [Best Practices](#best-practices)
+9. [Conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [Reference](#reference)
 
 ***
 
@@ -71,6 +73,26 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 | **Developers' Action** | Developers use SonarQube or the Metrics Dashboard to review and address code quality issues. |
 
 This workflow ensures continuous, automated code analysis, empowering developers with real-time feedback for proactive code quality improvements. The combination of SonarQube and the Monitoring System facilitates effective management and visualization of key metrics.
+
+***
+
+# Advantages of Monitoring Metrics
+
+| **Advantage** | **Description** |
+| ------------- | --------------- |
+| **Early Issue Detection** | Developers can address problems at an early stage, reducing the cost and effort of fixing issues later. |
+| **Code Quality Improvement** | Continuous monitoring encourages a culture of code quality improvement. |
+| **Centralized Dashboard** | Simplifies monitoring, making it easier for developers and teams to track and manage code quality. |
+
+***
+
+# Disadvantages of Monitoring Metrics
+
+| **Disadvantage** | **Description** |
+| ---------------- | --------------- |
+| **False Positives** | Developers may spend time investigating and addressing issues that are not actual problems. |
+| **Learning Curve** |  Learning to interpret and act on metrics effectively requires time. |
+| **Dependency on Configuration** |  Incorrect settings may lead to inaccurate or misleading metrics. |
 
 ***
 
