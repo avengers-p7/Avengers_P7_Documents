@@ -10,7 +10,7 @@
 
 + [Introduction](#introduction)
 + [Pre-requisites](#pre-requisites)
-+ [Flow Diagram For AMI Creation With Packer](flow-diagram)
++ [Flow Diagram For AMI Creation With Packer](flow-diagram-for-ami-creation-with-packer)
 + [AMI Setup](#ami-setup)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
