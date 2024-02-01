@@ -114,7 +114,7 @@ To use the packer build command, navigate to the directory containing your Packe
 
 Once the process of AMI Creation completes,check the newly created AMI from the AWS Console to confirm the creation of AMI. 
 
-![Screenshot 2024-01-30 005653](https://github.com/avengers-p7/Documentation/assets/156057205/bafb650e-19e1-403d-8a91-18611f1468bd)
+<img width="959" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/d128a319-0168-41d3-a6c2-8048039b660a">
 
 ***
 
