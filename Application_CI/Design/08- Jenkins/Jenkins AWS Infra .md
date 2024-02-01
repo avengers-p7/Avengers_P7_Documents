@@ -9,7 +9,7 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Description](#Description)
+3. [Pre-requisites](#Pre-requisites)
 4. [Infrastructure Diagram](#infrastructure-diagram)
 5. [Contact Information](#contact-information)
 6. [References](#References)
