@@ -18,6 +18,11 @@
 [6. Best Practices in Unit Testing](#best-practices-in-unit-testing)
 
 [7. Conclusion](#conclusion)
+
+[8. Contact Information](#contact-information)
+
+[9. References](#references)
+
 ***
 
 # Introduction
