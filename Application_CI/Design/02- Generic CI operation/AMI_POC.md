@@ -10,7 +10,7 @@
 
 + [Introduction](#introduction)
 + [Pre-requisites](#pre-requisites)
-+ [Flow Diagram](flow-diagram)
++ [Flow Diagram](#flow-diagram)
 + [AMI Setup](#ami-setup)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
