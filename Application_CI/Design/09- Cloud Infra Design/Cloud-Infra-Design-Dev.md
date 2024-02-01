@@ -51,14 +51,16 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 |                 | **PSql-sg**          | Security Group for PostgreSQL.                     |
 |                 | **Scylla-sg**        | Security Group for Scylla database.                |
 |                 | **Redis-sg**         | Security Group for Redis database.                 |
-| **NAT Gateway** | **ALB**                   | NAT Gateway for private subnet internet access.    |
-| **ALB**         | **Nat-gateway**           | Application Load Balancer for distributing traffic.|
+| **NAT Gateway** | **NAT Gateway**                   | NAT Gateway for private subnet internet access.    |
+| **Application LOad Balancer**         | **ALB**           | Application Load Balancer for distributing traffic.|
+| **Auto Scaling Group**         | **ASG**           | Auto Scaling Group responsible for dynamically adjusting the number of instances for the frontend and API services based on demand. | 
 
 ***
 
 # Infrastructure Diagram
 
-![Main-Dev](https://github.com/avengers-p7/Documentation/assets/156056709/1ebe5354-fec2-47de-9e60-8f6701f6d33c)
+![Cloud-Infra-30k feet - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/fd380484-ba12-4388-a7d7-5daeb983a5ab)
+
 
 **Description**
 
