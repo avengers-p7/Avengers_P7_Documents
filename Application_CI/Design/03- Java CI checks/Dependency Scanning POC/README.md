@@ -96,10 +96,6 @@ mvn clean install dependency-check:check -Dformat=ALL
 ***
 ## Dependency Suppression
 * Suppression of a vulnerability in a dependency is typically done when you have assessed the specific context of your application and determined that a reported vulnerability doesn't pose a significant risk in your particular scenario.
-***
-## Conclusion
-
-* In conclusion, integrating OWASP Dependency-Check into your development process offers a proactive approach to identifying and mitigating potential security risks associated with third-party dependencies. By regularly scanning and analyzing your project dependencies, you can stay ahead of known vulnerabilities, ensuring the overall security and reliability of your software applications
 
 Here's a step-by-step guide on how to suppress a vulnerability using the OWASP Dependency-Check tool:
 
@@ -151,12 +147,18 @@ Here's a step-by-step guide on how to suppress a vulnerability using the OWASP D
 
 **Step 6: Confirm Suppression** - Review the Dependency-Check report to ensure that the suppressed vulnerability no longer appears in the list of identified security issues.
 
-*Example Output* 
+*Example Output:* 
 
 * In the example screenshot, the vulnerability associated with h2-2.2.224.jar has been successfully excluded. This exclusion is achieved by adding a suppression entry in the dependency-suppression.xml file.
 
 
 <img width="955" alt="Screenshot 2024-02-01 at 6 53 06 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/2c5c51c7-fc33-4a15-a371-5dde36316cad">
+
+***
+## Conclusion
+
+* In conclusion, integrating OWASP Dependency-Check into your development process offers a proactive approach to identifying and mitigating potential security risks associated with third-party dependencies. By regularly scanning and analyzing your project dependencies, you can stay ahead of known vulnerabilities, ensuring the overall security and reliability of your software applications
+
 
 ***
 ## Contact Information
