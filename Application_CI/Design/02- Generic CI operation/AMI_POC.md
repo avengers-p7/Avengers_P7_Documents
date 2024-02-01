@@ -50,7 +50,7 @@ Creating an Amazon Machine Image (AMI) involves launching an Amazon EC2 instance
 
 when using Packer to create a new Amazon Machine Image (AMI), you typically start with an existing AMI as a base and then customize it according to your requirements. This existing AMI is specified using the source_ami parameter in your Packer configuration.I have created an AMI named **"New_Image"**
 
-<img width="958" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/f2639637-8554-4369-843d-f1d46152dcec">
+<img width="959" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/fd81eb33-762c-4cb4-80e1-881ad496c99c">
 
 ***
 
