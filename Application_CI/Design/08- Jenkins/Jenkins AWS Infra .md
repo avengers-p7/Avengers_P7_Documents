@@ -25,7 +25,7 @@ This document shows an overview of our AWS Infra for Jenkins.
 | AWS Management Console | Required for provisioning AWS resources.    |
 
 
-**Description**
+# Description
 
 * Users connect to the environment through the internet.
 * Traffic is directed through public subnets and security groups.
