@@ -106,6 +106,9 @@ Create a Packer template file in either JSON or HashiCorp Configuration Language
 
 To use the packer build command, navigate to the directory containing your Packer configuration file. Running this command kicks off the process of building the machine image according to the specifications in your Packer configuration.
 
+> [!NOTE]
+> Run the **"packer build"** command with **"-var-file"** option to specify the variable file.This way, you are supplying the necessary AWS credentials to Packer without hardcoding them directly in your Packer configuration file. 
+
 <img width="731" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/e42dddaa-7be9-4dea-9e92-944f57c742af">
 
 ***
