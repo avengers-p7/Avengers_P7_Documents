@@ -29,7 +29,6 @@
 
 | **Tool** | **Version** |
 | -------- | ----------- |
-| **AWS CLI** | aws-cli/2.15.0 |
 | **Packer** | Packer.v1.10.0 |
 
 ***
@@ -54,11 +53,12 @@ when using Packer to create a new Amazon Machine Image (AMI), you typically star
 
 ***
 
-**Step-2 AWS Configure**
+**Step-2 Variable File for storing AWS credentials**
 
-Packer needs AWS credentials to authenticate and interact with your AWS account when creating and managing resources. Configuring the AWS CLI allows Packer to leverage the credentials stored in the AWS CLI configuration.
+Packer needs AWS credentials to authenticate and interact with your AWS account when creating and managing resources.For this, I have created a **"variables.pkrvars.hcl"** file to store AWS credentials.In this file, I have added the **"Access Key & Secret Key"**.
 
-**Link for aws cli configure** [AWS CLI Configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+<img width="425" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/f6829560-c04b-43aa-9815-459e9c10d820">
+
 ***
 
 **Step-3 Installation of Packer**
