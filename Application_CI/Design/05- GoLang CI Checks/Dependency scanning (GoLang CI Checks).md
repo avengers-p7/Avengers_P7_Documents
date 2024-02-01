@@ -69,6 +69,37 @@ To effectively manage dependencies and ensure the integrity and security of the 
 - Follow established coding standards and practices to minimize the risk of introducing incompatible or vulnerable dependencies.
 
 By implementing robust dependency scanning practices, developers can enhance the reliability, security, and maintainability of their software projects.
+***
+## Tools Comparison for Golang Dependency Scanner
+
+| Tool                   | Description                                           | Features                                                          | Integration         | License       |
+|------------------------|-------------------------------------------------------|-------------------------------------------------------------------|---------------------|---------------|
+| Nancy                  | Dependency scanning tool for Golang                    | - Identifies and checks for vulnerabilities in GoLang dependencies | CLI, CI/CD          | Apache 2.0    |
+| OWASP Dependency-Check | Open-source dependency scanning tool                  | - Supports scanning of dependencies for known vulnerabilities    | CLI, CI/CD          | Apache 2.0    |
+| GoSec                  | Golang security checker                               | - Static analysis for security vulnerabilities                    | CLI, CI/CD          | MIT           |
+| GoDepend               | Golang dependency analysis tool                       | - Identifies dependencies and their versions                      | CLI                 | Apache 2.0    |
+| GoReportCard           | Golang code quality checking tool                     | - Analyzes code quality and dependencies                          | CLI, Web            | MIT           |
+
+### Conclusion - Nancy:
+
+- **Nancy**: Offers a comprehensive dependency scanning solution tailored for Golang projects. Provides CLI and CI/CD integration options. Licensed under Apache 2.0.
+
+Consider the specific requirements, features, and integration options when selecting a dependency scanning tool for your Golang projects. Evaluate the licensing model and support options to ensure alignment with organizational needs and preferences.
+***
+## Contact Information
+
+| Name | Email address |
+| ---- | ------------- |
+| Samir | samir.kesare.snaatak@mygurukulam.co |
+
+***
+## References
+[What is Dependency Scanning??](https://learn.microsoft.com/en-us/azure/devops/repos/security/github-advanced-security-dependency-scanning?view=azure-devops#:~:text=Dependency%20scanning%20generates%20an%20alert,software%20that%20direct%20dependencies%20use.)
+
+[Best Practices](https://blog.sonatype.com/best-practices-in-dependency-management-cooking-a-meal-of-gourmet-code)
+
+[Tools for Golang Dependency Scanner](https://jcdan3.medium.com/scanning-go-dependencies-for-vulnerabilities-b82db3d56b27)
+
 
 
 
