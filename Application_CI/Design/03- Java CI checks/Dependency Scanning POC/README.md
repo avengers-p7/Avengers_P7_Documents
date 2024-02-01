@@ -49,7 +49,21 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 
 * To enable the `OWASP Dependency-Check` plugin in your Maven project, add the following configuration to your pom.xml file. Ensure this configuration is placed within the `<build>` section
 
-<img width="832" alt="Screenshot 2024-01-31 at 5 35 00 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/039a152a-8a25-4fef-b012-c87171be6d37">
+```xml
+            <!-- Add the OWASP Dependency-Check plugin -->
+            <plugin>
+                <groupId>org.owasp</groupId>
+                <artifactId>dependency-check-maven</artifactId>
+                <version>9.0.9</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+```
 
 * To ensure compatibility and take advantage of the latest improvements, update the Maven Enforcer Plugin version to 3.6.3 in your project's pom.xml file. This change aligns the project with your system's Maven version.
 
