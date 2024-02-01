@@ -56,7 +56,7 @@ Unit testing is often associated with Test-Driven Development (TDD), where tests
 | **Building Confidence in Code Changes**   | Unit tests give developers confidence that their changes do not break existing functionality. This confidence is crucial for making continuous improvements to the codebase. |
 ***
 
-# Tool Comparsion
+# Tool Comparison
 | Tool        | Ease of Use            | Flexibility                | Community Support        | Documentation                  | CI/CD Integration          | Test Discovery             | Fixture Support               |
 |-------------|------------------------|----------------------------|---------------------------|--------------------------------|-----------------------------|-----------------------------|-------------------------------|
 | `unittest`  | Requires more boilerplate code | Follows xUnit conventions | Part of Python standard library | Well-documented                | Easily integrated            | Supports test discovery     | Supports fixtures but may be less convenient |
@@ -67,7 +67,7 @@ Unit testing is often associated with Test-Driven Development (TDD), where tests
 | `Tox`      | Configuration can be complex but provides powerful testing across environments | Flexible for testing across environments | Active community with a focus on compatibility testing | Documentation is available but may require careful reading | Designed for integration with CI/CD pipelines | Relies on configuration for test discovery | Limited support for fixtures, mainly focused on environment isolation |
 ***
 
-# Advantages od Unit Testing
+# Advantages of Unit Testing
 
 | Objective                   | Description                                                                                                       |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
