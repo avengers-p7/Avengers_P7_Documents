@@ -6,6 +6,10 @@
 
 ## Table of Contents 
 + [Introduction](#Introduction)
++ [Dependency scanning](#Dependency-scanning)
++ [OWASP](#OWASP-Dependency-Check )
++ [Proof of Concept](#Pre-requisite)
++ [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
 
