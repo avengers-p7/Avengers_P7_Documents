@@ -7,9 +7,9 @@
 # Table of Content
 [1. Introduction](#introduction)
 
-[2. What is Unit Testing?](#what-is-unit-testing?)
+[2. What is Unit Testing?](#what-is-unit-testing)
 
-[3. Why Unit Testing?](#why-unit-testing?)
+[3. Why Unit Testing?](#why-unit-testing)
 
 [4. Tool Comparision](#tool-comparision)
 
