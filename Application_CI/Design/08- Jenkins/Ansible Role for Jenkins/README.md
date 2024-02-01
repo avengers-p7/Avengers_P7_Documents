@@ -49,7 +49,7 @@ inventory      = aws_ec2.yml
 host_key_checking = False
 
 # Specify the path to the private key file for SSH connections.
-private_key_file = /home/ubuntu/vd.pem
+private_key_file = /path/to/private_key
 
 Sets the remote user for SSH connections to 'ubuntu'
 remote_user = ubuntu
