@@ -52,7 +52,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 |                 | **Scylla-sg**        | Security Group for Scylla database.                |
 |                 | **Redis-sg**         | Security Group for Redis database.                 |
 | **NAT Gateway** | **ALB**                   | NAT Gateway for private subnet internet access.    |
-| **Application Load Balancer** | **ALB for Frontend Traffic Distribution** | 
+| **Application Load Balancer** | **ALB** |ALB for Frontend Traffic Distribution| 
 | **Auto Scaling Group**         | **ASG**           | Auto Scaling Group responsible for dynamically adjusting the number of instances for the frontend and API services based on demand. | 
 
 
