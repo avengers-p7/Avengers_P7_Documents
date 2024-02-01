@@ -8,7 +8,7 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Cloud Infra Design Dev Details](#cloud-infra-design-dev-details)
+3. [Cloud Infra Design Details](#cloud-infra-design-details)
 4. [Infrastructure Diagram](#infrastructure-diagram)
 5. [Contact Information](#contact-information)
 6. [Resources and References](#resources-and-references)
@@ -72,7 +72,8 @@ To create the infrastructure, I used the following services on AWS and implement
 ![Cloud-Infra-30k feet - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/a49eb6c0-2a20-4917-af50-d3cff4dae50e)
 
 
-Qaulity
+**Quality Assurance**
+
 ![Cloud-Infra-30k feet - Page 1 (2)](https://github.com/avengers-p7/Documentation/assets/156056709/fd353f0b-3e2a-4698-a9a0-a3c2cdcc78bb)
 
 
