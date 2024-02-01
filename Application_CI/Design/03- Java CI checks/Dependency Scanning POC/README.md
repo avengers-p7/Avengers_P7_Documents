@@ -94,7 +94,7 @@ mvn clean install dependency-check:check -Dformat=ALL
 <img width="722" alt="Screenshot 2024-01-31 at 6 18 35 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/98a80636-753a-4cb6-b39e-5454472ada01">
 
 ***
-## Dependency Suppression
+## Dependency Suppression
 * Suppression of a vulnerability in a dependency is typically done when you have assessed the specific context of your application and determined that a reported vulnerability doesn't pose a significant risk in your particular scenario.
 
 Here's a step-by-step guide on how to suppress a vulnerability using the OWASP Dependency-Check tool:
