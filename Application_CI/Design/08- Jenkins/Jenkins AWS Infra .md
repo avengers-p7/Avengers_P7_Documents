@@ -16,10 +16,10 @@
 
 ***
 # Introduction
-This document shows an overview of our AWS Infra for Jenkins. 
+This document shows an overview of our AWS Infra for Jenkins. This document presents a detailed AWS infrastructure diagram outlining the setup of Jenkins within the AWS ecosystem. 
 
 ***
-# Prerequisites
+# Pre-requisites
 | Tool                  | Description                                  |
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.    |
