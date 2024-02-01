@@ -10,11 +10,11 @@
 ## Table of Contents
 
 + [Introduction](#Introduction)
-+ [What is dynamic application security testing?](#What-is-dynamic-application-security-testing?)
-+ [How Does DAST Work](#How-Does-DAST-Work)
-+ [Advantages and disadvantages of DAST](#Advantages-and-disadvantages-of-DAST)
-+ [Types of Dynamic Application Security Testing](#Types-of-Dynamic-Application-Security-Testing)
-+ [How to Use DAST](#How-to-Use-DAST)
++ [What is Dependency Scanning?](#What-is-Dependency-Scanning?)
++ [Purpose](#Purpose)
++ [Advanatages of Dependency Scanning](#Advanatages-of-Dependency-Scanning)
++ [Implementation](#Implementation)
++ [Best Practices](#Best-Practices)
 + [SAST VS DAST](#SAST-VS-DAST)
 + [Tools for Golang DAST](#Tools-for-Golang-DAST)
 + [Contact Information](#Contact-Information)
