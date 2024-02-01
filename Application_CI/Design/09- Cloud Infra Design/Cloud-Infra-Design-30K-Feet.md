@@ -16,7 +16,8 @@
 ***
 # Introduction
 
-The Cloud Infra Design Dev documentation provides an in-depth overview of the development infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
+The Cloud Infra Design 30k Feet documentation provides an in-depth overview of the Production, Development, Quality Assurance infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
+
 
 ***
 # Prerequisites
@@ -26,13 +27,15 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 
 ***
-# Cloud Infra Design  Details
+# Cloud Infra Design Details
+
+To create the infrastructure, I used the following services on AWS and implemented them in Production, Development, and Quality Assurance.
 
 | Service         | Item                  | Description                                         |
 |-----------------|-----------------------|-----------------------------------------------------|
 | **Region**      | **Europe**               | Frankfurt (eu-central-1)                         |
 | **Availability Zone**          | **eu-central-1a**         | Primary availability zone for the region.       |
-| **VPC**         | **OT-Micro-Dev-Vpc**      | VPC for Devlopement Infrastructure              |
+| **VPC**         | **OT-Micro-Dev-Vpc**      | VPC for Development Infrastructure              |
 | **Subnets**     | **Public Subnet-1**   | Hosts the Bastion Host for secure access.           |
 |                 | **Private Subnet-1**  | Hosts the Frontend application components.         |
 |                 | **Private Subnet-2**  | Hosts the Attendance, Employee, and Salary APIs.    |
@@ -60,10 +63,16 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 # Infrastructure Diagram
 
+**Production Environment**
+
 ![Cloud-Infra-30k feet - Page 1](https://github.com/avengers-p7/Documentation/assets/156056709/615999ae-ada0-4987-ae47-97f68e00f282)
+
+**Development Environment**
 
 ![Cloud-Infra-30k feet - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/a49eb6c0-2a20-4917-af50-d3cff4dae50e)
 
+
+Qaulity
 ![Cloud-Infra-30k feet - Page 1 (2)](https://github.com/avengers-p7/Documentation/assets/156056709/fd353f0b-3e2a-4698-a9a0-a3c2cdcc78bb)
 
 
