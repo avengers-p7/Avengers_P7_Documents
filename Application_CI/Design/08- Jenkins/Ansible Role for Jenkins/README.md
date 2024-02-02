@@ -106,6 +106,7 @@ groups:
 - name: Include file to install softwares
   import_tasks: install_jenkins.yml
 ```
+
 2. `Default` variables: This role comes with default values for the Jenkins repository URL and key URL. You can find these defaults in the `defaults/main.yml` file within the role directory.
 
 ```yaml
@@ -181,12 +182,6 @@ jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 ```bash
 ansible-playbook -i aws_ec2.yml playbook.yml
 ```
-
-1. `ansible-playbook`: To run Ansible playbook
-
-2. `-i aws_ec2.yml` : The -i option specifies the inventory file. In this case, it points to the aws_ec2.yml file, which contains information about your AWS EC2 instances.
-
-3. `playbook.yml`: This is the main playbook file containing the instructions for setting up Jenkins. You can customize this playbook according to your requirements.
 
 > Additional Options
 > 
