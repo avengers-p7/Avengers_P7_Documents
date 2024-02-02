@@ -73,11 +73,7 @@ Role-Based Access Control Plugin in Jenkins provide the necessary functionality 
 ***
 
 ## Conclusion
-In the realm of CI/CD orchestration tools, Jenkins, GitLab, and BuildPiper each bring their unique strengths and characteristics to the table. After a thorough analysis, the choice between these tools ultimately depends on the specific needs and preferences of your project and team.
-
-Jenkins stands out as the preferred CI/CD orchestration tool for several reasons. Its extensive plugin ecosystem, comprising over 1700 plugins, ensures adaptability and flexibility for a variety of project requirements. Being open-source and free, Jenkins fosters a collaborative community and provides scalability for projects of varying complexities. The robust community support, coupled with documentation, makes Jenkins a reliable choice. 
-
-In conclusion, Jenkins offers a compelling combination of flexibility, extensibility, community support, and compatibility, making it a robust solution for CI/CD orchestration. However, it is crucial to assess your project's unique needs before making the final decision.
+In summary, Role-Based Strategy for authorization in Jenkins help us for establishing a secure, controlled, and scalable CI/CD environment. Role-based access control provides granular permissions, follows the least privilege principle, simplifies administration through centralized management, and allows customization for project-specific needs. By leveraging plugins like the Role-Based Access Control Plugin, Jenkins administrators can efficiently define roles, assign permissions, and manage user access, ensuring a streamlined and secure workflow.
 ***
 
 ## Contact Information
@@ -91,6 +87,5 @@ In conclusion, Jenkins offers a compelling combination of flexibility, extensibi
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-|     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
-|     Jenkins vs Gitlab CI         | https://www.browserstack.com/guide/jenkins-vs-gitlab |
-|     BuildPIper                   | https://www.buildpiper.io/documentation/docs/getting/introducing |
+|         Authorization            | https://www.jenkins.io/doc/book/security/managing-security/ |
+|     Role Based Strategy          | https://plugins.jenkins.io/role-strategy/ |
