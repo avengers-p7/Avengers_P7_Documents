@@ -81,15 +81,18 @@ Here's a flow summary of the infrastructure
 
 **Production Environment**
 
-![Cloud-Infra-30k feet - Page 1 (4)](https://github.com/avengers-p7/Documentation/assets/156056709/696618e4-67dd-446f-8953-11304c86f9e2)
+![Cloud-Infra-30k feet - Page 1 (3)](https://github.com/avengers-p7/Documentation/assets/156056709/417c4797-d910-4a53-85bb-205728902118)
+
 
 **Development Environment**
 
-![Cloud-Infra-30k feet - Page 1 (5)](https://github.com/avengers-p7/Documentation/assets/156056709/a9d4c48c-abd6-4c48-8ab3-ae04c8f65be5)
+![Cloud-Infra-30k feet - Page 1 (4)](https://github.com/avengers-p7/Documentation/assets/156056709/8b78fee4-997d-4e7e-ad64-7643ec554c7d)
+
 
 **Quality Assurance**
 
-![Cloud-Infra-30k feet - Page 1 (6)](https://github.com/avengers-p7/Documentation/assets/156056709/664031fb-576a-4523-8be8-bffa468f2595)
+![Cloud-Infra-30k feet - Page 1 (5)](https://github.com/avengers-p7/Documentation/assets/156056709/2c6234b5-863e-4fc2-a357-c918815dbb1f)
+
 
 # Contact Information
 
