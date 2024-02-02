@@ -116,5 +116,4 @@ Logging metrics in SonarQube is a valuable practice for maintaining code quality
 
 | **Source** | **Description** |
 | ---------- | --------------- |
-|            |                 |
-|            |                 |
+|  https://www.opcito.com/blogs/elevate-code-quality-with-sonarqube-analysis-reporting-details | Documentation Link |
