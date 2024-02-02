@@ -11,6 +11,7 @@
 + [Introduction](#introduction)
 + [Pre-requisites](#pre-requisites)
 + [Flow Diagram](#flow-diagram)
++ [Companies That Uses Packer](#companies-that-uses-packer)
 + [AMI Setup](#ami-setup)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
@@ -42,6 +43,17 @@
 <img width="866" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/10b0bc5e-9394-46e5-bf28-6a64d67c9522">
 
 First, I created an EC2 instance, then generated an Amazon Machine Image (AMI) using the instance as the source. I retrieved the AMI ID and incorporated it into a Packer template file designed for AMI creation. Following this, I established a variable file to securely store the AWS access and secret keys. After installing Packer, I verified the version to ensure compatibility. Subsequently, I crafted a template file for AMI creation with a ".pkr.hcl" extension, wherein I specified the required configurations and saved the file. The process continued with the execution of the command "packer init" to initialize, followed by "packer build" incorporating the "variable file". Lastly, I confirmed the successful creation of the new AMI by checking the AWS Management Console.
+
+***
+
+# Companies That Uses Packer
+
+| **Company** | **Description** |
+| ----------- | --------------- |
+| **HashiCorp** | HashiCorp, the creator of Packer, naturally incorporates Packer into its own DevOps and infrastructure workflows. |
+| **Netflix** | Netflix is known for using a variety of DevOps tools, and Packer could be part of their infrastructure provisioning and automation. |
+| **GitHub** | GitHub, a platform widely used for version control and collaboration, might use Packer in their infrastructure provisioning processes. |
+| **Adobe** | Adobe, a multinational software company, is known to adopt various DevOps and infrastructure automation tools, and Packer could be part of their toolkit. |
 
 ***
 
