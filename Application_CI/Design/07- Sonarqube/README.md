@@ -9,6 +9,7 @@
 ## Table Of Contents 
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#introduction)
 + [Key Features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#key-features)
++ [Architecture & Intergation](#architecture-&-integration)
 + [SonarQube Editions](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#sonarqube-editions)
 + [SonarQube Alternatives](#sonarqube-alternatives)
 + [Companies that use SonarQube](#companies-that-use-sonarqube)
@@ -35,6 +36,23 @@ Key features of SonarQube include:
 | **Integration with CI/CD** | SonarQube can be integrated into continuous integration/continuous deployment (CI/CD) pipelines, allowing for automated code analysis during the development and build processes. |
 | **Dashboard and Reporting** | It offers a web-based dashboard that provides a comprehensive overview of the code quality metrics, trends, and issues, helping development teams to prioritize and address issues efficiently.
 ***
+
+## Architecture & Integration
+
+### SonarQube Architecture 
+
+The SonarQube Platform is made of 4 components:
+![architecture-scanning](https://github.com/avengers-p7/Documentation/assets/156056344/5949cab3-6be1-4f83-8e26-599f49791381)
+
+| **Component** | **Descripton** |
+| ----------- | -------------- |
+| **SonarQube Server** | 3 main processes: 1)Web Server for developers, managers to browse quality snapshots and configure the SonarQube instance 2)Search Server based on Elasticsearch to back searches from the UI 3) Compute Engine Server in charge of processing code analysis reports and saving them in the SonarQube |
+| **Database** | One SonarQube Database to store: 1) the configuration of the SonarQube instance (security, plugins settings, etc.) 2) the quality snapshots of projects, views, etc. |
+| **Multiple SonarQube Plugins** | Installed on the server, possibly including language, SCM, integration, authentication, and governance plugins |
+| **One or more SonarScanners** | Running on your Build / Continuous Integration Servers to analyze projects |
+
+***
+
 ## SonarQube Editions 
 SonarQube offers different editions to cater to the diverse needs of users.
 ![Screenshot 2024-01-31 023427](https://github.com/avengers-p7/Documentation/assets/156056344/58a562fb-92d7-4de9-bb9a-89b0fc74753f)
