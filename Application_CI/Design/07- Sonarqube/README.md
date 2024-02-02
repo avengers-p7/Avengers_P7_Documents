@@ -47,7 +47,7 @@ The SonarQube Platform is made of 4 components:
 | **Component** | **Descripton** |
 | ----------- | -------------- |
 | **SonarQube Server** | 3 main processes: 1)Web Server for developers, managers to browse quality snapshots and configure the SonarQube instance 2)Search Server based on Elasticsearch to back searches from the UI 3) Compute Engine Server in charge of processing code analysis reports and saving them in the SonarQube |
-| **Database** | One SonarQube Database to store: 1) the configuration of the SonarQube instance (security, plugins settings, etc.) 2) the quality snapshots of projects, views, etc. |
+| **Database** | One SonarQube Database to store: 1) The configuration of the SonarQube instance (security, plugins settings, etc.) 2) The quality snapshots of projects, views, etc. |
 | **Multiple SonarQube Plugins** | Installed on the server, possibly including language, SCM, integration, authentication, and governance plugins |
 | **One or more SonarScanners** | Running on your Build / Continuous Integration Servers to analyze projects |
 
