@@ -54,6 +54,11 @@ There are several alternatives to SonarQube, each with its own set of features a
 
 And many more alternatives depending on your use-case.
 
+***
+
+## Companies that use SonarQube
+
+***
 ## SonarQube Benefits 
 Using SonarQube offers certain key benefits :
 | **Benefit** | **Description** |
