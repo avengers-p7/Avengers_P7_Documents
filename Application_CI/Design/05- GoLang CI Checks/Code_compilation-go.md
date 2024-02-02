@@ -21,7 +21,7 @@ Code compilation in Go is the process of converting human-readable Go source cod
 | **go** | 
 | **golint**|
 
-# FLow Diagram
+# Flow Diagram
 ![WhatsApp Image 2024-02-03 at 04 25 01_2008c80a](https://github.com/avengers-p7/Documentation/assets/156056460/c474bd3c-11c6-4391-b9bd-c8c5e0325503)
 
 - Start: The process starts with either cloning the Go repository using git clone or downloading a pre-built binary.
@@ -98,8 +98,8 @@ go build -o employee-api
 ![WhatsApp Image 2024-01-31 at 20 23 27_a38d6a1e](https://github.com/avengers-p7/Documentation/assets/156056460/8feab0ce-55c4-44fa-b581-9bf9f98e279c)
 ***
 # Conclusion
-- "Go's lightning-fast compilation and integrated tooling streamline development and empower rapid iterations, ensuring code quality and reliability without sacrificing speed."
-- "The seamless integration of dependency management, static analysis, and testing within Go's toolchain accelerates feedback loops and promotes code confidence, leading to swifter release cycles."
+- Go's lightning-fast compilation and integrated tooling streamline development and empower rapid iterations, ensuring code quality and reliability without sacrificing speed.
+- The seamless integration of dependency management, static analysis, and testing within Go's toolchain accelerates feedback loops and promotes code confidence, leading to swifter release cycles.
 
 # Contact Information
 | Name            | Email Address                        |
