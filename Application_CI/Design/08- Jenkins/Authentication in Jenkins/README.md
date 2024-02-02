@@ -37,14 +37,6 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 |**Unix User/Group Database**| Delegates the authentication to the underlying Unix OS-level user database on the Jenkins controller. This mode will also allow re-use of Unix groups for authorization. For example, Jenkins can be configured such that "Everyone in the developers group has administrator access." To support this feature, Jenkins relies on PAM which may need to be configured external to the Jenkins environment. |
 ***
 ## Why Use Jenkins Own User Database?
-BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
-   
-   - BuildPiper is a one-stop solution for onboarding and managing Kubernetes and Microservices applications securely.
-   - It facilitates zero-touch, fully automated, and secured CI/CD pipelines.
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f)
-***
-## Why Use Jenkins Own User Database?
 Using Jenkins's own user database for authentication and authorization has several advantages, but the decision to use it depends on the specific needs and requirements of your environment. Here are some reasons why one might choose to use Jenkins's own user database:
 
 1. **Simplicity and Quick Setup:**
@@ -64,7 +56,7 @@ Using Jenkins's own user database for authentication and authorization has sever
 
 6. **Built-In User Management Features:**
    - Jenkins provides built-in features for user management, allowing administrators to create, modify, and delete user accounts directly from the Jenkins interface. This simplicity can be advantageous for smaller teams.
-
+***
 ## Limitations
 However, it's essential to consider the following considerations and potential limitations:
 
