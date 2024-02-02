@@ -2,7 +2,7 @@
 
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
-| **Parasharam Desai** | 29-01-2024     | 29-01-2024       | V1                   |
+| **Parasharam Desai** | 29-01-2024     | 02-02-2024       | V1.1                 |
 
 # Table of Contents
 
@@ -11,8 +11,11 @@
 3. [Top-Down Approach](#top-down-approach)
 4. [Cloud Infra Design 30k Feet Details](#cloud-infra-design-30k-feet-details)
 5. [Infrastructure Diagram](#infrastructure-diagram)
-6. [Contact Information](#contact-information)
-7. [Resources and References](#resources-and-references)
+6. [System Development Approaches](#system-development-approaches)
+   - [Top-Down Approach](#top-down-approach-system-development)
+   - [Bottom-Up Approach](#bottom-up-approach-system-development)
+7. [Contact Information](#contact-information)
+8. [Resources and References](#resources-and-references)
 
 # Introduction
 
@@ -50,20 +53,34 @@ Here's a flow summary of the infrastructure:
 
 **Production Environment**
 
-![Cloud-Infra-30k feet - Page 1 (4)](https://github.com/avengers-p7/Documentation/assets/156056709/8b78fee4-997d-4e7e-ad64-7643ec554c7d)
+![Production Environment Diagram](https://github.com/avengers-p7/Documentation/assets/156056709/8b78fee4-997d-4e7e-ad64-7643ec554c7d)
 
 **Development Environment**
 
-![Cloud-Infra-30k feet - Page 1 (5)](https://github.com/avengers-p7/Documentation/assets/156056709/2c6234b5-863e-4fc2-a357-c918815dbb1f)
+![Development Environment Diagram](https://github.com/avengers-p7/Documentation/assets/156056709/2c6234b5-863e-4fc2-a357-c918815dbb1f)
 
 **Quality Assurance**
 
-![Cloud-Infra-30k feet - Page 1 (7)](https://github.com/avengers-p7/Documentation/assets/156056709/0d2c245c-fbcd-4978-b1a7-b88a2fa96a99)
+![Quality Assurance Environment Diagram](https://github.com/avengers-p7/Documentation/assets/156056709/0d2c245c-fbcd-4978-b1a7-b88a2fa96a99)
 
 
+# System Development Approaches
 
+## Top-Down Approach System Development
 
+|   | Description |
+|---|-------------|
+| **Definition** | In a top-down approach, the system is analyzed and designed from a broad perspective, starting with an overall view and breaking it down into smaller components. |
+| **Methodology** | Begin with defining the overall structure and goals, and then progressively break them down into smaller components until the entire system is fully defined. |
+| **Advantages**  | - Provides a high-level understanding of the system. <br/> - Easier to create an overall plan and strategy. <br/> - Helps in focusing on the main goals and functionalities. |
 
+## Bottom-Up Approach System Development
+
+|   | Description |
+|---|-------------|
+| **Definition** | In a bottom-up approach, the system is built by starting with the smallest, most basic elements and gradually combining them into larger, more complex structures. |
+| **Methodology** | Begin with developing the smallest components independently and then integrate them into larger structures, eventually forming the complete system. |
+| **Advantages**  | - Allows for early testing of individual components. <br/> - Often more flexible and adaptable to changes. <br/> - Useful in situations where the overall structure is not well-defined initially. |
 
 
 # Contact Information
@@ -74,8 +91,9 @@ Here's a flow summary of the infrastructure:
 
 # Resources and References
 
-|     Description                  | References  
-| ---------------------------------| ------------------------------------------------------------------- |
-| Documentation Template           | [Documentation Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
-| Autoscaling with NGINX on AWS Blog| [NGINX Autoscaling on AWS](https://www.nginx.com/blog/announcing-new-autoscaling-support-with-nginx-plus-on-aws-cloud-quick-start/) |
+| Description                                      | References  
+| ------------------------------------------------- | ------------------------------------------------------------------- |
+| Documentation Template                           | [Documentation Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
+| Autoscaling with NGINX on AWS Blog                | [NGINX Autoscaling on AWS](https://www.nginx.com/blog/announcing-new-autoscaling-support-with-nginx-plus-on-aws-cloud-quick-start/) |
+| Asana Blog: The Top-Down Approach in Project Management | [Asana - Top-Down Approach](https://asana.com/resources/top-down-approach) |
 
