@@ -175,25 +175,6 @@ jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
     var: jenkins_service_status
 ```
 
-**Explanation:**
-
-* `Update APT cache`: This task updates the local package cache on the target system. It ensures that the system has the latest information about available.
-
-* `Ensure JDK is installed`: This task ensures that the default Java Runtime Environment (JRE) is installed on the target system. It installs the package default-jre if it's not already installed.
-
-* `Add Jenkins apt key to the system`: Adds the Jenkins repository's GPG key to the APT keyring on the target system. `The jenkins_repo_key_url` variable should contain the URL of the Jenkins repository's GPG key.
-
-* `Add Jenkins apt repository`: Adds the Jenkins APT repository to the system's list of package sources. The jenkins_repo_url variable should contain the URL of the Jenkins APT repository. `The update_cache: yes` option ensures that the APT cache is updated after adding the repository.
-
-* `Install Jenkins`: Installs the Jenkins package on the target system.
-
-* `Start Jenkins service`: This task starts the Jenkins service and ensures that it is enabled to start on boot.
-
-* `Check Jenkins service status` : Checks the status of the Jenkins service. The `ignore_errors: yes` option allows the playbook to continue even if there is an error (e.g. if the service is not found). The result is registered in the jenkins_service_status variable.
-
-* `Display Jenkins service status` : This task simply displays the status of the Jenkins service. It can be helpful for debugging and understanding the result of the previous task.
-
-
 **Step 4: Playbook Execution**
 
 * To set up Jenkins on your target servers, you will execute the Ansible playbook using the following command:
