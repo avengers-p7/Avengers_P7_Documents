@@ -11,10 +11,12 @@
 2. [What is Logging Metrics in SonarQube](#what-is-logging-metrics-in-sonarqube)
 3. [Why Logging Metrics](#why-logging-metrics)
 4. [Flow Diagram of Logging Metrics in SonarQube](#flow-diagram-of-logging-metrics-in-sonarqube)
-5. [Best Practices](#best-practices)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [Reference](#reference)
+5. [Advantages of Logging Metrics](#advantages-of-logging-metrics)
+6. [Disadvantages of Logging Metrics](#disadvantages-of-logging-metrics)
+7. [Best Practices](#best-practices)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+10. [Reference](#reference)
 
 ***
 
@@ -31,6 +33,14 @@
 ***
  
 # Flow Diagram of Logging Metrics in SonarQube
+
+***
+
+# Advantages of Logging Metrics
+
+***
+
+# Disadvantages of Logging Metrics
 
 ***
 
