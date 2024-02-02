@@ -10,7 +10,9 @@
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#introduction)
 + [Key Features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#key-features)
 + [SonarQube Editions](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#sonarqube-editions)
++ [SonarQube Benefits](#sonarqube-benefits)
 + [SonarQube Benefits](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#sonarqube-benefits)
++ [SonarQube Limitations](#sonarqube-limitations)
 + [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#conclusion)
 + [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#contact-information)
 + [References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#references)
@@ -43,6 +45,15 @@ SonarQube offers different editions to cater to the diverse needs of users.
 | **Enterprise Edition** |The Enterprise Edition is designed for larger organizations and teams with more extensive needs.It typically includes advanced features related to scalability, governance, and collaboration.Additional features  include advanced reporting, extended language support, and more. |
 | **Data Center Edition** |The Data Center Edition is tailored for organizations with large-scale and distributed development environments.It provides features to ensure high availability, scalability, and performance across multiple instances. |
 ***
+## SonarQube Alternatives 
+There are several alternatives to SonarQube, each with its own set of features and strengths. Some of the alternatives are :
++ DeepSource
++ Checkmarx SAST
++ VeraCode
++ Fortify (Micro Focus)
+
+And many more alternatives depending on your use-case.
+
 ## SonarQube Benefits 
 Using SonarQube offers certain key benefits :
 | **Benefit** | **Description** |
@@ -55,6 +66,21 @@ Using SonarQube offers certain key benefits :
 | **Comprehensive Reporting** | The platform provides a centralized dashboard with detailed reports, offering a holistic view of code quality metrics, trends, and issues, aiding in decision-making and continuous improvement.
 | **Cost-Efficient Maintenance** | Early issue detection and proactive code quality improvement contribute to reducing the overall cost and effort of software maintenance over the software development life cycle.
 
+***
+
+## SonarQube Limitations  
+
+SonarQube,like any software tool, has its limitations. Here are some of the common limitations associated with SonarQube:
+
+| **Limitations** | **Description** |
+| ----------- | --------------- |
+| Limited Language Support | While SonarQube supports a wide range of programming languages, not all languages are equally well-supported. Some languages may have fewer rules or plugins available compared to more mainstream languages. |
+| False Positives and Negatives | Like any static code analysis tool, SonarQube may produce false positives (flagging issues that are not actual problems) or false negatives (missing actual issues). The accuracy of the analysis depends on the rules and configuration used. |
+| Resource Intensive | Running extensive code analysis on large projects can be resource-intensive. This may lead to longer analysis times and increased hardware requirements, potentially affecting the tool's performance. |
+| Steep Learning Curve | Setting up and configuring SonarQube to meet specific project needs can be challenging, especially for users who are new to the tool. Understanding and customizing rules, quality profiles, and other configurations may require a learning curve. |
+| Community Edition Limitations | The features available in the free Community Edition of SonarQube may not be sufficient for all enterprise-level requirements. Some advanced features and integrations are available only in the commercial editions. |
+
+***
 ## Conclusion 
 In conclusion, SonarQube stands as a pivotal tool in the realm of software development, offering a comprehensive platform for continuous code quality inspection. Its ability to detect code smells, bugs, and security vulnerabilities early in the development process proves invaluable for teams striving to deliver robust and secure software. By enforcing coding standards, promoting consistency, and providing detailed reports through an intuitive dashboard, SonarQube empowers developers to enhance code quality and maintainability. Integration with CI/CD pipelines ensures automated analysis, contributing to efficient and reliable software delivery. As a versatile and scalable solution with support for multiple programming languages, SonarQube remains a cornerstone in fostering a culture of continuous improvement, reducing maintenance costs, and ultimately elevating the overall software development process.
 ***
