@@ -18,7 +18,7 @@
 
 The Cloud Infra Design 30k Feet documentation provides an in-depth overview of the Production, Development, Quality Assurance infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
 
-## Prerequisites
+# Prerequisites
 | Tool                  | Description                                  |
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.     |
