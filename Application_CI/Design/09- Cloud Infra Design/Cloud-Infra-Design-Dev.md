@@ -60,7 +60,7 @@ Here's a flow summary of the infrastructure:
 | **Region and Availability Zone**           | - The infrastructure is deployed in the Europe region, specifically in the Frankfurt (eu-central-1) region. |
 |                                             | - Availability zones (eu-central-1a) are utilized for redundancy and fault tolerance.        |
 |                                             | - Availability zones (eu-central-1b) are utilized for redundancy and fault tolerance.        |
-| **VPC (Virtual Private Cloud)**            | - Separate VPCs are created for Development, Production, and Quality Assurance environments.  |
+| **VPC (Virtual Private Cloud)**            | -  VPC are created for Development  environment.  |
 |                                             | - This flow summary outlines the path of user access, the organization of components in public and private subnets, the role of security groups, NACLs, internet and NAT gateways, routing, and the use of load balancing and auto-scaling for ensuring scalability and availability of services. |
 
 ***
