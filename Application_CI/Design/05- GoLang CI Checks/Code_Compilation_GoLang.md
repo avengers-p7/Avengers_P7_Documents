@@ -51,71 +51,10 @@ It depends on your needs!go build is generally better for most developers due to
 However, go tool compile has its own advantages for specific situations where fine-grained control or deep understanding of the compilation process is crucial.
 Here simplicity and building a complete application are key, I'll stick with the convenience of go build.
 
-# POC of Code Compilation in Go
+> [!NOTE]
+> POC for go code compilation is prepared in different doc,if you want to see the code compilation of go use this link [go POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md) 
 
-**Step-1** Clone the Repository:
-
-- Open a terminal (or command prompt).
-- Navigate to the desired directory using cd commands.
-- Clone the repository using 
-
-``` shell 
-git clone https://github.com/avengers-p7/Employee-API.git
-```
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/04b674e8-b3d8-4f6e-9b03-c39271c69d23)
 ***
-**Step-2** Install Go:
-
-- Download the Go installer 
-``` shell
-sudo snap install go --classic
-```
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/c7ce4925-86fb-4b5c-8dc3-933b4e706c37)
-***
-**Step-3** Tidy Dependencies:
-
-- Run go mod tidy to clean up and update dependencies.
-``` shell
-go mod tidy
-```
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/fa3176fc-5528-444c-b325-c38218ffe4bf)
-***
-**Step-4** Run Static Analysis:
-
-- Check for potential code issues
- ``` shell
-go vet main.go
-```
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/be03aea3-21a5-4be1-bb25-38075ee6a04d)
-***
-**Step-5** Install lint
-- Install golint for code style checks
-``` shell
-  sudo snap install golint
-```
-- Then run command for enforcing code style
-``` shell
-  golint ./...
-```
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/1e1157c1-fc50-47a5-bdfa-9aa25e16c214)
-***
-**Step-6** Compile the Code:
-- Build the project
-``` shell
-go build -o employee-api
-```
-![WhatsApp Image 2024-01-31 at 02 44 17_a2bf763a](https://github.com/avengers-p7/Documentation/assets/156056460/8957a7ce-e4a7-4c1e-87b4-cdc96bfe3283)
-***
-
-**Step-7** Run the Tests:
-- Open a terminal (or command prompt) in the project directory.
-- Execute the command
-```shell
- go test ./...
-```
-![WhatsApp Image 2024-01-31 at 20 23 27_a38d6a1e](https://github.com/avengers-p7/Documentation/assets/156056460/8feab0ce-55c4-44fa-b581-9bf9f98e279c)
-
 
 # Conclusion
 - Go's straightforward compilation process, combined with built-in tools for dependency management, static analysis, and testing, promotes code quality and reliability.
@@ -130,4 +69,4 @@ go build -o employee-api
 # Resources and References
 [Code Compilation](https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know) 
 
-[POC](https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/) 
+[POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md) 
