@@ -76,5 +76,4 @@ In summary, using Jenkins's own user database is a straightforward and quick sol
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
-|     Jenkins vs Gitlab CI         | https://www.browserstack.com/guide/jenkins-vs-gitlab |
-|     BuildPIper                   | https://www.buildpiper.io/documentation/docs/getting/introducing |
+| Authentication in Jenkins | https://www.jenkins.io/doc/book/security/managing-security/ |
