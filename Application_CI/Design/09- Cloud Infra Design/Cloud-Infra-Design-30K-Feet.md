@@ -4,7 +4,7 @@
 | -------------------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 29-01-2024     | 29-01-2024       | V1                   |
 
-## Table of Contents
+# Table of Contents
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
@@ -14,7 +14,7 @@
 6. [Contact Information](#contact-information)
 7. [Resources and References](#resources-and-references)
 
-## Introduction
+# Introduction
 
 The Cloud Infra Design 30k Feet documentation provides an in-depth overview of the Production, Development, Quality Assurance infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
 
@@ -23,7 +23,7 @@ The Cloud Infra Design 30k Feet documentation provides an in-depth overview of t
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.     |
 
-## Top-Down Approach
+# Top-Down Approach
 
 **Top-Down Approach Overview:**
 
@@ -31,7 +31,7 @@ Think of the top-down approach like looking at a big picture first. It's akin to
 
 As we zoom in, we delve into specifics like subnets, security groups, and individual services. This method enables a strategic view of the entire system, allowing for better planning and understanding of the interconnections between different components.
 
-## Cloud Infra Design Details
+# Cloud Infra Design Details
 
 Here's a flow summary of the infrastructure 
 
@@ -77,7 +77,7 @@ Here's a flow summary of the infrastructure
 * Separate VPCs are created for Development, Production, and Quality Assurance environments.
 * This flow summary outlines the path of user access, the organization of components in public and private subnets, the role of security groups, NACLs, internet and NAT gateways, routing, and the use of load balancing and auto-scaling for ensuring scalability and availability of services.
 
-## Infrastructure Diagram
+# Infrastructure Diagram
 
 **Production Environment**
 
@@ -91,13 +91,13 @@ Here's a flow summary of the infrastructure
 
 ![Cloud-Infra-30k feet - Page 1 (6)](https://github.com/avengers-p7/Documentation/assets/156056709/664031fb-576a-4523-8be8-bffa468f2595)
 
-## Contact Information
+# Contact Information
 
 | Name               | Email Address                               |
 | ------------------ | ------------------------------------------- |
 | Parasharam Desai   | parasharam.desai.snaatak@mygurukulam.co     |
 
-## Resources and References
+# Resources and References
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
