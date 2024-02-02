@@ -11,6 +11,7 @@
 + [Introduction](#Introduction)
 + [OWASP](#owasp-dependency-check)
 + [Proof of Concept](#Pre-requisite)
++ [Suppressing dependencies](#dependency-suppression)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
