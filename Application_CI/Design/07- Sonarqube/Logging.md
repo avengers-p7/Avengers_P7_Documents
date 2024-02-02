@@ -45,6 +45,17 @@ Logging metrics in SonarQube is a crucial aspect of maintaining code quality and
  
 # Flow Diagram of Logging Metrics in SonarQube
 
+<img width="437" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/a0aed53c-30ba-4f8a-b08b-b6a3f0f88c3e">
+
+| **Component** | **Description** |
+| ------------- | --------------- |
+| **Source Code Repository** | The starting point, representing where your project's source code is stored. |
+| **Continuous Integration (CI) System** | The intermediary step that triggers the SonarQube analysis process upon code changes. |
+| **SonarQube Analysis** | The core component responsible for examining the code, generating metrics, and identifying issues. |
+| **Logging Metrics** |  The step where SonarQube logs the generated metrics into its database for future reference and analysis. |
+| **Dashboard and Reports** | The visual representation of the logged metrics, providing insights into the code quality. |
+| **Notifications and Integration** | Represents the ability of SonarQube to notify relevant stakeholders and integrate with other tools for a more streamlined development process. |
+
 ***
 
 # Advantages of Logging Metrics
