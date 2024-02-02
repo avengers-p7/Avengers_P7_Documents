@@ -79,7 +79,8 @@ Logging metrics in Jenkins involves capturing and recording specific quantitativ
 
 # Flow Chart of Logging Metrics of Jenkins 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/b7e92203-821d-440b-ad71-c24ec57a771b)
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/932dcd7e-30b3-4de6-8c84-ac3b01004377)
+
 
 
 ***
