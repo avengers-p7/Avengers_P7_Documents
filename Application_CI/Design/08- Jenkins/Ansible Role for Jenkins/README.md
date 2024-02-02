@@ -68,7 +68,7 @@ enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto
 ```
 
 > [!NOTE]
->Ensure that the dynamic inventory script is properly configured with the necessary AWS credentials and filters to fetch the desired hosts.
+>Ensure that for dynamic inventory you have the necessary AWS credentials configured in AWS CLI and attach an IAM role on the master node. 
 
 **Step 2:  AWS EC2 Inventory**
 
@@ -120,7 +120,7 @@ jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 > To customize the Jenkins version based on your specific requirements, you can override these default values in your playbook. This is particularly useful when you want to install a different version of Jenkins.
 
 
-3. `install_jenkins.yml`: Ansible task folder for setting up Jenkins. It is split into several tasks. Let's break down each part.
+3. `install_jenkins.yml`: This file is included in the jenkins/tasks/main.yml file
 
 ```yaml
 ---
