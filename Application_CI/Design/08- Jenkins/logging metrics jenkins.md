@@ -59,6 +59,35 @@ Logging metrics in Jenkins involves capturing and recording specific quantitativ
 |Alert Fatigue |Continuous monitoring and alerting can lead to alert fatigue if not managed properly. Setting up meaningful alerts based on critical metrics is essential to avoid unnecessary notifications |
 
 
+# Flow Chart of Logging Metrics of Jenkins 
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/b7e92203-821d-440b-ad71-c24ec57a771b)
+
+
+***
+
+# Description of Flow Diagram 
+
+|components | Description |
+|------------|------------|
+|Start | The process begins at the "Start" node, indicating the initiation of the Jenkins Java CI pipeline |
+|Initiate Jenkins Build |The next step is to initiate the Jenkins build either manually or through an automated process, such as a webhook triggered by a code commit |
+|Source Code Management|Jenkins pulls the source code from the configured version control system (e.g., Git).|
+|Build Environment Setup |Set up the build environment, including any necessary dependencies and configurations required for the build process |
+|Start Logging Metrics|Begin logging relevant metrics at the start of the build process|
+|Build Execution |Execute the build steps defined in the Jenkins job, which typically involves tasks such as compiling Java code, running tests, and other specified actions.|
+|Collect Build Metrics|Metrics related to the build process are collected during execution. Examples include build duration, queue length, executor utilization, and resource usage|
+|Store Metrics Data |Store the collected metrics data in a designated location. This could involve writing logs to files or pushing data to external databases or monitoring systems|
+|Post-Build Actions |After the build completes, perform any post-build actions, such as archiving artifacts, generating reports, and additional metric logging if necessary|
+|Security Metrics |Include logging for security-related metrics, such as authentication failures and access attempts |
+|Persist Logs|Ensure that logs, including metrics data, are persisted for future analysis and reference. This may involve archiving logs for historical purposes|
+|Alerting and Monitoring|Implement alerting mechanisms based on critical metrics. Set up monitoring tools to detect anomalies and notify relevant stakeholders in case of issues|
+|End | The process concludes at the "End" node.|
+
+
+
+
+
 
 
 
