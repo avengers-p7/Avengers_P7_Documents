@@ -1,4 +1,4 @@
-# Documentation of  Code compilation in Java CI checks
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/12a2e85b-981d-48ff-8431-a074bf7b7849)# Documentation of  Code compilation in Java CI checks
 
 |Author  | Created on |version | last updated on|
 |--------|------------|---------|----------------|
@@ -182,6 +182,10 @@ Create a GitHub repository and push the Maven Java project to it.
 
 
 Install Jenkins and Maven on your server. Follow the official installation guides for Jenkins and Maven.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/e99acfef-d1ff-4b8e-9b2a-fc9ba4c8e79e)
+
+
 
 
 # Step 4: Configure Jenkins
