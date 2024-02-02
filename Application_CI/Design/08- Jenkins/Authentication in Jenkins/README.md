@@ -9,12 +9,11 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Prerquisites](#Prerquisites)
-3. [Authentication Methods](#Authentication-Methods)
-4. [Pros and Cons](#Pros-and-Cons)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+2. [Authentication Methods](#Authentication-Methods)
+3. [Pros and Cons](#Pros-and-Cons)
+4. [Conclusion](#Conclusion)
+5. [Contact Information](#Contact-Information)
+6. [References](#References)
 ***
 
 ## Introduction 
@@ -27,13 +26,6 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 1. A Security Realm which informs the Jenkins environment how and where to pull user (or identity) information from. Also commonly known as Authentication.
 
 2. Authorization configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
-***
-## Prerquisites
-| Prerequisite | Description |
-| ------------ | ------------ |
-| **Jenkins Installation** | Jenkins server must be installed and accessible |
-| **Administrator Access** | Administrative access to Jenkins instance |
-| **Configure Security Realm** | Access to the Jenkins security configuration section |
 ***
 ## Authentication Methods
 | Security Realm | Description |
