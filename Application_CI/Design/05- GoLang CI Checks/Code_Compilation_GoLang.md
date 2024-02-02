@@ -51,7 +51,7 @@ However, go tool compile has its own advantages for specific situations where fi
 Here simplicity and building a complete application are key, I'll stick with the convenience of go build.
 
 > [!NOTE]
-> POC for go code compilation is prepared in different doc,if you want to see the code compilation of go use this link [go POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md) 
+> POC for go code compilation is prepared in different doc,if you want to see the code compilation of go use this link [go POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilationPOC-go.md) 
 
 ***
 
@@ -68,4 +68,4 @@ Here simplicity and building a complete application are key, I'll stick with the
 # Resources and References
 [Code Compilation](https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know) 
 
-[POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md) 
+[POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilationPOC-go.md) 
