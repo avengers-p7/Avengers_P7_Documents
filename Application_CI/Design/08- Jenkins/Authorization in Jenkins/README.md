@@ -12,11 +12,10 @@
 1. [Introduction](#Introduction)
 2. [Why](#why)
 3. [Authorization options](#Authorization-options)
-4. [Role-based Authorization Strategy](#Rolebased-Authorization-Strategy)
-5. [Comparison](#Comparison)
-6. [Conclusion](#Conclusion)
-7. [Contact Information](#Contact-Information)
-8. [References](#References)
+4. [Role-based Authorization Strategy](#Role-based-Authorization-Strategy)
+5. [Conclusion](#Conclusion)
+6. [Contact Information](#Contact-Information)
+7. [References](#References)
 ***
 
 ## Introduction 
