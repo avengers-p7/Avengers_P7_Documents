@@ -98,6 +98,14 @@ Grafana is an open-source platform for monitoring and observability that provide
 
 ***
 
+# Flowchart of Monitoring Metrics of Jenkins 
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/b1887c4e-0fe7-44e0-b019-391cdf03b625)
+
+
+
+***
+
 # Monitoring Websites using Grafana and Prometheus
 
 we are going to set up a Grafana and Prometheus server to monitor running websites 
