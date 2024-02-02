@@ -9,7 +9,7 @@
 ## Table Of Contents 
 + [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#introduction)
 + [Key Features](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#key-features)
-+ [Architecture & Intergation](#architecture-&-integration)
++ [Architecture & Intergation](#architecture--integration)
 + [SonarQube Editions](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md#sonarqube-editions)
 + [SonarQube Alternatives](#sonarqube-alternatives)
 + [Companies that use SonarQube](#companies-that-use-sonarqube)
