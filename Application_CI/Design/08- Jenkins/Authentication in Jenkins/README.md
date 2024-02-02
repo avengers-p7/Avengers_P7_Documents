@@ -39,23 +39,14 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 ## Why Use Jenkins Own User Database?
 Using Jenkins's own user database for authentication and authorization has several advantages, but the decision to use it depends on the specific needs and requirements of your environment. Here are some reasons why one might choose to use Jenkins's own user database:
 
-1. **Simplicity and Quick Setup:**
-   - Jenkins's internal user database is straightforward to set up and use. If you have a small to medium-sized team and want a quick and simple solution, relying on Jenkins's built-in user database can be an efficient choice.
-
-2. **Out-of-the-Box Solution:**
-   - Jenkins comes with its own authentication system by default, and it doesn't require additional configuration or integration with external identity providers initially. This makes it a convenient option for users who want to get started with Jenkins without setting up external authentication systems right away.
-
-3. **Lightweight Installation:**
-   - For smaller projects or environments where external authentication systems might be considered overkill, using Jenkins's own user database can be a lightweight and efficient solution without introducing unnecessary complexity.
-
-4. **Local Control:**
-   - When using Jenkins's own user database, administrators have direct control over user accounts, passwords, and access permissions without relying on external systems. This can be advantageous for organizations that prefer to manage everything locally.
-
-5. **No Dependency on External Systems:**
-   - Using Jenkins's own user database eliminates dependencies on external identity providers or directories. This can be beneficial in environments where external systems might be less reliable or more difficult to set up.
-
-6. **Built-In User Management Features:**
-   - Jenkins provides built-in features for user management, allowing administrators to create, modify, and delete user accounts directly from the Jenkins interface. This simplicity can be advantageous for smaller teams.
+| Features | Description |
+| ----------- | --------- |
+| **Simplicity and Quick Setup** | Jenkins's internal user database is straightforward to set up and use. If you have a small to medium-sized team and want a quick and simple solution, relying on Jenkins's built-in user database can be an efficient choice.
+| **Out-of-the-Box Solution** | Jenkins comes with its own authentication system by default, and it doesn't require additional configuration or integration with external identity providers initially. This makes it a convenient option for users who want to get started with Jenkins without setting up external authentication systems right away.
+| **Lightweight Installation** | For smaller projects or environments where external authentication systems might be considered overkill, using Jenkins's own user database can be a lightweight and efficient solution without introducing unnecessary complexity.
+| **Local Control** | When using Jenkins's own user database, administrators have direct control over user accounts, passwords, and access permissions without relying on external systems. This can be advantageous for organizations that prefer to manage everything locally.
+| **No Dependency on External Systems** | Using Jenkins's own user database eliminates dependencies on external identity providers or directories. This can be beneficial in environments where external systems might be less reliable or more difficult to set up.
+| **Built-In User Management Features** | Jenkins provides built-in features for user management, allowing administrators to create, modify, and delete user accounts directly from the Jenkins interface. This simplicity can be advantageous for smaller teams.
 ***
 ## Limitations
 However, it's essential to consider the following considerations and potential limitations:
