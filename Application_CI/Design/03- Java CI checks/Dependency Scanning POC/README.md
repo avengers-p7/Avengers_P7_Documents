@@ -68,9 +68,6 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
             </plugin>
 ```
 
-* To ensure compatibility and take advantage of the latest improvements, update the Maven Enforcer Plugin version to your maven's version in your project's pom.xml file. This change aligns the project with your system's Maven version.
-
-<img width="847" alt="Screenshot 2024-01-31 at 5 45 54 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/37707338-8903-4145-8568-edd9f395ebcf">
 
 
 ### 3. Generate Reports
