@@ -12,7 +12,7 @@
 1. [Introduction](#Introduction)
 2. [Why](#why)
 3. [Authorization options](#Authorization-options)
-4. [What is BuilPiper?](#what-is-buildpiper)
+4. [Role-based Authorization Strategy](#Rolebased-Authorization-Strategy)
 5. [Comparison](#Comparison)
 6. [Conclusion](#Conclusion)
 7. [Contact Information](#Contact-Information)
