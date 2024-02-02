@@ -10,7 +10,7 @@
 
 1. [Introduction](#Introduction)
 2. [Authentication Methods](#Authentication-Methods)
-3. [Why Use Jenkins Own User Database?](##Why-Use-Jenkins-Own-User-Database)
+3. [Why Use Jenkins Own User Database?](#Why-Use-Jenkins-Own-User-Database)
 4. [Limitations](#Limitations)
 5. [Conclusion](#Conclusion)
 6. [Contact Information](#Contact-Information)
