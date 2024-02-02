@@ -4,7 +4,7 @@
 | -----------------| --------------| -----------|---------------- | -------------- |
 | Vidhi Yadav      | 25 Jan 2024   |     v1     | Vidhi Yadav     | 29 Jan 2024    |
 
-![DependencyCheck](https://github.com/avengers-p7/Documentation/assets/156056349/ff74c7aa-0ec7-45fe-8a8b-f52856ee522a)
+![image](https://github.com/avengers-p7/Documentation/assets/156056349/35ad5f24-6863-4e7e-89a0-7e25dedd300c)
 
 
 ## Table of Contents
