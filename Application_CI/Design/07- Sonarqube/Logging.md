@@ -58,6 +58,8 @@ Logging metrics in SonarQube involves the systematic recording and storage of me
 
 <img width="437" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/a0aed53c-30ba-4f8a-b08b-b6a3f0f88c3e">
 
+***
+
 **Description of the Flow Diagram**
 
 | **Component** | **Description** |
