@@ -9,16 +9,16 @@
 ***
  
 # Table of contents 
-1. Introduction
-2. What are logging metrics
-3. Features of logging metrics
-4. Advantages of Logging Metrics
-5. Disadvanatges of logging metrics
-6. Flow chart of logging metric
-7. Best Practices
-8. Conclusion
-9. contact information
-10. References
+1.  Introduction
+2.  What are logging metrics
+3.  Features of logging metrics
+4.  Advantages of Logging Metrics
+5.  Disadvanatges of logging metrics
+6.  Flow chart of logging metric
+7.  Best Practices
+8.  Conclusion
+9.  contact information
+10.  References
 
    *** 
 
@@ -128,6 +128,7 @@ In conclusion, logging metrics in Jenkins for a Java CI/CD pipeline is essential
 # Contact Information 
 
 | Name | Email Id |
+|-------|---------|
 |Nidhi Bhardwaj | nidhi.bhardwaj.snaatak@mygurukulam.co |
 
 
