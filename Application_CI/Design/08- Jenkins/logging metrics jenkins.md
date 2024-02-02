@@ -1,11 +1,26 @@
 # Logging Metrics of Jenkins
 
+***
 
 | Author | Created on | last updated | Document Version | **Last Updated By** |
 | ------ | ---------- | ------------ | ---------------- | ------------------- |
 | Nidhi  | 30-01-24   | 30-01-24     |  V1              | Nidhi Bhardwaj |
+
+***
  
 # Table of contents 
+1. Introduction
+2. What are logging metrics
+3. Features of logging metrics
+4. Advantages of Logging Metrics
+5. Disadvanatges of logging metrics
+6. Flow chart of logging metric
+7. Best Practices
+8. Conclusion
+9. contact information
+10. References
+
+   *** 
 
 # Introduction 
 
@@ -13,7 +28,9 @@ Logging metrics in Jenkins is crucial for monitoring and gaining insights into y
 
 metrics, including system logs, build logs, and plugins.
 
-# What is logging  metrics in Jenkins?
+***
+
+# What are logging  metrics in Jenkins?
 
 Logging metrics in Jenkins involves capturing and recording specific quantitative measurements or data points related to the performance, health, and behavior of Jenkins. Logging metrics is crucial for monitoring and analyzing the state of your CI/CD pipeline, identifying potential issues, and making informed decisions about optimizations.
 
@@ -58,6 +75,7 @@ Logging metrics in Jenkins involves capturing and recording specific quantitativ
 |Tooling Dependency | Implementing effective metrics logging often relies on external monitoring tools. The integration and maintenance of these tools may introduce additional dependencies|
 |Alert Fatigue |Continuous monitoring and alerting can lead to alert fatigue if not managed properly. Setting up meaningful alerts based on critical metrics is essential to avoid unnecessary notifications |
 
+***
 
 # Flow Chart of Logging Metrics of Jenkins 
 
@@ -83,6 +101,55 @@ Logging metrics in Jenkins involves capturing and recording specific quantitativ
 |Persist Logs|Ensure that logs, including metrics data, are persisted for future analysis and reference. This may involve archiving logs for historical purposes|
 |Alerting and Monitoring|Implement alerting mechanisms based on critical metrics. Set up monitoring tools to detect anomalies and notify relevant stakeholders in case of issues|
 |End | The process concludes at the "End" node.|
+
+
+***
+
+# Best Practices 
+
+Logging metrics in Jenkins is a crucial aspect of maintaining a healthy and efficient CI/CD pipeline. Here are some best practices for logging metrics in Jenkins:
+
+| Practices | Description |
+|-----------|--------------|
+|Define Clear Objectives | Clearly define the metrics that are most relevant to your goals. Focus on metrics that provide insights into performance, resource utilization, and overall pipeline efficiency |
+|Use Jenkins Plugins |Leverage Jenkins plugins for enhanced metric logging. Plugins like "Metrics Plugin" or "Monitoring" plugins can provide additional capabilities and visualizations|
+|Centralized Logging |Consider using a centralized logging system or tool, such as ELK Stack (Elasticsearch, Logstash, and Kibana) or Prometheus, to aggregate and analyze Jenkins metrics. This allows for a centralized view of logs and easier troubleshooting|
+|Custom Metrics |Include custom metrics that are specific to your project's requirements. This might include application-specific performance metrics or business-related key performance indicators (KPIs) |
+
+
+***
+
+# Conclusion
+
+In conclusion, logging metrics in Jenkins for a Java CI/CD pipeline is essential for maintaining a transparent and efficient development process. By systematically collecting and analyzing metrics, teams gain valuable insights into the performance, reliability, and security of their pipeline. This visibility allows for proactive issue detection, enabling teams to address potential problems before they impact the software delivery process. Customizing metrics to align with project-specific goals and regularly reviewing the logged data fosters a culture of continuous improvement. 
+
+***
+
+# Contact Information 
+
+| Name | Email Id |
+|Nidhi Bhardwaj | nidhi.bhardwaj.snaatak@mygurukulam.co |
+
+
+***
+# References 
+
+|Source | Description |
+|--------|------------|
+|https://towardsdatascience.com/jenkins-events-logs-and-metrics-7c3e8b28962b | Documentation Link |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
