@@ -1,4 +1,6 @@
 # SonarQube : Authentication 
+![1_rn-sO9oWLn9lYO7jkVO6og](https://github.com/avengers-p7/Documentation/assets/156056344/615afa35-d70d-4f39-8592-32926af24127)
+
 ***
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
