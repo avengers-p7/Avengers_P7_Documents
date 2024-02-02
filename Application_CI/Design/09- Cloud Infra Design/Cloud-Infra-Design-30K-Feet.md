@@ -27,9 +27,7 @@ The Cloud Infra Design 30k Feet documentation provides an in-depth overview of t
 
 **Top-Down Approach Overview:**
 
-Think of the top-down approach like looking at a big picture first. It's akin to standing on a hill and taking in the view of the entire landscape. In the Cloud Infra Design, this means starting with the overall plan, considering elements like the main structure (VPCs), major locations (regions), and significant components such as load balancers and databases.
-
-As we zoom in, we delve into specifics like subnets, security groups, and individual services. This method enables a strategic view of the entire system, allowing for better planning and understanding of the interconnections between different components.
+Think of the top-down approach like looking at a big picture first. It's like standing on a hill and taking in the view of the entire landscape. In our Cloud Infra Design, this means starting with the overall plan, considering things like the main structure (VPCs), big locations (regions), and major elements like load balancers and databases. As we zoom in, we get into specifics like subnets, security groups, and individual services. This method helps us see the whole system strategically.
 
 # Cloud Infra Design Details
 
