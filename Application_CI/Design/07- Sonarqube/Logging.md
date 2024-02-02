@@ -22,13 +22,21 @@
 
 # Introduction
 
+This documentation explores the crucial practice of logging metrics in SonarQube – a versatile and powerful platform for continuous code inspection.The primary purpose of logging metrics in SonarQube is to assess and monitor various aspects of code quality. This includes identifying potential issues such as code duplications, complex code structures, and security vulnerabilities.
+
 ***
 
 # What is Logging Metrics in SonarQube?
 
+Logging metrics in SonarQube is a crucial aspect of maintaining code quality and ensuring the overall health of software projects.SonarQube provides a comprehensive set of tools for analyzing and measuring code quality, and logging metrics is an integral part of this process.Metrics offer insights into the health and maintainability of a codebase, helping development teams make informed decisions to improve software quality. 
+
 ***
 
 # Why Logging Metrics?
+
+| **Reason** | **Description** |
+| ---------- | --------------- |
+|
 
 ***
  
