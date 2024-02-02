@@ -4,7 +4,7 @@
 | -----------------| --------------| -----------|---------------- | -------------- |
 | Vidhi Yadav      | 25 Jan 2024   |     v1     | Vidhi Yadav     | 29 Jan 2024    |
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056349/35ad5f24-6863-4e7e-89a0-7e25dedd300c)
+<img width="475" alt="Screenshot 2024-02-02 at 11 49 48 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/89bfd376-b8eb-445f-85c7-30699b35d46d">
 
 
 ## Table of Contents
