@@ -10,10 +10,11 @@
 
 1. [Introduction](#Introduction)
 2. [Authentication Methods](#Authentication-Methods)
-3. [Pros and Cons](#Pros-and-Cons)
-4. [Conclusion](#Conclusion)
-5. [Contact Information](#Contact-Information)
-6. [References](#References)
+3. [Why Use Jenkins Own User Database?](##Why-Use-Jenkins-Own-User-Database)
+4. [Limitations](#Limitations)
+5. [Conclusion](#Conclusion)
+6. [Contact Information](#Contact-Information)
+7. [References](#References)
 ***
 
 ## Introduction 
@@ -43,17 +44,37 @@ BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Pl
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/0ca8d312-0b03-46d1-a85a-f17665008f4f)
 ***
-## Pros and Cons
-| Criteria  | Jenkins | GitLab | BuildPiper |
-| --------- | -------- | ------ | --------- |
-| **Plugins** | 1700+ plugins |   Limited plugins |  Limited plugins/tools |
-| **Prerequisites** | JRE should be installed	| Ruby, Go, Git, Node.js, and Redis should be installed | None |
-| **Operating Systems Supported** |	Windows, Mac OS X, and Unix-like OS |	Supports only particular Unix-like OS such as Ubuntu, Debian, Red Hat Linux, Scientific Linux, Oracle Linux, CentOS, and OpenSUSE. It does not support Windows and macOS. | SAAS/Web |
-| **Open Source**	| Open Source and Free	| Open Source and Freemium | Open Source and Freemium |
-| **Issue Tracking**	| Don’t have such functionality	| Offers various features for issue tracking and management | Gain immediate insights into the potential reasons for a deployment failure- from service logs to container to pod status. |
-| **Extensiveness** |	Highly extensive as it can be used as a simple CI server or can be transformed into a complex CD system with the help of plugins	| Offers scalability to enhance the DevOps lifecycle for a project | enables teams to onboard & securely manage Kubernetes & Microservices applications in a seamless manner. Also, the platform empowers teams with the ability to run zero-touch, fully automated & secured CI/CD pipelines. |
-| **Support** |	Offers documentation and open source community support, but no technical support is provided as part of the SLA |	Provides 24×5 support for paid users and only self-support documents to free users as part of the SLA | Documentation , 24x7 and online suppprt |
+## Why Use Jenkins Own User Database?
+Using Jenkins's own user database for authentication and authorization has several advantages, but the decision to use it depends on the specific needs and requirements of your environment. Here are some reasons why one might choose to use Jenkins's own user database:
 
+1. **Simplicity and Quick Setup:**
+   - Jenkins's internal user database is straightforward to set up and use. If you have a small to medium-sized team and want a quick and simple solution, relying on Jenkins's built-in user database can be an efficient choice.
+
+2. **Out-of-the-Box Solution:**
+   - Jenkins comes with its own authentication system by default, and it doesn't require additional configuration or integration with external identity providers initially. This makes it a convenient option for users who want to get started with Jenkins without setting up external authentication systems right away.
+
+3. **Lightweight Installation:**
+   - For smaller projects or environments where external authentication systems might be considered overkill, using Jenkins's own user database can be a lightweight and efficient solution without introducing unnecessary complexity.
+
+4. **Local Control:**
+   - When using Jenkins's own user database, administrators have direct control over user accounts, passwords, and access permissions without relying on external systems. This can be advantageous for organizations that prefer to manage everything locally.
+
+5. **No Dependency on External Systems:**
+   - Using Jenkins's own user database eliminates dependencies on external identity providers or directories. This can be beneficial in environments where external systems might be less reliable or more difficult to set up.
+
+6. **Built-In User Management Features:**
+   - Jenkins provides built-in features for user management, allowing administrators to create, modify, and delete user accounts directly from the Jenkins interface. This simplicity can be advantageous for smaller teams.
+
+## Limitations
+However, it's essential to consider the following considerations and potential limitations:
+
+- **Limited Integration:** Jenkins's built-in user database might not integrate as seamlessly with other systems compared to using external authentication providers like LDAP, Active Directory, or OAuth.
+
+- **Scalability Concerns:** For larger organizations or projects with complex authentication requirements, using an external identity provider might offer more scalability and flexibility.
+
+- **Security Considerations:** Depending on the security policies of your organization, using an external identity provider might be preferred for centralized authentication and additional security features.
+
+Ultimately, the choice between using Jenkins's own user database and an external authentication system depends on the specific needs, scale, and security requirements of your Jenkins environment.
 ***
 
 ## Conclusion
