@@ -4,47 +4,34 @@
 | -------------------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 29-01-2024     | 29-01-2024       | V1                   |
 
-# Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Cloud Infra Design Details](#cloud-infra-design-details)
-4. [Infrastructure Diagram](#infrastructure-diagram)
-5. [Contact Information](#contact-information)
-6. [Resources and References](#resources-and-references)
+3. [Top-Down Approach](#top-down-approach)
+4. [Cloud Infra Design Details](#cloud-infra-design-details)
+5. [Infrastructure Diagram](#infrastructure-diagram)
+6. [Contact Information](#contact-information)
+7. [Resources and References](#resources-and-references)
 
-***
-# Introduction
+## Introduction
 
 The Cloud Infra Design 30k Feet documentation provides an in-depth overview of the Production, Development, Quality Assurance infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
 
-
-***
-# Prerequisites
+## Prerequisites
 | Tool                  | Description                                  |
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.     |
 
-***
+## Top-Down Approach
 
-# Infrastructure Diagram
+**Top-Down Approach Overview:**
 
-**Production Environment**
+Think of the top-down approach like looking at a big picture first. It's akin to standing on a hill and taking in the view of the entire landscape. In the Cloud Infra Design, this means starting with the overall plan, considering elements like the main structure (VPCs), major locations (regions), and significant components such as load balancers and databases.
 
-![Cloud-Infra-30k feet - Page 1](https://github.com/avengers-p7/Documentation/assets/156056709/615999ae-ada0-4987-ae47-97f68e00f282)
+As we zoom in, we delve into specifics like subnets, security groups, and individual services. This method enables a strategic view of the entire system, allowing for better planning and understanding of the interconnections between different components.
 
-**Development Environment**
-
-![Cloud-Infra-30k feet - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/a49eb6c0-2a20-4917-af50-d3cff4dae50e)
-
-
-**Quality Assurance**
-
-![Cloud-Infra-30k feet - Page 1 (3)](https://github.com/avengers-p7/Documentation/assets/156056709/0e75cc96-30aa-48e4-8985-e62074c8eac5)
-
-
-
-# Description
+## Cloud Infra Design Details
 
 Here's a flow summary of the infrastructure 
 
@@ -71,51 +58,49 @@ Here's a flow summary of the infrastructure
 * ATT-sg, EMP-sg, and Sal-sg for respective APIs.
 * PSql-sg, Scylla-sg, and Redis-sg for database components.
 
-**NACLs (Network Access Control Lists):**
-
-* NACLs are associated with specific private subnets to control inbound and outbound traffic at the subnet level.
-
 **Internet Gateway & NAT Gateway:**
 
 * Internet Gateway (Igw) facilitates internet access for the VPC.
 * NAT Gateway allows instances in private subnets to initiate outbound traffic to the internet.
 
-**Route Tables:**
-
-* Public-rt is associated with the public subnet for internet access.
-* Private-rt is associated with private subnets, allowing communication within the VPC.
-
 **ALB (Application Load Balancer):**
 
 * ALB is configured for distributing frontend traffic across multiple targets, ensuring high availability.
 
-**Auto Scaling Group (ASG):**
-* ASG dynamically adjusts the number of instances for frontend and API services based on demand.
-
 **Region and Availability Zone:**
 
 * The infrastructure is deployed in the Europe region, specifically in the Frankfurt (eu-central-1) region.
-* Availability zones (eu-central-1a) are utilized for redundancy and fault tolerance.
-* Availability zones (eu-central-1b) are utilized for redundancy and fault tolerance.
+* Availability zones (eu-central-1a & (eu-central-1b)) are utilized for redundancy and fault tolerance.
 
 **VPC (Virtual Private Cloud):**
 
 * Separate VPCs are created for Development, Production, and Quality Assurance environments.
 * This flow summary outlines the path of user access, the organization of components in public and private subnets, the role of security groups, NACLs, internet and NAT gateways, routing, and the use of load balancing and auto-scaling for ensuring scalability and availability of services.
 
+## Infrastructure Diagram
 
-***
+**Production Environment**
 
-# Contact Information
+![Cloud-Infra-30k feet - Page 1 (4)](https://github.com/avengers-p7/Documentation/assets/156056709/696618e4-67dd-446f-8953-11304c86f9e2)
+
+**Development Environment**
+
+![Cloud-Infra-30k feet - Page 1 (5)](https://github.com/avengers-p7/Documentation/assets/156056709/a9d4c48c-abd6-4c48-8ab3-ae04c8f65be5)
+
+**Quality Assurance**
+
+![Cloud-Infra-30k feet - Page 1 (6)](https://github.com/avengers-p7/Documentation/assets/156056709/664031fb-576a-4523-8be8-bffa468f2595)
+
+## Contact Information
 
 | Name               | Email Address                               |
 | ------------------ | ------------------------------------------- |
 | Parasharam Desai   | parasharam.desai.snaatak@mygurukulam.co     |
 
-***
-# Resources and References
+## Resources and References
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-|     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
+| Documentation Template           | [Documentation Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
+| Autoscaling with NGINX on AWS Blog| [NGINX Autoscaling on AWS](https://www.nginx.com/blog/announcing-new-autoscaling-support-with-nginx-plus-on-aws-cloud-quick-start/) |
 
