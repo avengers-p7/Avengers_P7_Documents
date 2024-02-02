@@ -2,10 +2,10 @@
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/b4e57fae-f987-4feb-9bec-e90d149b3759)
 
 
-| Author | Created on  | Version    | Last Updated by | Last Updated on |
-| -------- | ------- | -------------- | --------------| ---------------- |
-| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 29-01-2024  | 1.0   | Harshit Singh | 29-01-2024 |
-***
+| Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
+| ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
+| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 29-01-2024  | 1.0        | Harshit Singh   | 29-01-2024      |
+
 
 ## Table  of Contents
 
