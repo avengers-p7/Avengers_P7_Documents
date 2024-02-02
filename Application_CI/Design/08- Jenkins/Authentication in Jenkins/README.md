@@ -41,10 +41,7 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 | **Delegate to Servlet Container** | The "servlet container" refers to the web server that you are using to host Jenkins, typically Tomcat. The configuration file $CATALINA_BASE/conf/tomcat-users.xml may already be set up and managed by your organization. In this case: "why reinvent the wheel?". Use this if your organization already has a process that manages the Tomcat users configuration. This is also probably the most archaic solution. |
 |**Jenkins Own User Database**| The "own user database" is just what it sound like. Instead of relying on something else, Jenkins keeps it's own database of users. You can create and delete users through the Jenkins UI. You can even let new users sign up right from UI. If you don't know what to use, use this one. It's simple and self-contained. |
 |**LDAP (Lightweight Directory Access Protocol)**|The "LDAP" provides integration with LDAP/ Windows Active Directory. If you are in a corporate/small business environment that already utilizes LDAP for maintaining users and groups, it will be very beneficial to hook into that and off-load user management to the IT team that manages LDAP/AD. Note that unless you are that IT admin, you will need to contact the said admins for connection information/credentials to the LDAP/AD |
-|**Unix User/Group Database**||
-
-
-
+|**Unix User/Group Database**| Delegates the authentication to the underlying Unix OS-level user database on the Jenkins controller. This mode will also allow re-use of Unix groups for authorization. For example, Jenkins can be configured such that "Everyone in the developers group has administrator access." To support this feature, Jenkins relies on PAM which may need to be configured external to the Jenkins environment. |
 ***
 ## Why Use Jenkins Own User Database?
 BuildPiper is an end-to-end Kubernetes and Microservices Application Delivery Platform designed for developer and engineering teams. It offers a comprehensive set of features for managing the entire lifecycle of containerized applications.
