@@ -3,15 +3,16 @@
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 29-01-2024     | 29-01-2024       | V1                   |
-
+***
 # Table of Contents
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Cloud Infra Design Dev Details](#cloud-infra-design-dev-details)
-4. [Infrastructure Diagram](#infrastructure-diagram)
-5. [Contact Information](#contact-information)
-6. [Resources and References](#resources-and-references)
+3. [Bottom-Up Approach](#bottom-up-approach)
+4. [Cloud Infra Design Dev Details](#cloud-infra-design-dev-details)
+5. [Infrastructure Diagram](#infrastructure-diagram)
+6. [Contact Information](#contact-information)
+7. [Resources and References](#resources-and-references)
 
 ***
 # Introduction
@@ -24,103 +25,48 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.     |
 
+***
+# Bottom-Up Approach
+
+**Bottom-Up Approach Overview:**
+
+The bottom-up approach involves starting with individual components and gradually building up to the complete system. It's like assembling pieces of a puzzle, focusing on the details and functionalities of each element before combining them into a coherent whole. In our Cloud Infra Design, the bottom-up approach entails understanding the specifics of security groups, subnets, and services before zooming out to see the overall structure.
 
 ***
-# Cloud Infra Design Details
+# Cloud Infra Design Dev Details
 
-To create the infrastructure, I used the following services on AWS and implemented them in Production, Development, and Quality Assurance.
+Here's a flow summary of the infrastructure:
 
-| Service         | Item                  | Description                                         |
-|-----------------|-----------------------|-----------------------------------------------------|
-| **Region**      | **Europe**            |           Frankfurt (eu-central-1)                  |
-| **Availability Zone**          | **eu-central-1a**         | Primary availability zone for the region. |
-| **VPC**         | **OT-Micro-Dev-Vpc**      | VPC for Development Infrastructure              |
-| **Subnets**     | **Public Subnet-1**   | Hosts the Bastion Host for secure access.           |
-|                 | **Private Subnet-1**  | Hosts the Frontend application components.         |
-|                 | **Private Subnet-2**  | Hosts the Attendance, Employee, and Salary APIs.    |
-|                 | **Private Subnet-3**  | Hosts PostgreSQL, Scylla, and Redis databases.      |
-| **Route Table**  | **Public-rt**        | Associates with Public Subnet-1 for internet access.|
-|                 | **Private-rt**       | Associates with Private Subnet-1, Subnet-2, and Subnet-3.|
-| **Internet Gateway** | **Igw**              | Internet Gateway for OT-Micro-Dev-Vpc.           |
-| **NACL**        | **Nacl-1**           | Associates with Private Subnet-1.                  |
-|                 | **Nacl-2**           | Associates with Private Subnet-2.                  |
-|                 | **Nacl-3**           | Associates with Private Subnet-3.                  |
-| **Security Groups** | **Bastion-sg**    | Security Group for Bastion.                       |
-|                 | **Frontend-sg**      | Security Group for Frontend.                       |
-|                 | **ATT-sg**           | Security Group for Attendance API.                 |
-|                 | **EMP-sg**           | Security Group for Employee API.                   |
-|                 | **Sal-sg**           | Security Group for Salary API.                     |
-|                 | **PSql-sg**          | Security Group for PostgreSQL.                     |
-|                 | **Scylla-sg**        | Security Group for Scylla database.                |
-|                 | **Redis-sg**         | Security Group for Redis database.                 |
-| **NAT Gateway** | **ALB**              | NAT Gateway for private subnet internet access.|
-| **Application Load Balancer** | **ALB** |ALB for Frontend Traffic Distribution| 
-| **Auto Scaling Group**         | **ASG**           | Auto Scaling Group responsible for dynamically adjusting the number of instances for the frontend and API services based on demand. | 
+| Aspect                                      | Details                                                                                     |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **User Access**                             | Users connect to the infrastructure through the internet.                                   |
+| **Public Subnets**                          | - Public subnets host components that need direct internet access.                           |
+|                                             | - The Bastion Host resides in the public subnet to facilitate secure access.                 |
+| **Private Subnets**                         | - Frontend application components are hosted in one private subnet.                           |
+|                                             | - Attendance, Employee, and Salary APIs are hosted in separate private subnets.               |
+|                                             | - PostgreSQL, Scylla, and Redis databases are hosted in another private subnet.              |
+| **Security Groups**                         | - Different security groups are defined for various components.                              |
+|                                             |   - Bastion-sg for the Bastion Host.                                                        |
+|                                             |   - Frontend-sg for Frontend components.                                                     |
+|                                             |   - ATT-sg, EMP-sg, and Sal-sg for respective APIs.                                          |
+|                                             |   - PSql-sg, Scylla-sg, and Redis-sg for database components.                                |
+| **NACLs (Network Access Control Lists)**    | - NACLs are associated with specific private subnets to control inbound and outbound traffic at the subnet level. |
+| **Internet Gateway & NAT Gateway**         | - Internet Gateway (Igw) facilitates internet access for the VPC.                            |
+|                                             | - NAT Gateway allows instances in private subnets to initiate outbound traffic to the internet. |
+| **Route Tables**                            | - Public-rt is associated with the public subnet for internet access.                        |
+|                                             | - Private-rt is associated with private subnets, allowing communication within the VPC.      |
+| **ALB (Application Load Balancer)**        | - ALB is configured for distributing frontend traffic across multiple targets, ensuring high availability. |
+| **Auto Scaling Group (ASG)**               | - ASG dynamically adjusts the number of instances for frontend and API services based on demand. |
+| **Region and Availability Zone**           | - The infrastructure is deployed in the Europe region, specifically in the Frankfurt (eu-central-1) region. |
+|                                             | - Availability zones (eu-central-1a) are utilized for redundancy and fault tolerance.        |
+|                                             | - Availability zones (eu-central-1b) are utilized for redundancy and fault tolerance.        |
+| **VPC (Virtual Private Cloud)**            | - Separate VPCs are created for Development, Production, and Quality Assurance environments.  |
+|                                             | - This flow summary outlines the path of user access, the organization of components in public and private subnets, the role of security groups, NACLs, internet and NAT gateways, routing, and the use of load balancing and auto-scaling for ensuring scalability and availability of services. |
 
 ***
-
 # Infrastructure Diagram
 
 ![Cloud-Infra-30k feet - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/cb77bbe7-3aab-4b12-81db-a107e11f16ab)
-
-# Description
-Here's a flow summary of the infrastructure 
-
-**User Access:**
-
-* Users connect to the infrastructure through the internet.
-
-**Public Subnets:**
-
-* Public subnets host components that need direct internet access.
-* The Bastion Host resides in the public subnet to facilitate secure access.
-
-**Private Subnets:**
-* Frontend application components are hosted in one private subnet.
-* Attendance, Employee, and Salary APIs are hosted in separate private subnets.
-* PostgreSQL, Scylla, and Redis databases are hosted in another private subnet.
-
-**Security Groups:**
-
-* Different security groups are defined for various components.
-  
-* Bastion-sg for the Bastion Host.
-* Frontend-sg for Frontend components.
-* ATT-sg, EMP-sg, and Sal-sg for respective APIs.
-* PSql-sg, Scylla-sg, and Redis-sg for database components.
-
-**NACLs (Network Access Control Lists):**
-
-* NACLs are associated with specific private subnets to control inbound and outbound traffic at the subnet level.
-
-**Internet Gateway & NAT Gateway:**
-
-* Internet Gateway (Igw) facilitates internet access for the VPC.
-* NAT Gateway allows instances in private subnets to initiate outbound traffic to the internet.
-
-**Route Tables:**
-
-* Public-rt is associated with the public subnet for internet access.
-* Private-rt is associated with private subnets, allowing communication within the VPC.
-
-**ALB (Application Load Balancer):**
-
-* ALB is configured for distributing frontend traffic across multiple targets, ensuring high availability.
-
-**Auto Scaling Group (ASG):**
-* ASG dynamically adjusts the number of instances for frontend and API services based on demand.
-
-**Region and Availability Zone:**
-
-* The infrastructure is deployed in the Europe region, specifically in the Frankfurt (eu-central-1) region.
-* Availability zones (eu-central-1a) are utilized for redundancy and fault tolerance.
-* Availability zones (eu-central-1b) are utilized for redundancy and fault tolerance.
-
-**VPC (Virtual Private Cloud):**
-
-* Separate VPCs are created for Development, Production, and Quality Assurance environments.
-* This flow summary outlines the path of user access, the organization of components in public and private subnets, the role of security groups, NACLs, internet and NAT gateways, routing, and the use of load balancing and auto-scaling for ensuring scalability and availability of services.
-
 
 ***
 # Contact Information
@@ -134,4 +80,5 @@ Here's a flow summary of the infrastructure
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-|     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
+| Documentation Template           | [Documentation Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
+| Autoscaling with NGINX on AWS Blog| [NGINX Autoscaling on AWS](https://www.nginx.com/blog/announcing-new-autoscaling-support-with-nginx-plus-on-aws-cloud-quick-start/) |
