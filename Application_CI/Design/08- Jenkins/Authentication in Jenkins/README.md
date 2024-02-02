@@ -38,10 +38,12 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 ## Authentication Methods
 | Security Realm | Description |
 | -------------- | ----------- |
-| **Delegate to Servlet Container** ||
-|**Jenkins Own User Database**||
-|**LDAP (Lightweight Directory Access Protocol)**||
+| **Delegate to Servlet Container** | The "servlet container" refers to the web server that you are using to host Jenkins, typically Tomcat. The configuration file $CATALINA_BASE/conf/tomcat-users.xml may already be set up and managed by your organization. In this case: "why reinvent the wheel?". Use this if your organization already has a process that manages the Tomcat users configuration. This is also probably the most archaic solution. |
+|**Jenkins Own User Database**| The "own user database" is just what it sound like. Instead of relying on something else, Jenkins keeps it's own database of users. You can create and delete users through the Jenkins UI. You can even let new users sign up right from UI. If you don't know what to use, use this one. It's simple and self-contained. |
+|**LDAP (Lightweight Directory Access Protocol)**|The "LDAP" provides integration with LDAP/ Windows Active Directory. If you are in a corporate/small business environment that already utilizes LDAP for maintaining users and groups, it will be very beneficial to hook into that and off-load user management to the IT team that manages LDAP/AD. Note that unless you are that IT admin, you will need to contact the said admins for connection information/credentials to the LDAP/AD |
 |**Unix User/Group Database**||
+
+
 
 ***
 ## Why Use Jenkins Own User Database?
