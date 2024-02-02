@@ -51,6 +51,10 @@ The SonarQube Platform is made of 4 components:
 | **Multiple SonarQube Plugins** | Installed on the server, possibly including language, SCM, integration, authentication, and governance plugins |
 | **One or more SonarScanners** | Running on your Build / Continuous Integration Servers to analyze projects |
 
+## Integration
+The following schema shows how SonarQube integrates with other ALM tools and where the various components of SonarQube are used.
+![architecture-integrate](https://github.com/avengers-p7/Documentation/assets/156056344/73b41b48-0512-4b77-82e9-3c805c04ee2b)
+
 ***
 
 ## SonarQube Editions 
@@ -119,7 +123,7 @@ In conclusion, SonarQube stands as a pivotal tool in the realm of software devel
 
 | Name                 | Contact Information                                                                                     
 |---------------------------------|------------------------------------------------------------|
-| Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co
+| Aakash Tripathi                 |  aakash.tripathi.snaatak@mygurukulam.co                    |
 ***
 ## References
 
