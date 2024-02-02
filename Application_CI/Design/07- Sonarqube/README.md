@@ -58,6 +58,12 @@ And many more alternatives depending on your use-case.
 
 ## Companies that use SonarQube
 
+Over 400,000 organizations across multiple industries trust Sonar to deploy clean code consistently and reliably.Some noteable companies are : 
++ Cisco
++ eBay
++ Barclays
++ Bosch
+
 ***
 ## SonarQube Benefits 
 Using SonarQube offers certain key benefits :
