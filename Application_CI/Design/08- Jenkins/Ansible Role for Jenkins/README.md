@@ -1,4 +1,4 @@
-# Ansible Role to setup Jenkins on Ubuntu
+# Ansible Role to setup Jenkins (Ubuntu)
 
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
