@@ -8,11 +8,10 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Bottom-Up Approach](#bottom-up-approach)
-4. [Cloud Infra Design Dev Details](#cloud-infra-design-dev-details)
-5. [Infrastructure Diagram](#infrastructure-diagram)
-6. [Contact Information](#contact-information)
-7. [Resources and References](#resources-and-references)
+3. [Cloud Infra Design Dev Details](#cloud-infra-design-dev-details)
+4. [Infrastructure Diagram](#infrastructure-diagram)
+5. [Contact Information](#contact-information)
+6. [Resources and References](#resources-and-references)
 
 ***
 # Introduction
@@ -25,12 +24,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.     |
 
-***
-# Bottom-Up Approach
 
-**Bottom-Up Approach Overview:**
-
-The bottom-up approach involves starting with individual components and gradually building up to the complete system. It's like assembling pieces of a puzzle, focusing on the details and functionalities of each element before combining them into a coherent whole. In our Cloud Infra Design, the bottom-up approach entails understanding the specifics of security groups, subnets, and services before zooming out to see the overall structure.
 
 ***
 # Cloud Infra Design Dev Details
