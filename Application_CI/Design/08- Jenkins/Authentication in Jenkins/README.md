@@ -61,6 +61,7 @@ Ultimately, the choice between using Jenkins's own user database and an external
 ***
 
 ## Conclusion
+In summary, using Jenkins's own user database is a straightforward and quick solution suitable for small to medium-sized teams and projects. It provides simplicity, out-of-the-box functionality, and local control over user management. However, potential limitations include limited integration, scalability concerns for larger organizations, and security considerations. The choice should align with specific needs and security policies, balancing simplicity with meeting authentication and authorization requirements.
 ***
 
 ## Contact Information
