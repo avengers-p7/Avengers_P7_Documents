@@ -11,7 +11,6 @@
 - [Different tools used in Code Compilation of Go lang](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#different-tools-used-in-code-compilation-of-go-lang)
 - [Comparison between go build and go tool compile](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#comparison-between-go-build-and-go-tool-compile)
 - [Is go build better than go tool compile?](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#is-go-build-better-than-go-tool-compile)
-- [POC of Code Compilation in Go](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#poc-of-code-compilation-in-go)
 - [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#conclusion)
 - [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#contact-information)
 - [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_Compilation_GoLang.md#resources-and-references)
