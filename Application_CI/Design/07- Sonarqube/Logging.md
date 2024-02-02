@@ -9,26 +9,37 @@
 # Table of contents
 1. [Introduction](#introduction)
 2. [What is Logging Metrics in SonarQube](#what-is-logging-metrics-in-sonarqube)
-3. [Why Logging Metrics](#why-logging-metrics)
-4. [Flow Diagram of Logging Metrics in SonarQube](#flow-diagram-of-logging-metrics-in-sonarqube)
-5. [Advantages of Logging Metrics](#advantages-of-logging-metrics)
-6. [Disadvantages of Logging Metrics](#disadvantages-of-logging-metrics)
-7. [Best Practices](#best-practices)
-8. [Conclusion](#conclusion)
-9. [Contact Information](#contact-information)
-10. [Reference](#reference)
+3. [Features of Logging Metrics](features-of-logging-metrics)
+4. [Why Logging Metrics](#why-logging-metrics)
+5. [Flow Diagram of Logging Metrics in SonarQube](#flow-diagram-of-logging-metrics-in-sonarqube)
+6. [Advantages of Logging Metrics](#advantages-of-logging-metrics)
+7. [Disadvantages of Logging Metrics](#disadvantages-of-logging-metrics)
+8. [Best Practices](#best-practices)
+9. [Conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [Reference](#reference)
 
 ***
 
 # Introduction
 
-This documentation explores the crucial practice of logging metrics in SonarQube – a versatile and powerful platform for continuous code inspection.The primary purpose of logging metrics in SonarQube is to assess and monitor various aspects of code quality. This includes identifying potential issues such as code duplications, complex code structures, and security vulnerabilities.
+This documentation explores the crucial practice of logging metrics in SonarQube – a versatile and powerful platform for continuous code inspection.In the context of SonarQube, "logging metrics" refers to the practice of systematically recording and storing various metrics related to code quality, security, and other aspects of software development over time. The term emphasizes the collection and preservation of historical data derived from SonarQube's static code analysis processes.
 
 ***
 
 # What is Logging Metrics in SonarQube?
 
-Logging metrics in SonarQube is a crucial aspect of maintaining code quality and ensuring the overall health of software projects.SonarQube provides a comprehensive set of tools for analyzing and measuring code quality, and logging metrics is an integral part of this process.Metrics offer insights into the health and maintainability of a codebase, helping development teams make informed decisions to improve software quality. 
+Logging metrics in SonarQube involves the systematic recording and storage of metrics generated during static code analysis. These metrics encompass a range of factors, including but not limited to code complexity, maintainability, security vulnerabilities, and adherence to coding standards.The process serves as an audit trail, capturing historical data that enables developers, project managers, and stakeholders to track changes in code quality, identify trends, and assess the effectiveness of code improvement initiatives. 
+
+***
+
+# Features of Logging Metrics
+
+| **Feature** | **Description** |
+| ----------- | --------------- |
+| **Historical Record** | Logging metrics often imply the recording of metrics for historical reference. In SonarQube, this would involve capturing and storing metrics related to code quality, security, and other aspects over time. |
+| **Audit Trail** | Logging metrics can serve as an audit trail, documenting changes and improvements made to the codebase. This helps in tracking how code quality has progressed and provides insights into the effectiveness of development efforts. |
+| **Integration with CI/CD Pipelines** | Logging metrics can be integral to the integration of SonarQube into Continuous Integration/Continuous Deployment (CI/CD) pipelines. Metrics logged during code analysis become part of the feedback loop for developers, contributing to a continuous improvement process. |
 
 ***
 
