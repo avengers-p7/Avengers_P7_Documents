@@ -53,20 +53,23 @@ In essence, it ensures a secure, controlled, and compliant CI/CD environment.
  | **Logged in users can do anything**            | In this mode, every logged-in user gets full control of Jenkins. Depending on an advanced option, anonymous users get read access to Jenkins, or no access at all. This mode is useful to force users to log in before taking actions, so that there is an audit trail of users' actions. |
 | **Matrix-based security**                       | This authorization scheme allows for granular control over which users and groups are able to perform which actions in the Jenkins environment (see the screenshot below). |
 | **Project-based Matrix Authorization Strategy** | This authorization scheme is an extension to Matrix-based security which allows additional access control lists (ACLs) to be defined for each project separately in the Project configuration screen. This allows granting specific users or groups access only to specified projects, instead of all projects in the Jenkins environment. The ACLs defined with Project-based Matrix Authorization are additive such that access grants defined in the Security screen will be combined with project-specific ACLs.<br>Matrix-based security and Project-based Matrix Authorization Strategy are provided by the Matrix Authorization Strategy Plugin and may not be installed on your Jenkins. |
-|**Role-based Authorization Strategy** | The Role Strategy plugin is meant to be used from Jenkins to add a new role-based mechanism to manage users' permissions. Supported features <ul><li>Creating global roles, such as admin, job creator, anonymous, etc., allowing to set Overall, Agent, Job, Run, View and SCM permissions on a global basis.</li><li>Creating item roles, allowing to set item specific permissions (e.g Job, Run or Credentials) on Jobs, Pipelines and Folders.</li><li>Creating agent roles, allowing to set agent specific permissions.<\li><li>Assigning these roles to users and user groups<\li><\ul>
+|**Role-based Authorization Strategy** | The Role Strategy plugin is meant to be used from Jenkins to add a new role-based mechanism to manage users' permissions. Supported features <ul><li>Creating global roles, such as admin, job creator, anonymous, etc., allowing to set Overall, Agent, Job, Run, View and SCM permissions on a global basis.</li><li>Creating item roles, allowing to set item specific permissions (e.g Job, Run or Credentials) on Jobs, Pipelines and Folders.</li><li>Creating agent roles, allowing to set agent specific permissions.<\li><li>Assigning these roles to users and user groups<\li><\ul> |
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/096ec3e4-e76e-44ad-94d8-72cc4a5003e4)
+
 ***
 
 ## Role-based Authorization Strategy
-| Criteria  | Jenkins | GitLab | BuildPiper |
-| --------- | -------- | ------ | --------- |
-| **Plugins** | 1700+ plugins |   Limited plugins |  Limited plugins/tools |
-| **Prerequisites** | JRE should be installed	| Ruby, Go, Git, Node.js, and Redis should be installed | None |
-| **Operating Systems Supported** |	Windows, Mac OS X, and Unix-like OS |	Supports only particular Unix-like OS such as Ubuntu, Debian, Red Hat Linux, Scientific Linux, Oracle Linux, CentOS, and OpenSUSE. It does not support Windows and macOS. | SAAS/Web |
-| **Open Source**	| Open Source and Free	| Open Source and Freemium | Open Source and Freemium |
-| **Issue Tracking**	| Don’t have such functionality	| Offers various features for issue tracking and management | Gain immediate insights into the potential reasons for a deployment failure- from service logs to container to pod status. |
-| **Extensiveness** |	Highly extensive as it can be used as a simple CI server or can be transformed into a complex CD system with the help of plugins	| Offers scalability to enhance the DevOps lifecycle for a project | enables teams to onboard & securely manage Kubernetes & Microservices applications in a seamless manner. Also, the platform empowers teams with the ability to run zero-touch, fully automated & secured CI/CD pipelines. |
-| **Support** |	Offers documentation and open source community support, but no technical support is provided as part of the SLA |	Provides 24×5 support for paid users and only self-support documents to free users as part of the SLA | Documentation , 24x7 and online suppprt |
+Using a role-based strategy in Jenkins helps manage and control access to Jenkins resources based on predefined roles assigned to users or groups. This approach enhances security, simplifies administration, and ensures that users have the appropriate level of access for their responsibilities. Here are some key reasons for using a role-based strategy in Jenkins:
 
+| Features                      | Description |
+|------------------------------ | ------------- |
+| **Access Control**            | <ul><li>**Granular Permissions:** Role-based strategies allow administrators to define specific permissions for each role, providing fine-grained control over who can perform which actions.<\li><li>**Least Privilege Principle:** Users are granted only the permissions necessary for their tasks, following the principle of least privilege, reducing the risk of accidental or intentional misuse.<\li><\ul> |
+| **Simplified Administration** | <ul><li>**Centralized Management:** Roles can be centrally managed, making it easier for administrators to assign and revoke permissions without needing to update individual user accounts.<\li><li>**Scalability:** As the number of users and projects in Jenkins grows, role-based access control simplifies the management of permissions, making it more scalable.<\li> |
+| **Customization**             | **Project-Specific Roles:** Different projects within Jenkins may have unique requirements. Role-based strategies allow administrators to define roles specific to a project, tailoring permissions to meet the needs of each project.
+| **Collaboration**             | **Facilitates Collaboration:** By assigning roles based on job responsibilities, teams can collaborate more effectively, knowing that each team member has the necessary permissions to perform their tasks. |
+
+Role-Based Access Control Plugin in Jenkins provide the necessary functionality to implement role-based access control. These plugins allow administrators to define roles, assign permissions, and manage user access within Jenkins.
 ***
 
 ## Conclusion
