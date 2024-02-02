@@ -1,4 +1,4 @@
-# Ansible Role to setup Jenkins
+# Ansible Role to setup Jenkins on Ubuntu
 
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
@@ -17,7 +17,7 @@
 
 ***
 # Introduction
-This role is designed to automate the installation and configuration of Jenkins on target servers. Whether you're setting up Jenkins for continuous integration, continuous delivery, or other purposes, this role aims to simplify the process.
+This role is designed to automate the installation and configuration of Jenkins on target ubuntu servers. Whether you're setting up Jenkins for continuous integration, continuous delivery, or other purposes, this role aims to simplify the process.
 
 
 ***
@@ -76,14 +76,14 @@ enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto
 ---
 plugin: aws_ec2
 regions:
-  - eu-north-1
+  - your_aws_region
 
 groups: 
   ubuntu: "'ubuntu' in tags.OS"
 ```
 
 1. `plugin: aws_ec2`: Specifies the use of the aws_ec2 plugin as the dynamic inventory source. This plugin is designed to fetch information about EC2 instances in AWS.
-2. `regions: - eu-north-1`: Indicates the AWS region(s) from which the dynamic inventory should fetch information. In this case, it's set to the eu-north-1 region.
+2. `regions: - eu-north-1`: Indicates the AWS region(s) from which the dynamic inventory should fetch information.
 3. `ubuntu: "'ubuntu' in tags.OS"`: Creates an Ansible group named ubuntu. This group includes EC2 instances where the tag named OS has a value of 'ubuntu'.
 
 **Step 3: playbook.yml**
