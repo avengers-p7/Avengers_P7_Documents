@@ -220,6 +220,8 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 
 <img width="1365" alt="Screenshot 2024-02-03 at 5 45 17 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/37be3eed-33ed-48fb-b2e3-d0a2977b0924">
 
+> Note[!]
+>  Make sure your ansible host has `8080` port open
 * Retrieve the initial administrator password from the Jenkins server.
 
 <img width="1122" alt="Screenshot 2024-02-03 at 5 49 48 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1c22aa91-343c-4761-9464-f9955ed7d1ad">
