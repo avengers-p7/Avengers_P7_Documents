@@ -17,7 +17,7 @@
 + [Pre-requisite](#Pre-requisite)
 + [OWASP ZAP Installation](#OWASP-ZAP-Installation)
 + [Proof of Concept (POC)](#Proof-of-Concept-(POC))
-+ [html Report](#html-Report)
++ [HTML Report](#HTML-Report)
 + [Analyzing the report ](#Analyzing-the-report )
 + [Contact Information](#Contact-Information)
 + [References](#References)
