@@ -10,15 +10,17 @@
 
 [3. Comparision](#comparision)
 
-[4. Use Cases](#use-case)
+[4. Tools Available](#tools-available)
 
-[5. Advantages and Disadvantages](#advatanges-and-disadvantages)
+[5. Use Cases](#use-case)
 
-[6. Best Practices](#best-practices)
+[6. Advantages and Disadvantages](#advatanges-and-disadvantages)
 
-[7. Conclusion](#conclusion)
+[7. Best Practices](#best-practices)
 
-[8. Contact Information](#contact-information)
+[8. Conclusion](#conclusion)
+
+[9. Contact Information](#contact-information)
 
 # Introduction 
 In the landscape of DevOps, infrastructure management is a critical aspect that directly impacts the reliability, scalability, and agility of software applications. Two prominent paradigms in this context are mutable and immutable infrastructure. This documentation provides an in-depth exploration of both concepts, highlighting their definitions, purposes, detailed comparisons, advantages, disadvantages, and a conclusive summary.
@@ -59,6 +61,29 @@ Immutable infrastructure revolves around creating and deploying servers or infra
 | **Deployment Time**    | Real-time updates allow for quick changes.                | Deployment of new instances might take longer.              |
 | **Learning Curve**     | Familiar configuration management tools.                  | Requires a shift in mindset and adoption of new IaC tools.  |
 ***
+
+# Tools Available
+
+Tool                | Mutable Infrastructure Features                                   | Immutable Infrastructure Features                               
+---------------------|-------------------------------------------------------------------|-------------------------------------------------------------------
+| Ansible             | - Declarative configuration management                              | - Idempotent configuration                          |              
+ |                   | - Supports both push and pull modes                                | - Ability to create and manage machine images (e.g., Amazon AMIs) |
+ |                 | - Extensive module library for various tasks                        | - Infrastructure as Code (IaC) support (e.g., using YAML)         |
+|Chef                | - Configuration management using recipes                           | - Supports Infrastructure as Code (IaC)                          |
+|                    | - Agent-based system for configuration convergence                | - Immutable server patterns                                       |
+|                   | - Chef Infra, Chef InSpec, and Chef Automate components            | - Version-controlled cookbooks and roles                          |
+| Puppet              | - Declarative language (Puppet DSL) for configuration             | - Infrastructure as Code (IaC) support (Puppet manifests)        |
+|                   | - Puppet Forge for sharing modules                                 | - Immutable server patterns                                       |
+|                   | - Agent-based configuration management                            |                                                                   |
+| Terraform           | - Infrastructure as Code (IaC) in HashiCorp Configuration Language (HCL) | - Declarative language for defining infrastructure        |       
+|                    | - Plan and apply changes to infrastructure                         | - Immutable infrastructure support                               |
+|                   | - Providers for various cloud and on-premises platforms            | - State management for tracking infrastructure changes            |
+| Docker              | - Containerization platform                                       | - Building and managing immutable containers                      |
+|                  | - Dockerfile for defining container images                         | - Version-controlled Docker images                                |
+|                   | - Orchestration tools like Docker Compose and Kubernetes          |                                                                   |
+| Kubernetes          | - Container orchestration platform                                | - Declarative configuration for cluster management               |
+|                    | - Self-healing capabilities                                       | - Immutable container deployment                                  |
+|                  | - Persistent Volumes for data storage                              |                                                                   |
 
 # Use Cases
 
