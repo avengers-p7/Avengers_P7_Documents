@@ -30,6 +30,20 @@ This documentation outlines the HA design, emphasizing the design considerations
 4. **ALB** - Used for distribution incoming traffic and to enhance fault tolerance so If one instance becomes unavailable or experiences issues, the ALB automatically redirects traffic to healthy instances.
 
 ***
-## AWS Infrastructure
+## AWS Infrastructure
 
 ![jenkins-HA drawio](https://github.com/avengers-p7/Documentation/assets/156056349/d85d9f2c-683a-4ee2-b38f-0f94745c05f9)
+
+***
+## Contact Information
+
+|Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
+|---------------------------------|------------------------------------------------------------|
+
+***
+## References
+
+| Title                                      | URL                                           |
+|--------------------------------------------|-----------------------------------------------|
+| AWS doc for HA           | https://docs.aws.amazon.com/whitepapers/latest/real-time-communication-on-aws/high-availability-and-scalability-on-aws.html    |
+| HA in jenkins    | https://devopscube.com/setup-highly-available-jenkins/  |
