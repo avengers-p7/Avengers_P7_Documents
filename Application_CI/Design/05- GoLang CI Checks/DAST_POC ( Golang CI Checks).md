@@ -1,6 +1,8 @@
 # DAST_POC ( Golang CI Checks)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056570/fd60b4ae-b44e-4823-84fa-918c7084321b)
+
+![download-removebg-preview](https://github.com/avengers-p7/Documentation/assets/156056570/8bdc9c41-b07d-4761-b17d-4351d63d9a9d)
+
 
 
 
@@ -97,7 +99,7 @@ This flag specifies the output file for the results of the operation. In this ca
 ![image](https://github.com/avengers-p7/Documentation/assets/156056570/45e4597b-f06e-41c6-b7b7-7dd38055d122)
 
 ***
-## html Report
+## HTML Report
 
  the output reprt is redirected to ~/out2.html
 ```shell
