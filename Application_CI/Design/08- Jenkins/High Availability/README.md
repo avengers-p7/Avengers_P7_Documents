@@ -9,9 +9,7 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Key Components](#key-points)
-+ [Popular Tools](#popular-tools)
-+ [Tool Comparison](#tool-comparison)
++ [Components](#description)
 + [Contact Information](#contact-information)
 + [References](#references)
 
