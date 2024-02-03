@@ -1,4 +1,5 @@
 # High Availability in Sonarqube
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/5575262f-056c-493c-9bc9-a731cf8688bb)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
