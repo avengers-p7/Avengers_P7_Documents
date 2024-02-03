@@ -1,4 +1,4 @@
-# Dependency Scanning 
+# Dependency Scanning (Java)
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
