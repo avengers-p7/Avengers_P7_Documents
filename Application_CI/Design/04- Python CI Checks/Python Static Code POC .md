@@ -16,7 +16,7 @@
 ***
 
 # Introduction
-CStatic code analysis is the process of analyzing source code without executing it. 
+Static code analysis is the process of analyzing source code without executing it. 
 
 # Pre-requisites
 
