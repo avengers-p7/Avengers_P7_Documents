@@ -71,7 +71,17 @@ Best practices for authentication in Jenkins involve implementing security measu
 | **Encrypt Communication** | Enable SSL/TLS to encrypt communication between Jenkins and users. This safeguards sensitive data, such as login credentials, during transmission and prevents man-in-the-middle attacks.
 | **Monitor Authentication Logs** | Monitor authentication logs for any unusual or suspicious activities. Regularly review logs to identify and address potential security incidents promptly.
 | **Backup and Recovery Plans** | Implement regular backup and recovery plans for Jenkins configurations, including user accounts and permissions. This ensures that, in the event of a security incident, the system can be restored to a known and secure state.
-
+***
+## Common Configuration Mistakes  
+| Mistakes                                         | Recommendations                                                                                |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Anyone can do anything**               | Avoid using this authorization strategy as it grants Administer permission to all users, including anonymous ones. |
+| **Logged-in users can do anything**      | - Use cautiously and only if fully trusted users have accounts.                                 |
+|                                          | - Changing to an authentication realm allowing untrusted users may grant them administrative access. |
+| **Anonymous and authenticated users**    | Avoid granting significant permissions (e.g., Overall/Administer) to anonymous or authenticated users when using finer-grained authorization strategies. |
+| **Built-in node**                        | - Ensure users with limited permissions cannot configure jobs on the built-in node.             |
+|                                          | - When setting up Jenkins, configure distributed builds and limit jobs on the built-in node.    |
+***
 ## Conclusion
 In summary, using Jenkins's own user database is a straightforward and quick solution suitable for small to medium-sized teams and projects. It provides simplicity, out-of-the-box functionality, and local control over user management. However, potential limitations include limited integration, scalability concerns for larger organizations, and security considerations. The choice should align with specific needs and security policies, balancing simplicity with meeting authentication and authorization requirements.
 ***
