@@ -10,16 +10,18 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Why](#why)
-3. [Authorization options](#Authorization-options)
-4. [Role-based Authorization Strategy](#Role-based-Authorization-Strategy)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+2. [What](#what)
+3. [Why](#why)
+4. [Authorization options](#Authorization-options)
+5. [Role-based Authorization Strategy](#Role-based-Authorization-Strategy)
+6. [Best Practices](#Best-Practices)
+7. [Common Configuration Mistakes](#Common-Configuration-Mistakes) 
+8. [Conclusion](#Conclusion)
+9. [Contact Information](#Contact-Information)
+10. [References](#References)
 ***
 
 ## Introduction 
-
 This documentation provides a brief information of Authorization methods provided by Jenkins.
 
 Jenkins is an automation server that is self-contained and open source. It allows the building, testing, and deployment of every software release cycle. Through its fleet of plugins (over 1700) that seamlessly integrate with most CI/CD tools, Jenkins offers flexibility and covers almost all functional requirements.
