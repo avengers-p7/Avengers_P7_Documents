@@ -86,7 +86,7 @@ Here's a flow summary of the infrastructure
 
 **VPC (Virtual Private Cloud):**
 
-* Separate VPCs are created for Development, Production, and Quality Assurance environments.
+* VPC are created for Development environments.
 * This flow summary outlines the path of user access, the organization of components in public and private subnets, the role of security groups, NACLs, internet and NAT gateways, routing, and the use of load balancing and auto-scaling for ensuring scalability and availability of services.
 
 
