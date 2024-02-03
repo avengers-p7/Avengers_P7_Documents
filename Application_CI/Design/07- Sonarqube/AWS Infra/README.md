@@ -1,5 +1,5 @@
 
-# Jenkins AWS Infra
+# SonarQube AWS Infra
 ![1_tvWYZwZGRnXJPtt-X7lOoA](https://github.com/avengers-p7/Documentation/assets/156056344/95180069-054e-4980-8d90-dc7e3e856d8c)
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
