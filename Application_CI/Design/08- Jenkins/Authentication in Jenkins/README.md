@@ -32,7 +32,7 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 Authentication in Jenkins is the process of verifying the identity of users or systems attempting to access the Jenkins environment. It ensures that only authorized individuals or entities are granted access to Jenkins resources and functionalities. 
 ## Why
 Authentication is a fundamental aspect of securing Jenkins installations and is crucial for the following reasons:
-| Reasons                                                   |                                                                                |
+| Reasons                                                   | Description                                                                               |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Access Control**                                        | - Ensures that only authenticated users have access to Jenkins resources.                    |
 | **Protecting Sensitive Data**                             | - Safeguards sensitive information, like build scripts and credentials, from unauthorized access. |
