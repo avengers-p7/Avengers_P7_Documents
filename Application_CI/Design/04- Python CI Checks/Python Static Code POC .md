@@ -6,9 +6,9 @@
 
 # Table of Contents
 - [Introduction](#Introduction)
-- [Pre-requisites](#pre-requisites)
-- [Flow Diagram](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#flow-diagram)
-- [POC of Code Compilation in Go](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#poc-of-code-compilation-in-go)
+- [Pre-requisites and Code](#pre-requisites-and-code)
+- [Flow Diagram](#flow-diagram)
+- [POC of Static Code Compilation in Python](#POC-of-Static-Code-Compilation-in-Python)
 - [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#conclusion)
 - [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#contact-information)
 - [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#resources-and-references)
@@ -34,7 +34,7 @@ CStatic code analysis is the process of analyzing source code without executing 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/719436d6-e814-494e-aed1-138734eccebe)
 
 
-# POC of Code Compilation in Go
+# POC of Static Code Compilation in Python
 
 **Step-1** Clone the Repository:
 - Open a terminal (or command prompt).
