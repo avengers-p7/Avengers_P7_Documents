@@ -72,40 +72,19 @@ Comparison of Tools: Here is a comparison of the different tools for code compil
 # Proof of Concept
 
 > [!NOTE]
-> POC for Python  Code Compilation is prepared in different doc,if you want to see the code compilation of Python please use this link [Python Code compilation POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Python%20Static%20Code%20POC%20.md) 
+> POC for Python  Code Compilation is prepared in different doc,if you want to see the code compilation of Python please use this link [Python Code compilation POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Python%20Code%20Compilation%20POC%20.md) 
 ***
-
-
-**Step-1** Cloning repo
-
-``` shell 
-git clone https://github.com/avengers-p7/Attendance-API.git
-```
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/a7ad5dba-62d4-4449-b99c-ba7bd8862fa1)
-
-
-**Step-2** Install PyBuilder using pip
-
-``` shell 
- pip install pybuilder
-```
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/b52662eb-6212-4386-ae6b-f3813232957a)
-
-
-
-
 
 
 # Best Practices
 
-When implementing code compilation in Python CI checks, the following best practices should be considered:
-* Use a consistent naming convention for executables
-* Use a standard directory structure for compiled code
-* Use version control to track changes to the source code and compiled code
+When implementing code compilation in Python, the following best practices should be considered:
+* Document your compilation process for future reference.
+* Keep your dependencies and libraries updated for compatibility with compilation tools.
+* Write clear and concise code to facilitate the compilation process.
 * Use automated testing to ensure that the compiled code meets quality standards
-* Use continuous integration to automate the code compilation process
 
- # Conclusion
+# Conclusion
 
 Python code compilation is a valuable technique for improving performance, code security, and distribution. Choose the compilation tool that best fits your project requirements and consider experimenting with different tools to optimize your code further.
 
