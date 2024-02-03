@@ -30,7 +30,7 @@ This documentation outlines the HA design, emphasizing the design considerations
 ***
 ## AWS Infrastructure
 
-![jenkins-HA drawio](https://github.com/avengers-p7/Documentation/assets/156056349/d85d9f2c-683a-4ee2-b38f-0f94745c05f9)
+![jenkins_HA drawio](https://github.com/avengers-p7/Documentation/assets/156056349/b739d953-cb49-4e1c-8534-400ec46f2a8c)
 
 ***
 ## Contact Information
