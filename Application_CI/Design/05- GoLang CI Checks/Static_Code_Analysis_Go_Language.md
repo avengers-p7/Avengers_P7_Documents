@@ -50,12 +50,20 @@ These tools are useful as they provide immediate feedback to the developer on is
 
 # Choosing gosec
 Our primary concern is detecting and mitigating security vulnerabilities in my Go code, gosec is a compelling choice. Its focus, ease of use, and free availability make it an efficient and cost-effective tool for ensuring secure coding practices.
+
+# Advantages of gosec
+| Feature       | Description                                                                                                 |
+|---------------|-------------------------------------------------------------------------------------------------------------|
+| Ease of Use    | Gosec is easy to install and integrate into existing development workflows.                                 |
+| Accuracy      | Accurate detection of security vulnerabilities, including SQL injection, XSS, and insecure direct object references.  |
+| Speed         | Fast scanning capability for quick identification of code vulnerabilities.                                  |
+| Open Source   | Gosec is open source, making it free to use and modify.                                                      |
+| Community     | Large and active community for seeking help and support.                                                      |
+| Extensibility | Extensible, allowing users to add custom rules for detecting specific vulnerabilities.                         |
+
 > [!NOTE]
 > POC for go Static Analysis is prepared in different doc,if you want to see the Static Analysis of go use this link [go POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static-code-analysis-poc.md) 
 ***
-
-# gosec Report File
-[gosec-report.json](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/gosec-report.json)
 
 # Conclusion
 Gosec is a powerful tool for enhancing Go code security through static analysis. Its integration into development workflows and careful attention to its findings can significantly reduce vulnerabilities and strengthen application resilience.
