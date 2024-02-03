@@ -79,7 +79,7 @@ There are several license scanning tools available that can help organizations i
 ***
 ## Advantages 
 
-| **Advantages of License Scanning **                   |    **Description**                                   |
+| **Advantages of License Scanning**                   |    **Description**                                   |
 |-------------------------------------------------------------|---------------------------------------|
 | **Security Improvement:** |  Prevent exposure of sensitive credentials in repositories & reduce attack surface and unauthorized access | 
 | **Compliance and Regulatory Compliance:** | Ensure adherence to security standards and regulations & address industry-specific and regional compliance |
