@@ -9,6 +9,7 @@
 - [Pre-requisites and Code](#pre-requisites-and-code)
 - [Flow Diagram](#flow-diagram)
 - [POC of Static Code Compilation in Python](#POC-of-Static-Code-Compilation-in-Python)
+- [Output](#Output)
 - [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#conclusion)
 - [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#contact-information)
 - [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#resources-and-references)
