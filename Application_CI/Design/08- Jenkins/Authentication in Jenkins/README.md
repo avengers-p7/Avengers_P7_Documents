@@ -9,12 +9,16 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Authentication Methods](#Authentication-Methods)
-3. [Why Use Jenkins Own User Database?](#Why-Use-Jenkins-Own-User-Database)
-4. [Limitations](#Limitations)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+2. [What](#what)
+3. [Why](#why)
+4. [Authentication Methods](#Authentication-Methods)
+5. [Why Use Jenkins Own User Database?](#Why-Use-Jenkins-Own-User-Database)
+6. [Limitations](#Limitations)
+7. [Best Practices](#Best-Practices)
+8. [Common Configuration Mistakes](#Common-Configuration-Mistakes)  
+9. [Conclusion](#Conclusion)
+10. [Contact Information](#Contact-Information)
+11. [References](#References)
 ***
 
 ## Introduction 
