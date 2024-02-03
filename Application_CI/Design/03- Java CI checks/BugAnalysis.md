@@ -148,8 +148,8 @@ Effective bug analysis is crucial for software development success. Regardless o
 # Resources and References
 
 |  **Description**                               |   **Source**                                              |
-|---------------------------------------------------------|-----------------------------------------------|
-| Understand the concept of bugs in software development. ||[Link](https://www.bacareers.in/what-is-bug-in-software-development/) |
+|---------------------------------------------------------|-----------------------------------------------------------------------|
+| Understand the concept of bugs in software development. | [Link](https://www.bacareers.in/what-is-bug-in-software-development/) |
 | Explore a list of popular bug tracking software. | [Link](https://www.guru99.com/top-20-bug-tracking-tools.html#2-jira-software) |
 | Understand the concept of bugs in software development. | [Link](https://www.bacareers.in/what-is-bug-in-software-development/) |
 | Explore Top 5 popular bug tracking software. | [Link](https://www.decipherzone.com/blog-detail/bug-tracking-tools) |
