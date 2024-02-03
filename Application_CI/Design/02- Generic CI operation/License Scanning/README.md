@@ -1,4 +1,5 @@
 # License Scanning
+![4cc573e37aa7c8fe28c46c2ec7175b75](https://github.com/avengers-p7/Documentation/assets/156056344/6b8671b4-521e-4cde-9d4c-9bcb894d6e31)
 
 
 ***
