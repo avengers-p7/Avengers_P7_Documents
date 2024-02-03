@@ -10,17 +10,17 @@
 
 # Table Of Contents
 
-### 1.Introduction
++ [Introduction](#Introduction)
 
-### 2.Step-by-step setup
++ [Step-by-step setup](#Step-by-step-setup)
 
-### 3.Best Practices
++ [Best Practices](#Best-Practices)
 
-### 4.Conclusion
++ [Conclusion](#Conclusion)
 
-### 5.Contact Information
++ [Contact Information](#Contact-Information)
 
-### 6.References
++ [References](#References)
 
 ***
 
