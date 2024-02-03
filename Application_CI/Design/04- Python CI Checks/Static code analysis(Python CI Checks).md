@@ -70,7 +70,9 @@ Comparison of above Tools
 
 # Proof of Concept
 
-baad me banaunga yaaar
+> [!NOTE]
+> POC for go Static Analysis is prepared in different doc,if you want to see the Static Analysis of go use this link [go POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static-code-analysis-poc.md) 
+***
 
 # Best Practices
 
