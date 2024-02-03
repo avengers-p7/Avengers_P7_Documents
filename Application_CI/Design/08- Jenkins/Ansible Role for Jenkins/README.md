@@ -215,7 +215,7 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 <img width="764" alt="Screenshot 2024-02-01 at 9 26 33 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/aa56992e-6702-40f8-a80c-39c49f53856a">
 
 ***
-Post-Installation Setup
+## Post-Installation Setup
 * Open your web browser and navigate to `http://your-jenkins-server:8080`.
 
 <img width="1365" alt="Screenshot 2024-02-03 at 5 45 17 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/37be3eed-33ed-48fb-b2e3-d0a2977b0924">
