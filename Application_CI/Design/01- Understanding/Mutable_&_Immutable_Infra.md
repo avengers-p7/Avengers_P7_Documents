@@ -14,7 +14,7 @@
 
 [5. Use Cases](#use-cases)
 
-[6. Advantages and Disadvantages](#advatanges-and-disadvantages)
+[6. Advantages and Disadvantages](#advantages-and-disadvantages)
 
 [7. Best Practices](#best-practices)
 
