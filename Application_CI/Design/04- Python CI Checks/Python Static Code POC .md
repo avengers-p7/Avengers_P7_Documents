@@ -6,7 +6,7 @@
 
 # Table of Contents
 - [Introduction](#Introduction)
-- [Pre-requisites and Code](#pre-requisites-and-code)
+- [Pre-requisites](#pre-requisites)
 - [Flow Diagram](#flow-diagram)
 - [POC of Static Code Compilation in Python](#POC-of-Static-Code-Compilation-in-Python)
 - [Output](#Output)
