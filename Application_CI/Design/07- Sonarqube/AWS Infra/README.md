@@ -9,12 +9,12 @@
 + [Introduction](#introduction)
 + [Description](#description)
 + [Infrastructure Diagram](#infrastructure-diagram)
-+ [Contact Information](#contact-information)  R
++ [Contact Information](#contact-information)
 + [References](#References)
 
 ***
 ## Introduction
-This document shows an overview of our AWS Infra for Jenkins. This document presents a detailed AWS infrastructure diagram outlining the setup of Jenkins within the AWS ecosystem. 
+This document shows an overview of our AWS Infra for SonarQube. This document presents a detailed AWS infrastructure diagram outlining the setup of SonarQube within the AWS ecosystem. 
 
 ***
 ## Description
@@ -32,13 +32,13 @@ This document shows an overview of our AWS Infra for Jenkins. This document pres
 ![SQ](https://github.com/avengers-p7/Documentation/assets/156056344/432eb19b-389d-42f3-bcba-b050ea3832d9)
 
 
-# Contact Information
+## Contact Information
 
 |  Name                     |        	Email Address           |
 | ------------              | --------------------------------|
 | Aakash Tripathi              |  aakash.tripathi.snaatak@mygurukulam.co       |  
 
-# References
+## References
 
 |  Source                                                                                 |        Description                 |
 | ------------                                                                            | -----------------------            |
