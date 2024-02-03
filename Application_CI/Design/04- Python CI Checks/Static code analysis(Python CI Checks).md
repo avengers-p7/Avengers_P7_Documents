@@ -71,7 +71,7 @@ Comparison of above Tools
 # Proof of Concept
 
 > [!NOTE]
-> POC for go Static Analysis is prepared in different doc,if you want to see the Static Analysis of go use this link [go POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Static-code-analysis-poc.md) 
+> POC for go Static Analysis is prepared in different doc,if you want to see the Static Analysis of go use this link [Python Static Code POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Python%20Static%20Code%20POC%20.md) 
 ***
 
 # Best Practices
