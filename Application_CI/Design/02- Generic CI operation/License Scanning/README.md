@@ -30,17 +30,19 @@ License scanning is important for several reasons in the context of software dev
 | **Security and Quality Assurance** | By scanning licenses, organizations can also assess the security and quality of the software components. This includes evaluating the reputation of the open-source projects, checking for known vulnerabilities, and ensuring that the software is well-maintained. |
 
 ## License Scanning Tools 
-Credential scanning tools are used to identify and prevent the exposure of sensitive information, such as usernames, passwords, API keys, and other credentials, within source code, configuration files, or other repositories. Here are some popular credential scanning tools:
+There are several license scanning tools available that can help organizations identify and manage the licenses associated with the software components in their projects. These tools automate the process of scanning codebases and dependencies to generate reports on the licenses used. Here are some popular license scanning tools:
 
 | **Tool** | **Description** |
 | -------- | --------------- |
-| **TruffleHog** | TruffleHog is a Python-based tool that scans Git repositories for high-severity security issues, including potential exposure of credentials. |
-| **GitLeaks** | GitLeaks is an open-source tool designed to search through Git repositories for secrets and sensitive information. It supports various file types and allows you to customize the rules for finding credentials. |
-| **RepoPeek** | RepoPeek is a lightweight Python tool that scans repositories on GitHub, GitLab, and Bitbucket to find sensitive information, including credentials, API keys, and more. |
-| **GitGuardian** | GitGuardian is a commercial tool that specializes in scanning for sensitive data, secrets, and credentials in both public and private repositories. It supports various version control systems and integrates with CI/CD pipelines. |
-| **Spectre** | Spectre is an open-source secrets scanner that supports various file types and can be integrated into CI/CD pipelines. It is designed to find secrets such as passwords, API keys, and other sensitive information. |
-| **Hawkeye** | Hawkeye is a security tool that scans for secrets, API keys, and other sensitive information in source code repositories. It supports multiple file formats and can be integrated into CI workflows. |
-| **Detect-Secrets** | *detect-secrets* is an open-source Python tool that scans code repositories, using regex-based patterns to identify and prevent the accidental inclusion of sensitive information like passwords or API keys. It's easily integrated into CI/CD pipelines and supports customizable configuration for reduced false positives. |
+| **FOSSA** | FOSSA is a comprehensive license compliance and dependency analysis tool. It automates the detection of licenses and vulnerabilities in open-source dependencies. It supports various programming languages and integrates with popular development platforms. |
+|**Black Duck** | Black Duck is a widely used solution for open-source security and license compliance. It scans codebases, identifies open-source components, and provides information about licenses and potential security vulnerabilities. |
+| **WhiteSource** | WhiteSource offers a platform for managing open-source components in software projects. It includes license scanning features to ensure compliance and provides insights into security vulnerabilities associated with the used dependencies.
+| **Ninka** | Ninka is a lightweight command-line tool that identifies licenses by analyzing the text of license files. It's designed to be simple and can be integrated into build processes or used as a standalone tool. |
+| **Licensee** | Licensee is a Ruby gem that identifies licenses in projects by analyzing the contents of license files. It is commonly used for projects written in Ruby and can be integrated into the build or CI/CD process. |
+| **ScanCode Toolkit** | ScanCode is an open-source project that provides a toolkit for license and metadata scanning of source code. It supports various programming languages and produces detailed reports about licenses and copyrights. |
+| **LicenseFinder** | LicenseFinder is a tool for managing dependencies and licenses in a Ruby project. It analyzes a project's dependencies and generates reports on the licenses associated with each dependency. |
+| **JFrog Xray** | JFrog Xray is part of the JFrog DevOps Platform and focuses on artifact analysis for security and license compliance. It scans artifacts in repositories and provides information on licenses, vulnerabilities, and more. |
+| **FOSSology** | FOSSology is an open-source license compliance software system. It can analyze source code for licenses and copyright information, helping organizations understand the licensing status of their software. |
 
 ***
 
@@ -76,7 +78,7 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 ***
 ## Advantages 
 
-| **Advantages of Credential Scanning Tools**                   |    **Description**                                   |
+| **Advantages of License Scanning **                   |    **Description**                                   |
 |-------------------------------------------------------------|---------------------------------------|
 | **Security Improvement:** |  Prevent exposure of sensitive credentials in repositories & reduce attack surface and unauthorized access | 
 | **Compliance and Regulatory Compliance:** | Ensure adherence to security standards and regulations & address industry-specific and regional compliance |
