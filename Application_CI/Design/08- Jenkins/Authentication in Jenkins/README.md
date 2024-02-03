@@ -24,10 +24,25 @@ Jenkins is an automation server that is self-contained and open source. It allow
 
 Access Control is the primary mechanism for securing a Jenkins environment against unauthorized usage. Two facts of configuration are necessary for configuring Access Control in Jenkins:
 
-1. A Security Realm which informs the Jenkins environment how and where to pull user (or identity) information from. Also commonly known as Authentication.
+1. A Security Realm which informs the Jenkins environment how and where to pull user (or identity) information from. Also commonly known as `Authentication`.
 
-2. Authorization configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
+2. `Authorization` configuration informs the Jenkins environment as to which users and/or groups can access which aspects of Jenkins, and to what extent.
 ***
+##  What
+Authentication in Jenkins is the process of verifying the identity of users or systems attempting to access the Jenkins environment. It ensures that only authorized individuals or entities are granted access to Jenkins resources and functionalities. 
+## Why
+Authentication is a fundamental aspect of securing Jenkins installations and is crucial for the following reasons:
+| Reasons                                                   |                                                                                |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Access Control**                                        | - Ensures that only authenticated users have access to Jenkins resources.                    |
+| **Protecting Sensitive Data**                             | - Safeguards sensitive information, like build scripts and credentials, from unauthorized access. |
+| **User Accountability**                                   | - Establishes user accountability by associating actions with unique user identities.        |
+| **Preventing Unauthorized Actions**                       | - Helps prevent unauthorized activities such as modifying job configurations or initiating builds. |
+| **Compliance and Security Policies**                      | - Aligns with organizational security policies and compliance requirements.                    |
+| **Customizing User Experience**                           | - Enables role-based access control for customizing user privileges and experiences.          |
+| **Integration with External Systems**                     | - Ensures secure communication with external systems, preventing unauthorized access.        |
+| **Securing APIs and Webhooks**                            | - Secures APIs and webhooks, allowing only authorized systems to interact with Jenkins.        |
+
 ## Authentication Methods
 | Security Realm | Description |
 | -------------- | ----------- |
