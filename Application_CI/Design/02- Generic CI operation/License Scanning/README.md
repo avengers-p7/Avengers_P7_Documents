@@ -7,7 +7,7 @@
 + [Why License Scanning](#why-license-scanning-)
 + [Tool Comparison](#tool-comparison)
 + [Tool Recommendation](#tool-recommendation)
-+ [Proof Of Concept : GitLeaks](#proof-of-concept--gitleaks)
++ [Proof Of Concept : FOSSA](#proof-of-concept--fossa)
 + [Advantages](#advantages)
 + [Best Practices](#best-practices)  
 + [Conclusion](#conclusion)
