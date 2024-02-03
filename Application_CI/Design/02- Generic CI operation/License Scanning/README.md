@@ -81,31 +81,30 @@ There are several license scanning tools available that can help organizations i
 
 | **Advantages of License Scanning**                   |    **Description**                                   |
 |-------------------------------------------------------------|---------------------------------------|
-| **Security Improvement:** |  Prevent exposure of sensitive credentials in repositories & reduce attack surface and unauthorized access | 
-| **Compliance and Regulatory Compliance:** | Ensure adherence to security standards and regulations & address industry-specific and regional compliance |
-| **Early Detection of Vulnerabilities:** | Integrate with CI/CD for early detection in development & reduces time to remediate and mitigate vulnerabilities |      
-| **Cost Savings:** | Prevent financial and reputational costs of security incidents & minimizes remediation costs through early detection |                        
-| **Maintaining Trust:** | Build customer and user trust through commitment to security as we avoid fallout from data breaches |
+| **Avoid Legal Issues** | License scanning tools help organizations ensure compliance with open-source licenses and proprietary licenses. This reduces the risk of legal issues and potential lawsuits due to non-compliance. |
+| **Identify Risks Early** | License scanning tools assist in identifying potential licensing and security risks associated with open-source components. This allows organizations to address issues early in the development process, reducing the likelihood of costly fixes later on. |
+| **Prevent Costly Remediation** | Identifying and addressing licensing issues early in the development process is more cost-effective than dealing with legal disputes, license violations, or security vulnerabilities in the later stages of a project. |
+| **Stay Up-to-Date** | License scanning tools support continuous monitoring, allowing organizations to stay informed about changes in licenses as the project evolves. This ensures ongoing compliance and risk management. |
+
 ***
 
 ## Best Practices 
-Here are some best practices for effective credential scanning:
+Here are some best practices for effective license scanning:
 
 | **Best Practice**                   |    **Description**                                   |
 |-------------------------------------------------------------|---------------------------------------|
-| Regular Scanning | Implement regular and automated credential scanning across all code repositories, configuration files, and other relevant assets. |
-| Integration with CI/CD Pipelines | Integrate credential scanning into your continuous integration/continuous deployment (CI/CD) pipelines. |
-| Pattern-Based Scanning | Use pattern-based scanning tools that can recognize common formats of credentials, such as API keys, passwords, and access tokens. Customize these patterns to match your organization's specific credential formats. |
-| Exclude Trusted Files and Paths | Define exclusion rules for trusted files and paths where credentials might be legitimately stored. This prevents unnecessary alerts and false positives, focusing the scan on areas of higher risk. |
-| Secure Credential Storage | Encourage the use of secure credential storage solutions, such as vaults or key management services, rather than storing sensitive information directly in code or configuration files. |
-| Audit Trails | Maintain audit trails for credential scanning activities. Keep records of scan results, actions taken, and any identified vulnerabilities. This information can be valuable for compliance purposes and continuous improvement. |
-| Regular Updates |Keep your credential scanning tools and patterns up to date. Regularly update the tools to benefit from the latest security enhancements and ensure compatibility with evolving development practices. |
+| **Start Early in the Development Lifecycle** | Incorporate license scanning early in the development process. Identifying and addressing license issues at the beginning of a project is more cost-effective than dealing with them later. |
+| **Regularly Update License Databases** | Ensure that the license databases used by your scanning tools are regularly updated. This helps in identifying new licenses and staying current with changes in existing licenses. |
+| **Integrate with CI/CD Pipelines** | Integrate license scanning into your continuous integration/continuous deployment (CI/CD) pipelines. Automated scans within the development workflow enable early detection of license issues and streamline the process. |
+| **Automate License Approval Workflows** | Implement automated workflows for license approval. Establish a process for reviewing and approving the use of new open-source components based on their licenses. |
+| **Regularly Audit Codebases** | Conduct regular audits of codebases to identify any new dependencies or changes in licenses. Regular checks help ensure ongoing compliance, especially in projects with frequent updates. |
+| **Monitor License Changes** | Implement continuous monitoring to track changes in licenses as the project evolves. Regularly review and update license information to maintain compliance with the latest project requirements. |
 
-By implementing these best practices, organizations can significantly reduce the risk of credential leaks and enhance the overall security of their software development lifecycle.
+By adopting these best practices, organizations can establish a robust and proactive approach to license scanning, ensuring compliance, reducing legal risks, and fostering efficient and secure software development processes.
 
 ***
 ## Conclusion  
-In conclusion, credential scanning emerges as a fundamental practice in modern cybersecurity, offering a proactive approach to identifying and mitigating potential vulnerabilities within code repositories and configurations. By systematically searching for sensitive information like passwords and API keys, this practice serves as a critical line of defense against unauthorized access and data breaches. Integrated into the development lifecycle and bolstered by automated tools, credential scanning not only safeguards the integrity of systems but also fortifies organizations against evolving threats in the digital realm. In prioritizing the protection of sensitive data, credential scanning underscores its indispensable role in fostering a resilient and secure environment for software development and IT operations.
+The importance of license scanning extends beyond mere adherence to licensing terms; it serves as a proactive mechanism for identifying and mitigating potential legal risks and security vulnerabilities associated with software components. By integrating license scanning into the development lifecycle, organizations can foster a culture of transparency, reduce the likelihood of legal disputes, and establish a foundation for secure and sustainable software projects. Embracing best practices, selecting appropriate tools, and involving key stakeholders, including legal and compliance teams, are crucial steps in harnessing the full benefits of license scanning. Ultimately, a well-executed license scanning strategy not only safeguards intellectual property but also contributes to operational efficiency, cost savings, and positive engagement with the broader open-source community.
 
 # Contact Information
 
@@ -117,8 +116,8 @@ In conclusion, credential scanning emerges as a fundamental practice in modern c
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-| Credential Scanning | https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/credential_scanning/ |
-| GitLeaks |  https://akashchandwani.medium.com/what-is-gitleaks-and-how-to-use-it-a05f2fb5b034 | 
-| detect-secrets | https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/recipes/detect-secrets/ |
+| License Scanning | https://www.aikido.dev/glossary/open-source-license-scanning#:~:text=Open%20source%20license%20scanning%20has,benefits%20of%20open%20source%20development. |
+| FOSSA |  https://blog.opstree.com/2023/04/04/fossa-audit-grade-open-source-dependency-protection/ | 
+| License Scanning Tools  | https://fossa.com/blog/why-source-code-scanning-tools-are-essential-to-open-source-compliance/ |
 
 
