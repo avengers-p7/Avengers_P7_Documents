@@ -114,3 +114,4 @@ In summary, using Jenkins's own user database is a straightforward and quick sol
 | ---------------------------------| ------------------------------------------------------------------- |
 |     Documentation Template       | https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template |
 | Authentication in Jenkins | https://www.jenkins.io/doc/book/security/managing-security/ |
+| Common Mistakes | https://www.jenkins.io/doc/book/security/access-control/ |
