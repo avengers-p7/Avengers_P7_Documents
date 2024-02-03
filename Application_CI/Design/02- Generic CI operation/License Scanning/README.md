@@ -16,6 +16,7 @@
 
 ***
 ## Introduction 
+License scanning refers to the process of automatically analyzing and identifying software licenses associated with code or components within a software project.
 
 ## Why License Scanning ?
 
