@@ -70,8 +70,6 @@ Best practices for authentication in Jenkins involve implementing security measu
 | **Restrict Anonymous Access** | Limit anonymous access to Jenkins and only allow authenticated users to perform essential actions. This prevents unauthorized users from accessing sensitive information or making changes to the Jenkins environment.
 | **Encrypt Communication** | Enable SSL/TLS to encrypt communication between Jenkins and users. This safeguards sensitive data, such as login credentials, during transmission and prevents man-in-the-middle attacks.
 | **Monitor Authentication Logs** | Monitor authentication logs for any unusual or suspicious activities. Regularly review logs to identify and address potential security incidents promptly.
-| **Educate Users on Security Practices** | Educate Jenkins users on security best practices, including the importance of keeping passwords confidential, recognizing phishing attempts, and reporting any security concerns promptly.
-| **Regular Security Audits** | Conduct regular security audits to identify and address potential vulnerabilities. This includes reviewing configurations, permissions, and overall security settings related to authentication.
 | **Backup and Recovery Plans** | Implement regular backup and recovery plans for Jenkins configurations, including user accounts and permissions. This ensures that, in the event of a security incident, the system can be restored to a known and secure state.
 
 ## Conclusion
