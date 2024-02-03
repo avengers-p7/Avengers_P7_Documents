@@ -9,7 +9,7 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Components](#description)
++ [Description](#description)
 + [Contact Information](#contact-information)
 + [References](#references)
 
