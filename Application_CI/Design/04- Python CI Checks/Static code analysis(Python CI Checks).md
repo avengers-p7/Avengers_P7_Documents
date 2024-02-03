@@ -9,7 +9,7 @@
 + [Introduction](#Introduction)
 + [What is Static Code Analysis](#What-is-Static-Code-Analysis)
 + [Why Static Code Analysis](#Why-Static-Code-Analysis)
-+ [Different Tools Comparison](#Different-Tools-and-Comparison)
++ [Different Tools](#Different-Tools)
 + [Comparison](#Comparison)
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
