@@ -12,7 +12,7 @@
 
 [4. Tools Available](#tools-available)
 
-[5. Use Cases](#use-case)
+[5. Use Cases](#use-cases)
 
 [6. Advantages and Disadvantages](#advatanges-and-disadvantages)
 
