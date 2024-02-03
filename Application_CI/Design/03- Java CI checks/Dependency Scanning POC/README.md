@@ -122,7 +122,7 @@ Here's a step-by-step guide on how to suppress a vulnerability using the OWASP D
 </suppressions>
 ```
 
-**Step 3: Save the Suppression File** - Save the suppression XML file in a location accessible to your project.
+**Step 3:  Save the suppression XML file in a location accessible to your project.
 
 **Step 4: Add Configuration to pom.xml**
 * Open your project's pom.xml file and locate the <plugins> section. Add the following configuration for the dependency-check-maven plugin:
