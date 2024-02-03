@@ -1,6 +1,7 @@
 # DAST_POC ( Golang CI Checks)
 
-<img width="360" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/56e9dd64-9654-449c-be6d-4212de6aca71">
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/fd60b4ae-b44e-4823-84fa-918c7084321b)
+
 
 
 | Author                 | Created On | Last Updated | Document Version | Last Updated By |
