@@ -19,8 +19,15 @@
 License scanning refers to the process of automatically analyzing and identifying software licenses associated with code or components within a software project.
 
 ## Why License Scanning ?
+License scanning is important for several reasons in the context of software development and usage:
 
-
+| **Requirement** | **Description** |
+| -------------------- | --------------- |
+| **Legal Compliance** | Ensuring that the software complies with the terms and conditions of relevant licenses is essential for legal reasons. 
+| **Open Source Software (OSS) Management** | Many software projects incorporate open-source components, each governed by specific licenses. License scanning helps organizations identify and manage the licenses associated with these components, ensuring compliance with open-source license requirements. |
+| **Risk Mitigation** | License scanning helps identify potential legal risks associated with the use of specific licenses. It allows organizations to assess and understand the implications of incorporating certain software components into their projects. |
+| **Intellectual Property Protection** | License scanning helps protect intellectual property by ensuring that the organization is using software components in a manner consistent with the terms defined by the licenses. |
+| **Security and Quality Assurance** | By scanning licenses, organizations can also assess the security and quality of the software components. This includes evaluating the reputation of the open-source projects, checking for known vulnerabilities, and ensuring that the software is well-maintained. |
 
 ## License Scanning Tools 
 Credential scanning tools are used to identify and prevent the exposure of sensitive information, such as usernames, passwords, API keys, and other credentials, within source code, configuration files, or other repositories. Here are some popular credential scanning tools:
@@ -38,36 +45,33 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 ***
 
 ## Tool Comparison
-
-| Feature                     | Gitleaks                           | detect-secrets                    | TruffleHog                        |
-|-----------------------------|------------------------------------|-----------------------------------|-----------------------------------|
-| **Purpose**                 | Scans git repositories for secrets | Searches for secrets in codebases | Searches for secrets in repositories |
-| **Installation**            | Simple, binary installation        | Python package, pip install      | Python package, pip install      |
-| **Configurability**         | Configurable through rulesets      | Configurable with regex patterns | Limited configuration options   |
-| **Supported Repositories**  | Git repositories                   | Any code repository              | Git repositories                 |
-| **Performance**             | Fast and lightweight               | Fast                              | Can be slow for large repositories |
-| **Integration with CI/CD**  | Yes                                | Yes                               | Yes                               |
-| **Custom Rulesets**         | Yes                                | Yes                               | Limited                           |
-| **Ease of Use**             | Straightforward CLI usage          | Straightforward CLI usage         | Straightforward CLI usage        |
-| **Output Formats**          | JSON, CSV, and others              | JSON, plain text                  | JSON, plain text                  |
-| **Open Source**             | Yes, open-source                   | Yes, open-source                  | Yes, open-source                  |
-| **Community Support**       | Active community                   | Active community                  | Limited                           |
+| Feature / Aspect      | FOSSA                                  | Black Duck                                | FOSSology                                  |
+|-----------------------|----------------------------------------|-------------------------------------------|--------------------------------------------|
+| **License Detection** | Comprehensive license detection across multiple languages and package managers. | Extensive license detection capabilities supporting various languages and package managers. | Focus on analyzing licenses and copyright information in source code.                   |
+| **Vulnerability Scanning** | Provides vulnerability scanning for open-source dependencies. | Offers robust security scanning capabilities, identifying vulnerabilities in open-source components. | Primarily focuses on license analysis but may lack advanced security scanning features.     |
+| **Integration**        | Integrates with various development and CI/CD tools, supporting multiple workflows. | Integrates with popular DevOps tools and CI/CD pipelines for seamless integration. | Integrates with various systems and supports custom integration through APIs.                  |
+| **Ease of Use**        | User-friendly interface with a focus on ease of navigation and understanding. | Generally user-friendly, with a range of features accessible through a web-based interface. | May have a steeper learning curve and a more technical interface for some users.               |
+| **Community Support**  | Active community support and regular updates to the platform. | Strong community support, backed by a well-established company (Synopsys). | Open-source project with community contributions, but may have less extensive support.          |
+| **Scalability**        | Scalable to handle projects of various sizes and complexities. | Scalable for enterprise-level projects with extensive codebases and dependencies. | Suitable for smaller to mid-sized projects; scalability may vary based on requirements.         |
+| **Customization**      | Provides customization options and flexibility in reporting and policies. | Offers customization options for policies, reporting, and integration with existing tools. | Being open source, it allows customization but may require more technical expertise.              |
+| **Cost (Free Elements)** | FOSSA offers a free version with limited features, and pricing is based on project size and complexity for additional features. | Black Duck may have free trials, but it is primarily a commercial product with pricing based on project size and organization requirements. | FOSSology is open-source, and the software itself is free. Costs may be associated with support and customization services. |                           |
 ***
 ## Tool Recommendation
 
-**GitLeaks** is a simple but powerful tool for the purposes of credential scanning. Gitleaks offers a number of powerful features, including:
-| **GitLeaks Feature** | **Description** |
+**FOSSA** has several features that give it an edge over other license scanning tools. Here are few key points that highlight its advantages:
+
+| **FOSSA Feature** | **Description** |
 | -------------------- | --------------- |
-| Comprehensive scanning | Gitleaks scans not only your current codebase but also your entire repository history, ensuring that even secrets that were committed in the past can be identified. |
-| Low false positive rate | Gitleaks uses a combination of heuristics and machine learning to identify potential secrets, resulting in a low false positive rate.
-| Customizable rule-set | Gitleaks allows you to customize the rule-set to match your specific needs and environment. |
-| Integration with CI/CD pipelines | Gitleaks can be integrated with popular CI/CD pipelines, such as GitHub Actions  to automatically scan your repositories for secrets whenever you push code changes.|
+| Comprehensive Multi-Language Support | FOSSA is recognized for its comprehensive license detection capabilities across a wide range of programming languages and package managers. This multi-language support is crucial for organizations with diverse tech stacks, allowing them to accurately identify and manage licenses in projects with mixed language dependencies. |
+| Advanced Vulnerability Scanning | FOSSA goes beyond license analysis and includes robust vulnerability scanning for open-source dependencies. This feature enhances the tool's utility by providing insights into potential security risks associated with the components used in a software project. This dual focus on licenses and security makes FOSSA a more comprehensive solution for managing open-source components. |
+| User-Friendly Interface and Workflow Integration | FOSSA offers a user-friendly interface, designed to facilitate ease of navigation and understanding. This aspect can contribute to faster adoption by development teams. Additionally, FOSSA integrates seamlessly with various development and CI/CD tools, making it easier to incorporate license scanning into existing workflows without causing disruptions. |
+| Continuous Monitoring |  FOSSA supports continuous monitoring, allowing organizations to stay informed about changes in licenses as their projects evolve over time. |
 
 ***
 
-## Proof Of Concept : GitLeaks 
+## Proof Of Concept : FOSSA
 
-*Please refer the [GitLeaks Credential Scanning POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/02-%20Generic%20CI%20operation/Credentials%20Scanning/Credential%20Scanning%20via%20GitLeaks%20POC.md) for GitLeaks installtion process and proof of concept of credential scanning using GitLeaks.*
+*Please refer the [FOSSA License Scanning POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/02-%20Generic%20CI%20operation/License%20Scanning/License%20Scanning%20via%20FOSSA%20POC.md) for FOSSA setup process and proof of concept of license scanning using FOSSA.*
 
 ***
 ## Advantages 
