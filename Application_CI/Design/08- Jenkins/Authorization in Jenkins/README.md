@@ -114,3 +114,4 @@ In summary, Role-Based Strategy for authorization in Jenkins help us for establi
 | ------------------------ | ------------------------------------------------------------------- |
 | Authorization in Jenkins | https://www.jenkins.io/doc/book/security/managing-security/ |
 | Role Based Strategy      | https://plugins.jenkins.io/role-strategy/ |
+| Common Mistakes | https://www.jenkins.io/doc/book/security/access-control/ |
