@@ -20,51 +20,61 @@
 
 
 # Introduction
-Code compilation in Continuous Integration (CI) checks is a crucial aspect of software development, especially in Python projects. It ensures that code changes integrate smoothly into the existing codebase and adhere to coding standards. This document explores the significance of code compilation in Python CI, different tools available, advantages, best practices, and recommendations.
+Python code compilation refers to the process of translating Python source code into machine-readable bytecode or executable code. This document aims to provide a comprehensive overview of Python code compilation, its purpose, tools, advantages, best practices, and recommendations.
 
 # What is Code compilation
 
-Code compilation in Python CI refers to the process of checking code for syntax errors, compliance with coding standards, and potential runtime issues before merging it into the main codebase. It involves automated testing and validation to maintain code quality and reliability.
+Python code compilation involves converting human-readable Python source code into a format that can be executed by the Python interpreter. This process typically involves several steps, including lexical analysis, parsing, optimization, and generation of bytecode or machine code.
 
 
 # Why Code Compilation
 
-|  Reason                         |        Description                                                                                       |
-| ---------                       | -------------------------------------------------------------------------------------------------------- |
-| Early Detection of Bugs         | CI checks help catch bugs and errors in the codebase early in the development cycle, reducing the time and effort required for debugging later on  |  
-| Improved Code Quality           | By automating code compilation and testing, developers can maintain higher code quality standards and adhere to best practices |
-| Faster Development Cycles       | CI checks enable faster iteration cycles by providing rapid feedback on code changes, allowing developers to make timely adjustments and enhancements |
-| Collaboration and Integration   | CI checks facilitate seamless collaboration among team members by ensuring that all code changes integrate smoothly and do not break existing functionality|
-
+|  Reason                         |        Description                                                             |
+| ---------                       | ------------------------------------------------------------------------------ |
+| Performance                     | Compiled code can often execute faster than interpreted code                   |  
+| Distribution                    | Compiled code can be distributed without exposing the original source code     |
+| Platform Independence           | Compiled bytecode can run on any platform with a compatible Python interpreter |
+| Code Optimization               | Compilation allows for optimization techniques to improve code efficiency      |
 
 
 # Different Tools
-Different Tools for Code Compilation in Python:
+Some popular tools for Python code compilation include:
 
-|  Tool         |        Description                                                                                       |
-| ---------     | -------------------------------------------------------------------------------------------------------- |
-| PyBuilder     | PyBuilder is a software build automation tool that can be used for code compilation in Python. It supports various plugins and provides a simple and flexible interface for building Python applications   |  
-| Pipenv        | Pipenv is a tool that provides a simple way to manage Python packages and environments. It can be used for code compilation in Python by creating a virtual environment and installing the required packages |
+* Cython
+* Numba
+* PyInstaller
+* Nuitka
+* PyOxidizer
+
+Each tool offers unique features and capabilities for compiling Python code.
 
 # Comparison
 
 Comparison of Tools: Here is a comparison of the different tools for code compilation in Python:
 
-| Tools                    |        Pros                                                        |          Cons                             |
-| ------------             | -------------------------------------------------------------------| ------------------------------------------|
-| PyBuilder                | Supports various plugins, simple and flexible interface            |  May require some setup and configuration |
-| Pipenv                   | Provides a simple way to manage Python packages and environments   | May require some setup and configuration  |
+| Tools                    |        Pros                                                        |          Cons                                     |
+| ------------             | -------------------------------------------------------------------| --------------------------------------------------|
+| Cython                   | High performance, C extensions support	                            |  Steeper learning curve                           |
+| Numba                    | Just-in-time compilation, easy to use                              | 	Limited support for certain features             |
+| PyInstaller              | Cross-platform packaging                                           |  Large distribution size                          |
+| Nuitka                   | High optimization, compatible with CPython                         |  Limited support for some libraries               |
+| PyOxidizer               | Standalone executables, easy to use                                | 	Limited documentation                            |
 
 
 # Advantages
 
-* Identification of syntax errors early in the development process.
-* Improved performance due to the conversion of Python code into bytecode.
-* Simplified deployment and distribution of Python applications.
-
+* Improved performance
+* Enhanced code security
+* Simplified distribution
+* Better integration with existing codebases
 
 
 # Proof of Concept
+
+> [!NOTE]
+> POC for Python  Code Compilation is prepared in different doc,if you want to see the code compilation of Python please use this link [Python Code compilation POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Python%20Static%20Code%20POC%20.md) 
+***
+
 
 **Step-1** Cloning repo
 
@@ -97,7 +107,7 @@ When implementing code compilation in Python CI checks, the following best pract
 
  # Conclusion
 
-Code compilation is an essential step in Python CI checks to ensure that the code can be built and executed successfully. By using the right tools and best practices, teams can improve code quality, reduce technical debt, and accelerate development cycles
+Python code compilation is a valuable technique for improving performance, code security, and distribution. Choose the compilation tool that best fits your project requirements and consider experimenting with different tools to optimize your code further.
 
 
 # Contact Information
@@ -108,10 +118,10 @@ Code compilation is an essential step in Python CI checks to ensure that the cod
 
 # References
 
-|  Source                                                                                 |        Description                 |
-| ------------                                                                            | -----------------------            |
-| https://pyinstaller.org/en/stable/                                                      | PyInstaller                        |  
-| https://github.com/avengers-p7/Documentation/blob/main/VCS/Design/FeatureBranch.md      | cx_Freeze                          |	
-| https://pyoxidizer.readthedocs.io/en/latest                                             | PyOxidizer                         |
+|  Source                                                                                 |        Description    |
+| ------------                                                                            | ----------------------|
+| https://cython.org/                                                                     |       Cython          |  
+| https://pyinstaller.org/en/stable/                                                      | pyinstaller           |	
+| https://pyoxidizer.readthedocs.io/en/latest                                             | PyOxidizer            |
       
 
