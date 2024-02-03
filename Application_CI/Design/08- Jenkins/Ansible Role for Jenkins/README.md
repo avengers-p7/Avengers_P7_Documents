@@ -11,6 +11,7 @@
 + [Pre-requisites](#pre-requisites)
 + [Setup Ansible Role](#steps)
 + [Output Verification](#output)
++ [Jenkins Setup](#post-installation-setup)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
@@ -86,7 +87,12 @@ groups:
 2. `regions: - eu-north-1`: Indicates the AWS region(s) from which the dynamic inventory should fetch information.
 3. `ubuntu: "'ubuntu' in tags.OS"`: Creates an Ansible group named ubuntu. This group includes EC2 instances where the tag named OS has a value of 'ubuntu'.
 
-**Step 3: playbook.yml**
+**Step 3: Create Ansible Role**
+* Create a new Ansible role which should follow this directory structure:
+
+<img width="842" alt="Screenshot 2024-02-03 at 5 28 58 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/9132ed3e-ddd3-42e4-ba6f-1aeff4b4430a">
+
+**Step 4: playbook.yml**
 * This file is defining a set of tasks to be executed on hosts belonging to the ubuntu group.
 
 ```yaml
@@ -97,7 +103,7 @@ groups:
   roles:
     - jenkins      #includes role
 ```
-**Step 4: Tasks**
+**Step 5: Tasks**
 1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the `install_jenkins.yml` file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
 
 ```yaml
@@ -175,7 +181,7 @@ jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
     var: jenkins_service_status
 ```
 
-**Step 4: Playbook Execution**
+**Step 6: Playbook Execution**
 
 * To set up Jenkins on your target servers, you will execute the Ansible playbook using the following command:
 
@@ -207,6 +213,21 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 3. **Verify Tags**: Verify that the Jenkins installation is on the instance with the mentioned tags.
 
 <img width="764" alt="Screenshot 2024-02-01 at 9 26 33 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/aa56992e-6702-40f8-a80c-39c49f53856a">
+
+***
+Post-Installation Setup
+* Open your web browser and navigate to `http://your-jenkins-server:8080`.
+
+<img width="1365" alt="Screenshot 2024-02-03 at 5 45 17 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/37be3eed-33ed-48fb-b2e3-d0a2977b0924">
+
+* Retrieve the initial administrator password from the Jenkins server.
+
+<img width="1122" alt="Screenshot 2024-02-03 at 5 49 48 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1c22aa91-343c-4761-9464-f9955ed7d1ad">
+
+* Customize jenkins based on your requirements and you're all set!
+
+<img width="809" alt="Screenshot 2024-02-03 at 5 53 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/e542a049-956c-4085-962c-93dde46440d8">
+
 
 ***
 ## Conclusion 
