@@ -10,12 +10,10 @@
 - [Flow Diagram](#flow-diagram)
 - [POC of Static Code Compilation in Python](#POC-of-Static-Code-Compilation-in-Python)
 - [Output](#Output)
-- [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#conclusion)
-- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#contact-information)
-- [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilation-go.md#resources-and-references)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [Resources and References](#resources-and-references)
 ***
-
-
 
 # Introduction
 CStatic code analysis is the process of analyzing source code without executing it. 
@@ -64,3 +62,22 @@ pylint app.py
 # Output
 The output we received from running pylint on app.py file indicates the quality of our Python code according to pylint's metrics.
 our code has been rated at 10.00/10: This means that pylint has evaluated Python code and assigned it a score of 10 out of 10. This is the highest possible score, indicating that pylint didn't find any issues or violations of Python coding standards in your code.
+
+# Conclusion
+
+The output from pylint indicates that your Python code has been analyzed and evaluated against a set of coding standards and best practices. The conclusions you can draw from the pylint output are:
+* High Quality Code
+* Code Health
+
+In summary, the pylint output indicates that your Python code is of excellent quality.  This should give you confidence in the reliability and maintainability of your codebase.
+
+# Contact Information
+
+|  Name                     |        	Email Address           |
+| ------------              | --------------------------------|
+| Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
+
+# Resources and References
+[Static Code Compilation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md) 
+
+[POC](https://towardsdatascience.com/check-the-quality-of-your-code-with-pylint-f5d829bb441d)
