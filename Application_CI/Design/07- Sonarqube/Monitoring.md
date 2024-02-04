@@ -48,12 +48,15 @@ Monitoring metrics in SonarQube involves regularly observing and analyzing vario
 
 | **Key Metrics** | **Description** |
 | --------------- | --------------- |
-| **Code Quality Metrics** | SonarQube analyzes the source code and identifies code smells, bugs, and other issues that can impact the overall quality of the code. |
-| **Security Metrics** | Monitoring security metrics is crucial for ensuring the application's resilience against potential threats.SonarQube scans for security vulnerabilities in the code, helping teams identify and fix potential risks. |
-| **Code Duplication** | SonarQube measures the percentage of duplicated code and identifies duplicated code blocks. Monitoring code duplication metrics helps in maintaining code consistency and reducing complexity. |
-| **Code Coverage** | Monitoring code coverage metrics helps ensure that critical parts of the code are thoroughly tested.SonarQube assesses the extent to which the codebase is covered by automated tests. |
-| **Code Complexity** | SonarQube provides metrics like Cyclomatic Complexity, measuring the complexity of the code. Monitoring code complexity metrics helps in understanding and managing code complexity. |
-| **Unit Test Metrics** | SonarQube evaluates unit test success and failure rates. Monitoring unit test metrics helps ensure the reliability of the test suite and identifies areas for improvement. |
+| **Server Health** | Monitor **Java Virtual Machine (JVM)** memory usage to ensure it stays within allocated limits.Keep an eye on **CPU** usage to ensure it doesn't reach critical levels. Monitor available **disk space** to prevent issues related to storage.|
+| **Database** | Ensure **stable connections** to the underlying database.Monitor **database response** times and query execution.|
+| **Web Server** | Check the **latency** of HTTP requests served by the SonarQube web server.Monitor for HTTP **response codes**, ensuring successful responses.|
+| **Background Tasks** | Keep track of the size of the background task processing queue.|
+| **Logs and Errors** | Regularly review **SonarQube logs** for errors and warnings.Set up **alerts** for critical events and monitor their occurrence.|
+| **Plugin Health** | Ensure that all installed plugins are up-to-date and compatible with the SonarQube version.|
+| **Security** | Review logs related to user **authentication** for any suspicious activities.Monitor identified security hotspots in code.|
+| **Integration with CI/CD** | Check logs from the integration with CI/CD tools to ensure successful scanning.|
+| **Performance Metrics** | Monitor the **response** time for various SonarQube pages.Track the number of requests processed per unit of time.|
 
 ***
 
