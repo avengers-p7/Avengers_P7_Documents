@@ -1,4 +1,5 @@
 # Ansible Role to setup SonarQube (Ubuntu)
+![1_rn-sO9oWLn9lYO7jkVO6og](https://github.com/avengers-p7/Documentation/assets/156056344/8f94a6c0-6a68-42ac-8768-aa314e7cbcba)
 
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
@@ -37,11 +38,13 @@ Before using this Ansible role to set up Jenkins, ensure that the following prer
 
 
 ### Ansible 
+![ansible_logo_icon_169596](https://github.com/avengers-p7/Documentation/assets/156056344/21281851-6cfa-4b18-aee4-8812e193dc62)
+
 Ansible is an open-source automation tool that simplifies and accelerates IT infrastructure management, application deployment, and task automation. Employing a declarative language, Ansible enables users to define desired states for systems and applications, automating complex workflows efficiently. With agentless architecture, it connects to remote systems over SSH or other protocols, making it versatile and easy to implement. 
 
 
 2. **SSH Access to Target Servers:**
-   - Ensure that you have SSH access to the target servers where Jenkins will be installed.
+   - Ensure that you have SSH access to the target servers where SonarQube will be installed.
 
 ***
 
