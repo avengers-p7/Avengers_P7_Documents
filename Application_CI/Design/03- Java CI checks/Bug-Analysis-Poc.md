@@ -100,8 +100,8 @@ This command will generate an html report. After running this command, generate 
 
 
  
-### POC Conclusion
-## Conclusion
+ 
+# Conclusion
 
 In conclusion, the Proof of Concept showcased effective bug analysis practices for the Java-based "salary-api" application. By leveraging Java 17, Maven, and SpotBugs with Find Security Bugs integration, the POC demonstrated a systematic approach to identify and address potential issues in the codebase.
 
@@ -116,4 +116,5 @@ Adopting these practices empowers development teams to proactively address poten
 | ------------------------------------------------- | ------------------------------------------------------------------- |
 | Documentation Template                           | [Link](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
 | SpotBugs Maven Plugin – Usage                           | [Link](https://spotbugs.github.io/spotbugs-maven-plugin/usage.html#:~:text=To%20generate%20the%20SpotBugs%20report,xml%20.&text=Then%2C%20execute%20the%20site%20plugin%20to%20generate%20the%20report.) |
+| Usage Guide                           | [Link](https://github.com/find-sec-bugs/find-sec-bugs/wiki/Maven-configuration) |
 
