@@ -54,7 +54,7 @@ mysqldump –opt -Q -h localhost -u username–password=’password’ databasen
 ```shell
 zip -r Sonar_home.zip $SONAR_HOME
 ```
-## Directory Structure
+#### Directory Structure
 | Directory                        | Description |
 | -------------------------------- | ------------ |
 | `$SONAR_HOME/extensions/plugins` | directory where you can get the list of plugins installed
