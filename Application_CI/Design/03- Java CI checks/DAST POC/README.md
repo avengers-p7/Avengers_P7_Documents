@@ -100,8 +100,8 @@ tar -xf ZAP_2.14.0_Linux.tar.gz
 
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
-| owasp documentation           | https://www.zaproxy.org/    |
-| OWASP Dependency-Check GitHub Repository    | https://github.com/jeremylong/DependencyCheck  |
+| OWASP documentation           | https://www.zaproxy.org/    |
+
 
 
 
