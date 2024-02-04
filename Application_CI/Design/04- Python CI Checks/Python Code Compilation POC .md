@@ -1,4 +1,4 @@
-# POC of Static Code analysis in Python
+# POC of Code Compilation in Python
 
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
@@ -34,7 +34,7 @@ Code compilation in Python refers to the process of converting human-readable so
 
 
 
-# POC of Static Code Compilation in Python
+# POC of Code Compilation in Python
 
 **Step-1** Clone the Repository:
 - Open a terminal (or command prompt).
