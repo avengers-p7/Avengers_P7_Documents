@@ -42,9 +42,9 @@ Some popular tools for Python code compilation include:
  
 |  Tools                         |        Description                                                              |
 | ---------                       | ------------------------------------------------------------------------------ |
-| PyInstaller                     | Converts Python programs into standalone executables                           |  
-| Cython                          | Compiles Python-like code into C extensions                                    |
-| Nuitka                          | Translates Python code into optimized C code                                   |
+| PyInstaller                     | PyInstaller is a tool that converts Python programs into standalone executables. It bundles the Python interpreter, your scripts, and all dependencies into a single package. PyInstaller supports various platforms and is popular for its simplicity and ease of use.                           |  
+| Cython                          | Cython is a superset of Python that allows developers to write C extensions for Python. It compiles Python-like code into C extensions, which can then be compiled into shared libraries or executables                                    |
+| Nuitka                          | Nuitka is a Python compiler that translates Python code into optimized C code. It aims to generate standalone executables or libraries from Python code, improving performance and speed. Nuitka is particularly useful for projects where performance optimization is critical.                                   |
 
 Each tool offers unique features and capabilities for compiling Python code.
 
