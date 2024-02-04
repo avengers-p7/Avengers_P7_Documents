@@ -7,7 +7,7 @@
 
 
 ## Table  of Contents
-Backup, recovery , MTTR...
+
 1. [Introduction](#Introduction)
 2. [What is Disaster Recovery?](#What-is-Disaster-Recovery)
 3. [Why Disater Recovery?](#Why-Disater-Recovery)
