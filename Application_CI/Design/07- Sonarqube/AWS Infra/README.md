@@ -12,6 +12,7 @@
 + [Introduction](#introduction)
 + [Description](#description)
 + [Infrastructure Diagram](#infrastructure-diagram)
++ [SonarQube HA & DR]()
 + [Contact Information](#contact-information)
 + [References](#References)
 
@@ -32,9 +33,19 @@ This document shows an overview of our AWS Infra for SonarQube. This document pr
 
 ## Infrastructure Diagram
 
-![SOnarQFinal](https://github.com/avengers-p7/Documentation/assets/156056344/6538c871-15cd-420f-9376-a90568ded922)
+![SonarFinal](https://github.com/avengers-p7/Documentation/assets/156056344/439e6bd7-4770-4f60-a050-03512da7c6e6)
 
 
+## SonarQube HA & DR 
+High availability and cluster scalability are features of the Data Center Edition of Sonarqube. However, HA and DR can be implemented in Community Edition in AWS ecosystem. 
+
+### High availability
+Please refer [*High Availibility in SonarQube*]() for detailed explaination.
+
+### Disaster Recovery
+Please refer [*Disaster Recovery in SonarQube*]() for detailed explaination.
+
+***
 
 ## Contact Information
 
