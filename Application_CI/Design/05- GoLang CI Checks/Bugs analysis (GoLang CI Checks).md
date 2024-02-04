@@ -1,4 +1,4 @@
-# Bugs analysis (Golang CI Checks)
+# Bugs analysis (GoLang CI Checks)
 
 
 
