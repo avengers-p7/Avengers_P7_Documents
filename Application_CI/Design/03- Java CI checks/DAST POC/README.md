@@ -51,24 +51,6 @@ Flow Diagram
 wget https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz
 ```
 
-* 
-
-### 3. Generate Reports
-
-* This ensures a clean build of your project before checking for vulnerabilities, run the following Maven command to ensure a clean build:
-```shell
-mvn clean install
-```
-
-* To generate a comprehensive report for your project, run the following Maven command in your terminal:
-
-```shell
-mvn clean install dependency-check:check -Dformat=ALL
-```
-
-> [!NOTE]
-> You can use dependency check arguments based on your requirements. These arguments allow you to customize the behavior of the tool according to your project's needs. They can be used to control aspects such as output format, updating data feeds, etc. You can find detailed information by visiting the following link: [Dependency-Check Arguments](https://jeremylong.github.io/DependencyCheck/dependency-check-cli/arguments.html).
-
 ### 4. Verify Reports 
 
 * Navigate to the build artifacts or workspace. Locate the generated Dependency-Check reports in the `target` folder. They are typically available in multiple formats (JSON, HTML, XML). Ensure that vulnerabilities are correctly identified. If you configured multiple report formats , explore each format to understand the data presentation.
