@@ -10,7 +10,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Key Conecpts](#key-concepts)
-+ [Description](#diagram-components)
++ [Description](#jenkins-infrastructure-components)
 + [Contact Information](#contact-information)
 + [References](#references)
 
