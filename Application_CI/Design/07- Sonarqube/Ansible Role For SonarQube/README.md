@@ -52,7 +52,7 @@ Ansible is an open-source automation tool that simplifies and accelerates IT inf
 ## SonarQube 
 SonarQube is a leading open-source platform for continuous inspection of code quality. It analyzes codebases, identifies bugs, security vulnerabilities, and code smells. Offering a comprehensive view of code health, SonarQube assists development teams in maintaining high-quality software, ensuring robust security, and fostering continuous improvement in codebases.
 
-Please refer [*SonarQube Document*]() for better understanding of SonarQube
+Please refer [*SonarQube Document*](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md) for better understanding of SonarQube
 
 # Steps 
 * Before going further check  [*Ansible Role For SonarQube Installation*](https://github.com/aakashtripathi/sonarqube)
