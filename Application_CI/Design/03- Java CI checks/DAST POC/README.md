@@ -23,7 +23,8 @@
 
 ***
 ## OWASP ZAP
-OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects. 
+OWASP Zed Attack Proxy (ZAP) stands as a cornerstone in the realm of web application security, embodying the mission of the to fortify software against cyber threats. ZAP is an open-source and dynamic security testing tool designed to identify and mitigate vulnerabilities within web applications. Its robust capabilities span from intercepting and analyzing web traffic to actively scanning for security weaknesses, making it a great asset for security professionals, developers, and organizations committed to safeguarding their applications. 
+
 
 ***
 ## Flow Diagram
