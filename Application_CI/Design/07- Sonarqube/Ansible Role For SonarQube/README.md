@@ -292,6 +292,42 @@ groups:
 ```
 
 ***Step 6: Templates for Configuration**
+We need to create two jinja2 templates :
+* To configure SonarQube
+* To set up SonarQube Service
+
+1. `sonarqube.conf.j2` teamplate includes parameteters to configure SonarQube database and webserver
+
+```yaml
+# SonarQube configuration file
+
+sonar.jdbc.url=jdbc:postgresql://localhost:5432/{{ sonarqube_db }}
+sonar.jdbc.username={{ sonarqube_user }}
+sonar.jdbc.password={{ sonarqube_password }}
+
+sonar.web.host=0.0.0.0
+sonar.web.port={{ sonarqube_web_port }}
+```
+
+2. `sonarqube.service.j2` template creates a service file for setting up `sonarqube.service`
+```ini
+[Unit]
+Description=SonarQube service
+After=syslog.target network.target
+
+[Service]
+Type=forking
+ExecStart={{ sonarqube_home }}/current/bin/linux-x86-64/sonar.sh start
+ExecStop={{ sonarqube_home }}/current/bin/linux-x86-64/sonar.sh stop
+User={{ sonarqube_user }}
+Group={{ sonarqube_user }}
+Restart=always
+LimitNOFILE=131072
+LimitNPROC=8192
+
+[Install]
+WantedBy=multi-user.target
+```
 
 **Step 7: Playbook Execution**
 
@@ -317,7 +353,8 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 
 2. **SonarQube UI**: Once the playbook is executed successfully, SonarQube UI can be accessed at `http://sonarqube-server-ip:9000`
 
-![Screenshot 2024-02-04 220333](https://github.com/avengers-p7/Documentation/assets/156056344/735b94bb-8119-4b50-a7b2-4cf9022066b5)
+![Screenshot 2024-02-04 220309](https://github.com/avengers-p7/Documentation/assets/156056344/58434c15-38fb-436e-a44e-a40ce998f78c)
+
 
 > [!NOTE]
 > Make sure that the server security group allows traffic to default sonarqube port 9000. 
@@ -344,7 +381,7 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 ***
 ## Conclusion 
 
-* This guide illustrates the process of deploying SonarQube in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up Jenkins within your AWS infrastructure.
+* This guide illustrates the process of deploying SonarQube in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up SonarQube within your AWS infrastructure.
 
 ***
 ## Contact Information
@@ -358,7 +395,7 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
 | Ansible documentation           | https://docs.ansible.com/ansible/latest/index.html    |
-| SonarQube Installation          | https://www.jenkins.io/doc/book/installing/linux/  |
+| SonarQube Installation          | https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/introduction/  |
 | Dyanmic Inventory               | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
 
 
