@@ -43,7 +43,7 @@ mysqldump –opt -Q -h localhost -u username–password=’password’ databasen
 ```
 > [!NOTE]
 > Also, there is one tool which has been available to take the backup of database.
-> [**Refrence Doc**](https://docs.sonarqube.org/display/SONAR/Sonar+DB+Copy+Tool)
+> [**Click Here,**](https://docs.sonarqube.org/display/SONAR/Sonar+DB+Copy+Tool) to know more
 
 ### Step 3 – Backup the $SONAR_HOME directory
 ```shell
