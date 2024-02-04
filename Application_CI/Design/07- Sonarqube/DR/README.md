@@ -3,23 +3,24 @@
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
-| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 03-02-2024      |
+| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 04-02-2024      |
 
 
 ## Table  of Contents
 Backup, recovery , MTTR...
 1. [Introduction](#Introduction)
-2. [Conclusion](#Conclusion)
-3. [Contact Information](#Contact-Information)
-4. [References](#References)
+2. [Steps to Take a Full Backup of SonarQube Server](#Steps-to-Take-a-Full-Backup-of-SonarQube-Server)
+3. [Conclusion](#Conclusion)
+4. [Contact Information](#Contact-Information)
+5. [References](#References)
 ***
 
 ## Introduction 
 
-### What is Disaster Recovery?
+## What is Disaster Recovery?
 Disaster recovery (DR) is an organization's ability to respond to and recover from an event that negatively affects business operations. The goal of DR is to reduce downtime, data loss and operational disruptions while maintaining business continuity. To prepare for this, organizations often perform an in-depth analysis of their systems and IT infrastructure and create a formal document to follow in times of crisis. 
 
-### Why Disater Recovery?
+## Why Disater Recovery?
 Disaster recovery is essential for organizations to ensure `business continuity, protect valuable data from loss or corruption, mitigate risks, comply with regulations, maintain customer trust and reputation, avoid financial losses, gain a competitive edge, sustain employee productivity, and stabilize supply chains`. It is a crucial strategy to swiftly recover from unexpected events or disasters and minimize the impact on operations. To know more about disaster recovery and  disaster recovery plan, [**click here**](https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery).
 
 
@@ -61,7 +62,7 @@ Be mindful that $SONAR_HOME/config directory where you can get sonar.properties 
 ```shell
 $SONAR_HOME/bin/linux-x86-64/sonar.sh start
 ```
-### Step 8: Keep the Sonar_home.zip and databasename.gz to the safe location.
+### Step 8 – Keep the Sonar_home.zip and databasename.gz to the safe location.
 
 I recommend making a copy of both the configuration files located in $SONARQUBE_HOME/conf and the list of plugins found in $SONARQUBE_HOME/extensions/plugins.
 
@@ -79,8 +80,8 @@ Backing up the elastic search data is unnecessary since sonarqube generates all 
 
 ## References
 
-| Description                  | References  
-| ------------------------ | ------------------------------------------------------------------- |
-| Authorization in Jenkins | https://www.jenkins.io/doc/book/security/managing-security/ |
-| Role Based Strategy      | https://plugins.jenkins.io/role-strategy/ |
-| Common Mistakes | https://www.jenkins.io/doc/book/security/access-control/ |
+| Description                   | References  
+| ----------------------------- | ------------------------------------------------------------------- |
+| Backup and Restore            | https://docs.sonarsource.com/sonarqube/latest/instance-administration/backup-and-restore/|
+| Take full backup of Sonarqube | https://www.scmgalaxy.com/tutorials/sonarqube-upgrade-backup-and-restore-process/|
+| DB Copy Tool                  | https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/ |
