@@ -32,6 +32,26 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 ## Diagram
 <img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.drawio.svg">
 
+| Component  | Details 
+| ---------- | -----------------------------
+| Region |	AWS Cloud FN.Virginia Region (us-east-1)
+| Management VPC |	CIDR block 10.0.0.0/22
+| Availability Zone (us-east-1a) |	Includes public and private subnets, NAT Gateway, SonarQube Server, and Postgres Cluster
+| Public Subnet (10.0.0.0/26)	Security Group: Open, VPN, and SonarQube Security Group 000
+| NAT Gateway (NAT GW-01) |	Located in the public subnet
+| SonarQube Server |	Private subnet 10.0.0.4/26, SonarQube Security Group 000
+| Postgres Cluster |	Private subnet 10.0.0.4/26, NACL Hop, NACL Hol, and NACL Users
+| Public-RT |	Routing table for the public subnet
+| ALB |	Application Load Balancer
+| Private-RT |	Routing table for the private subnet
+| Database |	Subnet 10.0.0.5/26, NACL Hel, and NACL »lal
+| Availability Zone (us-east-1b) |	Includes private subnet and NAT Gateway
+| Private Subnet (10.0.0.3/26) |	SonarQube Server and Postgres Cluster
+| NAT Gateway (NAT GW-02) |	Located in the private subnet
+| NACL |	Network Access Control List
+| IGW |	Internet Gateway |
+
+Note: CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
 ## Conclusion
 ***
 
