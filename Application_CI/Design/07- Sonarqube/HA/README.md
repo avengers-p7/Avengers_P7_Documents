@@ -39,6 +39,10 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 |**Load balancer**| AWS ALB |
 | **License** | You need a dedicated license to activate the Data Center Edition. If you don't have one yet, please contact the SonarSource Sales Team. |
 | **Support** | Don't start this journey alone! As a Data Center Edition subscriber, SonarSource will assist with the setup and configuration of your cluster. Get in touch with [SonarSource Support](https://sonarsource.atlassian.net/servicedesk/customer/user/login?destination=portals) for help.
+## Diagram
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/5fbc7021-d29d-4ad9-ba17-41c459332194)
+
 ## Conclusion
 ***
 
