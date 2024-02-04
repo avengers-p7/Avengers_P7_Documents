@@ -4,7 +4,7 @@
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Aakash Tripathi      |  31 Jan 2024   |     v1     | Vidhi Yadav     | 04 Feb 2024    |
+| Aakash Tripathi      |  31 Jan 2024   |     v1     | Aakash Tripathi     | 04 Feb 2024    |
 
 ***
 ## Table of Contents
@@ -294,7 +294,7 @@ groups:
         enabled: yes
 ```
 
-***Step 6: Templates for Configuration**
+**Step 6: Templates for Configuration**
 We need to create two jinja2 templates :
 * To configure SonarQube
 * To set up SonarQube Service
