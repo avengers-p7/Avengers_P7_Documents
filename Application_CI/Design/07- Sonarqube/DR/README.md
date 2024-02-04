@@ -31,21 +31,20 @@ Disaster recovery is essential for organizations to ensure `business continuity,
 
 
 ## Steps to Take a Full Backup of SonarQube Server
-### Step 1 – Stop the production server
-Windows
-```shell
-%SONARQUBE_HOME%/bin/windows-x86-32/StopNTService.bat
-```
-Linux
+
+### Step 1 – Stop the Sonarqube server
 ```shell
 $SONAR_HOME/bin/linux-x86-64/sonar.sh stop
 ```
+
 ### Step 2 – Backup the production database e.g mysql db
 ```shell
 mysqldump –opt -Q -h localhost -u username–password=’password’ databasename | gzip -9 > databasename.gz
 ```
-Also, there is one tool which has been available to take the backup of database.
-[**Refrence Doc**](https://docs.sonarqube.org/display/SONAR/Sonar+DB+Copy+Tool)
+> [!NOTE]
+> Also, there is one tool which has been available to take the backup of database.
+> [**Refrence Doc**](https://docs.sonarqube.org/display/SONAR/Sonar+DB+Copy+Tool)
+
 ### Step 3 – Backup the $SONAR_HOME directory
 ```shell
 zip -r Sonar_home.zip $SONAR_HOME
