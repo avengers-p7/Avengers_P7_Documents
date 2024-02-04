@@ -11,22 +11,21 @@
 + [Pre-requisites](#pre-requisites)
 + [Setup Ansible Role](#steps)
 + [Output Verification](#output)
-+ [Jenkins Setup](#post-installation-setup)
++ [SonarQube Setup](#post-installation-setup)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
 
 ***
 # Introduction
-This role is designed to automate the installation and configuration of Jenkins on target ubuntu servers. Whether you're setting up Jenkins for continuous integration, continuous delivery, or other purposes, this role aims to simplify the process.
+This role is designed to automate the installation and configuration of SonarQube on target ubuntu servers. Whether you're setting up SonarQube for standalone code analyis or to integrate with continuous integration/continuous delivery solution, or other purposes, this role aims to simplify the process.
 
 
 ***
 Flow Diagram
 
-* This diagram should help you visualize the sequence of tasks in your Ansible playbook for installing Jenkins.
+* This diagram should help you visualize the sequence of tasks in your Ansible playbook for setting up SonarQube.
 
-<img width="1197" alt="Screenshot 2024-02-01 at 4 19 50 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/73aef5f2-f1ce-402f-8015-c44e7b14236b">
 
 ***
 ## Pre-requisites
