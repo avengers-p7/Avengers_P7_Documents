@@ -36,6 +36,7 @@ For a more detailed understanding of Disaster recovery and its components, pleas
 | Amazon S3         | Amazon S3 is a scalable, durable, and secure object storage service. It allows storage and retrieval of large amounts of data from anywhere on the web.                    |
 | AWS DataSync       | AWS DataSync is a managed data transfer service that simplifies and accelerates moving large volumes of data between on-premises storage, Amazon S3, and Amazon EFS.     |
 
+***
 ## Flow Explaination
 
 1. **EFS Mount Targets:** EFS mount targets allow Jenkins instances in different Availability Zones to access and share the same EFS file system.
@@ -49,6 +50,17 @@ For a more detailed understanding of Disaster recovery and its components, pleas
 >If you are interested in connecting Amazon EFS to Amazon S3 using AWS DataSync, you can find detailed instructions and step-by-step guidance in the [official AWS documentation on EFS to S3 DataSync integration](https://repost.aws/knowledge-center/datasync-transfer-efs-s3).
 
 4. **Amazon S3 (Backup):** The final backup is stored in Amazon S3, providing a durable and scalable storage solution. Cross-Region Replication may be configured for additional to create duplicate copies or backups of data in different locations to ensure resilience and availability. You can also prefer to enable versioning so that you can retrieve you old data at a specific point of time. 
+
+***
+## MTTR
+MTTR is the average time it takes to recover from a failure, incident, or data loss. It is a key metric in assessing the efficiency of your recovery processes.
+
+MTTR Components: 
+1. **Detection Time:** Time taken to identify the failure or data loss. With monitoring tools, you can quickly detect issues affecting Jenkins data. For early detection of issues affecting Jenkins data, employ a comprehensive monitoring strategy utilizing diverse solutions such as CloudWatch Alarms, CloudWatch Logs, and other monitoring tools.
+
+2. **Resolution Time:** Time taken to resolve the issue. In this architecture, the resolution involves restoring from the latest backup in S3, minimizing the time needed to recover.
+
+3. **Restoration Time:** Time taken to restore services to normal operation. AWS DataSync and S3 allow for efficient restoration from backups, contributing to a low MTTR.
 
 ***
 ## Contact Information
