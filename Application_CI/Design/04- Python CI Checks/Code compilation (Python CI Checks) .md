@@ -87,6 +87,7 @@ When implementing code compilation in Python, the following best practices shoul
 # Conclusion
 
 Python code compilation is a valuable technique for improving performance, code security, and distribution. Choose the compilation tool that best fits your project requirements and consider experimenting with different tools to optimize your code further.
+<br>
 For beginners, PyInstaller offers a straightforward way to compile Python code into standalone executables. As projects grow in complexity, exploring advanced tools like Cython and Nuitka can provide additional performance optimizations.
 
 
