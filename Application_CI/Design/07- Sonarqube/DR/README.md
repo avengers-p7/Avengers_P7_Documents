@@ -62,11 +62,11 @@ zip -r Sonar_home.zip $SONAR_HOME
 | `$SONAR_HOME/config`             | directory where you can get sonar.properties and wrapper.conf file which has all the current configurations and setup.
 
 
-### Step 7 – Re-start the production server
+### Step 4 – Re-start the production server
 ```shell
 $SONAR_HOME/bin/linux-x86-64/sonar.sh start
 ```
-### Step 8 – Keep the Sonar_home.zip and databasename.gz to the safe location.
+### Step 5 – Keep the Sonar_home.zip and databasename.gz to the safe location.
 
 I recommend making a copy of both the configuration files located in $SONARQUBE_HOME/conf and the list of plugins found in $SONARQUBE_HOME/extensions/plugins.
 
