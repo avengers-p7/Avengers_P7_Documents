@@ -35,8 +35,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 
 ## References
 
-| Description                  | References  
-| ------------------------ | ------------------------------------------------------------------- |
-| Authorization in Jenkins | https://www.jenkins.io/doc/book/security/managing-security/ |
-| Role Based Strategy      | https://plugins.jenkins.io/role-strategy/ |
-| Common Mistakes | https://www.jenkins.io/doc/book/security/access-control/ |
+| Description                                   | References  
+| --------------------------------------------  | -------------------------------------------------|
+| What is HA?                                   | https://avinetworks.com/glossary/high-availability/ |
+| High Availability and Scalability - ELB & ASG | https://zhenye-na.github.io/aws-certs-cheatsheet/posts/ha-elb-asg/#:~:text=Auto%20Scaling%20Group%20(ASG),instances%20to%20a%20load%20balancer |
