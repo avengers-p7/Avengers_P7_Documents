@@ -9,10 +9,12 @@
 ## Table  of Contents
 Backup, recovery , MTTR...
 1. [Introduction](#Introduction)
-2. [Steps to Take a Full Backup of SonarQube Server](#Steps-to-Take-a-Full-Backup-of-SonarQube-Server)
-3. [Conclusion](#Conclusion)
-4. [Contact Information](#Contact-Information)
-5. [References](#References)
+2. [What is Disaster Recovery?](#What-is-Disaster-Recovery)
+3. [Why Disater Recovery?](#Why-Disater-Recovery)
+4. [Steps to Take a Full Backup of SonarQube Server](#Steps-to-Take-a-Full-Backup-of-SonarQube-Server)
+5. [Conclusion](#Conclusion)
+6. [Contact Information](#Contact-Information)
+7. [References](#References)
 ***
 
 ## Introduction 
