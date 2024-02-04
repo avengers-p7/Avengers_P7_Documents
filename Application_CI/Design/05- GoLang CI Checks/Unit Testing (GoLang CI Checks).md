@@ -60,7 +60,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
 
 ## Flow Diagram
 
-<img width="816" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/59ae3cd5-d8a7-4048-a239-4b45176cf3be">
+<img width="813" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/1d577e9b-6459-4f1c-8946-05a4ecb37643">
 
 **Description of Flow Dioagram**
 
