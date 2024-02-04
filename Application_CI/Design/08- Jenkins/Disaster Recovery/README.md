@@ -8,6 +8,10 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
++ [DR Diagram](#disaster-recovery-infrastructure)
++ [Key Components](#architecture-components)
++ [Flow Explanation](#flow-explanation)
++ [MTTR](#mttr)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
