@@ -31,7 +31,7 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 <img width="969" alt="Screenshot 2024-02-04 at 4 42 40 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1505739f-60ea-46d4-967c-5327ab089cab">
 
 ***
-## Proof of Concept (PoC) - Setting Up Dependency Scanning
+## Proof of Concept (PoC)
 ### Pre-requisites
 |   Tool        |  Description   |
 | -----------------| --------------|
