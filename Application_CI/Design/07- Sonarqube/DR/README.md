@@ -17,7 +17,6 @@ Backup, recovery , MTTR...
 ## Introduction 
 
 ### What is Disaster Recovery?
-What is disaster recovery (DR)?
 Disaster recovery (DR) is an organization's ability to respond to and recover from an event that negatively affects business operations. The goal of DR is to reduce downtime, data loss and operational disruptions while maintaining business continuity. To prepare for this, organizations often perform an in-depth analysis of their systems and IT infrastructure and create a formal document to follow in times of crisis. 
 
 ### Why Disater Recovery?
