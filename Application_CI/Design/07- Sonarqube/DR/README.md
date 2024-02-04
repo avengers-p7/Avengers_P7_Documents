@@ -1,5 +1,5 @@
 # Disaster Recovery in Sonarqube
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/817f8e47-e13a-4a1f-a07b-27dde189f3d2)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/c0cf39b5-29d9-4af2-9752-c40fe09c8c5f)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
