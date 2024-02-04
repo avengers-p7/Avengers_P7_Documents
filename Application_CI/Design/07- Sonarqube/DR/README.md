@@ -61,14 +61,6 @@ zip -r Sonar_home.zip $SONAR_HOME
 | `$SONAR_HOME/extensions/rules`   | directory where you can get the list of custom coding rules.
 | `$SONAR_HOME/config`             | directory where you can get sonar.properties and wrapper.conf file which has all the current configurations and setup.
 
-### Step 4 – List of plugins installed
-Be mindful that $SONAR_HOME/extensions/plugins directory where you can get the list of plugins installed.
-
-### Step 5 – List of custom coding rules installed
-Be mindful that $SONAR_HOME/extensions/rules directory where you can get the list of custom coding rules.
-
-### Step 6 – List of configurations used
-Be mindful that $SONAR_HOME/config directory where you can get sonar.properties and wrapper.conf file which has all the current configurations and setup.
 
 ### Step 7 – Re-start the production server
 ```shell
