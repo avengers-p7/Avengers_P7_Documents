@@ -44,7 +44,7 @@ For a more detailed understanding of Disaster recovery and its components, pleas
    
 3. **AWS DataSync:** Scheduled AWS DataSync tasks transfer data from the EFS file system to an Amazon S3 bucket, creating regular and automated backups. Scheduled DataSync tasks are configured based on specific requirements, allowing flexibility in the frequency and timing of data transfers.
 
->[Note!]
+>[!Note]
 >
 >If you are interested in connecting Amazon EFS to Amazon S3 using AWS DataSync, you can find detailed instructions and step-by-step guidance in the [official AWS documentation on EFS to S3 DataSync integration](https://repost.aws/knowledge-center/datasync-transfer-efs-s3).
 
