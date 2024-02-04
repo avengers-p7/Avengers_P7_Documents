@@ -82,7 +82,7 @@ tar -xf ZAP_2.14.0_Linux.tar.gz
 
 <img width="1332" alt="Screenshot 2024-02-04 at 4 17 10 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ab99ce71-b473-4632-acd2-09143560b548">
 
-
+***
 ## Conclusion
 
 * In conclusion, ZAP to check the security of our Java application, and it helped us find and fix some problems. But, it's important to know that keeping the application secure is an ongoing task. The information we got from this test is like a good starting point to make the application even more secure. It is advised to treat these findings seriously and implement appropriate remediation measures for overall security of our application.
