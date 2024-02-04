@@ -39,6 +39,9 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 ## Diagram
 <img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.jpg"> 
 
+
+<img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.drawio.svg">
+
 ## Conclusion
 ***
 
