@@ -24,8 +24,10 @@ For a more detailed understanding of Disaster recovery and its components, pleas
 *** 
 ## Disaster Recovery Infrastructure
 
-![jenkins_DR drawio (2)](https://github.com/avengers-p7/Documentation/assets/156056349/803c0350-9b70-4d6c-bd60-2ecfc7d28f09)
+![jenkins_DR_latest drawio](https://github.com/avengers-p7/Documentation/assets/156056349/bda6c207-c066-419d-8439-3e26d7d770e4)
 
+*** 
+Architecture Components
 
 ***
 ## Contact Information
@@ -38,7 +40,7 @@ For a more detailed understanding of Disaster recovery and its components, pleas
 
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
-| Ansible documentation           | https://docs.ansible.com/ansible/latest/index.html    |
-| Jenkins Installation    | https://www.jenkins.io/doc/book/installing/linux/  |
-| Dyanmic Inventory               | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
+| DR approach           | https://medium.com/clarusway/disaster-recovery-guide-for-jenkins-2-6463e255964d    |
+| DataSync + S3     | https://repost.aws/knowledge-center/datasync-transfer-efs-s3  |
+
 
