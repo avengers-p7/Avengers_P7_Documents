@@ -13,7 +13,7 @@
 + [Advantages](#Advantages)
 + [Proof of Concept](#Proof-of-Concept)
 + [Best Practices](#Best-Practices)
-+ [Conclusion](#conclusion)
++ [Conclusion and Recommendation](#Conclusion and Recommendation)
 + [Contact Information](#contact-information)
 + [References](#References)
 ***
@@ -39,27 +39,14 @@ Python code compilation involves converting human-readable Python source code in
 
 # Different Tools
 Some popular tools for Python code compilation include:
-
-* Cython
-* Numba
-* PyInstaller
-* Nuitka
-* PyOxidizer
+ 
+|  Tools                         |        Description                                                              |
+| ---------                       | ------------------------------------------------------------------------------ |
+| PyInstaller                     | Converts Python programs into standalone executables                           |  
+| Cython                          | Compiles Python-like code into C extensions                                    |
+| Nuitka                          | Translates Python code into optimized C code                                   |
 
 Each tool offers unique features and capabilities for compiling Python code.
-
-# Comparison
-
-Comparison of Tools: Here is a comparison of the different tools for code compilation in Python:
-
-| Tools                    |        Pros                                                        |          Cons                                     |
-| ------------             | -------------------------------------------------------------------| --------------------------------------------------|
-| Cython                   | High performance, C extensions support	                            |  Steeper learning curve                           |
-| Numba                    | Just-in-time compilation, easy to use                              | 	Limited support for certain features             |
-| PyInstaller              | Cross-platform packaging                                           |  Large distribution size                          |
-| Nuitka                   | High optimization, compatible with CPython                         |  Limited support for some libraries               |
-| PyOxidizer               | Standalone executables, easy to use                                | 	Limited documentation                            |
-
 
 # Advantages
 
@@ -84,7 +71,7 @@ When implementing code compilation in Python, the following best practices shoul
 * Write clear and concise code to facilitate the compilation process.
 * Use automated testing to ensure that the compiled code meets quality standards
 
-# Conclusion
+# Conclusion and Recommendation 
 
 Python code compilation is a valuable technique for improving performance, code security, and distribution. Choose the compilation tool that best fits your project requirements and consider experimenting with different tools to optimize your code further.
 <br>
