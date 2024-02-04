@@ -102,7 +102,8 @@ This command will generate an html report. After running this command, generate 
 
 ![Screenshot from 2024-01-25 17-39-09](https://github.com/avengers-p7/Documentation/assets/156056709/004480a3-3a20-4d80-88f7-bb3f3c0251e2)
 
- 
+**To See XML Report :** [Click Here](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/spotbugsXml.xml) 
+
 
 
  
