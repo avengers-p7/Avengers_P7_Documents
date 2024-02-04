@@ -21,7 +21,7 @@ License scanning refers to the process of automatically analyzing and identifyin
 FOSSA is a comprehensive software license compliance and dependency analysis platform designed to assist organizations in managing open-source components within their software projects. The acronym "FOSSA" stands for "Free and Open Source Software Analyzer."
 
 ## FOSSA Setup
-Before we can use Gitleaks, we will need to set it up locally. There are several ways to use  FOSSA like Quick Import, SBOM Import & locally integrating CLI. 
+Before we can use FOSSA, we will need to set it up locally. There are several ways to use  FOSSA like Quick Import, SBOM Import & locally integrating CLI. 
 We will use the CLI as it allows us to use our personal or build machine for accurate, secure & performant results.
 
 ### Installation Steps 
