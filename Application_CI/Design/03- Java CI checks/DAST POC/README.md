@@ -27,53 +27,31 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 *** 
 Flow Diagram
 
-<img width="1168" alt="Screenshot 2024-02-02 at 3 41 52 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/52eb5029-c332-4395-8445-a4e8f55cb9f4">
+
+
 
 ***
 ## Proof of Concept (PoC) - Setting Up Dependency Scanning
-### 1. Pre-requisite
+### Pre-requisite
+|   Tool        |  Description   |
+| -----------------| --------------|
+| OWASP ZAP (version: 2.14)     | Tool required to perform DAST   |   
 
-**1.1) Java**
+|   Runtime         |  Description   |
+| -----------------| --------------|
+| JRE (Java runtime environment     | Zap is coded in Java, and its fundamental operations require a Java runtime environment for execution.    |
 
-* Ensure that you have Java installed on your system. The project requires Java version 17. If you don't have it installed, you can download and install it from the official Java website: [Java Downloads](https://www.oracle.com/java/technologies/downloads/) or use your preferred package manager.
+### 1. Setup ZAP
 
-<img width="785" alt="Screenshot 2024-01-31 at 5 04 51 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c53fd0f0-8a0d-4e7f-95ce-dfe1da987713">
+* Visit zap [website](https://www.zaproxy.org/docs/) and check the different installation packages for different OS
 
-* Set the `JAVA_HOME` environment variable to the installation directory of your JDK. This variable is essential for Maven to locate the Java runtime.
+* Run the following command to download zap linux package using `wget`, then to extract the package.
 
-**1.2) Maven**
-* Make sure to have Maven installed on your system. It is a powerful tool used for managing project dependencies. If you don't have Maven installed, please follow the installation instructions for your operating system, which can be found on the official Apache Maven website: [Maven Installation Guide](https://maven.apache.org/install.html).
-
-<img width="1001" alt="Screenshot 2024-01-31 at 5 13 59 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/f617c048-1754-4e6f-a011-c84d72db00c1">
-
-
-**1.3) Internet Access to retreive NVD Data**
-
-* The NVD is a comprehensive source of vulnerability information. Dependency-Check can use this data to identify known vulnerabilities in your project's dependencies. It can be configured to fetch data from the NVD's Common Vulnerabilities and Exposures (CVE) database during the analysis process. This helps ensure that the tool has up-to-date information about known vulnerabilities. 
-
-* If your environment does not have internet access or if there are restrictions on accessing external resources, Dependency-Check may still function, but it won't be able to fetch the latest vulnerability data from the NVD.
-  
-### 2. Configuration
-
-* To enable the `OWASP Dependency-Check` plugin in your Maven project, add the following configuration to your pom.xml file. Ensure this configuration is placed within the `<build>` section
-
-```xml
-            <!-- Add the OWASP Dependency-Check plugin -->
-            <plugin>
-                <groupId>org.owasp</groupId>
-                <artifactId>dependency-check-maven</artifactId>
-                <version>9.0.9</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+```
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz
 ```
 
-
+* 
 
 ### 3. Generate Reports
 
