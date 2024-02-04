@@ -34,6 +34,9 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 - Three search nodes that host the Elasticsearch process that will store data indices. SSDs perform significantly better than HDDs for these nodes.
 - A reverse proxy / load balancer to load balance traffic between the two application nodes. The installing organization must supply this hardware or software component.
 - PostgreSQL, Oracle, or Microsoft SQL Server database server. This software must be supplied by the installing organization.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/ee503107-0b36-45ae-aed0-90ab0b1ada41)
+
 ## Conclusion
 ***
 
