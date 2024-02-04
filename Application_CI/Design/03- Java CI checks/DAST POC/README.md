@@ -20,11 +20,12 @@
 ## Introduction 
 * Dependency scanning is a crucial aspect of modern software development, ensuring the security and reliability of your projects. This process involves identifying and managing the third-party libraries and frameworks your project depends on. By scanning for known vulnerabilities in these dependencies, you can proactively address potential security risks and keep your applications robust and secure. This document will guide you through a Proof of Concept (PoC) for setting up and utilizing OWASP Dependency-Check to perform comprehensive dependency scanning in your projects.
 
+
 ***
 ## OWASP ZAP
 OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects. 
 
-*** 
+***
 Flow Diagram
 
 
@@ -32,7 +33,7 @@ Flow Diagram
 
 ***
 ## Proof of Concept (PoC) - Setting Up Dependency Scanning
-### Pre-requisite
+### Pre-requisites
 |   Tool        |  Description   |
 | -----------------| --------------|
 | OWASP ZAP (version: 2.14)     | Tool required to perform DAST   |   
@@ -49,20 +50,45 @@ Flow Diagram
 
 ```
 wget https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz
+tar -xf ZAP_2.14.0_Linux.tar.gz
+```
+
+### 2. Run ZAP
+* Now, to run our zap for analysis process.  Now running zap via zap.sh via -cmd or in daemon mode as it run the zap in Cli mode as shown below
+
+```
+<path to zap.sh> -port <port_no> -cmd -quickurl <url of website>
+```
+
+* <path to zap.sh> This is the executable file for OWASP ZAP
+* The -port specifies the port on which ZAP will listen.
+* -cmd indicates that the command should be executed in command-line mode.
+* The -quickurl flag followed by the <url_of_website> parameter starts ZAP with the specified target URL.
+
+### 3. Scanning API url
+
+* The API and ZAP tool have been deployed on a virtual server. It has been ensured that the API is functioning correctly, and we can now proceed with the testing phase. For this process the following command was used:
+
+```
+/home/ubuntu/ZAP_2.14.0/zap.sh -cmd -quickurl http://34.69.125.44:8080/swagger-ui/index.html -port 8082 -quickout /home/ubuntu/zap_reports/results.html
 ```
 
 ### 4. Verify Reports 
 
-* Navigate to the build artifacts or workspace. Locate the generated Dependency-Check reports in the `target` folder. They are typically available in multiple formats (JSON, HTML, XML). Ensure that vulnerabilities are correctly identified. If you configured multiple report formats , explore each format to understand the data presentation.
+* Navigate to the location where you saved your reports. Locate the generated `.html` reports. Ensure that vulnerabilities are correctly identified.
 
+<img width="869" alt="Screenshot 2024-02-04 at 4 15 57 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dfd7b50d-3579-45b5-8d0e-62697abf456d">
 
-<img width="722" alt="Screenshot 2024-01-31 at 6 18 35 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/98a80636-753a-4cb6-b39e-5454472ada01">
+* The reports include information about the risk level and the number of alerts categorized. Following this overview, the reports provide specific details on each alert, presenting the alert name along with a concise description
+
+<img width="1332" alt="Screenshot 2024-02-04 at 4 17 10 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ab99ce71-b473-4632-acd2-09143560b548">
 
 
 ## Conclusion
 
-* In conclusion, integrating OWASP Dependency-Check into your development process offers a proactive approach to identifying and mitigating potential security risks associated with third-party dependencies. By regularly scanning and analyzing your project dependencies, you can stay ahead of known vulnerabilities, ensuring the overall security and reliability of your software applications
+* In conclusion, ZAP to check the security of our Java application, and it helped us find and fix some problems. But, it's important to know that keeping the application secure is an ongoing task. The information we got from this test is like a good starting point to make the application even more secure. It is advised to treat these findings seriously and implement appropriate remediation measures for overall security of our application.
 
+* Since, security risks are always changing, it's really important to keep paying attention and regularly test and fix any issues in our applications. This ongoing effort is key to making sure our application stays strong and secure.
 
 ***
 ## Contact Information
