@@ -12,7 +12,7 @@
 + [Introduction](#introduction)
 + [Description](#description)
 + [Infrastructure Diagram](#infrastructure-diagram)
-+ [SonarQube HA & DR]()
++ [SonarQube HA & DR](#sonarqube-ha--dr)
 + [Contact Information](#contact-information)
 + [References](#References)
 
