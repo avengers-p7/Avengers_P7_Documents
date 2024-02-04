@@ -1,4 +1,11 @@
+| **Author**           | **Created On** | **Last Updated** | **Document Version** |
+| -------------------- | -------------- | ---------------- | -------------------- |
+| **Parasharam Desai** | 01-02-2024     | 04-02-2024       | V1.1                 |
+
 # Proof of Concept (POC) for Java Base Application
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/b2fc8037-4207-4dd1-b2f1-5c9882dda5d4)
+
 
 ## Introduction 
 
@@ -101,3 +108,12 @@ In conclusion, the Proof of Concept showcased effective bug analysis practices f
 The outlined steps, from repository cloning to SpotBugs report generation, provide a clear roadmap for bug analysis. Additionally, the recommendation of SonarQube emphasizes its role in enhancing code reliability, security, and maintainability.
 
 Adopting these practices empowers development teams to proactively address potential issues, ensuring the delivery of high-quality and secure software.
+
+
+# Resources and References
+
+| Description                                      | References  
+| ------------------------------------------------- | ------------------------------------------------------------------- |
+| Documentation Template                           | [Link](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
+| SpotBugs Maven Plugin – Usage                           | [Link](https://spotbugs.github.io/spotbugs-maven-plugin/usage.html#:~:text=To%20generate%20the%20SpotBugs%20report,xml%20.&text=Then%2C%20execute%20the%20site%20plugin%20to%20generate%20the%20report.) |
+
