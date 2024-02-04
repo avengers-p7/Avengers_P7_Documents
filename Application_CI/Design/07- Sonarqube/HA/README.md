@@ -34,46 +34,26 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 
 | Component  | Details 
 | ---------- | -----------------------------
-| Region |	AWS Cloud FN.Virginia Region (us-east-1)
-| Management VPC |	CIDR block 10.0.0.0/22
-| Availability Zone (us-east-1a) |	Includes public and private subnets, NAT Gateway, SonarQube Server, and Postgres Cluster
-| Public Subnet (10.0.0.0/26)	| Security Group: Open, VPN, and SonarQube Security Group 000
-| NAT Gateway (NAT GW-01) |	Located in the public subnet
-| SonarQube Server |	Private subnet 10.0.0.4/26, SonarQube Security Group 000
-| Postgres Cluster |	Private subnet 10.0.0.4/26, NACL Hop, NACL Hol, and NACL Users
-| Public-RT |	Routing table for the public subnet
-| ALB |	Application Load Balancer
-| Private-RT |	Routing table for the private subnet
-| Database |	Subnet 10.0.0.5/26, NACL Hel, and NACL »lal
-| Availability Zone (us-east-1b) |	Includes private subnet and NAT Gateway
-| Private Subnet (10.0.0.3/26) |	SonarQube Server and Postgres Cluster
-| NAT Gateway (NAT GW-02) |	Located in the private subnet
-| NACL |	Network Access Control List
-| IGW |	Internet Gateway |
+| **Region** |	AWS Cloud FN.Virginia Region (us-east-1)
+| **Management VPC** |	CIDR block 10.0.0.0/22
+| **Availability Zones** (us-east-1a, us-east-1b) |	Includes public and private subnets, NAT Gateway, SonarQube Server, and Postgres Cluster
+| **IGW** |	Internet Gateway 
+| **Public Subnets** (10.0.0.0/26, 10.0.0.1/26)	| Security Group: Open, VPN, and SonarQube Security Group 000
+| **Public-RT** |	Routing table for the public subnet
+| **Private Subnet** (10.0.0.3/26, 10.0.0.4/26, 10.0.0.5/26, 10.0.0.6/26) |	SonarQube Server and Postgres Cluster
+| **Private-RT** |	Routing table for the private subnet
+| **NAT Gateways** (NAT GW-01, NAT GW-02) |	Located in the public subnets
+| **NACL** |	Network Access Control List
+| **ALB** |	Application Load Balancer
+| **SonarQube Servers** |	Sonarqube sevrers in Private subnets(10.0.0.2/26, 10.0.0.3/26) SonarQube Security Group 000
+| **Postgres Cluster** |	Private subnet 10.0.0.4/26, NACL Hop, NACL Hol, and NACL Users |
 
-Note: CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
 
-graph TD
-    A[VPC] -->|10.0.0.0/22| B[us-east-1a]
-    B -->|10.0.0.0/26| C[Public Subnet]
-    B -->|10.0.0.32/26| D[Private Subnet]
-    C -->|NAT GW-01| E[NAT Gateway]
-    D -->|10.0.0.4/26| F[SonarQube Server]
-    D -->|10.0.0.5/26| G[Postgres Cluster]
-    B -->|Public-RT| H[Routing Table]
-    B -->|ALB| I[Application Load Balancer]
-    B -->|Private-RT| J[Routing Table]
-    B -->|Database| K[Subnet]
-    B -->|NACL| L[Network Access Control List]
-    B -->|IGW| M[Internet Gateway]
-    B -->|us-east-1b| N[Availability Zone]
-    N -->|10.0.0.3/26| O[Private Subnet]
-    O -->|NAT GW-02| P[NAT Gateway]
-    O -->|10.0.0.4/26| Q[SonarQube Server]
-    O -->|10.0.0.5/26| R[Postgres Cluster]
-    N -->|Private-RT| S[Routing Table]
-    N -->|NACL| T[Network Access Control List]
-    N -->|IGW| U[Internet Gateway]
+
+
+> [!Note]
+> CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
+
 
 ## Conclusion
 ***
