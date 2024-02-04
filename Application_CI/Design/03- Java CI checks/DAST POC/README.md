@@ -11,6 +11,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [OWASP ZAP](#owasp-zap)
++ [Flow Diagram](flow-diagram)
 + [Proof of Concept](#Pre-requisite)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
