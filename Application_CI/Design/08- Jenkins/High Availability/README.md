@@ -36,7 +36,9 @@ This documentation outlines the HA design, emphasizing the design considerations
 | Scalability       | High availability architectures are often designed to scale horizontally, allowing for the addition of more resources or nodes to accommodate increased demand.|
 
 ***
-## Diagram Components
+## Jenkins Infrastrucutre Components
+
+* This diagram comprehensively illustrates the essential concepts of achieving high availability. Below is a detailed explanation of the key components employed in the AWS Jenkins High Availability infrastructure
 
 1. **EFS** - This component is utilized to store essential elements such as the Jenkins home directory, configurations, and other relevant data. This component is designed for persistent data storage and can be seamlessly mounted across multiple instances within a single AWS region. Moreover, its capabilities extend to replication across multiple Availability Zones (AZs), enhancing accessibility.
    
