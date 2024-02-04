@@ -27,10 +27,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 ***
 > [!IMPORTANT]
 > If you want to run SonarQube as a Cluster, it is only possible with a `Data Center Edition`.
-
-## Architecture
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/ee503107-0b36-45ae-aed0-90ab0b1ada41)
-
+> Below is an alternative approach with Sonarqube+AWS to provide HA.
 ## Requirements
 | Requirement | Description |
 | ----------- | ----------- |
