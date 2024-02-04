@@ -28,7 +28,7 @@ For a more detailed understanding of Disaster recovery and its components, pleas
 *** 
 ## Disaster Recovery Infrastructure
 
-Presented below is an illustrative diagram showcasing the approach to Jenkins disaster recovery. This visual guide provides a clear depiction of the steps and components involved in ensuring the recovery of Jenkins data in the event of unexpected disruptions or disasters
+* Presented below is an illustrative diagram showcasing the approach to Jenkins disaster recovery. This visual guide provides a clear depiction of the steps and components involved in ensuring the recovery of Jenkins data in the event of unexpected disruptions or disasters
 
 ![jenkins_DR_latest drawio](https://github.com/avengers-p7/Documentation/assets/156056349/bda6c207-c066-419d-8439-3e26d7d770e4)
 
