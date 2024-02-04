@@ -77,7 +77,6 @@ Python code compilation is a valuable technique for improving performance, code 
 <br>
 For beginners, PyInstaller offers a straightforward way to compile Python code into standalone executables. As projects grow in complexity, exploring advanced tools like Cython and Nuitka can provide additional performance optimizations.
 
-
 # Contact Information
 
 |  Name                     |        	Email Address           |
