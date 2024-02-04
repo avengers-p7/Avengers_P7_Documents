@@ -108,3 +108,7 @@ Python DAST is a critical aspect of securing web applications, providing real-ti
 # References
 | Source | Description  | 
 | -------- | ------- |
+| https://snyk.io/learn/application-security/dast-dynamic-application-security-testing/ | Intro to DAST |
+| https://expertinsights.com/insights/the-top-10-dynamic-application-security-testing-dast-tools/ | Tools |
+| https://www.breachlock.com/resources/blog/benefits-of-dast-testing-for-application-security/ | Advantages |
+| https://www.synopsys.com/blogs/software-security/python-security-best-practices.html | Best Practices |
