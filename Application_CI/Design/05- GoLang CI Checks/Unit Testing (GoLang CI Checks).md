@@ -64,7 +64,7 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
 
 **Description of Flow Dioagram**
 
-| **Component** | **Description** |
+| **Steps** | **Description** |
 | ------------- | --------------- |
 | **Directory** | Create a new directory named `snatak_p7` |
 | **Clone Git Repository** | Clone the Git repository `employee-api.git` into the current directory |
