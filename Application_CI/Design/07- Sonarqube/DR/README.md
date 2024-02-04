@@ -54,6 +54,13 @@ mysqldump –opt -Q -h localhost -u username–password=’password’ databasen
 ```shell
 zip -r Sonar_home.zip $SONAR_HOME
 ```
+## Directory Structure
+| Directory                        | Description |
+| -------------------------------- | ------------ |
+| `$SONAR_HOME/extensions/plugins` | directory where you can get the list of plugins installed
+| `$SONAR_HOME/extensions/rules`   | directory where you can get the list of custom coding rules.
+| `$SONAR_HOME/config`             | directory where you can get sonar.properties and wrapper.conf file which has all the current configurations and setup.
+
 ### Step 4 – List of plugins installed
 Be mindful that $SONAR_HOME/extensions/plugins directory where you can get the list of plugins installed.
 
