@@ -26,7 +26,7 @@ High availability clusters are groups of servers that support business-critical 
 To reduce interruptions and downtime, it is essential to be ready for unexpected events that can bring down servers. At times, emergencies will bring down even the most robust, reliable software and systems. Highly available systems minimize the impact of these events, and can often recover automatically from component or even server failures. [Click Here](https://avinetworks.com/glossary/high-availability/), to know more about HA.
 ***
 > [!IMPORTANT]
-> If you want to run SonarQube as a Cluster, it is only possible with a `Data Center Edition`.<br>
+> If you want to run SonarQube as a Cluster, it is only possible with a [Data Center Edition](https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/).<br>
 > Below, is an alternative approach with Sonarqube+AWS to provide HA.
 ## Requirements
 | Requirement | Description |
