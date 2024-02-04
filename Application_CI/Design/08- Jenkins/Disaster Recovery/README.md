@@ -12,8 +12,17 @@
 + [Contact Information](#contact-information)
 + [References](#references)
 
+***
+## Introduction
+Disaster Recovery (DR) is a strategic and systematic approach to safeguarding an organization's critical systems, applications, and data from the impact of unforeseen events or disasters. These events can range from natural disasters like earthquakes and floods to human-induced incidents such as cyber-attacks or hardware failures. 
+
+The primary goal of a DR plan is to minimize downtime, data loss, and operational disruptions, ensuring business continuity in the face of adversity. The overall aim is to enable organizations to resume normal operations as quickly and efficiently as possible following a disruptive event.
+
+For a more detailed understanding of Disaster recovery and its components, please refer to the following link: [Detailed Description of High Availability](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/DevOps%20Practices/DisasterRecovery/README.md).
+
+
 *** 
-Disaster Recovery Infrastructure
+## Disaster Recovery Infrastructure
 
 ![jenkins_DR drawio (2)](https://github.com/avengers-p7/Documentation/assets/156056349/803c0350-9b70-4d6c-bd60-2ecfc7d28f09)
 
