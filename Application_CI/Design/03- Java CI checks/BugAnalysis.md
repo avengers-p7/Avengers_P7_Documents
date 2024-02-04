@@ -103,7 +103,7 @@ These tools are commonly utilized for effective bug analysis and tracking in sof
 # Proof of Concept (POC)
 
 
-For a detailed proof of concept (POC) related to Bug Analysis, please refer to [Bug Analysis POC]().
+For a detailed proof of concept (POC) related to Bug Analysis, please refer to [Bug Analysis POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug-Analysis-Poc.md).
 
 ***
 
