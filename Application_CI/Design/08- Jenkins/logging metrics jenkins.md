@@ -17,10 +17,10 @@
 6.  Flow chart of logging metric
 7.  Best Practices
 8.  Conclusion
-9.  contact information
+9.  Contact Information
 10.  References
 
-   *** 
+ *** 
 
 # Introduction 
 
