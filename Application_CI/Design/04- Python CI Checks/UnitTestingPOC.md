@@ -73,6 +73,8 @@ Additionally, there are other plugins available for generating different types o
 ![Screenshot 2024-02-04 at 2 30 54 PM](https://github.com/avengers-p7/Documentation/assets/156056364/685da89d-9ed9-488b-9055-6d6b0bd2535b)
 ![Screenshot 2024-02-04 at 2 31 29 PM](https://github.com/avengers-p7/Documentation/assets/156056364/4ca00bf5-97c8-472a-a920-3c7cde06dbff)
 
+**Report**
+[Click Here](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/out2.html)
 # Conclusion
 After performing unit tests in Python code through pytest framework, we are getting a detailed report regarding that each unit, such as a function or method, works as intended and produces the expected output.
 ***
