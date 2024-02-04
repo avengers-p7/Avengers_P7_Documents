@@ -15,8 +15,7 @@ Backup, recovery , MTTR...
 ***
 
 ## Introduction 
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/7fa66955-5065-4db4-ac81-bdecf454fcc0)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/df92f614-6ac4-467c-ae9f-1127520ecca0)
 ### What is Disaster Recovery?
 What is disaster recovery (DR)?
 Disaster recovery (DR) is an organization's ability to respond to and recover from an event that negatively affects business operations. The goal of DR is to reduce downtime, data loss and operational disruptions while maintaining business continuity. To prepare for this, organizations often perform an in-depth analysis of their systems and IT infrastructure and create a formal document to follow in times of crisis. 
