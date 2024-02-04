@@ -291,7 +291,9 @@ groups:
         enabled: yes
 ```
 
-**Step 6: Playbook Execution**
+***Step 6: Templates for Configuration**
+
+**Step 7: Playbook Execution**
 
 * To set up Jenkins on your target servers, you will execute the Ansible playbook using the following command:
 
@@ -310,39 +312,39 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 ## Output
 1.  **Host-level output**: Output for each host would indicate whether the playbook execution was successful or not.
 
-<img width="1352" alt="Screenshot 2024-02-01 at 2 41 57 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/d69954c0-6182-4c73-883d-ea7e21fe323d">
+![Screenshot 2024-02-05 022810](https://github.com/avengers-p7/Documentation/assets/156056344/3782928b-10f1-444d-b39f-fe87d5611313)
 
-2. **Colorized Output**: Ansible uses colorized output to make it easier to identify successful, changed, or failed tasks. Successful tasks are often displayed in green, changed tasks in yellow, and failed tasks in red.
 
-<img width="947" alt="Screenshot 2024-02-01 at 2 07 24 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/17399616-2a58-406d-affd-ca529e5ed158">
+2. **SonarQube UI**: Once the playbook is executed successfully, SonarQube UI can be accessed at `http://sonarqube-server-ip:9000`
 
-3. **Verify Tags**: Verify that the Jenkins installation is on the instance with the mentioned tags.
+![Screenshot 2024-02-04 220333](https://github.com/avengers-p7/Documentation/assets/156056344/735b94bb-8119-4b50-a7b2-4cf9022066b5)
 
-<img width="764" alt="Screenshot 2024-02-01 at 9 26 33 AM" src="https://github.com/avengers-p7/Documentation/assets/156056349/aa56992e-6702-40f8-a80c-39c49f53856a">
+> [!NOTE]
+> Make sure that the server security group allows traffic to default sonarqube port 9000. 
 
 ***
+
 ## Post-Installation Setup
-* Open your web browser and navigate to `http://your-jenkins-server:8080`.
+* Open your web browser and navigate to `http://sonarqube-server-ip:9000`.
+![Screenshot 2024-02-05 015518](https://github.com/avengers-p7/Documentation/assets/156056344/b67cb9bc-3bfb-4dad-bb9c-e1c92d5b7878)
 
-<img width="1365" alt="Screenshot 2024-02-03 at 5 45 17 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/37be3eed-33ed-48fb-b2e3-d0a2977b0924">
+* On your first login post installation, you can login using : `username:admin` & `password:admin`
+  
+  ![Screenshot 2024-02-05 023714](https://github.com/avengers-p7/Documentation/assets/156056344/d7ac25d2-8173-44ef-ab48-3fdf70253a6b)
 
-> [!IMPORTANT]
->
->  Ensure that port `8080` is open on your Ansible host.
+* You'll be prompted to create a new password
 
-* Retrieve the initial administrator password from the Jenkins server.
+  ![Screenshot 2024-02-05 023909](https://github.com/avengers-p7/Documentation/assets/156056344/ea953833-3f43-4e0b-9039-0792c1d21841)
 
-<img width="1122" alt="Screenshot 2024-02-03 at 5 49 48 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/1c22aa91-343c-4761-9464-f9955ed7d1ad">
+* Once you set your new password . You're all set to begin using SonarQube
 
-* Customize jenkins based on your requirements and you're all set!
-
-<img width="809" alt="Screenshot 2024-02-03 at 5 53 08 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/e542a049-956c-4085-962c-93dde46440d8">
+![Screenshot 2024-02-05 024023](https://github.com/avengers-p7/Documentation/assets/156056344/65412475-effc-4a17-bb5c-c9164bd366c4)
 
 
 ***
 ## Conclusion 
 
-* This guide illustrates the process of deploying Jenkins in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up Jenkins within your AWS infrastructure.
+* This guide illustrates the process of deploying SonarQube in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up Jenkins within your AWS infrastructure.
 
 ***
 ## Contact Information
