@@ -17,11 +17,9 @@
 
 ***
 ## Introduction 
-High Availability is a strategic approach aimed at minimizing downtime and guaranteeing consistent performance without any downtime. The fundamental goal of HA is to mitigate the impact of potential failures, whether they be hardware failures, software issues, or unforeseen events. By distributing workloads across multiple instances, regions, or Availability Zones, HA architectures can withstand disruptions, providing constant access to applications and services. 
+High Availability is a strategic approach aimed at minimizing downtime and guaranteeing consistent performance without any downtime. The fundamental goal of HA is to mitigate the impact of potential failures, whether they be hardware failures, software issues, or unforeseen events. For a more detailed understanding of high availability and its components, please refer to the following link: [Detailed Description of High Availability](https://github.com/avengers-p7/Documentation/tree/main/Application_CI/Design/DevOps%20Practices/High%20Availability).
 
 This documentation outlines the HA design, emphasizing the design considerations and components in place to achieve highly available Jenkins.
-
-
 
 ***
 ## Jenkins Infrastrucutre Components
