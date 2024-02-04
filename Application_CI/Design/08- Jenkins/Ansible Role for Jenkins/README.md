@@ -21,9 +21,9 @@
 This role is designed to automate the installation and configuration of Jenkins on target ubuntu servers. Whether you're setting up Jenkins for continuous integration, continuous delivery, or other purposes, this role aims to simplify the process.
 
 ***
-## Ansible and Jenkins
+## Ansible and Jenkins
 
-Here, we harness the efficiency of Ansible, an open-source automation tool streamlining configuration management and application deployment. Complementing this, Jenkins excels in facilitating continuous integration and delivery, ensuring a seamless and automated pipeline for software development processes.
+Here, we harness the efficiency of Ansible, an open-source automation tool streamlining configuration management and application deployment. In parallel, Jenkins excels in facilitating continuous integration and delivery, ensuring a seamless and automated pipeline for software development processes.
 
 ***
 Flow Diagram
