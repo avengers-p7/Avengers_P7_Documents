@@ -77,7 +77,7 @@ tar -xf ZAP_2.14.0_Linux.tar.gz
 
 * Navigate to the location where you saved your reports. Locate the generated `.html` reports. Ensure that vulnerabilities are correctly identified.
 
-<img width="869" alt="Screenshot 2024-02-04 at 4 15 57 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/dfd7b50d-3579-45b5-8d0e-62697abf456d">
+<img width="803" alt="Screenshot 2024-02-04 at 4 22 43 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/69a921ca-55c2-4640-9519-94538bf1bf94">
 
 * The reports include information about the risk level and the number of alerts categorized. Following this overview, the reports provide specific details on each alert, presenting the alert name along with a concise description
 
