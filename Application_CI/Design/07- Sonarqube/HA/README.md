@@ -29,12 +29,6 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 > If you want to run SonarQube as a Cluster, it is only possible with a Data Center Edition.
 
 ## Architecture
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/4b1a5038-1fa6-42ae-a5e8-daa5d4d5b996)
-- Two application nodes responsible for handling web requests from users (WebServer process) and handling analysis reports (ComputeEngine process). You can add application nodes to increase computing capabilities.
-- Three search nodes that host the Elasticsearch process that will store data indices. SSDs perform significantly better than HDDs for these nodes.
-- A reverse proxy / load balancer to load balance traffic between the two application nodes. The installing organization must supply this hardware or software component.
-- PostgreSQL, Oracle, or Microsoft SQL Server database server. This software must be supplied by the installing organization.
-
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/ee503107-0b36-45ae-aed0-90ab0b1ada41)
 
 ## Conclusion
