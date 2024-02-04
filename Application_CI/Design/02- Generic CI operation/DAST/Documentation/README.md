@@ -1,4 +1,4 @@
-# Dynamic Application Security Testing (DAST) in Python
+# Dynamic Application Security Testing (DAST)
 | Author | Created On | Last Updated | Document Version | Last Updated By |
 | ------ | ---------- | ------------ | ---------------- | --------------- |
 | Shantanu | 29-01-2024 | 26-01-2024   |         v1     |     Shantanu    |
