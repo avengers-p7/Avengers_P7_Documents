@@ -40,10 +40,10 @@ This document shows an overview of our AWS Infra for SonarQube. This document pr
 High availability and cluster scalability are features of the Data Center Edition of Sonarqube. However, HA and DR can be implemented in Community Edition in AWS ecosystem. 
 
 ### High availability
-Please refer [*High Availibility in SonarQube*]() for detailed explaination.
+Please refer [*High Availibility in SonarQube*](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/HA/README.md) for detailed explaination.
 
 ### Disaster Recovery
-Please refer [*Disaster Recovery in SonarQube*]() for detailed explaination.
+Please refer [*Disaster Recovery in SonarQube*](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/DR/README.md) for detailed explaination.
 
 ***
 
