@@ -53,10 +53,10 @@ Comparison of above Tools
 
 |  Tool                  |        Purpose                                    |     Features                                          |
 | ------------           | --------------------------------------------------|  ---------------------------------------------------  |
-| Pylint                 | Code quality and style checking                   |  Customizable, extensive checks                       |
-| Flake8                 | Code linting and style checking                   |  Integration with other tools                         |
-| Bandit                 | Security vulnerability detection                  |  Focus on security-related issues                     |
-| MyPy                   | Static type checking                              | Type annotations support                              | 
+| Pylint                 | Code quality and style checking                   | **Customizable:** Allows users to configure various aspects of code style and quality checks.<br> **Extensive checks:** Offers a wide range of checks to ensure code quality and adherence to style guidelines.                      |
+| Flake8                 | Code linting and style checking                   |  **Integration with other tools:** Can be easily integrated into Continuous Integration (CI) pipelines and development environments.<br> **Modular:** Combines several linting tools including PyFlakes, McCabe, and pycodestyle (formerly known as pep8). |
+| Bandit                 | Security vulnerability detection                  | **Focus on security-related issues:** Specifically designed to detect security vulnerabilities and issues in Python code.<br> **Integration support:** Can be integrated into CI pipelines and development workflows for automated security checks.                     |
+| MyPy                   | Static type checking                              | **Type annotations support:** Supports type hinting and static type checking in Python code.<br> **Integration with IDEs:** Offers integration with popular Integrated Development Environments (IDEs) for real-time feedback on type errors and suggestions.                              | 
 
 
 # Advantages
