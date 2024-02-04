@@ -64,4 +64,13 @@ Additionally, there are other plugins available for generating different types o
 
 # Conclusion
 After performing unit tests in Python code through pytest framework, we are getting a detailed report regarding that each unit, such as a function or method, works as intended and produces the expected output.
-
+***
+# Contact Information
+| Name | Email Address |
+| ---- | ------------- |
+| Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
+***
+# References
+| Source | Description  | 
+| -------- | ------- |
+| https://www.browserstack.com/guide/unit-testing-python | Python UT |
