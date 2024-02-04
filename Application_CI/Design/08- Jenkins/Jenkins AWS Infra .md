@@ -53,4 +53,6 @@ This document shows an overview of our AWS Infra for Jenkins. This document pres
 
 |  Source                                                                                 |        Description                 |
 | ------------                                                                            | -----------------------            |
-| https://medium.com/@sebolabs/jenkins-ha-aws-cd55d82057c8                                | Infra Refrence                     |  
+| https://medium.com/@sebolabs/jenkins-ha-aws-cd55d82057c8                                | Infra Refrence                     | 
+| https://avengers-p7.atlassian.net/browse/AP-119                                         | Jenkins HA Ref Doc                 |
+|                                                                                         | Jenkins DR Ref Doc                 |
