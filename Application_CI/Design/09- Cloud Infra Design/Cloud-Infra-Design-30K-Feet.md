@@ -51,17 +51,7 @@ Here's a flow summary of the infrastructure:
 
 # Infrastructure Diagram
 
-**Production Environment**
-
-![Production Environment Diagram](https://github.com/avengers-p7/Documentation/assets/156056709/8b78fee4-997d-4e7e-ad64-7643ec554c7d)
-
-**Development Environment**
-
-![Development Environment Diagram](https://github.com/avengers-p7/Documentation/assets/156056709/2c6234b5-863e-4fc2-a357-c918815dbb1f)
-
-**Quality Assurance**
-
-![Quality Assurance Environment Diagram](https://github.com/avengers-p7/Documentation/assets/156056709/0d2c245c-fbcd-4978-b1a7-b88a2fa96a99)
+![Cloud-Infra-30k feet - Page 1 (8)](https://github.com/avengers-p7/Documentation/assets/156056709/b1fd7f43-f297-492e-8301-47126a0d4ec6)
 
 
 # System Development Approaches
