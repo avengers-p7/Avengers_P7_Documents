@@ -42,8 +42,8 @@ $SONAR_HOME/bin/linux-x86-64/sonar.sh stop
 mysqldump –opt -Q -h localhost -u username–password=’password’ databasename | gzip -9 > databasename.gz
 ```
 > [!NOTE]
-> Also, there is one tool which has been available to take the backup of database.
-> [**Click Here,**](https://docs.sonarqube.org/display/SONAR/Sonar+DB+Copy+Tool) to know more
+> Also, there is one tool i.e. `DB Copy Tool` which has been available to take the backup of database.
+> [**Click Here,**](https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/) to know more
 
 ### Step 3 – Backup the $SONAR_HOME directory
 ```shell
