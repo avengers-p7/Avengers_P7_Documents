@@ -31,6 +31,11 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 ## Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/ee503107-0b36-45ae-aed0-90ab0b1ada41)
 
+## Requirements
+| Requirement | Description |
+| ----------- | ----------- |
+| **Network**     | - You need a minimum of five servers (two application nodes and three search nodes) to form a SonarQube application cluster.<br>- The operating system requirements for servers are available on the [Requirements](https://docs.sonarsource.com/sonarqube/latest/requirements/prerequisites-and-overview/) page.<br>- All application nodes should be identical in terms of hardware and software. Similarly, all search nodes should be identical to each other.<br>- In this case, each search node should be located in a separate availability zone to maintain availability in the event of a failure in one zone. |
+|  **Database server** |Supported database`i.e. (Postgres, Microsoft SQl, Oracle)` systems are available on the [Requirements](https://docs.sonarsource.com/sonarqube/latest/requirements/prerequisites-and-overview/) page. |
 ## Conclusion
 ***
 
