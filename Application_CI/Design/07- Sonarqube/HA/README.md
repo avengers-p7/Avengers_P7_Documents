@@ -52,6 +52,29 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 | IGW |	Internet Gateway |
 
 Note: CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
+
+graph TD
+    A[VPC] -->|10.0.0.0/22| B[us-east-1a]
+    B -->|10.0.0.0/26| C[Public Subnet]
+    B -->|10.0.0.32/26| D[Private Subnet]
+    C -->|NAT GW-01| E[NAT Gateway]
+    D -->|10.0.0.4/26| F[SonarQube Server]
+    D -->|10.0.0.5/26| G[Postgres Cluster]
+    B -->|Public-RT| H[Routing Table]
+    B -->|ALB| I[Application Load Balancer]
+    B -->|Private-RT| J[Routing Table]
+    B -->|Database| K[Subnet]
+    B -->|NACL| L[Network Access Control List]
+    B -->|IGW| M[Internet Gateway]
+    B -->|us-east-1b| N[Availability Zone]
+    N -->|10.0.0.3/26| O[Private Subnet]
+    O -->|NAT GW-02| P[NAT Gateway]
+    O -->|10.0.0.4/26| Q[SonarQube Server]
+    O -->|10.0.0.5/26| R[Postgres Cluster]
+    N -->|Private-RT| S[Routing Table]
+    N -->|NACL| T[Network Access Control List]
+    N -->|IGW| U[Internet Gateway]
+
 ## Conclusion
 ***
 
