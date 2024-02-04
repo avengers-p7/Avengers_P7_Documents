@@ -13,7 +13,9 @@
 + [References](#references)
 
 *** 
+Disaster Recovery Infrastructure
 
+![jenkins_DR drawio (2)](https://github.com/avengers-p7/Documentation/assets/156056349/803c0350-9b70-4d6c-bd60-2ecfc7d28f09)
 
 
 ***
