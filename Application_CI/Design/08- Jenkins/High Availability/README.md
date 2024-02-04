@@ -9,7 +9,6 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Key Conecpts](#key-concepts)
 + [Description](#jenkins-infrastructure-components)
 + [Contact Information](#contact-information)
 + [References](#references)
