@@ -35,7 +35,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 | Requirement | Description |
 | ----------- | ----------- |
 | **Network**     | - You need a minimum of five servers (two application nodes and three search nodes) to form a SonarQube application cluster.<br>- The operating system requirements for servers are available on the [Requirements](https://docs.sonarsource.com/sonarqube/latest/requirements/prerequisites-and-overview/) page.<br>- All application nodes should be identical in terms of hardware and software. Similarly, all search nodes should be identical to each other.<br>- In this case, each search node should be located in a separate availability zone to maintain availability in the event of a failure in one zone. |
-|  **Database server** |Supported database`i.e. (Postgres, Microsoft SQl, Oracle)` systems are available on the [Requirements](https://docs.sonarsource.com/sonarqube/latest/requirements/prerequisites-and-overview/) page. |
+|  **Database server** |Supported database`i.e. (Postgres, Microsoft SQl, Oracle)` systems detailed information in available on the [Requirements](https://docs.sonarsource.com/sonarqube/latest/requirements/prerequisites-and-overview/) page. |
 |**Load balancer**| AWS ALB |
 | **License** | You need a dedicated license to activate the Data Center Edition. If you don't have one yet, please contact the SonarSource Sales Team. |
 | **Support** | Don't start this journey alone! As a Data Center Edition subscriber, SonarSource will assist with the setup and configuration of your cluster. Get in touch with [SonarSource Support](https://sonarsource.atlassian.net/servicedesk/customer/user/login?destination=portals) for help.
