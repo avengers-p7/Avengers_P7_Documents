@@ -60,6 +60,21 @@ For more detail click [**here**](https://github.com/avengers-p7/Documentation/bl
 
 ## Flow Diagram
 
+<img width="816" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/59ae3cd5-d8a7-4048-a239-4b45176cf3be">
+
+**Description of Flow Dioagram**
+
+| **Component** | **Description** |
+| ------------- | --------------- |
+| **Directory** | Create a new directory named `snatak_p7` |
+| **Clone Git Repository** | Clone the Git repository `employee-api.git` into the current directory |
+| **Install Go** | Install Go programming language using the Snap package manager |
+| **Run Unit Tests** | Execute unit tests for the current codebase |
+| **Run All Tests** | Run tests recursively for all packages |
+| **Run Tests with Verbose and Coverage** | Execute tests with verbose output and coverage information |
+| **Generate Coverage Profile** | Create a coverage profile file `coverage.out` for further analysis |
+| **Generate HTML Report** | Convert the coverage profile to an HTML report for detailed visualization |
+| **Completion** | The flow is completed, and the necessary steps for testing and coverage analysis have been executed |
 
 ***
 
