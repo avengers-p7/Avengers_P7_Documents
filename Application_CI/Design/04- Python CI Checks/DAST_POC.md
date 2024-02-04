@@ -8,6 +8,15 @@
 # Table of Contents
 [1. POC](#poc)
 
+[2. HTML Report](#html-report)
+
+[3. Analyzing the report](#analyzing-the-report)
+
+[4. Contact Information](#contact-information)
+
+[5. References](#refrences)
+
+
 # POC 
 **Dowload ZAP**
 ```shell
