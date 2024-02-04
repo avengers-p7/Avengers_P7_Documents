@@ -37,9 +37,6 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 | **License** | You need a dedicated license to activate the Data Center Edition. If you don't have one yet, please contact the SonarSource Sales Team. |
 | **Support** | Don't start this journey alone! As a Data Center Edition subscriber, SonarSource will assist with the setup and configuration of your cluster. Get in touch with [SonarSource Support](https://sonarsource.atlassian.net/servicedesk/customer/user/login?destination=portals) for help.
 ## Diagram
-<img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.jpg"> 
-
-
 <img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.drawio.svg">
 
 ## Conclusion
