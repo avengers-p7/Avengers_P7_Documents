@@ -27,7 +27,24 @@ For a more detailed understanding of Disaster recovery and its components, pleas
 ![jenkins_DR_latest drawio](https://github.com/avengers-p7/Documentation/assets/156056349/bda6c207-c066-419d-8439-3e26d7d770e4)
 
 *** 
-Architecture Components
+## Architecture Components
+
+| Service           | Description                                                                                                                                                           |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Amazon EFS        | Amazon EFS is a scalable and fully managed file storage service that can be easily mounted on Amazon EC2 instances. It provides shared file storage across multiple instances, allowing them to access the same file system concurrently. |
+| EFS Mount Target  | EFS mount targets work like an entrypoint that allows Amazon EC2 instances to connect to EFS File system.                                                              |
+| Amazon S3         | Amazon S3 is a scalable, durable, and secure object storage service. It allows storage and retrieval of large amounts of data from anywhere on the web.                    |
+| AWS DataSync       | AWS DataSync is a managed data transfer service that simplifies and accelerates moving large volumes of data between on-premises storage, Amazon S3, and Amazon EFS.     |
+
+## Flow Explaination
+
+1. **EFS Mount Targets:** EFS mount targets allow Jenkins instances in different Availability Zones to access and share the same EFS file system.
+   
+2. **Jenkins Data Accumulation (EFS):** Jenkins data is accumulated and stored in the shared Amazon EFS file system, ensuring high availability and fault tolerance.
+   
+3. **AWS DataSync:** Scheduled AWS DataSync tasks transfer data from the EFS file system to an Amazon S3 bucket, creating regular and automated backups. Scheduled DataSync tasks are configured based on specific requirements, allowing flexibility in the frequency and timing of data transfers.
+   
+4. **Amazon S3 (Backup):** The final backup is stored in Amazon S3, providing a durable and scalable storage solution. Cross-Region Replication may be configured for additional to create duplicate copies or backups of data in different locations to ensure resilience and availability.
 
 ***
 ## Contact Information
