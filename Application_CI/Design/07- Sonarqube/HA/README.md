@@ -37,7 +37,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 | Region |	AWS Cloud FN.Virginia Region (us-east-1)
 | Management VPC |	CIDR block 10.0.0.0/22
 | Availability Zone (us-east-1a) |	Includes public and private subnets, NAT Gateway, SonarQube Server, and Postgres Cluster
-| Public Subnet (10.0.0.0/26)	Security Group: Open, VPN, and SonarQube Security Group 000
+| Public Subnet (10.0.0.0/26)	| Security Group: Open, VPN, and SonarQube Security Group 000
 | NAT Gateway (NAT GW-01) |	Located in the public subnet
 | SonarQube Server |	Private subnet 10.0.0.4/26, SonarQube Security Group 000
 | Postgres Cluster |	Private subnet 10.0.0.4/26, NACL Hop, NACL Hol, and NACL Users
