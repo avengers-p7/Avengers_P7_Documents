@@ -29,15 +29,19 @@ Disaster recovery is essential for organizations to ensure `business continuity,
 
 To know more about disaster recovery and  disaster recovery plan, [**DR Reference Doc**](https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery).
 ## Disaster Recovery Tiers
+| Tier| Name | Description |
+|------| -------------- | -------------|
+| Tier0 | Business Continuity (BC) | The highest tier of DR, focusing on minimizing downtime and ensuring business operations can continue without interruption.
+| Tier1 | Business Resumption (BR) | Focuses on restoring business operations as quickly as possible after a disaster.
+| Tier2 | Business Restoration (BK) | Aims to restore business operations to their pre-disaster state.
+| Tier3 | Business Recovery (BKR) | Focuses on recovering lost data and restoring systems to their pre-disaster state.
+| Tier4 | Business Survivability (BS) | Ensures that critical business functions can continue to operate even during a disaster.
+| Tier5 | Business Contingency (BCR) | Focuses on maintaining business continuity during a disaster.
+| Tier6 | Business Continuity Management (BCM) | Involves managing the risks and uncertainties associated with disasters.
+| Tier7 | Business Continuity Planning (BCP) | Involves creating a plan to ensure business continuity during a disaster.
 
-0. Business Continuity (BC): The highest tier of DR, focusing on minimizing downtime and ensuring business operations can continue without interruption.
-1. Business Resumption (BR): Focuses on restoring business operations as quickly as possible after a disaster.
-2. Business Restoration (BK): Aims to restore business operations to their pre-disaster state.
-3. Business Recovery (BKR): Focuses on recovering lost data and restoring systems to their pre-disaster state.
-4. Business Survivability (BS): Ensures that critical business functions can continue to operate even during a disaster.
-5. Business Contingency (BCR): Focuses on maintaining business continuity during a disaster.
-6. Business Continuity Management (BCM): Involves managing the risks and uncertainties associated with disasters.
-7. Business Continuity Planning (BCP): Involves creating a plan to ensure business continuity during a disaster.
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/137bf1fd-ca6b-4093-964a-de4311359cf0)
+
 
 ## Types of Disaster Recovery
 
