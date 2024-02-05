@@ -82,7 +82,16 @@ Credential scanning tools are used to identify and prevent the exposure of sensi
 | Customizable rule-set | Gitleaks allows you to customize the rule-set to match your specific needs and environment. |
 | Integration with CI/CD pipelines | Gitleaks can be integrated with popular CI/CD pipelines, such as GitHub Actions  to automatically scan your repositories for secrets whenever you push code changes.|
 
-***
+### GitLeaks vs Trivy 
+ **Trivy** : Trivy is a comprehensive container scanning tool that focuses on identifying vulnerabilities in container images. It can scan container images for security vulnerabilities in both the operating system packages and application dependencies.
+
+ Trivy too has a [secret scanning](https://aquasecurity.github.io/trivy/v0.27.1/docs/secret/scanning/) feature that is very much inspired from GitLeaks. If we plan a containerized deployment it might be prudent to use Trivy over Gitleaks however for non-containerized deployments GitLeaks can be effective as it is :
+
++ Lightweight
++ Less complicated as it has a narrower use case
++ Can be used at multiple stages i.e commit, pre-commit , repository scan , etc.
+ 
+ ***
 
 ## Proof Of Concept : GitLeaks 
 
@@ -132,4 +141,5 @@ In conclusion, credential scanning emerges as a fundamental practice in modern c
 | Credential Scanning | https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/credential_scanning/ |
 | GitLeaks |  https://akashchandwani.medium.com/what-is-gitleaks-and-how-to-use-it-a05f2fb5b034 | 
 | detect-secrets | https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/recipes/detect-secrets/ |
+| Trivy | https://trunk.io/linters/security/trivy |
 
