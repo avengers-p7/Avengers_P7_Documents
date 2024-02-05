@@ -66,6 +66,7 @@ cd dependemcy-check/bin/
 ./dependency-check.sh --scan /home/ubuntu/employee-api/ --out dep-check.html
 ```
 ![image](https://github.com/avengers-p7/Documentation/assets/156056570/8a15332b-c718-4219-bc28-1091f1c87ce8)
+![Screenshot 2024-02-05 122407](https://github.com/avengers-p7/Documentation/assets/156056570/69d00f72-1637-4963-9552-67e693259ee7)
 
 ***
 ## HTML Report
