@@ -64,23 +64,26 @@ The configuration for the above comprises 2 Sonarqube servers, a application loa
 - A **S3**  Bucket to store Sonarqube Backup. 
 - **PostgreSQL cluster** to provide High Availability in database server.
 ***
-## Steps to Take a Full Backup of SonarQube Server
-
-### Step 1 – Stop the Sonarqube server
-```shell
-$SONAR_HOME/bin/linux-x86-64/sonar.sh stop
-```
-
-### Step 2 – Backup the production database e.g mysql db
-```shell
-mysqldump –opt -Q -h localhost -u username–password=’password’ databasename | gzip -9 > databasename.gz
-```
-## 
 
 > [!NOTE]
 > Sonarqube provides [**DB Copy Tool**](https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/) to help you backup or migrate your SonarQube database from one database vendor to another. For example, if you've been using your SonarQube instance with
 > Oracle and want to migrate to PostgreSQL, the SonarQube DB Copy Tool will help. DB Copy is preferred for database migration because it does SonarQube-specific checks, ensures data consistency,
 > and outputs meaningful logs.
+## Steps to Take a Full Backup of SonarQube Server
+
+### Step 1 – Stop the Sonarqube server
+
+```shell
+sudo systemctl stop sonarqube.service
+```
+
+### Step 2 – Backup the production database e.g postgres db
+
+```shell
+su - postgres
+pg_dump -U postgress -F t  sonarqube > sonar_db_backup.tar
+```
+## 
 
 
 ### Step 3 – Backup the $SONAR_HOME directory
@@ -97,10 +100,31 @@ zip -r Sonar_home.zip $SONAR_HOME
 
 ### Step 4 – Re-start the production server
 ```shell
-$SONAR_HOME/bin/linux-x86-64/sonar.sh start
+sudo systemctl start sonarqube.service
 ```
-### Step 5 – Keep the Sonar_home.zip and databasename.gz to the safe location.
+### Step 5 – Keep the Sonar_home.zip and sonar_db_backup.tar to the safe location.
 
+## Restore Sonarqube
+
+
+### Step 1 - Install Sonarqube 
+
+### Step 2 – Stop the Sonarqube server
+```shell
+sudo systemctl start sonarqube.service
+```
+### Step 3 - Restore DB
+```shell
+su - postgress
+pg_restore -U postgress --dbname=sonarqube --verbose sonar_db_backup.tar
+```
+### Step 4 - Now, go to the sonarqube installation dir  `/opt/sonarqube/data` delete  the elastic indexes`es6` directory. 
+
+
+### Step 5 – Re-start the Sonarqube server
+```shell
+sudo systemctl start sonarqube.service
+```
 I recommend making a copy of both the configuration files located in $SONARQUBE_HOME/conf and the list of plugins found in $SONARQUBE_HOME/extensions/plugins.
 
 Backing up the elastic search data is unnecessary since sonarqube generates all the required information during startup. However, keep in mind that the initial startup time may vary depending on the volume of stored data.
