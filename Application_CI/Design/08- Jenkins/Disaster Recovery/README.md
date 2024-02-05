@@ -12,6 +12,7 @@
 + [Key Components](#architecture-components)
 + [Flow Explanation](#flow-explanation)
 + [MTTR](#mttr)
++ [Advantages and Disadvantages](#Advantages-and-Disadvantages)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
