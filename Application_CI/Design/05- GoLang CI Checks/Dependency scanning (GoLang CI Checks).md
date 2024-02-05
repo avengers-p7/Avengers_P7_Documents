@@ -16,7 +16,7 @@
 + [Implementation](#Implementation)
 + [Best Practices](#Best-Practices)
 + [SAST VS DAST](#SAST-VS-DAST)
-+ [Tools for Golang DAST](#Tools-for-Golang-DAST)
++ [Tools Comparison for Golang Dependency Scanner](#Tools-Comparison-for-Golang-Dependency-Scanner)
 + [Contact Information](#Contact-Information)
 + [References](#References)
 ***
