@@ -27,67 +27,24 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 ***
 # Infrastructure Diagram
 
-![Cloud-Infra-30k feet - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/cb77bbe7-3aab-4b12-81db-a107e11f16ab)
+![Cloud-Infra-30k feet - Page 1](https://github.com/avengers-p7/Documentation/assets/156056709/bf38f6f1-98a1-4d69-872f-e50c04a3d466)
 
-***
+---
 # Description
-
-Here's a flow summary of the infrastructure 
-
-**User Access:**
-
-* Users connect to the infrastructure through the internet.
-
-**Public Subnets:**
-
-* Public subnets host components that need direct internet access.
-* The Bastion Host resides in the public subnet to facilitate secure access.
-
-**Private Subnets:**
-* Frontend application components are hosted in one private subnet.
-* Attendance, Employee, and Salary APIs are hosted in separate private subnets.
-* PostgreSQL, Scylla, and Redis databases are hosted in another private subnet.
-
-**Security Groups:**
-
-* Different security groups are defined for various components.
-  
-* Bastion-sg for the Bastion Host.
-* Frontend-sg for Frontend components.
-* ATT-sg, EMP-sg, and Sal-sg for respective APIs.
-* PSql-sg, Scylla-sg, and Redis-sg for database components.
-
-**NACLs (Network Access Control Lists):**
-
-* NACLs are associated with specific private subnets to control inbound and outbound traffic at the subnet level.
-
-**Internet Gateway & NAT Gateway:**
-
-* Internet Gateway (Igw) facilitates internet access for the VPC.
-* NAT Gateway allows instances in private subnets to initiate outbound traffic to the internet.
-
-**Route Tables:**
-
-* Public-rt is associated with the public subnet for internet access.
-* Private-rt is associated with private subnets, allowing communication within the VPC.
-
-**ALB (Application Load Balancer):**
-
-* ALB is configured for distributing frontend traffic across multiple targets, ensuring high availability.
-
-**Auto Scaling Group (ASG):**
-* ASG dynamically adjusts the number of instances for frontend and API services based on demand.
-
-**Region and Availability Zone:**
-
-* The infrastructure is deployed in the Europe region, specifically in the Frankfurt (eu-central-1) region.
-* Availability zones (eu-central-1a) are utilized for redundancy and fault tolerance.
-* Availability zones (eu-central-1b) are utilized for redundancy and fault tolerance.
-
-**VPC (Virtual Private Cloud):**
-
-* VPC are created for Development environments.
-* This flow summary outlines the path of user access, the organization of components in public and private subnets, the role of security groups, NACLs, internet and NAT gateways, routing, and the use of load balancing and auto-scaling for ensuring scalability and availability of services.
+| Component                           | Details                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **User Access**                     | Users connect to the infrastructure through the internet.                                          |
+| **Route53**                         | DNS service for routing traffic to various components.                                               |
+| **Public Subnets**                  | Public subnets host components requiring direct internet access. Bastion Host facilitates secure access.|
+| **Private Subnets**                 | Frontend app, Attendance, Employee, and Salary APIs hosted in separate private subnets. Databases (PostgreSQL, Scylla, Redis) in another private subnet. |
+| **Security Groups**                 | - To provide security on instance level |
+| **NACLs (Network ACLs)**           | Control inbound and outbound traffic at subnet level for specific private subnets.                  |
+| **Internet Gateway & NAT Gateway**  | - Internet Gateway (Igw) for VPC internet access.<br>- NAT Gateway for outbound traffic from private subnets to the internet.|
+| **Route Tables**                    | - Public-RT for public subnet internet access.<br>- Private-RT for communication within the VPC.    |
+| **ALB (Application Load Balancer)** | Configured to distribute frontend traffic across multiple targets for high availability.            |
+| **Auto Scaling Group (ASG)**        | Dynamically adjusts frontend and API service instances based on demand for scalability.              |
+| **Region and Availability Zone**    | Deployed in Europe region, specifically Frankfurt (eu-central-1). Utilizes availability zones (eu-central-1a) for redundancy and fault tolerance. |
+| **VPC (Virtual Private Cloud)**     | Created for Development environments, organizes components for scalability and availability.        |
 
 
 ***
@@ -102,5 +59,7 @@ Here's a flow summary of the infrastructure
 
 |     Description                  | References  
 | ---------------------------------| ------------------------------------------------------------------- |
-| Documentation Template           | [Documentation Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
-| Autoscaling with NGINX on AWS Blog| [NGINX Autoscaling on AWS](https://www.nginx.com/blog/announcing-new-autoscaling-support-with-nginx-plus-on-aws-cloud-quick-start/) |
+| Documentation Template           | [Link](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
+| Autoscaling with NGINX on AWS Blog| [Link](https://www.nginx.com/blog/announcing-new-autoscaling-support-with-nginx-plus-on-aws-cloud-quick-start/) |
+| Route53           | [Link](https://alwinmathewabraham.wordpress.com/2017/08/20/lab-10-configuring-dns-with-route-53-url/) |
+
