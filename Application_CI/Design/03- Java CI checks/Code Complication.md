@@ -152,7 +152,7 @@ git  clone https://github.com/opstree/spring3hibernate/tree/master
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/9de05880-ce7d-4ab8-a1b8-974adbacfdee)
 
-> [!NOTTE]
+> [!NOTE]
 > Change maven compiler version from 1.6 to 7 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/8a9710fb-856d-472b-b513-a80f756227dd)
