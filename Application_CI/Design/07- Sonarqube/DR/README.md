@@ -51,6 +51,8 @@ Disaster recovery is essential for organizations to ensure `business continuity,
 |**Security Group** (SonarQube SG, Postgress SG)| To provide security on instance level
 | **SonarQube Servers** |	Sonarqube sevrers in Private subnets(10.0.0.2/26, 10.0.0.3/26) 
 | **Postgres Cluster** |	Private subnets (10.0.0.4/26, 10.0.0.5/26) |
+|**Mngt-VPC-Endpoint**| VPC Endpoint to access S3 bucket 
+|**Sonarqube Back-Up S3 Bucket**| to store Sonarqube DB back-up |
 > [!Note]
 > CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
 ***
