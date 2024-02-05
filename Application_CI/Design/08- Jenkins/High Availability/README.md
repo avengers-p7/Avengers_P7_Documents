@@ -9,7 +9,9 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Description](#jenkins-infrastructure-components)
++ [Infrastructure Components](#jenkins-infrastructure-components)
++ [AWS Infrastructure](#AWS-Infrastructure)
++ [Advantages and Disadvantages](#Advantages-and-Disadvantages)
 + [Contact Information](#contact-information)
 + [References](#references)
 
