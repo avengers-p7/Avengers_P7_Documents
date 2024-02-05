@@ -3,15 +3,18 @@
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
-| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 03-02-2024      |
+| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 04-02-2024      |
 
 
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Conclusion](#Conclusion)
-3. [Contact Information](#Contact-Information)
-4. [References](#References)
+2. [What](#What)
+3. [Why](#Why)
+4. [Infra Diagram](#Infra-Diagram)
+5. [Description](#Description)
+6. [Contact Information](#Contact-Information)
+7. [References](#References)
 ***
 
 ## Introduction 
@@ -31,7 +34,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 > If you want to run SonarQube as a Cluster, it is only possible with a [Data Center Edition](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server-as-a-cluster/)<br>
 > Below, is an alternative approach with Sonarqube+AWS to provide HA.
 
-## Diagram
+## Infra Diagram
 <img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.drawio (1).svg">
 
 | Component  | Details 
@@ -46,20 +49,20 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 | **Private-RT** |	Routing table for the private subnet
 | **NAT Gateways** (NAT GW-01, NAT GW-02) |	Located in the public subnets
 | **NACL** |	Network Access Control List
-| **ALB** |	Application Load Balancer
+| **ALB** |	Application Load Balancer to distribute the load b/w application servers
+| **ASG** | Auto Scaling Group for application server |
 | **SonarQube Servers** |	Sonarqube sevrers in Private subnets(10.0.0.2/26, 10.0.0.3/26) SonarQube Security Group 000
 | **Postgres Cluster** |	Private subnet 10.0.0.4/26, NACL Hop, NACL Hol, and NACL Users |
 > [!Note]
 > CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
 
-### Description
+## Description
 The configuration for the above comprises 2 Sonarqube servers, a application load balancer, and a database(Postgres) server cluster.
 - **Two Sonarqube instances** responsible for handling web requests from users (WebServer process) and handling analysis reports (ComputeEngine process). You can add application nodes to increase computing capabilities.
-- **A load balancer** to load balance traffic between the two Sonarqube instances.
+- A **load balancer** to load balance traffic between the two Sonarqube instances.
+- A **Auto Scaling Group** to matain the availability of Sonarqube server.
 - **PostgreSQL cluster** to provide High Availability in database server.
 
-## Conclusion
-***
 
 ## Contact Information
 
