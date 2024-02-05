@@ -28,7 +28,7 @@ This role is designed to automate the installation and configuration of Jenkins 
 Here, we harness the efficiency of Ansible, an open-source automation tool streamlining configuration management and application deployment. In parallel, Jenkins excels in facilitating continuous integration and delivery, ensuring a seamless and automated pipeline for software development processes.
 
 ***
-## Flow Diagram
+## Flow Diagram
 
 * This diagram should help you visualize the sequence of tasks in your Ansible playbook for installing Jenkins.
 
