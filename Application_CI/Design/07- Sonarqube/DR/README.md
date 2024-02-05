@@ -42,6 +42,9 @@ The configuration for the above comprises 2 Sonarqube servers, a application loa
 - A **Auto Scaling Group** to matain the availability of Sonarqube server.
 - A **S3**  Bucket to store Sonarqube Backup. 
 - **PostgreSQL cluster** to provide High Availability in database server.
+> [!Note]
+> CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
+
 <img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA+DR-Sonarqube.drawio (2).svg">
 
 | Component  | Details 
@@ -63,11 +66,9 @@ The configuration for the above comprises 2 Sonarqube servers, a application loa
 | **Postgres Cluster** |	Private subnets (10.0.0.4/26, 10.0.0.5/26) |
 |**Mngt-VPC-Endpoint**| VPC Endpoint to access S3 bucket 
 |**Sonarqube Back-Up S3 Bucket**| to store Sonarqube DB back-up |
-> [!Note]
-> CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
 ***
 
-> [!NOTE]
+> [!IMPORTANT]
 > Sonarqube provides [**DB Copy Tool**](https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/) to help you backup or migrate your SonarQube database from one database vendor to another. For example, if you've been using your SonarQube instance with
 > Oracle and want to migrate to PostgreSQL, the SonarQube DB Copy Tool will help. DB Copy is preferred for database migration because it does SonarQube-specific checks, ensures data consistency,
 > and outputs meaningful logs.
