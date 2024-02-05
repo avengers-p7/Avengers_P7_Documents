@@ -35,7 +35,7 @@ This role is designed to automate the installation and configuration of SonarQub
 Before using this Ansible role to set up Jenkins, ensure that the following prerequisites are met:
 
 1. **Ansible:**
-   - Ansible must be installed on the control machine from which you plan to run the playbook. If Ansible is not installed, you can install it using this [link](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+   - Ansible must be installed on the control machine from which you plan to run the playbook. If Ansible is not installed, you can install it using this [link](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) . Version used for POC : ansible 2.10.8
 
 
 ### Ansible 
