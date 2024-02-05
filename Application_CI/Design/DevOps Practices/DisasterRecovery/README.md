@@ -28,6 +28,9 @@ Disaster recovery (DR) is an organization's ability to respond to and recover fr
 Disaster recovery is essential for organizations to ensure `business continuity, protect valuable data from loss or corruption, mitigate risks, comply with regulations, maintain customer trust and reputation, avoid financial losses, gain a competitive edge, sustain employee productivity, and stabilize supply chains`. It is a crucial strategy to swiftly recover from unexpected events or disasters and minimize the impact on operations. 
 
 To know more about disaster recovery and  disaster recovery plan, [**DR Reference Doc**](https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery).
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0335bc4-61f5-4c21-9e67-61e3977195b0)
+***
 ## How disaster recovery works
 Disaster recovery relies on having a solid plan to get critical applications and infrastructure up and running after an outage—ideally within minutes.
 
@@ -37,7 +40,7 @@ An effective DR plan addresses three different elements for recovery:
 | Preventive | Ensuring your systems are as secure and reliable as possible, using tools and techniques to prevent a disaster from occurring in the first place. This may include backing up critical data or continuously monitoring environments for configuration errors and compliance violations. 
 | Detective | For rapid recovery, you’ll need to know when a response is necessary. These measures focus on detecting or discovering unwanted events as they happen in real time. 
 | Corrective | These measures are aimed at planning for potential DR scenarios, ensuring backup operations to reduce impact, and putting recovery procedures into action to restore data and systems quickly when the time comes. 
-
+***
 ## Types of Disaster Recovery
 
 | Type                          | Description                                                                                                 |
@@ -52,7 +55,7 @@ An effective DR plan addresses three different elements for recovery:
 | Virtual DR                     | - Backs up operations and data, creating a complete replica of IT infrastructure on offsite virtual machines.|
 |                               | - Enables quick reload and resumption of operations after a disaster. Requires frequent data transfers.      |
 | Disaster Recovery Sites        | - Temporary locations post-disaster, containing backups of data, systems, and technology infrastructure.      |
-
+***
 ## Advantages of DR
 
 | Benefit                   | Description                                                                                                    |
@@ -69,7 +72,7 @@ An effective DR plan addresses three different elements for recovery:
 |                             | - Offers built-in redundancy and automatic failover, protecting against equipment failure and smaller events.  |
 | Better Compliance          | - Supports compliance requirements by defining specific procedures and protections for data and workloads.       |
 |                             | - Includes strong data backup practices, DR sites, and regular testing for preparedness.                          |
-
+***
 ## Conclusion
 This comprehensive approach safeguards valuable data, complies with regulations, maintains trust, and ensures operational stability, emphasizing the significance of disaster recovery in mitigating risks and sustaining organizational resilience. Now, you can restore your Sonarqube by using these backup files created by the above steps.
 ***
@@ -90,4 +93,3 @@ This comprehensive approach safeguards valuable data, complies with regulations,
 | Take full backup of Sonarqube | https://www.scmgalaxy.com/tutorials/sonarqube-upgrade-backup-and-restore-process/|
 | DB Copy Tool                  | https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/ |
 | S3                            | https://www.whizlabs.com/labs/access-s3-from-private-ec2-instance-using-vpc-endpoint |
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0335bc4-61f5-4c21-9e67-61e3977195b0)
