@@ -70,6 +70,53 @@ gosec -fmt=json -out=gosec-report.json ./...
 # gosec Report File
 [gosec-report.json](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/gosec-report.json)
 
+# Gosec Issues 
+1. main.go:47:
+
+Error: G104 (CWE-703) Unhandled errors.
+Problem: The code doesn't check for errors returned by router.Run(":8080").
+Potential Issues:
+The server might fail to start (e.g., port already in use) without any indication.
+The program could crash unexpectedly.
+
+2. api/api.go:232 and api/api.go:208:
+
+Error: G104 (CWE-703) Unhandled errors.
+Problem: Both lines use json.Unmarshal without checking for potential errors.
+Potential Issues:
+If the JSON data is invalid or unmarshaling fails, the program might behave unexpectedly or return incorrect data.
+Errors won't be logged, making debugging difficult.
+
+3. api/api.go:152, api/api.go:128, api/api.go:95, and api/api.go:71:
+
+Error: (While not explicitly mentioned in your prompt, these lines likely have the same G104 error as well.)
+Problem: Similar to 2, these lines use json.Unmarshal without error checking.
+Potential Issues: Same as 2.
+
+4. api/api.go:152:
+
+Error: G104 (CWE-703) Unhandled errors.
+Problem: The json.Unmarshal function is used without checking for potential errors.
+Potential Issues: If the redisData is invalid or unmarshaling fails, the program might behave unexpectedly or return incorrect data. Errors won't be logged, making debugging difficult.
+
+5. api/api.go:128:
+
+Error: G104 (CWE-703) Unhandled errors.
+Problem: Same as above, json.Unmarshal is used without error checking.
+Potential Issues: Same as above.
+
+6. api/api.go:95:
+
+Error: G104 (CWE-703) Unhandled errors.
+Problem: Same as above, json.Unmarshal is used without error checking.
+Potential Issues: Same as above.
+
+7. api/api.go:71:
+
+Error: G104 (CWE-703) Unhandled errors.
+Problem: Same as above, json.Unmarshal is used without error checking.
+Potential Issues: Same as above.
+
 # Conclusion
 Gosec stands as a powerful tool for proactive security defense in Go development. By seamlessly integrating into your workflows and meticulously analyzing code constructs, it uncovers vulnerabilities before they can compromise application integrity.
 
