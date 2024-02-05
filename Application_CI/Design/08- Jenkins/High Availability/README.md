@@ -34,7 +34,8 @@ This diagram comprehensively illustrates the essential concepts of achieving hig
 ***
 ## AWS Infrastructure
 
-![jenkins_HA-finalll drawio](https://github.com/avengers-p7/Documentation/assets/156056349/5e33ab7d-4bc8-4bd1-ab26-8338bce80331)
+![jenkins_HA drawio (2)](https://github.com/avengers-p7/Documentation/assets/156056349/8d8c58a1-f381-4b5b-9a49-8982d7d4b5c3)
+
 
 ***
 ## Contact Information
