@@ -70,5 +70,5 @@ Disaster recovery typically focus on restoration of normal functionalities after
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
 | HA conepts           | https://avinetworks.com/glossary/high-availability/    |
-| aws documentation      | https://repost.aws/knowledge-center/datasync-transfer-efs-s3  |
+| Key concepts      | https://www.cisco.com/c/en/us/solutions/hybrid-work/what-is-high-availability.html#~infrastructure-elements  |
 
