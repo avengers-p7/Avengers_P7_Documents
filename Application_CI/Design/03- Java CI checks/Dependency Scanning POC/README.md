@@ -25,7 +25,7 @@
 OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects. 
 
 *** 
-Flow Diagram
+## Flow Diagram
 
 <img width="1168" alt="Screenshot 2024-02-02 at 3 41 52 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/52eb5029-c332-4395-8445-a4e8f55cb9f4">
 
