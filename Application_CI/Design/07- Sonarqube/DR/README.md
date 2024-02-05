@@ -34,6 +34,14 @@ Disaster recovery is essential for organizations to ensure `business continuity,
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/67e8720b-e9e6-43c2-aa13-193300927e5a)
 ***
 ## Infra Diagram
+
+### Overview
+The configuration for the above comprises 2 Sonarqube servers, a application load balancer, and a database(Postgres) server cluster.
+- **Two Sonarqube instances** responsible for handling web requests from users (WebServer process) and handling analysis reports (ComputeEngine process). You can add application nodes to increase computing capabilities.
+- A **load balancer** to load balance traffic between the two Sonarqube instances.
+- A **Auto Scaling Group** to matain the availability of Sonarqube server.
+- A **S3**  Bucket to store Sonarqube Backup. 
+- **PostgreSQL cluster** to provide High Availability in database server.
 <img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA+DR-Sonarqube.drawio (2).svg">
 
 | Component  | Details 
@@ -57,14 +65,6 @@ Disaster recovery is essential for organizations to ensure `business continuity,
 |**Sonarqube Back-Up S3 Bucket**| to store Sonarqube DB back-up |
 > [!Note]
 > CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
-***
-## Description
-The configuration for the above comprises 2 Sonarqube servers, a application load balancer, and a database(Postgres) server cluster.
-- **Two Sonarqube instances** responsible for handling web requests from users (WebServer process) and handling analysis reports (ComputeEngine process). You can add application nodes to increase computing capabilities.
-- A **load balancer** to load balance traffic between the two Sonarqube instances.
-- A **Auto Scaling Group** to matain the availability of Sonarqube server.
-- A **S3**  Bucket to store Sonarqube Backup. 
-- **PostgreSQL cluster** to provide High Availability in database server.
 ***
 
 > [!NOTE]
