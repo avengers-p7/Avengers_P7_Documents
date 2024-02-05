@@ -4,6 +4,15 @@
 | -----------------| --------------| -----------|---------------- | -------------- |
 | Vidhi Yadav      | 4 feb 2024   |     v1     | Vidhi Yadav     | 4 feb 2024    |
 
+***
+## Table of Contents
++ [Introduction](#Introduction)
++ [How HA Works?](#how-high-availability-works)
++ [Key Concepts](#key-concepts)
++ [HA vs DR difference](#high-availability-vs-disaster-recovery)
++ [Contact Information](#contact-information)
++ [References](#references)
+
 *** 
 ## Introduction
 High Availability is a strategic approach aimed at minimizing downtime and guaranteeing consistent performance without any downtime. The fundamental goal of HA is to mitigate the impact of potential failures, whether they be hardware failures, software issues, or unforeseen events. By distributing workloads across multiple instances, regions, or Availability Zones, HA architectures can withstand disruptions, providing constant access to applications and services. 
