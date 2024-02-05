@@ -52,11 +52,11 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 > [!Note]
 > CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
 
+### Description
 The configuration for the above comprises 2 Sonarqube servers, a application load balancer, and a database(Postgres) server cluster.
-
-Two Sonarqube instances responsible for handling web requests from users (WebServer process) and handling analysis reports (ComputeEngine process). You can add application nodes to increase computing capabilities.
-A load balancer to load balance traffic between the two Sonarqube instances. 
-PostgreSQL cluster to provide High Availability in database server.
+- **Two Sonarqube instances** responsible for handling web requests from users (WebServer process) and handling analysis reports (ComputeEngine process). You can add application nodes to increase computing capabilities.
+- **A load balancer** to load balance traffic between the two Sonarqube instances.
+- **PostgreSQL cluster** to provide High Availability in database server.
 
 ## Conclusion
 ***
