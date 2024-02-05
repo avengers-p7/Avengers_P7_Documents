@@ -54,7 +54,7 @@ The goal is to maintain continuous service availability, even in the face of une
 ## High Availability Vs Disaster Recovery 
 Distinguishing between high availability and disaster recovery is crucial. Disaster recovery (DR) involves a detailed strategy aimed for recovery of critical operations and systems after catastrophic events.
 
-In contrast, when you have a system that is both highly available and fault-tolerant, the question arises: *why invest effort in disaster recovery planning*.
+In contrast, when you have a system that is both highly available and fault-tolerant, the question arises: *why invest effort in disaster recovery planning ?*.
 
 Disaster recovery typically focus on restoration of normal functionalities after a major disaster, whereas high availability addresses typical failures, such as a malfunctioning component or server. While both concepts are interconnected, a disaster recovery plan is designed to handle scenarios like the loss of an entire region.
 
