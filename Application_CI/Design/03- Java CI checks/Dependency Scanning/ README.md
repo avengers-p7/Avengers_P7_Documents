@@ -10,6 +10,7 @@
 + [Key Components](#key-points)
 + [Popular Tools](#popular-tools)
 + [Tool Comparison](#tool-comparison)
++ [Why Choose OWASP?](#why-choose-owasp)
 + [Guide to Installation](#Installing-OWASP-Dependency-Check)
 + [Best Practices](#best-practices)
 + [Security Compliance](#security-compliance)
