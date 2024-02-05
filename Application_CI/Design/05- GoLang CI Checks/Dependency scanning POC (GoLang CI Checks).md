@@ -12,10 +12,10 @@
 + [OWASP Dependency-Check Introduction](#OWASP-Dependency-Check-Introduction)
 + [Key Features](#Key-Features)
 + [Pre-requisite](#Pre-requisite)
-+ [OWASP ZAP Installation](#OWASP-ZAP-Installation)
++ [OWASP Dependency-check Installation](#OWASP-Dependency-check-Installation)
 + [Proof of Concept (POC)](#Proof-of-Concept-(POC))
 + [HTML Report](#HTML-Report)
-+ [Analyzing the report ](#Analyzing-the-report )
++ [ Dependency Scan Report Analysis](#Dependency-Scan-Report-Analysis)
 + [Contact Information](#Contact-Information)
 + [References](#References)
 ***
