@@ -3,6 +3,10 @@
 | ------ | ---------- | ------------ | ---------------- | --------------- |
 | Shantanu | 25-01-2024 | 25-01-2024   |         v1     |     Shantanu    |
 
+# Table of Content
+1. Flow Diagram
+2. API Table
+
 # Flow Diagram
 ### Frontend Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/8b17cd7b-d6a0-4b13-acc6-c0d4dd9c4ac7)
@@ -19,6 +23,7 @@
 ### FullStack Architecture 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/6181c57e-72fe-426d-bcd2-e6114f5a2c4c)
 
+# API Table
 ## Slary API Table
 
 ![image](https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API/assets/156056444/069bb13b-2def-4b1a-bd84-380b76e2f48a)
@@ -37,9 +42,7 @@
 
 ![image](https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API/assets/156056444/005f5057-f016-4da9-9f39-987a5f4d797b)
 ***
-## Attendance API Table
 
-snippets coming soon...
 ***
 ##  Forntend setup
 
