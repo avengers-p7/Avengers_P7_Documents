@@ -80,7 +80,7 @@ By implementing robust dependency scanning practices, developers can enhance the
 | GoDepend               | Golang dependency analysis tool                       | - Identifies dependencies and their versions                      | CLI                 | Apache 2.0    |
 | GoReportCard           | Golang code quality checking tool                     | - Analyzes code quality and dependencies                          | CLI, Web            | MIT           |
 
-### Conclusion - Nancy:
+### Conclusion -
 
 - OWASP Dependency-Check is a software composition analysis tool that helps identify and report known vulnerabilities in project dependencies. It is a crucial component in ensuring the security of software applications by scanning dependencies for known security issues and vulnerabilities.
 ***
