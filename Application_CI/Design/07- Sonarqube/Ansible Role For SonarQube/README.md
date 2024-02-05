@@ -147,6 +147,22 @@ groups:
    pgdg_key_url: "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
    postgresql_package_name: "postgresql"
 ```
+### Role Variables 
+| **Variable** | **Description** |
+| ------------ | --------------- |
+| `postgres_version` | Version of Postgresql to be installed as DB |
+| `jdk_version` | Java Development Kit(JDK) version |
+| `sonarqube_version` | Version of SonarQube to be installed |
+| `sonarqube_download_url` | URL to download SonarQube zip file |
+| `sonarqube_home` | Path to `SONARQUBE_HOME` directory |
+| `sonarqube_web_port` | SonarQube webserver port |
+| `sonarqube_user` | A linux and postgres user for sonarqube operations |
+| `sonarqube_password` | Password for sonarqube postgres user |
+| `sonarqube_db` | SonarQube schema in DB |
+| `pgdg_repo_url` | Postgres repository URL |
+| `pgdg_repo_version` | Postgres repository version based on distribution |
+| `pgdg_key_url` | Postgres key URL |
+| `postgresql_package_name` | Package to be downladed from Postgres repository |
 
 > [!NOTE]
 > To customize the SonarQube installation based on your specific requirements, you can override these default values in main.yaml file in the vars directory of the role. 
