@@ -142,38 +142,6 @@ Continuous Integration (CI) specifically for Java code compilation, there are se
 
 here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkins
 
-
-# Step 1: Create a Simple Java Project with Maven
-
-1. Create a basic Maven project with a simple Java class and a unit test. Here's a simple structure
-   
-   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/a944e7a8-27a8-49bb-a0be-6d9f44b015e0)
-
-
-**SalaryApplication.java**
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/d55179d2-e365-4789-b0e3-0a49db1acccf)
-
-***
-
-
-
-**pom.xml**
-
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/8ca998cd-f7c6-4b8d-9b4e-683899b01519)
-
-
-
-# Step 2: Set Up a GitHub Repository
-
-
-Create a GitHub repository and push the Maven Java project to it.
-
-
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/97ec5532-be96-48c1-bf7b-633d3f9ff4cd)
-
 # Step 1: clone github project
 
 ```shell
@@ -183,21 +151,6 @@ git  clone https://github.com/opstree/spring3hibernate/tree/master
 1. Create a basic Maven project with a simple Java class and a unit test. Here's a simple structure
    
    ![image](https://github.com/avengers-p7/Documentation/assets/156644891/a944e7a8-27a8-49bb-a0be-6d9f44b015e0)
-
-**MyApp.java**
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/d56e8f1c-6ac4-45a0-89ed-064727f68673)
-
-
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/15f2faad-fc1e-450d-9cf7-63f5fe4f249a)
-
-
-**MyAppTest.java**
-
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/8cddd856-c015-4e6f-8ad8-6a7bb1e73581)
-
 
 **pom.xml**
 
