@@ -9,14 +9,14 @@
 High Availability is a strategic approach aimed at minimizing downtime and guaranteeing consistent performance without any downtime. The fundamental goal of HA is to mitigate the impact of potential failures, whether they be hardware failures, software issues, or unforeseen events. By distributing workloads across multiple instances, regions, or Availability Zones, HA architectures can withstand disruptions, providing constant access to applications and services. 
 
 ***
-How High Availability Works ? 
-#### Identifying and Eliminating Single Points of Failure:
+## How High Availability Works ? 
+### Identifying and Eliminating Single Points of Failure:
 
 Single points of failure are components or elements within a system that, if they fail, can bring down the entire system or a significant part of it.
 To achieve high availability, it is crucial to identify and eliminate these single points of failure. This can involve critical components so that if one fails, there is a backup ready to take over.
 For example, if a server is a single point of failure, having a second server that can immediately take over in case the first one fails ensures continuity.
 
-#### Detecting Data Loss or System Failures:
+### Detecting Data Loss or System Failures:
 
 High availability systems often incorporate mechanisms to detect failures or data loss promptly. This can include monitoring tools, automated alerts, and health checks.
 Continuous monitoring helps identify issues in real-time and at an early stage, allowing for quick responses. This minimizes the impact of failures on the overall system.
@@ -41,6 +41,13 @@ The goal is to maintain continuous service availability, even in the face of une
 | Data Replication  | Critical data is often replicated across multiple locations or servers to ensure data integrity and availability. This can involve synchronous or asynchronous replication depending on the specific requirements of the system.|
 | Scalability       | High availability architectures are often designed to scale horizontally, allowing for the addition of more resources or nodes to accommodate increased demand.|
 
+## High Availability Vs Disaster Recovery 
+Distinguishing between high availability and disaster recovery is crucial. Disaster recovery (DR) involves a detailed strategy aimed for recovery of critical operations and systems after catastrophic events.
+
+In contrast, when you have a system that is both highly available and fault-tolerant, the question arises: *why invest effort in disaster recovery planning*.
+
+Disaster recovery typically focus on restoration of normal functionalities after a major disaster, whereas high availability addresses typical failures, such as a malfunctioning component or server. While both concepts are interconnected, a disaster recovery plan is designed to handle scenarios like the loss of an entire region.
+
 ***
 ## Contact Information
 
@@ -52,6 +59,6 @@ The goal is to maintain continuous service availability, even in the face of une
 
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
-| HA conepts           | https://medium.com/clarusway/disaster-recovery-guide-for-jenkins-2-6463e255964d    |
+| HA conepts           | https://avinetworks.com/glossary/high-availability/    |
 | aws documentation      | https://repost.aws/knowledge-center/datasync-transfer-efs-s3  |
 
