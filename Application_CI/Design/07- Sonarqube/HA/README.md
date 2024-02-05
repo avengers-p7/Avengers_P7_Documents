@@ -28,7 +28,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 [**Click Here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/DevOps%20Practices/High%20Availability/README.md), to know more about HA.
 ***
 > [!IMPORTANT]
-> If you want to run SonarQube as a Cluster, it is only possible with a [Data Center Edition](https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/).<br>
+> If you want to run SonarQube as a Cluster, it is only possible with a [Data Center Edition](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server-as-a-cluster/)<br>
 > Below, is an alternative approach with Sonarqube+AWS to provide HA.
 
 ## Diagram
