@@ -10,19 +10,19 @@
 
 # Tables of Content 
 
-1.  Introduction
-2.  Why is it Important to monitor Jenkins
-3.  Key performance Metrics of Jenkins
-4.  What is Prometheus
-5.  What is Grafana
-6.  Flowchart of Monitoring Metrics of Jenkins 
-7.  Features and components of Prometheus
-8.  Monitoring Websites using Grafana and Prometheus
-9.  Network Setup
-10.  POC for Grafana and Prometheus
-11.  Conclusion
-12. Contact Information 
-13. References
+1.  [Introduction](#introduction)
+2.  [Why is it Important to monitor Jenkins](#why-is-it-important-to-monitor-jenkins)
+3.  [Key performance Metrics of Jenkins](#key-performance-metrics-of-jenkins)
+4.  [What is Prometheus](#what-is-prometheus)
+5.  [What is Grafana](#what-is-grafana)
+6.  [Flowchart of Monitoring Metrics of Jenkins](#flowchart-of-monitoring-metrics-of-jenkins)
+7.  [Features and components of Prometheus](#features-and-components-of-prometheus)
+8.  [Monitoring Websites using Grafana and Prometheus](#monitoring-websites-using-grafana-and-prometheus)
+9.  [Network Setup](#network-setup)
+10. [POC for Grafana and Prometheus](#poc-for-grafana-and-prometheus)
+11. [Conclusion](#conclusion)
+12. [Contact Information](#contact-information) 
+13. [References](#references)
 
 
 ***
