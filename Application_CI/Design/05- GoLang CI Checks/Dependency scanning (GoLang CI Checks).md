@@ -83,6 +83,7 @@ By implementing robust dependency scanning practices, developers can enhance the
 ### Conclusion -
 
 - OWASP Dependency-Check is a software composition analysis tool that helps identify and report known vulnerabilities in project dependencies. It is a crucial component in ensuring the security of software applications by scanning dependencies for known security issues and vulnerabilities.
+  [POC Reference](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Dependency%20scanning%20POC%20(GoLang%20CI%20Checks).md)
 ***
 ## Contact Information
 
