@@ -5,6 +5,20 @@
 |Nidhi  | 02-02-2024 | v1      | 04-02-2024   |
 
 ***
+
+# Table of Content 
+
+1.  [Introduction](#introduction)
+2.  [What](#What-is-java-CI-Code-Compilation)
+3.  [Java Tools](#java-tools)
+4.  [Tool Comparison](#comparison)
+5.  [Best Practices](#best-practices)
+6.  [Proof of concepts (POC)](#proof-of-concepts-(POC))
+7.  [conclusion](#conclusion)
+8.  [Contact Information](#contact-information)
+9.  [References](#references)
+
+
 # Introduction
 
 This document provides a detailed analysis of bugs, focusing on the importance of unit testing in detecting and preventing software defects. The document includes an introduction to bugs, their impact, and the need for thorough analysis. It also covers various tools, techniques, and best practices for bug analysis, along with a proof of concept, advantages, recommendations, contact information, and references.
