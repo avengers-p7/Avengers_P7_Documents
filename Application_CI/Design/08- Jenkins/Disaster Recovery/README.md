@@ -69,6 +69,19 @@ MTTR Components:
 3. `Restoration Time`: Time taken to restore services to normal operation. AWS DataSync and S3 allow for efficient restoration from backups, contributing to a low MTTR.
 
 ***
+
+***
+## Advantages and Disadvantages of DR 
+### Advantage
+1. **Business Continuity:** DR ensures that essential business functions and critical data can be quickly restored, minimizing downtime and maintaining operational continuity.
+2. **Data Protection:** DR strategies safeguard against data loss by regularly backing up and replicating critical information, ensuring that it can be restored in the event of a disaster.
+3. **Minimized Downtime:** DR plans aim to reduce downtime, enabling organizations to resume operations swiftly after a disaster, thereby minimizing financial losses.
+
+### Disadvantage
+1. **Costs:** Implementing and maintaining a comprehensive DR plan incurs costs related to technology, infrastructure, and ongoing testing. Small businesses may find these costs challenging.
+2. **Complexity:** The design and implementation of a DR plan can be complex, requiring careful consideration of various factors such as data dependencies, interconnectivity, and recovery time objectives.
+3. **Resource Intensive:** Maintaining DR capabilities can be resource-intensive, demanding ongoing attention to ensure that the plan remains effective and aligns with evolving business needs.
+
 ## Contact Information
 
 |Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
