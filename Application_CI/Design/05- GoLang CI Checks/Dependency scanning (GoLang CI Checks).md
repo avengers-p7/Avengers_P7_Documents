@@ -82,9 +82,7 @@ By implementing robust dependency scanning practices, developers can enhance the
 
 ### Conclusion - Nancy:
 
-- **Nancy**: Offers a comprehensive dependency scanning solution tailored for Golang projects. Provides CLI and CI/CD integration options. Licensed under Apache 2.0.
-
-Consider the specific requirements, features, and integration options when selecting a dependency scanning tool for your Golang projects. Evaluate the licensing model and support options to ensure alignment with organizational needs and preferences.
+- OWASP Dependency-Check is a software composition analysis tool that helps identify and report known vulnerabilities in project dependencies. It is a crucial component in ensuring the security of software applications by scanning dependencies for known security issues and vulnerabilities.
 ***
 ## Contact Information
 
