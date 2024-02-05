@@ -4,26 +4,31 @@
 | Shantanu | 25-01-2024 | 25-01-2024   |         v1     |     Shantanu    |
 
 # Table of Content
-1. Flow Diagram
-2. API Table
+[1. Flow Diagram](#flow-diagram)
+
+[2. API Table](#api-table)
+
+[3. Contact Information](#contact-information)
 
 # Flow Diagram
+
 ### Frontend Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/8b17cd7b-d6a0-4b13-acc6-c0d4dd9c4ac7)
-
+***
 ### Employee Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/25e9893c-64a5-4a4f-8d4b-141a9670e87e)
-
+***
 ### Attendance Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/76ee419e-3e11-4b11-a5f7-46f89fc8127f)
-
+***
 ### Salary Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/2f3e4637-ed23-4a82-bd07-37ec5f15264a)
-
+***
 ### FullStack Architecture 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056364/6181c57e-72fe-426d-bcd2-e6114f5a2c4c)
-
+***
 # API Table
+
 ## Slary API Table
 
 ![image](https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API/assets/156056444/069bb13b-2def-4b1a-bd84-380b76e2f48a)
@@ -43,7 +48,7 @@
 ![image](https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API/assets/156056444/005f5057-f016-4da9-9f39-987a5f4d797b)
 ***
 
-***
+
 ##  Forntend setup
 
 ![image](https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API/assets/156056444/9b4923c6-dae1-4bc3-95f4-b37fbb4284d4)
@@ -54,3 +59,8 @@
 ***
 
 ### Note: Attendance API has got some code issue as it doesn't allow to add attendance
+***
+# Contact Information
+| Name | Email Address |
+| ---- | ------------- |
+| Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
