@@ -11,10 +11,12 @@
 1. [Introduction](#Introduction)
 2. [What is Disaster Recovery?](#What-is-Disaster-Recovery)
 3. [Why Disater Recovery?](#Why-Disater-Recovery)
-4. [Steps to Take a Full Backup of SonarQube Server](#Steps-to-Take-a-Full-Backup-of-SonarQube-Server)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+4. [Infra Diagram](#Infra-Diagram)
+5. [Steps to Take a Full Backup of SonarQube Server](#Steps-to-Take-a-Full-Backup-of-SonarQube-Server)
+6. [Steps to Restore Sonarqube](#Steps-to-Restore-Sonarqube)
+7. [Conclusion](#Conclusion)
+8. [Contact Information](#Contact-Information)
+9. [References](#References)
 ***
 
 ## Introduction 
@@ -103,8 +105,9 @@ zip -r Sonar_home.zip $SONAR_HOME
 sudo systemctl start sonarqube.service
 ```
 ### Step 5 – Keep the Sonar_home.zip and sonar_db_backup.tar to the safe location.
+***
 
-## Restore Sonarqube
+## Steps to Restore Sonarqube
 
 ### Step 1 - Install Sonarqube
 Download and unzip the SonarQube distribution of your edition in a fresh directory, let's say <NEW_SONARQUBE_HOME>
