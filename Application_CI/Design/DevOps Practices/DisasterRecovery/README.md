@@ -59,8 +59,8 @@ An effective DR plan addresses three different elements for recovery:
 ## Planning a disaster recovery strategy
 When it comes to creating disaster recovery strategies, you should carefully consider the following key metrics: 
 
-**Recovery time objective (RTO):** The maximum acceptable length of time that systems and applications can be down without causing significant damage to the business. For example, some applications can be offline for an hour, while others might need to recover in minutes.
-**Recovery point objective (RPO):** The maximum age of data you need to recover to resume operations after a major event. RPO helps to define the frequency of backups. 
+**1. Recovery time objective (RTO):** The maximum acceptable length of time that systems and applications can be down without causing significant damage to the business. For example, some applications can be offline for an hour, while others might need to recover in minutes.
+**2. Recovery point objective (RPO):** The maximum age of data you need to recover to resume operations after a major event. RPO helps to define the frequency of backups. 
 
 When creating your recovery strategy, it’s useful to consider your RTO and RPO values and pick a DR pattern that will enable you to meet those values and your overall goals. Typically, the smaller your values (or the faster your applications need to recover after an interruption), the higher the cost to run your application. 
 ***
