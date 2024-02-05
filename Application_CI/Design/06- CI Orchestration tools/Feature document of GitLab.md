@@ -40,20 +40,16 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
 ## Feature of GitLab
 | Feature	| Description |
 |---------|-------------|
-|**Version Control** |	Provides a robust Git repository management system for version control of source code. |
-| **Integrated CI/CD**	| Built-in continuous integration and continuous delivery pipelines for automated testing and deployment.|
-| **Container Registry**	| Offers an integrated container registry for managing and storing Docker images. |
-| **Issue Tracking and Project Management**	| Comprehensive tools for issue tracking, project management, and collaboration within the platform.|
-| **Security Features**	| Includes security features such as container scanning, dependency scanning, and code quality analysis.|
-| **Code Review**|	Facilitates efficient code reviews with features like merge requests, inline commenting, and version comparison.|
-| **Branching Strategies** |	Supports various branching strategies, enabling teams to manage code versions effectively.|
-| **Wiki and Documentation**| Allows the creation of project wikis and documentation to maintain and share project knowledge.|
-| **Flexible Deployment Options** |	Can be used as a cloud-based service or self-hosted, providing flexibility in deployment.|
-| **Access Control**	| Granular access controls and permissions to manage user roles and restrict access to sensitive information.|
-| **Scalability**	| Designed to scale with projects of different sizes and complexities.|
-| **Community and Enterprise Editions**| Offers both a free and open-source Community Edition and a feature-rich Enterprise Edition for advanced needs.|
-|**Webhooks and Integrations** |	Supports webhooks and a wide range of integrations with third-party tools and services.|
-| **Performance Monitoring**	| Provides tools for performance monitoring and insights into the health of CI/CD pipelines.|
+| Version Control	| GitLab provides a robust Git repository management system, allowing teams to effectively manage and version control their source code.|
+| Integrated CI/CD	| GitLab comes with built-in continuous integration and continuous delivery (CI/CD) pipelines, automating the testing and deployment processes.|
+| Container Registry	| An integrated container registry within GitLab allows for the efficient management and storage of Docker images, streamlining container-based development.|
+| Issue Tracking and Project Management	| GitLab offers comprehensive tools for issue tracking, project management, and collaboration, providing a centralized platform for managing tasks and projects.|
+| Security Features	| GitLab includes security features like container scanning, dependency scanning, and code quality analysis to ensure the security and reliability of the codebase.|
+| Code Review	| Efficient code reviews are facilitated through features such as merge requests, inline commenting, and version comparison, promoting collaboration and code quality.|
+| Branching Strategies	| GitLab supports various branching strategies, enabling teams to manage code versions effectively, especially in larger and more complex projects.|
+| Wiki and Documentation	| Teams can create project wikis and documentation within GitLab, providing a centralized space to maintain and share knowledge related to the project.|
+| Flexible Deployment Options	| GitLab can be deployed as a cloud-based service or self-hosted, offering flexibility to organizations in choosing the deployment option that suits their needs.|
+| Access Control	| GitLab provides granular access controls and permissions, allowing organizations to manage user roles and restrict access to sensitive information, ensuring data security.|
 
 ***
 
@@ -109,6 +105,9 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
 ***
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/7a475b6f-a393-4c42-8a64-7def2a1d7e9c)
+
+
+***
 
  
 ## Conclusion
