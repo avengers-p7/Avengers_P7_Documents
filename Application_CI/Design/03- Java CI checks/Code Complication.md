@@ -7,15 +7,15 @@ Documentation of Code Compliation.md
 ***
 # Table of Content
 
-1. Introduction
-2. What
-3. Different Tools of java compilation
-4. Comparison
-5. Best Practices
-6. Proof of concepts (POC)
-7. conclusion
-8. Contact Information
-9. References
+1.  Introduction
+2.  What
+3.  Different Tools of java compilation
+4.  Comparison
+5.  Best Practices
+6.  Proof of concepts (POC)
+7.  conclusion
+8.  Contact Information
+9.  References
 
 ***
 
