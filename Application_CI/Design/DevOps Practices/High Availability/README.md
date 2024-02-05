@@ -20,3 +20,18 @@ High Availability is a strategic approach aimed at minimizing downtime and guara
 | Fault Tolerance   | HA systems are designed to gracefully handle faults and errors without causing a complete system failure. This often involves implementing error-checking mechanisms and recovery procedures.|
 | Data Replication  | Critical data is often replicated across multiple locations or servers to ensure data integrity and availability. This can involve synchronous or asynchronous replication depending on the specific requirements of the system.|
 | Scalability       | High availability architectures are often designed to scale horizontally, allowing for the addition of more resources or nodes to accommodate increased demand.|
+
+***
+## Contact Information
+
+|Vidhi Yadav                     | vidhi.yadhav.snaatak@mygurukulam.co                                                                                      
+|---------------------------------|------------------------------------------------------------|
+
+***
+## References
+
+| Title                                      | URL                                           |
+|--------------------------------------------|-----------------------------------------------|
+| HA conepts           | https://medium.com/clarusway/disaster-recovery-guide-for-jenkins-2-6463e255964d    |
+| aws documentation      | https://repost.aws/knowledge-center/datasync-transfer-efs-s3  |
+
