@@ -23,7 +23,9 @@ High availability (HA) is the elimination of single points of failure to enable 
 High availability clusters are groups of servers that support business-critical applications. Applications are run on a primary server and in the event of a failure, application operation is moved to secondary server(s) where they continue to operate.
 ***
 ## Why 
-To reduce interruptions and downtime, it is essential to be ready for unexpected events that can bring down servers. At times, emergencies will bring down even the most robust, reliable software and systems. Highly available systems minimize the impact of these events, and can often recover automatically from component or even server failures. [Click Here](https://avinetworks.com/glossary/high-availability/), to know more about HA.
+To reduce interruptions and downtime, it is essential to be ready for unexpected events that can bring down servers. At times, emergencies will bring down even the most robust, reliable software and systems. Highly available systems minimize the impact of these events, and can often recover automatically from component or even server failures. 
+
+[**Click Here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/DevOps%20Practices/High%20Availability/README.md), to know more about HA.
 ***
 > [!IMPORTANT]
 > If you want to run SonarQube as a Cluster, it is only possible with a [Data Center Edition](https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/).<br>
