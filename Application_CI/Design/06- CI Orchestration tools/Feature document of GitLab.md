@@ -16,6 +16,7 @@
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [GItLab Integration with other Tool](#GItLabIntegrationwithotherTool)
++ [ Creating the GitLab Repository](#CreatingtheGitLabRepository)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact_Information)
 + [References](#References)
@@ -92,8 +93,24 @@ GitLab offers an all-in-one solution for version control, collaboration, and Con
 | **IDEs (Integrated Development Environments)**	| Visual Studio Code, Eclipse |
 
 ***
-    
+## Creating the GitLab Repository
+   
+ ![image](https://github.com/avengers-p7/Documentation/assets/156056746/a4398b29-c937-41f7-b915-5d52be6c78c0)
 
+ ***
+ 1: **Give it a proper Project name.**
+  
+ 2: **Optionally add a Project description.**
+  
+ 3: **Make sure to set the Visibility Level to Private or Public depending on your requirements.**
+  
+ 4: **Finally click Create project**
+
+***
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/7a475b6f-a393-4c42-8a64-7def2a1d7e9c)
+
+ 
 ## Conclusion
 GitLab stands as a powerful platform offering a comprehensive set of features to support the entire software development lifecycle. Its integrated approach to version control, collaboration, and CI/CD provides numerous benefits. However, potential challenges such as a learning curve and resource intensity should be considered based on the specific needs of the development team. GitLab's flexibility and extensive feature set make it a compelling choice for modern software development practices.
 
