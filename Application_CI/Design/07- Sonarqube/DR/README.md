@@ -32,7 +32,7 @@ Disaster recovery is essential for organizations to ensure `business continuity,
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/67e8720b-e9e6-43c2-aa13-193300927e5a)
 ***
 ## Infra Diagram
-<img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA+DR-Sonarqube.drawio (1).svg">
+<img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA+DR-Sonarqube.drawio (2).svg">
 
 | Component  | Details 
 | ---------- | -----------------------------
