@@ -9,7 +9,7 @@
 
 1.  Introduction
 2.  What
-3.  Different Tools of java compilation
+3.  Different Tools of java
 4.  Comparison
 5.  Best Practices
 6.  Proof of concepts (POC)
@@ -29,7 +29,7 @@ Java CI code compilation in the context of checking in code. Continuous Integrat
 
 ***
 
-# What is java ci code compilation
+# What is java CI Code Compilation
 
 ***Java CI (Continuous Integration)**:
 
