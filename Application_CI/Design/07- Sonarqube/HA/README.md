@@ -76,5 +76,6 @@ The configuration for the above comprises 2 Sonarqube servers, a application loa
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
+| HA  reference doc | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/DevOps%20Practices/High%20Availability/README.md |
 | What is HA?                                   | https://avinetworks.com/glossary/high-availability/ |
 | High Availability and Scalability - ELB & ASG | https://zhenye-na.github.io/aws-certs-cheatsheet/posts/ha-elb-asg/#:~:text=Auto%20Scaling%20Group%20(ASG),instances%20to%20a%20load%20balancer |
