@@ -106,25 +106,38 @@ sudo systemctl start sonarqube.service
 
 ## Restore Sonarqube
 
+### Step 1 - Install Sonarqube
+Download and unzip the SonarQube distribution of your edition in a fresh directory, let's say <NEW_SONARQUBE_HOME>
+[Installation Guide](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/introduction/)
 
-### Step 1 - Install Sonarqube 
+### Step 2 Plugins
+If you was using third-party plugins, Manually install plugins that are compatible with your version of SonarQube. Use the plugin version matrix to ensure that the versions you install are compatible with your server version. Simply copying plugins from the old server to the new is not recommended; incompatible or duplicate plugins could cause startup errors. Analysis of all languages provided by your edition is available by default without plugins.
 
-### Step 2 – Stop the Sonarqube server
+### Step 3
+Update the contents of sonar.properties file (in <NEW_SONARQUBE_HOME>/conf) with the settings in the <OLD_SONARQUBE_HOME>/conf directory (web server URL, database, ldap settings, etc.). Do not copy-paste the old files. If you are using the Oracle DB, copy its JDBC driver into <NEW_SONARQUBE_HOME>/extensions/jdbc-driver/oracle
+### Step 4 
+Browse to http://yourSonarQubeServerURL/setup and follow the setup instructions
+
+### Step 5 – Stop the Sonarqube server
 ```shell
 sudo systemctl start sonarqube.service
 ```
-### Step 3 - Restore DB
+### Step 6 - Restore DB
 ```shell
 su - postgress
 pg_restore -U postgress --dbname=sonarqube --verbose sonar_db_backup.tar
 ```
-### Step 4 - Now, go to the sonarqube installation dir  `/opt/sonarqube/data` delete  the elastic indexes`es6` directory. 
+### Step 7
+Now, go to the sonarqube installation dir  `/opt/sonarqube/data` delete  the elastic indexes`es6` directory. 
 
 
-### Step 5 – Re-start the Sonarqube server
+### Step 8 – Re-start the Sonarqube server
 ```shell
 sudo systemctl start sonarqube.service
 ```
+### Step 9
+Reanalyze your projects to get fresh data. 
+
 I recommend making a copy of both the configuration files located in $SONARQUBE_HOME/conf and the list of plugins found in $SONARQUBE_HOME/extensions/plugins.
 
 Backing up the elastic search data is unnecessary since sonarqube generates all the required information during startup. However, keep in mind that the initial startup time may vary depending on the volume of stored data.
@@ -145,6 +158,7 @@ This comprehensive approach safeguards valuable data, complies with regulations,
 | Description                   | References  
 | ----------------------------- | ------------------------------------------------------------------- |
 | Backup and Restore            | https://docs.sonarsource.com/sonarqube/latest/instance-administration/backup-and-restore/|
+| Upgrade Guide                 | https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/upgrade-the-server/upgrade-guide/ |
 | Take full backup of Sonarqube | https://www.scmgalaxy.com/tutorials/sonarqube-upgrade-backup-and-restore-process/|
 | DB Copy Tool                  | https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/ |
 | S3                            | https://www.whizlabs.com/labs/access-s3-from-private-ec2-instance-using-vpc-endpoint |
