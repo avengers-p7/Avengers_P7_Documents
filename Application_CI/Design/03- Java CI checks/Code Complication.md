@@ -149,19 +149,13 @@ here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkin
    
    ![image](https://github.com/avengers-p7/Documentation/assets/156644891/a944e7a8-27a8-49bb-a0be-6d9f44b015e0)
 
-**MyApp.java**
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/d56e8f1c-6ac4-45a0-89ed-064727f68673)
+**SalaryApplication.java**
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/d55179d2-e365-4789-b0e3-0a49db1acccf)
 
+***
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/15f2faad-fc1e-450d-9cf7-63f5fe4f249a)
-
-
-**MyAppTest.java**
-
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/8cddd856-c015-4e6f-8ad8-6a7bb1e73581)
 
 
 **pom.xml**
