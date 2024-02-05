@@ -60,3 +60,4 @@ Please refer [*Disaster Recovery in SonarQube*](https://github.com/avengers-p7/D
 |  Source                                                                                 |        Description                 |
 | ------------                                                                            | -----------------------            |
 | SonarQube Docs                                                                          | https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/overview/       |  
+| HA | https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/configure-and-operate-a-cluster/ |
