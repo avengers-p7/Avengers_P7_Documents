@@ -1,6 +1,5 @@
 # Dynamic Application Security Testing (DAST)
 
-<img width="360" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/56e9dd64-9654-449c-be6d-4212de6aca71">
 
 
 | Author                 | Created On | Last Updated | Document Version | Last Updated By |
