@@ -18,7 +18,7 @@
 
 ***
 ## Introduction
-This document shows an overview of our AWS Infra for [SonarQube](). This document presents a detailed AWS infrastructure diagram outlining the setup of SonarQube within the AWS ecosystem. 
+This document shows an overview of our AWS Infra for [SonarQube](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md). This document presents a detailed AWS infrastructure diagram outlining the setup of SonarQube within the AWS ecosystem. 
 
 ***
 ## Description
