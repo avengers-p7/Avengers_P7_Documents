@@ -7,15 +7,15 @@
 ***
 # Table of Content
 
-1.  Introduction
-2.  What
-3.  Different Tools of java
-4.  Comparison
-5.  Best Practices
-6.  Proof of concepts (POC)
-7.  conclusion
-8.  Contact Information
-9.  References
+1.  [Introduction](#introduction)
+2.  [What](#What-is-java-CI-Code-Compilation)
+3.  [Java Tools](#java-tools)
+4.  [Tool Comparison](#comparison)
+5.  [Best Practices](#best-practices)
+6.  [Proof of concepts (POC)](#proof-of-concepts)
+7.  [conclusion](#conclusion)
+8.  [Contact Information](#contact-information)
+9.  [References](#references)
 
 ***
 
@@ -41,7 +41,7 @@ Code compilation is the process of converting human-readable source code into ma
 
 ***
 
-# Different Tools of java compilation
+# Different Tools for java compilation
 
 In the Java ecosystem, there are several tools commonly used for compiling Java code. Here are some of the prominent ones
 
