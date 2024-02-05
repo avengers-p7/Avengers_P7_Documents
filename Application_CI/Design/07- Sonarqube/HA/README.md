@@ -43,17 +43,17 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 | **Management VPC** |	CIDR block 10.0.0.0/22
 | **Availability Zones** (us-east-1a, us-east-1b) |	Includes public and private subnets, NAT Gateway, SonarQube Server, and Postgres Cluster
 | **IGW** |	Internet Gateway 
-| **Public Subnets** (10.0.0.0/26, 10.0.0.1/26)	| Security Group: Open, VPN, and SonarQube Security Group 000
+| **Public Subnets** (10.0.0.0/26, 10.0.0.1/26)	|  OpenVPN, with Security Group, NACL and NAT Gateways 
 | **Public-RT** |	Routing table for the public subnet
-| **Private Subnet** (10.0.0.3/26, 10.0.0.4/26, 10.0.0.5/26, 10.0.0.6/26) |	SonarQube Server and Postgres Cluster
+| **Private Subnet** (10.0.0.2/26, 10.0.0.3/26, 10.0.0.4/26, 10.0.0.5/26 ) |	SonarQube Server and Postgres Cluster
 | **Private-RT** |	Routing table for the private subnet
 | **NAT Gateways** (NAT GW-01, NAT GW-02) |	Located in the public subnets
 | **NACL** |	Network Access Control List, for subnet level security
 | **ALB** |	Application Load Balancer to distribute the load b/w application servers
 | **ASG** | Auto Scaling Group for application server |
 |**Security Group** (SonarQube SG, Postgress SG)| To provide security on instance level
-| **SonarQube Servers** |	Sonarqube sevrers in Private subnets(10.0.0.2/26, 10.0.0.3/26) SonarQube Security Group 000
-| **Postgres Cluster** |	Private subnet 10.0.0.4/26, NACL Hop, NACL Hol, and NACL Users |
+| **SonarQube Servers** |	Sonarqube sevrers in Private subnets(10.0.0.2/26, 10.0.0.3/26) 
+| **Postgres Cluster** |	Private subnets (10.0.0.4/26, 10.0.0.5/26) |
 > [!Note]
 > CIDR blocks, security groups, NACLs, and subnets are labeled with shorthand notations for simplicity.
 
