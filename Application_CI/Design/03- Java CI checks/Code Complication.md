@@ -148,14 +148,9 @@ here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkin
 git  clone https://github.com/opstree/spring3hibernate/tree/master
 ```
 
-1. Create a basic Maven project with a simple Java class and a unit test. Here's a simple structure
-   
-   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/a944e7a8-27a8-49bb-a0be-6d9f44b015e0)
-
 **pom.xml**
 
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/8ca998cd-f7c6-4b8d-9b4e-683899b01519)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/9de05880-ce7d-4ab8-a1b8-974adbacfdee)
 
 
 # Step 3: Run mvn compile
