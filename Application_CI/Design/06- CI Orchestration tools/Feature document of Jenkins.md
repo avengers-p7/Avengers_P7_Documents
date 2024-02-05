@@ -13,6 +13,7 @@
 + [Companies that Use Jenkins](#CompaniesthatUseJenkins)
 + [Features of Jenkins](#FeaturesofJenkins)
 + [Jenkins Architecture](#JenkinsArchitecture)
++ [Jenkins Alternative](#JenkinsAlternative)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Conclusion](#Conclusion)
@@ -124,12 +125,15 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
    ![image](https://github.com/avengers-p7/Documentation/assets/156056746/ca5b6fc0-71e2-492e-a1ce-1ba25fa06b62)
 
 
-
-
-
-
-
 ***
+## jenkins Alternative
+   | CI/CD Tool |	Key Features |
+   |------------|--------------|
+   | GitLab CI/CD	| Integrated with GitLab version control. <br> - Auto DevOps feature for automatic CI/CD setup. <br> - Supports Docker and Kubernetes. <br> - Easy-to-use YAML configuration for pipelines.|
+   | Travis CI	| Cloud-based CI/CD service. <br> - Integrates with GitHub repositories. <br> - Supports various programming languages. <br> - Configurable build matrix for testing against multiple environments.|
+   | CircleCI	| Cloud-based CI/CD platform. <br> - Integrates with GitHub and Bitbucket. <br> - Docker support for building and running containers. <br> - Provides reusable and shareable configuration orbs.|
+   | TeamCity	| Developed by JetBrains. <br> - Supports a wide range of build tools. <br> - Seamless integration with JetBrains IDEs. <br> - User-friendly web interface. |
+   |
 
 
 ## Advantages
@@ -140,7 +144,7 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
 | **Community Support**| Jenkins benefits from a large and active community, providing a wealth of resources, tutorials, and assistance to users.|
 | **Cross-Platform Compatibility** | Jenkins is platform-independent, allowing it to run on different operating systems, providing flexibility in deployment environments.|
 | **Continuous Integration and Deployment**| Jenkins excels in automating CI/CD processes, ensuring rapid and reliable software delivery through continuous integration and deployment.|
-
+| Bamboo	| Developed by Atlassian (same as Jira and Bitbucket). <br> - Integrates well with other Atlassian products. <br> - Supports build and deployment automation. <br> - Visually intuitive interface for configuring build plans.|
 
 ***
 
