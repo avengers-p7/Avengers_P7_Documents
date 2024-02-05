@@ -62,7 +62,7 @@ For a more detailed understanding of Disaster recovery and its components, pleas
 MTTR is the average time it takes to recover from a failure, incident, or data loss. It is a key metric in assessing the efficiency of your recovery processes.
 
 MTTR Components: 
-1. `Detection Time`: Time taken to identify the failure or data loss. With monitoring tools, you can quickly detect issues affecting Jenkins data. For early detection of issues affecting Jenkins data, employ a comprehensive monitoring strategy utilizing diverse solutions such as CloudWatch Alarms, CloudWatch Logs, and other monitoring tools.
+1. `Detection Time`: Time taken to identify the failure or data loss. With monitoring tools, you can quickly detect issues affecting Jenkins data. For early detection of issues affecting Jenkins data, employ a comprehensive monitoring strategy utilizing diverse solutions such as CloudWatch Alarms, CloudWatch Logs, or other monitoring tools.
 
 2. `Resolution Time`: Time taken to resolve the issue. In this architecture, the resolution involves restoring from the latest backup in S3, minimizing the time needed to recover.
 
