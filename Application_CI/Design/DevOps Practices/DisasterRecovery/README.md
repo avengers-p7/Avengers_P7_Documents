@@ -1,5 +1,5 @@
 # Disaster Recovery in Sonarqube
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/c0cf39b5-29d9-4af2-9752-c40fe09c8c5f)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/3fda8a89-c908-4dd2-8574-0846331fdbfc)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
@@ -28,20 +28,15 @@ Disaster recovery (DR) is an organization's ability to respond to and recover fr
 Disaster recovery is essential for organizations to ensure `business continuity, protect valuable data from loss or corruption, mitigate risks, comply with regulations, maintain customer trust and reputation, avoid financial losses, gain a competitive edge, sustain employee productivity, and stabilize supply chains`. It is a crucial strategy to swiftly recover from unexpected events or disasters and minimize the impact on operations. 
 
 To know more about disaster recovery and  disaster recovery plan, [**DR Reference Doc**](https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery).
-## Disaster Recovery Tiers
-| Tier| Name | Description |
-|------| -------------- | -------------|
-| Tier0 | Business Continuity (BC) | The highest tier of DR, focusing on minimizing downtime and ensuring business operations can continue without interruption.
-| Tier1 | Business Resumption (BR) | Focuses on restoring business operations as quickly as possible after a disaster.
-| Tier2 | Business Restoration (BK) | Aims to restore business operations to their pre-disaster state.
-| Tier3 | Business Recovery (BKR) | Focuses on recovering lost data and restoring systems to their pre-disaster state.
-| Tier4 | Business Survivability (BS) | Ensures that critical business functions can continue to operate even during a disaster.
-| Tier5 | Business Contingency (BCR) | Focuses on maintaining business continuity during a disaster.
-| Tier6 | Business Continuity Management (BCM) | Involves managing the risks and uncertainties associated with disasters.
-| Tier7 | Business Continuity Planning (BCP) | Involves creating a plan to ensure business continuity during a disaster.
+## How disaster recovery works
+Disaster recovery relies on having a solid plan to get critical applications and infrastructure up and running after an outage—ideally within minutes.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/137bf1fd-ca6b-4093-964a-de4311359cf0)
-
+An effective DR plan addresses three different elements for recovery: 
+| Element | Description |
+| ------- | --------------- |
+| Preventive | Ensuring your systems are as secure and reliable as possible, using tools and techniques to prevent a disaster from occurring in the first place. This may include backing up critical data or continuously monitoring environments for configuration errors and compliance violations. 
+| Detective | For rapid recovery, you’ll need to know when a response is necessary. These measures focus on detecting or discovering unwanted events as they happen in real time. 
+| Corrective | These measures are aimed at planning for potential DR scenarios, ensuring backup operations to reduce impact, and putting recovery procedures into action to restore data and systems quickly when the time comes. 
 
 ## Types of Disaster Recovery
 
