@@ -108,9 +108,21 @@ Jenkins serves as a pivotal tool for automated and efficient software developmen
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/18d15547-c0e9-4a95-992a-090f6f673062)
 
 
+***
+
+## Jenkins Dashboard
+   ![image](https://github.com/avengers-p7/Documentation/assets/156056746/b87ffec5-a57d-4f44-959c-486a216dcd8d)
 
 
 ***
+
+
+## Jenkins Plugins
+   
+   ![image](https://github.com/avengers-p7/Documentation/assets/156056746/ca5b6fc0-71e2-492e-a1ce-1ba25fa06b62)
+
+
+
 
 **Note** The Master-Slave architecture in Jenkins works by distributing the workload across multiple machines, where the central Jenkins Master server manages and coordinates the build and deployment tasks, and one or more Jenkins Slave nodes carry out the actual execution of jobs.
 
