@@ -1,114 +1,165 @@
 # Dynamic Application Security Testing (DAST)
-| Author | Created On | Last Updated | Document Version | Last Updated By |
-| ------ | ---------- | ------------ | ---------------- | --------------- |
-| Shantanu | 29-01-2024 | 26-01-2024   |         v1     |     Shantanu    |
+
+<img width="360" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/56e9dd64-9654-449c-be6d-4212de6aca71">
+
+
+| Author                 | Created On | Last Updated | Document Version | Last Updated By |
+| ---------------------- | ---------- | ------------ | ---------------- | --------------- |
+| **Samir Kesare** | 30-01-2024 | 31-01-2024   | v1               |  **Samir**        |
 ***
+## Table of Contents
 
-# Table of Content
-[1. Introduction](#introduction)
-
-[2. What is DAST?](#what-is-dast)
-
-[3. Why DAST?](#why-dast)
-
-[4. Tool Comaparison](#tool-comparison)
-
-[5. Advantages of DAST](#Advantages-of-dast)
-
-[6. Best Practices](#best-practices)
-
-[7. Conclusion](#conclusion)
-
-[8. Contact Information](#contact-information)
-
-[9. References](#refrences)
++ [Introduction](#Introduction)
++ [What is dynamic application security testing?](#What-is-dynamic-application-security-testing?)
++ [How Does DAST Work](#How-Does-DAST-Work)
++ [Advantages and disadvantages of DAST](#Advantages-and-disadvantages-of-DAST)
++ [Types of Dynamic Application Security Testing](#Types-of-Dynamic-Application-Security-Testing)
++ [How to Use DAST](#How-to-Use-DAST)
++ [SAST VS DAST](#SAST-VS-DAST)
++ [Tools for Golang DAST](#Tools-for-Golang-DAST)
++ [Contact Information](#Contact-Information)
++ [References](#References)
 ***
-
-# Introduction
-
-Dynamic Application Security Testing (DAST) is a crucial component in ensuring the security of  applications/APIs. In the Python ecosystem, DAST plays a vital role in identifying and mitigating security vulnerabilities in web applications. This documentation aims to provide a comprehensive overview of Python DAST, including its definition, purpose, available tools, their comparison, advantages, best practices, and a recommendation for a tool with justifications.
+## Introduction
+Dynamic Application Security Testing (DAST) is the process of analyzing a web application through the front-end to find vulnerabilities through simulated attacks. This type of approach evaluates the application from the “outside in” by attacking an application like a malicious user would. After a DAST scanner performs these attacks, it looks for results that are not part of the expected result set and identifies security vulnerabilities.
 ***
+## What is dynamic application security testing?
+- **Dynamic Application Security Testing (DAST) Overview:**
+  - Refers to security testing conducted on a running application, not static code.
+  - Aims to identify and list security vulnerabilities and misconfigurations.
+  - The term "DAST" can apply to both the testing methodology and tools utilizing this approach.
 
-# What is DAST?
+- **Characteristics of DAST:**
+  - Typically used for web applications, though in theory applicable to legacy desktop apps.
+  - Recent advancements have made DAST tools available for mobile applications.
+  - DAST solutions are designed to integrate into automation processes.
 
-Dynamic Application Security Testing (DAST) is a security testing methodology that focuses on identifying vulnerabilities in running web applications. Unlike Static Application Security Testing (SAST), which analyzes the source code, DAST interacts with the application in real-time to discover security weaknesses. In Python, DAST involves the use of specialized tools to test web applications for common security issues, such as SQL injection, cross-site scripting (XSS), and security misconfigurations.
+- **Application Types and Tools:**
+  - DAST primarily targets web applications due to their accessibility.
+  - Limited availability for legacy desktop applications due to diverse UIs.
+  - Emerging support for mobile applications in DAST tools.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056364/7fb52815-1b4d-47de-a493-7e7666e18124)
+- **Automation and Methodology:**
+  - DAST tools are designed to operate as part of automated processes.
+  - Manual DAST testing is often considered part of penetration testing.
+  - Other terms for DAST include black-box testing, vulnerability scanning, and outside-in testing.
+
+  ***
+  ## How Does DAST Work?
+  - Dynamic application security testing tools simulate the actions of a black-hat hacker in a safe environment.
+  - DAST scanners first map out the application at runtime using a web crawler.
+    - This includes identifying all application pages, following links, and discovering functions (for single-page web apps).
+    - In API testing, DAST follows an API definition document to identify available entry points.
+  - After mapping the application, the vulnerability scanner accesses each input location found (e.g., form fields, API parameters) and performs security checks.
+    - Security checks involve sending data to the application and analyzing responses for vulnerabilities.
+    - Test data mimics malicious content sent by a black-hat hacker.
+  - When the DAST scan identifies a response suggesting or proving a vulnerability, it records the location and response for user presentation.
+    - This allows manual reenactment of testing scenarios if necessary.
+  - DAST solutions focus on identifying security issues like SQL injection or cross-site scripting (XSS) vulnerabilities.
+    - They do not perform remediation; fixing identified risks is the responsibility of development teams.
 ***
+## Advantages and disadvantages of DAST
 
-# Why DAST?
+| **Advantages of Dynamic Application Security Testing (DAST)** | **Disadvantages of Dynamic Application Security Testing (DAST)** |
+|-------------------------------------------------------------|-------------------------------------------------------------------|
+| - Can be conducted at various stages of the software development lifecycle. | - Limited to testing parts of the application that are already runnable. |
+| - Does not require modification of deployed applications, beneficial for legacy systems. | - Difficulty accessing sections of the application not yet deployed. |
+| - Language-independent; can test applications with web user interfaces. | - Challenges with non-standard authentication and authorization mechanisms. |
+| - Capable of testing application APIs. | - Difficulty in following complex business logic without careful tuning. |
+| - Typically has lower false positive and false negative rates compared to SAST tools. | - Testing may interfere with normal application operation if not carefully tuned. |
+| - Simulates user actions, enhancing accuracy in identifying vulnerabilities. | - Preferable to run DAST tools in non-live environments to avoid disruptions. |
 
-It is a security testing approach focused on identifying vulnerabilities in running Python web applications. Unlike static analysis, DAST interacts with the live application, simulating real-world attacks to uncover issues like SQL injection and cross-site scripting. Tools like OWASP ZAP and Nikto are commonly used for Python DAST, offering real-time insights into runtime vulnerabilities, complementing other testing methods, and enhancing overall web application security.
-
-| Reason                                      | Description                                                                                                                   |
-|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **Real-Time Testing**                           | DAST assesses the security of web applications while they are running, providing a real-world perspective on potential vulnerabilities. |
-| **Identifying Runtime Issues**                   | DAST helps identify vulnerabilities that may only manifest during runtime, such as issues related to user input and dynamic content generation. |
-| **Comprehensive Security Assessment**           | It complements other security testing methodologies, ensuring a comprehensive assessment of the application's security posture.    |
 ***
+## Types of Dynamic Application Security Testing
 
-# Tool Comparison
+While there are no formal subtypes of DAST, security experts informally classify DAST tools into two groups: modern DAST and legacy DAST. Here are the main characteristics used to distinguish between them:
 
-| Parameter                    | OWASP ZAP                             | Nikto                                  | Bandit                                 |
-|------------------------------|---------------------------------------|----------------------------------------|----------------------------------------|
-| **Community Support**         | Active community support.              | Community support available.           | Growing community support.             |
-| **Learning Curve**            | Moderate to steep for beginners.       | Quick and easy to use.                 | Relatively easy for Python developers.|
-| **Automation Capabilities**   | Robust automation features.            | Limited automation capabilities.       | Integrates well with CI/CD pipelines.  |
-| **Scanning Options**          | Extensive scanning capabilities.       | Limited compared to ZAP.               | Focused on Python-specific issues.    |
-| **Reporting Capabilities**    | Rich reporting features.               | Limited reporting compared to ZAP.    | Basic reporting for Python issues.    |
-| **Platform Compatibility**    | Cross-platform support.                | Supports multiple platforms.           | Platform-independent (Python).        |
-| **Integration with CI/CD**    | Supports CI/CD pipelines.             | Limited integration capabilities.      | Seamless integration with CI/CD.      |
-| **Language Specificity**      | Versatile (not Python-specific).      | Versatile (not Python-specific).       | Python-specific vulnerabilities.     |
-| **Ease of Use**               | May have a steeper learning curve.    | Quick and easy to use.                 | User-friendly for Python developers. |
-| **Updates and Maintenance**   | Regularly updated by the community.    | Periodic updates, may depend on forks. | Active development and updates.        |
+=== Automation and Integration ===
+- **Legacy DAST:**
+  - Designed for ad-hoc manual scanning.
+  - Limited automation beyond scanning; results are manually reviewed.
+- **Modern DAST:**
+  - Integrated into the Software Development Lifecycle (SDLC) with tools like Jenkins.
+  - Scan results are automated and integrated into developers' issue trackers.
+
+=== Vulnerability Confirmation/Validation ===
+- **Legacy DAST:**
+  - Performs basic testing, lacking confirmation methods beyond response analysis.
+- **Modern DAST:**
+  - Conducts checks to confirm vulnerabilities with high certainty.
+  - Provides proof of exploitation, reducing the need for manual confirmation.
+
+Most DAST tools are commercial products, although open-source alternatives exist. Open-source solutions like OWASP Zed Attack Proxy (ZAP) are often categorized as legacy DAST due to limited functionality. Many open-source projects are manual penetration testing tools rather than application security scanners.
+
+Some modern DAST tools meeting the criteria outlined above include Invicti and Acunetix by Invicti. These solutions offer full automation, integration, and vulnerability confirmation.
 ***
+## How to Use DAST 
 
-# Advantages of Python DAST
+The traditional approach to using DAST involved manual scanning of web assets on an ad-hoc basis or conducting vulnerability scans in the final stages of application development, such as on staging servers or production clones. However, this is no longer the recommended method. Modern DAST solutions offer interfaces that facilitate usage at various stages of application development:
 
-| Aspect                               | Description                                                                                                           | Advantage                                                                                                               |
-|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| **Versatility and Flexibility**      | Python is a versatile programming language that can be easily adapted for various purposes, including security testing. | The flexibility of Python allows security professionals to customize and extend DAST tools according to specific project requirements. |
-| **Rich Ecosystem**                   | Python has a vast ecosystem of libraries and frameworks that can be leveraged for security testing purposes.            | Developers can access and integrate a wide range of tools and modules, enhancing the capabilities of Python DAST solutions. |
-| **Ease of Learning**                  | Python is known for its simplicity and readability, making it accessible for both beginners and experienced developers. | The ease of learning accelerates the adoption of Python DAST tools within development and security teams, enabling effective collaboration. |
-| **Community Support**                | Python has a large and active community of developers, including those focused on security.                           | The community support ensures continuous development, updates, and a wealth of resources for troubleshooting, making Python DAST tools reliable and well-maintained. |
-| **Integration with CI/CD Pipelines** | Python DAST tools can be seamlessly integrated into Continuous Integration/Continuous Deployment (CI/CD) pipelines.     | Automated security testing in CI/CD workflows ensures that security assessments are performed consistently throughout the development lifecycle. |
-| **Platform Independence**            | Python is a platform-independent language, meaning that Python DAST tools can run on various operating systems without modification. | This platform independence allows organizations to use Python DAST tools across different environments, promoting consistency in security testing. |
-| **Customization and Extensibility**  | Python's extensibility allows security professionals to customize and extend DAST tools based on specific project requirements. | Organizations can tailor security testing processes to their unique needs, ensuring a more targeted and effective approach to identifying vulnerabilities. |
-| **Integration with Web Frameworks**  | Python DAST tools can be integrated with web frameworks commonly used in Python development, enhancing their ability to understand and test web applications built with these frameworks. | This integration ensures that Python DAST tools can effectively assess the security of web applications developed using popular Python frameworks. |
-| **Scripting Capabilities**           | Python's scripting capabilities facilitate the creation of custom scripts and automation workflows for specific security testing scenarios. | Security professionals can develop specialized scripts to perform targeted tests or automate repetitive tasks, enhancing the efficiency of the testing process. |
-| **Cost-Effective Solution**          | Python is an open-source language, and many Python DAST tools are available as open-source projects.                    | The use of open-source tools in Python makes DAST more accessible and cost-effective for organizations, especially those with budget constraints. |
+=== Early Development (Shift Left) ===
+- Modern DAST tools are intended for use in DevOps/DevSecOps environments to test applications as early as possible, even from the initial builds.
+- It's advisable to conduct DAST scans on a runtime app at the earliest stage to eliminate vulnerabilities before they progress to later stages.
+- Security testing should be integrated into the CI/CD pipeline, similar to functional testing.
+
+=== Staging/Pre-release ===
+- Security testing should be incorporated into the pre-release process, where application functionality is fully accessible.
+- The application should be fully deployed as it will be in production and thoroughly tested independently of earlier development-time testing.
+
+=== Regular Post-release (Shift Right) ===
+- Modern DAST tools offer less invasive scanning compared to legacy tools and can be fine-tuned for safe usage, even in live production environments.
+- Tuning includes ensuring no test data is introduced or deleted from the production system, no test emails are sent, and request volumes do not disrupt normal app operation.
+- If security testing in a live production environment is uncomfortable, consider creating a clone of the production environment for regular testing.
+- Recommended scanning schedules include daily checks for high-severity vulnerabilities and weekly full scans.
+
+Regular scans help detect unexpected modifications or new vulnerabilities resulting from changes in deployment configurations or updates to DAST tools to address newly discovered vulnerabilities and exploits.
 ***
+## SAST VS DAST
 
-# Best Practices
+| Aspect               | SAST                                                | DAST                                                |
+|----------------------|-----------------------------------------------------|-----------------------------------------------------|
+| Testing Approach     | Analyzes source code or binaries without execution  | Tests the application in its running state          |
+| Timing               | Performed during development phase                  | Conducted post-development, in runtime              |
+| Scope                | Concentrates on source code analysis                | Focuses on runtime behavior                          |
+| Vulnerability Detection | Identifies potential vulnerabilities based on code analysis | Identifies vulnerabilities while interacting with the application |
+| False Positives      | May generate more false positives due to static analysis | Tends to have fewer false positives, simulating real user interactions |
+| Coverage             | Scans entire codebase regardless of execution paths | Provides coverage for implemented features and application logic |
+| Integration          | Often integrated into development environments or IDEs | Can integrate with CI/CD pipelines for automated testing |
+| Types of Vulnerabilities | Proficient at identifying code-level vulnerabilities such as injection flaws, buffer overflows, etc. | Better at identifying certain types of vulnerabilities like session management issues, authentication flaws, etc. |
+| Ease of Use          | May require expertise to configure and interpret results | Generally easier to set up and execute scans |
+| Runtime Impact       | Does not affect the runtime performance of the application | May have minimal impact on application performance |
+| Scalability          | May face challenges with large codebases or complex applications | Well-suited for dynamic and frequently changing applications |
+| Cost                 | Costs may vary based on tooling and licensing      | Costs may vary based on tooling and licensing      |
 
-| Best Practice                            | Description                                                                                                               | Effect on DAST                                                                                                                                                                            |
-|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Regular Scanning Routine**             | Schedule regular DAST scans to ensure continuous monitoring of the application's security posture.                        | Ensures proactive identification of vulnerabilities, reduces the likelihood of security issues going unnoticed, and maintains an up-to-date understanding of the application's security state. |
-| **Comprehensive Coverage**               | Ensure that DAST scans cover all components and functionalities of the application, including third-party libraries.      | Provides a more holistic security assessment, reducing the chances of overlooking critical vulnerabilities in different parts of the application.                                                |
-| **Adjustable Scan Configurations**       | Customize DAST scan configurations based on the application's architecture, technology stack, and specific security needs. | Enhances the relevance and accuracy of DAST results by tailoring scans to the unique characteristics and potential threat landscape of the application.                                    |
-| **Thorough Analysis of Findings**        | Conduct a detailed analysis of DAST scan findings, prioritizing and addressing critical vulnerabilities promptly.       | Facilitates efficient risk mitigation by prioritizing remediation efforts based on the severity and potential impact of vulnerabilities, leading to a more secure application.             |
-| **Integration with SDLC**               | Integrate DAST into the Software Development Life Cycle (SDLC), incorporating security testing at various stages.         | Embeds security into the development process, allowing for early detection and remediation of vulnerabilities, reducing the cost and effort of addressing issues later in the SDLC.      |
-| **Collaboration with Developers**        | Foster collaboration between security teams and developers to ensure a shared understanding of vulnerabilities and fixes.| Promotes a culture of security awareness, accelerates the resolution of identified vulnerabilities, and encourages proactive security practices among development teams.               |
-| **Secure Configuration Management**     | Implement secure configuration management practices to mitigate common security misconfigurations in the application.   | Mitigates risks associated with misconfigurations, leading to a more resilient and secure application infrastructure, and reduces the likelihood of exploitable security weaknesses.    |
-| **Continuous Monitoring**               | Establish continuous monitoring mechanisms to identify and address security issues as the application evolves.           | Enables ongoing visibility into the security posture of the application, allowing for rapid response to emerging threats and minimizing the window of exposure to potential vulnerabilities.  |
-| **Documentation of Security Policies**  | Document and communicate security policies, ensuring that all stakeholders are aware of and adhere to security guidelines.  | Provides a clear framework for secure development practices, aids in maintaining consistency in security measures, and facilitates compliance with industry and regulatory standards. |
-| **Education and Training**              | Provide ongoing education and training for development and security teams on emerging threats and secure coding practices. | Enhances the skill set of teams, empowering them to proactively address security challenges, and fosters a security-conscious culture that contributes to the overall robustness of the application.  |
-| **Regular Tool Updates**                | Keep DAST tools and libraries up to date to leverage the latest security checks and enhancements provided by the community.| Incorporates the latest security intelligence, ensures that scans are effective against evolving threats, and maximizes the capability of DAST tools to identify contemporary vulnerabilities. |
 ***
+## Tools for Golang DAST
+ | Tool          | Description                                             | Features                                                      | Integration         | License       |
+|---------------|---------------------------------------------------------|---------------------------------------------------------------|---------------------|---------------|
+| OWASP ZAP     | Open-source web application security scanner            | - Automated scanning for common security vulnerabilities     | CLI, CI/CD          | Apache 2.0    |
+| Burp Suite    | Integrated platform for security testing of web apps    | - Advanced scanning, proxy, and vulnerability assessment     | GUI, API            | Commercial    |
+| GoSec         | Golang security checker                                 | - Static analysis for security vulnerabilities                | CLI, CI/CD          | MIT           |
+| Gosec Scanner | Golang security checker                                 | - Scans for common security vulnerabilities                    | CLI, CI/CD          | Apache 2.0    |
+| Safe          | Go library for security-related issues                  https://www.invicti.com/learn/dynamic-application-security-testing-dast/| - Scans for common security vulnerabilities                    | Library             | MIT           |
+| Staticcheck   | Go static analysis tools                                | - Detects bugs, performance problems, and much more            | CLI, CI/CD          | GPLv3         |
 
-# Conclusion
+***
+## Conclusion:
 
-Python DAST is a critical aspect of securing web applications, providing real-time insights into potential vulnerabilities. Among the various tools available, OWASP ZAP stands out as a comprehensive solution for dynamic application security testing in Python, offering a balance between functionality and community support. When implementing Python DAST, it's crucial to adhere to best practices and integrate it seamlessly into the development lifecycle for maximum effectiveness.
+- **OWASP ZAP**:
+                Offers powerful automated scanning for web applications, suitable for GoLang apps with integration options for CLI and CI/CD pipelines. Licensed 
+  under Apache 2.0.
 
-# Contact Information
-| Name | Email Address |
+***
+## Contact Information
+
+| Name | Email address |
 | ---- | ------------- |
-| Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
+| Samir | samir.kesare.snaatak@mygurukulam.co |
 
-# References
-| Source | Description  | 
-| -------- | ------- |
-| https://snyk.io/learn/application-security/dast-dynamic-application-security-testing/ | Intro to DAST |
-| https://expertinsights.com/insights/the-top-10-dynamic-application-security-testing-dast-tools/ | Tools |
-| https://www.breachlock.com/resources/blog/benefits-of-dast-testing-for-application-security/ | Advantages |
-| https://www.synopsys.com/blogs/software-security/python-security-best-practices.html | Best Practices |
+***
+## References
+[What is dynamic application security testing?](https://www.invicti.com/learn/dynamic-application-security-testing-dast/)
+
+[How to Use DAST](https://www.invicti.com/learn/dynamic-application-security-testing-dast/)
+
+[DAST Tools for golang](https://owasp.org/www-community/Free_for_Open_Source_Application_Security_Tools)
