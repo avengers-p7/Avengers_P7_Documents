@@ -45,6 +45,9 @@ For a detailed understanding of the Bug Life Cycle, specifically focusing on the
 - Stages of Bug Life Cycle in Testing
 
 **Documentation Link:** [Bug Life Cycle Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/BugLifeCycle.md)
+***
+## Flow Diagram 
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/20a6cb3f-3679-4a14-8ba2-ff0d8aea4e4c)
 
 
 
