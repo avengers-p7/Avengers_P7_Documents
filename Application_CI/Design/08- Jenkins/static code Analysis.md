@@ -28,16 +28,17 @@ Static code analysis of Java involves examining the source code of a Java applic
 |Code Complexity| Analyzing the complexity of the code, such as cyclomatic complexity, to identify areas that might be hard to understand or maintain. High complexity can indicate a need for refactoring|
 |Code Duplication | Detecting duplicate code segments within the project. Identifying and removing code duplication can improve maintainability and reduce the risk of introducing bugs in multiple places|
 |Security Vulnerabilities |Identifying potential security issues in the code, such as SQL injection vulnerabilities, insecure data handling, or inadequate input validation|
-|Unused Code | Detecting code that is defined but not actually used in the application. Removing unused code improves code readability and reduces the size of the codebase|
+|Unused Code | Detecting code that is defined but not used in the application. Removing unused code improves code readability and reduces the size of the codebase|
 |Resource Leaks| Identifying potential resource leaks, such as unclosed streams or connections, to prevent issues like memory leaks.
 |API Usage |Ensuring that APIs and libraries are used correctly, with proper error handling and resource management|
 Null Pointer Analysis |Detecting potential null pointer dereferences, which can lead to runtime exceptions. This helps in preventing NullPointerExceptions|
 |Concurrency Issues| Identifying potential issues related to multi-threading and concurrency, such as race conditions or deadlock |
 
+***
 
 # Why Static Code Analysis Important?
 
-tatic Code Analysis (SCA) is a critical practice in software development that involves analyzing source code without executing it. This process helps identify potential issues, security vulnerabilities, and coding standard violations before the code is executed or deployed. 
+Static Code Analysis (SCA) is a critical practice in software development that involves analyzing source code without executing it. This process helps identify potential issues, security vulnerabilities, and coding standard violations before the code is executed or deployed. 
 
 **Here are several reasons why static code analysis is important**
 | Aspect | Description |
@@ -74,7 +75,7 @@ Repository Link: [OT-MICROSERVICES](https://github.com/OT-MICROSERVICES/salary-a
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/31ac9533-80f0-4402-9b1e-fb702dcd3d84)
 
 
-Prerequisites
+# Prerequisites
 
 Java Version 17 (mentioned in pom.xml)
 
@@ -92,28 +93,35 @@ Cloning a Java App
 
 Within the directory, make a clone of the repository.
 
-mkdir snaatak-P7
-cd snaatak
-git clone https://github.com/OT-MICROSERVICES/salary-api.git
+**mkdir snaatak-P7**
+
+**cd snaatak**
+
+**git clone https://github.com/OT-MICROSERVICES/salary-api.git**
 
 
 # Install Java 17 and Maven
 
 As the salary code is Java-based, it is designed to be compatible with Java version 17. It is advisable to install Maven, a crucial tool for managing and building Java projects.
 
-sudo apt update
+**sudo apt update
 sudo apt install openjdk-17-jdk
-sudo apt install maven
+sudo apt install maven**
+
 
 # Add the Spotbug dependency in the pom.xml file.
 
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/b2e5c741-0be0-47af-a4b8-34924bed07cf)
+
 
 # Integrate Find Security Bugs into spot bugs-maven-plugin
 
 To integrate Find Security Bugs into the SpotBugs plugin, you can configure your pom.xml like the below:
 
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/12bd5405-1b25-4066-8fdd-94fccd33523b)
+
 
 # Analyze Code with SpotBugs:
    
@@ -127,15 +135,31 @@ To integrate Find Security Bugs into the SpotBugs plugin, you can configure your
 
 This command will generate an html report. After running this command, generate various types of reports, such as HTML and XML: (target/spotbugs.html)(target/spotbugsXml.xml).
 
+
 **mvn spotbugs:spotbugs**
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/dbdeefe5-12f2-422c-aa7f-6abf19a000a4)
 
+***
 
 # POC Conclusion
 
 In conclusion, static code analysis stands as a cornerstone in modern software development, offering a proactive and efficient means of ensuring code quality and security. By examining source code without its execution, static analysis tools empower developers to catch and rectify issues at an early stage, fostering the creation of robust and reliable software. The practice not only contributes to improved code quality by enforcing coding standards and identifying potential pitfalls but also serves as a frontline defense against security vulnerabilities. Integrating seamlessly into development workflows, static code analysis supports continuous integration processes, providing timely feedback and reducing the likelihood of defects making their way into production. With its focus on early detection, adherence to best practices, and customization options to align with specific coding standards, static code analysis plays a pivotal role in enhancing the overall efficiency, maintainability, and security of software projects.
+
+# Contact Information 
+
+|Name | Email ID |
+|------|---------|
+|Nidhi Bhardwaj | nidhi.bhardwaj.snaatak@mygurukulam.co |
+
+***
+
+# References 
+
+|Link | Description |
+|-----|--------------|
+| https://owasp.org/www-community/controls/Static_Code_Analysis#:~:text=Description,Security%20Development%20Lifecycle%20(SDL) | Documentation |
 
 
 
