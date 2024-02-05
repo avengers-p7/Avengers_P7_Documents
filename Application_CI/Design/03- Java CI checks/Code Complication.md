@@ -182,71 +182,9 @@ Create a GitHub repository and push the Maven Java project to it.
 
 
 
-# Step 3: Install Jenkins and Maven
-
-
-Install Jenkins and Maven on your server. Follow the official installation guides for Jenkins and Maven.
-
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/e99acfef-d1ff-4b8e-9b2a-fc9ba4c8e79e)
 
 
 
-
-# Step 4: Configure Jenkins
-
-
-1.  Install the necessary plugins in Jenkins:
-
-    GitHub plugin
-
-    Maven Integration plugin
-
-    ![image](https://github.com/avengers-p7/Documentation/assets/156644891/368154b9-6c51-4e58-86f6-02fdb851aad3)
-
-
-
-     ![image](https://github.com/avengers-p7/Documentation/assets/156644891/6564dba4-4b0b-47fe-971a-790944a76f5d)
-
-
-
-3. Configure the JDK and Maven in Jenkins:
-
-    Go to "Manage Jenkins" > "Global Tool Configuration."
-
-    Add JDK and Maven installations.
-
-
-
-   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/900de25c-c17c-42ce-a4cf-379bcef000f7)
-
-
-
-
-
-
-
-
-    ![image](https://github.com/avengers-p7/Documentation/assets/156644891/6cdc4494-2d3a-433f-b337-f65a7e2a7068)
-
-
-
-
-
-
-
-   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/f6d6d0ba-cbd8-43ee-a86d-66049c13d679)
-
-
-   
-
-# Step 5: Trigger the Jenkins Job
-
-Make a change in your GitHub repository and push it to trigger the Jenkins job. Jenkins will automatically start the pipeline, compile the Java code using Maven, and execute any 
-
-other tasks you've defined in your pipeline.
-
-***
 
 # Conclusion
 
