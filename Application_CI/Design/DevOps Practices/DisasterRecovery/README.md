@@ -1,3 +1,84 @@
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/7a86f321-fe41-4ec1-867f-c5f95aff74e5)
+# Disaster Recovery in Sonarqube
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/c0cf39b5-29d9-4af2-9752-c40fe09c8c5f)
 
+| Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
+| ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
+| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 04-02-2024      |
+
+
+## Table  of Contents
+
+1. [Introduction](#Introduction)
+2. [What is Disaster Recovery?](#What-is-Disaster-Recovery)
+3. [Why Disater Recovery?](#Why-Disater-Recovery)
+4. [Conclusion](#Conclusion)
+5. [Contact Information](#Contact-Information)
+6. [References](#References)
+***
+
+## Introduction 
+Disaster Recovery (DR) is crucial for organizations to swiftly respond to and recover from events impacting business operations, aiming to minimize downtime and data loss. This process involves a comprehensive analysis of IT infrastructure and the creation of a formal document for crisis management. 
+
+This document covers backing up the database and server directory, and listing installed plugins and configurations. This proactive approach ensures business continuity, data protection, regulatory compliance, and overall resilience in the face of unforeseen events, emphasizing the importance of a robust disaster recovery plan for organizational stability.
+***
+## What is Disaster Recovery?
+Disaster recovery (DR) is an organization's ability to respond to and recover from an event that negatively affects business operations. The goal of DR is to reduce downtime, data loss and operational disruptions while maintaining business continuity. To prepare for this, organizations often perform an in-depth analysis of their systems and IT infrastructure and create a formal document to follow in times of crisis. 
+***
+## Why Disater Recovery?
+Disaster recovery is essential for organizations to ensure `business continuity, protect valuable data from loss or corruption, mitigate risks, comply with regulations, maintain customer trust and reputation, avoid financial losses, gain a competitive edge, sustain employee productivity, and stabilize supply chains`. It is a crucial strategy to swiftly recover from unexpected events or disasters and minimize the impact on operations. 
+
+To know more about disaster recovery and  disaster recovery plan, [**DR Reference Doc**](https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery).
+## Disaster Recovery Tiers
+
+0. Business Continuity (BC): The highest tier of DR, focusing on minimizing downtime and ensuring business operations can continue without interruption.
+1. Business Resumption (BR): Focuses on restoring business operations as quickly as possible after a disaster.
+2. Business Restoration (BK): Aims to restore business operations to their pre-disaster state.
+3. Business Recovery (BKR): Focuses on recovering lost data and restoring systems to their pre-disaster state.
+4. Business Survivability (BS): Ensures that critical business functions can continue to operate even during a disaster.
+5. Business Contingency (BCR): Focuses on maintaining business continuity during a disaster.
+6. Business Continuity Management (BCM): Involves managing the risks and uncertainties associated with disasters.
+7. Business Continuity Planning (BCP): Involves creating a plan to ensure business continuity during a disaster.
+
+## Types of Disaster Recovery
+
+1. Data Center Disaster Recovery (DR): Protects the IT infrastructure within the data center and the physical facility.
+2. Network Disaster Recovery: Ensures network connectivity during a disaster.
+3. Virtualized Disaster Recovery: Protects virtualized workloads.
+4. Cloud Disaster Recovery: Hosts disaster recovery in the cloud.
+5. Disaster Recovery as a Service (DRaaS): Provides replication and hosting of an organization's physical and virtual machines.
+6. Disaster Recovery Services and Vendors: Includes backup and data protection platforms, DRaaS providers, add-on services from data center and colocation providers, infrastructure-as-a-service providers, and emergency communication vendors.
+
+### Examples of DR Software and DRaaS Providers
+
+1. Acronis Cyber Protect Cloud: Offers backup, recovery, and disaster recovery services.
+2. Carbonite Disaster Recovery: Provides backup, recovery, and disaster recovery services.
+3. Dell EMC RecoverPoint: Offers replication and disaster recovery services.
+4. Druva Data Resiliency Cloud: Provides backup, recovery, and disaster recovery services.
+5. IBM SmartCloud Virtualized Server Recovery: Offers replication and disaster recovery services.
+6. Microsoft Azure Site Recovery: Provides replication and disaster recovery services.
+7. Unitrends Backup and Recovery: Offers backup, recovery, and disaster recovery services.
+8. Veeam Replication and DRaaS: Offers replication, recovery, and disaster recovery services.
+9. VMware Cloud Disaster Recovery: Provides replication and disaster recovery services.
+10. Zerto: Offers replication and disaster recovery services.
+
+## Conclusion
+This comprehensive approach safeguards valuable data, complies with regulations, maintains trust, and ensures operational stability, emphasizing the significance of disaster recovery in mitigating risks and sustaining organizational resilience. Now, you can restore your Sonarqube by using these backup files created by the above steps.
+***
+
+## Contact Information
+
+|     Name         | Email  |
+| -----------------| ------------------------------------ |
+| Harshit Singh    | harshit.singh.snaatak@mygurukulam.co |
+***
+
+## References
+
+| Description                   | References  
+| ----------------------------- | ------------------------------------------------------------------- |
+| Backup and Restore            | https://docs.sonarsource.com/sonarqube/latest/instance-administration/backup-and-restore/|
+| Upgrade Guide                 | https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/upgrade-the-server/upgrade-guide/ |
+| Take full backup of Sonarqube | https://www.scmgalaxy.com/tutorials/sonarqube-upgrade-backup-and-restore-process/|
+| DB Copy Tool                  | https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/ |
+| S3                            | https://www.whizlabs.com/labs/access-s3-from-private-ec2-instance-using-vpc-endpoint |
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0335bc4-61f5-4c21-9e67-61e3977195b0)
