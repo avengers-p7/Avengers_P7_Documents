@@ -19,15 +19,13 @@
 ## Introduction 
 Disaster Recovery (DR) is crucial for organizations to swiftly respond to and recover from events impacting business operations, aiming to minimize downtime and data loss. This process involves a comprehensive analysis of IT infrastructure and the creation of a formal document for crisis management. 
 
-This document covers backing up the database and server directory, and listing installed plugins and configurations. This proactive approach ensures business continuity, data protection, regulatory compliance, and overall resilience in the face of unforeseen events, emphasizing the importance of a robust disaster recovery plan for organizational stability.
+This document covers what is DR, why we need it , its  types advantages and disadvantages.
 ***
 ## What is Disaster Recovery?
 Disaster recovery (DR) is an organization's ability to respond to and recover from an event that negatively affects business operations. The goal of DR is to reduce downtime, data loss and operational disruptions while maintaining business continuity. To prepare for this, organizations often perform an in-depth analysis of their systems and IT infrastructure and create a formal document to follow in times of crisis. 
 ***
 ## Why Disater Recovery?
 Disaster recovery is essential for organizations to ensure `business continuity, protect valuable data from loss or corruption, mitigate risks, comply with regulations, maintain customer trust and reputation, avoid financial losses, gain a competitive edge, sustain employee productivity, and stabilize supply chains`. It is a crucial strategy to swiftly recover from unexpected events or disasters and minimize the impact on operations. 
-
-To know more about disaster recovery and  disaster recovery plan, [**DR Reference Doc**](https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery).
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0335bc4-61f5-4c21-9e67-61e3977195b0)
 ***
@@ -81,8 +79,21 @@ When creating your recovery strategy, it’s useful to consider your RTO and RPO
 | Better Compliance          | - Supports compliance requirements by defining specific procedures and protections for data and workloads.       |
 |                             | - Includes strong data backup practices, DR sites, and regular testing for preparedness.                          |
 ***
+## Disadvantages
+| Disadvantage                                       | Description                                                                                           |
+|----------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| Cost                                               | - Implementation and maintenance of DR plans can be expensive, including infrastructure and tools.  |
+| Complexity                                         | - Designing and managing effective DR strategies can be complex, requiring expertise and resources.  |
+| Testing Challenges                                 | - Regular testing of DR plans may disrupt normal operations and can be time-consuming.                  |
+| Downtime During Implementation                      | - Implementing DR measures may cause some downtime as systems are reconfigured or data is restored.  |
+| Resource Intensive                                  | - DR processes can be resource-intensive, impacting network bandwidth and system performance.         |
+| Dependency on Internet Connectivity                 | - Cloud-based DR solutions depend on internet connectivity, which can be a limitation in some scenarios.|
+| Data Consistency and Loss                           | - Inconsistencies or data loss may occur if DR solutions are not configured and tested properly.     |
+| Limited Protection Against Human Error              | - DR plans may not fully protect against human errors in the recovery process.                         |
+| Overemphasis on Technology                         | - Some organizations may focus too much on technological solutions and overlook other aspects of DR.   |
+| Compliance Risks                                   | - Inadequate DR planning may lead to non-compliance with industry regulations and legal requirements. |
+
 ## Conclusion
-This comprehensive approach safeguards valuable data, complies with regulations, maintains trust, and ensures operational stability, emphasizing the significance of disaster recovery in mitigating risks and sustaining organizational resilience. Now, you can restore your Sonarqube by using these backup files created by the above steps.
 ***
 
 ## Contact Information
@@ -96,8 +107,5 @@ This comprehensive approach safeguards valuable data, complies with regulations,
 
 | Description                   | References  
 | ----------------------------- | ------------------------------------------------------------------- |
-| Backup and Restore            | https://docs.sonarsource.com/sonarqube/latest/instance-administration/backup-and-restore/|
-| Upgrade Guide                 | https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/upgrade-the-server/upgrade-guide/ |
-| Take full backup of Sonarqube | https://www.scmgalaxy.com/tutorials/sonarqube-upgrade-backup-and-restore-process/|
-| DB Copy Tool                  | https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/ |
-| S3                            | https://www.whizlabs.com/labs/access-s3-from-private-ec2-instance-using-vpc-endpoint |
+| Disaster Recovery             | https://cloud.google.com/learn/what-is-disaster-recovery#:~:text=Disaster%20recovery%20(DR)%20is%20an,human%20action%20(or%20error).|
+| Challenges in DR              | https://www.computerweekly.com/feature/Six-disaster-recovery-pitfalls-and-how-to-avoid-them |
