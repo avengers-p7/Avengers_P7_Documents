@@ -8,6 +8,7 @@
 ## Introduction
 High Availability is a strategic approach aimed at minimizing downtime and guaranteeing consistent performance without any downtime. The fundamental goal of HA is to mitigate the impact of potential failures, whether they be hardware failures, software issues, or unforeseen events. By distributing workloads across multiple instances, regions, or Availability Zones, HA architectures can withstand disruptions, providing constant access to applications and services. 
 
+***
 ## Key Concepts 
 
 * Key characteristics of high availability systems include:
