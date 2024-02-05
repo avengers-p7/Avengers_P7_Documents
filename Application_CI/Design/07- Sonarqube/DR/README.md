@@ -30,7 +30,7 @@ Disaster recovery (DR) is an organization's ability to respond to and recover fr
 ## Why Disater Recovery?
 Disaster recovery is essential for organizations to ensure `business continuity, protect valuable data from loss or corruption, mitigate risks, comply with regulations, maintain customer trust and reputation, avoid financial losses, gain a competitive edge, sustain employee productivity, and stabilize supply chains`. It is a crucial strategy to swiftly recover from unexpected events or disasters and minimize the impact on operations. 
 
-To know more about disaster recovery and  disaster recovery plan, [**DR Reference Doc**](https://www.techtarget.com/searchdisasterrecovery/definition/disaster-recovery).
+To know more about disaster recovery and  disaster recovery plan, [**DR Reference Doc**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/DevOps%20Practices/DisasterRecovery/README.md).
 
 ***
 ## Infra Diagram
