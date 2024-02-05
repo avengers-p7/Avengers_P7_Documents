@@ -39,7 +39,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 
 | Component  | Details 
 | ---------- | -----------------------------
-| **Region** |	AWS Cloud FN.Virginia Region (us-east-1)
+| **Region** |	N.Virginia Region (us-east-1)
 | **Management VPC** |	CIDR block 10.0.0.0/22
 | **Availability Zones** (us-east-1a, us-east-1b) |	Includes public and private subnets, NAT Gateway, SonarQube Server, and Postgres Cluster
 | **IGW** |	Internet Gateway 
