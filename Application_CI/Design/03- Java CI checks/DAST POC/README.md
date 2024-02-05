@@ -43,6 +43,10 @@ OWASP Zed Attack Proxy (ZAP) stands as a cornerstone in the realm of web applica
 | -----------------| --------------|
 | JRE (Java runtime environment     | Zap is coded in Java, and its fundamental operations require a Java runtime environment for execution.    |
 
+***
+## Advantages 
+For a comprehensive explanation and a thorough exploration of the advantages, kindly refer to the following [link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/02-%20Generic%20CI%20operation/DAST/Documentation/README.md).
+
 ### 1. Setup ZAP
 
 * Visit zap [website](https://www.zaproxy.org/docs/) and check the different installation packages for different OS
