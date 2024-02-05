@@ -33,7 +33,8 @@ This document shows an overview of our AWS Infra for SonarQube. This document pr
 
 ## Infrastructure Diagram
 
-![SonarFinal](https://github.com/avengers-p7/Documentation/assets/156056344/439e6bd7-4770-4f60-a050-03512da7c6e6)
+
+![Untitled Diagram](https://github.com/avengers-p7/Documentation/assets/156056344/439be947-b6df-4922-aeb5-2bfe6e1a4cb0)
 
 
 ## SonarQube HA & DR 
