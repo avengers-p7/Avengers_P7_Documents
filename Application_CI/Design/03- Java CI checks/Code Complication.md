@@ -1,4 +1,4 @@
-Documentation of Code Compliation.md
+# Documentation of Code Compliation
 
 |Author  | Created on |version | last updated on|
 |--------|------------|---------|----------------|
@@ -154,15 +154,18 @@ here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkin
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/d56e8f1c-6ac4-45a0-89ed-064727f68673)
 
 
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/15f2faad-fc1e-450d-9cf7-63f5fe4f249a)
 
 
 **MyAppTest.java**
 
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/8cddd856-c015-4e6f-8ad8-6a7bb1e73581)
 
 
 **pom.xml**
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/8ca998cd-f7c6-4b8d-9b4e-683899b01519)
 
@@ -174,6 +177,7 @@ here's a simple proof of concept for a Maven-based Java CI pipeline using Jenkin
 Create a GitHub repository and push the Maven Java project to it.
 
 
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/97ec5532-be96-48c1-bf7b-633d3f9ff4cd)
 
 
@@ -182,6 +186,7 @@ Create a GitHub repository and push the Maven Java project to it.
 
 
 Install Jenkins and Maven on your server. Follow the official installation guides for Jenkins and Maven.
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/e99acfef-d1ff-4b8e-9b2a-fc9ba4c8e79e)
 
@@ -197,29 +202,49 @@ Install Jenkins and Maven on your server. Follow the official installation guide
 
     Maven Integration plugin
 
-2. Configure the JDK and Maven in Jenkins:
+    ![image](https://github.com/avengers-p7/Documentation/assets/156644891/368154b9-6c51-4e58-86f6-02fdb851aad3)
+
+
+
+     ![image](https://github.com/avengers-p7/Documentation/assets/156644891/6564dba4-4b0b-47fe-971a-790944a76f5d)
+
+
+
+3. Configure the JDK and Maven in Jenkins:
 
     Go to "Manage Jenkins" > "Global Tool Configuration."
 
     Add JDK and Maven installations.
 
+
+
+   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/900de25c-c17c-42ce-a4cf-379bcef000f7)
+
+
+
+
+
+
+
+
+    ![image](https://github.com/avengers-p7/Documentation/assets/156644891/6cdc4494-2d3a-433f-b337-f65a7e2a7068)
+
+
+
+
+
+
+
+   ![image](https://github.com/avengers-p7/Documentation/assets/156644891/f6d6d0ba-cbd8-43ee-a86d-66049c13d679)
+
+
    
 
-# Step 5: Create a Jenkins Pipeline
+# Step 5: Trigger the Jenkins Job
 
+Make a change in your GitHub repository and push it to trigger the Jenkins job. Jenkins will automatically start the pipeline, compile the Java code using Maven, and execute any 
 
-1. Create a new pipeline job in Jenkins.
-
-2. In the pipeline configuration, select "Pipeline script from SCM" as the definition.
-
-3. Choose Git as the SCM, and provide the URL of your GitHub repository.
-
-4. In the pipeline script, define the stages for Maven compilation. Here's an example
-
-
-# Step 6: Trigger the Jenkins Job
-
-Make a change in your GitHub repository and push it to trigger the Jenkins job. Jenkins will automatically start the pipeline, compile the Java code using Maven, and execute any other tasks you've defined in your pipeline.
+other tasks you've defined in your pipeline.
 
 ***
 
