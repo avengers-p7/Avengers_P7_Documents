@@ -70,6 +70,23 @@ To effectively manage dependencies and ensure the integrity and security of the 
 
 By implementing robust dependency scanning practices, developers can enhance the reliability, security, and maintainability of their software projects.
 ***
+## SAST VS DAST
+| Aspect               | SAST                                                | DAST                                                |
+|----------------------|-----------------------------------------------------|-----------------------------------------------------|
+| Testing Approach     | Analyzes source code or binaries without execution  | Tests the application in its running state          |
+| Timing               | Performed during development phase                  | Conducted post-development, in runtime              |
+| Scope                | Concentrates on source code analysis                | Focuses on runtime behavior                          |
+| Vulnerability Detection | Identifies potential vulnerabilities based on code analysis | Identifies vulnerabilities while interacting with the application |
+| False Positives      | May generate more false positives due to static analysis | Tends to have fewer false positives, simulating real user interactions |
+| Coverage             | Scans entire codebase regardless of execution paths | Provides coverage for implemented features and application logic |
+| Integration          | Often integrated into development environments or IDEs | Can integrate with CI/CD pipelines for automated testing |
+| Types of Vulnerabilities | Proficient at identifying code-level vulnerabilities such as injection flaws, buffer overflows, etc. | Better at identifying certain types of vulnerabilities like session management issues, authentication flaws, etc. |
+| Ease of Use          | May require expertise to configure and interpret results | Generally easier to set up and execute scans |
+| Runtime Impact       | Does not affect the runtime performance of the application | May have minimal impact on application performance |
+| Scalability          | May face challenges with large codebases or complex applications | Well-suited for dynamic and frequently changing applications |
+| Cost                 | Costs may vary based on tooling and licensing      | Costs may vary based on tooling and licensing      |
+
+***
 ## Tools Comparison for Golang Dependency Scanner
 
 | Tool                   | Description                                           | Features                                                          | Integration         | License       |
