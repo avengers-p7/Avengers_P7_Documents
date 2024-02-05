@@ -32,7 +32,7 @@ To reduce interruptions and downtime, it is essential to be ready for unexpected
 > Below, is an alternative approach with Sonarqube+AWS to provide HA.
 
 ## Diagram
-<img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.drawio.svg">
+<img title="HA Sonarqube" alt="HA Sonarqube AWS " src="./HA-Sonarqube.drawio (1).svg">
 
 | Component  | Details 
 | ---------- | -----------------------------
