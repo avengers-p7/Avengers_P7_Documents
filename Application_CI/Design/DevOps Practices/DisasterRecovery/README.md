@@ -40,12 +40,18 @@ An effective DR plan addresses three different elements for recovery:
 
 ## Types of Disaster Recovery
 
-1. Data Center Disaster Recovery (DR): Protects the IT infrastructure within the data center and the physical facility.
-2. Network Disaster Recovery: Ensures network connectivity during a disaster.
-3. Virtualized Disaster Recovery: Protects virtualized workloads.
-4. Cloud Disaster Recovery: Hosts disaster recovery in the cloud.
-5. Disaster Recovery as a Service (DRaaS): Provides replication and hosting of an organization's physical and virtual machines.
-6. Disaster Recovery Services and Vendors: Includes backup and data protection platforms, DRaaS providers, add-on services from data center and colocation providers, infrastructure-as-a-service providers, and emergency communication vendors.
+| Type                          | Description                                                                                                 |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Backups                       | - Data backed up to an offsite system or external drive.                                                      |
+|                               | - Not a full disaster recovery solution as it lacks IT infrastructure.                                      |
+| Backup as a Service (BaaS)     | - Regular data backups provided by a third-party provider.                                                    |
+| Disaster Recovery as a Service | - Cloud providers offer DRaaS, hosting data and IT infrastructure on a third-party cloud during a crisis.   |
+|                               | - Provider implements and orchestrates DR plan for minimal interruption to operations.                       |
+| Point-in-time Snapshots        | - Replicates data, files, or an entire database at a specific point in time.                                  |
+|                               | - Used for restoring data if stored in an unaffected location, but may incur some data loss.                 |
+| Virtual DR                     | - Backs up operations and data, creating a complete replica of IT infrastructure on offsite virtual machines.|
+|                               | - Enables quick reload and resumption of operations after a disaster. Requires frequent data transfers.      |
+| Disaster Recovery Sites        | - Temporary locations post-disaster, containing backups of data, systems, and technology infrastructure.      |
 
 ### Examples of DR Software and DRaaS Providers
 
