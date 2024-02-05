@@ -41,6 +41,7 @@ The goal is to maintain continuous service availability, even in the face of une
 | Data Replication  | Critical data is often replicated across multiple locations or servers to ensure data integrity and availability. This can involve synchronous or asynchronous replication depending on the specific requirements of the system.|
 | Scalability       | High availability architectures are often designed to scale horizontally, allowing for the addition of more resources or nodes to accommodate increased demand.|
 
+***
 ## High Availability Vs Disaster Recovery 
 Distinguishing between high availability and disaster recovery is crucial. Disaster recovery (DR) involves a detailed strategy aimed for recovery of critical operations and systems after catastrophic events.
 
