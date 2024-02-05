@@ -90,3 +90,4 @@ This comprehensive approach safeguards valuable data, complies with regulations,
 | Backup and Restore            | https://docs.sonarsource.com/sonarqube/latest/instance-administration/backup-and-restore/|
 | Take full backup of Sonarqube | https://www.scmgalaxy.com/tutorials/sonarqube-upgrade-backup-and-restore-process/|
 | DB Copy Tool                  | https://docs.sonarsource.com/sonarqube/latest/instance-administration/sonarqube-db-copy-tool/ |
+| S3                            | https://www.whizlabs.com/labs/access-s3-from-private-ec2-instance-using-vpc-endpoint |
