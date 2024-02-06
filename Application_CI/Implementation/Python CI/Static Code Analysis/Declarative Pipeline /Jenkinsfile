@@ -8,14 +8,19 @@ pipeline {
             }
         }
       
-        stage('Install Dependencies') 
-        {
-            steps 
-            {
-                script 
-                {
+        stage('Install Dependencies') {
+            steps {
+                script {
                     sh 'pip install pylint'
-                    sh 'pylint app.py > pylint_report.txt || true'
+                    sh 'pylint app.py > pylint_report.txt 2>&1 || true'
                 }
             }
         }
+    }
+    
+    post {
+        always {
+            archiveArtifacts artifacts: 'pylint_report.txt', onlyIfSuccessful: true
+        }
+    }
+}
