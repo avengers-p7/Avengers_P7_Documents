@@ -8,22 +8,36 @@ pipeline {
             }
         }
       
+            
+        stage('Create Virtual ENV') {
+            steps {
+                script {
+                  sh 'python3 -m venv myenv'
+                  sh 'source myenv/bin/activate'
+                }
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
                 script {
-                    sh 'apt update'
-                    sh 'apt install -y python3'
-                    sh 'apt install -y pylint'
-                    sh 'pip install pylint'
-                    sh 'pylint app.py > pylint_report.txt 2>&1 || true'
+                  sh 'source myenv/bin/activate && python3 -m pip install -r requirements.txt'
+                }
+            }
+        }
+
+        stage('Static Code Analysis') {
+            steps {
+                script {
+                    sh 'source myenv/bin/activate && pylint --disable=R0022,R0903,E0611,E0602,F0010,C0330,C0326,C0304,E0401,C0111,R0801,W0621,W0613,W0612,W0611,C0411,R0201,C0301,C0103,R1705,E1120,R1725,R0124 router/ client/ models/ utils/ app.py'
                 }
             }
         }
     }
-    
+
     post {
         always {
-            archiveArtifacts artifacts: 'pylint_report.txt', onlyIfSuccessful: true
+            sh 'deactivate || true' // Deactivate the virtual environment after pipeline execution
         }
     }
 }
