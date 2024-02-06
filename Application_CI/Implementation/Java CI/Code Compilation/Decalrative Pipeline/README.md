@@ -34,14 +34,48 @@ Here we are using maven compiler to convert of code into  bytecode.
 > I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
 
 ***
-
 ## Runtime Prerequisites
 
 |Language / Dependency|Description|
 |-------|-------|
 | **Java 17** | For springboot project compilation | 
 | **Maven Compiler Plugin** | For springboot project compilation |
+***
+## Steps to run Pipeline
+1. **Fork the Github Repo**
+```shell
+git clone https://github.com/OT-MICROSERVICES/salary-api.git
+```
+[**Repo Link**](https://github.com/OT-MICROSERVICES/salary-api)
 
+2. **Add maven compiler plugin in `pom.xml`**   
+```shell
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.11.0</version>
+				<!-- ... other configurations ... -->
+			</plugin>
+```
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/c9261b85-b99c-4264-88c8-028b5a5d9d20)
+
+3. **Configure Maven tool in Jenkins**
+Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
+
+4. **Create Jenkins Pipeline job**
+Go to your Jenkins `Dashboard`, 
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/e5cd0f81-c0d7-46fa-bbba-ab6bcaae5755)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/61aa9a60-60e4-4808-be18-73b0c258d981)
+
+5. **Configure  your pipeline**
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/8bea7efb-0864-47ef-a164-3f61ace972fb)
+
+6. 
 ## Contact Information
 
 |     Name         | Email  |
