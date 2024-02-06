@@ -13,7 +13,15 @@ pipeline {
             steps {
                 sh 'echo "Starting Java Code Compilation.........."'}
                 sh 'mvn clean compile'
+            }
         }
+    }
+post { 
+        success { 
+            echo 'Compiled Successfully !'
+        }
+        failure { 
+            echo 'Compilation Failed !'
         }
     }
 }
