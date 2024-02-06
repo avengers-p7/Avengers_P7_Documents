@@ -1,11 +1,10 @@
 pipeline {
     agent any
-    
+
     stages {
-        stage('Checkout') {
+        stage('Code Checkout') {
             steps {
-                // Checkout the repository
-                git 'https://github.com/OT-MyGurukulam/attendance-api.git'
+                git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MyGurukulam/OT-Attendance'
             }
         }
         
