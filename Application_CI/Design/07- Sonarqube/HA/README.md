@@ -18,6 +18,7 @@
 ***
 
 ## Introduction 
+This doc will tell us what is HA and why we use it. Sonarqube provides HA in its Data Center Edition, in this doc we have to make a alternative HA of Sonarqube Community Edition. 
 
 ***
 ## What
