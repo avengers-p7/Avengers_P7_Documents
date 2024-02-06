@@ -11,8 +11,9 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 script {
-                    sh 'sudo apt install -y python3'
-                    sh 'sudo apt install -y pylint'
+                    sh 'apt update'
+                    sh 'apt install -y python3'
+                    sh 'apt install -y pylint'
                     sh 'pip install pylint'
                     sh 'pylint app.py > pylint_report.txt 2>&1 || true'
                 }
