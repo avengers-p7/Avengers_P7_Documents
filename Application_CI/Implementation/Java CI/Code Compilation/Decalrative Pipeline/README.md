@@ -74,15 +74,15 @@ Go to your Jenkins `Dashboard`,
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/ac4ad734-fe8d-40ac-82c2-a4676cdf295a)
 
 5. **Configure  your pipeline**
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/8bea7efb-0864-47ef-a164-3f61ace972fb)
-
+Go to `Dashboard--> Pipeline_job--> Configure` then add your Jenkinsfile repository link and configure it.
+ 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/fb9d1964-e080-4cf1-8ddd-b71a90b91db3)
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/bef7d4a3-5873-414b-bb89-484b452dd0cb)
 
+6. **Now Build your Pipeline**
 
-6. 
+7.  
 ## Contact Information
 
 |     Name         | Email  |
