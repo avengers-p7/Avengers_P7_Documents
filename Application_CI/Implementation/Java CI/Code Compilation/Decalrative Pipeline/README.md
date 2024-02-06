@@ -18,7 +18,22 @@
 
 ## Introduction 
 
+## Prerequisites
+
+| Tool | Description |
+| ---- | ----------- |
+| Jenkins(2.426.3) | To build our pipeline |
 ***
+
+## Runtime Prerequisites
+
+|Language / Dependency|Description|
+|-------|-------|
+| Java 17 | For springboot project compilation | 
+| Maven Compiler Plugin | For springboot project compilation |
+
+> [!Important]
+> I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
 ## Contact Information
 
 |     Name         | Email  |
