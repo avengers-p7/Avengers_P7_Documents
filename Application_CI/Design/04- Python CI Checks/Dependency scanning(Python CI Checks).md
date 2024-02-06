@@ -8,6 +8,7 @@
 + [Introduction](#Introduction)
 + [Dependency scanning](#Dependency-scanning)
 + [OWASP](#OWASP-Dependency-Check )
++ [Flow Diagram](#Flow-Diagram)
 + [Proof of Concept](#Pre-requisite)
 + [Dependency Scanning (POC) in Other Languages](#Dependency-Scanning-(POC)-in-Other-Languages)
 + [Conclusion](#Conclusion)
@@ -31,7 +32,9 @@ Dependency scanning is vital in contemporary software development for securing a
 
 OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects.
 ***
+## Flow Diagram
 
+***
 ## Proof of Concept
 ### Pre-requisite
 | **Pre-requisite** | **Version** |
@@ -48,6 +51,11 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
   ```shell
   scp -i "key.pem" dependency-check-9.0.9-release.zip ubuntu@35.78.171.107:/home/ubuntu
   ```
+> [!NOTE]
+> * **key.pem** - Use your "private key".
+> * **dependency-check-9.0.9-release.zip** - give the path where the zip file is downloaded.
+> * **ubuntu@35.78.171.107:/home/ubuntu** - ip of the remote server and the path where you want to send the Zip file.
+   
   <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/fc1fc54f-f4cd-4550-8364-960c4ff2494f">
  
 **First make a directory, then Within that directory clone the below repository**
@@ -103,5 +111,6 @@ Implementing dependency scanning with OWASP for Python CI checks strengthens our
 | Source | Description |
 | ------ | ----------- |
 | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning/%20README.md) | Introduction of Dependency scanning |
+| [Link](https://medium.com/@sudheer.barakers/integrate-owasp-dependency-check-in-jenkins-pipeline-748d8aefc2b7) | OWASP |
 | [Link](https://owasp.org/www-project-dependency-check/) | For Installation |
  
