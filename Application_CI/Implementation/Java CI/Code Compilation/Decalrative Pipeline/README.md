@@ -69,8 +69,6 @@ Go to your Jenkins `Dashboard`,
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/e5cd0f81-c0d7-46fa-bbba-ab6bcaae5755)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/61aa9a60-60e4-4808-be18-73b0c258d981)
-
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/7500f744-07c5-4579-a823-1a4383ac3fd8)
 
 
