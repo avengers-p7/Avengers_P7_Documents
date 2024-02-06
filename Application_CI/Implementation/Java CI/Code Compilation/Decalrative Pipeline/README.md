@@ -28,7 +28,7 @@ Here we are using maven compiler to convert of code into  bytecode.
 
 | Tool | Description |
 | ---- | ----------- |
-| Jenkins(2.426.3) | To build our pipeline |
+| **Jenkins(2.426.3)** | To build our pipeline |
 
 > [!Important]
 > I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
@@ -39,8 +39,8 @@ Here we are using maven compiler to convert of code into  bytecode.
 
 |Language / Dependency|Description|
 |-------|-------|
-| Java 17 | For springboot project compilation | 
-| Maven Compiler Plugin | For springboot project compilation |
+| **Java 17** | For springboot project compilation | 
+| **Maven Compiler Plugin** | For springboot project compilation |
 
 ## Contact Information
 
