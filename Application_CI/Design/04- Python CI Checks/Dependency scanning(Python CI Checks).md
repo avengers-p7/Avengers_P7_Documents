@@ -39,10 +39,25 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 | OWASP Dependency-check | -- |
 ***
 ### OWASP Dependency-check Installation
-* Click this  [**Link**](https://owasp.org/www-project-dependency-check/) to download the zip file of OWASP 
+* Click this  [**Link**](https://owasp.org/www-project-dependency-check/) to download the zip file of OWASP .
 
-<img width="700" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/ee5ace88-343b-41bd-adec-d69d14fc42d7">
+ <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/ee5ace88-343b-41bd-adec-d69d14fc42d7">
 
+* After downloading the zip file into local system, send it to the remote server.
+  ```shell
+  scp -i "key.pem" dependency-check-9.0.9-release.zip ubuntu@35.78.171.107:/home/ubuntu
+  ```
+* First make a directory, then Within that directory clone the below repository
+  ```shell
+  mkdir python
+  cd python
+  git clone https://github.com/OT-MICROSERVICES/attendance-api.git
+  ``` 
+ <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/ee5ace88-343b-41bd-adec-d69d14fc42d7">
+
+
+<img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/fc1fc54f-f4cd-4550-8364-960c4ff2494f">
+ 
 ***
 ## Conclusion
 Implementing dependency scanning with OWASP for Python CI checks strengthens our security posture by proactively identifying and mitigating vulnerabilities in project dependencies. By integrating OWASP tools into our CI pipeline, we enhance our ability to deliver secure and reliable software to our users.
