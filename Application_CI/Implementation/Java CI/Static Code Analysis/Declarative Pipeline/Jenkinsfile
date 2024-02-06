@@ -10,10 +10,15 @@ pipeline {
                 sh 'ls $WORKSPACE/'
             }
         }
-        stage('Starting Code Compilation ') {
+        stage('Analysing Code with SpotBugs ') {
             steps {
-                sh 'echo "Starting Java Code Compilation.........."'
                 sh 'mvn spotbugs:check'
+            }
+        }
+        stage('Genrating SpotBugs Report') {
+            steps {
+                sh 'mvn spotbugs:spotbugs'
+
             }
         }
     }
