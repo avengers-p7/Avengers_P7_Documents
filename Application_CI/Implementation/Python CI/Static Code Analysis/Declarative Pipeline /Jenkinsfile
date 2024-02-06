@@ -1,61 +1,34 @@
 pipeline {
     agent any
-
-    environment {
-        // Define a list of Python packages to install
-        PYTHON_PACKAGES = 'pylint==2.12.2'
-    }
-            
-
+    
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+                // Checkout the repository
+                git 'https://github.com/OT-MyGurukulam/attendance-api.git'
             }
         }
-
-
-            
+        
         stage('Install dependencies') {
             steps {
-                // Install the specified Python packages
-                sh "pip install ${env.PYTHON_PACKAGES}"
+                // Install dependencies using pip
+                sh 'pip install -r requirements.txt'
             }
         }
-
+        
         stage('Static code analysis') {
             steps {
-                // Run pylint on your Python code
-                sh 'pylint your_python_script.py'
-            }
-            post {
-                always {
-                    // Archive pylint reports
-                    archiveArtifacts artifacts: 'pylint-report/*', onlyIfSuccessful: true
-                }
-            }
-        }
-
-        stage('Publish results') {
-            steps {
-                // Publish pylint reports
-                // This step assumes that you have a Jenkins plugin like 'HTML Publisher Plugin' installed
-                publishHTML(target: [
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: true,
-                    keepAll: true,
-                    reportDir: 'pylint-report',
-                    reportFiles: 'index.html',
-                    reportName: 'Pylint Report'
-                ])
+                // Run pylint for static code analysis
+                sh 'pylint app.py'
+                // You need to specify the path to your Python files that you want to analyze with pylint
             }
         }
     }
-
+    
     post {
         always {
-            // Clean up workspace
-            cleanWs()
+            // Archive pylint reports
+            archiveArtifacts artifacts: '**/pylint-report/*', allowEmptyArchive: true
         }
     }
 }
