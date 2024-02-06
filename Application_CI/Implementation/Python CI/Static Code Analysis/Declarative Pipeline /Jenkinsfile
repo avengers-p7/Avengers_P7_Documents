@@ -1,1 +1,21 @@
+pipeline {
+    agent any
 
+    stages {
+        stage('Code Checkout') {
+            steps {
+                git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MyGurukulam/OT-Attendance'
+            }
+        }
+      
+        stage('Install Dependencies') 
+        {
+            steps 
+            {
+                script 
+                {
+                    sh 'pip install pylint'
+                    sh 'pylint app.py > pylint_report.txt || true'
+                }
+            }
+        }
