@@ -7,7 +7,7 @@ pipeline {
                 script {
                     // Define the DSL for creating a Freestyle job
                     def jobDSL = '''
-                        job('Freestyle-Job') {
+                        job('My-Freestyle-Job') {
                             description('This is a sample Freestyle job created using a Declarative Pipeline')
                             steps {
                                 shell('echo "Hello, world!"')
@@ -23,10 +23,10 @@ pipeline {
     
     post {
         success {
-            slackSend(color: '#36a64f', message: "Freestyle job 'Freestyle-Job' completed successfully!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
+            slackSend(color: '#36a64f', message: "Job completed successfully!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
         }
         failure {
-            slackSend(color: '#ff0000', message: "Freestyle job 'Freestyle-Job' failed!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
+            slackSend(color: '#ff0000', message: "Job failed!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
         }
     }
 }
