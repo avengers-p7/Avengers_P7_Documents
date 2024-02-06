@@ -1,4 +1,4 @@
-# Dependency Scanning ( Python CI Checks )
+# Dependency Scanning ( Python CI Checks ) (POC)
 | Author                 | Created On | Last Updated | Document Version | Last Updated By |
 | ---------------------- | ---------- | ------------ | ---------------- | --------------- |
 | Vishal Kumar Kesarwani | 30-01-2024 | 01-02-2024   | v1               |  Vishal         |
@@ -32,6 +32,7 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 ***
 
 ## Proof of Concept
+### Pre-requisite
 ***
 ## Conclusion
 Implementing dependency scanning with OWASP for Python CI checks strengthens our security posture by proactively identifying and mitigating vulnerabilities in project dependencies. By integrating OWASP tools into our CI pipeline, we enhance our ability to deliver secure and reliable software to our users.
