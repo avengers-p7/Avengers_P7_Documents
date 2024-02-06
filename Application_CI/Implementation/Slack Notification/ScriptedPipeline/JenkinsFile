@@ -10,19 +10,17 @@ node {
             }
         '''
         // Execute the job DSL to create the Freestyle job
-        jobDsl(jobDSL) // Corrected usage of jobDsl
+        build jobDSL
     }
-}
 
-// Post-build actions
-node {
-    // Send Slack notification for success
+    // Post-build actions
     stage('Notify Success') {
+        // Send Slack notification for success
         slackSend(color: '#36a64f', message: "Scripted Job completed successfully!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
     }
 
-    // Send Slack notification for failure
     stage('Notify Failure') {
+        // Send Slack notification for failure
         slackSend(color: '#ff0000', message: "Scripted Job failed!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
     }
 }
