@@ -14,14 +14,5 @@ node {
     }
 }
 
-post {
-    success {
-        sh 'ls $WORKSPACE/'
-        echo 'Compiled Successfully !'
-        sh 'tree $WORKSPACE/target/'
-    }
-    failure {
-        echo 'Compilation Failed !'
-    }
 }
 
