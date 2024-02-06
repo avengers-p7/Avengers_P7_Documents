@@ -1,28 +1,32 @@
 pipeline {
     agent any
 
+    environment {
+        // Define a list of Python packages to install
+        PYTHON_PACKAGES = 'pylint==2.12.2'
+    }
+            
+
     stages {
-        stage('Code Checkout') {
+        stage('Checkout') {
             steps {
                 git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
             }
         }
-      
-   
-        stage('Install dependencies') {
-    steps {
-        // Create a virtual environment
-        sh 'python3 -m venv venv'
-        // Activate the virtual environment
-        sh '. venv/bin/activate && pip install -r requirements.txt'
-    }
-}
 
+
+            
+        stage('Install dependencies') {
+            steps {
+                // Install the specified Python packages
+                sh "pip install ${env.PYTHON_PACKAGES}"
+            }
+        }
 
         stage('Static code analysis') {
             steps {
                 // Run pylint on your Python code
-                sh 'app.py'
+                sh 'pylint your_python_script.py'
             }
             post {
                 always {
@@ -55,4 +59,3 @@ pipeline {
         }
     }
 }
-
