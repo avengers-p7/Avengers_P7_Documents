@@ -71,6 +71,7 @@ Go to your Jenkins `Dashboard`,
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/7500f744-07c5-4579-a823-1a4383ac3fd8)
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/ac4ad734-fe8d-40ac-82c2-a4676cdf295a)
 
 5. **Configure  your pipeline**
 
