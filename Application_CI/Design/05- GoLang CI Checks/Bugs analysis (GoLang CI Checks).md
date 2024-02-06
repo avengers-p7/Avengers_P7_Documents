@@ -33,7 +33,7 @@ This document provides a detailed analysis of bugs, focusing on the importance o
 
 In software development, a **'bug'** refers to an error, flaw, or unexpected behavior in a software application. Bugs can manifest in various forms, such as incorrect output, system crashes, or unexpected behavior. The goal of bug analysis is to identify, categorize, and understand these issues to facilitate effective resolution.
 
-![image](https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/7e0ebcf8-81ea-4db1-991e-56fe1afe0709)
+<img width="560" length="100" alt="Golang" src="https://github.com/Parasharam-DevOps/Avenger-P7/assets/132131379/7e0ebcf8-81ea-4db1-991e-56fe1afe0709">
 
 ## More on Bug Life Cycle in Software Development:
 
@@ -113,6 +113,4 @@ Effective bug tracking and management is crucial for successful software develop
 |  **Description**                               |   **Source**                                              |
 |---------------------------------------------------------|-----------------------------------------------------------------------|
 | Understand the concept of bugs in software development. | [Link](https://www.bacareers.in/what-is-bug-in-software-development/) |
-|  Comparison  | https://smirnov-am.github.io/python-linters-for-better-code-quality/ | 
-
-Understanding and addressing these factors contributes to a more user-friendly and efficient software development process.
+|  Comparison  | [Link](https://smirnov-am.github.io/python-linters-for-better-code-quality/) | 
