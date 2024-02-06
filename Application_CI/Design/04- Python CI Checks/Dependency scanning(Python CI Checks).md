@@ -33,6 +33,16 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 
 ## Proof of Concept
 ### Pre-requisite
+| **Pre-requisite** | **Version** |
+| ------------------ | -------- |
+| Java | 17 |
+| OWASP Dependency-check | -- |
+***
+### OWASP Dependency-check Installation
+* Click this  [**Link**](https://owasp.org/www-project-dependency-check/) to download the zip file of OWASP 
+
+<img width="700" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/ee5ace88-343b-41bd-adec-d69d14fc42d7">
+
 ***
 ## Conclusion
 Implementing dependency scanning with OWASP for Python CI checks strengthens our security posture by proactively identifying and mitigating vulnerabilities in project dependencies. By integrating OWASP tools into our CI pipeline, we enhance our ability to deliver secure and reliable software to our users.
@@ -50,3 +60,5 @@ Implementing dependency scanning with OWASP for Python CI checks strengthens our
 | Source | Description |
 | ------ | ----------- |
 | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning/%20README.md) | Introduction of Dependency scanning |
+| [Link](https://owasp.org/www-project-dependency-check/) | For Installation |
+ 
