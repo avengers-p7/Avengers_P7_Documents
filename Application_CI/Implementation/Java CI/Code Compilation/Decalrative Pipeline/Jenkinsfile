@@ -10,9 +10,14 @@ pipeline {
             }
         }
         
+        stage('Checkout GIT') {
+            steps {
+                sh 'echo "Starting Java Code Compilation.........."'}
+        }
+        
         stage('mvn compile') {
             steps {
-            sh 'mvn compile'
+            sh 'mvn clean compile'
             }
         }
     }
