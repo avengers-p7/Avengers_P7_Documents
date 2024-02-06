@@ -9,16 +9,11 @@ pipeline {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/OT-MICROSERVICES/salary-api.git']])
             }
         }
-        
-        stage('Checkout GIT') {
+        stage('Starting Code Compilation ') {
             steps {
                 sh 'echo "Starting Java Code Compilation.........."'}
+                sh 'mvn clean compile'
         }
-        
-        stage('mvn compile') {
-            steps {
-            sh 'mvn clean compile'
-            }
         }
     }
 }
