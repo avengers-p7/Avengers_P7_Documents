@@ -18,7 +18,7 @@ pipeline {
         stage('Static code analysis') {
             steps {
                 // Run pylint for static code analysis
-                sh '/home/bishtji5828/.local/bin app.py'
+                sh '/home/bishtji5828/.local/lib/python3.8/site-packages/pylint typing.py'
                 // You need to specify the path to your Python files that you want to analyze with pylint
             }
         }
