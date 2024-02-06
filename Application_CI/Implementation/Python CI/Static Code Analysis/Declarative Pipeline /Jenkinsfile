@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Code Checkout') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/OT-MyGurukulam/OT-Attendance']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'git@github.com:avengers-p7/Attendance-API.git']])
             }
         }
       
