@@ -1,7 +1,7 @@
 # Dependency Scanning ( Python CI Checks ) (POC)
 | Author                 | Created On | Last Updated | Document Version | Last Updated By |
 | ---------------------- | ---------- | ------------ | ---------------- | --------------- |
-| Vishal Kumar Kesarwani | 30-01-2024 | 01-02-2024   | v1               |  Vishal         |
+| Vishal Kumar Kesarwani | 30-01-2024 | 06-02-2024   | v1               |  Vishal         |
 ***
 
 ## Table of Contents 
@@ -33,6 +33,8 @@ Dependency scanning is vital in contemporary software development for securing a
 OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects.
 ***
 ## Flow Diagram
+
+![Screenshot from 2024-02-07 01-08-01](https://github.com/avengers-p7/Documentation/assets/156056413/6f0502b3-70c9-4ae6-b6e1-3bed8f7fecae)
 
 ***
 ## Proof of Concept
