@@ -9,6 +9,7 @@
 + [Dependency scanning](#Dependency-scanning)
 + [OWASP](#OWASP-Dependency-Check )
 + [Proof of Concept](#Pre-requisite)
++ [Dependency Scanning (POC) in Other Languages](#Dependency-Scanning-(POC)-in-Other-Languages)
 + [Conclusion](#Conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
@@ -36,29 +37,56 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 | **Pre-requisite** | **Version** |
 | ------------------ | -------- |
 | Java | 17 |
-| OWASP Dependency-check | -- |
+| OWASP Dependency-check | 9.0.9 |
 ***
-### OWASP Dependency-check Installation
+**OWASP Dependency-check Installation**
 * Click this  [**Link**](https://owasp.org/www-project-dependency-check/) to download the zip file of OWASP .
 
  <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/ee5ace88-343b-41bd-adec-d69d14fc42d7">
 
-* After downloading the zip file into local system, send it to the remote server.
+**After downloading the zip file into local system, send it to the remote server.**
   ```shell
   scp -i "key.pem" dependency-check-9.0.9-release.zip ubuntu@35.78.171.107:/home/ubuntu
   ```
-* First make a directory, then Within that directory clone the below repository
+  <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/fc1fc54f-f4cd-4550-8364-960c4ff2494f">
+ 
+**First make a directory, then Within that directory clone the below repository**
   ```shell
   mkdir python
   cd python
   git clone https://github.com/OT-MICROSERVICES/attendance-api.git
-  ``` 
- <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/ee5ace88-343b-41bd-adec-d69d14fc42d7">
+  ```
+  
+  <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/5bdf726a-6a11-4232-a1c4-12a85afd7ff1">
 
+**Java Installation**
+  ```shell
+  sudo apt update
+  sudo apt install openjdk-17-jdk
+  ```
+ <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/e67c94c0-d241-4a3f-85a3-40453c9aea9c">
 
-<img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/fc1fc54f-f4cd-4550-8364-960c4ff2494f">
- 
+**Unzip the above zip file, now you will see `dependemcy-check` directory, enter into the directory  and check the dependency and generate html file.**
+  ```shell
+  cd /home/ubuntu/
+  unzip dependency-check-9.0.9-release.zip
+  cd dependemcy-check/bin/
+  ./dependency-check.sh --scan /home/ubuntu/python/attendance-api --out dep-check.html
+  ```
+
+  <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/d63d413e-5435-44fb-84e0-355a5e24ac8c">
+  <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/948b429f-9d04-4b6d-b6a4-81cd33adb822">
+
+**HTML Report**
+  <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/8226250b-15b1-44ae-91d6-491284109b15">
 ***
+
+## Dependency Scanning (POC) in Other Languages
+* For Java , refer to this link : [**Java**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning%20POC/README.md)
+* For Go , refer to this link : [**Go**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Dependency%20scanning%20POC%20(GoLang%20CI%20Checks).md)
+  
+***
+
 ## Conclusion
 Implementing dependency scanning with OWASP for Python CI checks strengthens our security posture by proactively identifying and mitigating vulnerabilities in project dependencies. By integrating OWASP tools into our CI pipeline, we enhance our ability to deliver secure and reliable software to our users.
 ***
