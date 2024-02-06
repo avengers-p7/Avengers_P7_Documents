@@ -23,7 +23,7 @@ Disaster Recovery (DR) is a strategic and systematic approach to safeguarding an
 
 The primary goal of a DR plan is to minimize downtime, data loss, and operational disruptions, ensuring business continuity in the face of adversity. The overall aim is to enable organizations to resume normal operations as quickly and efficiently as possible following a disruptive event.
 
-For a more detailed understanding of Disaster recovery and its components, please refer to the following link: [Detailed Description of High Availability](https://github.com/avengers-p7/Documentation/tree/main/Application_CI/Design/DevOps%20Practices/DisasterRecovery).
+For a more detailed understanding of Disaster recovery and its components, please refer to the following link: [Detailed Description of Disaster Recovery](https://github.com/avengers-p7/Documentation/tree/main/Application_CI/Design/DevOps%20Practices/DisasterRecovery).
 
 
 *** 
