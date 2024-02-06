@@ -10,7 +10,7 @@ node {
             }
         '''
         // Execute the job DSL to create the Freestyle job
-        build jobDSL
+        jobDsl scriptText: jobDSL
     }
 
     // Post-build actions
@@ -24,5 +24,4 @@ node {
         slackSend(color: '#ff0000', message: "Scripted Job failed!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
     }
 }
-
 
