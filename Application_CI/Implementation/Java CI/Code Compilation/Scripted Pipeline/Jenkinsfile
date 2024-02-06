@@ -3,7 +3,7 @@ node {
         checkout scm: [
             $class: 'GitSCM',
             branches: [[name: '*/main']],
-            userRemoteConfigs: [[url: 'https://github.com/OT-MICROSERVICES/salary-api.git']]
+            userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']]
         ]
         sh 'ls $WORKSPACE/'
     }
