@@ -7,7 +7,7 @@ pipeline {
                 script {
                     // Define the DSL for creating a Freestyle job
                     def jobDSL = '''
-                        job('Freestyle-Jobb') {
+                        job('Freestyle-Job') {
                             description('This is a sample Freestyle job created using a Declarative Pipeline')
                             steps {
                                 shell('echo "Hello, world!"')
