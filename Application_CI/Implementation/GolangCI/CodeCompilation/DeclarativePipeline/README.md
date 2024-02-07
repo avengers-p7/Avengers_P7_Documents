@@ -3,6 +3,14 @@
 | Khushi Malhotra |  07 Jan 2024  |  Version 1 | Khushi Malhotra  | 08 Jan 2024    |
 ***
 
+# Table of Contents
+- [Declarative Pipeline-Go Lang Code Compilation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#declarative-pipeline-go-lang-code-compilation)
+- [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#pre-requisites)
+- [Code-Compilation Setup](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#code-compilation-setup)
+- [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#conclusion)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#contact-information)
+- [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#resources-and-references)
+
 # Declarative Pipeline-Go Lang Code Compilation
 Building and deploying Go APIs can be streamlined through continuous integration and continuous delivery (CI/CD) pipelines. Declarative pipelines in Jenkins offer a robust and readable approach to automate Go code compilation. 
 Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, to define pipeline stages and steps in a more structured and human-readable format. This promotes maintainability and easier understanding of the build process.
@@ -88,4 +96,5 @@ declarative pipeline offers a simpler, more structured approach to defining Jenk
 
 # Resources and References 
 [Compile Code](https://go.dev/doc/tutorial/compile-install)
+
 [Jenkins pipeline](https://www.jenkins.io/doc/book/pipeline/#:~:text=Scripted%20Pipeline%20syntax.-,Declarative%20Pipeline%20fundamentals,done%20throughout%20your%20entire%20Pipeline.&text=Execute%20this%20Pipeline%20or%20any,stages%2C%20on%20any%20available%20agent.&text=Defines%20the%20%22Build%22%20stage.&text=Perform%20some%20steps%20related%20to%20the%20%22Build%22%20stage.)
