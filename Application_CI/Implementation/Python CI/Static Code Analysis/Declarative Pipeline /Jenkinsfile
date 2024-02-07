@@ -7,22 +7,33 @@ pipeline {
                 git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
             }
         }
-        
-        stage('Install dependencies') {
+
+        stage('Create Virtual ENV') {
             steps {
-                // Install dependencies using pip
-                sh 'pip install -r requirements.txt'
+                script {
+                    sh 'python3 -m venv myenv'
+                    sh '. myenv/bin/activate'
+                }
             }
         }
-        
-        stage('Static code analysis') {
+
+        stage('Install dependencies') {
             steps {
-                // Run pylint for static code analysis
-                sh 'pylint router/ client/ models/ utils/ app.py | tee pylint.log'
+                script {
+                    sh 'python3 -m pip install -r requirements.txt'
+                }
+            }
+        }
+
+        stage('Static Code Analysis') {
+            steps {
+                script {
+                    sh 'pylint router/ client/ models/ utils/ app.py | tee pylint.log'
+                }
             }
         }
     }
-    
+
     post {
         always {
             // Archive pylint reports
