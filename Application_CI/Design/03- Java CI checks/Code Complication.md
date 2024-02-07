@@ -1,4 +1,4 @@
-# Documentation of Code Compliation
+# Documentation of Code Compilation of Java 
 
 |Author  | Created on |version | last updated on|
 |--------|------------|---------|----------------|
@@ -8,7 +8,7 @@
 # Table of Content
 
 1.  [Introduction](#introduction)
-2.  [What](#What-is-java-CI-Code-Compilation)
+2.  [Whatis Java CI Code Compilation ](#What-is-java-CI-Code-Compilation)
 3.  [Java Tools](#java-tools)
 4.  [Tool Comparison](#comparison)
 5.  [Best Practices](#best-practices)
@@ -25,15 +25,15 @@ Java CI code compilation in the context of checking in code. Continuous Integrat
 
 **Definition**: Continuous Integration is a development practice where developers frequently integrate their code changes into a shared repository. Each integration triggers automated processes such as builds, tests, and validations.
 
-**Objective**: To detect and address integration issues early in the development process, ensuring a consistent and reliable codebase.
+**Objective**: To detect and address integration issues early in development, ensuring a consistent and reliable codebase.
 
 ***
 
-# What is java CI Code Compilation
+# What is Java CI Code Compilation
 
 ***Java CI (Continuous Integration)**:
 
-CI refers to the practice of continuously integrating code changes from multiple contributors into a shared repository. CI systems automate the process of building, testing, and validating code changes. Common CI tools for Java include Jenkins, Travis CI, GitLab CI, and others.
+CI refers to the practice the development process of continuously integrating code changes from multiple contributors into a shared repository. CI systems automate the process of building, testing, and validating code changes. Common CI tools for Java include Jenkins, Travis CI, GitLab CI, and others.
 
 ***Code Compilation**
 
@@ -41,11 +41,11 @@ Code compilation is the process of converting human-readable source code into ma
 
 ***
 
-# Different Tools for java compilation
+# Different Tools for Java compilation
 
 In the Java ecosystem, there are several tools commonly used for compiling Java code. Here are some of the prominent ones
 
-**1.Java Compiler (javac)**: The standard Java Compiler provided with the Java Development Kit (JDK). It is a command-line tool for compiling Java source code files (.java) into bytecode (.class) files.
+**1.Java Compiler (Javac)**: The standard Java Compiler provided with the Java Development Kit (JDK). It is a command-line tool for compiling Java source code files (.java) into bytecode (.class) files.
 
 **Example** 
 
