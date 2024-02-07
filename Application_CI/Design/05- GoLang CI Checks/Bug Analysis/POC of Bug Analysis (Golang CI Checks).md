@@ -11,6 +11,7 @@
 ## Table of Contents
 
 + [Introduction](#introduction)
++ [Bug Analysis](#Bug-Analysis)
 + [Flow Diagram](#Flow-Diagram)
 + [Proof of Concept](#Proof-of-Concept)
 + [Conclusion](#Conclusion)
@@ -23,6 +24,10 @@
 <img width="360" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/b415529d-49f0-44dc-b07c-52a67228c78e">
 
 Golangci-lint is just a fast linter for Go. Now, a linter is a tool that inspects code files using a set of rules that identify issues that lead to misunderstanding, result in unexpected outcomes, or make the code harder to read. Additionally, linter can aid in identifying potential defects in the code, such as undeclared variable assignment, which can result in runtime errors, retrieving the value from a global variable, which complicates debugging, and other issues.  
+For more information cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Bug%20Analysis/Introduction%20of%20Bugs%20analysis%20(GoLang%20CI%20Checks).md)
+***
+## Bug Analysis
+In software development, a 'bug' refers to an error, flaw, or unexpected behavior in a software application. Bugs can manifest in various forms, such as incorrect output, system crashes, or unexpected behavior. The goal of bug analysis is to identify, categorize, and understand these issues to facilitate effective resolution.  
 For more information cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Bug%20Analysis/Introduction%20of%20Bugs%20analysis%20(GoLang%20CI%20Checks).md)
 ***
 ## Flow-Diagram
