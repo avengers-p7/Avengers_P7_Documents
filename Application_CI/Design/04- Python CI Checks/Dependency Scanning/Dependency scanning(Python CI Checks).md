@@ -87,7 +87,8 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
   <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/d63d413e-5435-44fb-84e0-355a5e24ac8c">
   <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/948b429f-9d04-4b6d-b6a4-81cd33adb822">
 
-**HTML Report**
+**HTML Report**  
+  * [**HTML Report**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20Scanning%20Report.html)
   <img width="900" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/8226250b-15b1-44ae-91d6-491284109b15">
 ***
 
