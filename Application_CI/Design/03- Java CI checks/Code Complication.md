@@ -31,11 +31,11 @@ Java CI code compilation in the context of checking in code. Continuous Integrat
 
 # What is Java CI Code Compilation
 
-***Java CI (Continuous Integration)**:
+**Java CI (Continuous Integration)**:
 
 CI refers to the practice the development process of continuously integrating code changes from multiple contributors into a shared repository. CI systems automate the process of building, testing, and validating code changes. Common CI tools for Java include Jenkins, Travis CI, GitLab CI, and others.
 
-***Code Compilation**
+**Code Compilation**
 
 Code compilation is the process of converting human-readable source code into machine-readable code or bytecode that can be executed by a computer. In Java, this typically involves using a compiler (e.g., javac) to convert .java source files into .class files
 
