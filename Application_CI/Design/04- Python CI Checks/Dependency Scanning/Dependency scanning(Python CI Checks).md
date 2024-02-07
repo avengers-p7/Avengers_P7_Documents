@@ -25,7 +25,7 @@ Dependency scanning is vital in contemporary software development for securing a
 
 * The scanning process is typically automated and integrated into the development workflow, often as part of continuous integration or continuous delivery (CI/CD) pipelines. It serves as a crucial post-build process examines the project's dependencies to identify any known vulnerabilities, outdated versions, or security issues. 
 
-* For more detail click [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning/%20README.md)      
+* For more detail click [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20Scanning%20Introduction.md)      
 ***
 ## OWASP Dependency-Check    
 <img width="360" length="300" alt="OWASP" src="https://github.com/avengers-p7/Documentation/assets/156056413/4b0dadd1-816c-49d1-8436-b8d68ebe1c4c">  
@@ -112,7 +112,7 @@ Implementing dependency scanning with OWASP for Python CI checks strengthens our
 
 | Source | Description |
 | ------ | ----------- |
-| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning/%20README.md) | Introduction of Dependency scanning |
+| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20Scanning%20Introduction.md) | Introduction of Dependency scanning |
 | [Link](https://medium.com/@sudheer.barakers/integrate-owasp-dependency-check-in-jenkins-pipeline-748d8aefc2b7) | OWASP |
 | [Link](https://owasp.org/www-project-dependency-check/) | For Installation |
  
