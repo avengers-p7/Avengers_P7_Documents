@@ -1,1 +1,63 @@
 
+pipeline {
+    agent any
+    
+    environment {
+        // Define environment variables if needed
+        // Example: PATH = '/usr/local/bin:$PATH'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the source code from your version control system (e.g., Git)
+                git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git'
+            }
+        }
+        
+        stage('Dependency Scanning') {
+            steps {
+                // Install OWASP Dependency-Check
+                sh 'wget https://dl.bintray.com/jeremy-long/owasp/dependency-check-6.3.0-release.zip'
+                sh 'unzip dependency-check-6.3.0-release.zip'
+                
+                // Run OWASP Dependency-Check for GoLang project
+                sh './dependency-check/bin/dependency-check.sh --scan ./your-golang-project -f JSON -o dependency-report'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                // Execute build commands
+                sh 'make build' // Example: Use Makefile for building
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                // Execute test commands
+                sh 'make test' // Example: Use Makefile for testing
+            }
+        }
+        
+        stage('Deploy') {
+            when {
+                branch 'master' // Only deploy from the master branch
+            }
+            steps {
+                // Execute deployment commands
+                sh 'make deploy' // Example: Use Makefile for deployment
+            }
+        }
+    }
+    
+    post {
+        always {
+            // Archive dependency report for reference
+            archiveArtifacts artifacts: 'dependency-report/**'
+            
+            // Clean up workspace after build
+            cleanWs()
+        }
+    }
+}
