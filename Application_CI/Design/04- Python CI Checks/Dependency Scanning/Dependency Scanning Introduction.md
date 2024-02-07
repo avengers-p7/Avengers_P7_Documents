@@ -1,5 +1,5 @@
 
-# Dependency Scanning
+# Dependency Scanning (Python CI)
 | Author                 | Created On | Last Updated | Document Version | Last Updated By |
 | ---------------------- | ---------- | ------------ | ---------------- | --------------- |
 | Vishal Kumar Kesarwani | 30-01-2024 | 06-02-2024   | v1               |  Vishal         |
