@@ -20,6 +20,8 @@ node {
         always {
             archiveArtifacts artifacts: '**/pylint.log', allowEmptyArchive: true
         }
+        success {
+            echo 'Pipeline executed successfully!'
+        }
     }
 }
-
