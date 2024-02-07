@@ -17,6 +17,8 @@
 + [Why is Bug Analysis Important?](#why-is-bug-analysis-important)
 + [Factors Leading to Bugs](#factors-leading-to-bugs)
 + [Bug Analysis Advantages](#bug-analysis-advantages)
++ [Tools Comparison](#Tools-Comparison)
++ [Why use GoLangCI-lint](#Why-use-GoLangCI-lint)
 + [Best Practices for Bug Tracking and Management](#best-practices-for-bug-tracking-and-management)
 + [Contact Information](#contact-information)
 + [Resources and References](#resources-and-references)
