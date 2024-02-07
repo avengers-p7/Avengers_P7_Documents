@@ -16,8 +16,13 @@ pipeline {
         stage('Owasp DP-Check') {
             steps {
                 // Run Dependency-Check with additional arguments and format HTML
-                dependencyCheck additionalArguments: '--scan target/ --format HTML', odcInstallation: 'DP-check',
-                                dependencyCheckPublisherPattern: '**/dependency-check-report.html'
+                dependencyCheck additionalArguments: '--scan target/ --format ALL', odcInstallation: 'DP-check'
+            }
+            post {
+                // Archive only the HTML report as artifact
+                always {
+                    archiveArtifacts artifacts: '**/dependency-check-report.html'
+                }
             }
         }
     }
