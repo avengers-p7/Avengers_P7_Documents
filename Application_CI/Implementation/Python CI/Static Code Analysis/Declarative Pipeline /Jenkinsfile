@@ -18,7 +18,7 @@ pipeline {
         stage('Static code analysis') {
             steps {
                 // Run pylint for static code analysis
-                sh 'sudo - S /var/lib/jenkins/workspace/Python_Static_Declerative/ app.py'
+                sh ' pylint /var/lib/jenkins/workspace/Python_Static_Declerative/ app.py'
                      
 
                 // You need to specify the path to your Python files that you want to analyze with pylint
