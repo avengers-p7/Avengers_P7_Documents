@@ -80,7 +80,7 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
   ```shell
   cd /home/ubuntu/
   unzip dependency-check-9.0.9-release.zip
-  cd dependemcy-check/bin/
+  cd dependency-check/bin/
   ./dependency-check.sh --scan /home/ubuntu/python/attendance-api --out dep-check.html
   ```
 
