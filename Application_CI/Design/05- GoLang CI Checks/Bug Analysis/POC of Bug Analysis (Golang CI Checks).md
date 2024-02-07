@@ -13,13 +13,15 @@
 + [Introduction](#introduction)
 + [](#)
 + [](#)
++ [Conclusion](#Conclusion)
 + [Contact Information](#contact-information)
 + [Resources and References](#resources-and-references)
 
 ***
 ## Introduction
 ***
-
+## Conclusion
+***
 ## Contact Information
 
 | Name | Email address |
