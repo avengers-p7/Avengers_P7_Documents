@@ -18,8 +18,7 @@ pipeline {
         stage('Static code analysis') {
             steps {
                 // Run pylint for static code analysis
-            sh 'pylint router/ client/ models/ utils/ app.py' | tee pylint.log'
-
+                sh 'pylint router/ client/ models/ utils/ app.py | tee pylint.log'
             }
         }
     }
