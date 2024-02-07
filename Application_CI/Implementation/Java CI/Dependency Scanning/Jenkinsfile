@@ -1,1 +1,13 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the code from a Git repository
+                checkout([$class: 'GitSCM', branches: [[name: 'main']], userRemoteConfigs: [[url: 'https://github.com/avengers-p7/Documentation.git']]])
+            }
+        }
+    }
+}
 
