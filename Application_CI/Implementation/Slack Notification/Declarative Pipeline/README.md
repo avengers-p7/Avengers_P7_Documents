@@ -22,7 +22,7 @@
 
 # Introduction
 
-This document provides a detailed guide on implementing Slack notifications, including an introduction to Slack incoming webhooks, step-by-step instructions, and a Proof of Concept (POC) to demonstrate the integration.**Slack notification** integration is a valuable feature that allows you to keep your team informed and engaged by sending notifications directly to your Slack channels. This can be achieved using Slack's incoming webhooks, a simple and effective way to push messages from external sources into Slack.
+In modern software development, keeping everyone in the loop about code changes is crucial. With Jenkins and its Declarative Pipelines, we can easily set up notifications on Slack to let the team know about build results. By storing our pipeline configuration in a Jenkinsfile on GitHub, we make the process simple and automated, ensuring everyone stays informed about the status of our projects.
 
 ***
 
@@ -150,6 +150,8 @@ pipeline {
 
 # Conclusion
 
+In summary, integrating Slack notifications with Jenkins through Declarative Pipelines simplifies communication in software teams. With our pipeline configuration stored on GitHub, we streamline the process and ensure everyone receives timely updates on build outcomes. This straightforward approach promotes collaboration and keeps the team aligned, ultimately leading to smoother development cycles and faster problem-solving.
+
 ***
 
 # Contact Information
@@ -164,9 +166,8 @@ pipeline {
 
 | **Source** | **Description** |
 | ---------- | --------------- |
-| https://plugins.jenkins.io/slack | Link for Jenkins Configuration |
-| https://medium.com/appgambit/integrating-jenkins-with-slack-notifications-4f14d1ce9c7a |  Integration Jenkins with slack |
-| https://slack.com/apps/A0F7VRFKN-jenkins-ci | Link for Jenkins CI |
+| https://eavnitech.com/blog/send-notification-to-slack-from-the-Jenkins-CI-job-and-jenkinsfile/ |  Integration Jenkins with slack |
+| https://naiveskill.com/jenkins-pipeline-slack-notification/ | Link for Jenkins CI |
 
 
 
