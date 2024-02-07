@@ -64,7 +64,7 @@ pipeline {
 
 **Step-4** Build the Pipeline:
 
-Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
+- Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
 
 **Step-5** View Build Console Output:
 
@@ -76,7 +76,7 @@ Once the pipeline configuration is saved, you can manually trigger the build by 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/4ee715d7-d9b9-463d-ba4b-b93c19430790)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/479f10ed-1800-4b0e-8189-c568d76e71a6)
 
-You should see the output of the go list -f '{{.Target}}' command, which indicates the compiled binary target.
+- You should see the output of the go list -f '{{.Target}}' command, which indicates the compiled binary target.
 
 # Conclusion
 declarative pipeline offers a simpler, more structured approach to defining Jenkins pipelines, making it ideal for teams looking to streamline their CI/CD processes and improve pipeline readability, maintainability, and scalability.
@@ -88,3 +88,4 @@ declarative pipeline offers a simpler, more structured approach to defining Jenk
 
 # Resources and References 
 [Compile Code](https://go.dev/doc/tutorial/compile-install)
+[Jenkins pipeline](https://www.jenkins.io/doc/book/pipeline/#:~:text=Scripted%20Pipeline%20syntax.-,Declarative%20Pipeline%20fundamentals,done%20throughout%20your%20entire%20Pipeline.&text=Execute%20this%20Pipeline%20or%20any,stages%2C%20on%20any%20available%20agent.&text=Defines%20the%20%22Build%22%20stage.&text=Perform%20some%20steps%20related%20to%20the%20%22Build%22%20stage.)
