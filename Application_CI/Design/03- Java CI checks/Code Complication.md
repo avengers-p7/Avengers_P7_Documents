@@ -140,6 +140,17 @@ Continuous Integration (CI) specifically for Java code compilation, there are se
 
 ***
 
+# Why Use Maven ?
+
+Maven is a popular build automation tool primarily used for managing dependencies and the build process in Java projects. While Maven is not directly responsible for code compilation itself (that's typically handled by the Java compiler), it plays a crucial role in facilitating and streamlining the compilation process. Here's why Maven is commonly used in code compilation:
+
+| Components | Description |
+|------------|-------------|
+|Dependency Management |Maven simplifies the process of managing project dependencies. Instead of manually downloading and configuring external libraries, Maven allows you to specify dependencies in a declarative manner in the project's pom.xml file. Maven then automatically downloads the required dependencies from remote repositories, ensuring that all necessary libraries are available for compilation|
+|Lifecycle Management| Maven defines a set of standard build phases and goals, organized into build lifecycles. This standardization simplifies the build process and allows developers to execute common tasks (such as compilation, testing, packaging, and deployment) using predefined commands (mvn clean install, for example). Maven plugins can extend these lifecycles to accommodate custom requirements|
+|Plugin Ecosystem | Maven boasts a vast ecosystem of plugins that extend its functionality to support various tasks and integrations. These plugins can automate tasks such as code generation, documentation generation, static code analysis, and deployment to different environments. For example, the Maven Compiler Plugin integrates with the Java compiler to compile source code during the build process|
+|Build Reproducibility| Maven promotes build reproducibility by enforcing version control and dependency management best practices. By specifying dependencies and build configurations in the pom.xml file, Maven ensures that builds are reproducible across different environments and over time.|
+
 # Proof of concepts (POC)
 
 
