@@ -36,7 +36,24 @@ For more information cilck [**here**](https://github.com/avengers-p7/Documentati
 ## Flow-Diagram
 ***
 ## Proof of Concept
+### Pre-Requisites
+| **Pre-Requisites** | **Version** |
+| ------------------ | ----------- |
+| Golang | 1.21.6 |
+| GoLangCI-lint | 1.55.2
 ***
+### POC
+**Installation Pre-Requisites**
+  * Install go
+    ```shell
+    sudo apt update
+    sudo snap install go --classic
+    ```
+    <img width="360" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/0cca8aab-35f2-4557-8007-a38d99f19d7f">
+
+  * Install GoLangCI-lint
+  
+
 ## Conclusion
 we covered the process of installing Go first as a prerequisite. We then covered installation of golangci-lint and finally how can it be configured specifically and then be used in our Go programs to lint our code. By having golangci-lint at our disposal, We can ensure your code is top-notch and easy to understand. With Go and golangci-lint, maintaining great code quality and catching potential issues becomes an integral part of our coding journey.
 ***
