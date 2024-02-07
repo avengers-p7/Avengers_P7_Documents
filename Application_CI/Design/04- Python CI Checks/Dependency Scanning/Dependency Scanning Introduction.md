@@ -34,6 +34,19 @@
 ***
 ## Tool Comparison 
 
+| Feature               | OWASP Dependency-Check | Safety              | Snyk                | Bandit              |
+|-----------------------|------------------------|---------------------|---------------------|---------------------|
+| **Primary Focus**     | Vulnerability scanning | Vulnerability scanning | Vulnerability scanning | Security linting   |
+| **Supported Languages** | Java, Python, .NET, others | Python            | Multiple (including Python) | Python            |
+| **Integration**       | CI/CD pipelines, IDEs  | CI/CD pipelines     | CI/CD pipelines, IDEs | Command-line, CI/CD |
+| **Vulnerability Database** | NVD, NPM, RubyGems, etc. | PyUp.io         | Proprietary database | N/A                 |
+| **Community Support** | Active and collaborative | Active              | Active              | Active              |
+| **Ease of Use**       | Easy to integrate with existing pipelines | Simple command-line interface | Easy to integrate with CI/CD | Command-line tool |
+| **Customization**     | Allows for customizing checks and reporting | Limited customization | Offers some customization options | Limited customization |
+| **Reporting**         | Various output formats (HTML, XML, JSON) | Command-line output | Web interface, command-line | Command-line output |
+| **License**           | Apache License 2.0     | MIT License         | Proprietary        | Apache License 2.0  |
+| **Open Source**       | Yes                    | Yes                 | No                  | Yes                 |
+
 ***
 ## Why Choose OWASP
 
