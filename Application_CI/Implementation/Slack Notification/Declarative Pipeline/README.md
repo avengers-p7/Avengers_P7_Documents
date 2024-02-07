@@ -10,13 +10,13 @@
 
 # Table Of Contents
 
-1. [Introduction](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#introduction)
-2. [Pre-requisites](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#pre-requisites)
-3. [Architecture](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#Architecture)
-4. [Slack Notification Setup](https://github.com/avengersp7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#slacknotificationsetup)
-5. [Conclusion](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#conclusion)
-6. [Contact Information](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#contactinformation)
-7. [Reference](https://github.com/avengers-p7/Documentation/edit/main/Application_CI/Design/Slack_Notification.md#reference)
+1. [Introduction](#introduction)
+2. [Pre-requisites](#pre-requisites)
+3. [Slack Notification Setup](#slack-notification-setup)
+4. [Pipeline](#Pipeline)
+5. [Conclusion](#conclusion)
+6. [Contact Information](#contact-information)
+7. [Reference](#reference)
 
 ***
 
@@ -71,10 +71,6 @@ This step includes the steps for "Password" or "Secret Text" creation,which is a
 
 ***
 
-# Slack Notification Plugin
-
-***
-
 **Step-4 Jenkins Configuration** 
 
 Setting up Jenkins Global Configuration for Slack notifications allows you to centralize and manage Slack-related settings at a global level. This global configuration provides a convenient way to store and share common information, such as Slack team domain and integration tokens, across multiple Jenkins jobs.
@@ -85,13 +81,17 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 ***
 
-# Jenkinsfile Path in Configuration
+**Slack Notification Plugin**
+
+***
+
+**Jenkinsfile Path in Configuration**
 
 <img width="647" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/e84727c9-84e7-4b99-847c-3a1955ab83da">
 
 ***
 
-# Console Output
+**Console Output**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/c00b8ea1-4282-4519-9ab6-40e2be285181)
 
@@ -101,7 +101,7 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 ***
 
-# Slack Notification Result
+**Slack Notification Result**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/2cb31288-be30-47e1-b4fe-6f7c1a9f1491)
 
