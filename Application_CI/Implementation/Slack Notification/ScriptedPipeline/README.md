@@ -89,59 +89,54 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 **Jenkinsfile Path in Configuration**
 
-<img width="647" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/e84727c9-84e7-4b99-847c-3a1955ab83da">
+<img width="650" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/530a0fab-6b26-4d94-a706-dcf6edb41f60">
 
 ***
 
 **Console Output**
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/c00b8ea1-4282-4519-9ab6-40e2be285181)
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/51079ecb-db54-4e52-89e0-365a700d7935)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/4bbf42c0-1d39-4c90-9e6e-db9ed35dce4c)
-
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/f0131f03-0e8e-47f5-a95e-e15cc6bc9588)
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/78ef92ed-90ef-456d-947a-a5042eb211c3)
 
 ***
 
 **Slack Notification Result**
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/2cb31288-be30-47e1-b4fe-6f7c1a9f1491)
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/ca5183a7-19a2-46bf-b707-ce050eeeed2f)
 
 ***
 
 # Pipeline
 
 ```shell
-pipeline {
-    agent any
-    
-    stages {
-        stage('Build') {
-            steps {
-                script {
-                    // Define the DSL for creating a Freestyle job
-                    def jobDSL = '''
-                        job('My-Freestyle-Job') {
-                            description('This is a sample Freestyle job created using a Declarative Pipeline')
-                            steps {
-                                shell('echo "Hello, world!"')
-                            }
-                        }
-                    '''
-                    // Execute the job DSL to create the Freestyle job
-                    jobDsl scriptText: jobDSL
+node {
+    stage('Build') {
+        // Define the DSL for creating a Freestyle job
+        def jobDSL = '''
+            job('Freestyle-Job') {
+                description('This is a sample Freestyle job created using a Scripted Pipeline')
+                steps {
+                    shell('echo "Hello, world!"')
                 }
             }
-        }
+        '''
+        // Execute the job DSL to create the Freestyle job
+        jobDsl scriptText: jobDSL
     }
-    
-    post {
-        success {
-            slackSend(color: '#36a64f', message: "Declarative Job completed successfully!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
-        }
-        failure {
-            slackSend(color: '#ff0000', message: "Declarative Job failed!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
-        }
+}
+
+try {
+    // Execute this block if the build succeeds
+    stage('Notify Success') {
+        // Send Slack notification for success
+        slackSend(color: '#36a64f', message: "Scripted Job completed successfully!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
+    }
+} catch (Exception e) {
+    // Execute this block if the build fails
+    stage('Notify Failure') {
+        // Send Slack notification for failure
+        slackSend(color: '#ff0000', message: "Scripted Job failed!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
     }
 }
 ```
