@@ -18,6 +18,9 @@
 9.  [References](#references)
 
 ***
+# Purpose 
+
+The purpose of code compilation in Java serve multiple critical functions within the software development process. Firstly, it acts as a stringent error-checking mechanism, verifying the syntax and semantics of the code to detect any potential issues before execution. By catching errors early in the development cycle, compilation helps developers identify and rectify bugs efficiently, reducing the likelihood of costly errors in production.
 
 # Introduction 
 
@@ -99,7 +102,7 @@ Here's a comparison table of some key features and characteristics of the mentio
 ***
 # Advantages
 
-| Advantage | javac	| Apache Maven |	Gradle	| Apache Ant |
+| Advantage | Javac	| Apache Maven |	Gradle	| Apache Ant |
 |------------|------|--------------|-----------|------------|
 | Ease of Use	| Simple and lightweight | Easy configuration with conventions |	Concise syntax with Groovy or Kotlin DSL	 | Flexible, but XML configuration can be verbose |
 |Dependency Management	| Manual	| Centralized dependency management (Central Repository)	| Powerful dependency management	| Manual, requires managing libraries manually | 
