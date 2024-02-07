@@ -18,7 +18,7 @@ pipeline {
         stage('Static code analysis') {
             steps {
                 // Run pylint for static code analysis
-                sh 'find . -name \\ app.py | xargs pylint | tee pylint.log'
+                sh 'find . -name \\ app.py | xargs /home/azureuser/.local/bin/pylint | tee pylint.log'
             }
         }
     }
