@@ -47,8 +47,6 @@ For a detailed understanding of the Bug Life Cycle, specifically focusing on the
 
 **Documentation Link:** [Bug Life Cycle Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/BugLifeCycle.md)
 
-
-
 ***
 
 ## Why is Bug Analysis Important?
@@ -83,7 +81,15 @@ In software development, several factors can contribute to the occurrence of bug
 
 ***
 ## Tools Comparison 
-
+| Feature           | GolangCI-Lint                                | Go Vet                                       | GoLint                                       | Staticcheck                                  |
+|-------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
+| **Description**       | GolangCI-Lint is a fast and concurrent Linter (static analysis tool) for Go code. It provides a comprehensive set of linters and can be easily integrated into your development workflow. | Go Vet is a tool that statically analyzes Go code for potential errors, such as incorrect function signatures or misuse of Go features. | GoLint is a linter for Go code that focuses on enforcing coding conventions and idiomatic practices. | Staticcheck is an advanced Go linter that identifies a wide range of bugs and suspicious constructs in Go code. It offers more extensive checks than the standard Go tools. |
+| **Configuration**     | Uses `.golangci.yml` for configuration. Allows configuring linters, exclude paths, and more. | No specific configuration file. | No specific configuration file. | No specific configuration file. |
+| **Performance**       | Performs linting concurrently, which can speed up analysis, especially in large projects. | Fast and lightweight. | Lightweight. | Fast and efficient, supports parallel linting. |
+| **Customization**     | Highly customizable with support for enabling/disabling specific linters, customizing rules, and more. | Limited customization compared to GolangCI-Lint. | Limited customization compared to GolangCI-Lint. | Provides a set of flags for customization but not as extensive as GolangCI-Lint. |
+| **Integration**       | Integrates well with CI/CD pipelines and various editors/IDEs. Supports popular integrations like GitLab CI, GitHub Actions, and others. | Can be integrated into CI/CD pipelines easily. | Can be integrated into CI/CD pipelines easily. | Integrates with CI/CD pipelines and some editors/IDEs. |
+| **Supported Linters** | Includes multiple linters out of the box, such as Go Vet, GoLint, Staticcheck, and more. | Provides basic checks for common mistakes and errors. | Focuses on style checks and adherence to Go coding conventions. | Offers extensive checks for bugs, performance issues, and more. |
+| **Community Support** | Actively maintained with a growing community. | Part of the official Go toolchain, ensuring continued support and updates. | Still used but not as actively maintained. | Actively maintained with a growing community. |
 ***
 ## Best Practices for Bug Tracking and Management
 
