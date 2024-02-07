@@ -11,7 +11,7 @@
 + [Tool Comparison](#tool-comparison)
 + [Why Choose OWASP?](#why-choose-owasp)
 + [Best Practices](#best-practices)
-+ [Security Compliance](#security-compliance)
++ [Security Compliance](#Security-and-Compliance)
 + [Contact Information](#contact-information)
 + [References](#references)
 
