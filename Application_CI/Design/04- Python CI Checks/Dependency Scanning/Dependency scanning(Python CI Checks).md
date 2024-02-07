@@ -113,7 +113,7 @@ Implementing dependency scanning with OWASP for Python CI checks strengthens our
 
 | Source | Description |
 | ------ | ----------- |
-| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20Scanning%20Introduction.md) | Introduction of Dependency scanning |
+| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20Scanning%20Introduction.md) | Introduction of Dependency scanning and Tool Comparison |
 | [Link](https://medium.com/@sudheer.barakers/integrate-owasp-dependency-check-in-jenkins-pipeline-748d8aefc2b7) | OWASP |
 | [Link](https://owasp.org/www-project-dependency-check/) | For Installation |
  
