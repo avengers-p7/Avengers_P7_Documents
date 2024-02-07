@@ -1,4 +1,4 @@
-# Declarative pipeline for JAVA Bug Analysis
+# Declarative Pipeline For JAVA Bug Analysis
 
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
