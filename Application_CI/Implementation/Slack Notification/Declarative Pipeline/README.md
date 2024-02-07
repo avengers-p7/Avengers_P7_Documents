@@ -83,6 +83,8 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 **Slack Notification Plugin**
 
+<img width="644" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/3b91bb9d-bb3c-4f5e-b600-08b11bf3f009">
+
 ***
 
 **Jenkinsfile Path in Configuration**
