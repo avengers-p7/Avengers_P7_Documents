@@ -15,13 +15,13 @@ node {
     stage('Static Code Analysis') {
         sh 'pylint router/ client/ models/ utils/ app.py | tee pylint.log'
     }
+}
 
-    post {
-        always {
-            archiveArtifacts artifacts: '**/pylint.log', allowEmptyArchive: true
-        }
-        success {
-            echo 'Pipeline executed successfully!'
-        }
+post {
+    always {
+        archiveArtifacts artifacts: '**/pylint.log', allowEmptyArchive: true
+    }
+    success {
+        echo 'Pipeline executed successfully!'
     }
 }
