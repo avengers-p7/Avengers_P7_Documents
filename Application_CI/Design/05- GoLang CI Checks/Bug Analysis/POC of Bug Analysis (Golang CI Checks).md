@@ -15,6 +15,9 @@
 + [Resources and References](#resources-and-references)
 
 ***
+## Introduction
+***
+
 ## Contact Information
 
 | Name | Email address |
