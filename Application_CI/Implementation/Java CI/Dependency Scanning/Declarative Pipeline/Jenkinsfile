@@ -15,8 +15,9 @@ pipeline {
         }
         stage('Owasp DP-Check') {
             steps {
-                dependencyCheck additionalArguments: '--scan target/ --format HTML', odcInstallation: 'DP-check'
-                dependencyCheckPublisherPattern: '**/dependency-check-report.html'
+                // Run Dependency-Check with additional arguments and format HTML
+                dependencyCheck additionalArguments: '--scan target/ --format HTML', odcInstallation: 'DP-check',
+                                dependencyCheckPublisherPattern: '**/dependency-check-report.html'
             }
         }
     }
