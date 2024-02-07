@@ -119,4 +119,5 @@ Effective bug tracking and management is crucial for successful software develop
 |  **Description**                               |   **Source**                                              |
 |---------------------------------------------------------|-----------------------------------------------------------------------|
 | Understand the concept of bugs in software development. | [Link](https://www.bacareers.in/what-is-bug-in-software-development/) 
+| GolangCI-lint | [Link](https://www.geeksforgeeks.org/how-to-install-golangci-lint/) |
 | For POC | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Bug%20Analysis/POC%20of%20Bug%20Analysis%20(Golang%20CI%20Checks).md) |
