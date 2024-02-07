@@ -77,8 +77,9 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
-| Dependency-Check User Guide           | https://jeremylong.github.io/DependencyCheck/    |
-| OWASP Dependency-Check benefits                 | https://medium.com/@sudheer.barakers/integrate-owasp-dependency-check-in-jenkins-pipeline-748d8aefc2b7 |
+| Dependency-Check User Guide           | [Link](https://jeremylong.github.io/DependencyCheck/)    |
+| OWASP Dependency-Check benefits                 | [Link](https://medium.com/@sudheer.barakers/integrate-owasp-dependency-check-in-jenkins-pipeline-748d8aefc2b7) |
+| For POC | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20scanning(Python%20CI%20Checks).md) |
 
 
 
