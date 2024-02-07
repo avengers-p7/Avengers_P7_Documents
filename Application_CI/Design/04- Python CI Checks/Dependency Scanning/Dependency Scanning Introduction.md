@@ -1,7 +1,8 @@
 
-# Dependency Scanning (Java)
-
-
+# Dependency Scanning
+| Author                 | Created On | Last Updated | Document Version | Last Updated By |
+| ---------------------- | ---------- | ------------ | ---------------- | --------------- |
+| Vishal Kumar Kesarwani | 30-01-2024 | 06-02-2024   | v1               |  Vishal         |
 
 ***
 ## Table of Contents 
@@ -45,18 +46,6 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 
 ***
 ## Tool Comparison 
-| Feature / Tool              | OWASP Dependency-Check | Synk                     | Retire.js                |
-|-----------------------------|------------------------|--------------------------|--------------------------|
-| **Supported Languages**     | Java, .NET, Node.js, Ruby, Python, and more | Java, JVM-based languages | JavaScript (Node.js)     |
-| **Integration with CI/CD**  | Yes                    | Yes                      | Yes                      |
-| **Build Tool Integration**   | Maven, Gradle, Ant, and more | Maven, Gradle, Jenkinsfile | Manual (Command-line)    |
-| **Vulnerability Database**  | Combined public and private databases | Proprietary vulnerability database | Retire.js vulnerability database |
-| **Reporting Formats**        | HTML, XML, JSON, CSV    | HTML, JSON, and more     | JSON, CSV, HTML          |
-| **Active Community**        | Yes                    | Yes                      | Yes                      |
-| **License Compliance**      | Yes                    | Yes                      | No                       |
-| **Container Scanning**      | Yes                    | Yes                      | No                       |
-| **False Positive Handling** | Suppression mechanism   | Manual confirmation     | Manual confirmation     |
-| **Pricing Model**           | Open Source            | Freemium model with paid plans | Open Source              |
 
 ***
 ## Why Choose OWASP
@@ -73,12 +62,6 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 | 6   | Integration with Security Tools                   | It can be seamlessly combined with other security tools to deliver a holistic security analysis of a project. This collaborative approach enhances the overall security posture and provides a more comprehensive understanding of potential risks. |
 
   
-***
-## Proof of Concept (POC) for Dependency-Check:
-
- * It is highly recommended to gain hands-on experience through our detailed Proof of Concept (POC) guide for [Dependency-Check](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Dependency%20Scanning%20POC/README.md). This comprehensive document walks you through a practical demonstration, providing step-by-step instructions on setting up Dependency-Check for a sample project. The POC guide delves into essential concepts into identifying vulnerabilities within project dependencies.
-
-
 ***
 ## Best Practices
 
@@ -100,9 +83,9 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 ***
 ## Contact Information
 
-|Vishal Kumar Kesarwani | idhi.yadhav.snaatak@mygurukulam.co                                                                                      
-|---------------------------------|------------------------------------------------------------|
-
+| Name | Email address |
+| ---- | ------------- |
+| Vishal | vishal.kesarwani.snaatak@mygurukulam.co |
 ***
 ## References
 
