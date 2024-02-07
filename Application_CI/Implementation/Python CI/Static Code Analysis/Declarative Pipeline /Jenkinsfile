@@ -19,11 +19,6 @@ pipeline {
             steps {
                 // Run pylint for static code analysis
                 sh 'find . -name \\*.py | xargs pylint | tee pylint.log'
-                    recordIssues(
-                        tool: pyLint(pattern: 'pylint.log'),
-                     
-
-                // You need to specify the path to your Python files that you want to analyze with pylint
             }
         }
     }
@@ -31,7 +26,7 @@ pipeline {
     post {
         always {
             // Archive pylint reports
-            archiveArtifacts artifacts: '**/pylint-report/*', allowEmptyArchive: true
+            archiveArtifacts artifacts: '**/pylint.log', allowEmptyArchive: true
         }
     }
 }
