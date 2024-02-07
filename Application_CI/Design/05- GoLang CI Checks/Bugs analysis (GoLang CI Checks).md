@@ -112,5 +112,4 @@ Effective bug tracking and management is crucial for successful software develop
 
 |  **Description**                               |   **Source**                                              |
 |---------------------------------------------------------|-----------------------------------------------------------------------|
-| Understand the concept of bugs in software development. | [Link](https://www.bacareers.in/what-is-bug-in-software-development/) |
-|  Comparison  | [Link](https://smirnov-am.github.io/python-linters-for-better-code-quality/) | 
+| Understand the concept of bugs in software development. | [Link](https://www.bacareers.in/what-is-bug-in-software-development/) 
