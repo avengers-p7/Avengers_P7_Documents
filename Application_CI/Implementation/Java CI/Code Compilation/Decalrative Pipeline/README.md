@@ -82,7 +82,39 @@ Go to `Dashboard--> Pipeline_job--> Configure` then add your Jenkinsfile reposit
 
 6. **Now Build your Pipeline**
 
-7.  
+
+```shell
+pipeline {
+    agent any
+    tools {
+      maven 'mvn'
+    }
+    stages {
+        stage('Checkout GIT') {
+            steps {
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']])
+                sh 'ls $WORKSPACE/'
+            }
+        }
+        stage('Starting Code Compilation ') {
+            steps {
+                sh 'echo "Starting Java Code Compilation.........."'
+                sh 'mvn clean compile'
+            }
+        }
+    }
+post { 
+        success { 
+            sh 'ls $WORKSPACE/'
+            echo 'Compiled Successfully !'
+            sh 'tree $WORKSPACE/target/'
+        }
+        failure { 
+            echo 'Compilation Failed !'
+        }
+    }
+}
+```
 ## Contact Information
 
 |     Name         | Email  |
