@@ -44,6 +44,8 @@ High availability and cluster scalability are features of the Data Center Editio
 ### High availability
 Please refer [*High Availibility in SonarQube*](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/HA/README.md) for detailed explaination.
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/f0b1ecbe-d9f1-4b6e-b2b3-c68429a59ddf)
+
 ### Disaster Recovery
 Please refer [*Disaster Recovery in SonarQube*](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/DR/README.md) for detailed explaination.
 
