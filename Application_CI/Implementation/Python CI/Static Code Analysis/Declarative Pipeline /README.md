@@ -117,4 +117,20 @@ pipeline {
 }
 ```
 * After successful completion of job our detailed output will store in pylint.log file, which looks like below: 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/1fec6b20-7efb-47bf-ad0f-5af81a83bf8b)
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/1a0d2d3d-5117-4152-88a8-6b9ba1759913)
+
+# Conclusion
+This pipeline will do Static Code Analysis against a python code and provide you details report.
+
+# Contact Information
+
+|  Name                     |        	Email Address         |
+| ------------              | --------------------------------|
+| Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
+
+# References
+
+|  Source                                                                                 |        Description      |
+| ------------                                                                            | ----------------------- |
+| https://pylint.readthedocs.io/en/stable/                                                | Pylint Documentation    |  
+| https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md                  | Refrence Documentation    |	
