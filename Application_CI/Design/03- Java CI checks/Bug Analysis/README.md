@@ -44,7 +44,7 @@ For a detailed understanding of the Bug Life Cycle, specifically focusing on the
 - Defect/Bug Status
 - Stages of Bug Life Cycle in Testing
 
-**Documentation Link:** [Bug Life Cycle Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/BugLifeCycle.md)
+**Documentation Link:** [Bug Life Cycle Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug%20Analysis/BugLifeCycle.md)
 
 
 
@@ -103,7 +103,7 @@ These tools are commonly utilized for effective bug analysis and tracking in sof
 # Proof of Concept (POC)
 
 
-For a detailed proof of concept (POC) related to Bug Analysis, please refer to [Bug Analysis POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug-Analysis-Poc.md).
+For a detailed proof of concept (POC) related to Bug Analysis, please refer to [Bug Analysis POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug%20Analysis/POC.md).
 
 ***
 
