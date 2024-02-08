@@ -29,12 +29,28 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 **Step-2** Configure Pipeline Script:
 
 - In the job configuration page, scroll down to the Pipeline section.
-- Select Pipeline script.
-- Paste the provided scripted pipeline code into the script editor.
+- Select Pipeline script from SCM.
+- Give required repo url and enter your credentials.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/f7de7ec8-b886-4651-a563-45a0f6df8077)
 
+**Step-3** Save the Configuration:
 
+- Click on Save to save the job configuration.
+
+**Step-4** Build the Pipeline:
+
+- Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
+
+**Step-5** View Build Console Output:
+
+- After triggering the build, you can view the progress and console output of the build by clicking on the build number in the Jenkins dashboard.
+- The console output will display the steps executed by the pipeline script, including code checkout and compilation.
+- Verify Successful Compilation:
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/27199e21-f6b5-4abb-870a-809544ad29ff)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/ccbb50b8-f13c-4337-b53b-31fd4ccb8697)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/4ee715d7-d9b9-463d-ba4b-b93c19430790)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/479f10ed-1800-4b0e-8189-c568d76e71a6)
 
 [JenkinsFile](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang_code-compilation/Jenkinsfile)
 
@@ -65,25 +81,6 @@ pipeline {
     }
 }
 ```
-**Step-3** Save the Configuration:
-
-- Click on Save to save the job configuration.
-
-**Step-4** Build the Pipeline:
-
-- Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
-
-**Step-5** View Build Console Output:
-
-- After triggering the build, you can view the progress and console output of the build by clicking on the build number in the Jenkins dashboard.
-- The console output will display the steps executed by the pipeline script, including code checkout and compilation.
-- Verify Successful Compilation:
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/27199e21-f6b5-4abb-870a-809544ad29ff)
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/ccbb50b8-f13c-4337-b53b-31fd4ccb8697)
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/4ee715d7-d9b9-463d-ba4b-b93c19430790)
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/479f10ed-1800-4b0e-8189-c568d76e71a6)
-
-
 
 # Conclusion
 Declarative pipeline offers a simpler, more structured approach to defining Jenkins pipelines, making it ideal for teams looking to streamline their CI/CD processes and improve pipeline readability, maintainability, and scalability.
