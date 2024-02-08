@@ -111,6 +111,12 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 ***
 
+**Freestyle Job Created of name "My-Freestyle-Job"**
+
+<img width="673" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/c44f2127-32fe-483b-afc3-3e694fb925e6">
+
+***
+
 **Slack Notification Result**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/2cb31288-be30-47e1-b4fe-6f7c1a9f1491)
