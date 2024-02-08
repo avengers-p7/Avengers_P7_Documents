@@ -19,6 +19,8 @@
 
 ### What Is a Bug Life Cycle(Defect Life Cycle)?
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056413/7b09e707-02fc-4192-a904-ce1f407b5f63)
+
 Bug Life Cycle, also known as the defect life cycle, is the journey a bug takes from its discovery to resolution, either by being closed or rejected.
 
 When a bug is spotted, the bug life cycle provides a structured process to guide its resolution. It's like a roadmap for addressing issues in the software. Not everyone on the team needs to fix a bug; different team members step in at various stages.
