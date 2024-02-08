@@ -26,15 +26,14 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 - Enter a name for your job (e.g., "Declarative pipeline-Golang-Code Compilation").
 - Select Pipeline and click OK.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/b2c01035-8b26-475c-a689-4eb0c8d30965)
-
 **Step-2** Configure Pipeline Script:
 
 - In the job configuration page, scroll down to the Pipeline section.
 - Select Pipeline script.
 - Paste the provided scripted pipeline code into the script editor.
 
-  ![image](https://github.com/avengers-p7/Documentation/assets/156056460/65c33127-4d67-453f-a9a8-3c610bfa149b)
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/f7de7ec8-b886-4651-a563-45a0f6df8077)
+
 
 
 [JenkinsFile](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang_code-compilation/Jenkinsfile)
@@ -87,7 +86,7 @@ pipeline {
 
 
 # Conclusion
-declarative pipeline offers a simpler, more structured approach to defining Jenkins pipelines, making it ideal for teams looking to streamline their CI/CD processes and improve pipeline readability, maintainability, and scalability.
+Declarative pipeline offers a simpler, more structured approach to defining Jenkins pipelines, making it ideal for teams looking to streamline their CI/CD processes and improve pipeline readability, maintainability, and scalability.
 
 # Contact Information
 | Name            | Email Address                        |
