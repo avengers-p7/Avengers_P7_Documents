@@ -70,3 +70,4 @@ Bug Status is a quick snapshot of where a bug is in its life cycle. It tells us 
 | Documentation Template          | [Application Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
 | Bug Life Cycle - Katalon Blog    | [Bug Defect Life Cycle](https://katalon.com/resources-center/blog/bug-defect-life-cycle) |
 | Understanding Bug Life Cycle     | [Bug Life Cycle Article](https://testsigma.com/blog/bug-life-cycle/#What_is_BugDefect) |
+| Bug Life Cycle - Flow | [Link](https://www.javatpoint.com/software-testing-bug-life-cycle) |
