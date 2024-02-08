@@ -32,6 +32,8 @@ In modern software development, keeping everyone in the loop about code changes 
 
 **2.Slack Notification Plugin**
 
+**3.Job DSL Plugin**
+
 ***
 
 # Slack Notification Setup
@@ -84,6 +86,12 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 **Slack Notification Plugin**
 
 <img width="644" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/3b91bb9d-bb3c-4f5e-b600-08b11bf3f009">
+
+***
+
+**Job Dsl Plugin**
+
+<img width="596" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/e5bc6f6f-5ddd-414a-81a9-1f1f6a1a69e7">
 
 ***
 
