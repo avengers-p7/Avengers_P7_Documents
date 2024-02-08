@@ -41,7 +41,7 @@ In today's agile development environments, effective communication is key. With 
 
 # Flow Diagram
 
-<img width="629" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/464d71df-05c2-45e6-a618-ae0e9ca9dfb2">
+<img width="641" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/6c61885a-53be-40f0-8e1e-bc6c693332c5">
 
 ***
 
