@@ -79,48 +79,29 @@ Include the Spotbugs-maven-plugin within the reporting section. This ensures tha
 **2. Add Jenkinsfile:** Place the Jenkinsfile at the root level of the project with the provided code below. Ensure to modify the `credentialsId` as per the configuration in your Jenkins server.
 
 
-                pipeline {
-                    agent any
-                    
-                    tools {
-                        maven 'mvn'
-                    }
-                    
-                    stages {
-                        stage("Git Checkout") {
-                            steps {
-                                script {
-                                    git branch: 'main', url: 'https://github.com/Parasharam-Desai/salary-api.git'
-                                }
-                            }
-                        }
-                        
-                        stage("Bug Analysis ") {
-                            steps {
-                                script {
-                                    sh 'mvn compile'
-                                    sh 'mvn spotbugs:spotbugs'
-                                    sh 'mvn site'
-                                }
-                            }
-                        }
-                        
-                        stage('Publish HTML Report') {
-                            steps {
-                                script {
-                                    publishHTML([
-                                        allowMissing: false,
-                                        alwaysLinkToLastBuild: true,
-                                        keepAll: true,
-                                        reportDir: 'target/site',
-                                        reportFiles: 'spotbugs.html',
-                                        reportName: 'SpotBugs Report'
-                                    ])
-                                }
-                            }
-                        }
-                    }
-                }
+        node {
+            stage("Git Checkout") {
+                git branch: 'main', url: 'https://github.com/Parasharam-Desai/salary-api.git'
+            }
+            
+            stage("Bug Analysis") {
+                sh 'mvn compile'
+                sh 'mvn spotbugs:spotbugs'
+                sh 'mvn site'
+            }
+            
+            stage('Publish HTML Report') {
+                step([$class: 'PublishHTMLPublisher', 
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'target/site',
+                    reportFiles: 'spotbugs.html',
+                    reportName: 'SpotBugs Report'
+                ])
+            }
+        }
+
 
 **Description:**
 
