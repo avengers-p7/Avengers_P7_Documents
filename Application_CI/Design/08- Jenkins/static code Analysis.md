@@ -90,15 +90,19 @@ Static Code Analysis (SCA) is a critical practice in software development that i
 |4. Automate the Static Analysis |	Integrate with CI/CD, use automated scripts, leverage IDE plugins, employ code hooks, and customize integration for organizational needs|
 
 
-# Static code analysis in Java offers several advantages and disadvantages:
+# Static code analysis in Java offers several advantages 
 
 |Advantages| Description |
 |------------|---------|
 |Early Bug Detection| Static code analysis tools can identify potential bugs and errors in the code before runtime, enabling developers to fix issues early in the development process|
 |Consistent Code Quality| By enforcing coding standards and best practices, static code analysis helps maintain consistent code quality across the project, even in large teams with varying coding styles|
-|Security Vulnerability Detection: These tools can identify security vulnerabilities such as SQL injection, cross-site scripting, and other common security threats, reducing the risk of security breaches|
-|Performance Optimization|Static code analysis can highlight performance bottlenecks and inefficient coding patterns, allowing developers to optimize code for better performance|
+|Security Vulnerability Detection | These tools can identify security vulnerabilities such as SQL injection, cross-site scripting, and other common security threats, reducing the risk of security breaches|
+|Performance Optimization| Static code analysis can highlight performance bottlenecks and inefficient coding patterns, allowing developers to optimize code for better performance|
 |Code Maintainability |By identifying code smells, dead code, and other maintainability issues, static analysis tools help improve the overall maintainability of the codebase, making it easier for developers to understand and modify the code in the future|
+
+***
+
+# Static code analysis in Java offers several Disadvantages 
 
 |Disadvantages | Description |
 |------------|-------------|
