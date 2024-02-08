@@ -41,7 +41,7 @@ In modern software development, keeping everyone in the loop about code changes 
 
 # Flow Diagram
 
-<img width="623" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/2ff6223c-2e7f-4973-bd4a-00365d50674d">
+<img width="652" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/ceece0cc-394a-4809-9607-63e91cb0c01b">
 
 ***
 
