@@ -12,11 +12,12 @@
 
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
-3. [Slack Notification Setup](#slack-notification-setup)
-4. [Pipeline](#Pipeline)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#contact-information)
-7. [Reference](#reference)
+3. [Flow Diagram](#flow-diagram)
+4. [Slack Notification Setup](#slack-notification-setup)
+5. [Pipeline](#Pipeline)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [Reference](#reference)
 
 ***
 
@@ -33,6 +34,12 @@ In modern software development, keeping everyone in the loop about code changes 
 **2.Slack Notification Plugin**
 
 **3.Job DSL Plugin**
+
+***
+
+# Flow Diagram
+
+<img width="623" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/2ff6223c-2e7f-4973-bd4a-00365d50674d">
 
 ***
 
