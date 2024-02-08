@@ -44,6 +44,15 @@ Code compilation is converting human-readable source code into machine-readable 
 
 ***
 
+# Flow chart 
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/94c5d629-e682-4d24-ae4d-72a5c8ca2443)
+
+
+***
+
+
 # Different Tools for Java compilation
 
 In the Java ecosystem, there are several tools commonly used for compiling Java code. Here are some of the prominent ones
