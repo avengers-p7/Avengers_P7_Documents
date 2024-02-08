@@ -1,5 +1,7 @@
 # Documentation of Declarative Pipeline for Slack Notification
 
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/dda1dea8-7775-4e90-b1b6-b8a9616a32d2)
+
 ***
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
