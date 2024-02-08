@@ -84,9 +84,10 @@ For more information cilck [**here**](https://github.com/avengers-p7/Documentati
 ***
 
 ### Generate HTML Report   
-    ```shell
-    golangci-lint run ./... --out-format html > report.html
-    ``` 
+   * Generate Report
+     ```shell 
+      golangci-lint run ./... --out-format html > report.html
+     ```
    * [**HTML Report**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Bug%20Analysis/Bug%20Analysis%20report.html)
     
     
