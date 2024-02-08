@@ -1,4 +1,4 @@
-# Documentation of Declarative Pipeline for Slack Notification
+# Documentation of Scripted Pipeline for Slack Notification
 
 ***
 
@@ -31,6 +31,8 @@ In today's agile development environments, effective communication is key. With 
 **1.Jenkins Installed**
 
 **2.Slack Notification Plugin**
+
+**3.Job DSL Plugin**
 
 ***
 
@@ -84,6 +86,12 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 **Slack Notification Plugin**
 
 <img width="644" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/3b91bb9d-bb3c-4f5e-b600-08b11bf3f009">
+
+***
+
+**Job DSL Plugin**
+
+<img width="596" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/f7374100-57c9-4334-9ca7-a7e5024fbdca">
 
 ***
 
