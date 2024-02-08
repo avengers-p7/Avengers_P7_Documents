@@ -18,9 +18,11 @@
 4. [Flow Diagram](#Flow-diagram)
 5. [Configure Pipeline job](#Configure-Pipeline-job)
 6. [Pipeline](#Pipeline)
-7. [Conclusion](#conclusion)
-8. [Contact Information](#contact-information)
-9. [Reference](#reference)
+7. [Declerative Syntax](#Declerative-Syntax)
+8. [Evaluate Output](#Evaluate-Output)
+9. [Conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [Reference](#reference)
 
 
 # Introduction
@@ -65,15 +67,54 @@ Below are the steps to Configure pipeline job for Jenkins and execute the pipeli
 * Give path of your jenkins file(we have written our declerative pipeline for static code analysis in it) then apply save it. 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/df67155a-4670-482e-861d-559a3a98cf61)
 
-* After successful completion of job our detailed output will store in pylint.log file, which looks like below: 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/1fec6b20-7efb-47bf-ad0f-5af81a83bf8b)
-
-
-
-
-
-
-Then execute your Pipeline by click on “Build Now”
+* Then execute your Pipeline by click on “Build Now”
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/5b551159-568c-4617-931b-c5ce53a3e1f8)
 
+# Declerative Syntax
+```
+pipeline {
+    agent any
 
+    stages {
+        stage('Code Checkout') {
+            steps {
+                git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+            }
+        }
+
+        stage('Create Virtual ENV') {
+            steps {
+                script {
+                    sh 'python3 -m venv myenv'
+                    sh '. myenv/bin/activate'
+                }
+            }
+        }
+
+        stage('Install dependencies') {
+            steps {
+                script {
+                    sh 'python3 -m pip install -r requirements.txt'
+                }
+            }
+        }
+
+        stage('Static Code Analysis') {
+            steps {
+                script {
+                    sh 'pylint router/ client/ models/ utils/ app.py | tee pylint.log'
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Archive pylint reports
+            archiveArtifacts artifacts: '**/pylint.log', allowEmptyArchive: true
+        }
+    }
+}
+```
+* After successful completion of job our detailed output will store in pylint.log file, which looks like below: 
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/1fec6b20-7efb-47bf-ad0f-5af81a83bf8b)
