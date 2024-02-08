@@ -5,19 +5,19 @@
 |--------|------------|---------|----------------|
 |Nidhi Bhardwaj | 08-02-2024  | V1 | 08-02-2024 |
 
-# Table of Contets 
+# Table of Contents 
 
 1. Introduction
 2. What
 3. Why
-Authentication Methods
-Why Use Jenkins Own User Database?
-Limitations
-Best Practices
-Common Configuration Mistakes
-Conclusion
-Contact Information
-References
+4. Authentication Methods
+5. Why Use Jenkins Own User Database?
+6. Limitations
+7. Best Practices
+8. Common Configuration Mistakes
+9. Conclusion
+10. Contact Information
+11. References
 
 # Introduction 
 
@@ -96,8 +96,23 @@ Implementing secure authentication practices in Jenkins is crucial for maintaini
 |Implement Network Security Measures |Secure the network infrastructure hosting Jenkins servers to prevent unauthorized access. Use firewalls, intrusion detection/prevention systems, and network segmentation to protect against external threats |
 |Regular Security Audits and Penetration Testing | Conduct regular security audits and penetration testing to identify vulnerabilities and weaknesses in your Jenkins environment. Address any findings promptly to enhance overall security posture |
 
+# conclusion 
 
+In summary, using Jenkins's own user database is a straightforward and quick solution suitable for small to medium-sized teams and projects. It provides simplicity, out-of-the-box functionality, and local control over user management. However, potential limitations include limited integration, scalability concerns for larger organizations, and security considerations. The choice should align with specific needs and security policies, balancing simplicity with meeting authentication and authorization requirements.
 
+# Contact Information 
+
+|Name | Email ID |
+|------|---------|
+|Nidhi Bhardwaj | nidhi.bhardwaj.snaatak@mygurukulam.co |
+
+***
+
+# References 
+
+|Link | Description |
+|-----|--------------|
+|https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template | Documentation |
 
 
 
