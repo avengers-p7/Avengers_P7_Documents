@@ -18,11 +18,11 @@
 4. [Flow Diagram](#Flow-diagram)
 5. [Configure Pipeline job](#Configure-Pipeline-job)
 6. [Pipeline](#Pipeline)
-7. [Declerative Syntax](#Declerative-Syntax)
+7. [Declarative Syntax](#Declarative-Syntax)
 8. [Evaluate Output](#Evaluate-Output)
 9. [Conclusion](#conclusion)
 10. [Contact Information](#contact-information)
-11. [Reference](#reference)
+11. [References](#References)
 
 
 # Introduction
@@ -70,7 +70,7 @@ Below are the steps to Configure pipeline job for Jenkins and execute the pipeli
 * Then execute your Pipeline by click on “Build Now”
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/5b551159-568c-4617-931b-c5ce53a3e1f8)
 
-# Declerative Syntax
+# Declarative Syntax
 ```
 pipeline {
     agent any
