@@ -12,11 +12,12 @@
 
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
-3. [Slack Notification Setup](#slack-notification-setup)
-4. [Pipeline](#Pipeline)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#contact-information)
-7. [Reference](#reference)
+3. [Flow Diagram](#flow-diagram)
+4. [Slack Notification Setup](#slack-notification-setup)
+5. [Pipeline](#Pipeline)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [Reference](#reference)
 
 ***
 
@@ -33,6 +34,12 @@ In today's agile development environments, effective communication is key. With 
 **2.Slack Notification Plugin**
 
 **3.Job DSL Plugin**
+
+***
+
+# Flow Diagram
+
+<img width="629" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/464d71df-05c2-45e6-a618-ae0e9ca9dfb2">
 
 ***
 
