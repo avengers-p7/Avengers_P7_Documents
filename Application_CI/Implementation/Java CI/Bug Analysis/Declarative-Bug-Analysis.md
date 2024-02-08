@@ -1,6 +1,5 @@
 # Declarative Pipeline For JAVA Bug Analysis
 
-
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 07-02-2024 | 07-02-2024 | V1 |
@@ -12,11 +11,7 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Steps](#steps)
-    - [Clone the repository](#1-clone-the-repository)
-    - [Add Jenkinsfile](#2-add-jenkinsfile)
-    - [Configure job](#3-configure-job)
-    - [Evaluate Output](#4-evaluate-output)
+3. [Steps to run Pipeline](#steps-to-run-pipeline)
 4. [Conclusion](#conclusion)
 5. [Contact Information](#contact-information)
 6. [Resources and References](#resources-and-references)
@@ -36,7 +31,12 @@ Establishing a Java pipeline for bug analysis typically involves leveraging a CI
 
 
 ***
-The Spotbugs plugin needs to be included in the pom.xml file.
+
+# Steps to run Pipeline
+
+**1. Fork the repository:** You can Fork the repository from GitHub - [**Repo Link**](https://github.com/Parasharam-Desai/salary-api.git).
+
+**2. The Spotbugs plugin needs to be included in the pom.xml file.**
 
             <plugin>
                   <groupId>com.github.spotbugs</groupId>
@@ -61,7 +61,7 @@ The Spotbugs plugin needs to be included in the pom.xml file.
               </plugin>
 
               
-Include the Spotbugs-maven-plugin within the reporting section. This ensures that running mvn site will generate the Spot Bugs report.
+* Include the Spotbugs-maven-plugin within the reporting section. This ensures that running mvn site will generate the Spot Bugs report.
 
               <reporting>
                   <plugins>
@@ -72,14 +72,23 @@ Include the Spotbugs-maven-plugin within the reporting section. This ensures tha
                       </plugin>
                   </plugins>
               </reporting>
+ 
+
+**3. Configure Maven tool in Jenkins**
+
+Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
+
+**4. Set up Jenkins Pipeline job & Configure your pipeline using the detailed documentation provided in the following link:**
+**
+
+**[Reference Link]()**
+
+**5. Now Build Your Pipelne**
 
 
-# Steps
-**1. Clone the repository:** You can clone the repository from GitHub - [https://github.com/Parasharam-Desai/salary-api.git](https://github.com/Parasharam-Desai/salary-api.git).
-**2. Add Jenkinsfile:** Place the Jenkinsfile at the root level of the project with the provided code below. Ensure to modify the `credentialsId` as per the configuration in your Jenkins server.
-
-
-                pipeline {
+pipeline {
                     agent any
                     
                     tools {
@@ -127,26 +136,23 @@ Include the Spotbugs-maven-plugin within the reporting section. This ensures tha
 - `mvn compile`: This command compiles the Java source code in the project.
 - `mvn spotbugs:spotbugs`: This command executes the SpotBugs analysis using the SpotBugs Maven plugin. SpotBugs is a static analysis tool that identifies potential bugs in Java code.
 - `mvn site`: The Maven site goal generates various reports, including a report for bug analysis.
-
-3. **Configure job**: Configure the pipeline job in Jenkins and execute the pipeline. The Jenkinsfile is located at the root level of the project.
-
+  
 
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/1b3ac75a-b835-4d27-81b9-38cc50d2503c)
-
-
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/46179379-ac84-4eb9-8d49-cb3bc6c193b3)
-
-
-4. Evaluate Output: Based on the console output provided below, we can infer that there are a few bugs present.
-
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/c27ed591-7cbe-4c52-a5a8-2e9dfbe485e2)
+**6. Evaluate Output: Based on the console output provided below, we can infer that there are a few bugs present.**
 
 ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/a7d63f45-34fb-49e4-8612-a6058e857d98)
 
+
+![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/c27ed591-7cbe-4c52-a5a8-2e9dfbe485e2)
+
+
 ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/dd07eea5-d7cf-4ac0-96b2-3ab1b70308f8)
 
+***
+
 # Conclusion
+
 This pipeline will clone your source code repository, compile the project using Maven, and conduct bug scanning.
 
 
@@ -164,3 +170,4 @@ This pipeline will clone your source code repository, compile the project using 
 | Jenkins Pipeline     | [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/) |
 | Using Spotbug Plugins                 | [Spotbugs Maven Plugin Documentation](https://spotbugs.readthedocs.io/en/latest/maven.html) |
 | Guide to use SpotBugs           | [SpotBugs Maven Configuration Guide](https://github.com/find-sec-bugs/find-sec-bugs/wiki/Maven-configuration) |
+
