@@ -13,10 +13,11 @@
 3.  [Java Tools](#java-tools)
 4.  [Tool Comparison](#comparison)
 5.  [Best Practices](#best-practices)
-6.  [Proof of concepts (POC)](#proof-of-concepts-(POC))
-7.  [conclusion](#conclusion)
-8.  [Contact Information](#contact-information)
-9.  [References](#references)
+6.  [Advantages & Disadvantages](#Advantages-and-Disadvantages)
+7.  [Proof of concepts (POC)](#proof-of-concepts-(POC))
+8.  [conclusion](#conclusion)
+9.  [Contact Information](#contact-information)
+10.  [References](#references)
 
 
 # Introduction
