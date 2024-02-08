@@ -1,5 +1,7 @@
 # Documentation of Scripted Pipeline for Slack Notification
 
+![image](https://github.com/avengers-p7/Documentation/assets/156057205/e58d8c58-91d1-4fc2-b13f-af712095cf27)
+
 ***
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
