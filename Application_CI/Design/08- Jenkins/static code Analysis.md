@@ -89,6 +89,26 @@ Static Code Analysis (SCA) is a critical practice in software development that i
 |3. Include Code Review |	Establish a formal review process after static analysis, assign responsibilities, and provide clear guidelines for feedback|
 |4. Automate the Static Analysis |	Integrate with CI/CD, use automated scripts, leverage IDE plugins, employ code hooks, and customize integration for organizational needs|
 
+
+# Static code analysis in Java offers several advantages and disadvantages:
+
+|Advantages| Description |
+|------------|---------|
+|Early Bug Detection| Static code analysis tools can identify potential bugs and errors in the code before runtime, enabling developers to fix issues early in the development process|
+|Consistent Code Quality| By enforcing coding standards and best practices, static code analysis helps maintain consistent code quality across the project, even in large teams with varying coding styles|
+|Security Vulnerability Detection: These tools can identify security vulnerabilities such as SQL injection, cross-site scripting, and other common security threats, reducing the risk of security breaches|
+|Performance Optimization|Static code analysis can highlight performance bottlenecks and inefficient coding patterns, allowing developers to optimize code for better performance|
+|Code Maintainability |By identifying code smells, dead code, and other maintainability issues, static analysis tools help improve the overall maintainability of the codebase, making it easier for developers to understand and modify the code in the future|
+
+|Disadvantages | Description |
+|------------|-------------|
+|False Positives/Negatives |Static code analysis tools may sometimes produce false positives (reporting issues that are not actual problems) or false negatives (failing to detect real issues), leading to wasted developer time and potentially overlooking critical issues|
+|Learning Curve |Learning to use static code analysis tools effectively requires time and effort. Developers need to understand how to configure and interpret the tool's output, which can be challenging, especially for beginners|
+|Performance Overhead| Running static code analysis tools can introduce additional overhead in terms of build time and resource utilization, particularly in large codebases. This can impact development productivity, especially if the analysis slows down the development workflow significantly|
+|Configurational Complexity |Configuring static code analysis tools to suit the specific requirements and coding standards of a project can be complex and time-consuming. Incorrect configurations may lead to inaccurate results or excessive noise in the analysis output |
+|Limited Scope |While static analysis tools can catch many common coding issues, they may not detect all types of bugs or security vulnerabilities, especially those that require runtime context or dynamic analysis. Hence, they should be used as part of a comprehensive testing and quality assurance strategy|
+
+
 # Proof of Concept (POC) for Java Base Application
 
 The Proof of Concept (POC) focuses on demonstrating the bug analysis process for a Java-based application. The project under consideration is the "salary-api" from the OT-MICROSERVICES repository.
