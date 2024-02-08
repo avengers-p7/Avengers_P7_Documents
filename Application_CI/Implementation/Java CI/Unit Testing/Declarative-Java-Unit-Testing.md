@@ -2,7 +2,7 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Parasharam Desai** | 07-02-2024 | 07-02-2024 | V1 |
+| **Parasharam Desai** | 08-02-2024 | 08-02-2024 | V1 |
 
 ---
 
@@ -11,11 +11,11 @@
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Steps](#steps)
-4. [Configure Job](#configure-job)
-5. [Evaluate Output](#evaluate-output)
-6. [Conclusion](#conclusion)
+4. [Evaluate Output](#evaluate-output)
+5. [Conclusion](#conclusion)
+6. [Contact Info](#contact-info)
 7. [Resource and References](#resource-and-references)
-8. [Contact Info](#contact-info)
+
 
 ---
 
@@ -36,43 +36,46 @@ Establishing a Java pipeline for unit testing typically involves leveraging a CI
 
 ---
 
-**Here we are assuming that you already have a Jenkins pipeline job set up with a Spring Boot project. If not, you can access a public repository on GitHub.**
+# Steps to run Pipeline
 
-1. Fork Repository: Fork the repository to your GitHub account.
-2. Add Dependency: Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md).
-3. Add Jenkinsfile: Add a Jenkinsfile at the root level of the project with the provided code.
+**1. Fork Repository:** Fork the repository to your GitHub account.
 
-         pipeline {
-                agent any
-                tools {
-                    maven "mvn"
-                }
-                stages {
-                    stage('Checkout') {
-                        steps {
-                            git branch: 'main', url: 'https://github.com/Parasharam-DevOps/salary-api.git'
-                        }
-                    }
-                    stage('Test') {
-                        steps {
-                            echo "Executing Java Unit Testing"
-                            sh 'mvn test'
-                        }
-                    }
-                }
-            }
+**2. Add Dependency:** Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md).
 
----
 
-# Configure Job
+**3. Configure Maven tool in Jenkins**
 
-Set up a Jenkins pipeline job for Jenkins and execute the pipeline.
+Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/9cd5b7d6-96a8-44fd-a1ea-ae5a12a0a8d9)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/e6212ebd-8691-4d38-9d3d-9df065c6d19a)
+**4. Set up Jenkins Pipeline job & Configure your pipeline using the detailed documentation provided in the following link:**
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/9716c6f6-04da-4de2-a5c0-1d4b1543dc6d)
+**[Reference Link]()**
+
+
+**5. Now Build Your Pipelne**
+
+
+                   pipeline {
+                                  agent any
+                                  tools {
+                                      maven "mvn"
+                                  }
+                                  stages {
+                                      stage('Checkout') {
+                                          steps {
+                                              git branch: 'main', url: 'https://github.com/Parasharam-DevOps/salary-api.git'
+                                          }
+                                      }
+                                      stage('Test') {
+                                          steps {
+                                              echo "Executing Java Unit Testing"
+                                              sh 'mvn test'
+                                          }
+                                      }
+                                  }
+                              }
 
 ---
 
