@@ -96,6 +96,78 @@ Implementing secure authentication practices in Jenkins is crucial for maintaini
 |Implement Network Security Measures |Secure the network infrastructure hosting Jenkins servers to prevent unauthorized access. Use firewalls, intrusion detection/prevention systems, and network segmentation to protect against external threats |
 |Regular Security Audits and Penetration Testing | Conduct regular security audits and penetration testing to identify vulnerabilities and weaknesses in your Jenkins environment. Address any findings promptly to enhance overall security posture |
 
+
+***
+
+# POC of authentication of Jenkins 
+
+Here's a proof of concept (PoC) for implementing authentication in Jenkins using LDAP (Lightweight Directory Access Protocol). LDAP integration allows Jenkins to authenticate users against an existing directory service such as Microsoft Active Directory or OpenLDAP.
+
+**1. Install LDAP Plugin**
+
+Go to Jenkins dashboard
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/034128ab-1fdb-4e65-bf50-fa10df7a43f5)
+
+
+Click on "Manage Jenkins" on the left sidebar.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/893dd66f-dfe8-4d49-809f-a53e6828194e)
+
+
+Select "Manage Plugins."
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/94e24475-e71e-4973-adfb-223caf7ca70
+1)
+
+
+Go to the "Available" tab and search for "LDAP Plugin."
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ea475139-fe03-4eee-9334-f6638cb05763)
+
+
+Install the LDAP Plugin.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/46fc6757-729e-4a4b-a853-0118cbc2cdd7)
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/032643a3-027a-4235-9f5e-77d214d6beb7)
+
+
+# 2. Configure LDAP:
+
+After installing the LDAP Plugin, go back to the Jenkins dashboard
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/d0e7e7d1-fed8-4153-a7ea-2e6a179ca5f0)
+
+Click on "Manage Jenkins" again.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/7701d682-6348-4d53-a3a8-4976376cd53e)
+
+Select "Configure Global Security."
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/0e8e9d0b-1f59-40b2-83a3-b779b49414ea)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # conclusion 
 
 In summary, using Jenkins's own user database is a straightforward and quick solution suitable for small to medium-sized teams and projects. It provides simplicity, out-of-the-box functionality, and local control over user management. However, potential limitations include limited integration, scalability concerns for larger organizations, and security considerations. The choice should align with specific needs and security policies, balancing simplicity with meeting authentication and authorization requirements.
