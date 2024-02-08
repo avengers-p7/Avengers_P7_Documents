@@ -22,6 +22,7 @@ Scripted Pipelines are a powerful way to define and automate software delivery w
 - In the job configuration page, scroll down to the Pipeline section.
 - Select Pipeline script from SCM.
 - Give required repo url and enter your credentials.
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/c9ec8323-1c57-4ad7-b10e-33a9244c8567)
 
 **Step-3** Save the Configuration:
@@ -37,6 +38,7 @@ Scripted Pipelines are a powerful way to define and automate software delivery w
 - After triggering the build, you can view the progress and console output of the build by clicking on the build number in the Jenkins dashboard.
 - The console output will display the steps executed by the pipeline script, including code checkout and compilation.
 - Verify Successful Compilation:
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/525218c5-6e00-4b81-8349-e7ee841c3d34)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/e8543a19-f042-46e3-ae78-a275de219f28)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/9d506576-6151-4f79-9ee2-45b2034dac21)
