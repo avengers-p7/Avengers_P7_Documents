@@ -20,7 +20,7 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 2. go plugin
 
 # Code-Compilation Setup 
-** Step-1** Create a New Pipeline Job:
+**Step-1** Create a New Pipeline Job:
 
 - Navigate to the Jenkins dashboard and click on New Item.
 - Enter a name for your job (e.g., "Declarative pipeline-Golang-Code Compilation").
