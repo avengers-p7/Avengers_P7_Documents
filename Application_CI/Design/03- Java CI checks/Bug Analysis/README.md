@@ -1,4 +1,4 @@
-# Bug Analysis in JAVA
+# Bug Analysis In JAVA
 
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
