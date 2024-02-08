@@ -76,6 +76,7 @@ Include the Spotbugs-maven-plugin within the reporting section. This ensures tha
 
 # Steps
 **1. Clone the repository:** You can clone the repository from GitHub - [https://github.com/Parasharam-Desai/salary-api.git](https://github.com/Parasharam-Desai/salary-api.git).
+
 **2. Add Jenkinsfile:** Place the Jenkinsfile at the root level of the project with the provided code below. Ensure to modify the `credentialsId` as per the configuration in your Jenkins server.
 
 
