@@ -10,11 +10,12 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Steps](#steps)
-4. [Evaluate Output](#evaluate-output)
-5. [Conclusion](#conclusion)
-6. [Contact Info](#contact-info)
-7. [Resource and References](#resource-and-references)
+3. [Flow Diagram](#Flow-Diagram)
+4. [Steps](#steps)
+5. [Evaluate Output](#evaluate-output)
+6. [Conclusion](#conclusion)
+7. [Contact Info](#contact-info)
+8. [Resource and References](#resource-and-references)
 
 
 ---
@@ -36,6 +37,13 @@ If you want to learn more about Unit Testing, refer to this detailed documentati
 | **Java 17** | Required for compiling Jenkins and Spring Boot projects |
 | **Maven(3.6.9)** | Handles build automation and dependency management |
 | **Junit (4.12)** | Facilitates Unit testing |
+
+
+# Flow Diagram
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/ec329fc3-8ad3-4101-b359-881f2a59eaf6)
+
+
 
 ---
 
