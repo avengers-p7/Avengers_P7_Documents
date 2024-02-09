@@ -7,7 +7,7 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Why Declarative Pipeline](#Why-Declarative-Pipeline)
++ [Why Scripted Pipeline](#Why-Scripted-Pipeline)
 + [Pre-requisites](#Pre-requisites)
 + [Setup](#Setup)
 + [Jenkinsfile](#Jenkinsfile)
