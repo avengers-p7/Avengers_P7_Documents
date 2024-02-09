@@ -1,4 +1,4 @@
-# Declarative Pipeline-Go Lang Bug Analysis
+# Scripted Pipeline-Go Lang Bug Analysis
 
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
@@ -75,47 +75,48 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ## Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Bug%20Analysis/Jenkinsfile)
   ```shell
-  pipeline {
-    agent any
-    
-    stages {
-        stage('Installation Pre-Requisites') {
-            steps {
-                script {
-                    // Update apt packages
-                    sh 'sudo apt update'
-                    // Install Go using snap
-                    sh 'sudo snap install go --classic'
-                    // Remove golangci-lint using snap
-                    sh 'sudo snap remove golangci-lint || true'
-                    // Install GolangCI-lint
-                    sh 'go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest'
-                    // Add $HOME/go/bin to PATH
-                    env.PATH += ":$HOME/go/bin"
-                }
-            }
+  node {
+    stage('Installation Pre-Requisites') {
+        try {
+            // Update apt packages
+            sh 'sudo apt update'
+            // Install Go using snap
+            sh 'sudo snap install go --classic'
+            // Remove golangci-lint using snap
+            sh 'sudo snap remove golangci-lint || true'
+            // Install GolangCI-lint
+            sh 'go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest'
+            // Add $HOME/go/bin to PATH
+            env.PATH += ":$HOME/go/bin"
+        } catch (Exception e) {
+            echo "Error occurred during installation pre-requisites: ${e.getMessage()}"
         }
-        stage('Clone Repository') {
-            steps {
-                // Clone the Git repository
-                git branch: 'main', credentialsId: 'vishal-cred', url: 'https://github.com/OT-MICROSERVICES/employee-api.git'
-            }
+    }
+
+    stage('Clone Repository') {
+        try {
+            // Clone the Git repository
+            git branch: 'main', credentialsId: 'vishal-cred', url: 'https://github.com/OT-MICROSERVICES/employee-api.git'
+        } catch (Exception e) {
+            echo "Error occurred during repository cloning: ${e.getMessage()}"
         }
-        stage('Linting') {
-            steps {
-                script {
-                    // Run golangci-lint and ignore errors
-                    sh 'golangci-lint run ./... || true'
-                }
-            }
+    }
+
+    stage('Linting') {
+        try {
+            // Run golangci-lint and ignore errors
+            sh 'golangci-lint run ./... || true'
+        } catch (Exception e) {
+            echo "Error occurred during linting: ${e.getMessage()}"
         }
-        stage('Generate HTML Report') {
-            steps {
-                script {
-                    // Run golangci-lint with the --out-format option to specify the output format
-                    sh 'golangci-lint run ./... --out-format html > report.html || true'
-                }
-            }
+    }
+
+    stage('Generate HTML Report') {
+        try {
+            // Run golangci-lint with the --out-format option to specify the output format
+            sh 'golangci-lint run ./... --out-format html > report.html || true'
+        } catch (Exception e) {
+            echo "Error occurred during HTML report generation: ${e.getMessage()}"
         }
     }
 }
