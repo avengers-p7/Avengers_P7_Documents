@@ -13,13 +13,16 @@
 # Table Of Contents
 
 1. [Introduction](#introduction)
-2. [Pre-requisites](#pre-requisites)
-3. [Flow Diagram](#flow-diagram)
-4. [AMI Setup](#ami-setup)
-5. [Pipeline](#Pipeline)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [Reference](#reference)
+2. [What is Declarative Pipeline](#what-is-declarative-pipeline)
+3. [Why Declarative Pipeline](#why-declarative-pipeline)
+4. [What is Packer](#what-is-packer)
+5. [Pre-requisites](#pre-requisites)
+6. [Flow Diagram](#flow-diagram)
+7. [AMI Setup](#ami-setup)
+8. [Pipeline](#Pipeline)
+9. [Conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [Reference](#reference)
 
 ***
 
@@ -74,12 +77,6 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 | **Credentials Binding Plugin** | This plugin is useful for binding credentials to environment variables in your Jenkins pipeline. |
 | **Pipeline AWS Plugin** | This plugin provides a set of reusable functions for working with AWS services in Jenkins pipelines. It's particularly helpful when interacting with AWS services like EC2 for building AMIs. |
 | **Amazon EC2 Plugin** | While not directly related to Packer, this plugin is useful if you plan to use Jenkins to provision temporary build agents on EC2 instances. |
-
-**1.Jenkins Installed**
-
-**2.Slack Notification Plugin**
-
-**3.Job DSL Plugin**
 
 ***
 
