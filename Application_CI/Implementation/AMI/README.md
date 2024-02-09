@@ -82,7 +82,7 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 # Flow Diagram
 
-<img width="652" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/ceece0cc-394a-4809-9607-63e91cb0c01b">
+<img width="825" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/2e5fa8e8-5047-4508-be37-1d703124d507">
 
 ***
 
