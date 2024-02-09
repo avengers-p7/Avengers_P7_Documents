@@ -259,8 +259,8 @@ In conclusion, integrating Packer with Jenkins pipelines offers a powerful solut
 
 | **Source** | **Description** |
 | ---------- | --------------- |
-| https://devopscube.com/packer-tutorial-for-beginners/ | Reference Link For AMI Creation |
-| https://flugel-it.medium.com/building-and-running-custom-amis-on-aws-using-packer-and-terraform-3db28c968b30 | Reference Link |
+| [Link](#https://devopscube.com/packer-tutorial-for-beginners/) | Reference Link For AMI Creation |
+| [Link](#https://flugel-it.medium.com/building-and-running-custom-amis-on-aws-using-packer-and-terraform-3db28c968b30) | Reference Link |
 
 
 
