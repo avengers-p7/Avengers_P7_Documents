@@ -105,6 +105,7 @@ Implementing secure authentication practices in Jenkins is crucial for maintaini
 In Jenkins, there are several types of Proof of Concept (POC) approaches you can undertake when it comes to authentication. These generally revolve around integrating Jenkins with various identity providers or authentication mechanisms. Here are some common types of POCs for authentication in Jenkins:
 
 |Types| Description | 
+|------|-------------|
 |LDAP Authentication POC |involves setting up Jenkins to authenticate users against an LDAP (Lightweight Directory Access Protocol) server. LDAP integration allows Jenkins to use existing user credentials stored in an LDAP directory for authentication.|
 |GitHub Authentication POC |This POC involves configuring Jenkins to authenticate users using their GitHub credentials. It enables users to log in to Jenkins using their GitHub accounts, leveraging OAuth authentication|
 |Google Authentication POC | Similar to GitHub authentication, this POC involves setting up Jenkins to authenticate users using their Google accounts. It utilizes OAuth authentication to enable users to sign in to Jenkins using their Google credentials|
