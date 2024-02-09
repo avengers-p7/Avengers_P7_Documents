@@ -20,6 +20,9 @@
 ***
 # Introduction
 Establishing a Java pipeline for bug analysis typically involves leveraging a CI/CD (Continuous Integration/Continuous Deployment) tool to automate the process of building, testing, and potentially deploying your Java application. Here we will be utilizing the Spotbugs plugin for bug scanning to ensure the quality and reliability of our codebase.
+
+If you want to learn more about Bug Analysis , refer to this detailed documentation: [Bug Analysis Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug%20Analysis/README.md)
+
 ***
 # Prerequisites
 |    Tool                                   | Description                    |
@@ -141,13 +144,10 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 **6. Evaluate Output: Based on the console output provided below, we can infer that there are a few bugs present**
 
- ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/a7d63f45-34fb-49e4-8612-a6058e857d98)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/837893e7-1711-4e3a-aa03-353329961d68)
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/b2924623-af39-4d50-b457-f8125843252c)
 
- ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/c27ed591-7cbe-4c52-a5a8-2e9dfbe485e2)
-
-
- ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/dd07eea5-d7cf-4ac0-96b2-3ab1b70308f8)
 
 ***
 
