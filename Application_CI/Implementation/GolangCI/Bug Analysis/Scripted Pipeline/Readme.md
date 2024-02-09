@@ -46,7 +46,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
    <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/a28f984f-f633-4acb-991e-f030fed8e0fd">
 
 > [!NOTE]
-> **Changes these item**
+> **Changes**
 > *  **Pipeline name**       **-**  "Bug Analysis (GoLang CI Checks)_(Scripted)"
 > *  **Jenkinsfile Path**    **-**  "Scripted Pipeline/golang/Bug Analysis/Jenkinsfile"  
 
