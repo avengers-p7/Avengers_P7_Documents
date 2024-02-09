@@ -133,9 +133,16 @@ Search for and install the "GitHub Authentication plugin".
 
 After installing the plugin, go back to the Jenkins dashboard.
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/b7d0037e-55a5-4293-b72e-1f7f057ed828)
+
+Click on "Manage Jenkins" again.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/8730a47a-571f-4a80-b76b-a8fd1274d147)
 
 
+Select "Configure Global Security".
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/4a552332-2c20-46e8-9ef5-533790db94e7)
 
 
 
