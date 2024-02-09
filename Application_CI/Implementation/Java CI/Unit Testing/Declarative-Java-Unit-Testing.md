@@ -113,4 +113,5 @@ This pipeline will check out your source code, build the project using Maven, an
 | Description | References |
 | ----------- | ---------- |
 | Jenkins Pipeline | [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/) |
-| JUnit Setup Maven - JUnit 4 and JUnit 5 | Digital Ocean | [Junit Setup Maven](https://www.digitalocean.com/community/tutorials/junit-setup-maven) |
+| Junit-POC | [Detailed POC Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/POC.md) |
+| JUnit Setup Maven - JUnit 4 and JUnit 5 | [Digital Ocean ](https://www.digitalocean.com/community/tutorials/junit-setup-maven) |
