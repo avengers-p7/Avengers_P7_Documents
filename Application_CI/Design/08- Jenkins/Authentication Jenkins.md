@@ -101,9 +101,9 @@ Implementing secure authentication practices in Jenkins is crucial for maintaini
 
 # POC of authentication of Jenkins 
 
-Here's a proof of concept (PoC) for implementing authentication in Jenkins using LDAP (Lightweight Directory Access Protocol). LDAP integration allows Jenkins to authenticate users against an existing directory service such as Microsoft Active Directory or OpenLDAP.
+Here's a proof of concept (PoC) for implementing authentication in Jenkins using LDAP (Lightweight Directory Access Protocol). LDAP integration allows Jenkins to authenticate users against an existing directory service such as Microsoft Active Directory or OpenLDAP
 
-**1. Install LDAP Plugin**
+**1. Install Required Plugins**
 
 Go to Jenkins dashboard
 
@@ -121,46 +121,17 @@ Select "Manage Plugins."
 1)
 
 
-Go to the "Available" tab and search for "LDAP Plugin."
+Search for and install the "GitHub Authentication plugin".
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/ea475139-fe03-4eee-9334-f6638cb05763)
-
-
-Install the LDAP Plugin.
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/46fc6757-729e-4a4b-a853-0118cbc2cdd7)
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/324b4b29-a6fe-4b0d-8c8a-ed4b65d6bd3f)
 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/032643a3-027a-4235-9f5e-77d214d6beb7)
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ae2a0e68-cfc1-4066-b814-20698b1331a3)
 
 
-# 2. Configure LDAP:
+# 2. Configure GitHub Authentication:
 
-After installing the LDAP Plugin, go back to the Jenkins dashboard
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/d0e7e7d1-fed8-4153-a7ea-2e6a179ca5f0)
-
-Click on "Manage Jenkins" again.
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/7701d682-6348-4d53-a3a8-4976376cd53e)
-
-Select "Configure Global Security."
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/0e8e9d0b-1f59-40b2-83a3-b779b49414ea)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+After installing the plugin, go back to the Jenkins dashboard.
 
 
 
