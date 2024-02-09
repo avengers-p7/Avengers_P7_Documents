@@ -51,24 +51,9 @@ In this documentation, we'll explore the integration of static code analysis int
 
 # Configure Pipeline job
 
-Below are the steps to Configure pipeline job for Jenkins and execute the pipeline
+ Set up Jenkins Pipeline job & Configure your pipeline using the detailed documentation provided in the following link:**
 
-* Click on "New Item" or "Create new jobs" from the Jenkins dashboard.
-* Enter a name for your job (e.g., "Python App Static_code_analysis") and select "Pipeline" as the job type.
-* Click "OK" to create the new job.
-
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/a9605734-9d40-40f1-bc6d-a820d17a6a0b)
-
-* Then configure the Pipeline section and click “Save” Button.
-* Select pipeline script from SCM option as in this case we are running python code which is our github repo
-* Give repo link and pass access token keys in credentials(access token generated from github) 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/ff0cd2d9-3cd4-4536-b9b7-813a7c0faf35)
-* Select branch type
-* Give path of your jenkins file(we have written our declerative pipeline for static code analysis in it) then apply save it. 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/df67155a-4670-482e-861d-559a3a98cf61)
-
-* Then execute your Pipeline by click on “Build Now”
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/5b551159-568c-4617-931b-c5ce53a3e1f8)
+**[https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md]()**
 
 # Declarative Syntax
 ```
