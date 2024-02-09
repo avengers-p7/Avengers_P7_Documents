@@ -167,21 +167,21 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 **Path Of Jenkinsfile**
 
-<img width="695" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/9e71cc60-3781-4758-bd72-b0ca53297976">
+<img width="629" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4f1446c2-a4fe-4f20-ada5-000f1178389a">
 
 ***
 
 **Console Output**
 
-<img width="946" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/b5916247-948a-462c-b244-8a6afc42bf8d">
+<img width="948" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/e9bb9411-5761-4e9c-ade1-e7f5ce025abe">
 
 ***
 
-<img width="946" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/fa6b8153-1e1f-43af-86fe-9941d58ba81a">
+<img width="944" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/df751d7f-c7bb-4d26-90e6-6739e455b6c4">
 
 ***
 
-<img width="681" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/d6a9678b-fdd5-4739-96bb-546f73a044d9">
+<img width="680" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/a8399d73-ad38-4b32-9b26-f649703dc7b2">
 
 ***
 
@@ -194,50 +194,49 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 # Pipeline
 
 ```shell
-pipeline {
-    agent any
-    
-    environment {
-        AWS_ACCESS_KEY_ID = credentials('aws-credentials')
-        AWS_SECRET_ACCESS_KEY = credentials('aws-credentials')
-        PACKER_LOG = '1' // Set PACKER_LOG environment variable
-    }
-    
-    stages {
+node {
+    // Define environment variables
+    withAWS(credentials: 'aws-credentials') {
+        // Set PACKER_LOG environment variable
+        env.PACKER_LOG = '1'
+
+        // Define stages
         stage('Initialize Packer') {
-            steps {
+            // Execute steps within the stage
+            try {
+                // Change directory and initialize Packer
                 dir('/home/shreya') {
                     sh '/usr/bin/packer init .'
                 }
+            } catch (Exception e) {
+                // Handle errors
+                echo "Failed to initialize Packer: ${e.message}"
+                currentBuild.result = 'FAILURE'
+                error("Failed to initialize Packer: ${e.message}")
             }
         }
+
         stage('Build AMI') {
-            steps {
-                script {
-                    try {
-                        sh "/usr/bin/packer build -var AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -var AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} /home/shreya/ami.pkr.hcl"
-                        currentBuild.result = 'SUCCESS'
-                    } catch (Exception e) {
-                        currentBuild.result = 'FAILURE'
-                        echo "AMI creation failed: ${e.message}"
-                        error("AMI creation failed: ${e.message}")
-                    }
-                }
+            // Execute steps within the stage
+            try {
+                // Build AMI using Packer
+                sh "/usr/bin/packer build -var AWS_ACCESS_KEY_ID=${env.AWS_ACCESS_KEY_ID} -var AWS_SECRET_ACCESS_KEY=${env.AWS_SECRET_ACCESS_KEY} /home/shreya/ami.pkr.hcl"
+
+                // Set build result to success
+                currentBuild.result = 'SUCCESS'
+            } catch (Exception e) {
+                // Handle errors
+                echo "AMI creation failed: ${e.message}"
+                currentBuild.result = 'FAILURE'
+                error("AMI creation failed: ${e.message}")
             }
         }
-    }
-    post {
-        always {
-            echo 'Pipeline completed.'
-        }
-        success {
-            echo 'AMI creation completed successfully.'
-        }
-        failure {
-            echo 'AMI creation failed.'
-        }
+
+        // Post-build actions
+        echo 'Pipeline completed.'
     }
 }
+
 ```
 
 ***
