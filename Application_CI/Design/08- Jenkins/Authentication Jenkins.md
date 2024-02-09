@@ -99,6 +99,23 @@ Implementing secure authentication practices in Jenkins is crucial for maintaini
 
 ***
 
+# Types  of Authentication of Jenkins 
+
+
+In Jenkins, there are several types of Proof of Concept (POC) approaches you can undertake when it comes to authentication. These generally revolve around integrating Jenkins with various identity providers or authentication mechanisms. Here are some common types of POCs for authentication in Jenkins:
+
+|Types| Description | 
+|LDAP Authentication POC |involves setting up Jenkins to authenticate users against an LDAP (Lightweight Directory Access Protocol) server. LDAP integration allows Jenkins to use existing user credentials stored in an LDAP directory for authentication.|
+|GitHub Authentication POC |This POC involves configuring Jenkins to authenticate users using their GitHub credentials. It enables users to log in to Jenkins using their GitHub accounts, leveraging OAuth authentication|
+|Google Authentication POC | Similar to GitHub authentication, this POC involves setting up Jenkins to authenticate users using their Google accounts. It utilizes OAuth authentication to enable users to sign in to Jenkins using their Google credentials|
+|SAML Authentication POC |SAML (Security Assertion Markup Language) authentication involves integrating Jenkins with a SAML identity provider (IdP). It enables single sign-on (SSO) authentication, allowing users to log in to Jenkins using their credentials from the SAML IdP|
+|OpenID Connect Authentication POC| OpenID Connect is another authentication protocol that can be used with Jenkins. This POC involves integrating Jenkins with an OpenID Connect provider, enabling users to authenticate using their credentials.|
+|Custom Authentication POc | some cases, organizations may have custom authentication mechanisms or internal identity providers. This POC involves implementing a custom authentication plugin for Jenkins to integrate with the organization's authentication system.|
+
+
+
+***
+
 # POC of authentication of Jenkins 
 
 Here's a proof of concept (PoC) for implementing authentication in Jenkins using LDAP (Lightweight Directory Access Protocol). LDAP integration allows Jenkins to authenticate users against an existing directory service such as Microsoft Active Directory or OpenLDAP
@@ -143,6 +160,22 @@ Click on "Manage Jenkins" again.
 Select "Configure Global Security".
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/4a552332-2c20-46e8-9ef5-533790db94e7)
+
+
+Under the "Security Realm" section, choose "GitHub Authentication Plugin"
+
+Configure the required settings:
+
+GitHub Web URI: https://github.com
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/0c4eaeb4-4162-4fe6-bb9e-7c4a88c6cbd0)
+
+Client ID: You need to create an OAuth App in your GitHub account. Go to GitHub > Settings > Developer settings > OAuth Apps > New OAuth App. Set the "Authorization callback URL" to http://JENKINS_URL/securityRealm/finishLogin.
+
+Client Secret:  Generated when creating the OAuth App.
+
+Save the configuration.
+
 
 
 
