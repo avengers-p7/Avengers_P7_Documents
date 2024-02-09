@@ -10,6 +10,7 @@
 + [Why Declarative Pipeline](#Why-Declarative-Pipeline)
 + [Pre-requisites](#Pre-requisites)
 + [Setup](#Setup)
++ [Jenkinsfile](#Jenkinsfile)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [Resources and References](#Resources-and-References)
