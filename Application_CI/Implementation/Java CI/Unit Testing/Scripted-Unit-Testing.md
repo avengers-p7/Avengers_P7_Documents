@@ -83,9 +83,7 @@ Based on the results below, it is evident that all 4 tests were executed success
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/b3229d77-7f26-4eaa-bc6e-5f37884f10e4)
 
-![Screenshot from 2024-02-07 19-22-56](https://github.com/Parasharam-Desai/working-repo/assets/156056709/92b745e2-26cf-4026-ac70-e6ddd53fc1ea)
-
-![Screenshot from 2024-02-07 19-23-45](https://github.com/Parasharam-Desai/working-repo/assets/156056709/72c47e89-bcb7-46c2-97ad-27e573d59885)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/3adc4cae-6034-42c8-bff8-40b098e42f2d)
 
 ---
 
