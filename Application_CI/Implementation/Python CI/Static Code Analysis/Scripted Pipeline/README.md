@@ -30,6 +30,11 @@
 
 In this documentation, we'll explore the integration of static code analysis into a Python code repository using the powerful Pylint tool within a Jenkins pipeline. Static code analysis is a crucial step in ensuring code quality by identifying potential issues, enforcing coding standards, and promoting best practices. Jenkins, a widely used automation server, allows us to automate this process through defined pipelines, providing a streamlined and consistent approach to code analysis.
 
+A Jenkins scripted pipeline is a way to define your Jenkins pipeline using Groovy code. It allows you to describe your build process using a scripting language instead of a visual interface.
+To know more about pipelines please follow this link  **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md
+)**
+
+
 # Pre-requisites
 
 | **Tool**   | **Description**            | 
@@ -47,13 +52,13 @@ In this documentation, we'll explore the integration of static code analysis int
 
 # Flow Diagram
 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/5ee31526-7422-480b-ba8e-e829b7ccbd8d)
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/2492a83d-bd29-4682-bb94-974fbaedca77)
 
 # Configure Pipeline job
 
  Set up Jenkins Pipeline job & Configure your pipeline using the detailed documentation provided in the following link:**
 
-**[https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md]()**
+**[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)**
 
 # Declarative Syntax
 ```
