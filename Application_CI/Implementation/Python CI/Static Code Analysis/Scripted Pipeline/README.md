@@ -17,12 +17,11 @@
 3. [Runtime Prerequisites](#Runtime-Prerequisites)
 4. [Flow Diagram](#Flow-diagram)
 5. [Configure Pipeline job](#Configure-Pipeline-job)
-6. [Pipeline](#Pipeline)
-7. [Scripted Syntax](#Scripted-Syntax)
-8. [Evaluate Output](#Evaluate-Output)
-9. [Conclusion](#conclusion)
-10. [Contact Information](#contact-information)
-11. [References](#References)
+6. [Scripted Syntax](#Scripted-Syntax)
+7. [Output/Job Result](#Output/Job-Result)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+10. [References](#References)
 
 
 # Introduction
@@ -60,7 +59,7 @@ To know more about pipelines please follow this link  **[Reference Link](https:/
 
 **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)**
 
-# Declarative Syntax
+# Scripted Syntax
 ```
 node {
     stage('Code Checkout') {
@@ -91,7 +90,8 @@ post {
 }
 ```
 
-* After successful completion of job our detailed output will store in pylint.log file, which looks like below: 
+# Output/Job Result
+
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/1a0d2d3d-5117-4152-88a8-6b9ba1759913)
 
 
