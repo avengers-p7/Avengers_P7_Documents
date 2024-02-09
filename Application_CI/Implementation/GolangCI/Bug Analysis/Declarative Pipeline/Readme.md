@@ -8,6 +8,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Declarative Pipeline](#Why-Declarative-Pipeline)
++ [Flow Daigram](#Flow-Daigram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup](#Setup)
 + [Jenkinsfile](#Jenkinsfile)
@@ -30,6 +31,10 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 | **Version Control** | Markdown files are version-controlled with tools like Git, enabling tracking of pipeline changes, revision history, and collaboration. |
 | **Accessibility**   | Markdown files are viewable and editable with basic text editors or online Markdown editors, facilitating review and contribution by team members, including non-technical stakeholders. |
 | **Presentation**    | Markdown files can be rendered into multiple formats, including HTML, PDF, and slideshows, enabling formatted documents or presentations for sharing and presentation purposes. |
+
+***
+## Flow Daigram
+![Screenshot from 2024-02-09 17-47-50](https://github.com/avengers-p7/Documentation/assets/156056413/68a24b98-2a1e-4586-a748-566938055d4d)
 
 ***
 ## Pre-requisites
