@@ -42,7 +42,8 @@ If you want to learn more about Bug Analysis , refer to this detailed documentat
 ***
 # Flow Diagram
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/5caf2358-ae23-4e78-8ee7-1a7eee658329)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/406e1a2b-6fc1-4a1a-b385-fa15be608cf9)
+
 
 
 ***
