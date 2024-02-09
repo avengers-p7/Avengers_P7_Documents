@@ -27,7 +27,7 @@ A Jenkins pipeline is a way to define your Jenkins pipeline using Groovy code. I
 To know more about pipelines please follow this **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md
 )**
 
-If you want to learn more about Bug Analysis , refer to this detailed documentation: [Bug Analysis Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug%20Analysis/README.md)
+If you want to learn more about Bug Analysis , refer to this detailed documentation: **[Bug Analysis Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug%20Analysis/README.md)**
 
 
 
@@ -41,6 +41,7 @@ If you want to learn more about Bug Analysis , refer to this detailed documentat
 | **Spotbug (4.8.1)** | Employed for bug analysis |
 ***
 # Flow Diagram
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/5caf2358-ae23-4e78-8ee7-1a7eee658329)
 
 
