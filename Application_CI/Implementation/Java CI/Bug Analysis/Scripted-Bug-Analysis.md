@@ -28,6 +28,7 @@ If you want to learn more about Bug Analysis , refer to this detailed documentat
 # Prerequisites
 
 | **Jenkins (2.426.3)** | Enables Continuous Integration |
+| ---------------- | -------------------- |
 | **Java 17** | Required for compiling Jenkins and Spring Boot projects |
 | **Maven(3.6.9)** | Handles build automation and dependency management |
 | **Spotbug (4.8.1)** | Employed for bug analysis |
