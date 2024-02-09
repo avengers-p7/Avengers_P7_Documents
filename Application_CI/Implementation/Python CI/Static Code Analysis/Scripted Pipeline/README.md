@@ -63,7 +63,7 @@ Below are the steps to Configure pipeline job for Jenkins and execute the pipeli
 * Select pipeline script from SCM option as in this case we are running python code which is our github repo
 * Give repo link and pass access token keys in credentials(access token generated from github) 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/ff0cd2d9-3cd4-4536-b9b7-813a7c0faf35)
-* select branch type
+* Select branch type
 * Give path of your jenkins file(we have written our declerative pipeline for static code analysis in it) then apply save it. 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/df67155a-4670-482e-861d-559a3a98cf61)
 
@@ -100,17 +100,21 @@ post {
     }
 }
 ```
+
 * After successful completion of job our detailed output will store in pylint.log file, which looks like below: 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/1a0d2d3d-5117-4152-88a8-6b9ba1759913)
 
+
 # Conclusion
 This pipeline will do Static Code Analysis against a python code by using scripted jenkins pipeline and provide you details report.
+
 
 # Contact Information
 
 |  Name                     |        	Email Address         |
 | ------------              | --------------------------------|
 | Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
+
 
 # References
 
