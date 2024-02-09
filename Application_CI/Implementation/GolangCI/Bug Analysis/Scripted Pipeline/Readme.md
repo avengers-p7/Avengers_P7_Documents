@@ -8,6 +8,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Scripted Pipeline](#Why-Scripted-Pipeline)
++ [Flow Daigram](#Flow-Daigram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup](#Setup)
 + [Jenkinsfile](#Jenkinsfile)
@@ -33,6 +34,10 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 | **Debugging and Maintenance** | Imperative nature can make debugging and maintenance challenging, necessitating proper organization, documentation, and testing practices.                     |
 
 ***
+## Flow Daigram
+![Screenshot from 2024-02-09 17-47-50](https://github.com/avengers-p7/Documentation/assets/156056413/9e3c328a-92c1-41fe-a436-8b44175e5244)  
+***
+
 ## Pre-requisites
 
 * Jenkins Installed
