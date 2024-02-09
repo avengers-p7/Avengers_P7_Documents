@@ -182,5 +182,7 @@ This pipeline will clone your source code repository, compile the project using 
 | Using Spotbug Plugins                 | [Spotbugs Maven Plugin Documentation](https://spotbugs.readthedocs.io/en/latest/maven.html) |
 | Guide to use SpotBugs           | [SpotBugs Maven Configuration Guide](https://github.com/find-sec-bugs/find-sec-bugs/wiki/Maven-configuration) |
 | Jenkinsfile Code          | [SJenkinsfile](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/BugAnalysis/Jenkinsfile) |
+|Pipeline Generic Doc|[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)|
+| Set up Jenkins Pipeline job & Configure your pipeline |[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)|
 
 
