@@ -38,9 +38,10 @@ Establishing a Java pipeline for unit testing typically involves leveraging a CI
 
 # Steps to run Pipeline
 
-**1. Fork Repository:** Fork the repository to your GitHub account.
+**1. Fork Repository:** Fork the repository to your GitHub account. 
+[Repo-Link](https://github.com/Parasharam-DevOps/salary-api.git)
 
-**2. Add Dependency:** Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md).
+**2. Add Dependency:** Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/POC.md).
 
 
 **3. Configure Maven tool in Jenkins**
@@ -102,4 +103,7 @@ This pipeline will check out your source code, build the project using Maven, an
 | Description | References |
 | ----------- | ---------- |
 | Jenkins Pipeline | [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/) |
+| Junit-POC | [Detailed POC Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/POC.md) |
 | JUnit Setup Maven - JUnit 4 and JUnit 5 | Digital Ocean | [Junit Setup Maven](https://www.digitalocean.com/community/tutorials/junit-setup-maven) |
+
+
