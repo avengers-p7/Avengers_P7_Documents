@@ -25,7 +25,23 @@
 
 # Introduction
 
-In modern software development, keeping everyone in the loop about code changes is crucial. With Jenkins and its Declarative Pipelines, we can easily set up notifications on Slack to let the team know about build results. By storing our pipeline configuration in a Jenkinsfile on GitHub, we make the process simple and automated, ensuring everyone stays informed about the status of our projects.
+Creating Amazon Machine Images (AMIs) using Packer with Jenkins pipelines allows for efficient and automated infrastructure provisioning in AWS environments. Packer is a tool that automates the creation of machine images for multiple platforms, including AWS EC2 instances. When integrated with Jenkins pipelines, the process becomes streamlined and reproducible.
+
+***
+
+# What is Declarative Pipeline
+
+***
+
+# Why Declarative Pipeline
+
+***
+
+# What is "Packer"
+
+***
+
+
 
 ***
 
