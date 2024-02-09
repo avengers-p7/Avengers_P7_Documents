@@ -45,6 +45,7 @@ If you want to learn more about Unit Testing, refer to this detailed documentati
 
 **2. Add Dependency:** Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md).
 
+[Click here for reference](https://github.com/Parasharam-DevOps/salary-api/blob/main/pom.xml) to view the pom.xml file.
 
 **3. Configure Maven tool in Jenkins**
 
