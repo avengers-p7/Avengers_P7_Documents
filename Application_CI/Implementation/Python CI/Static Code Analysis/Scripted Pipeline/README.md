@@ -18,7 +18,7 @@
 4. [Flow Diagram](#Flow-diagram)
 5. [Configure Pipeline job](#Configure-Pipeline-job)
 6. [Scripted Syntax](#Scripted-Syntax)
-7. [Output/Job Result](#Output/Job-Result)
+7. [Output or Job Result](#Output-or-Job-Result)
 8. [Conclusion](#conclusion)
 9. [Contact Information](#contact-information)
 10. [References](#References)
@@ -90,7 +90,7 @@ post {
 }
 ```
 
-# Output/Job Result
+# Output or Job Result
 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/1a0d2d3d-5117-4152-88a8-6b9ba1759913)
 
