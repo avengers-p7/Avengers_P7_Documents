@@ -64,8 +64,12 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 - Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
 - After triggering the build, you can view the progress and console output of the build by clicking on the build number in the Jenkins dashboard.
 - The console output will display the steps executed by the pipeline script, including code checkout and compilation.
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/47227db9-4499-4db1-a0f3-70dedf92091d">    
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/5b9d12d7-e0b6-4584-8bcc-3f8d63626327">  
+  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/47227db9-4499-4db1-a0f3-70dedf92091d">
+
+- Console Output :
+    
+  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/5b9d12d7-e0b6-4584-8bcc-3f8d63626327">
+   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/1813ded0-e8a2-43cf-a06e-9301decd5a6a">
 ***
 
 ## HTML Report
