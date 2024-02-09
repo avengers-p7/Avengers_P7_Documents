@@ -21,6 +21,9 @@
 ***
 # Introduction
 Establishing a Java pipeline for bug analysis typically involves leveraging a CI/CD (Continuous Integration/Continuous Deployment) tool to automate the process of building, testing, and potentially deploying your Java application. Here we will be utilizing the Spotbugs plugin for bug scanning to ensure the quality and reliability of our codebase.
+
+If you want to learn more about Bug Analysis , refer to this detailed documentation: [Bug Analysis Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug%20Analysis/README.md)
+
 ***
 # Prerequisites
 |    Tool                                   | Description                    |
@@ -38,6 +41,8 @@ Establishing a Java pipeline for bug analysis typically involves leveraging a CI
 **1. Fork the repository:** You can Fork the repository from GitHub - [**Repo Link**](https://github.com/Parasharam-Desai/salary-api.git).
 
 **2. The Spotbugs plugin needs to be included in the pom.xml file.**
+[Click here for reference](https://github.com/Parasharam-Desai/salary-api/blob/main/pom.xml) to view the pom.xml file.
+
 
             <plugin>
                   <groupId>com.github.spotbugs</groupId>
