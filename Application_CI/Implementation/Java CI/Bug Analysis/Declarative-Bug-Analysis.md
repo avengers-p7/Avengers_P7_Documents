@@ -141,13 +141,13 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 **6. Evaluate Output: Based on the console output provided below, we can infer that there are a few bugs present**
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/a7d63f45-34fb-49e4-8612-a6058e857d98)
+ ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/a7d63f45-34fb-49e4-8612-a6058e857d98)
 
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/c27ed591-7cbe-4c52-a5a8-2e9dfbe485e2)
+ ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/c27ed591-7cbe-4c52-a5a8-2e9dfbe485e2)
 
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/dd07eea5-d7cf-4ac0-96b2-3ab1b70308f8)
+ ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/dd07eea5-d7cf-4ac0-96b2-3ab1b70308f8)
 
 ***
 
