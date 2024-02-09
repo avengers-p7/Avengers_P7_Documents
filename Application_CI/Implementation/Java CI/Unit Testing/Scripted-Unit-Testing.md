@@ -10,11 +10,12 @@
 
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Steps](#steps)
-4. [Evaluate Output](#evaluate-output)
-5. [Conclusion](#conclusion)
-6. [Contact Info](#contact-info)
-7. [Resource and References](#resource-and-references)
+3. [Flow Diagram](#Flow-Diagram)
+4. [Steps](#steps)
+5. [Evaluate Output](#evaluate-output)
+6. [Conclusion](#conclusion)
+7. [Contact Info](#contact-info)
+8. [Resource and References](#resource-and-references)
 
 
 ---
@@ -22,6 +23,10 @@
 # Introduction
 
 Establishing a Java pipeline for unit testing typically involves leveraging a CI/CD (Continuous Integration/Continuous Deployment) tool to automate the process of building, testing, and potentially deploying your Java application. In this setup, we utilize a Jenkins pipeline for unit testing using Maven and JUnit.
+
+A Jenkins pipeline is a way to define your Jenkins pipeline using Groovy code. It allows you to describe your build process using a scripting language instead of a visual interface.
+To know more about pipelines please follow this **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md
+)**
 
 If you want to learn more about Unit Testing, refer to this detailed documentation: [Unit Testing Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/README.md)
 
@@ -35,6 +40,12 @@ If you want to learn more about Unit Testing, refer to this detailed documentati
 | **Java 17** | Required for compiling Jenkins and Spring Boot projects |
 | **Maven(3.6.9)** | Handles build automation and dependency management |
 | **Junit (4.12)** | Facilitates Unit testing |
+
+***
+# Flow Diagram
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/cb0fe70e-4a99-49ed-a057-de4363591c23)
+
 
 ---
 
