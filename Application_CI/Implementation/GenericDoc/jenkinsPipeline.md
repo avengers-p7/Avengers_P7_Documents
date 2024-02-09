@@ -1,4 +1,4 @@
-# Java Code Compilation Pipeline
+# Jenkins Pipeline and Setup
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
