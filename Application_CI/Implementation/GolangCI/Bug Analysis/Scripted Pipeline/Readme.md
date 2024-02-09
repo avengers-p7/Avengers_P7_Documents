@@ -41,34 +41,8 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
 ***
 ## Setup
-**Step-1** Create a New Pipeline Job:
-
-- Navigate to the Jenkins dashboard and click on **New Item**.
-- Enter a name for your job (e.g., **"Bug Analysis (GoLang CI Checks)"**).
-- Select Pipeline and click **OK**.
-    <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/ec91bd45-1d51-4f6d-9898-58ef3e6c104e">
-
-**Step-2** Configure Pipeline Script:
-
-- In the job configuration page, scroll down to the Pipeline section.
-- Select Pipeline script from SCM.
-- Give required repo url and enter your credentials.
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/76030dcc-c1b8-4604-94f7-6f329563a88e">
-
-**Step-3** Save the Configuration :
-
-- Click on Save to save the job configuration.
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/70706041-979e-4df9-aadb-adbf57419e3c">
-
-**Step-4** Build the Pipeline and View Build Console Output:
-
-- Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
-- After triggering the build, you can view the progress and console output of the build by clicking on the build number in the Jenkins dashboard.
-- The console output will display the steps executed by the pipeline script, including code checkout and compilation.
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/47227db9-4499-4db1-a0f3-70dedf92091d">    
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/5b9d12d7-e0b6-4584-8bcc-3f8d63626327">  
-***
-
+ * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
+   
 ## HTML Report
  * Cilck [**here**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Bug%20Analysis/Report.html)
 
