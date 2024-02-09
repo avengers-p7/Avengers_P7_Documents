@@ -88,6 +88,62 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 # AMI Setup
 
+**Tool Installation**
+
+
+
+<img width="407" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/5dee9dff-af57-4556-96bf-8a2c1b3012d4">
+
+***
+
+**Template File Creation**
+
+<img width="480" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/a283d535-52b9-4e43-801c-6c71169275ff">
+
+***
+
+**IAM User Creation**
+
+<img width="688" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/74abfc50-2637-4cf7-8c3c-b91e87f4f5a7">
+
+***
+
+**Policy Creation For IAM User**
+
+<img width="407" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/b77340a9-9e7d-496d-a016-4935bf1183ee">
+
+***
+
+**Global AWS Configuration**
+
+<img width="308" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4f26dee3-02be-4fe3-af35-35c531627947">
+
+***
+
+**Path Of Jenkinsfile**
+
+<img width="695" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/9e71cc60-3781-4758-bd72-b0ca53297976">
+
+***
+
+**Console Output**
+
+<img width="946" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/b5916247-948a-462c-b244-8a6afc42bf8d">
+
+***
+
+<img width="946" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/fa6b8153-1e1f-43af-86fe-9941d58ba81a">
+
+***
+
+<img width="681" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/d6a9678b-fdd5-4739-96bb-546f73a044d9">
+
+***
+
+**Confirmation Of AMI Creation**
+
+<img width="817" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/bb2c4eed-af86-41ab-a8a7-a52ebaa3bc25">
+
 ***
 
 # Pipeline
