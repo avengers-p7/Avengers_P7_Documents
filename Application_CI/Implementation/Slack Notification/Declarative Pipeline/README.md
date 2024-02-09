@@ -13,19 +13,26 @@
 # Table Of Contents
 
 1. [Introduction](#introduction)
-2. [Pre-requisites](#pre-requisites)
-3. [Flow Diagram](#flow-diagram)
-4. [Slack Notification Setup](#slack-notification-setup)
-5. [Pipeline](#Pipeline)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [Reference](#reference)
+2. [What is Declarative Pipeline](#what-is-declarative-pipeline)
+3. [Pre-requisites](#pre-requisites)
+4. [Flow Diagram](#flow-diagram)
+5. [Slack Notification Setup](#slack-notification-setup)
+6. [Pipeline](#Pipeline)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [Reference](#reference)
 
 ***
 
 # Introduction
 
 In modern software development, keeping everyone in the loop about code changes is crucial. With Jenkins and its Declarative Pipelines, we can easily set up notifications on Slack to let the team know about build results. By storing our pipeline configuration in a Jenkinsfile on GitHub, we make the process simple and automated, ensuring everyone stays informed about the status of our projects.
+
+***
+
+# What is Declarative Pipeline
+
+Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
 
 ***
 
