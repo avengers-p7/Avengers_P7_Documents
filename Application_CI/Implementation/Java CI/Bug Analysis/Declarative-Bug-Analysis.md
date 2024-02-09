@@ -41,6 +41,8 @@ If you want to learn more about Bug Analysis , refer to this detailed documentat
 
 **2. The Spotbugs plugin needs to be included in the pom.xml file.**
 
+[Click here for reference](https://github.com/Parasharam-Desai/salary-api/blob/main/pom.xml) to view the pom.xml file.
+
             <plugin>
                   <groupId>com.github.spotbugs</groupId>
                   <artifactId>spotbugs-maven-plugin</artifactId>
