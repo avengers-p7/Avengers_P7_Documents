@@ -50,6 +50,8 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 
 # What is "Packer"
 
+<img width="360" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156057205/6b8c1ba2-9c57-4d55-8092-04ea2eccaf84">
+
 Packer, a powerful open-source tool developed by HashiCorp, has emerged as a preferred choice for creating AMIs. Offering multi-platform support, an infrastructure-as-code paradigm, and extensibility through various builders and provisioners, Packer streamlines the AMI creation process.
 
 ***
