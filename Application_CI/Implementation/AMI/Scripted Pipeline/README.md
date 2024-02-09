@@ -1,4 +1,4 @@
-# Documentation of Declarative Pipeline for AMI Creation
+# Documentation of Scripted Pipeline for AMI Creation
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/7ab97e86-1928-454d-8770-4b5e13487e95)
 
