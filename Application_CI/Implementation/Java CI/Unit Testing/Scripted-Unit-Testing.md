@@ -55,7 +55,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 **4. Set up Jenkins Pipeline job & Configure your pipeline using the detailed documentation provided in the following link:**
 
-**[Reference Link]()**
+**[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)**
 
 
 **5. Now Build Your Pipelne**
