@@ -39,9 +39,11 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 ***
 
 ## Pre-requisites
+| **Pre-requisites** | **Version** |
+| ------------------ | ----------- |
+| Jenkins | 2.426.3 | 
+| golang | 1.21.6 |
 
-* Jenkins Installed
-* golang
 
 ***
 ## Setup
