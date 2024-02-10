@@ -99,7 +99,7 @@ pipeline {
         {
             steps 
             {
-                git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MyGurukulam/OT-Attendance'
+                git branch: 'main', credentialsId: 'snataak', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
             }
         }
         
