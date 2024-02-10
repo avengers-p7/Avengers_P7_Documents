@@ -37,7 +37,7 @@
 
 | Name      | Date    | Reason      | Count| Amount |
 | ----      | ----    | ------      | ---- | ----   |
-| Shantanu  | 6-7     | Status mail | 2    | 10     |
+| Shantanu  | 6-7  Feb   | Status mail | 2    | 10     |
 | Nidhi     | 7-8 Feb | Status mail | 1    | 10     |
 | vikram    | 6 Feb   | Status Mail | 1    | 05     |
 | Vidhi     | 6-7 Feb | Status Mail | 2    | 10     |
