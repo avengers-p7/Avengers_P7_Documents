@@ -61,7 +61,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
 > [!NOTE]
 > **Changes**
-> *  **Pipeline name**       **-**  ``
+> *  **Pipeline name**       **-**  `Dependency_Scanning_(Python)_(Scripted)`
 > *  **Jenkinsfile Path**    **-**  `Scripted Pipeline/Python/Dependency_Scanning`  
 
 ***
