@@ -19,7 +19,7 @@ Testing individual units or components of a software program is a vital part of 
 | Pytest | It is a widely used testing framework for Python, streamlining the task of creating and running tests. |
 ***
 
-# Pipeline Configuration
+# Jenkinsfile Configuration
 
 **Agent Configuration:** This specifies that the pipeline can run on any available agent (slave node).
 
@@ -145,3 +145,41 @@ pipeline {
     }
 }
 ```
+
+# Pipeline Configuration
+
+**Configure pipeline job for Jenkins and execute the pipeline.**
+
+* Click on **"New Item"** or **"Create new jobs"** from the Jenkins dashboard.
+
+* Enter a name for your job (e.g., "Python App Static_code_analysis") and select **"Pipeline"** as the job type.
+
+* Click **"OK"** to create the new job.
+
+* Then write your Pipeline Script under **“Script”** section and click “Save” Button.
+
+* Then execute your Pipeline by clicking on **“Build Now”**
+
+***
+
+# Output Evaluation
+
+From below console output below, we can conclude that the unit test case report
+
+***
+
+# Conclusion
+Performing unit tests in Python entails methodically confirming the accuracy of individual components to guarantee the overall correctness and dependability of a software application. Embracing unit testing practices enhances code quality, simplifies maintenance, and instills confidence in the resilience of the codebase.
+
+# Contact Information
+| Name | Email Address |
+| ---- | ------------- |
+| Shantanu  | shantanu.chauhan.snaatak@mygurukulam.co |
+***
+# References
+| Source | Description  | 
+| -------- | ------- |
+| https://realpython.com/pytest-python-testing/ | Pytest |
+| https://skamalakannan.dev/posts/jenkins-pipeline-python/ | Jenkin pipeline with python |
+| https://www.jenkins.io/doc/book/pipeline/ | Jenkins pipeline |
+
