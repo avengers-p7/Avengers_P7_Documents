@@ -15,7 +15,7 @@
 6. [Best practices](#Best practices)
 7. [Types of Authentication of Jenkins](#Types of Authentication of Jenkins)
 8. [POC of authentication of Jenkins](#POC of authentication of Jenkins)
-9. [Conclusion](#Conclusion)
+9. [conclusion](#Conclusion)
 10. [Contact Information](#Contact Information)
 11.[ References](#References)
 
@@ -144,7 +144,8 @@ Here's a proof of concept (PoC) for implementing authentication in Jenkins using
 **Select "Manage Plugins**
 
 
-![Screenshot from 2024-02-09 21-59-14](https://github.com/avengers-p7/Documentation/assets/156644891/5dd13bde-90ff-48f0-8411-21e98e988bc1)
+![Screenshot from 2024-02-08 18-47-13](https://github.com/avengers-p7/Documentation/assets/156644891/b267a431-707f-4252-a6f0-a9b381503792)
+
 
 
 
@@ -243,7 +244,7 @@ In summary, using Jenkins's user database is a straightforward and quick solutio
 |Link | Description |
 |-----|--------------|
 |https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template | Documentation |
-
+|https://stackoverflow.com/questions/60559456/configuring-jenkins-with-github-authorization|Setup|
 
 
 
