@@ -108,6 +108,9 @@ pipeline {
 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/e2532ce3-7ad7-4867-8e23-22941f91a1f9)
 
+## HTML Report
+ * Cilck [**here**](Application_CI/Implementation/Python CI/Static Code Analysis/Scripted Pipeline/pylint.log)
+
 # Conclusion
 This pipeline will do Static Code Analysis against a python code and provide you details report.
 
