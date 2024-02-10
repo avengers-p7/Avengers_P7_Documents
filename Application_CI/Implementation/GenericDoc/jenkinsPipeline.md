@@ -63,7 +63,7 @@ Creating a Jenkinsfile and committing it to source control provides a number of 
 
 While the syntax for defining a Pipeline, either in the web UI or with a Jenkinsfile is the same, it is generally considered best practice to define the Pipeline in a Jenkinsfile and check that in to source control.
 
-## Declarative vs. Scripted Pipeline syntax
+## Types of Pipeline
 
 A Jenkinsfile can be written using two types of syntax — 
 1. **Declarative**, and
@@ -119,7 +119,17 @@ pipeline {
 | When directive for skipping steps based on conditions            | The When directive enables skipping steps in declarative pipelines if certain conditions are not met|
 ***
 ## Disadvantages of Declarative Pipelines
+| Disadvantage                                                   | Description |
+|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Limitations for complex business logic                         | Developers accustomed to injecting complex business logic into pipeline code may struggle with certain limitations of declarative pipelines                                           |
+| Migration challenges                                           | Organizations experienced with scripted pipelines may find migrating to declarative code time-consuming and error-prone                                                               |
+| Limited cross-pipeline support                                 | Declarative pipelines do not allow injection of blocks of declarative code inside a scripted pipeline, limiting cross-pipeline support                                                |
+***
+##  Scripted Pipeline
+Before the pipeline plug-in v2.5 introduced declarative pipelines, a scripted syntax was the only way to define pipeline code. Even today, many developers prefer it over declarative because it offers more flexibility and extensibility.
 
+The scripted syntax offers a fully-featured programming environment, allowing developers to implement complicated business logic inside pipeline code. Scripted pipelines follow the imperative coding approach, in which the developer has complete control over what they want to achieve and how they want to achieve it.
+***
 ## Scripted syntax
 A scripted pipeline definition begins with the node keyword. Consider the following example:
 
@@ -138,7 +148,6 @@ node {		//------< 1 >-----
 ```
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/86cbc492-3656-46c5-beda-d4b13f06a34a)
-
 ***
 
 ## Advantages of Scripted Pipelines
