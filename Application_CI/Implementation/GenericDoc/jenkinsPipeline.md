@@ -1,9 +1,10 @@
-# Jenkins Pipeline and Setup
-
+# Jenkins Pipeline 
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/315f8b1c-47d8-4c7b-8262-2cbcc262f1e0)
+***
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 07-02-2024  | 1.0        | Harshit Singh   | 09-02-2024      |
-
+***
 
 ## Table  of Contents
 
