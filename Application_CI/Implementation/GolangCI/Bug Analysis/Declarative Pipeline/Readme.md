@@ -78,7 +78,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ***
 
 ## HTML Report
- * Cilck [**here**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Bug%20Analysis/Report.html)
+ * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Report.html)
 
 ***
 ## Jenkinsfile
