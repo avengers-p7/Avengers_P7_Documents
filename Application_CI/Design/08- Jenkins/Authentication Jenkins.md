@@ -10,15 +10,14 @@
 1. [Introduction](#Intoduction)
 2. [What](#what)
 3. [Why](#Why)
-4. [Authentication Method](#Authentication Method)
-5. 
-6. [Limitations](#Limitations)
-7. [Best practices](#Best practices)
-8. [Types of Authentication of Jenkins](#Types of Authentication of Jenkins)
-9. [POC of authentication of Jenkins](#POC of authentication of Jenkins)
-10. [Conclusion](#Conclusion)
-11. [Contact Information](#Contact Information)
-12. [References](#References)
+4. [Authentication Method](#Authentication Method) 
+5. [Limitations](#Limitations)
+6. [Best practices](#Best practices)
+7. [Types of Authentication of Jenkins](#Types of Authentication of Jenkins)
+8. [POC of authentication of Jenkins](#POC of authentication of Jenkins)
+9. [Conclusion](#Conclusion)
+10.[Contact Information](#Contact Information)
+11.[References](#References)
 
 ***
 
