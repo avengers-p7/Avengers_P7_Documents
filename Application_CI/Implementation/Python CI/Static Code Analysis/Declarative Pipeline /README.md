@@ -14,7 +14,7 @@
 
 1. [Introduction](#Introduction)
 2. [Pre-requisites](#Pre-requisites)
-3. [Runtime Pre-requisites](#Runtime-Prerequisites)
+3. [Runtime Pre-requisites](#Runtime-Pre-requisites)
 4. [Flow Diagram](#Flow-diagram)
 5. [Configure Pipeline job](#Configure-Pipeline-job)
 7. [Declarative Syntax](#Declarative-Syntax)
