@@ -11,13 +11,16 @@
 2. What
 3. Why
 4. Authentication Methods
-5. Why Use Jenkins Own User Database?
+5. Why Use Jenkins's Own User Database?
 6. Limitations
 7. Best Practices
-8. Common Configuration Mistakes
-9. Conclusion
-10. Contact Information
-11. References
+8. Types  of Authentication of Jenkins
+9. POC of authentication of Jenkins 
+10. Conclusion
+11. Contact Information
+12. References
+
+***
 
 # Introduction 
 
@@ -31,6 +34,8 @@ Access Control is the primary mechanism for securing a Jenkins environment again
 
 2. Authorization configuration informs the Jenkins environment of which users and groups can access which aspects of Jenkins, and to what extent.
 
+
+***
 
 # What 
 
@@ -49,6 +54,7 @@ Authentication in Jenkins is important for several reasons:
 |Compliance Requirements | Many organizations have compliance or security policies that mandate proper authentication mechanisms to protect sensitive data and ensure regulatory compliance. By implementing robust authentication in Jenkins, organizations can meet these requirements and demonstrate adherence to security best practices |
 
 ***
+
 # Authentication Method 
 
 In Jenkins, various authentication methods are available to verify the identity of users accessing the Jenkins server or interacting with it through its API. Here are some common authentication methods in Jenkins:
@@ -64,6 +70,7 @@ In Jenkins, various authentication methods are available to verify the identity 
 |Third-Party Authentication Plugins | Jenkins has a vast ecosystem of plugins, some of which provide additional authentication methods. For example, plugins may allow authentication against external identity providers or custom authentication mechanisms |
 
 ***
+
 # Limitation
 
 However, it's essential to consider the following considerations and potential limitations:
@@ -77,7 +84,7 @@ However, it's essential to consider the following considerations and potential l
 Ultimately, the choice between using Jenkins's user database and an external authentication system depends on the specific needs, scale, and security requirements of your Jenkins environment.
 
 
-# Best practices of authentication of Jenkins 
+# Best practices 
 
 Implementing secure authentication practices in Jenkins is crucial for maintaining the integrity of your CI/CD environment and protecting sensitive data. Here are some best practices for authentication in Jenkins:
 
@@ -165,24 +172,43 @@ Select "Configure Global Security".
 
 Under the "Security Realm" section, choose "GitHub Authentication Plugin"
 
+
 Configure the required settings:
 
 GitHub Web URI: https://github.com
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/0c4eaeb4-4162-4fe6-bb9e-7c4a88c6cbd0)
 
-Client ID: You need to create an OAuth App in your GitHub account. Go to GitHub > Settings > Developer settings > OAuth Apps > New OAuth App. Set the "Authorization callback URL" to http://JENKINS_URL/securityRealm/finishLogin.
+Client ID: You need to create an OAuth App in your GitHub account. Go to GitHub > Settings > Developer settings > OAuth Apps > New OAuth App. 
+
+![Screenshot from 2024-02-10 15-30-32](https://github.com/avengers-p7/Documentation/assets/156644891/4ac2d23a-1f88-4b09-bcae-88d63f276467)
+
+
+Set the "Authorization callback URL" to http://JENKINS_URL/securityRealm/finishLogin.
+
+![Screenshot from 2024-02-10 16-19-38](https://github.com/avengers-p7/Documentation/assets/156644891/67c14f30-f87f-464f-b775-5883ed8cf983)
+
 
 Client Secret:  Generated when creating the OAuth App.
 
-Save the configuration.
+
+![Screenshot from 2024-02-10 16-20-10](https://github.com/avengers-p7/Documentation/assets/156644891/3085695c-0804-42df-adfd-9f7be9633698)
 
 
+Client Secret:  Generated when creating the OAuth App.
+
+
+![Screenshot from 2024-02-10 16-22-12](https://github.com/avengers-p7/Documentation/assets/156644891/e710fedf-c112-42b8-8723-1530e8d746c1)
+
+
+Authentication is Complete 
+
+![Screenshot from 2024-02-10 16-22-46](https://github.com/avengers-p7/Documentation/assets/156644891/f687d37d-490c-4e87-8fc4-77380de63cf9)
 
 
 # conclusion 
 
-In summary, using Jenkins's own user database is a straightforward and quick solution suitable for small to medium-sized teams and projects. It provides simplicity, out-of-the-box functionality, and local control over user management. However, potential limitations include limited integration, scalability concerns for larger organizations, and security considerations. The choice should align with specific needs and security policies, balancing simplicity with meeting authentication and authorization requirements.
+In summary, using Jenkins's user database is a straightforward and quick solution suitable for small to medium-sized teams and projects. It provides simplicity, out-of-the-box functionality, and local control over user management. However, potential limitations include limited integration, scalability concerns for larger organizations, and security considerations. The choice should align with specific needs and security policies, balancing simplicity with meeting authentication and authorization requirements.
 
 # Contact Information 
 
