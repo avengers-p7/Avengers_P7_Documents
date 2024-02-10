@@ -50,6 +50,82 @@ Jenkins is, fundamentally, an automation engine which supports a number of autom
 
 ***
 
+## Jenkinsfile
+
+The definition of a Jenkins Pipeline is written into a text file (called a **Jenkinsfile**) which in turn can be committed to a project’s source control repository. This is the foundation of "Pipeline-as-code"; treating the CD pipeline as a part of the application to be versioned and reviewed like any other code.
+
+Creating a Jenkinsfile and committing it to source control provides a number of immediate benefits:
+
+- Automatically creates a Pipeline build process for all branches and pull requests.
+- Code review/iteration on the Pipeline (along with the remaining source code).
+- Audit trail for the Pipeline.
+- Single source of truth for the Pipeline, which can be viewed and edited by multiple members of the project.
+
+While the syntax for defining a Pipeline, either in the web UI or with a Jenkinsfile is the same, it is generally considered best practice to define the Pipeline in a Jenkinsfile and check that in to source control.
+
+## Declarative vs. Scripted Pipeline syntax
+
+A Jenkinsfile can be written using two types of syntax — 
+1. **Declarative**, and
+2. **Scripted**.
+
+Declarative Pipeline is a more recent feature of Jenkins Pipeline which:
+
+- provides richer syntactical features over Scripted Pipeline syntax, and
+- is designed to make writing and reading Pipeline code easier.
+
+Many of the individual syntactical components (or "steps") written into a Jenkinsfile, however, are common to both Declarative and Scripted Pipeline. Read more about how these two types of syntax differ in [Pipeline concepts](https://www.jenkins.io/doc/book/pipeline/#pipeline-concepts) and [Pipeline syntax](https://www.jenkins.io/doc/book/pipeline/#pipeline-syntax-overview) overview below.
+***
+## Declarative Pipeline
+
+In many ways, declarative syntax represents the modern way of defining pipelines. It is robust, clean, and easy to read and write. The declarative coding approach dictates that the user specifies only what they want to do, not how they want to do it. This makes it easier to create declarative pipelines, as compared to scripted pipelines, which follow the imperative coding approach.
+
+## Declarative syntax
+In a declarative pipeline definition, the entire code is encapsulated within the pipeline block. Consider the following example:
+```shell
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                //
+            }
+        }
+        stage('Test') {
+            steps {
+                //
+            }
+        }
+        stage('Deploy') {
+            steps {
+                //
+            }
+        }
+    }
+}
+```
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/dba901f7-948f-439f-8672-8b46c56ed7b7)
+***
+## Scripted syntax
+A scripted pipeline definition begins with the node keyword. Consider the following example:
+
+```shell
+node {
+    stage('Build') {
+        //
+    }
+    stage('Test') {
+        //
+    }
+    stage('Deploy') {
+        //
+    }
+}
+```
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/86cbc492-3656-46c5-beda-d4b13f06a34a)
+***
 ## Runtime Prerequisites
 
 |Language / Dependency|Description|
