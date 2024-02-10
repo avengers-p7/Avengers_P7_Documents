@@ -44,6 +44,8 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 | **Pre-requisites** | **Version** |
 | ------------------ | ----------- |
 | Jenkins | 2.426.3 | 
+| Java | 17 |
+| OWASP Dependency-Check | 9.0.9 |
 
 ***
 ## Setup of Dependency Scanning
