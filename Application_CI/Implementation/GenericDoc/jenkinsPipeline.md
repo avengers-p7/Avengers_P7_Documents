@@ -18,9 +18,15 @@
 
 ## Introduction 
 
-The process of code compilation involves converting high-level programming code, such as Java, C++, or Python, into machine-readable instructions or bytecode. This transformation is carried out by a compiler, which is a specialized tool designed to translate human-readable source code into an executable format.
-Here we are using maven compiler to convert of code into  bytecode.
+Jenkins uses projects (also known as "jobs") to perform its work. Projects are defined and run by Jenkins users. Jenkins offers several different types of projects, including:
 
+- [Pipeline](https://www.jenkins.io/doc/book/pipeline/)
+- [Multibranch Pipeline](https://www.jenkins.io/doc/book/pipeline/multibranch/)
+- [Organization folders](https://www.jenkins.io/doc/book/pipeline/multibranch/#organization-folders)
+- [Freestyle](https://phoenixnap.com/kb/jenkins-build-freestyle-project#:~:text=Jenkins%20freestyle%20projects%20allow%20users,steps%20and%20post%2Dbuild%20actions.)
+- [Multi-configuration(matrix)](https://plugins.jenkins.io/matrix-project)
+- [Maven](https://plugins.jenkins.io/maven-plugin)
+- [External job](https://plugins.jenkins.io/external-monitor-job)
 ### For more information visit the below document link:
 
 #### [\[ Reference Doc \]](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Code%20Complication.md)
