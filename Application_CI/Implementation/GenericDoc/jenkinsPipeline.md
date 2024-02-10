@@ -169,7 +169,7 @@ node {		//------< 1 >-----
 ## Scripted vs. declarative – which one should you choose?
 There is no single right or wrong answer to which pipeline you should use for your business. Depending on your personalized needs, developers’ expectations, and time constraints, one may be a better fit than the other.
 | Choose a Declarative Pipeline if:|
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|>----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | You want to set up your CI/CD pipeline in the minimum amount of time.|
 | You want to write straightforward, readable pipeline code, loading plugins or shared libraries for complicated business logic, adhering to core principles of CI/CD and pipeline-as-code.|
 | You don’t expect to reference Java APIs or Groovy scripts in your pipeline code.|
@@ -177,7 +177,7 @@ There is no single right or wrong answer to which pipeline you should use for yo
 | You want to future-proof your CI/CD implementation.|
 
 | Choose a Scripted Pipeline if:|
-|-------------------------------------------------------------------------------------------------------------------- |
+|>-------------------------------------------------------------------------------------------------------------------- |
 | You must include advanced business logic in your pipeline code.|
 | Your developers have hands-on experience with Groovy.|
 | All your existing pipelines are scripted, and you don’t want to migrate or move to a hybrid setup.|
