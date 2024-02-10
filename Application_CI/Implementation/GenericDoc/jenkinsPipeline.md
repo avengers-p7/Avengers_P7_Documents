@@ -18,7 +18,7 @@
 
 ## Introduction 
 
-Jenkins uses projects (also known as "jobs") to perform its work. Projects are defined and run by Jenkins users. Jenkins offers several different types of projects, including:
+Jenkins uses projects (also known as "**jobs**") to perform its work. Projects are defined and run by Jenkins users. Jenkins offers several different types of projects, including:
 
 - [Pipeline](https://www.jenkins.io/doc/book/pipeline/)
 - [Multibranch Pipeline](https://www.jenkins.io/doc/book/pipeline/multibranch/)
