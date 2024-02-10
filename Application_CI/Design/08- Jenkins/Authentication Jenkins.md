@@ -16,8 +16,8 @@
 7. [Types of Authentication of Jenkins](#Types of Authentication of Jenkins)
 8. [POC of authentication of Jenkins](#POC of authentication of Jenkins)
 9. [Conclusion](#Conclusion)
-10.[Contact Information](#Contact Information)
-11.[References](#References)
+10. [Contact Information](#Contact Information)
+11.[ References](#References)
 
 ***
 
