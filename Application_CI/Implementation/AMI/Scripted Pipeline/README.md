@@ -177,10 +177,6 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 ***
 
-<img width="944" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/df751d7f-c7bb-4d26-90e6-6739e455b6c4">
-
-***
-
 <img width="680" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/a8399d73-ad38-4b32-9b26-f649703dc7b2">
 
 ***
