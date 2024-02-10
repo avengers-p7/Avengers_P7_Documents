@@ -7,18 +7,18 @@
 
 # Table of Contents 
 
-1. Introduction
-2. What
-3. Why
-4. Authentication Methods
-5. Why Use Jenkins's Own User Database?
-6. Limitations
-7. Best Practices
-8. Types  of Authentication of Jenkins
-9. POC of authentication of Jenkins 
-10. Conclusion
-11. Contact Information
-12. References
+1. [Introduction](#Intoduction)
+2. {[What](#what)
+3. [Why](#Why)
+4. [Authentication Method](#Authentication Method )
+5. [Why Use Jenkins's Own User Database?](#Why Use Jenkins's Own User Database?)
+6. [Limitations](#Limitations)
+7. [Best Practices](#Best Practices)
+8. [Types  of Authentication of Jenkins](#Types  of Authentication of Jenkins)
+9. [POC of authentication of Jenkins](#POC of authentication of Jenkins)
+10. [Conclusion](#Conclusion)
+11. [Contact Information](#Contact Information)
+12. [References](#References)
 
 ***
 
@@ -71,7 +71,7 @@ In Jenkins, various authentication methods are available to verify the identity 
 
 ***
 
-# Limitation
+# Limitations
 
 However, it's essential to consider the following considerations and potential limitations:
 
@@ -130,23 +130,27 @@ Here's a proof of concept (PoC) for implementing authentication in Jenkins using
 
 **1. Install Required Plugins**
 
-Go to Jenkins dashboard
+
+**Go to Jenkins dashboard**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/034128ab-1fdb-4e65-bf50-fa10df7a43f5)
 
 
-Click on "Manage Jenkins" on the left sidebar.
+**Click on "Manage Jenkins" on the left sidebar**
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/893dd66f-dfe8-4d49-809f-a53e6828194e)
 
 
-Select "Manage Plugins."
-
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/94e24475-e71e-4973-adfb-223caf7ca70
-1)
+**Select "Manage Plugins**
 
 
-Search for and install the "GitHub Authentication plugin".
+![Screenshot from 2024-02-09 21-59-14](https://github.com/avengers-p7/Documentation/assets/156644891/5dd13bde-90ff-48f0-8411-21e98e988bc1)
+
+
+
+**Search for and install the "GitHub Authentication plugin**
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/324b4b29-a6fe-4b0d-8c8a-ed4b65d6bd3f)
 
@@ -154,54 +158,66 @@ Search for and install the "GitHub Authentication plugin".
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/ae2a0e68-cfc1-4066-b814-20698b1331a3)
 
 
+
 # 2. Configure GitHub Authentication:
 
-After installing the plugin, go back to the Jenkins dashboard.
+
+**After installing the plugin, go back to the Jenkins dashboard**
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/b7d0037e-55a5-4293-b72e-1f7f057ed828)
 
-Click on "Manage Jenkins" again.
+
+**Click on "Manage Jenkins" again**
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/8730a47a-571f-4a80-b76b-a8fd1274d147)
 
 
-Select "Configure Global Security".
+**Select "Configure Global Security**
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/4a552332-2c20-46e8-9ef5-533790db94e7)
 
 
-Under the "Security Realm" section, choose "GitHub Authentication Plugin"
+**Under the "Security Realm" section, choose "GitHub Authentication Plugin**
 
 
-Configure the required settings:
 
-GitHub Web URI: https://github.com
+**Configure the required settings**
+
+
+**GitHub Web URI: https://github.com**
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/0c4eaeb4-4162-4fe6-bb9e-7c4a88c6cbd0)
 
-Client ID: You need to create an OAuth App in your GitHub account. Go to GitHub > Settings > Developer settings > OAuth Apps > New OAuth App. 
+
+**Client ID: You need to create an OAuth App in your GitHub account. Go to GitHub > Settings > Developer settings > OAuth Apps > New OAuth App**
+
 
 ![Screenshot from 2024-02-10 15-30-32](https://github.com/avengers-p7/Documentation/assets/156644891/4ac2d23a-1f88-4b09-bcae-88d63f276467)
 
 
-Set the "Authorization callback URL" to http://JENKINS_URL/securityRealm/finishLogin.
+**Set the "Authorization callback URL" to http://JENKINS_URL/securityRealm/finishLogin**
+
 
 ![Screenshot from 2024-02-10 16-19-38](https://github.com/avengers-p7/Documentation/assets/156644891/67c14f30-f87f-464f-b775-5883ed8cf983)
 
 
-Client Secret:  Generated when creating the OAuth App.
+
+**Client Secret:  Generated when creating the OAuth App**
 
 
 ![Screenshot from 2024-02-10 16-20-10](https://github.com/avengers-p7/Documentation/assets/156644891/3085695c-0804-42df-adfd-9f7be9633698)
 
 
-Client Secret:  Generated when creating the OAuth App.
+**Authentication is Complete**
 
 
 ![Screenshot from 2024-02-10 16-22-12](https://github.com/avengers-p7/Documentation/assets/156644891/e710fedf-c112-42b8-8723-1530e8d746c1)
 
 
-Authentication is Complete 
 
 ![Screenshot from 2024-02-10 16-22-46](https://github.com/avengers-p7/Documentation/assets/156644891/f687d37d-490c-4e87-8fc4-77380de63cf9)
 
