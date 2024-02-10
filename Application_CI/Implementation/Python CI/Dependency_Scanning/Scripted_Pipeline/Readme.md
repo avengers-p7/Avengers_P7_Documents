@@ -52,11 +52,11 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 ## Setup of Dependency Scanning
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
 
-  <img width="760" length="100" alt="Python" src=""> 
+  <img width="760" length="100" alt="Python" src="https://github.com/avengers-p7/Documentation/assets/156056413/891807cf-a73d-45dc-9a1b-70c49b9d2089"> 
 
 * Console Output:
-  
-   <img width="760" length="100" alt="Python" src=""> 
+
+   <img width="760" length="100" alt="Python" src="https://github.com/avengers-p7/Documentation/assets/156056413/2ee8dc43-bab4-41a5-9e1b-448284ee4d00"> 
 
 
 > [!NOTE]
@@ -73,7 +73,37 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 ## Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/tree/main/Scripted%20Pipeline/Python/Dependency_Scanning)
   ```shell
-  
+  node {
+    // Define environment variable
+    def DEP_CHECK_VERSION = '9.0.9'
+
+    // Stage: Install JDK
+    stage('Install JDK') {
+        sh 'sudo apt update && sudo apt install -y openjdk-17-jdk'
+    }
+
+    // Stage: Download Dependency Check
+    stage('Download Dependency Check') {
+        sh "wget -q https://github.com/jeremylong/DependencyCheck/releases/download/v${DEP_CHECK_VERSION}/dependency-check-${DEP_CHECK_VERSION}-release.zip"
+        sh "unzip -q dependency-check-${DEP_CHECK_VERSION}-release.zip"
+    }
+
+    // Stage: Clone Repository
+    stage('Clone Repository') {
+        git branch: 'main', credentialsId: 'vishal-cred', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+    }
+
+    // Stage: Run Dependency Check
+    stage('Run Dependency Check') {
+        sh './dependency-check/bin/dependency-check.sh --scan /var/lib/jenkins/workspace/ --out dep-check.html'
+    }
+
+    // Stage: Clean workspace
+    stage('Clean workspace') {
+        sh "rm -rf dependency-check-${DEP_CHECK_VERSION}-release.zip"
+        sh "rm -rf dependency-check"
+    }
+}
 ```
 ***
 ## Conclusion
