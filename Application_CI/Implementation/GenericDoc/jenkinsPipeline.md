@@ -86,12 +86,12 @@ In a declarative pipeline definition, the entire code is encapsulated within the
 pipeline { 	
     agent any		//------< 1 >-----
     stages {
-        stage('Build') {		//------< 2 >-----
+        stage('Build') {//------< 2 >-----
             steps {
                 //------< 3 >-----
             }
         }
-        stage('Test') {		//------< 4 >-----
+        stage('Test') {	//------< 4 >-----
             steps {
                 //------< 5 >-----
             }
@@ -112,13 +112,13 @@ A scripted pipeline definition begins with the node keyword. Consider the follow
 
 ```shell
 node {		//------< 1 >-----
-    stage('Build') {	//------< 2 >-----
+    stage('Build') {//------< 2 >-----
         //------< 3 >-----
     }
-    stage('Test') {	//------< 4 >-----
+    stage('Test') {//------< 4 >-----
         //------< 5 >-----
     }
-    stage('Deploy') {		//------< 6 >-----
+    stage('Deploy') {//------< 6 >-----
         //------< 7 >-----
     }
 }
