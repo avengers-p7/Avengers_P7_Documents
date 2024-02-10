@@ -38,9 +38,10 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Pre-requisites
-
-* Jenkins Installed
-* golang (go version go1.21.6 )
+| **Pre-requisites** | **Version** |
+| ------------------ | ----------- |
+| Jenkins | 2.426.3 | 
+| golang | 1.21.6 |
 
 ***
 ## Setup
@@ -58,7 +59,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ***
 
 ## HTML Report
- * Cilck [**here**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Unit%20Testing/Report.html)
+ * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Unit%20Testing/Declarative%20Pipeline/Report.html)
 
 ***
 ## Jenkinsfile
@@ -82,6 +83,7 @@ Declarative Pipeline simplifies Jenkins pipeline configuration, offering clarity
 | ---------------- | ------------ |
 | About Jenkins Pipeline (Generic Document) | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md  ) |
 | Flow Step for create pipeline | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Unit%20Testing%20(GoLang%20CI%20Checks).md) |
+| Setup Jenkins | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup) |
 | Jenkinsfile | [Link](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Unit%20Testing/Jenkinsfile) |
 | Scripted vs Declarative Pipelines | [Link](https://www.baeldung.com/ops/jenkins-scripted-vs-declarative-pipelines) |
 | Unit Testing | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro-of-Unit-Testing.md) |
