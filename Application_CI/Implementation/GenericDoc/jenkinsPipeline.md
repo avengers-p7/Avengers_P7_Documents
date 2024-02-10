@@ -83,22 +83,22 @@ In many ways, declarative syntax represents the modern way of defining pipelines
 ## Declarative syntax
 In a declarative pipeline definition, the entire code is encapsulated within the pipeline block. Consider the following example:
 ```shell
-pipeline {
-    agent any
+pipeline { 	
+    agent any		//------< 1 >-----
     stages {
-        stage('Build') {
+        stage('Build') {		//------< 2 >-----
             steps {
-                //
+                //------< 3 >-----
             }
         }
-        stage('Test') {
+        stage('Test') {		//------< 4 >-----
             steps {
-                //
+                //------< 5 >-----
             }
         }
-        stage('Deploy') {
+        stage('Deploy') { //------< 6 >-----
             steps {
-                //
+                //------< 7 >-----
             }
         }
     }
@@ -111,15 +111,15 @@ pipeline {
 A scripted pipeline definition begins with the node keyword. Consider the following example:
 
 ```shell
-node {
-    stage('Build') {
-        //
+node {		//------< 1 >-----
+    stage('Build') {	//------< 2 >-----
+        //------< 3 >-----
     }
-    stage('Test') {
-        //
+    stage('Test') {	//------< 4 >-----
+        //------< 5 >-----
     }
-    stage('Deploy') {
-        //
+    stage('Deploy') {		//------< 6 >-----
+        //------< 7 >-----
     }
 }
 ```
