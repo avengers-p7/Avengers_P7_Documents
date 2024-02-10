@@ -63,7 +63,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
    
 ## HTML Report
- * Cilck [**here**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Bug%20Analysis/Report.html)
+ * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Scripted%20Pipeline/Report.html)
 
 ***
 ## Jenkinsfile
