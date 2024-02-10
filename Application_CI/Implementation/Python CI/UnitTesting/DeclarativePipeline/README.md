@@ -27,6 +27,121 @@ Testing individual units or components of a software program is a vital part of 
 agent any
 ```
 
+**Stages:** This section defines multiple stages for the pipeline.
 
+```
+stages 
+{
+    // Stages go here
+}
+```
+**Code Checkout:** This stage checks out the code from the specified GitHub repository OT-Attendance using the 'main' branch and the specified credentials (Attendance-creds).
 
+As it is a private repo so here we are using credentials which is already stored in the Jenkin server
+pipeline {
+    agent any
+```
+    stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    // Checkout the code from the specified Git repository
+                    git branch: 'main', credentialsId: 'snataak', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+                }
+            }
+        }
+```
 
+**Create Virtual Environment:** This stage creates a virtual environment named 'myenv' using Python's venv module and activates it.
+stage('Create Virtual ENV') 
+
+**NOTE:** _Here virtual environment is created to isolate project dependencies, ensuring a clean and controlled environment. It helps manage and specify the exact versions of Python and third-party libraries needed for a specific project, preventing conflicts with other projects or the global Python environment._
+```
+{
+    steps 
+    {
+        script 
+        {
+            sh 'python3 -m venv myenv'
+            sh '. myenv/bin/activate'
+        }
+    }
+}
+```
+
+**Install Dependencies:** This stage installs the Python dependencies listed in the 'requirements.txt' file using the pip package manager.
+
+```
+stage('Install Dependencies')
+ {
+    steps {
+        script {
+            sh 'python3 -m pip install -r requirements.txt'
+        }
+    }
+}
+```
+
+**Unit Testing:**
+
+* This stage is dedicated to running unit tests for the project.
+
+* It activates the virtual environment (. myenv/bin/activate) and then runs pytest on a specific test file (router/tests/test_cache.py).
+
+* This assumes that your unit tests are written using the pytest framework, and that the specified test file is part of your project's test suite.
+```
+pipeline {
+    agent any
+
+    stages 
+    {
+        stage('Code Checkout') 
+        {
+            steps 
+            {
+                git branch: 'main', credentialsId: 'Attendance-creds', url: 'https://github.com/OT-MyGurukulam/OT-Attendance'
+            }
+        }
+        
+        stage('Creat Virtual ENV') 
+        {
+            steps 
+            {
+                script 
+                {
+                  sh 'python3 -m venv myenv'
+                  sh '. myenv/bin/activate'
+                }
+            }
+        }
+
+        stage('Install Dependencies') 
+        {
+            steps 
+            {
+                script 
+                {
+                  sh 'pip install -r requirements.txt'
+                  sh 'pip install pytest pytest-html'
+                }
+            }
+        }
+
+        stage('Unit Test') 
+        {
+            steps 
+            {
+                script 
+                {
+                    sh '. myenv/bin/activate'
+                    //sh 'pytest router/tests/test_c
+                    sh 'pytest router/tests/test_cache.py'
+                    //sh 'pytest /var/lib/jenkins/workspace/unit_test '
+                    
+                    
+                }
+            }
+        }
+    }
+}
+```
