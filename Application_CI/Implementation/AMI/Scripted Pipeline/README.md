@@ -91,8 +91,6 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 **Tool Installation**
 
-
-
 <img width="407" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/5dee9dff-af57-4556-96bf-8a2c1b3012d4">
 
 ***
@@ -124,8 +122,6 @@ build {
   sources    = ["amazon-ebs.example"]
 }
 ```
-
-
 ***
 
 **IAM User Creation**
@@ -186,7 +182,7 @@ build {
 
 **Global AWS Configuration**
 
-<img width="308" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4f26dee3-02be-4fe3-af35-35c531627947">
+<img width="554" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/2642d989-3ec9-4279-a949-6b565cfec4db">
 
 ***
 
