@@ -35,7 +35,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
 ***
 ## Flow Daigram
-
+![Screenshot from 2024-02-10 12-24-04](https://github.com/avengers-p7/Documentation/assets/156056413/a5324c1b-68c8-447c-9299-dcf28c6870d2)
 ***
 
 ## Pre-requisites
@@ -60,7 +60,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 > [!NOTE]
 > **Changes**
 > *  **Pipeline name**       **-**  ""
-> *  **Jenkinsfile Path**    **-**  "Scripted Pipeline/golang/Unit Testing/Jenkinsfile"  
+> *  **Jenkinsfile Path**    **-**  `Scripted Pipeline/golang/Unit Testing/Jenkinsfile`  
 
    
 ## HTML Report
