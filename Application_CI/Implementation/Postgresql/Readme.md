@@ -12,7 +12,6 @@
 + [Pre-requisites](#Pre-requisites)
 + [Setup Ansible Role](#steps)
 + [Output Verification](#output)
-+ [Jenkins Setup](#post-installation-setup)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
