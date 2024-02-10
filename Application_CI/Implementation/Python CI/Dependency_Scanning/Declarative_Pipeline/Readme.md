@@ -51,11 +51,11 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ## Setup of Dependency Scanning
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
 
-  <img width="760" length="100" alt="Python" src=""> 
+  <img width="760" length="100" alt="Python" src="https://github.com/avengers-p7/Documentation/assets/156056413/6adc0479-6af7-475d-b142-8f647718a915"> 
 
 * Console Output:
-  
-   <img width="760" length="100" alt="Python" src=""> 
+
+   <img width="760" length="100" alt="Python" src="https://github.com/avengers-p7/Documentation/assets/156056413/619d9f82-5e52-438e-9244-7bf987906dcc"> 
 
 
 > [!NOTE]
