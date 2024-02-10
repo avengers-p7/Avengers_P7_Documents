@@ -1,1 +1,119 @@
 
+************* Module attendance
+router/attendance.py:14:0: E0611: No name 'validator' in module 'utils' (no-name-in-module)
+************* Module cache
+router/cache.py:4:0: E0401: Unable to import 'flask_caching' (import-error)
+router/cache.py:6:0: C0103: Constant name "cache" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module tests.test_cache
+router/tests/test_cache.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+router/tests/test_cache.py:1:0: E0401: Unable to import 'flask' (import-error)
+router/tests/test_cache.py:2:0: E0401: Unable to import 'flask_caching' (import-error)
+router/tests/test_cache.py:3:0: E0401: Unable to import 'pytest' (import-error)
+router/tests/test_cache.py:5:0: C0103: Constant name "cache" doesn't conform to UPPER_CASE naming style (invalid-name)
+router/tests/test_cache.py:10:4: W0621: Redefining name 'app' from outer scope (line 8) (redefined-outer-name)
+router/tests/test_cache.py:16:23: W0621: Redefining name 'app' from outer scope (line 8) (redefined-outer-name)
+router/tests/test_cache.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+router/tests/test_cache.py:16:23: W0613: Unused argument 'app' (unused-argument)
+router/tests/test_cache.py:27:22: W0621: Redefining name 'app' from outer scope (line 8) (redefined-outer-name)
+router/tests/test_cache.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
+router/tests/test_cache.py:27:22: W0613: Unused argument 'app' (unused-argument)
+router/tests/test_cache.py:41:21: W0621: Redefining name 'app' from outer scope (line 8) (redefined-outer-name)
+router/tests/test_cache.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+router/tests/test_cache.py:41:21: W0613: Unused argument 'app' (unused-argument)
+************* Module redis.redis_conn
+client/redis/redis_conn.py:15:15: C0326: Exactly one space required around assignment
+    config_dict={
+               ^ (bad-whitespace)
+client/redis/redis_conn.py:30:0: C0330: Wrong continued indentation (remove 1 space).
+                                   port=yaml_values['redis']['port'],
+                                  |^ (bad-continuation)
+client/redis/redis_conn.py:31:0: C0330: Wrong continued indentation (remove 1 space).
+                                   password=yaml_values['redis']['password'],
+                                  |^ (bad-continuation)
+client/redis/redis_conn.py:32:0: C0330: Wrong continued indentation (remove 1 space).
+                                   decode_responses=True)
+                                  |^ (bad-continuation)
+client/redis/redis_conn.py:7:0: C0411: third party import "import yaml" should be placed before "import redis" (wrong-import-order)
+************* Module postgres.postgres_conn
+client/postgres/postgres_conn.py:27:4: R0201: Method could be a function (no-self-use)
+************* Module tests.test_postgres_conn
+client/tests/test_postgres_conn.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+client/tests/test_postgres_conn.py:2:0: E0401: Unable to import 'pytest' (import-error)
+client/tests/test_postgres_conn.py:3:0: E0401: Unable to import 'psycopg2' (import-error)
+client/tests/test_postgres_conn.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+client/tests/test_postgres_conn.py:24:55: W0621: Redefining name 'mock_config_file' from outer scope (line 11) (redefined-outer-name)
+client/tests/test_postgres_conn.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+client/tests/test_postgres_conn.py:24:55: W0613: Unused argument 'mock_config_file' (unused-argument)
+client/tests/test_postgres_conn.py:58:59: W0621: Redefining name 'mock_config_file' from outer scope (line 11) (redefined-outer-name)
+client/tests/test_postgres_conn.py:58:0: C0116: Missing function or method docstring (missing-function-docstring)
+client/tests/test_postgres_conn.py:58:59: W0613: Unused argument 'mock_config_file' (unused-argument)
+client/tests/test_postgres_conn.py:108:57: W0621: Redefining name 'mock_config_file' from outer scope (line 11) (redefined-outer-name)
+client/tests/test_postgres_conn.py:108:0: C0116: Missing function or method docstring (missing-function-docstring)
+client/tests/test_postgres_conn.py:108:57: W0613: Unused argument 'mock_config_file' (unused-argument)
+client/tests/test_postgres_conn.py:121:55: W0621: Redefining name 'mock_config_file' from outer scope (line 11) (redefined-outer-name)
+client/tests/test_postgres_conn.py:121:0: C0116: Missing function or method docstring (missing-function-docstring)
+client/tests/test_postgres_conn.py:121:55: W0613: Unused argument 'mock_config_file' (unused-argument)
+client/tests/test_postgres_conn.py:132:4: W0612: Unused variable 'mock_redis_status' (unused-variable)
+client/tests/test_postgres_conn.py:151:48: W0621: Redefining name 'mock_config_file' from outer scope (line 11) (redefined-outer-name)
+client/tests/test_postgres_conn.py:151:0: C0116: Missing function or method docstring (missing-function-docstring)
+client/tests/test_postgres_conn.py:151:48: W0613: Unused argument 'mock_config_file' (unused-argument)
+client/tests/test_postgres_conn.py:157:4: W0612: Unused variable 'mock_redis_status' (unused-variable)
+client/tests/test_postgres_conn.py:1:0: W0611: Unused patch imported from unittest.mock (unused-import)
+client/tests/test_postgres_conn.py:4:0: W0611: Unused OrderedDict imported from collections (unused-import)
+client/tests/test_postgres_conn.py:4:0: C0411: standard import "from collections import OrderedDict" should be placed before "import pytest" (wrong-import-order)
+************* Module tests.test_redis_conn
+client/tests/test_redis_conn.py:58:0: C0304: Final newline missing (missing-final-newline)
+client/tests/test_redis_conn.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+client/tests/test_redis_conn.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+client/tests/test_redis_conn.py:36:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module tests.test_message
+models/tests/test_message.py:26:0: C0301: Line too long (116/100) (line-too-long)
+models/tests/test_message.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+models/tests/test_message.py:2:0: E0401: Unable to import 'pytest' (import-error)
+models/tests/test_message.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+models/tests/test_message.py:24:0: C0116: Missing function or method docstring (missing-function-docstring)
+models/tests/test_message.py:2:0: W0611: Unused import pytest (unused-import)
+************* Module tests.test_user_info
+models/tests/test_user_info.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+models/tests/test_user_info.py:2:0: E0401: Unable to import 'pytest' (import-error)
+models/tests/test_user_info.py:7:4: C0103: Attribute name "id" doesn't conform to snake_case naming style (invalid-name)
+models/tests/test_user_info.py:12:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module utils
+utils/__init__.py:1:0: F0010: error while code parsing: Unable to load file utils/__init__.py:
+[Errno 2] No such file or directory: 'utils/__init__.py' (parse-error)
+************* Module app
+app.py:5:0: E0401: Unable to import 'flask' (import-error)
+app.py:6:0: E0401: Unable to import 'flasgger' (import-error)
+app.py:7:0: E0401: Unable to import 'prometheus_flask_exporter' (import-error)
+app.py:10:0: E0611: No name 'json_encoder' in module 'utils' (no-name-in-module)
+app.py:13:0: C0103: Constant name "app" doesn't conform to UPPER_CASE naming style (invalid-name)
+app.py:15:0: C0103: Constant name "swagger" doesn't conform to UPPER_CASE naming style (invalid-name)
+app.py:17:0: C0103: Constant name "metrics" doesn't conform to UPPER_CASE naming style (invalid-name)
+app.py:1:0: R0801: Similar lines in 2 files
+==message:6
+==tests.test_message:3
+@dataclass
+class CustomMessage:
+    """Class model for custom message using Flask"""
+    message: str
+
+@dataclass
+class HealthMessage:
+    """Class model for health message using Flask for attendance API"""
+    message: str
+    postgresql: str
+    redis: str
+    status: str (duplicate-code)
+app.py:1:0: R0801: Similar lines in 2 files
+==tests.test_user_info:3
+==user_info:7
+@dataclass
+class EmployeeInfo:
+    """Class model for defining the structure for employee's information"""
+    id: str
+    name: str
+    status: str
+    date: str (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 5.38/10 (previous run: 5.38/10, +0.00)
