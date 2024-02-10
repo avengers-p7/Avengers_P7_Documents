@@ -29,19 +29,26 @@ Jenkins uses projects (also known as "**jobs**") to perform its work. Projects a
 - [Multi-configuration(matrix)](https://plugins.jenkins.io/matrix-project)
 - [Maven](https://plugins.jenkins.io/maven-plugin)
 - [External job](https://plugins.jenkins.io/external-monitor-job)
-### For more information visit the below document link:
 
-#### [\[ Reference Doc \]](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Code%20Complication.md)
-## Prerequisites
+## What is Jenkins Pipeline
 
-| Tool | Description |
-| ---- | ----------- |
-| **Jenkins(2.426.3)** | To build our pipeline |
+A Jenkins pipeline is a set of plug-ins to create automated, recurring workflows that constitute CI/CD pipelines. A Jenkins pipeline includes all the tools you need to orchestrate testing, merging, packaging, shipping, and code deployment.
 
-> [!Important]
-> I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
+A pipeline is typically divided into multiple stages and steps, with each step representing a single task and each stage grouping together similar steps. For example, you may have “Build”, “Test”, and “Deploy” stages in your pipeline. You can also run existing jobs within a pipeline.
 
 ***
+## Why Pipeline?
+Jenkins is, fundamentally, an automation engine which supports a number of automation patterns. Pipeline adds a powerful set of automation tools onto Jenkins, supporting use cases that span from simple continuous integration to comprehensive CD pipelines. By modeling a series of related tasks, users can take advantage of the many features of Pipeline:
+
+| Features | Description |
+| --------- | ---------- |
+|Code | Pipelines are implemented in code and typically checked into source control, giving teams the ability to edit, review, and iterate upon their delivery pipeline.
+| Durable | Pipelines can survive both planned and unplanned restarts of the Jenkins controller.
+| Pausable | Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
+| Versatile | Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
+| Extensible | The Pipeline plugin supports custom extensions to its DSL [1] and multiple options for integration with other plugins. |
+
+
 ## Runtime Prerequisites
 
 |Language / Dependency|Description|
