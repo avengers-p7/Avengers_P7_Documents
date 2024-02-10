@@ -18,7 +18,7 @@
 
 ## Introduction 
 
-A **job** in Jenkins is a user-specified description of work, typically divided into sequential steps. For example, a job may fetch source code from a Git repository, compile it using the configured compiler, run it inside a staging environment, examine the output for any errors, and send an email notification to the user.
+A _**job**_ in Jenkins is a user-specified description of work, typically divided into sequential steps. For example, a job may fetch source code from a Git repository, compile it using the configured compiler, run it inside a staging environment, examine the output for any errors, and send an email notification to the user.
 
 Jenkins uses projects (also known as "**jobs**") to perform its work. Projects are defined and run by Jenkins users. Jenkins offers several different types of projects, including:
 
