@@ -18,24 +18,24 @@
 
 ## Introduction
 ## Steps to Create PAT for Github Private Repo
-## Step 1 - Go to your profile
+### Step 1 - Go to your profile
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/20666213-cad3-4c0b-a4fa-07fcd7902793)
-## Step 2 - Go to Setting
+### Step 2 - Go to Setting
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/cd831c21-3327-472c-b58a-12265322517c)
 
-## Step 3 - Select Developer Setting
+### Step 3 - Select Developer Setting
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/3279196e-b243-4af7-a3a0-61a7359be041)
 
-## Step 4 - Select Tokens --> Generate new token --> Generate new token(classic)
+### Step 4 - Select Tokens --> Generate new token --> Generate new token(classic)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/0e05f52e-b375-44de-97ab-824234b6cbbf)
 
-## Step 5 - Enter Token Name --> Select Scopes/Permission(according to your requirement)
+### Step 5 - Enter Token Name --> Select Scopes/Permission(according to your requirement)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/8657f90a-4e3a-4023-88b6-bf84394092e7)
 
-## Step 6 - Scroll Down --> Click on Generate Token
+### Step 6 - Scroll Down --> Click on Generate Token
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/46a0abf3-1bd6-478b-b7e1-61910704ef7c)
 
-## Step 7 - Copy your  token and save it  
+### Step 7 - Copy your  token and save it  
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/38704809-d3d3-4363-a780-0c97567d5948)
 ***
 
