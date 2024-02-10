@@ -8,7 +8,7 @@
 # Table of Contents 
 
 1. [Introduction](#Intoduction)
-2. {[What](#what)
+2. [What](#what)
 3. [Why](#Why)
 4. [Authentication Method](#Authentication Method )
 5. [Why Use Jenkins's Own User Database?](#Why Use Jenkins's Own User Database?)
