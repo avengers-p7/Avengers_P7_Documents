@@ -71,8 +71,47 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ***
 ## Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/tree/main/Declarative%20Pipeline/Python/Dependency_Scanning)
-  ```shell
-  
+  ```shell 
+pipeline {
+    agent any
+    
+    environment {
+        DEP_CHECK_VERSION = '9.0.9'
+    }
+
+    stages {
+        stage('Install JDK') {
+            steps {
+                sh 'sudo apt update && sudo apt install -y openjdk-17-jdk'
+            }
+        }
+
+        stage('Download Dependency Check') {
+            steps {
+                sh "wget -q https://github.com/jeremylong/DependencyCheck/releases/download/v${env.DEP_CHECK_VERSION}/dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+                sh "unzip -q dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+            }
+        }
+
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', credentialsId: 'vishal-cred', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+            }
+        }
+
+        stage('Run Dependency Check') {
+            steps {
+                sh 'dependency-check/bin/dependency-check.sh --scan /var/lib/jenkins/workspace/ --out dep-check.html'
+            }
+        }
+        stage('Clean workspace') {
+            steps {
+                sh "rm -rf dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+                sh "rm -rf dependency-check"
+            }
+        }
+    }
+}
 ```
 ***
 ## Conclusion
