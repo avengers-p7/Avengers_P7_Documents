@@ -20,7 +20,7 @@
 ## Steps to Create PAT for Github Private Repo
 ### Step 1 - Go to your profile
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/20666213-cad3-4c0b-a4fa-07fcd7902793)
-### Step 2 - Go to Setting
+### Step 2 - Go to Settings
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/cd831c21-3327-472c-b58a-12265322517c)
 
 ### Step 3 - Select Developer Setting
