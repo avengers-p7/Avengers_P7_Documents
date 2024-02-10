@@ -49,17 +49,16 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 ## Setup
  * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
 
-   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/a28f984f-f633-4acb-991e-f030fed8e0fd">  
+   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/b33aa757-de4f-485b-b885-430062e093da">  
    
 * Console Output:
-  
-   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/991ba6a2-f089-4742-a94a-7dfcbfe32492">
-   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/1813ded0-e8a2-43cf-a06e-9301decd5a6a">
+
+   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/6896e404-62a6-4b4e-9221-44561cb8a4a6">
   
 
 > [!NOTE]
 > **Changes**
-> *  **Pipeline name**       **-**  ""
+> *  **Pipeline name**       **-**  `Unit _Testing_(golang_CI_Checks)_(Scripted)`
 > *  **Jenkinsfile Path**    **-**  `Scripted Pipeline/golang/Unit Testing/Jenkinsfile`  
 
    
