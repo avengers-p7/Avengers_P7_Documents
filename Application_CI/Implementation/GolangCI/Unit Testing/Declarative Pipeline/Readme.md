@@ -10,7 +10,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Declarative Pipeline](#Why-Declarative-Pipeline)
-+ [Flow Daigram](#Flow-Daigram)
++ [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup of Unit Testing](#Setup-of-Unit-Testing)
 + [Jenkinsfile](#Jenkinsfile)
