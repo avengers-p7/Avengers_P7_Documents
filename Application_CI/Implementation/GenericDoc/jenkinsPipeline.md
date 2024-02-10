@@ -21,7 +21,7 @@
  	-  [Advantages of Scripted Pipelines](#Advantages-of-Scripted-Pipelines)
   	-  [Disadvantages of Scripted Pipelines](#Disadvantages-of-Scripted-Pipelines)  		
 
-8. []()
+8. [Scripted vs. declarative – which one should you choose?](#scripted-vs-declarative--which-one-should-you-choose)
 9. [Conclusion](#Conclusion)
 10. [Contact Information](#Contact-Information)
 11. [References](#References)
