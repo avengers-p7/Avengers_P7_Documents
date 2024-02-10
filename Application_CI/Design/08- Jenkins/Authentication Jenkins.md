@@ -7,17 +7,17 @@
 
 # Table of Contents 
 
-1. [Introduction](#Intoduction)
+1. [Introduction](#Introduction)
 2. [What](#what)
 3. [Why](#Why)
-4. [Authentication Method](#Authentication Method) 
+4. [Authentication Method](#Authentication-Method) 
 5. [Limitations](#Limitations)
-6. [Best practices](#Best practices)
-7. [Types of Authentication of Jenkins](#Types of Authentication of Jenkins)
-8. [POC of authentication of Jenkins](#POC of authentication of Jenkins)
-9. [conclusion](#Conclusion)
-10. [Contact Information](#Contact Information)
-11.[ References](#References)
+6. [Best practices](#Best-practices)
+7. [Types of Authentication of Jenkins](#Types-of-Authentication-of-Jenkins)
+8. [POC of authentication of Jenkins](#POC-of-authentication-of-Jenkins)
+9. [Conclusion](#Conclusion)
+10. [Contact Information](#Contact-Information)
+11. [References](#References)
 
 ***
 
