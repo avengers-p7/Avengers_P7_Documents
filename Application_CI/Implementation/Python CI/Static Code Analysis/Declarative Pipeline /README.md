@@ -14,7 +14,7 @@
 
 1. [Introduction](#Introduction)
 2. [Pre-requisites](#Pre-requisites)
-3. [Runtime Prerequisites](#Runtime-Prerequisites)
+3. [Runtime Pre-requisites](#Runtime-Prerequisites)
 4. [Flow Diagram](#Flow-diagram)
 5. [Configure Pipeline job](#Configure-Pipeline-job)
 7. [Declarative Syntax](#Declarative-Syntax)
@@ -39,7 +39,7 @@ Jenkins Declarative Pipeline is a feature of Jenkins, a popular open-source auto
 | Jenkins    | For continuous integration | 
 
 
-# Runtime Prerequisites
+# Runtime Pre-requisites
 
 | **Tool**   | **Description**                                         | 
 | ---------- | -------------------------                               | 
@@ -108,8 +108,7 @@ pipeline {
 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/e2532ce3-7ad7-4867-8e23-22941f91a1f9)
 
-## HTML Report
- * Cilck [**here**](Application_CI/Implementation/Python CI/Static Code Analysis/Scripted Pipeline/pylint.log)
+If you want to see Detail Report please follow this **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Static%20Code%20Analysis/Scripted%20Pipeline/pylint.log)**
 
 # Conclusion
 This pipeline will do Static Code Analysis against a python code and provide you details report.
@@ -125,7 +124,8 @@ This pipeline will do Static Code Analysis against a python code and provide you
 |  Source                                                                                 |        Description      |
 | ------------                                                                            | ----------------------- |
 |  **[Link](https://pylint.readthedocs.io/en/stable/)**                                               | Pylint Documentation    |  
-|**[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md )**                  | Static Code Analysis Documentation    |	
+|**[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md )**                  | Static Code Analysis Documentation    |
+|  **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Static%20Code%20Analysis/Scripted%20Pipeline/pylint.log)**                                               | Detailed Output    | 
 
 
 
