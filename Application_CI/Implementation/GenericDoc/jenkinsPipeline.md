@@ -107,6 +107,19 @@ pipeline {
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/dba901f7-948f-439f-8672-8b46c56ed7b7)
 ***
+## Advantages of Declarative Pipelines
+| Advantage                                                        | Description                                                                                                                                                         |
+|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Runtime syntax checking                                          | Syntax checking is performed at runtime in declarative pipelines, providing explicit error messages to users before execution starts                                 |
+| Linting support                                                  | Users can lint their declarative Jenkinsfiles using a built-in API endpoint or a CLI command                                                                       |
+| Docker pipeline integration                                      | Declarative pipelines offer extensive Docker pipeline integration, allowing users to run stages within a single container or each stage in a different container |
+| Simplified configuration                                         | Declarative syntax simplifies configuration, making it easier to define parameters, environment variables, credentials, and options for a pipeline                  |
+| Visual editor and snippet generator                              | Users can utilize the visual pipeline editor for user-friendly declarative code writing, along with a pipeline syntax snippet generator for auto-generating code   |
+| Conditional logic                                                | Declarative syntax allows the introduction of conditional logic, including actions based on step success or failure, or skipping stages based on variable values   |
+| When directive for skipping steps based on conditions            | The When directive enables skipping steps in declarative pipelines if certain conditions are not met|
+***
+## Disadvantages of Declarative Pipelines
+
 ## Scripted syntax
 A scripted pipeline definition begins with the node keyword. Consider the following example:
 
@@ -125,6 +138,24 @@ node {		//------< 1 >-----
 ```
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/86cbc492-3656-46c5-beda-d4b13f06a34a)
+
+***
+
+## Advantages of Scripted Pipelines
+
+| Feature                                         | Description                                                                                     |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| Scripted pipelines                             | Offer a full-fledged programming ecosystem to developers                                      |
+| Groovy scripts and Java API injection           | Developers can inject Groovy scripts and reference Java APIs inside a scripted pipeline definition |
+| Cross-pipeline support                         | Blocks of scripted pipelines can be injected inside the script step of a declarative pipeline definition to enhance cross-pipeline support |
+***
+## Disadvantages of Scripted Pipelines
+| Disadvantage                                | Description                                                                                                    |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Harder learning curve for beginners        | Scripted syntax can be more challenging for novices compared to declarative syntax                            |
+| Lack of runtime syntax checking            | Scripted pipelines do not offer runtime syntax checking, potentially leading to more errors during execution    |
+| Absence of When directive                  | Scripted pipelines do not include the When directive, which can be used to skip a stage based on conditions    |
+| Inability to restart from previous stage   | It is not possible to restart a scripted pipeline from a previous stage, limiting flexibility in pipeline runs |
 ***
 ## Runtime Prerequisites
 
