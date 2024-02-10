@@ -83,7 +83,7 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 # Flow Diagram
 
-<img width="825" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/2e5fa8e8-5047-4508-be37-1d703124d507">
+<img width="605" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/06676353-bf1f-47e0-89a3-a701cede6158">
 
 ***
 
@@ -99,7 +99,32 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 **Template File Creation**
 
-<img width="480" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/a283d535-52b9-4e43-801c-6c71169275ff">
+```shell
+packer {
+  required_plugins {
+    amazon = {
+      source  = "github.com/hashicorp/amazon"
+      version = "~> 1"
+    }
+  }
+}
+
+variable "AWS_ACCESS_KEY_ID" {}
+variable "AWS_SECRET_ACCESS_KEY" {}
+
+source "amazon-ebs" "example" {
+  ami_name      = "my-ami"
+  instance_type = "t2.micro"
+  region        = "us-east-1"
+  source_ami    = "ami-0a2c75552cbaeb91f"
+  ssh_username  = "ubuntu"
+}
+
+build {
+  sources    = ["amazon-ebs.example"]
+}
+```
+
 
 ***
 
@@ -257,6 +282,10 @@ In conclusion, integrating Packer with Jenkins pipelines offers a powerful solut
 | ---------- | --------------- |
 | [Link](https://devopscube.com/packer-tutorial-for-beginners/) | Reference Link For AMI Creation |
 | [Link](https://flugel-it.medium.com/building-and-running-custom-amis-on-aws-using-packer-and-terraform-3db28c968b30) | Reference Link |
+| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md) | Generic Doc Link For Intro |
+| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md) | Jenkins POC Link |
+
+
 
 
 
