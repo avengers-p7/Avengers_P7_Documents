@@ -52,7 +52,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 * Console Output:
   
-   <img width="760" length="100" alt="Golang" src=""> 
+   <img width="760" length="100" alt="Python" src=""> 
 
 
 > [!NOTE]
