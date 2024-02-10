@@ -59,7 +59,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 > [!NOTE]
 > **Changes**
-> *  **Pipeline name**       **-**  ``
+> *  **Pipeline name**       **-**  `Dependency_Scanning_(Python)_(Declarative)`
 > *  **Jenkinsfile Path**    **-**  `Declarative Pipeline/Python/Dependency_Scanning`  
 
 ***
