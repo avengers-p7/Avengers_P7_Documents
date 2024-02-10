@@ -53,7 +53,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 > [!NOTE]
 > **Changes**
-> *  **Pipeline name**       **-**  ""
+> *  **Pipeline name**       **-**  "Unit _Testing_(golang_CI_Checks)_(Declarative)"
 > *  **Jenkinsfile Path**    **-**  "Declarative Pipeline/golang/Unit Testing/Jenkinsfile"  
 
 ***
