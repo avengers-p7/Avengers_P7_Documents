@@ -1,4 +1,4 @@
-Sprint-0
+# Sprint-0
 
 | Name      | Date   | Reason        | Time | Amount  |
 | ----      | ----   | ------        | ---- | ----    |
@@ -15,7 +15,7 @@ Sprint-0
 |           |        |  Total        |      | 65      | 
 ***
 
-Sprint-1
+# Sprint-1
 | Name      | Date    | Reason      | Time | Amount |
 | ----      | ----    | ------      | ---- | ----   |
 | Shikha    | 24 Jan  | Camera off  | 1st  | 05     |
@@ -27,8 +27,18 @@ Sprint-1
 | Nidhi     | 26 Jan  | Status Mail | 1st  | 05     |
 | Shikha    | 26 Jan  | Status Mail | 1st  | 05     |
 | Harshit   | 26 Jan  | Status Mail | 1st  | 05     |
-| Khushi    | 26 Jan  | Status Mail | 1st  | 05     |
-| Vishal    | 26 Jan  | Status Mail | 1st  | 05     |
-| Vidhi     | 30 Jan  | Camera off  | 1st  | 05     |
-| Harshit   | 30 Jan  | Late Join   | 1st  | 05     |
-| Sameer    | 30 Jan  | Mail summary| 1st  | 10     |
+
+
+
+
+
+
+# Sprint-2 Week-1
+
+| Name      | Date    | Reason      | Count| Amount |
+| ----      | ----    | ------      | ---- | ----   |
+| Shantanu  | 6-7     | Status mail | 2    | 10     |
+| Nidhi     | 7-8 Feb | Status mail | 1    | 10     |
+| vikram    | 6 Feb   | Status Mail | 1    | 05     |
+| Vidhi     | 6-7 Feb | Status Mail | 2    | 10     |
+| Sameer    | 6 Feb   | Staus mail  | 1    | 05     |
