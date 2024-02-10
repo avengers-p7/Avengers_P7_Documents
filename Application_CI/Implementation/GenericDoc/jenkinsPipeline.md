@@ -46,7 +46,7 @@ Jenkins is, fundamentally, an automation engine which supports a number of autom
 | Durable | Pipelines can survive both planned and unplanned restarts of the Jenkins controller.
 | Pausable | Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
 | Versatile | Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
-| Extensible | The Pipeline plugin supports custom extensions to its DSL [1] and multiple options for integration with other plugins. |
+| Extensible | The Pipeline plugin supports custom extensions for integration with other plugins. |
 
 
 ## Runtime Prerequisites
