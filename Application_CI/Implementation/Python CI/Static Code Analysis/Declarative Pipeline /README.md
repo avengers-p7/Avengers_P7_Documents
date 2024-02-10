@@ -121,5 +121,8 @@ This pipeline will do Static Code Analysis against a python code and provide you
 
 |  Source                                                                                 |        Description      |
 | ------------                                                                            | ----------------------- |
-| https://pylint.readthedocs.io/en/stable/                                                | Pylint Documentation    |  
-| https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md                  | Refrence Documentation    |	
+|  **[Link](https://pylint.readthedocs.io/en/stable/)**                                               | Pylint Documentation    |  
+|**[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md )**                  | Static Code Analysis Documentation    |	
+
+
+
