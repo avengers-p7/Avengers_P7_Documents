@@ -33,7 +33,7 @@ Before using this Ansible role to install PostgreSQL, ensure that the following 
   
 ***
 # Steps 
-* Before going further check the link for Ansible Role: https://github.com/vyadavP7/Jenkins-AnsibleRole
+* Before going further check the link for Ansible Role: https://github.com/vikram445/PostgreSQL.git
 
 **Step 1: Dynamic Inventory Setup** 
 
@@ -170,12 +170,12 @@ In above screenshot we can see our PostgreSQL service is active and running.
 | ------------              | --------------------------------|
 | Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
 
-## References
+# References
 
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
 | Ansible documentation           | https://docs.ansible.com/ansible/latest/index.html    |
-| PostgreSQL Document             |  **[Link](https://github.com/avengersp7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md)**  |
+| PostgreSQL Document             |  [Link](https://github.com/avengersp7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md)  |
 | Ansible Dyanmic Inventory       | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
 
 
