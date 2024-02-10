@@ -2,7 +2,7 @@
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
-| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 04-02-2024      |
+| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 07-02-2024  | 1.0        | Harshit Singh   | 09-02-2024      |
 
 
 ## Table  of Contents
@@ -48,6 +48,7 @@ Jenkins is, fundamentally, an automation engine which supports a number of autom
 | Versatile | Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
 | Extensible | The Pipeline plugin supports custom extensions for integration with other plugins. |
 
+***
 
 ## Runtime Prerequisites
 
