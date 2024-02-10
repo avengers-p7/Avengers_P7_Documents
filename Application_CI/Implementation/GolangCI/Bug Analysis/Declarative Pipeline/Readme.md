@@ -38,10 +38,11 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Pre-requisites
-
-* Jenkins Installed
-* golang
-* golangCI-lint
+| **Pre-requsisites** | **Version** |
+| ------------------- | ----------- |
+| Jenkins | |
+| golang | 1.21.6 |
+| golangCI-lint | 1.55.2 |
 
 ***
 ## Setup
