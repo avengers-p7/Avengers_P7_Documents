@@ -10,7 +10,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Declarative Pipeline](#Why-Declarative-Pipeline)
-+ [Flow Daigram](#Flow-Daigram)
++ [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup](#Setup)
 + [Jenkinsfile](#Jenkinsfile)
@@ -35,7 +35,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 | **Presentation**    | Markdown files can be rendered into multiple formats, including HTML, PDF, and slideshows, enabling formatted documents or presentations for sharing and presentation purposes. |
 
 ***
-## Flow Daigram
+## Flow Diagram
 ![Screenshot from 2024-02-09 17-47-50](https://github.com/avengers-p7/Documentation/assets/156056413/68a24b98-2a1e-4586-a748-566938055d4d)
 
 ***
