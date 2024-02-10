@@ -70,7 +70,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Jenkinsfile
-  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/tree/main/Declarative%20Pipeline/Python/Dependency_Scanning)
+  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Python/Dependency_Scanning/Jenkinsfile)
   ```shell 
 pipeline {
     agent any
@@ -130,7 +130,7 @@ Declarative Pipeline simplifies Jenkins pipeline configuration, offering clarity
 | About Jenkins Pipeline (Generic Document) | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md  ) |
 | Flow Step for create pipeline | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20scanning(Python%20CI%20Checks).md) |
 | Setup Jenkins | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup) |
-| Jenkinsfile | [Link](https://github.com/avengers-p7/Jenkinsfile/tree/main/Declarative%20Pipeline/Python/Dependency_Scanning) |
+| Jenkinsfile | [Link](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Python/Dependency_Scanning/Jenkinsfile) |
 | Scripted vs Declarative Pipelines | [Link](https://www.baeldung.com/ops/jenkins-scripted-vs-declarative-pipelines) |
 | Dependency Scanning| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20Scanning%20Introduction.md) |
 
