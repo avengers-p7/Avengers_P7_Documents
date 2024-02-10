@@ -14,7 +14,7 @@
 
 1. [Introduction](#Introduction)
 2. [Pre-requisites](#Pre-requisites)
-3. [Runtime Prerequisites](#Runtime-Prerequisites)
+3. [Runtime Pre-requisites](#Runtime-Pre-requisites)
 4. [Flow Diagram](#Flow-diagram)
 5. [Configure Pipeline job](#Configure-Pipeline-job)
 6. [Scripted Syntax](#Scripted-Syntax)
@@ -41,7 +41,7 @@ To know more about pipelines please follow this link  **[Reference Link](https:/
 | Jenkins    | For continuous integration | 
 
 
-# Runtime Prerequisites
+# Runtime Pre-requisites
 
 | **Tool**   | **Description**                                         | 
 | ---------- | -------------------------                               | 
@@ -94,6 +94,8 @@ post {
 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/e2532ce3-7ad7-4867-8e23-22941f91a1f9)
 
+If you want to see Detail Report please follow this **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Static%20Code%20Analysis/Scripted%20Pipeline/pylint.log)**
+
 
 # Conclusion
 This pipeline will do Static Code Analysis against a python code by using scripted jenkins pipeline and provide you details report.
@@ -112,6 +114,6 @@ This pipeline will do Static Code Analysis against a python code by using script
 | ------------                                                                            | ----------------------- |
 |  **[Reference Link](https://pylint.readthedocs.io/en/stable/)**                                               | Pylint Documentation    |  
 | **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md)**                  | Static Code Analysis Refrence Documentation    |	
-
+|  **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Static%20Code%20Analysis/Scripted%20Pipeline/pylint.log)**                                               | Detailed Output    | 
 
 
