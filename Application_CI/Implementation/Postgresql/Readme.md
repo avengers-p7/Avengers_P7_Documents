@@ -19,7 +19,8 @@
 ***
 
 # Introduction
-This role is designed to automate the installation and configuration of PostgreSQL on target ubuntu servers. By using this role you can acheive that. 
+This role is designed to automate the installation and configuration of PostgreSQL on target ubuntu servers. By using this role you can acheive that.
+***
 
 # Pre-requisites
 Before using this Ansible role to install PostgreSQL, ensure that the following prerequisites are met:
@@ -148,7 +149,7 @@ groups:
 ```bash
 ansible-playbook /home/ubuntu/Postgresql_tool/Postgresql.yml
 ```
-
+***
 # Output
 
 After successful execution of PostgreSQL playbook we will able to see below output:
@@ -156,13 +157,12 @@ After successful execution of PostgreSQL playbook we will able to see below outp
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/6233e8a3-1b30-4049-99ba-67f632adde1c)
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/35f90fef-4bc3-45ec-aab8-a40774bd32b4)
 
-In above screesshot we can can our PostGreSQL service is active and running.
+In above screenshot we can see our PostgreSQL service is active and running.
 
-## Conclusion 
+# Conclusion 
 
 * This guide illustrates the process of deploying PostgreSQL in a server through Ansible. By adhering to these instructions, you can effectively provision and set up PostgreSQL within your AWS infrastructure.
 
-***
 
 # Contact Information
 
