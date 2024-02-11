@@ -15,7 +15,7 @@
 # Table Of Contents
 
 1. [Introduction](#Introduction)
-2. [How to Setup/Install PostgreSQL](#How-to-Setup/Install-PostgreSQL)
+2. [How to Install PostgreSQL](#How-to-Install-PostgreSQL)
 3. [Conclusion](#conclusion)
 4. [Contact Information](#contact-information)
 5. [References](#References)
