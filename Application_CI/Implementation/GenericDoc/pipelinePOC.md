@@ -58,14 +58,19 @@ If not present, install it form  **Dashboard --> Manage Jenkins --> PLugins --> 
 ***
 ## Create Pipeline using Jenkinsfile 
 ### Step 1 - Go to Jenkins Dashboard --> New Item
-### Step 2 -
-### Step 3 -
-### Step 4 -
-### Step 5 -
-### Step 6 -
-### Step 7 -
-### Step 8 -
-## Conclusion
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/95f92018-1a2e-4099-9e44-916a0419877a)
+
+### Step 2 - Now, provide Git private repo url, credential, branchname and jenkinsfile path to  configure your pipeline 
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/25fe31e2-127d-45ef-bfd2-4a985a443f79)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/a0172809-4206-4ebf-a050-4afd3bb24d44)
+
+### Step 3 - You can build your pipeline now
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/ba41da3b-ec43-4493-bd89-245a42172771)
+
+### Step 4 - Result
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/8fcc37f0-1187-41c3-bccd-ca9d6c75bcef)
+
 ## Contact Information
 
 |     Name         | Email  |
