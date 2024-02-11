@@ -17,12 +17,16 @@
 ***
 
 ## Introduction
-In this document we will see how to integrate **Jenkins**  with **Jenkinsfile** kept in **Github Private Repo** using **Personal Access Token**.  
+In this document we will see how to integrate _**Jenkins**_  with _**Jenkinsfile**_ kept in _**Github Private Repo**_ using _**Personal Access Token**_.  
 ## Prerequisites
 | Tool | Description |
 | ---- | ----------- |
 | Jenkins | For pipeline |
 | GIT | To store Jenkinsfile in private repo |
+
+> [!Important]
+> I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
+
 ***
 ## Generate Personal Access Token(PAT)
 ### Step 1 - Go to your Github profile
