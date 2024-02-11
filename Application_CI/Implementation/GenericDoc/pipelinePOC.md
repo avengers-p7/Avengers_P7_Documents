@@ -4,7 +4,6 @@
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 04-02-2024      |
 
-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
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
@@ -57,11 +56,15 @@ If not present, install it form  **Dashboard --> Manage Jenkins --> PLugins --> 
 ### Step 5 - Here your credentials are added
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/094747b8-5a49-4ca6-a6cd-355f06b5ebea)
 ***
-## Steps to Create Pipeline using Jenkinsfile 
+## Create Pipeline using Jenkinsfile 
+### Step 1 - Go to Jenkins Dashboard --> New Item
+### Step 2 -
+### Step 3 -
+### Step 4 -
+### Step 5 -
 ### Step 6 -
 ### Step 7 -
 ### Step 8 -
-### Step 9 -
 ## Conclusion
 ## Contact Information
 
