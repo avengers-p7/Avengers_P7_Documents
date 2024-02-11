@@ -4,7 +4,7 @@
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
 | **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 04-02-2024      |
 
-
+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
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
@@ -38,6 +38,25 @@
 ### Step 7 - Copy your  token and save it  
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/38704809-d3d3-4363-a780-0c97567d5948)
 ***
+## Add Credentials in Jenkins
+### Step 1 - Check GIT plugin, Go to Dashboard --> Manage Jenkins --> PLugins --> Installed Plugins
+The git plugin provides fundamental git operations for Jenkins projects. It can poll, fetch, checkout, branch, list, merge, tag, and push repositories.
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/dd5e89aa-66b7-4272-9afe-1e99b772ba94)
+
+If not present, install it form  **Dashboard --> Manage Jenkins --> PLugins --> Available Plugins**
+### Step 2 - Go to Dashboard --> Manage Jenkins --> Credentials
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/7ddbd779-4cce-4ab8-b074-6ead1451db36)
+
+### Step 3 - List down global --> Add Credentials 
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/88663437-cf1f-4d20-b6d6-f853ca572735)
+
+### Step 4 -
+### Step 5 -
+### Step 6 -
+### Step 7 -
+### Step 8 -
+### Step 9 -
 
 ## Steps to Create Pipeline using Jenkinsfile 
 
