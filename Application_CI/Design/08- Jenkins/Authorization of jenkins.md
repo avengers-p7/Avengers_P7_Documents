@@ -191,7 +191,7 @@ Test_DEVs is the role to be added and Test-.* is the RE, it means, only Test_DEV
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/e0465f31-6e5c-49f3-b41a-7297315c66b1)
 
 
-** Would you please go to the IP_Address/8080, and provide the details for the test_user, you will see the permissions error is resolved and the user can now see all the assigned projects.**
+**Would you please go to the IP_Address/8080, and provide the details for the test_user, you will see the permissions error is resolved and the user can now see all the assigned projects.**
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/6569085f-4c73-45e2-b902-c98e5da3cf87)
