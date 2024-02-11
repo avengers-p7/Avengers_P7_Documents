@@ -87,6 +87,91 @@ Best practices for authorization in Jenkins involve setting up effective access 
 | **Backup and Restore Authorization Configurations** | Regularly backup authorization configurations to ensure quick recovery in case of accidental changes or system failures. Having a reliable backup allows for a faster restoration of the authorization setup.
 
 By implementing these best practices for authorization, you can enhance the security of your Jenkins environment, prevent unauthorized access, and ensure that users have the appropriate level of access for their roles and responsibilities.
+
+***
+# POC of Authorization
+
+First come first, we need to install the plugin;
+
+Go to Manage Jenkins > Manage Plugins > Available and search for “Role-based Authorization Strategy”, check the box and click on Install without restart button, as shown in screen shot.
+
+![Screenshot from 2024-02-10 16-22-46](https://github.com/avengers-p7/Documentation/assets/156644891/3660b040-948b-485e-b791-aa6aa3e8dd2e)
+
+
+![Screenshot from 2024-02-11 20-44-37](https://github.com/avengers-p7/Documentation/assets/156644891/79f3a29a-5d2e-450a-9b0b-e6fcaea14de6)
+
+
+
+After successful installation, go to Manage Jenkins > Confiure Global Security, and scroll down to the Authorization section and select the Role-Based Strategy option, see the below screenshot.
+
+
+![Screenshot from 2024-02-11 20-50-05](https://github.com/avengers-p7/Documentation/assets/156644891/4c881dcf-d5fe-4fb9-892f-658e9749a5b9)
+
+
+Manage and Assign Roles
+
+Go to Manage Jenkins and scroll down to the last section named Uncategorized and click on Manage and Assign Roles > Manage Roles
+
+![Screenshot from 2024-02-11 20-53-40](https://github.com/avengers-p7/Documentation/assets/156644891/67ddc91d-4fbc-43f2-b206-ed988fd4c5c7)
+
+
+
+Manage Roles
+Under the Manage Roles page we see two sections, one is Global roles and the other is Item roles, let’s start with Global roles;
+
+Global roles:
+Go to Manage Jenkins > Manage Plugins > Available and search for “Role-based Authorization Strategy”, check the box and click on Install without restart button, as shown in screen shot.
+
+Under the Global roles section add a role with the name Employee and assign Read access inside the overall category, as shown in the screenshot below;
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/8e30bac5-35e5-4302-9a2e-b6b303458bf4)
+
+
+Item roles:
+Under the Item roles section add a role and a pattern to the role, for the role to add provide any role that is understandable with the porject in my case I have created Test_DEVs and for pattern provide the RE of the projects to be authorized to this user, as shown in the below screenshot;
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ec17afa1-3ee2-4882-aa61-308bf4983629)
+
+
+Note:
+
+Test_DEVs is the role to be added and Test-.* is the RE, it means, only Test_DEVs can access all the project that starts with Test-,
+
+.* means any combination after Test-.
+We have done with Mange Roles, scroll down to the end of the page and click on Apply and then Save.
+
+
+Assign Roles
+Again go to Manage Jenkins > Manage and Assign Roles > Assign Roles under Under Assign Roles we need to work for Global roles and Item roles, lets do it;
+
+
+
+Global role:
+Under Global roles, provide the created user name i.e. test_user and click on the Add button, user will be added Global roles table and select the checkbox under the Employee, please see the screen shot;
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/df8433a2-333a-49b3-895b-83bb9d352001)
+
+
+Item roles:
+Under Item roles, provide the created user name i.e. test_user and click on the Add button, user will be added into Item roles table and select the checkbox under the Test-DEVs in front of test_user, please see the screen shot;
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/e0465f31-6e5c-49f3-b41a-7297315c66b1)
+
+
+Now again go to the IP_Address/8080, provide the details for the test_user, you will see now permissions error is resolved and the user can now see all the assign projects.
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/6569085f-4c73-45e2-b902-c98e5da3cf87)
+
+
+
+
+
+
 ***
 
 ## Conclusion
