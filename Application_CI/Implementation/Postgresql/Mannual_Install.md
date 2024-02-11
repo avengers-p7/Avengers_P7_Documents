@@ -27,7 +27,7 @@
 This doc is for Mannual installtion of PostgreSQL. It is a powerful open-source relational database management system (RDBMS). It is known for its extensibility, standards compliance, and support for SQL (Structured Query Language). 
 To know more about PostgreSQL please follow this **[Link](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md)**
 
-# How to Setup/Install PostgreSQL
+# How to Install PostgreSQL
 For PostgreSQL please follow this **[Link](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md)**
 
 
