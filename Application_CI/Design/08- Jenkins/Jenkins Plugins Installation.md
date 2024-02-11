@@ -20,7 +20,7 @@ Blue Ocean rethinks the Jenkins user experience. Designed from the ground up for
 
 ***
 
-# Advantages of blue ocean of Jenkins 
+# Advantages of the Blue Ocean of Jenkins 
 
 Blue Ocean brings several advantages to Jenkins users, making pipeline development, visualization, and management more accessible and efficient. Some of the key advantages of Blue Ocean include:
 
@@ -34,6 +34,20 @@ Blue Ocean brings several advantages to Jenkins users, making pipeline developme
 |Personalization and Customization|Blue Ocean offers personalization options, allowing users to customize their dashboard with custom pipeline views and configurations. This enables users to organize pipelines based on their projects or teams and tailor their Jenkins experience to suit their needs|
 |Built-in Analytics and Insights |Blue Ocean provides built-in analytics and insights to track pipeline performance metrics such as execution times, success rates, and resource utilization. This empowers users to optimize their CI/CD processes and improve overall efficiency |
 |Enhanced Debugging and Troubleshooting| Blue Ocean offers features for easily re-running failed pipeline builds or specific stages within a pipeline. It also provides enhanced debugging capabilities, such as viewing logs and debugging failed builds directly from the UI, which helps in identifying and resolving issues more efficiently |
+
+***
+
+# Disadvantages of the Blue Ocean of Jenkins 
+
+
+While Blue Ocean offers significant benefits to Jenkins users, there are some potential disadvantages to consider:
+
+|Components | Description |
+|-----------|--------------|
+|Resource Intensiveness| Blue Ocean's modern UI and graphical features may consume more system resources compared to the traditional Jenkins UI. This could lead to performance issues on older or resource-constrained hardware, potentially impacting overall Jenkins performance|
+|Learning Curve| While Blue Ocean aims to simplify the Jenkins experience, it introduces new concepts and workflows. Users who are accustomed to the traditional Jenkins UI may face a learning curve when transitioning to Blue Ocean, which could temporarily slow down productivity|
+|Dependency on CloudBees| Blue Ocean was initially developed by CloudBees, and while it is open source, its development and support are closely tied to CloudBees. Users who prefer to avoid vendor lock-in may be cautious about relying heavily on a plugin with strong ties to a specific vendor|
+
 
 
 
