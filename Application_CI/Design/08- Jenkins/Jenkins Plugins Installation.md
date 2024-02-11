@@ -78,6 +78,10 @@ Under the Available tab, plugins available for download from the configured Upda
 
 
 
+
+
+
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/3256cce6-00c6-4024-8eb0-c7fb7f695302)
 
 
@@ -87,6 +91,7 @@ Under the Available tab, plugins available for download from the configured Upda
 
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/7ed46f7b-5787-46a0-8986-7a784f76eea4)
 
 
 
