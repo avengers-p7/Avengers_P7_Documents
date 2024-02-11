@@ -1,8 +1,9 @@
-# Java Code Compilation Pipeline
+# Integrate Jenkins with Github (Private repo)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/01d3b63b-1a88-489d-a5dd-7e331de0c695)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
-| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 02-02-2024  | 1.0        | Harshit Singh   | 04-02-2024      |
+| **[Harshit Singh](https://github.com/Panu-S-Harshit-Ninja-07)**  | 08-02-2024  | 1.0        | Harshit Singh   | 11-02-2024      |
 
 ## Table  of Contents
 
@@ -16,6 +17,13 @@
 ***
 
 ## Introduction
+In this document we will see how to integrate **Jenkins**  with **Jenkinsfile** kept in **Github Private Repo** using **Personal Access Token**.  
+## Prerequisites
+| Tool | Description |
+| ---- | ----------- |
+| Jenkins | For pipeline |
+| GIT | To store Jenkinsfile in private repo |
+***
 ## Generate Personal Access Token(PAT)
 ### Step 1 - Go to your Github profile
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/20666213-cad3-4c0b-a4fa-07fcd7902793)
