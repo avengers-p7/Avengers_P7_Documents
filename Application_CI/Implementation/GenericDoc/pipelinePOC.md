@@ -51,15 +51,17 @@ If not present, install it form  **Dashboard --> Manage Jenkins --> PLugins --> 
 ### Step 3 - List down global --> Add Credentials 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/88663437-cf1f-4d20-b6d6-f853ca572735)
 
-### Step 4 -
-### Step 5 -
+### Step 4 - Select username and password option and  add your github userename, PAT , ID(optional) and description(optional)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/d0a4cac0-52e7-4883-a05a-e24a166f3388)
+
+### Step 5 - Here your credentials are added
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/094747b8-5a49-4ca6-a6cd-355f06b5ebea)
+***
+## Steps to Create Pipeline using Jenkinsfile 
 ### Step 6 -
 ### Step 7 -
 ### Step 8 -
 ### Step 9 -
-
-## Steps to Create Pipeline using Jenkinsfile 
-
 ## Conclusion
 ## Contact Information
 
