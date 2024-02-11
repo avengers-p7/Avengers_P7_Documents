@@ -48,6 +48,60 @@ While Blue Ocean offers significant benefits to Jenkins users, there are some po
 |Learning Curve| While Blue Ocean aims to simplify the Jenkins experience, it introduces new concepts and workflows. Users who are accustomed to the traditional Jenkins UI may face a learning curve when transitioning to Blue Ocean, which could temporarily slow down productivity|
 |Dependency on CloudBees| Blue Ocean was initially developed by CloudBees, and while it is open source, its development and support are closely tied to CloudBees. Users who prefer to avoid vendor lock-in may be cautious about relying heavily on a plugin with strong ties to a specific vendor|
 
+***
+
+ # Installing a plugin 
+
+**Jenkins provides two methods for installing plugins on the controller**
+
+**1. Using the "Plugin Manager" in the web UI**
+
+ **2. Using the Jenkins CLI install-plugin command**
+
+
+Each approach will result in the plugin being loaded by Jenkins but may require different levels of access and trade-offs to use.
+
+The two approaches require that the Jenkins controller be able to download meta-data from an Update Center, whether the primary Update Center operated by the Jenkins project [1], or a custom Update Center.
+
+The plugins are packaged as self-contained .hpi files, which have all the necessary code, images, and other resources that the plugin needs to operate successfully.
+
+
+# From the web UI
+
+The simplest and most common way of installing plugins is through the **Manage Jenkins > Plugins view**, available to administrators of a Jenkins environment.
+
+Under the Available tab, plugins available for download from the configured Update Center can be searched and considered: 
+
+
+
+![Screenshot from 2024-02-09 22-00-41](https://github.com/avengers-p7/Documentation/assets/156644891/039dece4-386e-42d8-b7ce-43a793abae0d)
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/3256cce6-00c6-4024-8eb0-c7fb7f695302)
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
