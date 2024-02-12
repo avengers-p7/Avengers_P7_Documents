@@ -82,7 +82,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 4. **Configure Shared library in Jenkins**
 	Follow below document
 
-	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
+	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)<br><br>
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/1038a25c-7953-4e72-af36-9d4f9eb77f98)
