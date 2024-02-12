@@ -4,8 +4,10 @@
 |Shikha Tripathi | 11-01-2024 | v16 | Shikha Tripathi | 13-01-2024 |
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## Introduction
-PostgreSQL is a powerful open-source relational database management system (RDBMS). It is known for its extensibility, standards compliance, and support for SQL (Structured Query Language). 
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/24ab3e2b-4acb-4613-8a70-051a71a06e6c)
 
+
+PostgreSQL is a powerful open-source relational database management system (RDBMS). It is known for its extensibility, standards compliance, and support for SQL (Structured Query Language). 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
