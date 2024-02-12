@@ -52,6 +52,9 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 | **Java 17** | For springboot project compilation | 
 | **Maven Compiler Plugin** | For springboot project compilation |
 ***
+## Flow Diagram
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/094ce1da-2714-4a57-86f0-97152fb2f8b6)
+***
 ## Pipeline Setup
 1. **Fork the Github Repo**
 ```shell
