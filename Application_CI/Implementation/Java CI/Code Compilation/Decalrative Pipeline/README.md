@@ -75,10 +75,11 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
-
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/3b8bd90c-bc4f-47bd-8aea-380275a4fbf6)
 
 6. **Now Build your Pipeline**
-
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/53deb6b1-a9a1-4e5b-83da-c64a93becfb0)
+***
 ## Console Output
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/cbd74086-602f-45af-8cb8-61e2ec2ba2ae)
 
