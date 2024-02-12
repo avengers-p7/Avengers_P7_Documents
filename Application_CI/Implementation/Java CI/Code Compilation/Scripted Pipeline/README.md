@@ -112,7 +112,7 @@ node {
         throw e
     } finally {
         def currentResult = currentBuild.result ?: 'SUCCESS'
-        if (currentResult == 'UNSTABLE') {
+        if ((currentResult == 'UNSTABLE')||(currentResult == 'ABORTED')) {
             cleanWs()
         }
     }
