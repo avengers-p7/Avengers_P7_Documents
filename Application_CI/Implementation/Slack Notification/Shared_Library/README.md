@@ -27,7 +27,7 @@
 
 # Introduction
 
-In modern software development, keeping everyone in the loop about code changes is crucial. With Jenkins and its Declarative Pipelines, we can easily set up notifications on Slack to let the team know about build results. By storing our pipeline configuration in a Jenkinsfile on GitHub, we make the process simple and automated, ensuring everyone stays informed about the status of our projects.
+This documentation presents the development and usage of a shared library for Slack notification. The shared library includes common functions for sending notifications to Slack channels. The purpose of this library is to streamline the process of integrating Slack notifications into various applications, reducing duplication of code and ensuring consistency in notification functionality across different projects.
 
 ***
 
@@ -187,7 +187,7 @@ pipeline {
 
 # Conclusion
 
-In summary, integrating Slack notifications with Jenkins through Declarative Pipelines simplifies communication in software teams. With our pipeline configuration stored on GitHub, we streamline the process and ensure everyone receives timely updates on build outcomes. This straightforward approach promotes collaboration and keeps the team aligned, ultimately leading to smoother development cycles and faster problem-solving.
+In conclusion, the shared library for Slack notification simplifies the process of integrating Slack notifications into applications by providing common functions for sending messages to Slack channels. By using this library, developers can save time and effort by avoiding the need to write notification code from scratch for each project. The library promotes code reuse, enhances consistency, and improves the overall development workflow when incorporating Slack notifications into various applications.
 
 ***
 
