@@ -25,6 +25,32 @@ Frontend API pipeline is a continuous integration (CI) pipeline designed specifi
 | Deployment Automation	| Automating the deployment of frontend artifacts to various environments, such as development, staging, and production.|
 
 ***
+## Create new pipeline task
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/fb574884-c256-4cf9-a061-24eed981c3eb)
+
+***
+## Scroll down to pipeline section, we use pipeline script this time, script is shown as below.
+
+![Screenshot from 2024-02-09 10-50-08](https://github.com/avengers-p7/Documentation/assets/156056746/a0566312-fbfe-410b-9f7c-e1b80a921378)
+
+***
+## build and check result
+![Screenshot from 2024-02-09 10-49-40](https://github.com/avengers-p7/Documentation/assets/156056746/c37d5d8a-4478-4a73-9bb2-8c2dcfbaf994)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Advantages
 |Feature |Description |
