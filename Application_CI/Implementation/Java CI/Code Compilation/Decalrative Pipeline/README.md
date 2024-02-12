@@ -8,10 +8,10 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [What](#What)
-3. [Why](#Why)
-4. [Infra Diagram](#Infra-Diagram)
-5. [Description](#Description)
+2. [What is Declarative Pipeline](#What-is-Declarative-Pipeline)
+3. [Prerequisites](#Prerequisites)
+4. [Runtime Prerequisites](#Runtime-Prerequisites)
+5. [Pipeline Setup](#Pipeline-Setup)
 6. [Contact Information](#Contact-Information)
 7. [References](#References)
 ***
@@ -21,9 +21,14 @@
 The process of code compilation involves converting high-level programming code, such as Java, C++, or Python, into machine-readable instructions or bytecode. This transformation is carried out by a compiler, which is a specialized tool designed to translate human-readable source code into an executable format.
 Here we are using maven compiler to convert of code into  bytecode.
 
-### For more information visit the below document link:
+**For more information visit the below document link:**
+[\[ Reference Doc \]](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Code%20Complication.md)
+In this task, we are using Declarative Pipeline.
+***
+## What is Declarative Pipeline
 
-#### [\[ Reference Doc \]](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Code%20Complication.md)
+Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
+
 ## Prerequisites
 
 | Tool | Description |
@@ -41,7 +46,7 @@ Here we are using maven compiler to convert of code into  bytecode.
 | **Java 17** | For springboot project compilation | 
 | **Maven Compiler Plugin** | For springboot project compilation |
 ***
-## Steps to run Pipeline
+## Pipeline Setup
 1. **Fork the Github Repo**
 ```shell
 git clone https://github.com/OT-MICROSERVICES/salary-api.git
@@ -64,24 +69,18 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
 
-4. **Create Jenkins Pipeline job**
-Go to your Jenkins `Dashboard`, 
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/e5cd0f81-c0d7-46fa-bbba-ab6bcaae5755)
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/7500f744-07c5-4579-a823-1a4383ac3fd8)
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/ac4ad734-fe8d-40ac-82c2-a4676cdf295a)
-
-5. **Configure  your pipeline**
-Go to `Dashboard--> Pipeline_job--> Configure` then add your Jenkinsfile repository link and configure it.
- 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/fb9d1964-e080-4cf1-8ddd-b71a90b91db3)
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/bef7d4a3-5873-414b-bb89-484b452dd0cb)
+4. **Create and Configure your Jenkins Pipeline job**
+Follow below document
+[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
 
 6. **Now Build your Pipeline**
 
+## Console Output
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/cbd74086-602f-45af-8cb8-61e2ec2ba2ae)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/33b3f5e3-cc47-4035-b25f-1016eea09c97)
+***
+## Pipeline
 
 ```shell
 pipeline {
@@ -115,6 +114,9 @@ post {
     }
 }
 ```
+
+***
+
 ## Contact Information
 
 |     Name         | Email  |
