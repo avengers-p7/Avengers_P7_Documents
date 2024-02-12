@@ -10,24 +10,26 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Flow Diagram](#Flow-Diagram)
-4. [Steps to run Pipeline](#steps-to-run-pipeline)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#contact-information)
-7. [Resources and References](#resources-and-references)
+2. [What is Declarative Pipeline](#what-is-declarative-pipeline)
+3. [Prerequisites](#prerequisites)
+4. [Flow Diagram](#Flow-Diagram)
+5. [Steps to run Pipeline](#steps-to-run-pipeline)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [Resources and References](#resources-and-references)
 
 
 ***
 # Introduction
 Establishing a Java pipeline for bug analysis typically involves leveraging a CI/CD (Continuous Integration/Continuous Deployment) tool to automate the process of building, testing, and potentially deploying your Java application. Here we will be utilizing the Spotbugs plugin for bug scanning to ensure the quality and reliability of our codebase.
 
-A Jenkins pipeline is a way to define your Jenkins pipeline using Groovy code. It allows you to describe your build process using a scripting language instead of a visual interface.
-To know more about pipelines please follow this **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md
-)**
-
 If you want to learn more about Bug Analysis , refer to this detailed documentation: [Bug Analysis Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Bug%20Analysis/README.md)
 
+
+# What is Declarative Pipeline
+
+Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
+To know more about pipelines please follow this [Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
 ***
 # Prerequisites
 
