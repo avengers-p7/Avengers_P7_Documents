@@ -17,3 +17,13 @@ In modern software development, managing dependencies is crucial for code stabil
 | **Streamlined CI/CD Workflow**| Seamlessly integrates with Continuous Integration/Continuous Deployment (CI/CD) pipelines, making dependency scanning a fundamental part of the software delivery process.|
 | **Efficient Resource Utilization** | Optimizes resource usage by automating dependency scanning tasks, freeing developers to focus on value-added activities like feature development and innovation.|
 | **Compliance Requirements**| Supports compliance needs by offering an auditable trail of dependency scanning activities, facilitating regulatory compliance and industry standards adherence.|
+
+***
+## Features
+| Feature |	Description |
+|---------|-------------|
+| **Automated Dependency Scanning** | Utilizes Jenkins Declarative Pipeline to automate the scanning of dependencies within GoLang projects.|
+| **Integration with GoLang Tools**| Incorporates GoLang-specific tools and commands (e.g., go list) to analyze project dependencies effectively.|
+| **Structured Pipeline Syntax**| Utilizes a structured syntax provided by Jenkins Declarative Pipeline for clear definition and readability.|
+| **Built-in Stage Definitions**| Provides built-in stages (stages, steps, post) for defining the different stages of the dependency scanning process.|
+|**Error Handling Mechanisms** | Implements error handling mechanisms to gracefully manage failures during dependency scanning execution.|
