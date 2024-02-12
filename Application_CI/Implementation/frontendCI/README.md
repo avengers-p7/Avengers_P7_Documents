@@ -46,3 +46,12 @@ Frontend API pipeline is a continuous integration (CI) pipeline designed specifi
 ***
 ## Conclusion
 Despite the challenges, frontend API pipelines offer significant advantages in terms of automation, consistency, scalability, and collaboration, making them indispensable for modern software development practices. By leveraging frontend API pipelines effectively, organizations can streamline their development processes, improve code quality, and deliver high-quality frontend applications to end-users more efficiently. However, it's essential to strike a balance between automation and complexity, ensuring that the pipeline remains manageable, adaptable, and aligned with the project's objectives and requirements.
+
+***
+## Contact Information
+
+|     Name         | Email  |
+| -----------------| ------------------------------------ |
+| Shikha Tripathi   | shikha.tripathi.snaatak@mygurukulam.co |
+***
+
