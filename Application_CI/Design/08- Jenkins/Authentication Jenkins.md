@@ -224,7 +224,7 @@ Here's a proof of concept (PoC) for implementing authentication in Jenkins using
 
 ***
 
-# conclusion 
+# Conclusion 
 
 In summary, using Jenkins's user database is a straightforward and quick solution suitable for small to medium-sized teams and projects. It provides simplicity, out-of-the-box functionality, and local control over user management. However, potential limitations include limited integration, scalability concerns for larger organizations, and security considerations. The choice should align with specific needs and security policies, balancing simplicity with meeting authentication and authorization requirements.
 
