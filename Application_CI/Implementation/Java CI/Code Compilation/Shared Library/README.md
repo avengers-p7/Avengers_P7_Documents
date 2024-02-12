@@ -11,9 +11,10 @@
 2. [What is Shared Library](#What-is-Shared-Library)
 3. [Prerequisites](#Prerequisites)
 4. [Runtime Prerequisites](#Runtime-Prerequisites)
-5. [Pipeline Setup](#Pipeline-Setup)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+5. [Flow Diagram](#Flow-Diagram)
+6. [Pipeline Setup](#Pipeline-Setup)
+7. [Contact Information](#Contact-Information)
+8. [References](#References)
 ***
 
 ## Introduction 
@@ -55,6 +56,9 @@ To understand the concept of shared libraries, let’s consider a real-time exam
 |-------|-------|
 | **Java 17** | For springboot project compilation | 
 | **Maven Compiler Plugin** | For springboot project compilation |
+***
+## FLow Diagram
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/1f5d228a-25df-4b27-b61d-4f3f7e670004)
 ***
 ## Pipeline Setup
 1. **Fork the Github Repo**
