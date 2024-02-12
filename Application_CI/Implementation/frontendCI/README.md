@@ -9,7 +9,8 @@ Frontend API pipeline is a continuous integration (CI) pipeline designed specifi
 
 ***
 
-## Feature
+## Features
+
 |   Feature	| Description |
 |-----------|-------------|
 | Version Control Integration	| Integration with version control systems like Git to fetch the latest code changes.|
@@ -54,4 +55,12 @@ Despite the challenges, frontend API pipelines offer significant advantages in t
 | -----------------| ------------------------------------ |
 | Shikha Tripathi   | shikha.tripathi.snaatak@mygurukulam.co |
 ***
+
+## References
+
+| Description                                   | References  
+| --------------------------------------------  | -------------------------------------------------|
+| Pipeline | https://www.gosysops.com/2020/ci-cd-with-jenkins-part-9-deploy-frontend-page-with-pipeline.html|
+
+
 
