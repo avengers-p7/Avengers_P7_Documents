@@ -57,7 +57,7 @@ To understand the concept of shared libraries, let’s consider a real-time exam
 | **Java 17** | For springboot project compilation | 
 | **Maven Compiler Plugin** | For springboot project compilation |
 ***
-## FLow Diagram
+## Flow Diagram
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/59436209-693a-4740-a95c-c8f3e4bb656d)
 
 ***
