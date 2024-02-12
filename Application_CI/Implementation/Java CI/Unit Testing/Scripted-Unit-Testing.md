@@ -9,13 +9,14 @@
 # Table of Content
 
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Flow Diagram](#Flow-Diagram)
-4. [Steps](#steps)
-5. [Evaluate Output](#evaluate-output)
-6. [Conclusion](#conclusion)
-7. [Contact Info](#contact-info)
-8. [Resource and References](#resource-and-references)
+2. [What is Scripted Pipeline](#what-is-scripted-pipeline)
+3. [Prerequisites](#prerequisites)
+4. [Flow Diagram](#Flow-Diagram)
+5. [Steps](#steps)
+6. [Evaluate Output](#evaluate-output)
+7. [Conclusion](#conclusion)
+8. [Contact Info](#contact-info)
+9. [Resource and References](#resource-and-references)
 
 
 ---
@@ -24,11 +25,13 @@
 
 Establishing a Java pipeline for unit testing typically involves leveraging a CI/CD (Continuous Integration/Continuous Deployment) tool to automate the process of building, testing, and potentially deploying your Java application. In this setup, we utilize a Jenkins pipeline for unit testing using Maven and JUnit.
 
-A Jenkins pipeline is a way to define your Jenkins pipeline using Groovy code. It allows you to describe your build process using a scripting language instead of a visual interface.
-To know more about pipelines please follow this **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md
-)**
-
 If you want to learn more about Unit Testing, refer to this detailed documentation: [Unit Testing Documentation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/README.md)
+
+
+# What is Scripted Pipeline
+A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous integration and continuous delivery (CI/CD) pipelines. It allows users to write pipeline scripts using Groovy syntax, providing full flexibility and customization for defining build, test, and deployment stages. Scripted Pipelines enable users to incorporate conditional logic, loops, and functions within the pipeline script to handle complex workflows and custom requirements. While offering extensive power and flexibility, Scripted Pipelines require users to have knowledge of Groovy programming and scripting concepts. They are well-suited for projects with intricate build processes or those requiring advanced automation and customization capabilities.
+
+To know more about pipelines please follow this [Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
 
 ---
 
