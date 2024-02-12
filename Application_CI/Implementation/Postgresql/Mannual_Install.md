@@ -1,5 +1,5 @@
 
-# Mannual Installation PostgreSQL
+# Manual Installation PostgreSQL
 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/c1aaa3c1-e6e5-4724-ac0a-e855906c8524)
 
