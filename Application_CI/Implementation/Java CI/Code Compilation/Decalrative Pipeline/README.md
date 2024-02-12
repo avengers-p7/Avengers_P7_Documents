@@ -10,10 +10,11 @@
 1. [Introduction](#Introduction)
 2. [What is Declarative Pipeline](#What-is-Declarative-Pipeline)
 3. [Prerequisites](#Prerequisites)
-4. [Runtime Prerequisites](#Runtime-Prerequisites)
-5. [Pipeline Setup](#Pipeline-Setup)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+4. [Flow Diagram](#Flow-Diagram)
+5. [Runtime Prerequisites](#Runtime-Prerequisites)
+6. [Pipeline Setup](#Pipeline-Setup)
+7. [Contact Information](#Contact-Information)
+8. [References](#References)
 ***
 
 ## Introduction 
