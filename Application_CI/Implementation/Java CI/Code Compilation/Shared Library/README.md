@@ -1,4 +1,4 @@
-# Java Code Compilation(Declarative Pipeline)
+# Java Code Compilation(Shared Library)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
@@ -8,7 +8,7 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [What is Declarative Pipeline](#What-is-Declarative-Pipeline)
+2. [What is Shared Library](#What-is-Shared-Library)
 3. [Prerequisites](#Prerequisites)
 4. [Runtime Prerequisites](#Runtime-Prerequisites)
 5. [Pipeline Setup](#Pipeline-Setup)
@@ -27,9 +27,12 @@ Here we are using maven compiler to convert of code into  bytecode.
 
 In this task, we are using Declarative Pipeline.
 ***
-## What is Declarative Pipeline
+## What is Shared Library
 
 Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
+**For more information visit the below document link:**
+
+[\[ Reference Doc \]](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/README.md)
 
 ## Prerequisites
 
@@ -71,49 +74,60 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
 
-4. **Create and Configure your Jenkins Pipeline job**
+4. **Configure Shared library in Jenkins**
+	Follow below document
+
+	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/1038a25c-7953-4e72-af36-9d4f9eb77f98)
+
+
+5. **Create and Configure your Jenkins Pipeline job**
 
 	Follow below document
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/2738c32a-4c64-4d0f-828a-35b63cb030c6)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/3b8bd90c-bc4f-47bd-8aea-380275a4fbf6)
 
 6. **Now Build your Pipeline**
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/53deb6b1-a9a1-4e5b-83da-c64a93becfb0)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/13bb69da-5072-449b-803d-e9f4244124e0)
+
 ***
 ## Console Output
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/cbd74086-602f-45af-8cb8-61e2ec2ba2ae)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/33b3f5e3-cc47-4035-b25f-1016eea09c97)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/9260e44f-16f4-4c00-8003-555fa7ec75d1)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/d607ffe4-4f4c-4d7b-82f9-68e1edf82e40)
+
 ***
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
 
 ```shell
+@Library("my-shared-library") _
 pipeline {
     agent any
-    tools {
-      maven 'mvn'
-    }
+
     stages {
-        stage('Checkout GIT') {
+        stage('GIT Checkout') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']])
-                sh 'ls $WORKSPACE/'
+                gitCheckout(branch: "main", url: "https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git"  )
+
             }
         }
-        stage('Starting Code Compilation ') {
-            steps {
-                sh 'echo "Starting Java Code Compilation.........."'
-                sh 'mvn clean compile'
+        stage('Compile'){
+            steps{
+                javaCodeCompilation()
             }
         }
     }
-post { 
+post {
+        always {
+        // One or more steps need to be included within each condition's block.
+        cleanWorkspace()
+       }
         success { 
-            sh 'ls $WORKSPACE/'
             echo 'Compiled Successfully !'
-            sh 'tree $WORKSPACE/target/'
         }
         failure { 
             echo 'Compilation Failed !'
@@ -136,7 +150,8 @@ post {
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
 | Clean Workspace | https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/#finishing-up |
-| Pipeline (Generic Doc) | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
+| Shared Library (Generic Doc) | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
+| Shared Library Setup (Generic Doc) | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md |
 | Create Pipeline (Generic Doc)| https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md |
 | Pipeine Syntax | https://www.jenkins.io/doc/book/pipeline/#pipeline-syntax-overview |
 | Pipeline Concepts | https://www.jenkins.io/doc/book/pipeline/#pipeline-concepts |
