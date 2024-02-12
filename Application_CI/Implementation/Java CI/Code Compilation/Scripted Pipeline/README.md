@@ -1,4 +1,4 @@
-# Java Code Compilation Pipeline
+# Java Code Compilation(Scripted Pipeline)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
@@ -90,33 +90,30 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
 
 ```shell
-pipeline {
-    agent any
-    tools {
-      maven 'mvn'
-    }
-    stages {
+node {
+    try {
         stage('Checkout GIT') {
-            steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']])
-                sh 'ls $WORKSPACE/'
-            }
-        }
-        stage('Starting Code Compilation ') {
-            steps {
-                sh 'echo "Starting Java Code Compilation.........."'
-                sh 'mvn clean compile'
-            }
-        }
-    }
-post { 
-        success { 
+            checkout scm: [
+                $class: 'GitSCM',
+                branches: [[name: '*/main']],
+                userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']]
+            ]
             sh 'ls $WORKSPACE/'
-            echo 'Compiled Successfully !'
-            sh 'tree $WORKSPACE/target/'
         }
-        failure { 
-            echo 'Compilation Failed !'
+        
+        stage('Starting Code Compilation') {
+            echo 'Starting Java Code Compilation..........'
+            sh 'mvn clean compile'
+        }
+        echo 'Compiled Successfully'
+    } catch (e) {
+        echo 'Compilation Failed'
+        cleanWs()
+        throw e
+    } finally {
+        def currentResult = currentBuild.result ?: 'SUCCESS'
+        if (currentResult == 'UNSTABLE') {
+            cleanWs()
         }
     }
 }
