@@ -8,7 +8,7 @@
 ## Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [What is Declarative Pipeline](#What-is-Declarative-Pipeline)
+2. [What is Scripted Pipeline](#What-is-Scripted-Pipeline)
 3. [Prerequisites](#Prerequisites)
 4. [Runtime Prerequisites](#Runtime-Prerequisites)
 5. [Pipeline Setup](#Pipeline-Setup)
@@ -25,11 +25,12 @@ Here we are using maven compiler to convert of code into  bytecode.
 
 [\[ Reference Doc \]](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Code%20Complication.md)
 
-In this task, we are using Declarative Pipeline.
+In this task, we are using Scripted Pipeline.
 ***
-## What is Declarative Pipeline
+## What is Scripted Pipeline
 
-Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
+A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous integration and continuous delivery (CI/CD) pipelines. It allows users to write pipeline scripts using Groovy syntax, providing full flexibility and customization for defining build, test, and deployment stages. Scripted Pipelines enable users to incorporate conditional logic, loops, and functions within the pipeline script to handle complex workflows and custom requirements. While offering extensive power and flexibility, Scripted Pipelines require users to have knowledge of Groovy programming and scripting concepts. They are well-suited for projects with intricate build processes or those requiring advanced automation and customization capabilities.
+***
 
 ## Prerequisites
 
@@ -77,15 +78,19 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/3b8bd90c-bc4f-47bd-8aea-380275a4fbf6)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/a9819de7-2f53-4bb1-a2c8-9b25ff0a5304)
 
 6. **Now Build your Pipeline**
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/53deb6b1-a9a1-4e5b-83da-c64a93becfb0)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/5daa7a40-6aed-4cc1-803f-ecc75d335202)
 ***
 ## Console Output
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/cbd74086-602f-45af-8cb8-61e2ec2ba2ae)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/bbe9072e-bfb4-4532-8489-899e81c62037)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/33b3f5e3-cc47-4035-b25f-1016eea09c97)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/38497c54-ab1a-4f41-ab3b-e37479302b99)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/c1f73133-aa3d-43fd-b489-6d0d22cbb6cb)
+
+
 ***
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
 
