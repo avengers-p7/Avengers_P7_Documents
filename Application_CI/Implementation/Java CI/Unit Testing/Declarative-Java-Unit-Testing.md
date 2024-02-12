@@ -9,13 +9,14 @@
 # Table of Content
 
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Flow Diagram](#Flow-Diagram)
-4. [Steps](#steps)
-5. [Evaluate Output](#evaluate-output)
-6. [Conclusion](#conclusion)
-7. [Contact Info](#contact-info)
-8. [Resource and References](#resource-and-references)
+2. [What is Declarative Pipeline](#what-is-declarative-pipeline)
+3. [Prerequisites](#prerequisites)
+4. [Flow Diagram](#Flow-Diagram)
+5. [Steps](#steps)
+6. [Evaluate Output](#evaluate-output)
+7. [Conclusion](#conclusion)
+8. [Contact Info](#contact-info)
+9. [Resource and References](#resource-and-references)
 
 
 ---
@@ -29,11 +30,10 @@ If you want to learn more about Unit Testing, refer to this detailed documentati
 ***
 
 # What is Declarative Pipeline
-
 Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
 
-To know more about pipelines please follow this **[Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md
-)**
+To know more about pipelines please follow this [Reference Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md
+
 ---
 
 # Prerequisites
