@@ -27,7 +27,8 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 ***
 # Infrastructure Diagram
 
-![Cloud-Infra-30k feet - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/44c2fe65-eee6-4d75-9bcf-de5f42be2173)
+![Dev-infra - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/591c5a20-76f5-456e-aab2-bbf7fc4bd747)
+
 
 
 ---
@@ -46,6 +47,31 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 | **Auto Scaling Group (ASG)**        | Dynamically adjusts frontend and API service instances based on demand for scalability.              |
 | **Region and Availability Zone**    | Deployed in Europe region, specifically Frankfurt (eu-central-1). Utilizes availability zones (eu-central-1a) for redundancy and fault tolerance. |
 | **VPC (Virtual Private Cloud)**     | Created for Development environments, organizes components for scalability and availability.        |
+
+
+
+# Security Groups and Inbound Rules
+
+| Layer    | Security Group Name | Inbound Rule Port | Inbound Rule Source |
+|----------|---------------------|-------------------|---------------------|
+| Frontend | Frontend-lb-sg      | 80                | 0.0.0.0/0           | 
+| Frontend | Frontend-sg         | 80                | frontend-lb-sg      |               
+| Backend  | Backend-sg          | 8080              | Backend-sg         |               
+| Database | Postgresql-sg      | 5432              | Backend-sg          |               
+| Database | Redis-sg         | 6379              | Backend-sg          |            
+| Database | Scylla-sg      | 9042              | Backend-sg          |      
+
+
+# NACL Rules
+
+## Public NACL Inbound Rules
+
+| Rule number | Type      | Protocol | Port range | Source       | Allow/Deny |
+|-------------|-----------|----------|------------|--------------|------------|
+| 100         | SSH       | TCP      | 22         | 0.0.0.0/0    | Allow      |
+| *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
+
+
 
 
 ***
