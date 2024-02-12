@@ -1,4 +1,4 @@
-# Java Code Compilation Pipeline
+# Java Code Compilation(Declarative Pipeline)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
