@@ -30,6 +30,11 @@ In this task, we are using Scripted Pipeline.
 ## What is Scripted Pipeline
 
 A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous integration and continuous delivery (CI/CD) pipelines. It allows users to write pipeline scripts using Groovy syntax, providing full flexibility and customization for defining build, test, and deployment stages. Scripted Pipelines enable users to incorporate conditional logic, loops, and functions within the pipeline script to handle complex workflows and custom requirements. While offering extensive power and flexibility, Scripted Pipelines require users to have knowledge of Groovy programming and scripting concepts. They are well-suited for projects with intricate build processes or those requiring advanced automation and customization capabilities.
+
+**For more information visit the below document link:**
+
+[\[ Reference Doc \]](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md )
+
 ***
 
 ## Prerequisites
@@ -80,7 +85,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/a9819de7-2f53-4bb1-a2c8-9b25ff0a5304)
 
-6. **Now Build your Pipeline**
+5. **Now Build your Pipeline**
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/5daa7a40-6aed-4cc1-803f-ecc75d335202)
 ***
 ## Console Output
