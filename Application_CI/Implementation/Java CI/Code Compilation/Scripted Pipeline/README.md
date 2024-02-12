@@ -10,10 +10,11 @@
 1. [Introduction](#Introduction)
 2. [What is Scripted Pipeline](#What-is-Scripted-Pipeline)
 3. [Prerequisites](#Prerequisites)
-4. [Runtime Prerequisites](#Runtime-Prerequisites)
-5. [Pipeline Setup](#Pipeline-Setup)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+4. [Flow Diagram](#Flow-Diagram)
+5. [Runtime Prerequisites](#Runtime-Prerequisites)
+6. [Pipeline Setup](#Pipeline-Setup)
+7. [Contact Information](#Contact-Information)
+8. [References](#References)
 ***
 
 ## Introduction 
@@ -46,6 +47,9 @@ A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous
 > [!Important]
 > I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
 
+***
+## Flow Diagram
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/4d3b2437-150d-4535-bbc6-932f88c1e1d6)
 ***
 ## Runtime Prerequisites
 
