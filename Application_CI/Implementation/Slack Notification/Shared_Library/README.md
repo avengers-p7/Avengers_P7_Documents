@@ -31,7 +31,7 @@ This documentation presents the development and usage of a shared library for Sl
 
 ***
 
-# What is Shared Library
+# What is Shared Library?
 
 A shared library in Jenkins is a reusable collection of Groovy scripts that can be used by multiple Jenkins jobs.Shared libraries provide a way to efficiently share code and resources among multiple programs, promoting code reuse, efficient memory usage, and easier maintenance and updates.Each shared library requires users to define a name and a method of retrieving source code. These methods include local files, Git repositories, and Jenkins SCM plugins. Optionally, users can also set a default library version.
 
