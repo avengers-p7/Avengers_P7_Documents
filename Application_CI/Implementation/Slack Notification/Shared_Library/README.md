@@ -39,7 +39,12 @@ A shared library in Jenkins is a reusable collection of Groovy scripts that can 
 
 # Why Shared Library
 
-In Jenkins, a Freestyle job is a type of project configuration that allows users to create flexible and customizable build processes without adhering to a strict structure or predefined steps. Freestyle jobs provide a straightforward interface where users can define build steps, configure source code management, specify triggers, and set up post-build actions using a graphical user interface (GUI). 
+| **Reason** | **Description** |
+| ---------- | --------------- |
+| **Reusability** | Shared libraries allow developers to write code once and reuse it in multiple programs, reducing duplication of effort and making maintenance easier. |
+| **Dynamic Linking** |  When a program uses a shared library, the code from the library is not directly included in the program's executable file. Instead, references to the library are included, and the actual library code is loaded into memory at runtime when the program is executed. |
+| **Efficient Memory Usage** | Since shared libraries are loaded into memory only once, even if multiple programs are using them simultaneously, they can help conserve system resources and reduce memory usage. |
+| **Updates and Maintenance** |  If a shared library is updated or patched to fix bugs or add features, all programs that use that library can benefit from the changes without needing to be recompiled. |
 
 ***
 
