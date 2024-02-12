@@ -160,3 +160,5 @@ post {
 | Create Pipeline (Generic Doc)| https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md |
 | Pipeine Syntax | https://www.jenkins.io/doc/book/pipeline/#pipeline-syntax-overview |
 | Pipeline Concepts | https://www.jenkins.io/doc/book/pipeline/#pipeline-concepts |
+| Shared Library | https://www.jenkins.io/doc/book/pipeline/shared-libraries/ |
+| What is shared Library | https://keentolearn.medium.com/how-to-improve-your-jenkins-builds-with-shared-libraries-5e225b7435fb#:~:text=A%20shared%20library%20in%20Jenkins,efficient%20and%20easier%20to%20maintain. |
