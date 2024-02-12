@@ -27,7 +27,8 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 ***
 # Infrastructure Diagram
 
-![Dev-infra - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/591c5a20-76f5-456e-aab2-bbf7fc4bd747)
+![Dev-infra - Page 1](https://github.com/avengers-p7/Documentation/assets/156056709/a96660f1-6e0f-41d5-becb-05ae1f03dbd5)
+
 
 
 
