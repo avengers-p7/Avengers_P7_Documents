@@ -33,7 +33,7 @@ In modern software development, keeping everyone in the loop about code changes 
 
 # What is Shared Library
 
-Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
+A shared library in Jenkins is a reusable collection of Groovy scripts that can be used by multiple Jenkins jobs.Shared libraries provide a way to efficiently share code and resources among multiple programs, promoting code reuse, efficient memory usage, and easier maintenance and updates.Each shared library requires users to define a name and a method of retrieving source code. These methods include local files, Git repositories, and Jenkins SCM plugins. Optionally, users can also set a default library version.
 
 ***
 
@@ -201,6 +201,6 @@ In summary, integrating Slack notifications with Jenkins through Declarative Pip
 
 # Reference
 | **Source** | **Description** |
-| ---------- | --------------- |
+| ---------- | --------------- |Shared Library
 | [Link](https://keentolearn.medium.com/how-to-improve-your-jenkins-builds-with-shared-libraries-5e225b7435fb#:~:text=A%20shared%20library%20in%20Jenkins,efficient%20and%20easier%20to%20maintain.) | Link For Shared Library |
-|                              | |
+| [Link](https://phoenixnap.com/kb/jenkins-shared-library) | Reference Link For Understanding the concept of Shared Library |
