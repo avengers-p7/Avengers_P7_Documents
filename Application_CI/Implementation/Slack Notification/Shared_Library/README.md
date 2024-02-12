@@ -6,15 +6,15 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Shreya Jaiswal** | **08-02-2024** | **08-02-2024** | **v1** |
+| **Shreya Jaiswal** | **12-02-2024** | **12-02-2024** | **v1** |
 
 ***
 
 # Table Of Contents
 
 1. [Introduction](#introduction)
-2. [What is Declarative Pipeline](#what-is-declarative-pipeline)
-3. [What is Jenkins Freestyle Job](#what-is-jenkins-freestyle-job)
+2. [What is Shared Library?](#what-is-shared-library)
+3. [Why Shared Library](#why-shared-library)
 4. [Pre-requisites](#pre-requisites)
 5. [Flow Diagram](#flow-diagram)
 6. [Slack Notification Setup](#slack-notification-setup)
@@ -31,13 +31,13 @@ In modern software development, keeping everyone in the loop about code changes 
 
 ***
 
-# What is Declarative Pipeline
+# What is Shared Library
 
 Declarative Pipeline in Jenkins offers a simplified and structured approach for defining CI/CD pipelines, using a human-readable syntax with predefined sections like pipeline, stages, and agent. It's designed to be easy to read and maintain, making it suitable for users without strong scripting skills.It enforces a stricter syntax and allows for less flexibility compared to the scripted pipeline, which can be seen as an advantage for ensuring consistency and readability.
 
 ***
 
-# What is Jenkins Freestyle Job
+# Why Shared Library
 
 In Jenkins, a Freestyle job is a type of project configuration that allows users to create flexible and customizable build processes without adhering to a strict structure or predefined steps. Freestyle jobs provide a straightforward interface where users can define build steps, configure source code management, specify triggers, and set up post-build actions using a graphical user interface (GUI). 
 
