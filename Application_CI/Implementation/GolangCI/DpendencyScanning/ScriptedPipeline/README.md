@@ -46,9 +46,18 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 | **Reduced Risk of Exploitation**	| Proactively addressing vulnerabilities mitigates the risk of exploitation by malicious actors, safeguarding sensitive data and user trust.|
 
 ***
+## Disadvantages
+| Disadvantages	| Explanation |
+|---------------|-------------|
+| **Complexity** |	Scripted pipelines may require advanced Groovy scripting knowledge, potentially increasing complexity and maintenance overhead.|
+| **Resource Intensive**|	Depending on the size of the project and scanning tool used, dependency scanning may consume additional computational resources and time.|
+| **Tool Dependencies** |	Integration with external scanning tools like GoSec or Trivy requires managing dependencies and ensuring availability within the Jenkins environment.|
+| **Learning Curve** |	Users unfamiliar with Groovy scripting or Jenkins pipeline syntax may face a learning curve when implementing scripted pipelines.
+| **Potential Overhead**|	Continuous scanning within CI/CD pipelines may introduce overhead, impacting build times and resource utilization, especially in large-scale projects.|
 
-
-
+***
+## Conclusion
+In conclusion, integrating GoLang dependency scanning into scripted pipelines is essential for enhancing the security of CI/CD workflows. By automating security checks and offering customization options, these pipelines enable early vulnerability detection, compliance adherence, and streamlined development processes. Despite potential complexities, the benefits of comprehensive security coverage and reduced risk of exploitation outweigh the challenges, ensuring the integrity and reliability of GoLang projects.
 
 
 
