@@ -37,7 +37,7 @@
 | golang | 1.21.6 |
 
 ***
-## Setup of Unit Testing
+## Setup of Unit Testing Via Shared Library
 * Follow this document for Setup [**Cilck here**]()
 
   <img width="760" length="100" alt="Golang" src=""> 
@@ -49,65 +49,29 @@
 
 > [!NOTE]
 > **Changes**
-> *  **Pipeline name**       **-**  `Unit _Testing_(golang_CI_Checks)_(Declarative)`
-> *  **Jenkinsfile Path**    **-**  `Declarative Pipeline/golang/Unit Testing/Jenkinsfile`  
+> *  **Pipeline name**       **-**  ``
+> *  **Jenkinsfile Path**    **-**  `SharedLibrary/Golang/UnitTesting/Jenkinsfile`  
 
 ***
 
 ## HTML Report
- * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Unit%20Testing/Declarative%20Pipeline/Report.html)
+ * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Unit%20Testing/Shared_Library/Report.html)
 
 ***
 ## Jenkinsfile
-  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Unit%20Testing/Jenkinsfile)
+  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Golang/UnitTesting/Jenkinsfile)
   ```shell
-  
-pipeline {
-    agent any
-    
-    stages {
-        stage('Installation Go') {
-            steps {
-                script {
-                    // Update apt packages
-                    sh 'sudo apt update'
-                    // Install Go using snap
-                    sh 'sudo snap install go --classic'
-                    
-                }
-            }
-        }
-        stage('Clone Repository') {
-            steps {
-                // Clone the Git repository
-                git branch: 'main', credentialsId: 'vishal-cred', url: 'https://github.com/OT-MICROSERVICES/employee-api.git'
-            }
-        }
-        stage('Testing') {
-            steps {
-                script {
-                    // Run go test and ignore errors
-                    sh 'go test ./... || true'
-                }
-            }
-        }
-        stage('Generate HTML Report') {
-            steps {
-                script {
-                    // Run gotest with specify the output format and generate HTML Report
-                    sh 'go test ./... -coverprofile=coverage.out || true'
-                    sh 'go tool cover -html=coverage.out -o coverage.html || true'
-                    
-                }
-            }
-        }
-    }
-}
+
+```
+## Shared Library
+  * [**Shared Library**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/golangUnitTesting.groovy)
+  ```shell
+
 ```
 ***
 ## Conclusion
 
-Declarative Pipeline simplifies Jenkins pipeline configuration, offering clarity, readability, and integration with Markdown tables. It enhances collaboration, version control, and accessibility while enabling easy documentation and presentation of CI/CD processes.
+
 
 ***
 ## Contact Information
@@ -118,12 +82,11 @@ Declarative Pipeline simplifies Jenkins pipeline configuration, offering clarity
 ## Resources and References
 |  **Description** |   **Source** |
 | ---------------- | ------------ |
-| About Jenkins Pipeline (Generic Document) | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md  ) |
-| Flow Step for create pipeline | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Unit%20Testing%20(GoLang%20CI%20Checks).md) |
-| POC Generic Document | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md) |
-| Setup Jenkins | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup) |
-| Jenkinsfile | [Link](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Unit%20Testing/Jenkinsfile) |
-| Scripted vs Declarative Pipelines | [Link](https://www.baeldung.com/ops/jenkins-scripted-vs-declarative-pipelines) |
+| About Jenkins Shared Library (Generic Document) | [Link]() |
+| POC Generic Document | [Link]() |
+| Jenkinsfile | [Link](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Golang/UnitTesting/Jenkinsfile) |
+| Manual Setup | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Unit%20Testing%20(GoLang%20CI%20Checks).md) |
+| Manual Pipeline | [Declarative](https://github.com/avengers-p7/Documentation/tree/main/Application_CI/Implementation/GolangCI/Unit%20Testing/Declarative%20Pipeline) [Scripted](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Unit%20Testing/Scipted%20Pipeline/Readme.md) |
 | Unit Testing | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Intro-of-Unit-Testing.md) |
 
 ***
