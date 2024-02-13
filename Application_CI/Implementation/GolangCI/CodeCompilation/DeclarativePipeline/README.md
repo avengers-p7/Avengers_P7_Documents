@@ -35,7 +35,7 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 - Select Pipeline script from SCM.
 - Give required repo url and enter your credentials.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056460/f7de7ec8-b886-4651-a563-45a0f6df8077)
+![WhatsApp Image 2024-02-13 at 13 02 53_eb3d939c](https://github.com/avengers-p7/Documentation/assets/156056460/66906402-2f8d-46b3-a9e4-aabacfc84a2d)
 
 **Step-3** Save the Configuration:
 
