@@ -52,6 +52,9 @@ In modern software development, managing dependencies is crucial for code stabil
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/e06ca324-4a6f-45d2-84b8-a2856a089662)
 
 ***
+## Scroll down to pipeline section, we use pipeline script this time, script is shown as below.
+
+![Screenshot from 2024-02-09 15-18-18](https://github.com/avengers-p7/Documentation/assets/156056746/5e9629b5-d600-4cfd-9f20-fd83a67a375c)
 
 
 
