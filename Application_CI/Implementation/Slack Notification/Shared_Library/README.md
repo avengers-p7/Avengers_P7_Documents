@@ -63,7 +63,7 @@ A shared library in Jenkins is a reusable collection of Groovy scripts that can 
 
 # Flow Diagram
 
-<img width="652" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/ceece0cc-394a-4809-9607-63e91cb0c01b">
+<img width="587" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/0d7db1d4-4331-429e-a088-e871ffbd7716">
 
 ***
 
