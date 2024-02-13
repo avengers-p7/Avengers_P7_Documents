@@ -162,9 +162,11 @@ A global pipeline library in Jenkins refers to a shared library of reusable pipe
 # Pipeline
 
 ```shell
+@Library("my-shared-library") _
+
 pipeline {
     agent any
-    
+
     stages {
         stage('Build') {
             steps {
@@ -184,16 +186,19 @@ pipeline {
             }
         }
     }
-    
+
     post {
-        success {
-            slackSend(color: '#36a64f', message: "Declarative Job completed successfully!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
+        success { 
+            slackNotification("SUCCESS")
+            echo 'Compiled Successfully !'
         }
-        failure {
-            slackSend(color: '#ff0000', message: "Declarative Job failed!", channel: "#jenkins", teamDomain: "demoworkspace-6868926", tokenCredentialId: "e96c6c7f-1fdf-4c4a-80fd-5ad178092678")
+        failure { 
+            slackNotification("FAILURE")
+            echo 'Compilation Failed !'
         }
     }
 }
+ 
 ```
 
 ***
