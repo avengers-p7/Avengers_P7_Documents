@@ -1,14 +1,21 @@
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
-| Khushi Malhotra |  30 Jan 2024  |  Version 1 | Khushi Malhotra  | 31 Jan 2024    |
+| Khushi Malhotra |  30 Jan 2024  |  Version 1 | Khushi Malhotra  | 13 Jan 2024    |
 ***
 
 # Introduction
 Scripted Pipelines are a powerful way to define and automate software delivery workflows in Jenkins. They offer more flexibility and customization compared to the simplified Declarative Pipelines. 
 
 # Pre-requisites
-1. Jenkins
-2. go plugin
+| Item         | Version   |
+|--------------|-----------|
+| Jenkins      | 2.426.3 |
+| go plugin    | v1.22.0 |
+
+# go plugin
+![WhatsApp Image 2024-02-13 at 13 33 44_886b7a78](https://github.com/avengers-p7/Documentation/assets/156056460/55c954ee-4937-496d-bff9-6ca2df8cca38)
+![WhatsApp Image 2024-02-13 at 13 30 55_1bbd4add](https://github.com/avengers-p7/Documentation/assets/156056460/bb5dce1a-3952-4ebd-a40b-8a41a45375dd)
+
 
 #Code Compilation Setup
 **Step-1** Create a New Pipeline Job:
