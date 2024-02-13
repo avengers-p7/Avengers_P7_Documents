@@ -12,7 +12,7 @@
 + [Why Shared Library](#Why-Shared-Library)
 + [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
-+ [Setup of Unit Testing](#Setup-of-Unit-Testing-Via-Shared-Library)
++ [Setup of Bug Analysis](#Setup-of-Bug-Analysis-Via-Shared-Library)
 + [HTML Report](#HTML-Report)
 + [Jenkinsfile](#Jenkinsfile)
 + [Shared Library](#Shared-Library)
@@ -42,7 +42,7 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 
 ***
 ## Flow Diagram  
-![Screenshot from 2024-02-10 12-24-04](https://github.com/avengers-p7/Documentation/assets/156056413/a5324c1b-68c8-447c-9299-dcf28c6870d2)
+![Screenshot from 2024-02-09 17-47-50](https://github.com/avengers-p7/Documentation/assets/156056413/9e3c328a-92c1-41fe-a436-8b44175e5244)  
 
 ***
 ## Pre-requisites
@@ -53,7 +53,7 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 | golangCI-lint | 1.55.2 |  
 
 ***
-## Setup of Unit Testing Via Shared Library
+## Setup of Bug Analysis Via Shared Library
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
 
   <img width="760" length="100" alt="Golang" src=""> 
