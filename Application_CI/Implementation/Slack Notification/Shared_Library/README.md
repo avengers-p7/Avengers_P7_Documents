@@ -6,7 +6,7 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Shreya Jaiswal** | **12-02-2024** | **12-02-2024** | **v1** |
+| **Shreya Jaiswal** | **12-02-2024** | **13-02-2024** | **v1** |
 
 ***
 
@@ -55,6 +55,8 @@ A shared library in Jenkins is a reusable collection of Groovy scripts that can 
 **2.Slack Notification Plugin**
 
 **3.Job DSL Plugin**
+
+**4.Global Pipeline Library Configured**
 
 ***
 
