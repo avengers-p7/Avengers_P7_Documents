@@ -5,7 +5,7 @@
 | Khushi Malhotra |  13 Jan 2024  |  Version 1 | Khushi Malhotra  | 13 Jan 2024    |
 ***
 
-# Table of Content
+# Table of Contents
 - [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#introduction)
 - [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#pre-requisites)
 - [Commit Sign-off Setup](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#commit-sign-off-setup)
