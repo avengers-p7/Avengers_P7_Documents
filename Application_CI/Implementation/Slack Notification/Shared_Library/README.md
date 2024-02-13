@@ -113,6 +113,10 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 ***
 
+**Step-5 Jenkins Global Pipeline Library Configuration**
+
+A global pipeline library in Jenkins refers to a shared library of reusable pipeline code that can be used across multiple Jenkins pipelines. This library allows you to define common functions, variables, and pipeline logic in external scripts or Groovy files, which can then be accessed and utilized in your Jenkins pipelines.
+
 <img width="948" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/433ab3ca-7a13-4b67-a2cd-6d0e33216b11">
 
 ***
