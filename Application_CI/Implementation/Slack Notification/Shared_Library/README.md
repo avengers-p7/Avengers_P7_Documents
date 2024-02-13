@@ -108,7 +108,11 @@ Setting up Jenkins Global Configuration for Slack notifications allows you to ce
 
 Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.In the "Team Domain" field, enter the Slack team domain.In the "Integration Token Credential" section, click on "Add" to add your Slack integration token as a Jenkins credential.Enter the necessary information, such as the token itself and an ID to identify the credential.In the "Test Connection" section, enter a Slack channel name and click on "Test Connection" to verify that Jenkins can communicate with Slack.
 
-<img width="862" alt="Screenshot 2024-01-23 181534" src="https://github.com/avengers-p7/Documentation/assets/156057205/ff96bc8e-440e-4b72-946a-9f3757499eea">
+<img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/2b373364-80e5-4559-8c63-d08279d38c9d">
+
+***
+
+<img width="948" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/433ab3ca-7a13-4b67-a2cd-6d0e33216b11">
 
 ***
 
@@ -132,23 +136,21 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 **Console Output**
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/c00b8ea1-4282-4519-9ab6-40e2be285181)
+<img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/d9835a9a-c48a-428a-976b-e32c32f8afbe">
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/4bbf42c0-1d39-4c90-9e6e-db9ed35dce4c)
-
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/f0131f03-0e8e-47f5-a95e-e15cc6bc9588)
+<img width="689" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4b915529-ab33-49d6-8e03-e31d13d43c31">
 
 ***
 
 **Freestyle Job Created of name "My-Freestyle-Job"**
 
-<img width="673" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/c44f2127-32fe-483b-afc3-3e694fb925e6">
+<img width="709" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/608ae964-707c-4839-a3ee-ac798a493148">
 
 ***
 
 **Slack Notification Result**
 
-![image](https://github.com/avengers-p7/Documentation/assets/156057205/2cb31288-be30-47e1-b4fe-6f7c1a9f1491)
+<img width="683" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/190d9968-727b-48b0-be23-271b90b1e6c0">
 
 ***
 
@@ -189,6 +191,22 @@ pipeline {
 }
 ```
 
+***
+
+# Shared Library File
+
+```shell
+// vars/slackNotification.groovy
+
+def call(String status) {
+    if (status == 'SUCCESS') {
+            slackSend channel: 'jenkinss', message: 'Job Build successfully'
+    }
+    if (status == 'FAILURE'){
+            slackSend channel: 'jenkinss', message: 'Job Failed '
+    }
+}
+```
 ***
 
 # Conclusion
