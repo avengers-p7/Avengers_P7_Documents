@@ -33,6 +33,21 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 | **Reduced Risk** | Mitigates the risk of exploitation by malicious actors, safeguarding sensitive data and maintaining user trust.|
 | **Comprehensive Security** |	Offers comprehensive scanning capabilities to identify and address a wide range of vulnerabilities in GoLang dependencies.|
 
+***
+## Advantages
+| Advantages |	Explanation |
+|------------|--------------|
+| **Early Identification of Vulnerabilities** |	Enables the detection of security vulnerabilities in third-party dependencies early in the development process, allowing for prompt remediation.|
+| **Continuous Security Monitoring** |	Integrating scanning into CI/CD pipelines ensures that security checks are performed consistently with every build, providing ongoing protection.|
+| **Compliance with Regulatory Standards** |	Facilitates compliance with regulatory standards by implementing thorough security measures, helping organizations meet legal and industry requirements.|
+| **Enhanced Development Efficiency**	| Streamlines development workflows by automating security practices within the pipeline, optimizing efficiency without compromising speed or reliability.|
+| **Customizable Configuration**|	Offers flexibility to tailor the scanning process according to project requirements, allowing for customized security checks and configurations.|
+| **Comprehensive Security Coverage**	| Provides comprehensive scanning capabilities to identify and address a wide range of vulnerabilities in GoLang dependencies, ensuring robust security.|
+| **Reduced Risk of Exploitation**	| Proactively addressing vulnerabilities mitigates the risk of exploitation by malicious actors, safeguarding sensitive data and user trust.|
+
+***
+
+
 
 
 
