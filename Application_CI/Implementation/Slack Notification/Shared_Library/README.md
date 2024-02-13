@@ -86,8 +86,7 @@ Creating a dedicated channel for Jenkins notifications helps isolate and organiz
 
 Log in to your Slack workspace.In the left sidebar, click on the "+" button next to "Channels."Choose "Create a channel."
 
-<img width="846" alt="Screenshot 2024-01-23 181612" src="https://github.com/avengers-p7/Documentation/assets/156057205/ce1ccb76-4a59-4a4c-89d9-4a0d418238d7">
-
+<img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/d0c01488-0c49-4ada-8d78-cb736d6a653f">
 
 ***
 
