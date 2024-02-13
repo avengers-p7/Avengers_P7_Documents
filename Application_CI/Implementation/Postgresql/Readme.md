@@ -7,7 +7,7 @@
 | Vikram Bisht     |  10 Feb 2024  |     v1     | Vikram Bisht    | 10 Jan 2024    |
 
 ***
-## Table of Contents
+# Table of Contents
 + [Introduction](#Introduction)
 + [Pre-requisites](#Pre-requisites)
 + [Setup Ansible Role](#steps)
@@ -23,15 +23,14 @@ This role is designed to automate the installation and configuration of PostgreS
 ***
 
 # Pre-requisites
-Before using this Ansible role to install PostgreSQL, ensure that the following prerequisites are met:
 
-1. **Ansible:**
-   - Ansible must be installed on the control machine from which you plan to run the playbook. If Ansible is not installed, you can install it using this [link](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+|  Pre-requisites	                     |        	Description         |
+| ------------              | --------------------------------|
+| Ansible                   |  Ansible must be installed on the control machine from which you plan to run the playbook. If Ansible is not installed, you can install it using this [link](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)       |
+| SSH Access to Target Servers                   | Ensure that you have SSH access to the target servers where PostgreSQL will be installed.  |
+| Ansible                   | Here we used version 2.15. |
+| AWS                       | AWS account for instance creation  |
 
-2. **SSH Access to Target Servers:**
-   - Ensure that you have SSH access to the target servers where PostgreSQL will be installed.
-  
-***
 # Steps 
 * Before going further check the link for Ansible Role: https://github.com/vikram445/PostgreSQL.git
 
@@ -68,7 +67,13 @@ groups:
 3. `ubuntu: "'ubuntu' in tags.OS"`: Creates an Ansible group named ubuntu. This group includes EC2 instances where the tag named OS has a value of 'ubuntu'.
 
 **Step 3: Create Ansible Role**
-* Create a new Ansible role which should follow this directory structure:
+
+To create an Ansible role, which should follow below directory structure, you can use the ansible-galaxy command-line tool. Here's the command to create a new Ansible role:
+
+```bash
+ansible-galaxy init <role_name>
+```
+
   
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/53ce10fa-148e-49ad-8b90-51dc109a896b)
 
@@ -161,7 +166,7 @@ In above screenshot we can see our PostgreSQL service is active and running.
 
 # Conclusion 
 
-* This guide illustrates the process of deploying PostgreSQL in a server through Ansible. By adhering to these instructions, you can effectively provision and set up PostgreSQL within your AWS infrastructure.
+This guide illustrates the process of deploying PostgreSQL in a server through Ansible. By adhering to these instructions, you can effectively provision and set up PostgreSQL within your AWS infrastructure.
 
 
 # Contact Information
