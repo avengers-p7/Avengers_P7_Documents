@@ -2,7 +2,7 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Parasharam Desai** | 08-02-2024 | 08-02-2024 | V1 |
+| **Parasharam Desai** | 13-02-2024 | 13-02-2024 | V1 |
 
 ---
 
@@ -12,12 +12,6 @@
 2. [System Requirements](#system-requirements)
 3. [Runtime Prerequisites](#runtime-prerequisites)
 4. [ScyllaDB Installation Guide](#scylladb-installation-guide)
-    - [Update Packages](#update-packages)
-    - [Install OpenJDK 17](#install-openjdk-17)
-    - [Add ScyllaDB APT repository to your system](#add-scylladb-apt-repository-to-your-system)
-    - [Install ScyllaDB packages](#install-scylladb-packages)
-    - [Verify Installation](#verify-installation)
-    - [Configuration Setup](#configuration-setup)
 5. [Configure and Run ScyllaDB](#configure-and-run-scylladb)
     - [Running the scylla_setup Script](#running-the-scylla_setup-script)
     - [Configure ScyllaDB Settings](#configure-scylladb-settings)
