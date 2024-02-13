@@ -43,7 +43,8 @@
 | Vidhi     | 6-7 Feb | Status Mail | 2    | 10     |
 | Sameer    | 6 Feb,   | Staus mail  | 2    | 05     |
 | Khushi    | 13 Feb   | Morning Call | 1    | 05     |
------
-| Date      | 13 Feb   | Staus mail,Morning call  | 2    |   10   |
+| Date      | 13 Feb   |  |     |      |
 | Sameer    | 13 Feb   | Staus mail,Morning call  | 2    |   10   |
 | Khushi    | 13 Feb   | Morning Call,status mail | 2    |  10    |
+| Nidhi    | 13 Feb   | Morning Call,status mail | 1    |  05    |
+
