@@ -219,6 +219,12 @@ def call(String status) {
 ```
 ***
 
+**Pipeline Syntax For Slacksend**
+
+<img width="875" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/c78ffda3-84fd-4167-b4fa-66c86b8dc2c0">
+
+***
+
 # Conclusion
 
 In conclusion, the shared library for Slack notification simplifies the process of integrating Slack notifications into applications by providing common functions for sending messages to Slack channels. By using this library, developers can save time and effort by avoiding the need to write notification code from scratch for each project. The library promotes code reuse, enhances consistency, and improves the overall development workflow when incorporating Slack notifications into various applications.
