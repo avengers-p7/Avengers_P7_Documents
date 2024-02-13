@@ -29,6 +29,14 @@ In modern software development, managing dependencies is crucial for code stabil
 |**Error Handling Mechanisms** | Implements error handling mechanisms to gracefully manage failures during dependency scanning execution.|
 
 ***
+## Jenkins Architecture
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/85be06bb-b800-4844-b4d3-7389506e1918)
+
+
+***
+
+
+
 ### Here's the advantages and disadvantages of implementing a Declarative Pipeline for GoLang Dependency Scanning presented in a tabular form:
 | Advantages | Disadvantages |
 |------------|---------------|
