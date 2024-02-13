@@ -43,6 +43,9 @@ In Jenkins, a Freestyle job is a type of project configuration that allows users
 
 ***
 
+> [!Note]
+> For more detail on Jenkins please go with this [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
+
 # Pre-requisites
 
 **1.Jenkins Installed**
@@ -58,6 +61,10 @@ In Jenkins, a Freestyle job is a type of project configuration that allows users
 <img width="652" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/ceece0cc-394a-4809-9607-63e91cb0c01b">
 
 ***
+
+> [!Note]
+> For more detail on Jenkins Setup, please go with this [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
+
 
 # Slack Notification Setup
 
