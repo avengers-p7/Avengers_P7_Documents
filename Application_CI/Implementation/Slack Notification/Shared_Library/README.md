@@ -242,4 +242,4 @@ In conclusion, the shared library for Slack notification simplifies the process 
 | [Link](https://www.youtube.com/watch?v=pQUDhOMZiZQ) | Video Reference For Shared Library |
 | [Link](https://youtu.be/Wj-weFEsTb0?feature=shared) | Video Reference For Shared Library |
 | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/README.md) | Generic Doc Link |
-| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md) | Poc Doc Link |
+| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md) | Generic Poc Doc Link |
