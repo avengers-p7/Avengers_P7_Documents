@@ -21,6 +21,10 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 | Jenkins      | 2.426.3 |
 | go plugin    | v1.22.0 |
 
+# go plugin
+![WhatsApp Image 2024-02-13 at 13 33 44_886b7a78](https://github.com/avengers-p7/Documentation/assets/156056460/55c954ee-4937-496d-bff9-6ca2df8cca38)
+![WhatsApp Image 2024-02-13 at 13 30 55_1bbd4add](https://github.com/avengers-p7/Documentation/assets/156056460/bb5dce1a-3952-4ebd-a40b-8a41a45375dd)
+
 
 # Code-Compilation Setup 
 **Step-1** Create a New Pipeline Job:
