@@ -4,14 +4,14 @@
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Vikram Bisht     |  10 Feb 2024  |     v1     | Vikram Bisht    | 10 Jan 2024    |
+| Vikram Bisht     |  10 Feb 2024  |     v1     | Vikram Bisht    | 13 Feb 2024    |
 
 ***
 # Table of Contents
 + [Introduction](#Introduction)
 + [Pre-requisites](#Pre-requisites)
-+ [Setup Ansible Role](#steps)
-+ [Output Verification](#output)
++ [Steps](#Steps)
++ [Output Verification](#output-Verification)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
@@ -180,8 +180,8 @@ This guide illustrates the process of deploying PostgreSQL in a server through A
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
 | Ansible documentation           | https://docs.ansible.com/ansible/latest/index.html    |
-| PostgreSQL Document             |  [Link](https://github.com/avengersp7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md)  |
-| Ansible Dyanmic Inventory       | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
+| PostgreSQL Document             |  [Link](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md) |
+| Ansible Dynamic Inventory       | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
 
 
 
