@@ -10,11 +10,12 @@
 
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
-3. [Steps](#steps)
-4. [Evaluate Output](#evaluate-output)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#contact-information)
-7. [Resources and References](#resources-and-references)
+3. [Flow Diagram](#Flow-Diagram)
+4. [Steps](#steps)
+5. [Evaluate Output](#evaluate-output)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [Resources and References](#resources-and-references)
 
    
 ***
@@ -33,6 +34,11 @@ going to Setup a single Node server of Scylladb using dynamic inventory.
 | Private key  | Required for SSH authentication.                 |
 
 Please ensure you have access to an AWS account for deployment purposes in addition to Ansible and a private key for SSH authentication.
+
+***
+# Flow Diagram:
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/9e6a4ced-3182-40a9-b772-2ac7021a436c)
+
 
 ***
 # Steps
