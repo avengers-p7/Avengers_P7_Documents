@@ -85,6 +85,8 @@ In a scripted Jenkins pipeline, the code compilation process typically involves 
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
 # Resources and References 
+[JenkinsPipeline](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
+
 [Pipeline Creation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
 [Compile](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilationPOC-go.md)
