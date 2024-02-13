@@ -90,5 +90,5 @@ In conclusion, integrating GoLang dependency scanning into scripted pipelines is
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Pipeline | https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipeline-syntax-reference-guide/declarative-pipeline |
+| Pipeline | https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipeline-syntax-reference-guide/scripted-pipeline |
 
