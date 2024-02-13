@@ -5,7 +5,11 @@
 | Khushi Malhotra |  13 Feb 2024  |  Version 1 | Khushi Malhotra  | 13 Feb 2024    |
 ***
 # Table of Contents
-
+- [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#introduction)
+- [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#pre-requisites)
+- [Commit Sign-off Setup](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#commit-sign-off-setup)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#contact-information)
+- [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#resources-and-references)
 
 # Introduction
 A commit sign-off, often referred to as a "Developer's Certificate of Origin" or "DCO", is a declaration made by a developer to certify that they have the right to contribute the code they are submitting. 
@@ -90,6 +94,7 @@ node {
     }
 }
 ```
+
 # Contact Information
 | Name            | Email Address                        |
 |-----------------|--------------------------------------|
