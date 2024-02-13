@@ -99,7 +99,8 @@ To create an Ansible role, which should follow below directory structure, you ca
 ```bash
 ansible-galaxy init <role_name>
 ```
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/6a30d4ee-f83b-476a-828b-af790aa7edff)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/80b46007-bed0-4eea-9d4e-994656258434)
+
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056709/fa26f123-6015-4b58-8def-cbe69d6dc673)
 
@@ -298,10 +299,9 @@ ansible-playbook scylla-ansible-role/tests/test.yml
 
 * During the evaluation of output, we utilize the register and debug modules to verify whether our Ansible role is functioning correctly or not. In the image below, you will observe the output and status of the node.
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/2b173a57-f9dc-407c-b8a1-45029ff07d3a)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/e097d239-e38e-4973-b936-8658c16072cb)
 
-
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/22ac0b0f-7a29-4970-9a05-385692ee8f53)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/459a0f88-2955-4d28-9467-69596386e5bc)
 
 ***
 # Conclusion
