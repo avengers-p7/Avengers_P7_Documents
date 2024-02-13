@@ -42,3 +42,5 @@
 | vikram    | 6 Feb   | Status Mail | 1    | 05     |
 | Vidhi     | 6-7 Feb | Status Mail | 2    | 10     |
 | Sameer    | 6 Feb   | Staus mail  | 1    | 05     |
+| Khushi    | 13 Feb   | Morning Call | 1    | 05     |
+
