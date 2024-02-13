@@ -11,11 +11,11 @@
     * Launch Configuration<br> 
     * Auto Scaling Group<br>
   
-4. Testing Auto Scaling<br>
-5. Best Practices<br>
-6. Conclusion<br>
-7. Contact Information<br>
-8. References
+[4. Testing Auto Scaling<br>](#testing-auto-scaling)
+[5. Best Practices<br>](#best-practices)
+[6. Conclusion<br>](#conclusion)
+[7. Contact Information<br>](#contact-information)
+[8. References](#references)
 ***
 
 # Introduction
