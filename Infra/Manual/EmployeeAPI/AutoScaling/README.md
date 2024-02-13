@@ -7,10 +7,7 @@
 # Table of Content
 [1. Introduction<br>](#introduction)
 [2. Overview<br>](#overview)
-[3. Setting Up Auto Scaling in AWS<br>](#setting-up-auto-scaling-in-aws)
-    * Launch Configuration<br> 
-    * Auto Scaling Group<br>
-  
+[3. Setting Up Auto Scaling in AWS<br>](#setting-up-auto-scaling-in-aws)  
 [4. Testing Auto Scaling<br>](#testing-auto-scaling)
 [5. Best Practices<br>](#best-practices)
 [6. Conclusion<br>](#conclusion)
