@@ -1,3 +1,5 @@
+# Declarative Pipeline-Go Lang Code Compilation
+
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
 | Khushi Malhotra |  07 Feb 2024  |  Version 1 | Khushi Malhotra  | 13 Feb 2024    |
@@ -11,7 +13,7 @@
 - [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#contact-information)
 - [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#resources-and-references)
 
-# Declarative Pipeline-Go Lang Code Compilation
+# Introduction
 Building and deploying Go APIs can be streamlined through continuous integration and continuous delivery (CI/CD) pipelines. Declarative pipelines in Jenkins offer a robust and readable approach to automate Go code compilation. 
 Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, to define pipeline stages and steps in a more structured and human-readable format. This promotes maintainability and easier understanding of the build process.
 
