@@ -32,11 +32,7 @@ In modern software development, managing dependencies is crucial for code stabil
 ## Jenkins Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/85be06bb-b800-4844-b4d3-7389506e1918)
 
-
 ***
-
-
-
 ### Here's the advantages and disadvantages of implementing a Declarative Pipeline for GoLang Dependency Scanning presented in a tabular form:
 | Advantages | Disadvantages |
 |------------|---------------|
@@ -52,6 +48,13 @@ In modern software development, managing dependencies is crucial for code stabil
 | Declarative pipelines promote improved readability and maintainability due to their structured syntax and predefined stages.| Declarative pipelines may result in bloated configuration files for complex pipelines, making them harder to manage and understand.|
 
 ***
+## Create new pipeline task
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/e06ca324-4a6f-45d2-84b8-a2856a089662)
+
+***
+
+
+
 ## Conclusion
 In conclusion, implementing a Declarative Pipeline for GoLang Dependency Scanning automates dependency management, enhances code quality, and strengthens security posture. This approach fosters a streamlined CI/CD workflow, optimizing resource utilization and ensuring compliance with industry standards. By proactively addressing potential issues, teams can deliver high-quality software with confidence, promoting reliability and resilience in their projects.
 
