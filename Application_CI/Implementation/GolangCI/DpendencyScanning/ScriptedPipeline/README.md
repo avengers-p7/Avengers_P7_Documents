@@ -22,12 +22,17 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 ## Features
 | Feature |	Description |
 |---------|-------------|
-| Integration with GoLang Tools	| Seamlessly integrates with popular GoLang dependency scanning tools like GoSec and Trivy.|
-| Customizable Configuration |	Offers flexibility to tailor the scanning process according to project requirements. |
-| Automated Security Checks	| Automates the scanning process within CI/CD pipelines, ensuring consistent security validation with each build.|
-| Early Vulnerability Detection |	Enables early identification of vulnerabilities in third-party dependencies, facilitating prompt remediation.|
-| Compliance Support |	Facilitates compliance with regulatory standards by implementing thorough security measures.|
-| Streamlined Workflow |	Enhances efficiency by integrating security practices into development workflows without compromising speed or reliability.|
+| **Integration with GoLang Tools**	| Seamlessly integrates with popular GoLang dependency scanning tools like GoSec and Trivy.|
+| **Customizable Configuration** |	Offers flexibility to tailor the scanning process according to project requirements. |
+| **Automated Security Checks**	| Automates the scanning process within CI/CD pipelines, ensuring consistent security validation with each build.|
+|**Early Vulnerability Detection**|	Enables early identification of vulnerabilities in third-party dependencies, facilitating prompt remediation.|
+| **Compliance Support** |	Facilitates compliance with regulatory standards by implementing thorough security measures.|
+| **Streamlined Workflow** |	Enhances efficiency by integrating security practices into development workflows without compromising speed or reliability.|
+| **Archiving Scan Results** | Archives scan reports for traceability and auditing purposes, facilitating post-analysis and compliance documentation.|
+| **Continuous Monitoring**	| Provides ongoing protection against emerging threats through continuous security monitoring.|
+| **Reduced Risk** | Mitigates the risk of exploitation by malicious actors, safeguarding sensitive data and maintaining user trust.|
+| **Comprehensive Security** |	Offers comprehensive scanning capabilities to identify and address a wide range of vulnerabilities in GoLang dependencies.|
+
 
 
 
