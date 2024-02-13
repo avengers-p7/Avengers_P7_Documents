@@ -18,8 +18,8 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 # Pre-requisites
 | Item         | Version   |
 |--------------|-----------|
-| Jenkins      | '2.426.3' |
-| go plugin    | `v1.22.0` |
+| Jenkins      | 2.426.3 |
+| go plugin    | v1.22.0 |
 
 
 # Code-Compilation Setup 
