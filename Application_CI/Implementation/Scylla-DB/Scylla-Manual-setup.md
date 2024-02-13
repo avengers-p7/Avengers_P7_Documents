@@ -194,7 +194,7 @@ Example (cassandra-rackdc.properties):
 
 4. Start the seed node:
 
-      sudo systemctl start scylla-server
+	      sudo systemctl start scylla-server
    
 5. Wait until the seed node is in the 'UN' (Up/Normal) state.
 
@@ -261,8 +261,6 @@ This example demonstrates the installation and configuration of a three-node clu
 **Starting Scylla Nodes**
 
 Start Scylla nodes, beginning with the seed node (192.168.1.201). Wait until each node is in a 'UN' state before starting the next.
-
-
 
       sudo systemctl start scylla-server
       
