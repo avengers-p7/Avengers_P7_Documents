@@ -1,6 +1,6 @@
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
-| Khushi Malhotra |  07 Jan 2024  |  Version 1 | Khushi Malhotra  | 08 Jan 2024    |
+| Khushi Malhotra |  07 Jan 2024  |  Version 1 | Khushi Malhotra  | 13 Jan 2024    |
 ***
 
 # Table of Contents
