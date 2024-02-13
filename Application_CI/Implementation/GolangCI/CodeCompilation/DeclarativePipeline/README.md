@@ -6,7 +6,7 @@
 ***
 
 # Table of Contents
-- [Introduction]([https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#declarative-pipeline-go-lang-code-compilation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#introduction))
+- [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#introduction)
 - [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#pre-requisites)
 - [Code-Compilation Setup](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#code-compilation-setup)
 - [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/DeclarativePipeline/README.md#conclusion)
