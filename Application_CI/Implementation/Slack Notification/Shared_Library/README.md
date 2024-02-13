@@ -126,7 +126,7 @@ Go to "Manage Jenkins" > "Configure System."Scroll down to the "Slack" section.I
 
 **Jenkinsfile Path in Configuration**
 
-<img width="647" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/e84727c9-84e7-4b99-847c-3a1955ab83da">
+<img width="668" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/c9a7e00b-d4b3-4db8-a629-ead680753c89">
 
 ***
 
