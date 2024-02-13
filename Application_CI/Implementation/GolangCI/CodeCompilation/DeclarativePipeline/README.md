@@ -29,13 +29,13 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 
 
 # Code-Compilation Setup 
-**Step-1** Create a New Pipeline Job:
+**Step-1** Create a New Pipeline Job
 
 - Navigate to the Jenkins dashboard and click on New Item.
 - Enter a name for your job (e.g., "Declarative pipeline-Golang-Code Compilation").
 - Select Pipeline and click OK.
 
-**Step-2** Configure Pipeline Script:
+**Step-2** Configure Pipeline Script
 
 - In the job configuration page, scroll down to the Pipeline section.
 - Select Pipeline script from SCM.
@@ -43,19 +43,19 @@ Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, 
 
 ![WhatsApp Image 2024-02-13 at 13 02 53_eb3d939c](https://github.com/avengers-p7/Documentation/assets/156056460/66906402-2f8d-46b3-a9e4-aabacfc84a2d)
 
-**Step-3** Save the Configuration:
+**Step-3** Save the Configuration
 
 - Click on Save to save the job configuration.
 
-**Step-4** Build the Pipeline:
+**Step-4** Build the Pipeline
 
 - Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
 
-**Step-5** View Build Console Output:
+**Step-5** View Build Console Output
 
 - After triggering the build, you can view the progress and console output of the build by clicking on the build number in the Jenkins dashboard.
 - The console output will display the steps executed by the pipeline script, including code checkout and compilation.
-- Verify Successful Compilation:
+- Verify Successful Compilation
 ![WhatsApp Image 2024-02-13 at 13 04 16_2d06bc2a](https://github.com/avengers-p7/Documentation/assets/156056460/93882b19-d721-4184-9f8a-6574cd5c5c81)
 ![WhatsApp Image 2024-02-13 at 13 05 34_8cb5346a](https://github.com/avengers-p7/Documentation/assets/156056460/2e051239-c92f-4ef7-bd60-263a49263f94)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/479f10ed-1800-4b0e-8189-c568d76e71a6)
