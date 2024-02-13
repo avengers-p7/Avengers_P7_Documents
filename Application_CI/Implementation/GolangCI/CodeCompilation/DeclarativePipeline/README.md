@@ -1,6 +1,6 @@
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
-| Khushi Malhotra |  07 Jan 2024  |  Version 1 | Khushi Malhotra  | 13 Jan 2024    |
+| Khushi Malhotra |  07 Feb 2024  |  Version 1 | Khushi Malhotra  | 13 Feb 2024    |
 ***
 
 # Table of Contents
@@ -97,6 +97,8 @@ Declarative pipeline offers a simpler, more structured approach to defining Jenk
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
 # Resources and References 
+[Pipeline Creation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
+
 [POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilationPOC-go.md)
 
 [Compile Code](https://go.dev/doc/tutorial/compile-install)
