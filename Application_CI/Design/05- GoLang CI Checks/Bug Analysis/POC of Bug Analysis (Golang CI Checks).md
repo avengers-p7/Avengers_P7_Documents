@@ -89,8 +89,16 @@ For more information cilck [**here**](https://github.com/avengers-p7/Documentati
       golangci-lint run ./... --out-format html > report.html
      ```
    * [**HTML Report**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Bug%20Analysis/Bug%20Analysis%20report.html)
-    
-    
+     
+   * [**HTML Report Converter Link**](https://codebeautify.org/htmlviewer#)
+     
+     **Result**
+      
+     <img width="560" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/f083d0c0-fca2-4550-b101-da6490f08f3c">
+     <img width="560" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/4571113d-93a4-47ac-95d2-f827435c49a2">
+     <img width="560" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/2a2b03d8-4432-42b9-b0ea-c427d874d546">  
+   
+***   
 ## Conclusion
 we covered the process of installing Go first as a prerequisite. We then covered installation of golangci-lint and finally how can it be configured specifically and then be used in our Go programs to lint our code. By having golangci-lint at our disposal, We can ensure your code is top-notch and easy to understand. With Go and golangci-lint, maintaining great code quality and catching potential issues becomes an integral part of our coding journey.
 
