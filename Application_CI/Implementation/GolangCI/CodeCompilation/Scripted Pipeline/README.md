@@ -76,7 +76,7 @@ node {
 }
 ```
 
-#Conclusion
+# Conclusion
 In a scripted Jenkins pipeline, the code compilation process typically involves defining stages and steps within a Groovy script (Jenkinsfile) to compile your codebase. 
 
 # Contact Information
