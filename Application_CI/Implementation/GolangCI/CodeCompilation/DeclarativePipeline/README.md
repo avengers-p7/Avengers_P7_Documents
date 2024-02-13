@@ -16,8 +16,11 @@ Building and deploying Go APIs can be streamlined through continuous integration
 Declarative pipelines use Jenkins DSL, a Groovy-based domain-specific language, to define pipeline stages and steps in a more structured and human-readable format. This promotes maintainability and easier understanding of the build process.
 
 # Pre-requisites
-1. Jenkins Installed
-2. go plugin
+| Item         | Version   |
+|--------------|-----------|
+| Jenkins      | '2.426.3' |
+| go plugin    | `v1.22.0` |
+
 
 # Code-Compilation Setup 
 **Step-1** Create a New Pipeline Job:
@@ -91,6 +94,8 @@ Declarative pipeline offers a simpler, more structured approach to defining Jenk
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
 # Resources and References 
+[POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilationPOC-go.md)
+
 [Compile Code](https://go.dev/doc/tutorial/compile-install)
 
 [Jenkins pipeline](https://www.jenkins.io/doc/book/pipeline/#:~:text=Scripted%20Pipeline%20syntax.-,Declarative%20Pipeline%20fundamentals,done%20throughout%20your%20entire%20Pipeline.&text=Execute%20this%20Pipeline%20or%20any,stages%2C%20on%20any%20available%20agent.&text=Defines%20the%20%22Build%22%20stage.&text=Perform%20some%20steps%20related%20to%20the%20%22Build%22%20stage.)
