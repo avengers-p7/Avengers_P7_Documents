@@ -31,6 +31,7 @@ In modern software development, managing dependencies is crucial for code stabil
 ***
 ## Jenkins Architecture
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/85be06bb-b800-4844-b4d3-7389506e1918)
+**Note**: Jenkins follows a master-slave architecture, with the master coordinating tasks and distributing them to one or more slave nodes for execution. Plugins extend its functionality, enabling integration with various tools and systems. Jobs, defined tasks or processes, are executed based on triggers such as code commits or time schedules. The master manages the web interface and schedules builds, while slaves execute build tasks on different environments. Jenkins' architecture facilitates scalable and distributed automation in continuous integration and delivery pipelines.
 
 ***
 ### Here's the advantages and disadvantages of implementing a Declarative Pipeline for GoLang Dependency Scanning presented in a tabular form:
@@ -56,6 +57,13 @@ In modern software development, managing dependencies is crucial for code stabil
 
 ![Screenshot from 2024-02-09 15-18-18](https://github.com/avengers-p7/Documentation/assets/156056746/5e9629b5-d600-4cfd-9f20-fd83a67a375c)
 
+***
+## build and check result
+
+![Screenshot from 2024-02-09 15-18-01](https://github.com/avengers-p7/Documentation/assets/156056746/1abc53d7-0fa7-41c1-affe-e8264ed5a54c)
+
+***
+
 
 
 ## Conclusion
@@ -73,5 +81,4 @@ In conclusion, implementing a Declarative Pipeline for GoLang Dependency Scannin
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Pipeline | https://www.gosysops.com/2020/ci-cd-with-jenkins-part-9-deploy-frontend-page-with-pipeline.html|
-
+| Pipeline | https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipeline-syntax-reference-guide/declarative-pipeline |
