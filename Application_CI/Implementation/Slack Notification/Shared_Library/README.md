@@ -51,13 +51,13 @@ A shared library in Jenkins is a reusable collection of Groovy scripts that can 
 
 # Pre-requisites
 
-**1.Jenkins Installed**
-
-**2.Slack Notification Plugin**
-
-**3.Job DSL Plugin**
-
-**4.Global Pipeline Library Configured**
+| **Pre-requisites** |
+| ------------------ |
+| **Jenkins** |
+| **Slack Notification Plugin** |
+| **Job Dsl Plugin** |
+| **Global Pipeline Library Configured** |
+| **Global Slack Notification Configuration** |
 
 ***
 
