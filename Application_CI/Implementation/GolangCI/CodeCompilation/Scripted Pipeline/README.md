@@ -1,7 +1,15 @@
+# Scripted pipeline Go Lang Code Compilation
+
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
-| Khushi Malhotra |  30 Jan 2024  |  Version 1 | Khushi Malhotra  | 13 Jan 2024    |
+| Khushi Malhotra |  30 Jan 2024  |  Version 1 | Khushi Malhotra  | 13 Feb 2024    |
 ***
+# Table of Content
+- [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/Scripted%20Pipeline/README.md#introduction)
+- [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/Scripted%20Pipeline/README.md#pre-requisites)
+- [go plugin](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/Scripted%20Pipeline/README.md#go-plugin)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/Scripted%20Pipeline/README.md#contact-information)
+- [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/CodeCompilation/Scripted%20Pipeline/README.md#resources-and-references)
 
 # Introduction
 Scripted Pipelines are a powerful way to define and automate software delivery workflows in Jenkins. They offer more flexibility and customization compared to the simplified Declarative Pipelines. 
@@ -77,6 +85,8 @@ In a scripted Jenkins pipeline, the code compilation process typically involves 
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
 
 # Resources and References 
+[Pipeline Creation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
+
 [Compile](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-%20GoLang%20CI%20Checks/Code_compilationPOC-go.md)
 
 [Jenkins pipeline](https://www.jenkins.io/doc/book/pipeline/#:~:text=Scripted%20Pipeline%20syntax.-,Declarative%20Pipeline%20fundamentals,done%20throughout%20your%20entire%20Pipeline.&text=Execute%20this%20Pipeline%20or%20any,stages%2C%20on%20any%20available%20agent.&text=Defines%20the%20%22Build%22%20stage.&text=Perform%20some%20steps%20related%20to%20the%20%22Build%22%20stage.)
