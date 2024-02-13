@@ -142,7 +142,6 @@ This pipeline will do Static Code Analysis against a python code and provide you
 | ------------                                                                            | ----------------------- |
 |  **[Link](https://pylint.readthedocs.io/en/stable/)**                                               | Pylint Documentation    |  
 |**[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md )**                  | Static Code Analysis Documentation    |
-|  **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Static%20Code%20Analysis/Scripted%20Pipeline/pylint.log)**                                               | Detailed Output    | 
-
-
-
+|  **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Static%20Code%20Analysis/Scripted%20Pipeline/pylint.log)**                                               | Detailed Output    |
+|  **[Link](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Python/StaticCodeAnalysis/Jenkinsfile)**                                               | Jenkins File    | 
+|  **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)**   | How to Setup Jenkins Pipeline    |
