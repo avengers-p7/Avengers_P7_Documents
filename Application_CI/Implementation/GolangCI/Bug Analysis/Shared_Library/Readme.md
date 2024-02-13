@@ -56,16 +56,16 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 ## Setup of Bug Analysis Via Shared Library
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
 
-  <img width="760" length="100" alt="Golang" src=""> 
+  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/95ae3196-eebd-43f3-b399-6db1443f1a29"> 
 
 * Console Output:
-  
-   <img width="760" length="100" alt="Golang" src=""> 
+
+   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/cc4e4cb5-1749-4848-a105-eaf71ff8546a"> 
 
 
 > [!NOTE]
 > **Changes**
-> *  **Pipeline name**       **-**  ``
+> *  **Pipeline name**       **-**  `Bug_Analysis_(GoLang_CI_Checks)`
 > *  **Jenkinsfile Path**    **-**  `SharedLibrary/Golang/BugAnalysis/Jenkinsfile`  
 
 ***
@@ -78,11 +78,79 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Golang/BugAnalysis/Jenkinsfile)
   ```shell
 
+@Library('snaatak-p7') _
+
+pipeline {
+    agent any
+    
+    stages {
+        stage('Installation Pre-Requisites') {
+            steps {
+                script{
+                    golangBugAnalysis.installprerequisites()
+                }
+            }
+        }
+        stage('Checkout') {
+            steps {
+                gitCheckoutPrivate(branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git', credentialsId: 'vishal-cred')
+            }
+        }
+        stage('Linting') {
+            steps {
+                script{
+                    golangBugAnalysis.linting()
+                }
+            }
+        }
+        stage('Generate HTML Report') {
+            steps {
+                script{
+                    golangBugAnalysis.html()
+                }
+            }
+        }
+    }
+}
+    
+        
 ```
 ## Shared Library
-  * [**Shared Library**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/golangBugAnalysis.groovy)
+  * [**gitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/gitCheckoutPrivate.groovy)
   ```shell
+// Checkout Github Private Repository
+def call(Map config = [:]) {
+    checkout scm: [
+        $class: 'GitSCM',
+        branches: [[name: config.branch]],
+        userRemoteConfigs: [[url: config.url, credentialsId: config.credentialsId]]
+    ]
+}
+```
+  * [**golangBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/golangBugAnalysis.groovy)
+  ```shell
+def installprerequisites(){
+  // Update apt packages
+  sh 'sudo apt update'
+  // Install Go using snap
+  sh 'sudo snap install go --classic'
+  // Remove golangci-lint using snap
+  sh 'sudo snap remove golangci-lint || true'
+  // Install GolangCI-lint
+  sh 'go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest'
+  // Add $HOME/go/bin to PATH
+  env.PATH += ":$HOME/go/bin"
+}
 
+def linting(){
+  // Run golangci-lint and ignore errors
+  sh 'golangci-lint run ./... || true'
+}
+
+def html(){
+  // Run golangci-lint with the --out-format option to specify the output format
+  sh 'golangci-lint run ./... --out-format html > report.html || true'
+}
 ```
 ***
 ## Conclusion
