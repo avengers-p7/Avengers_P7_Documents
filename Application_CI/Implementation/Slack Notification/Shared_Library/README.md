@@ -221,7 +221,7 @@ def call(String status) {
 
 **Pipeline Syntax For Slacksend**
 
-<img width="875" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/c78ffda3-84fd-4167-b4fa-66c86b8dc2c0">
+![Screenshot 2024-02-13 133308](https://github.com/avengers-p7/Documentation/assets/156057205/c5706782-2cb5-458f-ade0-6fee95cc6d6d)
 
 ***
 
