@@ -12,8 +12,10 @@
 + [Why Shared Library](#Why-Shared-Library)
 + [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
-+ [Setup of Unit Testing](#Setup-of-Unit-Testing)
++ [Setup of Unit Testing](#Setup-of-Unit-Testing-Via-Shared-Library)
++ [HTML Report](#HTML-Report)
 + [Jenkinsfile](#Jenkinsfile)
++ [Shared Library](#Shared-Library)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [Resources and References](#Resources-and-References)
@@ -81,8 +83,7 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 ```
 ***
 ## Conclusion
-
-
+The Jenkins Shared Library streamlines CI/CD processes by allowing teams to share reusable code and logic across various pipelines. It standardizes workflows, minimizes duplication, and ensures consistency. With abstracted complex tasks into reusable functions, it simplifies maintenance and fosters collaboration among teams. By promoting best practices and enabling version control, it enhances the efficiency and reliability of the CI/CD process, accessible even without Jenkins admin access.
 
 ***
 ## Contact Information
