@@ -43,6 +43,11 @@ In Jenkins, a Freestyle job is a type of project configuration that allows users
 
 ***
 
+> [!Note]
+> For more detail on Jenkins please go with this [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
+
+***
+
 # Pre-requisites
 
 **1.Jenkins Installed**
@@ -56,6 +61,11 @@ In Jenkins, a Freestyle job is a type of project configuration that allows users
 # Flow Diagram
 
 <img width="641" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/6c61885a-53be-40f0-8e1e-bc6c693332c5">
+
+***
+
+> [!Note]
+> For more detail on Jenkins Setup, please go with this [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
 ***
 
