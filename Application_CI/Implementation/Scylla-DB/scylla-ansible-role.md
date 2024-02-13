@@ -90,9 +90,7 @@ To use this configuration:
 
 **Setting up Dynamic Inventory with Ansible and AWS**
 
-To learn how to set up dynamic inventory for Ansible with AWS, please refer to the following documentation:
-
-[Setting up Ansible AWS Dynamic Inventory](https://devopscube.com/setup-ansible-aws-dynamic-inventory/)
+To learn how to set up dynamic inventory for Ansible with AWS, please refer to the following documentation: [Blog-Link](https://devopscube.com/setup-ansible-aws-dynamic-inventory/)
 
 **Step 3: Create Ansible Role**
 
@@ -103,9 +101,8 @@ ansible-galaxy init <role_name>
 ```
 ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/6a30d4ee-f83b-476a-828b-af790aa7edff)
 
-![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/f0e94ddf-df89-4d23-a29b-4c8d87606941)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/fa26f123-6015-4b58-8def-cbe69d6dc673)
 
-  
 
 **Step 4: playbook.yml**
 
@@ -124,7 +121,7 @@ In the Ansible role, we manage playbooks in a directory structure.
 
 
 **Step 5: Tasks**
-1. `main.yml`: This main.yml playbook is designed to handle tasks and variables differently based on the operating system family detected by Ansible, providing a way to manage configurations and installations across different types of systems efficiently.
+* `main.yml`: This main.yml playbook is designed to handle tasks and variables differently based on the operating system family detected by Ansible, providing a way to manage configurations and installations across different types of systems efficiently.
 
    
 ### Main Tasks File (`tasks/main.yml`):
@@ -251,7 +248,7 @@ scylla_repo_dest: "/etc/apt/sources.list.d/scylla.list"
 
 **Step 6: Jinja Template**(`scylla.yaml.j2`)
 
-The Jinja template is crucial for defining the behavior and characteristics of the ScyllaDB database cluster. It includes configuration parameters such as `cluster_name`, `num_tokens`, `commitlog_sync`, and more.
+* The Jinja template is crucial for defining the behavior and characteristics of the ScyllaDB database cluster. It includes configuration parameters such as `cluster_name`, `num_tokens`, `commitlog_sync`, and more.
 
 Configuration Parameters
 
@@ -286,6 +283,8 @@ Configuration Parameters
 - **endpoint_snitch:**
   - *Purpose:* Defines how nodes are grouped into data centers and racks for efficient routing and replication.
   - *Configuration:* Set to SimpleSnitch.
+ 
+    
 
 **Step 7: Playbook Execution**
 
@@ -297,7 +296,7 @@ ansible-playbook scylla-ansible-role/tests/test.yml
 ***
 # Evaluate Output
 
-During the evaluation of output, we utilize the register and debug modules to verify whether our Ansible role is functioning correctly or not. In the image below, you will observe the output and status of the node.
+* During the evaluation of output, we utilize the register and debug modules to verify whether our Ansible role is functioning correctly or not. In the image below, you will observe the output and status of the node.
 
 ![image](https://github.com/Parasharam-Desai/working-repo/assets/156056709/2b173a57-f9dc-407c-b8a1-45029ff07d3a)
 
@@ -307,7 +306,7 @@ During the evaluation of output, we utilize the register and debug modules to ve
 ***
 # Conclusion
 
-This guide demonstrates how to automate the setup of ScyllaDB in a development environment using Ansible. By following these steps, you can efficiently provision and configure ScyllaDB on your AWS infrastructure.
+* This guide demonstrates how to automate the setup of ScyllaDB in a development environment using Ansible. By following these steps, you can efficiently provision and configure ScyllaDB on your AWS infrastructure.
 
 ***
 # Contact Information 
