@@ -34,6 +34,11 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 | **Comprehensive Security** |	Offers comprehensive scanning capabilities to identify and address a wide range of vulnerabilities in GoLang dependencies.|
 
 ***
+## Jenkins Architecture
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/85be06bb-b800-4844-b4d3-7389506e1918)
+**Note**: Jenkins follows a master-slave architecture, with the master coordinating tasks and distributing them to one or more slave nodes for execution. Plugins extend its functionality, enabling integration with various tools and systems. Jobs, defined tasks or processes, are executed based on triggers such as code commits or time schedules. The master manages the web interface and schedules builds, while slaves execute build tasks on different environments. Jenkins' architecture facilitates scalable and distributed automation in continuous integration and delivery pipelines.
+
+***
 ## Advantages
 | Advantages |	Explanation |
 |------------|--------------|
