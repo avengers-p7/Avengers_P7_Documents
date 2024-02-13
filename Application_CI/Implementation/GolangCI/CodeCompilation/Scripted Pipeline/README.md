@@ -26,13 +26,13 @@ Scripted Pipelines are a powerful way to define and automate software delivery w
 
 
 #Code Compilation Setup
-**Step-1** Create a New Pipeline Job:
+**Step-1** Create a New Pipeline Job
 
 - Navigate to the Jenkins dashboard and click on New Item.
 - Enter a name for your job (e.g., "Declarative pipeline-Golang-Code Compilation").
 - Select Pipeline and click OK.
 
-**Step-2** Configure Pipeline Script:
+**Step-2** Configure Pipeline Script
 
 - In the job configuration page, scroll down to the Pipeline section.
 - Select Pipeline script from SCM.
@@ -40,15 +40,15 @@ Scripted Pipelines are a powerful way to define and automate software delivery w
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/c9ec8323-1c57-4ad7-b10e-33a9244c8567)
 
-**Step-3** Save the Configuration:
+**Step-3** Save the Configuration
 
 - Click on Save to save the job configuration.
 
-**Step-4** Build the Pipeline:
+**Step-4** Build the Pipeline
 
 - Once the pipeline configuration is saved, you can manually trigger the build by clicking on Build Now.
 
-**Step-5** View Build Console Output:
+**Step-5** View Build Console Output
 
 - After triggering the build, you can view the progress and console output of the build by clicking on the build number in the Jenkins dashboard.
 - The console output will display the steps executed by the pipeline script, including code checkout and compilation.
