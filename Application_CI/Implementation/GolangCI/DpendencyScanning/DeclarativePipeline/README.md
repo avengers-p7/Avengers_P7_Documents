@@ -127,3 +127,4 @@ In conclusion, implementing a Declarative Pipeline for GoLang Dependency Scannin
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
 | Pipeline | https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipeline-syntax-reference-guide/declarative-pipeline |
+| GenericDoc | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
