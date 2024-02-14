@@ -1,4 +1,4 @@
-# Declarative Pipeline-Commit SIgn-off
+# Declarative Pipeline Commit Sign-off
 
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
@@ -26,7 +26,7 @@ In software development, a commit represents a snapshot of changes made to code 
 **Step-1** Create a New Pipeline Job
 
 - Navigate to the Jenkins dashboard and click on New Item.
-- Enter a name for your job (e.g., "Declarative Pipeline-Commit SIgn-off").
+- Enter a name for your job (e.g., "Declarative Pipeline Commit Sign-off").
 - Select Pipeline and click OK.
 
 **Step-2** Configure Pipeline Script
