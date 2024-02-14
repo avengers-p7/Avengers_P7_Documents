@@ -151,47 +151,35 @@ The **Behavior** section defines additional settings and behaviors related to th
 # Jenkinsfile
 
 ```shell
-// Jenkinsfile
-
 pipeline {
     agent any
     
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout source code from version control
-                git 'https://github.com/your/shared-library.git'
-            }
-        }
-        
         stage('Build') {
             steps {
-                // Build steps if required (e.g., compilation)
-                echo 'Building shared library...'
-            }
-        }
-        
-        stage('Test') {
-            steps {
-                // Run unit tests
-                echo 'Running unit tests...'
-                sh './gradlew test' // Example command for running tests using Gradle
-            }
-        }
-        
-        stage('Deploy') {
-            steps {
-                // Deploy the shared library (optional)
-                echo 'Deploying shared library...'
-                sh './gradlew publish' // Example command for publishing library artifacts
+                script {
+                    // Define the DSL for creating a Freestyle job
+                    def jobDSL = '''
+                        job('My-Freestyle-Job') {
+                            description('This is a sample Freestyle job created using a Declarative Pipeline')
+                            steps {
+                                shell('echo "Hello, world!"')
+                            }
+                        }
+                    '''
+                    // Execute the job DSL to create the Freestyle job
+                    jobDsl scriptText: jobDSL
+                }
             }
         }
     }
     
     post {
-        always {
-            // Clean up steps (optional)
-            echo 'Cleaning up...'
+        success {
+            slackSend channel: 'jenkinss', message: 'Job Build successfully'
+        }
+        failure {
+            slackSend channel: 'jenkinss', message: 'Job Failed '
         }
     }
 }
