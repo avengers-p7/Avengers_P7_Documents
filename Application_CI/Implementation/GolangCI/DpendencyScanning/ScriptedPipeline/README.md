@@ -73,7 +73,25 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 
 ***
 ## Jenkins
-  * [**Jenkinsfie**](https://github.com/OT-MICROSERVICES/employee-api.git)
+    node {
+    // Define the stages
+    stage('Checkout') {
+        // Checkout the employee-api repository
+        git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
+    }
+    
+    stage('Publish Dependency Check Report') {
+        // Publish Dependency Check report
+        publishHTML([
+            allowMissing: false,
+            alwaysLinkToLastBuild: false,
+            keepAll: true,
+            reportDir: '',
+            reportFiles: 'dep-check.html',
+            reportName: 'Dependency Check Report'
+        ])
+    }
+}
 
    
 ***  
