@@ -210,45 +210,17 @@ build {
 
 ```shell
 node {
-    // Define environment variables
-    withAWS(credentials: 'aws-credentials') {
-        // Set PACKER_LOG environment variable
-        env.PACKER_LOG = '1'
-
-        // Define stages
-        stage('Initialize Packer') {
-            // Execute steps within the stage
-            try {
-                // Change directory and initialize Packer
-                dir('/home/shreya') {
-                    sh '/usr/bin/packer init .'
-                }
-            } catch (Exception e) {
-                // Handle errors
-                echo "Failed to initialize Packer: ${e.message}"
-                currentBuild.result = 'FAILURE'
-                error("Failed to initialize Packer: ${e.message}")
-            }
-        }
-
+    withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'credentials', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
         stage('Build AMI') {
-            // Execute steps within the stage
             try {
-                // Build AMI using Packer
-                sh "/usr/bin/packer build -var AWS_ACCESS_KEY_ID=${env.AWS_ACCESS_KEY_ID} -var AWS_SECRET_ACCESS_KEY=${env.AWS_SECRET_ACCESS_KEY} /home/shreya/ami.pkr.hcl"
-
-                // Set build result to success
-                currentBuild.result = 'SUCCESS'
+                sh '/usr/bin/packer init /home/shreya/ami.pkr.hcl'
+                sh '/usr/bin/packer build /home/shreya/ami.pkr.hcl'
             } catch (Exception e) {
-                // Handle errors
-                echo "AMI creation failed: ${e.message}"
+                echo "Error occurred during Packer build: ${e.message}"
                 currentBuild.result = 'FAILURE'
-                error("AMI creation failed: ${e.message}")
+                error(e.message)
             }
         }
-
-        // Post-build actions
-        echo 'Pipeline completed.'
     }
 }
 
