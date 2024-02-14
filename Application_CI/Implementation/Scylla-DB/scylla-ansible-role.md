@@ -1,5 +1,8 @@
 # Ansible Role to setup Scylla-DB (Ubuntu)
 
+![logo-scylla-vertical-RGB](https://github.com/avengers-p7/Documentation/assets/156056709/e765857b-fd7e-4478-b59c-1545e0afd131)
+
+
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 13-02-2024 | 13-02-2024 | V1 |
