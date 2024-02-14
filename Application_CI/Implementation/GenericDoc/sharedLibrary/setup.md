@@ -164,7 +164,7 @@ The **Behavior** section defines additional settings and behaviors related to th
 
 ## Step 4 - Result
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/8fcc37f0-1187-41c3-bccd-ca9d6c75bcef)
+<img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/d9835a9a-c48a-428a-976b-e32c32f8afbe">
 
 ***
 
