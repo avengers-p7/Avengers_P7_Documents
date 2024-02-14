@@ -1,5 +1,8 @@
 # Cloud Infra Design Dev
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/a652597b-3630-4257-8a65-62915eb62a74)
+
+
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 29-01-2024     | 29-01-2024       | V1                   |
