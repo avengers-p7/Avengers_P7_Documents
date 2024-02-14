@@ -9,9 +9,10 @@
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
 3. [Infrastructure Diagram](#infrastructure-diagram)
-4. [Description](#description) 
-5. [Contact Information](#contact-information)
-6. [Resources and References](#resources-and-references)
+4. [Description](#description)
+5. [Cloud Architecture Best Practices](Cloud-Architecture-Best-Practices)
+6. [Contact Information](#contact-information)
+7. [Resources and References](#resources-and-references)
 
 ***
 # Introduction
@@ -138,6 +139,17 @@ Require Infra
 | 130         | Custom TCP(Scylla)| TCP      | 9042       | 10.0.1.32/28 | Allow      |
 | 140         | Custom TCP (PostgreSQL) | TCP| 5432    | 10.0.1.32/28 | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
+
+# Cloud Architecture Best Practices
+
+| Aspect                 | Description                                                                                                                                                                                                                                                              |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Operational Excellence | Involves monitoring systems and continuously improving the cloud architecture and internal processes. Implement incremental changes, document procedures, and focus on troubleshooting.                                                                                   |
+| Cost Optimization      | A major concern for businesses moving to the cloud. Incorporate cloud cost optimization strategies to reduce overall spending. Analyze expenses, drop components with high operational costs, and use automation for cost-efficient alternatives.                     |
+| Performance Efficiency | Design cloud architecture with the right service provider to improve performance. Focus on structuring resources, selecting appropriate sizes/types, and utilizing automation and AI for optimization.                                                                     |
+| Reliability            | Ensure workloads perform as expected and recover quickly from outages. Build automated recovery processes, use autoscaling to avoid under/overprovisioning, and establish change management processes for better resource monitoring and demand management. |
+| Security               | Maintain data integrity, detect security breaches, and manage user permissions. Establish secure procedures and continuously monitor for unauthorized access through automated notifications.                                                                                |
+| Sustainability         | Take proactive measures to minimize environmental impact. Maximize resource utilization, decrease costs, and establish responsible models for sustainability. Harden security for all applications and instances while continuously monitoring for breaches.            |
 
 
 
