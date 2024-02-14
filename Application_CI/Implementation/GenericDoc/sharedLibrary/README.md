@@ -16,17 +16,17 @@
 3. [What is Shared Library](#What-is-Shared-Library)
 4. [Why Shared Library](#Why-Shared-Library)
 5. [Directory Structure](#Directory-Structure)
-       - [src File Structure](#src-File-Structure)
-       -  [vars File Structure](#vars-File-Structure)
-       -  [resources File Structure](#resources-File-Structure)
-6. [Flow Diagram](#Flow-Diagram)
-7. [Integration With Jenkins Using Jenkinsfile](#Integration-With-Jenkins-Using-Jenkinsfile)
-8. [Advantages](#Advantages)
-9. [Disadvantages](#Disadvantages)
-10. [Scenarios](#Scenarios)
-11. [Conclusion](#Conclusion)
-12. [Contact Information](#Contact-Information)
-13. [Reference](#Reference)
+6. [src File Structure](#src-File-Structure)
+7. [vars File Structure](#vars-File-Structure)
+8. [resources File Structure](#resources-File-Structure)
+9. [Flow Diagram](#Flow-Diagram)
+10. [Integration With Jenkins Using Jenkinsfile](#Integration-With-Jenkins-Using-Jenkinsfile)
+11. [Advantages](#Advantages)
+12. [Disadvantages](#Disadvantages)
+13. [Scenarios](#Scenarios)
+14. [Conclusion](#Conclusion)
+15. [Contact Information](#Contact-Information)
+16. [Reference](#Reference)
    
 ***
 
@@ -69,7 +69,7 @@ A shared library, also known as a dynamic link library (DLL) on Windows or a sha
 
 ***
 
-## src File Structure
+# src File Structure
 
 **Example: Let's assume we are creating a shared library for performing string manipulation operations.**
 
@@ -93,7 +93,7 @@ class StringUtils {
 
 ***
 
-## vars File Structure
+# vars File Structure
 
 **Example: We'll define a global function to print a greeting message.**
 
@@ -109,7 +109,7 @@ def call(String name) {
 
 ***
 
-## resources File Structure
+# resources File Structure
 
 **Example: Let's include a configuration file for defining default settings.**
 
