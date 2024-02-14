@@ -1,7 +1,5 @@
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/e2f95a51-4bce-4a81-8115-54eb5b319d1d)
-
-
 ## Declarative Pipeline GoLang Dependency Scanning
+![download](https://github.com/avengers-p7/Documentation/assets/156056570/a292f2dd-4795-4566-bfb6-014b634f76bf)
 ***
 | Author | Created on | Last updated by | Last edited on |
 |--------|------------|-----------------|----------------|
@@ -12,7 +10,7 @@
 + [Introduction](#Introduction)
 + [Why Declarative Pipeline](#Why-Declarative-Pipeline)
 + [Features](#Features)
-+ [Flow Diagram](#Flow-Diagram)
++ [Jenkins Architecture](#JenkinsArchitecture)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Jenkinsfile](#Jenkinsfile)
