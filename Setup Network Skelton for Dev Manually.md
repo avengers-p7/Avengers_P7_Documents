@@ -204,15 +204,47 @@ click on Create NAT Gateway
 
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/350a319c-5e82-4652-a56d-e6c4d09b7a38)
 
 
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/e1c2efb2-8f60-4aea-ad94-de1ff2b0b120)
+
+
+
+# Step 09. Add Private Subnet in Private Route Table
+
+1. Edit the Subnet Association.
+
+2. Select the PrivateSubnet checkbox.
+
+3. Click on the Save button.
 
 
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/f1bce423-3f23-4961-a2f7-b202325d5438)
 
+
+
+# Step 10. Launch EC2 in this VPC & Validate your Connection
+
+
+
+
+Connect with your MAC or Linux Machine with the below command.
+
+
+
+```chmod 400 file_name.pem
+ssh - i file_name.pem ec2-user@your_pubilc_vm_ip```
+
+
+
+
+```chmod 400 file_name.pem
+ssh - i file_name.pem ec2-user@your_private_vm_ip```
 
 
 
