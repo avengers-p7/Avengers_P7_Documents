@@ -83,19 +83,45 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 # Flow Diagram
 
-<img width="605" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/06676353-bf1f-47e0-89a3-a701cede6158">
+<img width="590" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/8c52bd13-a66c-4b93-88be-697cc6991e97">
 
 ***
 
 # AMI Setup
 
-**Tool Installation**
+## Tool Installation
 
 <img width="407" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/5dee9dff-af57-4556-96bf-8a2c1b3012d4">
 
 ***
 
-**Template File Creation**
+## Variable File Creation
+
+**variables.auto.pkrvars.hcl**
+
+```shell
+ami_name = "my-ami"
+instance_type = "t2.micro"
+region = "us-east-1"
+source_ami = "ami-0faac859c9205201b"
+ssh_username = "ubuntu"
+
+```
+
+**variables.pkr.hcl**
+
+```shell
+variable "ami_name" {}
+variable "instance_type" {}
+variable "region" {}
+variable "source_ami" {}
+variable "ssh_username" {}
+
+```
+
+***
+
+## Template File Creation
 
 ```shell
 packer {
@@ -122,13 +148,13 @@ build {
 ```
 ***
 
-**IAM User Creation**
+## IAM User Creation
 
 <img width="688" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/74abfc50-2637-4cf7-8c3c-b91e87f4f5a7">
 
 ***
 
-**Policy Creation For IAM User**
+## Policy Creation For IAM User
 
 ```shell
 {
@@ -178,19 +204,19 @@ build {
 ```
 ***
 
-**Global AWS Configuration**
+## Global AWS Configuration
 
 <img width="554" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/2642d989-3ec9-4279-a949-6b565cfec4db">
 
 ***
 
-**Path Of Jenkinsfile**
+## Path Of Jenkinsfile
 
 <img width="629" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4f1446c2-a4fe-4f20-ada5-000f1178389a">
 
 ***
 
-**Console Output**
+## Console Output
 
 <img width="948" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/e9bb9411-5761-4e9c-ade1-e7f5ce025abe">
 
@@ -200,7 +226,7 @@ build {
 
 ***
 
-**Confirmation Of AMI Creation**
+## Confirmation Of AMI Creation
 
 <img width="817" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/bb2c4eed-af86-41ab-a8a7-a52ebaa3bc25">
 
@@ -210,16 +236,16 @@ build {
 
 ```shell
 node {
-    withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'credentials', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
-        stage('Build AMI') {
-            try {
-                sh '/usr/bin/packer init /home/shreya/ami.pkr.hcl'
-                sh '/usr/bin/packer build /home/shreya/ami.pkr.hcl'
-            } catch (Exception e) {
-                echo "Error occurred during Packer build: ${e.message}"
-                currentBuild.result = 'FAILURE'
-                error(e.message)
-            }
+    // Define AWS credentials
+    withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'credentials', accessKeyVariable: 'AWS_ACCESS_KEY_ID', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
+        
+        // Change to the directory containing the Packer configuration
+        dir('/home/shreya/') {
+            // Initialize Packer (if necessary)
+            sh '/usr/bin/packer init .'
+            
+            // Build the AMI
+            sh '/usr/bin/packer build .'
         }
     }
 }
