@@ -307,11 +307,13 @@ The ScyllaDB Manual Setup Guide provides a comprehensive walkthrough for install
 
 # References
 
-| Source                                                                                     | Description                                |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| [Documentation Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Software-Template) | Format inspiration for the document obtained from this repository. |
-| [ScyllaDB Installation Guide](https://opensource.docs.scylladb.com/stable/getting-started/install-scylla/install-on-linux.html) | Comprehensive guide for installing ScyllaDB on Linux. |
-| [ScyllaDB Configuration Guide](https://www.scylladb.com/download/?platform=ubuntu-22.04&version=scylla-5.2#open-source) | Step-by-step instructions for configuring ScyllaDB. |
-| [ScyllaDB Cluster Guide](https://opensource.docs.scylladb.com/stable/operating-scylla/procedures/cluster-management/create-cluster.html) | Step-by-step Manual Cluster Guide. |
+| Description                                | Source                                                                                     |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| Format inspiration for the document obtained from this repository. | [Documentation Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Software-Template) |
+| Comprehensive guide for installing ScyllaDB on Linux. | [ScyllaDB Installation Guide](https://opensource.docs.scylladb.com/stable/getting-started/install-scylla/install-on-linux.html) |
+| Step-by-step instructions for configuring ScyllaDB. | [ScyllaDB Configuration Guide](https://www.scylladb.com/download/?platform=ubuntu-22.04&version=scylla-5.2#open-source) |
+| Step-by-step Manual Cluster Guide. | [ScyllaDB Cluster Guide](https://opensource.docs.scylladb.com/stable/operating-scylla/procedures/cluster-management/create-cluster.html) |
+| ScyllaDB Users | [Scylla-DB-Users](https://discovery.hgdata.com/product/scylla) |
 
-||[](https://discovery.hgdata.com/product/scylla)|
+
+
