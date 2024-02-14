@@ -36,6 +36,16 @@ In modern software development, managing dependencies is crucial for code stabil
 | **Compliance Requirements**| Supports compliance needs by offering an auditable trail of dependency scanning activities, facilitating regulatory compliance and industry standards adherence.|
 
 ***
+## Pre-requisites
+
+| Tool   | Description                          | 
+|--------|--------------------------------------|
+| OWASP ZAP | A tool for bug analysis in Python | 
+| Jenkins | CICD Tool                          |  
+| JAVA    |
+
+***
+
 ## Features
 | Feature |	Description |
 |---------|-------------|
