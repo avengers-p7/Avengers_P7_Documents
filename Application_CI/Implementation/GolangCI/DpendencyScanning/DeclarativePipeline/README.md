@@ -64,6 +64,35 @@ In modern software development, managing dependencies is crucial for code stabil
 | Declarative pipelines promote improved readability and maintainability due to their structured syntax and predefined stages.| Declarative pipelines may result in bloated configuration files for complex pipelines, making them harder to manage and understand.|
 
 ***
+## Jenkinsfile
+    pipeline {
+    agent any
+    
+    
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
+            }
+        }
+        
+        
+        
+        stage('Publish Dependency Check Report') {
+            steps {
+                publishHTML(target: [
+                    allowMissing: false,
+                    alwaysLinkToLastBuild: false,
+                    keepAll: true,
+                    reportDir: '',
+                    reportFiles: 'dep-check.html',
+                    reportName: 'Dependency Check Report'
+                ])
+            }
+        }
+    }
+}
 ## Create new pipeline task
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/e06ca324-4a6f-45d2-84b8-a2856a089662)
 
