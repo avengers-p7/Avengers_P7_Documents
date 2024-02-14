@@ -21,7 +21,7 @@
 8. [resources File Structure](#resources-File-Structure)
 9. [Integration With Jenkins Using Jenkinsfile](#Integration-With-Jenkins-Using-Jenkinsfile)
 10. [Jenkinsfile Structure](#Jenkinsfile-Structure)
-11. [Global Pipeline Library Configuration](#Global-Pipeline-Library-Configuration)
+11. [Global Pipeline Libraries Configuration](#Global-Pipeline-Libraries-Configuration)
 12. [Advantages](#Advantages)
 13. [Disadvantages](#Disadvantages)
 14. [Scenarios](#Scenarios)
@@ -199,9 +199,9 @@ pipeline {
 
 ***
 
-# Global Pipeline Library Configuration
+# Global Pipeline Libraries Configuration
 
-The **Global Pipeline Library** configuration refers to the setup and configuration of a shared library in Jenkins that can be used across multiple pipelines or projects. This configuration typically involves defining the location of the shared library repository, specifying version control settings, and configuring how the library is loaded and utilized in Jenkins pipelines.
+The **Global Pipeline Libraries** configuration refers to the setup and configuration of a shared library in Jenkins that can be used across multiple pipelines or projects. This configuration typically involves defining the location of the shared library repository, specifying version control settings, and configuring how the library is loaded and utilized in Jenkins pipelines.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/db00406b-de6d-4141-8915-a97225245704)
 
