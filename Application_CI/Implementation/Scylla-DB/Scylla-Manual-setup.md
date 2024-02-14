@@ -1,5 +1,8 @@
 # Manual Setup of ScyllaDb
 
+![logo-scylla-vertical-RGB](https://github.com/avengers-p7/Documentation/assets/156056709/a8f9319d-2109-4d3a-b8c9-07fd1f08460b)
+
+
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 13-02-2024 | 13-02-2024 | V1 |
