@@ -56,7 +56,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 * Select Pipeline script from SCM.
 * Give required repo url and enter your credentials.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056570/09e9bce8-3572-4bc9-bc56-5d75419bd6c9)
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/f13a04bf-f6e4-4aa4-80a1-7005d9a5a383)
 
 ### Build the Pipeline and View Build Console Output:
 
