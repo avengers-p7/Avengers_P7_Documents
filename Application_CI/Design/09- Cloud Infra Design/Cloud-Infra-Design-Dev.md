@@ -172,3 +172,4 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 | Autoscaling with NGINX on AWS Blog| [Link](https://www.nginx.com/blog/announcing-new-autoscaling-support-with-nginx-plus-on-aws-cloud-quick-start/) |
 | Route53           | [Link](https://alwinmathewabraham.wordpress.com/2017/08/20/lab-10-configuring-dns-with-route-53-url/) |
 | Cloud Infra 30k feet          | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/09-%20Cloud%20Infra%20Design/Cloud-Infra-Design-30K-Feet.md) |
+|Cloud Architecture Best Practices| [Link](https://www.nops.io/blog/cloud-architecture-best-practices/)|
