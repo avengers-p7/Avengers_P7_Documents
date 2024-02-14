@@ -74,6 +74,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Jenkinsfile
+```shell
 pipeline {
     agent any
     
@@ -127,7 +128,7 @@ pipeline {
         }
     }
 }
-
+```
 
 ***
 ## Conclusion
