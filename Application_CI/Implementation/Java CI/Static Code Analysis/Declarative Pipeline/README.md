@@ -1,4 +1,5 @@
 # Java Static Code Analysis(Declarative Pipeline)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/82b47df9-4d1d-4bc7-ae5c-56e44f65beb5)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
@@ -13,8 +14,10 @@
 4. [Flow Diagram](#Flow-Diagram)
 5. [Runtime Prerequisites](#Runtime-Prerequisites)
 6. [Pipeline Setup](#Pipeline-Setup)
-7. [Contact Information](#Contact-Information)
-8. [References](#References)
+7. [Results](#results)
+8. [Pipeline](#pipeline)
+9. [Contact Information](#Contact-Information)
+10. [References](#References)
 ***
 
 ## Introduction 
@@ -54,7 +57,7 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 | **Maven Compiler Plugin** | For springboot project compilation |
 ***
 ## Flow Diagram
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/094ce1da-2714-4a57-86f0-97152fb2f8b6)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/40a61172-8415-45b7-8c14-e9b947b7e968)
 ***
 ## Pipeline Setup
 1. **Fork the Github Repo**
@@ -97,43 +100,56 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/3b8bd90c-bc4f-47bd-8aea-380275a4fbf6)
 
 5. **Now Build your Pipeline**
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/53deb6b1-a9a1-4e5b-83da-c64a93becfb0)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/ef7acca1-6e0d-4fc3-bfff-11b71a420dc3)
 ***
-## Console Output
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/cbd74086-602f-45af-8cb8-61e2ec2ba2ae)
+## Results
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/9fb6a3d9-3e72-46b4-97ef-07e318160d9b)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/33b3f5e3-cc47-4035-b25f-1016eea09c97)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/a05f8611-6a83-48fa-a98a-61f2c6b2c6f6)
+
 ***
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
 
 ```shell
 pipeline {
     agent any
+
     tools {
-      maven 'mvn'
+       maven 'mvn'
     }
+
     stages {
-        stage('Checkout GIT') {
+        stage("Git Checkout") {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']])
-                sh 'ls $WORKSPACE/'
+                script {
+                    git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/salary-api.git'
+                }
             }
         }
-        stage('Starting Code Compilation ') {
-            steps {
-                sh 'echo "Starting Java Code Compilation.........."'
+        stage ('compile'){
+            steps{
                 sh 'mvn clean compile'
+                }
+        }
+
+        stage('Static Code Analysis') {
+            steps {
+                withSonarQubeEnv(installationName: 'sq1') { 
+                    sh './mvnw org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar'
+                }
             }
         }
     }
-post { 
+    post {
+        always {
+        // One or more steps need to be included within each condition's block.
+        cleanWs cleanWhenSuccess: false
+       }
         success { 
-            sh 'ls $WORKSPACE/'
-            echo 'Compiled Successfully !'
-            sh 'tree $WORKSPACE/target/'
+            echo 'Build Successfully !'
         }
         failure { 
-            echo 'Compilation Failed !'
+            echo 'Build Failed !'
         }
     }
 }
@@ -152,8 +168,10 @@ post {
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
+| Sonarqube Intergration | https://www.youtube.com/watch?v=KsTMy0920go&t=342s |
 | Clean Workspace | https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/#finishing-up |
 | Pipeline (Generic Doc) | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
 | Create Pipeline (Generic Doc)| https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md |
 | Pipeine Syntax | https://www.jenkins.io/doc/book/pipeline/#pipeline-syntax-overview |
 | Pipeline Concepts | https://www.jenkins.io/doc/book/pipeline/#pipeline-concepts |
+
