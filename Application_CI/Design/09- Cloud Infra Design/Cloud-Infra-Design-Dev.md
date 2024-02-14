@@ -28,11 +28,13 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 ***
 # Infrastructure Diagram
 
-Ideal Infra
+**Ideal Infra**
+
 ![Dev-infra - Page 1 (1)](https://github.com/avengers-p7/Documentation/assets/156056709/36286561-1eb7-4432-aaff-3aebb4722db8)
 
 
-Require Infra
+**Require Infra**
+
 ![Dev-infra - Page 1](https://github.com/avengers-p7/Documentation/assets/156056709/1cf8ddec-db57-4996-86d7-f8b541b3e3f8)
 
 
