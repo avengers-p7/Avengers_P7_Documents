@@ -16,10 +16,11 @@
 3. [Generate Personal Access Token(PAT)](#generate-personal-access-tokenpat)
 4. [Add Credentials in Jenkins](#Add-Credentials-in-Jenkins)
 5. [Global Pipeline Libraries Configuration](#Global-Pipeline-Libraries-Configuration)
-6. [Create Pipeline using Jenkinsfile](#Create-Pipeline-using-Jenkinsfile)
-7. [Conclusion](#Conclusion)
-8. [Contact Information](#Contact-Information)
-9. [Reference](#Reference)
+6. [Jenkinsfile](#Jenkinsfile)
+7. [Create Pipeline using Jenkinsfile](#Create-Pipeline-using-Jenkinsfile)
+8. [Conclusion](#Conclusion)
+9. [Contact Information](#Contact-Information)
+10. [Reference](#Reference)
    
 ***
 
@@ -142,6 +143,67 @@ The global pipeline library configuration includes specifying the repository whe
 The **Behavior** section defines additional settings and behaviors related to the usage and behavior of the shared library within Jenkins pipelines.Choose **Filter by name (with wildcards)** for this and you can write the branch name **main** (in my case) in this section, rest of the configurations will be as it is.
 
 <img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/71897f4e-0ab3-4248-af83-d78557c7b535">
+
+***
+
+# Jenkinsfile
+
+# Jenkinsfile Structure
+
+```shell
+// Jenkinsfile
+
+pipeline {
+    agent any
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout source code from version control
+                git 'https://github.com/your/shared-library.git'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                // Build steps if required (e.g., compilation)
+                echo 'Building shared library...'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                // Run unit tests
+                echo 'Running unit tests...'
+                sh './gradlew test' // Example command for running tests using Gradle
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                // Deploy the shared library (optional)
+                echo 'Deploying shared library...'
+                sh './gradlew publish' // Example command for publishing library artifacts
+            }
+        }
+    }
+    
+    post {
+        always {
+            // Clean up steps (optional)
+            echo 'Cleaning up...'
+        }
+    }
+}
+```
+| **Steps** |
+| --------- |
+| **We define a pipeline with stages for checkout, build, test, and deploy.** |
+| **In the Checkout stage, we fetch the source code of the shared library from the version control system.** |
+| **In the Build stage, you can include any necessary build steps, such as compilation or packaging the library.** |
+| **The Test stage runs unit tests to ensure the correctness of the shared library.** |
+| **In the Deploy stage, you can deploy the shared library to a repository or artifact storage.** |
+| **Finally, in the post section, you can include any cleanup steps that should be executed after the pipeline completes, such as cleaning up temporary files.** |
 
 ***
 
