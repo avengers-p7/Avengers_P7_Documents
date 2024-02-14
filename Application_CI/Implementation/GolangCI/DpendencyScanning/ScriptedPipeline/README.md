@@ -12,7 +12,7 @@
 + [Introduction](#Introduction)
 + [Why Scripted Pipeline](#Why-Scripted-Pipeline)
 + [Features](#Features)
-+ [Flow Diagram](#Flow-Diagram)
++ [Jenkins Architecture](#JenkinsArchitecture)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Jenkinsfile](#Jenkinsfile)
@@ -25,6 +25,14 @@
 ## Introduction
 This document outlines the integration of GoLang dependency scanning into a Jenkins scripted pipeline, crucial for identifying vulnerabilities. By automating this process, we enhance the security of our GoLang projects within CI/CD workflows. We'll explore using tools like GoSec and Trivy, discussing their benefits and how to implement them effectively. Let's streamline our security practices and safeguard our code with this scripted pipeline solution.
 
+***
+## Pre-requisites
+
+| Tool   | Description                          | 
+|--------|--------------------------------------|
+| OWASP ZAP | A tool for bug analysis in Python | 
+| Jenkins | CICD Tool                          |  
+| JAVA   |
 ***
 ## Why Scripted Pipeline
 | Benefits | Explanation |
