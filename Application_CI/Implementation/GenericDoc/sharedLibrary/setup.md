@@ -18,7 +18,7 @@
 5. [Global Pipeline Library Configuration](#Global-Pipeline-Library-Configuration)
 6. [Create Pipeline using Jenkinsfile](#Create-Pipeline-using-Jenkinsfile)
 7. [Contact Information](#Contact-Information)
-8. [References](#References)
+8. [Reference](#Reference)
    
 ***
 
