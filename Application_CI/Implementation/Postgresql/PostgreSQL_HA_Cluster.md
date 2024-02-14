@@ -1,10 +1,11 @@
 
 # PostgreSQL Cluster Setup
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/df98a36c-e308-46ba-8837-28fe0319021d)
 
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
-| Vikram Bisht     |  10 Feb 2024  |     v1     | Vikram Bisht    | 13 Feb 2024    |
+| Vikram Bisht     |  11 Feb 2024  |     v1     | Vikram Bisht    | 12 Feb 2024    |
 
 ***
 
@@ -27,12 +28,10 @@ Setting up a High Availability (HA) cluster for PostgreSQL typically involves co
 
 # Pre-requisites
 
-|  Pre-requisites	                     |        	Description         |
+|  Pre-requisites	          |        	Description             |
 | ------------              | --------------------------------|
-| Ansible                   |  Ansible must be installed on the control machine from which you plan to run the playbook. If Ansible is not installed, you can install it using this [link](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)       |
-| SSH Access to Target Servers                   | Ensure that you have SSH access to the target servers where PostgreSQL will be installed.  |
-| Ansible                   | Here we used version 2.15. |
-| AWS                       | AWS account for instance creation  |
+| Multiple host             | T0 Setup Cluster                |
+| PostgreSQL                | PostgreSQL needs to install in all the hosts  |
 
 # Port Numbers
 
