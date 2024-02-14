@@ -1,8 +1,5 @@
 # Cloud Infra Design Dev
 
-![logo-scylla-vertical-RGB](https://github.com/avengers-p7/Documentation/assets/156056709/c142e0db-9beb-41af-a4ff-e61efeee6fe5)
-
-
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
 | -------------------- | -------------- | ---------------- | -------------------- |
 | **Parasharam Desai** | 29-01-2024     | 29-01-2024       | V1                   |
