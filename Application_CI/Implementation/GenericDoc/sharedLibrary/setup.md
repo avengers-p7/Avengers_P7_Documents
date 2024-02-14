@@ -12,7 +12,7 @@
 # Table  of Contents
 
 1. [Introduction](#Introduction)
-2. [Prerequisites](#Prerequisites)
+2. [Pre-requisites](#Pre-requisites)
 3. [Generate Personal Access Token(PAT)](#generate-personal-access-tokenpat)
 4. [Add Credentials in Jenkins](#Add-Credentials-in-Jenkins)
 5. [Global Pipeline Libraries Configuration](#Global-Pipeline-Libraries-Configuration)
@@ -30,7 +30,7 @@ Shared libraries are vital components in software development, offering reusable
 
 ***
 
-# Prerequisites
+# Pre-requisites
 
 | Tool | Description |
 | ---- | ----------- |
