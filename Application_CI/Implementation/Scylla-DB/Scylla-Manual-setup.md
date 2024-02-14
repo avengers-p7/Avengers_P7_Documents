@@ -22,6 +22,7 @@
     - [Prerequisites](#prerequisites)
     - [Node Configuration](#node-configuration)
     - [Cluster Initialization](#cluster-initialization)
+    - [Additional Information](#Additional-Information)
 7. [Conclusion](#conclusion)
 8. [References](#references)
 
@@ -288,6 +289,17 @@ Verify that the nodes have been successfully added to the cluster by using the n
 
 This comprehensive guide provides step-by-step instructions for setting up a ScyllaDB cluster in a single data center, ensuring a smooth and efficient deployment process.
 
+# Additional Information
+
+| ScyllaDB Users |
+|----------------|
+| - Comcast      |
+| - Discord      |
+| - Disney+      |
+| - Crypto.com   |
+| - OpenSea      |
+| - Starbucks    |
+| - Zillow       |
 
 # Conclusion
 
@@ -301,3 +313,5 @@ The ScyllaDB Manual Setup Guide provides a comprehensive walkthrough for install
 | [ScyllaDB Installation Guide](https://opensource.docs.scylladb.com/stable/getting-started/install-scylla/install-on-linux.html) | Comprehensive guide for installing ScyllaDB on Linux. |
 | [ScyllaDB Configuration Guide](https://www.scylladb.com/download/?platform=ubuntu-22.04&version=scylla-5.2#open-source) | Step-by-step instructions for configuring ScyllaDB. |
 | [ScyllaDB Cluster Guide](https://opensource.docs.scylladb.com/stable/operating-scylla/procedures/cluster-management/create-cluster.html) | Step-by-step Manual Cluster Guide. |
+
+||[](https://discovery.hgdata.com/product/scylla)|
