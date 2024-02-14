@@ -7,7 +7,7 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
+2. [Pre-requisites](#pre-requisites)
 3. [Infrastructure Diagram](#infrastructure-diagram)
 4. [Description](#description) 
 5. [Contact Information](#contact-information)
@@ -19,7 +19,7 @@
 The Cloud Infra Design Dev documentation provides an in-depth overview of the development infrastructure hosted on AWS for the OT-Microservices project. This modern and modular architecture prioritizes scalability and efficiency, utilizing AWS services to establish a reliable, scalable, and high-performance foundation.
 
 ***
-# Prerequisites
+# Pre-requisites
 | Tool                  | Description                                  |
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.     |
