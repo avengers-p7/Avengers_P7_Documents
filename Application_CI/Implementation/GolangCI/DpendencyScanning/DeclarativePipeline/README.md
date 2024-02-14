@@ -22,7 +22,7 @@
 ## Introduction
 In modern software development, managing dependencies is crucial for code stability and security. This guide explores implementing a Jenkins Declarative Pipeline tailored for GoLang projects, automating dependency scanning to ensure robustness and reliability. By integrating this pipeline, teams can efficiently identify and mitigate dependency-related issues, enhancing code quality and project security seamlessly within their CI/CD workflow.
 ***
-## Why
+## Why Declarative Pipeline
 | Feature	| Description |
 |---------|-------------|
 | **Automated Dependency Management** | Automates the process of scanning project dependencies within GoLang projects, eliminating the need for manual intervention and reducing the likelihood of errors.|
