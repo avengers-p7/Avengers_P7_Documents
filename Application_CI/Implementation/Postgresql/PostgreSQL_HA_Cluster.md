@@ -14,7 +14,7 @@
 + [Introduction](#Introduction)
 + [Pre-requisites](#Pre-requisites)
 + [Port-Numbers](#Port-Numbers)
-+ [Steps](#Steps)
++ [Steps-to-setup-Cluster](#Steps-to-setup-Cluster)
 + [Output Verification](#output-Verification)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
@@ -31,7 +31,7 @@ Setting up a High Availability (HA) cluster for PostgreSQL typically involves co
 |  Pre-requisites	          |        	Description             |
 | ------------              | --------------------------------|
 | Multiple host             | T0 Setup Cluster                |
-| PostgreSQL                | PostgreSQL needs to install in all the hosts  |
+| PostgreSQL                | PostgreSQL needs to install in all the hosts. Here we have installed version 16  |
 
 # Port Numbers
 
@@ -41,142 +41,95 @@ Setting up a High Availability (HA) cluster for PostgreSQL typically involves co
 | 5432             | PostdreSQL    |
 
 
-# Steps 
-* Before going further check the link for Ansible Role: https://github.com/vikram445/PostgreSQL.git
+# Steps to setup Cluster
 
-**Step 1: Dynamic Inventory Setup** 
+Below are the steps to setup postgreSQL cluster
 
-```yaml
- [defaults]
-# some basic default values...
-inventory               =       /home/ubuntu/Postgresql_tool/aws_ec2.yaml
-private_key_file        =       /home/ubuntu/Downloads/PostgreSQL.pem
-remote_user             =       ubuntu
-host_key_checking       =       False
-[inventory]
-enable_plugins          =       aws_ec2
+**Step 1: Create three AWS instances:** 
+
+Create three AWS instances: You can use EC2 instances with a suitable instance type based on your expected workload. you can refer this [Link](https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html) to create AWS instances. 
+
+**Step 2: Upgrade all nodes** 
+
+```
+sudo apt update
+sudo apt upgrade
 ```
 
-> [!NOTE]
->Ensure that for dynamic inventory you have the necessary AWS credentials configured in AWS CLI and attach an IAM role on the master node.
+**Step 3: Install PostgreSQL on all instances:**
 
-**Step 2:  AWS EC2 Inventory**
+```
+sudo apt-get install postgresql
+```
+**Step 4: Configure PostgreSQL on all instances:**
+* Edit the PostgreSQL configuration file
 
-```yaml
----
-plugin: aws_ec2
-regions:
-  - ap-northeast-1
+```
+  sudo nano /etc/postgresql/[POSTGRESQL_VERSION]/main/postgresql.conf
+```
+Uncomment or edit the following lines in the postgresql.conf file:
+```
+listen_addresses = '*'
+wal_level = replica
+max_wal_senders = 3
+wal_keep_size = 1GB
+```
+These settings configure PostgreSQL to listen on all available network interfaces, enable replication, set the maximum number of replication connections, and set the amount of storage to use for storing WAL (write-ahead logging) logs.
 
-groups: 
-  ubuntu: "'ubuntu' in tags.OS"
+* Edit the PostgreSQL authentication file:
+  
+After saving the postgresql.conf file, you need to edit another file in the same directory:
+
+```
+sudo nano /etc/postgresql/[POSTGRESQL_VERSION]/main/pg_hba.conf
+```
+POSTGRESQL_VERSION refers to your PostgreSQL version.
+
+* Add the following line to the pg_hba.conf file:
+
+```
+host replication replicator [SECOND_SERVER_IP]/32 trust
+```
+Replace SECOND_SERVER_IP with the IP address of the second server.
+This setting allows replication connections from the second server with the replicator role.
+
+* Restart PostgreSQL:
+```
+sudo systemctl restart postgresql
+```
+* Grant permissions to a replication role:
+```
+  sudo -u postgres psql
+  CREATE USER replicator REPLICATION LOGIN CONNECTION LIMIT 3 ENCRYPTED PASSWORD 'your_password';
+  \q
 ```
 
-1. `plugin: aws_ec2`: Specifies the use of the aws_ec2 plugin as the dynamic inventory source. This plugin is designed to fetch information about EC2 instances in AWS.
-2. `regions:   - ap-northeast-1`: Indicates the AWS region(s) from which the dynamic inventory should fetch information.
-3. `ubuntu: "'ubuntu' in tags.OS"`: Creates an Ansible group named ubuntu. This group includes EC2 instances where the tag named OS has a value of 'ubuntu'.
+**Step 5: Set up replication:**
+To set up a PostgreSQL cluster, you need to configure replication between the instances. You can use either logical replication or streaming replication. Logical replication allows you to replicate specific tables or databases, while streaming replication replicates the entire database. Here we used logical replication
 
-**Step 3: Create Ansible Role**
+* Configure PostgreSQL replication
+  ```
+  sudo -u postgres psql
+  
+  CREATE USER replicator REPLICATION LOGIN CONNECTION LIMIT 3 ENCRYPTED PASSWORD 'your_password';
 
-To create an Ansible role, which should follow below directory structure, you can use the ansible-galaxy command-line tool. Here's the command to create a new Ansible role:
+  GRANT ALL PRIVILEGES ON DATABASE your_database TO replicator;
 
-```bash
-ansible-galaxy init <role_name>
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
   
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/53ce10fa-148e-49ad-8b90-51dc109a896b)
-
-**Step 4: playbook.yml**
-* This file is defining a set of tasks to be executed on hosts belonging to the ubuntu group.
-
-```yaml
----
-- hosts: ubuntu
-  become: yes
-  gather_facts: yes
-  roles:
-    - Postgresql_role
-```
-**Step 5: Tasks**
-1. `main.yml`: This main.yml playbook is designed to handle tasks and variables differently based on the operating system family detected by Ansible, providing a way to manage configurations and installations across different types of systems efficiently.
-
-```yaml
----
-# Inclueds File 
-- name: Include OS-Specific variables
-  include_vars: "{{ ansible_os_family }}.yml"
-
-- include_tasks: install_Redhat.yml
-  when: ansible_os_family == 'RedHat'
-
-- include_tasks: install_Debian.yml
-  when: ansible_os_family == 'Debian'
-```
-2. `install_Debian.yml`: This file is included in the PostgreSQL_role/tasks/Debian.yml file
-
-```yaml
----
-- name: Install Gpg
-  apt:
-    name: gnupg
-    state: present
-
-- name: Add Postgresql repository key
-  apt_key:
-    url: "{{ postgresql_repo_key_url }}"
-    state: present
-
-- name: Add Postgresql repository.
-  apt_repository:
-    repo: "{{ postgresql_repo_url }}"
-    state: present
-
-- name: Install PostgreSQL on Ubuntu
-  apt:
-    name: "{{ item }}"
-    update_cache: true
-    state: present
-  loop:
-    - '{{ debian_package }}'
-
-- name: Start postgresql
-  service:
-    name: postgresql
-    state: started
-    enabled: true
-
-- name: Congfigure Postgresql
-  template:
-    src: ubuntu_postgresql.j2
-    dest: /etc/postgresql/{{ version }}/main/postgresql.conf
-
-- name: Restart postgresql
-  service:
-    name: postgresql
-    state: restarted
-```
-
-**Step 6: Playbook Execution**
-
-* To set up PostgreSQL on your target servers, you will execute the Ansible playbook using the following command:
-
-```bash
-ansible-playbook /home/ubuntu/Postgresql_tool/Postgresql.yml
-```
-***
-# Output
-
-After successful execution of PostgreSQL playbook we will able to see below output:
-
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/6233e8a3-1b30-4049-99ba-67f632adde1c)
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/35f90fef-4bc3-45ec-aab8-a40774bd32b4)
-
-In above screenshot we can see our PostgreSQL service is active and running.
-
-# Conclusion 
-
-This guide illustrates the process of deploying PostgreSQL in a server through Ansible. By adhering to these instructions, you can effectively provision and set up PostgreSQL within your AWS infrastructure.
 
 
 # Contact Information
