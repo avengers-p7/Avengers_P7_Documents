@@ -99,12 +99,51 @@ If not present, install it form  **Dashboard --> Manage Jenkins --> PLugins --> 
 
 # Global Pipeline Libraries Configuration
 
+The global pipeline library configuration includes specifying the repository where the shared library is hosted. This can be a Git, Subversion, or other version control repository accessible by Jenkins.
+
 ## Go to Jenkins Dashboard ---> Manage Jenkins ---> System
+
+<img width="946" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/58ccb9c4-0cb0-4d90-81e4-3e4338a4a304">
 
 ***
 
-## Scroll down to "Global Pipeline Libraries" section 
- 
+## Scroll down to "Global Pipeline Libraries" section '
+
+<img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/706b52ff-3fed-4fc4-b657-862e5b4f2a99">
+
+
+
+| **Step** | **Description** |
+| -------- | --------------- |
+| **Name** | The "Name" section of the global pipeline library configuration refers to the identifier or name given to the shared library within Jenkins. This name is used to reference the library in pipeline scripts and administrative settings. It should be descriptive and indicative of the purpose or functionality of the shared library. |
+| **Default Version** | The "Default version" section specifies the default version of the shared library to be used in pipelines if no specific version is specified in the pipeline script. This ensures consistency and simplifies pipeline configuration by automatically using the specified version unless overridden. |
+| **Load Implicitly** | The configuration determines whether the shared library should be loaded implicitly (automatically) for all pipelines or explicitly (manually) by specifying the library identifier in individual pipeline scripts. |
+| **Allow default version to be overridden** | The configuration may allow pipeline developers to override the default version of the shared library in their pipeline scripts, providing flexibility in library usage. |
+| **Include @Library changes in job recent changes** | Jenkins administrators can configure which shared libraries are available for use in pipelines by including or excluding specific libraries based on organizational policies or requirements. |
+
+> [!Note]
+> Just select`Allow default version to be overridden` & `Include @Library changes in job recent changes` for this.
+
+***
+
+<img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/ceb8bdf1-c907-4f0c-963f-bd006faf1f8b">
+
+| **Step** | **Description** |
+| -------- | --------------- |
+| **Retrival Method** | The "Retrieval method" section defines how Jenkins retrieves the shared library from its source repository. It typically includes options such as,**Modern SCM** Using modern source control management systems like Git, Subversion, or Mercurial.**Legacy SCM** For older source control systems or custom solutions not supported by modern SCM, Jenkins can use legacy SCM options. |
+| **Source Code Management** | This includes defining the repository URL, specifying the branch or tag to use, configuring credentials for accessing the repository, and selecting the appropriate SCM system. |
+| **Project Repository** | The "Project repository" section refers to the location of the shared library's source code repository. |
+| **Credentials** | The "Credentials" section includes configuration settings for providing authentication credentials required to access the source code repository. |
+
+> [!Note]
+> Choose `Modern SCM` as retrival method,`Git` as SCM.
+
+***
+
+The **Behavior** section defines additional settings and behaviors related to the usage and behavior of the shared library within Jenkins pipelines.Choose **Filter by name (with wildcards)** for this and write **main**, rest of the configurations can be as it is.
+
+<img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/71897f4e-0ab3-4248-af83-d78557c7b535">
+
 ***
 
 # Create Pipeline using Jenkinsfile 
