@@ -141,9 +141,9 @@ Cloning a Java App
 
 Within the directory, make a clone of the repository.
 
-**mkdir snaatak-P7**
+```mkdir snaatak-P7```
 
-**cd snaatak**
+```cd snaatak```
 
 **git clone https://github.com/OT-MICROSERVICES/salary-api.git**
 
@@ -152,9 +152,11 @@ Within the directory, make a clone of the repository.
 
 As the salary code is Java-based, it is designed to be compatible with Java version 17. It is advisable to install Maven, a crucial tool for managing and building Java projects.
 
-**sudo apt update
-sudo apt install openjdk-17-jdk
-sudo apt install maven**
+```sudo apt update```
+
+```sudo apt install openjdk-17-jdk```
+
+```sudo apt install maven```
 
 
 # Add the Spotbug dependency in the pom.xml file.
@@ -173,7 +175,7 @@ To integrate Find Security Bugs into the SpotBugs plugin, you can configure your
 
 # Analyze Code with SpotBugs:
    
- **mvn spotbugs:check**
+```mvn spotbugs:check```
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/43135908-a65e-448b-9677-9568b6823ace)
@@ -184,7 +186,7 @@ To integrate Find Security Bugs into the SpotBugs plugin, you can configure your
 This command will generate an html report. After running this command, generate various types of reports, such as HTML and XML: (target/spotbugs.html)(target/spotbugsXml.xml).
 
 
-**mvn spotbugs:spotbugs**
+```mvn spotbugs:spotbugs```
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/dbdeefe5-12f2-422c-aa7f-6abf19a000a4)
