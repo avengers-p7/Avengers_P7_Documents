@@ -50,7 +50,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 | Tool   | Description                          | Python3 Support | Purpose        |
 |--------|--------------------------------------|-----------------|----------------|
 | Bandit | A tool for bug analysis in Python   | Yes             | Python App     |
-| Jenkins | CICD Tool                          |                  |                |
+| Jenkins | CICD Tool                          |                |              |
 ***
 ## Setup
 
