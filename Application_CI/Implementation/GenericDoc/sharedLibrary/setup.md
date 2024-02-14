@@ -26,6 +26,8 @@
 
 # Introduction
 
+Shared libraries are vital components in software development, offering reusable sets of functions and procedures that can be dynamically linked into programs. This documentation aims to provide comprehensive guidance on creating and utilizing shared libraries, covering directory structure, file types, and integration with Jenkins using a Jenkinsfile.
+
 ***
 
 # Prerequisites
@@ -147,8 +149,6 @@ The **Behavior** section defines additional settings and behaviors related to th
 ***
 
 # Jenkinsfile
-
-# Jenkinsfile Structure
 
 ```shell
 // Jenkinsfile
