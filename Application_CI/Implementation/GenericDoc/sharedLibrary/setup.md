@@ -15,7 +15,7 @@
 2. [Prerequisites](#Prerequisites)
 3. [Generate Personal Access Token(PAT)](#generate-personal-access-tokenpat)
 4. [Add Credentials in Jenkins](#Add-Credentials-in-Jenkins)
-5. [Global Pipeline Library Configuration](#Global-Pipeline-Library-Configuration)
+5. [Global Pipeline Libraries Configuration](#Global-Pipeline-Libraries-Configuration)
 6. [Create Pipeline using Jenkinsfile](#Create-Pipeline-using-Jenkinsfile)
 7. [Contact Information](#Contact-Information)
 8. [Reference](#Reference)
@@ -97,13 +97,13 @@ If not present, install it form  **Dashboard --> Manage Jenkins --> PLugins --> 
 
 ***
 
-# Global Pipeline Library Configuration
+# Global Pipeline Libraries Configuration
 
 ## Go to Jenkins Dashboard ---> Manage Jenkins ---> System
 
 ***
 
-## Scroll down to "Global Pipeline Library" section 
+## Scroll down to "Global Pipeline Libraries" section 
  
 ***
 
