@@ -1,6 +1,9 @@
 
 # Ansible Role to setup PostgreSQL (Ubuntu)
 
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/08f84d0b-467a-46f1-b6de-8603020cf116)
+
+
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
 | -----------------| --------------| -----------|---------------- | -------------- |
@@ -10,6 +13,7 @@
 # Table of Contents
 + [Introduction](#Introduction)
 + [Pre-requisites](#Pre-requisites)
++ [Port-Numbers](#Port-Numbers)
 + [Steps](#Steps)
 + [Output Verification](#output-Verification)
 + [Conclusion](#conclusion)
@@ -30,6 +34,14 @@ This role is designed to automate the installation and configuration of PostgreS
 | SSH Access to Target Servers                   | Ensure that you have SSH access to the target servers where PostgreSQL will be installed.  |
 | Ansible                   | Here we used version 2.15. |
 | AWS                       | AWS account for instance creation  |
+
+# Port Numbers
+
+|   Port Number    |  Purpose      |  
+| -----------------| --------------| 
+| 22               | For SSH       |
+| 5432             | PostdreSQL    |
+
 
 # Steps 
 * Before going further check the link for Ansible Role: https://github.com/vikram445/PostgreSQL.git
