@@ -106,9 +106,6 @@ packer {
   }
 }
 
-variable "AWS_ACCESS_KEY_ID" {}
-variable "AWS_SECRET_ACCESS_KEY" {}
-
 source "amazon-ebs" "example" {
   ami_name      = "my-ami"
   instance_type = "t2.micro"
@@ -119,7 +116,9 @@ source "amazon-ebs" "example" {
 
 build {
   sources    = ["amazon-ebs.example"]
+  // No need to specify AWS credentials here
 }
+
 ```
 
 ***
