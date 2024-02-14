@@ -44,6 +44,7 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 | Tool | Description |
 | ---- | ----------- |
 | **Jenkins(2.426.3)** | To build our pipeline |
+|**Sonarqube(9.6.1.59531)**| For Static code analysis |
 
 > [!Important]
 > I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
@@ -55,43 +56,31 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 |-------|-------|
 | **Java 17** | For springboot project compilation | 
 | **Maven Compiler Plugin** | For springboot project compilation |
+|**Sonarque Scanner Plugin**| To integrate Jenkins with Sonarqube |
 ***
 ## Flow Diagram
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/40a61172-8415-45b7-8c14-e9b947b7e968)
 ***
 ## Pipeline Setup
-1. **Fork the Github Repo**
-```shell
-git clone https://github.com/OT-MICROSERVICES/salary-api.git
-```
-[**Repo Link**](https://github.com/OT-MICROSERVICES/salary-api)
 
-2. **Add maven compiler plugin in `pom.xml`**   
-```shell
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
-				<!-- ... other configurations ... -->
-			</plugin>
-```
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/5375b03d-718e-4ef3-a79a-b7a035a9956e)
-
-3. **Configure Maven tool in Jenkins**
+1. **Configure Maven tool in Jenkins**
 Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
 
 
-4. **Install Sonarqube Scanner plugin in Jenkins**
+2. **Install Sonarqube Scanner plugin in Jenkins**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/28625f84-3ae7-45e3-8cea-d1d73daba895)
 
-5. **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
+3. **Create  token in Sonarqube and add in Jenkins Credentials**
+	- login to Sonarqube Server
+ 	- 
+4. **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/1681289c-a3ef-4d6a-9e54-a2b2a948d660)
 
-6. **Create and Configure your Jenkins Pipeline job**
+4. **Create and Configure your Jenkins Pipeline job**
 
 	Follow below document
 
