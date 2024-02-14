@@ -99,6 +99,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/c1f73133-aa3d-43fd-b489-6d0d22cbb6cb)
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/c8da9e33-47be-416b-a1af-c1aa127545dc)
 
 ***
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
