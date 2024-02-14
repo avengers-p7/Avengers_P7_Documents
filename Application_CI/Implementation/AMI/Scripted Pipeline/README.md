@@ -97,7 +97,9 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 ## Variable File Creation
 
-**variables.auto.pkrvars.hcl**
+### variables.auto.pkrvars.hcl
+
+**This file provides specific values for the variables declared in `variables.pkr.hcl`.It sets values for `ami_name`,`instance_type`,`region`, `source_ami`, and `ssh_username`.These values will be used as default inputs when executing Packer commands unless overridden.**
 
 ```shell
 ami_name = "my-ami"
@@ -108,7 +110,9 @@ ssh_username = "ubuntu"
 
 ```
 
-**variables.pkr.hcl**
+### variables.pkr.hcl
+
+**This file is used for defining input variables for your Packer configuration.It declares the variables `ami_name`,`instance_type`,`region`, `source_ami`, and `ssh_username`.These variables are defined without specific values, indicating that they need to be provided when running Packer commands or through variable files.**
 
 ```shell
 variable "ami_name" {}
@@ -122,6 +126,8 @@ variable "ssh_username" {}
 ***
 
 ## Template File Creation
+
+**This file is the main Packer configuration file where you define your build configuration.It starts with specifying required plugins, in this case, the Amazon plugin.It defines a builder named `amazon-ebs` with the alias example, which will create an Amazon Machine Image (AMI) using Amazon Elastic Block Store (EBS).The builder configuration utilizes the input variables declared in `variables.pkr.hcl`.Finally, it specifies the build process by indicating that the source of the build is `source.amazon-ebs.example`.**
 
 ```shell
 packer {
