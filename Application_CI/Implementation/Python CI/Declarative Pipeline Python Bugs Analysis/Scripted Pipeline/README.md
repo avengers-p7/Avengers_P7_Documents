@@ -22,7 +22,7 @@
 ***
 ## Introduction
 
-Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy scripting language, offering flexibility and customization for defining complex workflows. It provides an imperative, programmatic approach where users write scripts executed sequentially by Jenkins, with direct access to Jenkins APIs for advanced automation and integration. Scripted Pipelines are suitable for environments requiring fine-grained control over pipeline execution and the ability to define pipelines as code.
+Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy scripting language, offering flexibility and customization for defining complex workflows. It provides an imperative, programmatic approach where users write scripts executed sequentially by Jenkins, with direct access to Jenkins APIs for advanced automation and integration. Scripted Pipelines are suitable for environments requiring fine-grained control over pipeline execution and the ability to define pipelines as code.* Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
 
 ***
 ## Why Scripted Pipeline
@@ -50,7 +50,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 | Tool   | Description                          | Python3 Support | Purpose        |
 |--------|--------------------------------------|-----------------|----------------|
 | Bandit | A tool for bug analysis in Python   | Yes             | Python App     |
-
+| Jenkins | CICD Tool                          |                  |                |
 ***
 ## Setup
 
@@ -78,8 +78,55 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
 ***
 ## Jenkinsfile
+```shell
+node {
+    def REPO_URL = 'https://github.com/OT-MICROSERVICES/attendance-api.git'
 
-* Cilck [**here**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Scripted%20Pipeline/Python/Scripted%20Pipeline%20Python%20Bugs%20Analysis/Jenkinsfile)
+    stage('Checkout') {
+        checkout scmGit(
+            branches: [[name: '*/main']],
+            extensions: [],
+            userRemoteConfigs: [[url: "${REPO_URL}"]]
+        )
+    }
+
+    stage('Install Dependencies') {
+        script {
+            // Install necessary dependencies
+            sh 'python3 -m venv myenv'
+            sh '. myenv/bin/activate'
+        }
+    }
+
+    stage('Bugs Analysis - Bandit') {
+        script {
+            try {
+                // Ensure Bandit is installed and run the analysis
+                sh 'bandit --version' // Check Bandit version to ensure it's installed
+                sh 'bandit -r . -f json -o bandit_report.json'
+            } catch (Exception e) {
+                echo "Bugs analysis failed: ${e.message}"
+            }
+        }
+    }
+
+    stage('Publish Bandit Report') {
+        try {
+            // Publish Bandit report as post-build action
+            publishHTML(target: [
+                allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: '.',
+                reportFiles: 'bandit_report.json',
+                reportName: 'Bandit Security Report'
+            ])
+        } catch (Exception e) {
+            echo "Failed to publish Bandit report: ${e.message}"
+        }
+    }
+}
+```
 
 ***
 ## Conclusion
