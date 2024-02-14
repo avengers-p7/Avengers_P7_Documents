@@ -88,13 +88,37 @@ Packer, a powerful open-source tool developed by HashiCorp, has emerged as a pre
 
 # AMI Setup
 
-**Tool Installation**
+## Tool Installation
 
 <img width="407" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/5dee9dff-af57-4556-96bf-8a2c1b3012d4">
 
 ***
 
-**Template File Creation**
+## Variable Files
+
+**variables.auto.pkrvars.hcl**
+
+```shell
+ami_name = "my-ami"
+instance_type = "t2.micro"
+region = "us-east-1"
+source_ami = "ami-0faac859c9205201b"
+ssh_username = "ubuntu"
+```
+
+**variables.pkr.hcl**
+
+```shell
+variable "ami_name" {}
+variable "instance_type" {}
+variable "region" {}
+variable "source_ami" {}
+variable "ssh_username" {}
+```
+
+***
+
+## Template File Creation
 
 ```shell
 packer {
@@ -122,13 +146,13 @@ build {
 
 ***
 
-**IAM User Creation**
+## IAM User Creation
 
 <img width="688" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/74abfc50-2637-4cf7-8c3c-b91e87f4f5a7">
 
 ***
 
-**Policy Creation For IAM User**
+## Policy Creation For IAM User
 
 ```shell
 {
@@ -178,19 +202,19 @@ build {
 ```
 ***
 
-**Global AWS Configuration**
+## Global AWS Configuration
 
 <img width="554" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/15c678e4-1152-4186-bee2-5e90991942ea">
 
 ***
 
-**Path Of Jenkinsfile**
+## Path Of Jenkinsfile
 
 <img width="695" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/9e71cc60-3781-4758-bd72-b0ca53297976">
 
 ***
 
-**Console Output**
+## Console Output
 
 <img width="946" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/b5916247-948a-462c-b244-8a6afc42bf8d">
 
@@ -200,7 +224,7 @@ build {
 
 ***
 
-**Confirmation Of AMI Creation**
+## Confirmation Of AMI Creation
 
 <img width="817" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/bb2c4eed-af86-41ab-a8a7-a52ebaa3bc25">
 
@@ -221,8 +245,14 @@ pipeline {
         stage('Build AMI') {
             steps {
                 script {
-                    sh '/usr/bin/packer init /home/shreya/ami.pkr.hcl'
-                    sh '/usr/bin/packer build /home/shreya/ami.pkr.hcl'
+                    // Change to the directory containing the Packer configuration
+                    dir('/home/shreya/') {
+                        // Initialize Packer (if necessary)
+                        sh '/usr/bin/packer init .'
+                        
+                        // Build the AMI
+                        sh '/usr/bin/packer build .'
+                    }
                 }
             }
         }
