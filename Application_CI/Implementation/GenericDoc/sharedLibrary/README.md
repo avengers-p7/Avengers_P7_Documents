@@ -8,7 +8,7 @@
 | **Shreya Jaiswal** | **14-02-2024** | **1.0** | **Shreya Jaiswal** | **14-02-2024** |
 ***
 
-## Table  of Contents
+# Table  of Contents
 
 1. [Introduction](#Introduction)
 2. [Purpose](#Purpose)
@@ -24,7 +24,7 @@
    
 ***
 
-## Introduction 
+# Introduction 
 
 Shared libraries are vital components in software development, offering reusable sets of functions and procedures that can be dynamically linked into programs. This documentation aims to provide comprehensive guidance on creating and utilizing shared libraries, covering directory structure, file types, and integration with Jenkins using a Jenkinsfile.
 
@@ -36,13 +36,13 @@ The purpose of shared libraries is to promote modularity, code reuse, and effici
 
 ***
 
-## What is Shared Library
+# What is Shared Library
 
 A shared library, also known as a dynamic link library (DLL) on Windows or a shared object (SO) on Unix-like systems, contains compiled code that can be loaded into memory and executed by multiple programs simultaneously. It typically includes functions, procedures, and data structures that provide specific functionality.
 
 ***
 
-## Why Shared Library
+# Why Shared Library
 
 | Features | Description |
 | --------- | ---------- |
