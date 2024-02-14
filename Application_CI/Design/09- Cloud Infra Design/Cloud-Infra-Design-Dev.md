@@ -1,6 +1,6 @@
 # Cloud Infra Design Dev
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056709/a652597b-3630-4257-8a65-62915eb62a74)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/18ede2a8-07b5-4565-9dbe-68f293b6e880)
 
 
 | **Author**           | **Created On** | **Last Updated** | **Document Version** |
