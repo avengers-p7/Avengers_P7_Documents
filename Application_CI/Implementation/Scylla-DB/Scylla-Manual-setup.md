@@ -44,6 +44,14 @@ The ScyllaDB Manual Setup Guide provides step-by-step instructions for installin
 | ------------------------ |----------------------------|
 |         JDK-17           | ScyllaDB need JDK-11 or later verison.|
 
+# Ports
+
+| Ports         | Description                                                                                | 
+| ------------- |--------------------------------------------------------------------------------------------|
+| 22            | Port 22 is used to establish an SSH connection to an EC2 instance and access a shell       |
+| 443           | It is a standard port for secure communication over the internet between client and server |
+| 7199          | Port for ScyllaDB                                                                          |
+
 
 # ScyllaDB Installation Guide
 ### Update Packages
@@ -268,10 +276,11 @@ Start Scylla nodes, beginning with the seed node (192.168.1.201). Wait until eac
 
 Verify that the nodes have been successfully added to the cluster by using the nodetool status command.
 
-![Screenshot from 2024-02-13 22-54-45](https://github.com/Parasharam-Desai/working-repo/assets/156056709/0f9a0926-fd8e-40e8-8372-e2228bf7b04b)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/e9ba9e1e-cd22-4390-874c-8c7d71f92513)
 
 
-![Screenshot from 2024-02-13 22-56-01](https://github.com/Parasharam-Desai/working-repo/assets/156056709/a9868313-f4a5-46fe-bea6-40e9a5c6b16f)
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/c15cd3c8-ea53-4e8c-ac73-0c41bda4bb78)
+
 
 
 This comprehensive guide provides step-by-step instructions for setting up a ScyllaDB cluster in a single data center, ensuring a smooth and efficient deployment process.
