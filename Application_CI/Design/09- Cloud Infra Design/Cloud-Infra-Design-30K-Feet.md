@@ -51,7 +51,8 @@ Here's a flow summary of the infrastructure:
 
 # Infrastructure Diagram
 
-![Cloud-Infra-30k feet - Page 1 (8)](https://github.com/avengers-p7/Documentation/assets/156056709/b1fd7f43-f297-492e-8301-47126a0d4ec6)
+![Dev-infra - Page 1 (2)](https://github.com/avengers-p7/Documentation/assets/156056709/65ec3972-4458-4bf7-9fd2-75c793ee19a6)
+
 
 
 # System Development Approaches
