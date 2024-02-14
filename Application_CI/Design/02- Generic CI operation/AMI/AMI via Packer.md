@@ -77,15 +77,7 @@ when using Packer to create a new Amazon Machine Image (AMI), you typically star
 
 ***
 
-**Step-2 Variable File for storing AWS credentials**
-
-Packer needs AWS credentials to authenticate and interact with your AWS account when creating and managing resources.For this, I have created a **"variables.pkrvars.hcl"** file to store AWS credentials.In this file, I have added the **"Access Key & Secret Key"**.
-
-<img width="405" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/4b0da971-8e57-42b2-b585-357839c0af63">
-
-***
-
-**Step-3 Installation of Packer**
+**Step-2 Installation of Packer**
 
 Ensure that Packer is installed on your local machine. You can download the latest version from the official Packer website.
 
@@ -102,7 +94,7 @@ Ensure that Packer is installed on your local machine. You can download the late
 
 ***
 
-**Step-4 Checking Packer Version**
+**Step-3 Checking Packer Version**
 
 After all the installation process,just make sure that Packer is installed successfully.For this we can use the command **"packer --version"**.
 
@@ -110,11 +102,33 @@ After all the installation process,just make sure that Packer is installed succe
 
 ***
 
-**Step-5 Template File for AMI Craetion with ".pkr.hcl" extension**
+**Step-4 Template File for AMI Craetion with ".pkr.hcl" extension**
 
 Create a Packer template file in either JSON or HashiCorp Configuration Language (HCL). This file defines the configuration for building the AMI, including the source image, provisioners, and post-processors.Created a template file named **"ami.pkr.hcl"**.
 
-<img width="950" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/12d832f9-2568-4fb4-bf96-2f9a6addc782">
+```shell
+packer {
+  required_plugins {
+    amazon = {
+      source  = "github.com/hashicorp/amazon"
+      version = "~> 1"
+    }
+  }
+}
+
+source "amazon-ebs" "example" {
+  ami_name      = "my-ami"
+  instance_type = "t2.micro"
+  region        = "us-east-1"
+  source_ami    = "ami-0a2c75552cbaeb91f"
+  ssh_username  = "ubuntu"
+}
+
+build {
+  sources    = ["amazon-ebs.example"]
+  // No need to specify AWS credentials here
+}
+```
 
 ***
 
