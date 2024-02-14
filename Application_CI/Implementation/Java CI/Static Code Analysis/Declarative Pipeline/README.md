@@ -73,8 +73,8 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/28625f84-3ae7-45e3-8cea-d1d73daba895)
 
-3. **Create  token in Sonarqube and add in Jenkins Credentials**
-	- login to Sonarqube Server and
+3. **Create  token in Sonarqube**
+	- login to Sonarqube Server and go to `Administration --> Security --> Users`
 		![image](https://github.com/avengers-p7/Documentation/assets/156056444/f01959ac-2a3a-4644-ba49-ea52e886f2db)
 
 	- click on `Update Tokens`
@@ -87,7 +87,17 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
      		![image](https://github.com/avengers-p7/Documentation/assets/156056444/511a3b73-922b-4277-b2a1-01d782609aca)
      
 
-3. **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
+3. **Add Sonarqube token in Jenkins Credentials**
+   	- login to your jenkins Dashboard and go to `Dashboard --> Manage Jenkins --> Credentials`
+
+   	  	Below, click on add `Add Credentials`
+
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/125c1d80-6342-4e24-9d0d-4f122ddeaf95)
+  
+	- Select **`Secret Text`** and provide the token that you copied in secret section. Also, give ID and Description to your credential.
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/2727ea81-3014-4910-93ef-77237529f313)
+
+4.  **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/1681289c-a3ef-4d6a-9e54-a2b2a948d660)
 
