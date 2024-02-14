@@ -129,4 +129,5 @@ In conclusion, integrating GoLang dependency scanning into scripted pipelines is
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
 | Pipeline | https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipeline-syntax-reference-guide/scripted-pipeline |
+| GenericDoc | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
 
