@@ -10,7 +10,7 @@
 2. [Pre-requisites](#pre-requisites)
 3. [Infrastructure Diagram](#infrastructure-diagram)
 4. [Description](#description)
-5. [Cloud Architecture Best Practices](Cloud-Architecture-Best-Practices)
+5. [Cloud Architecture Best Practices](#Cloud-Architecture-Best-Practices)
 6. [Contact Information](#contact-information)
 7. [Resources and References](#resources-and-references)
 
