@@ -4,6 +4,21 @@
 |Shikha Tripathi| 9-02-2024 | Shikha Tripathi | 9-02-2024|
 
 ***
+## Table of Contents
++ [Introduction](#Introduction)
++ [Why Declarative Pipeline](#Why-Declarative-Pipeline)
++ [Features](#Features)
++ [Flow Diagram](#Flow-Diagram)
++ [Advantages](#Advantages)
++ [Disadvantages](#Disadvantages)
++ [Jenkinsfile](#Jenkinsfile)
++ [Setup](#Setup)
++ [Conclusion](#Conclusion)
++ [Contact Information](#Contact-Information)
++ [Resources and References](#Resources-and-References)
+
+
+***
 ## Introduction
 In modern software development, managing dependencies is crucial for code stability and security. This guide explores implementing a Jenkins Declarative Pipeline tailored for GoLang projects, automating dependency scanning to ensure robustness and reliability. By integrating this pipeline, teams can efficiently identify and mitigate dependency-related issues, enhancing code quality and project security seamlessly within their CI/CD workflow.
 ***
