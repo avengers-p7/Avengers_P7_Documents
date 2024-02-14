@@ -134,15 +134,15 @@ packer {
 }
 
 source "amazon-ebs" "example" {
-  ami_name      = "my-ami"
-  instance_type = "t2.micro"
-  region        = "us-east-1"
-  source_ami    = "ami-0a2c75552cbaeb91f"
-  ssh_username  = "ubuntu"
+  ami_name      = var.ami_name
+  instance_type = var.instance_type
+  region        = var.region
+  source_ami    = var.source_ami
+  ssh_username  = var.ssh_username
 }
 
 build {
-  sources    = ["amazon-ebs.example"]
+  sources = ["source.amazon-ebs.example"]
 }
 
 ```
