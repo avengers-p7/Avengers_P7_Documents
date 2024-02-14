@@ -17,8 +17,9 @@
 4. [Add Credentials in Jenkins](#Add-Credentials-in-Jenkins)
 5. [Global Pipeline Libraries Configuration](#Global-Pipeline-Libraries-Configuration)
 6. [Create Pipeline using Jenkinsfile](#Create-Pipeline-using-Jenkinsfile)
-7. [Contact Information](#Contact-Information)
-8. [Reference](#Reference)
+7. [Conclusion](#Conclusion)
+8. [Contact Information](#Contact-Information)
+9. [Reference](#Reference)
    
 ***
 
@@ -101,17 +102,15 @@ If not present, install it form  **Dashboard --> Manage Jenkins --> PLugins --> 
 
 The global pipeline library configuration includes specifying the repository where the shared library is hosted. This can be a Git, Subversion, or other version control repository accessible by Jenkins.
 
-## Go to Jenkins Dashboard ---> Manage Jenkins ---> System
+## Step-1 Go to Jenkins Dashboard ---> Manage Jenkins ---> System
 
 <img width="946" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/58ccb9c4-0cb0-4d90-81e4-3e4338a4a304">
 
 ***
 
-## Scroll down to "Global Pipeline Libraries" section '
+## Step-2 Scroll down to "Global Pipeline Libraries" section '
 
 <img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/706b52ff-3fed-4fc4-b657-862e5b4f2a99">
-
-
 
 | **Step** | **Description** |
 | -------- | --------------- |
