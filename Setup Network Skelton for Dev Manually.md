@@ -80,6 +80,158 @@ Virtual Private Cloud (VPC) manually involves several steps, primarily configuri
 
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/571ef3cc-3b5d-423a-8b80-585cdedae781)
+
+
+
+**Step 03. Create IGW (Internet Gateway) & Attach to the VPC**
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/abe9a358-7372-4984-abca-2e6412991a6b)
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/5de3af68-6d20-484b-9471-e80ff40c3735)
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/1a821470-dd14-4ca8-84ff-e7257aabe3dc)
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/e4903eec-dd25-4188-837c-46a50b2d9d79)
+
+
+
+
+# Step 04. Create Public and Private Route Table
+
+
+**Route table concepts**
+
+The following are the key concepts for route tables.
+
+Main route table — The route table that automatically comes with your VPC. It controls the routing for all subnets that are not explicitly associated with any other route table.
+
+Custom route table — A route table that you create for your VPC.
+
+Edge association — A route table that you use to route inbound VPC traffic to an appliance. You associate a route table with the internet gateway or virtual private gateway, and specify the network interface of your appliance as the target for VPC traffic.
+
+Route table association — The association between a route table and a subnet, internet gateway, or virtual private gateway.
+
+Subnet route table — A route table that’s associated with a subnet.
+
+Gateway route table — A route table that’s associated with an internet gateway or virtual private gateway.
+
+Local gateway route table — A route table that’s associated with an Outposts local gateway. For information about local gateways, see Local Gateways in the AWS Outposts User Guide.
+
+Destination — The range of IP addresses where you want traffic to go (destination CIDR). For example, an external corporate network with a 172.16.0.0/12 CIDR.
+
+Target — The gateway, network interface, or connection through which to send the destination traffic; for example, an internet gateway.
+
+Local route — A default route for communication within the VPC
+
+
+1. Create a Route table in the same VPC.
+   
+2. Make sure you selected the right VPC and give a proper tag.
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ce5cc55d-3bca-4ef2-a31a-66559cc7275c)
+
+
+
+# Step 05. Add IGW in Public Route table (0.0.0.0/0)
+
+Click on the Public route table and click on the edit button.
+
+Click on Add route from 0.0.0.0/0
+
+Select Internet gateway from Target drop-down menu.
+
+Click on save the routes.
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/2644d8dc-91dd-47be-9b45-3e45705a2d49)
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ec0862e0-4cbb-492b-9dbe-cd42d9a3a1aa)
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/7d16fc7a-ea36-42e5-ade2-88779344da67)
+
+
+
+
+# Step 07. Create a NAT Gateway in Public Subnet
+
+Select a Public Subnet
+
+Create a new Elastic IP and associate
+
+click on Create NAT Gateway
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/0c63cc2b-c89e-4933-8c6f-24e228e9e229)
+
+
+
+
+ ![image](https://github.com/avengers-p7/Documentation/assets/156644891/78ee8abb-fa1e-4f08-9fc9-e9df637f1753)
+
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/a5edebd4-8674-4b06-a8ec-4c0aba07ebcc)
+
+
+
+# Step 08. Add NAT GW into the Private Route Table
+
+1. Click on the Private route table and click on the edit button.
+2. Click on Add route from 0.0.0.0/0
+3. Select nat gateway from Target drop-down menu.
+4. Click on save the routes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+
+
+
+
+
+
+
 
 
 
