@@ -73,7 +73,7 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 
 ***
 ## Jenkins
-  * [**Jenkinsfie**](https://github.com/OT-MICROSERVICES/employee-api.git
+  * [**Jenkinsfie**](https://github.com/OT-MICROSERVICES/employee-api.git)
   
 ## Create new pipeline task
 
