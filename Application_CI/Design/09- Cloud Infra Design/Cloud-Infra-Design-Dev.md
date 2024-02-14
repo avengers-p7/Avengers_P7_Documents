@@ -55,7 +55,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 | Layer    | Security Group Name | Inbound Rule Port | Inbound Rule Source |
 |----------|---------------------|-------------------|---------------------|
 | Frontend | Frontend-lb-sg      | 80                | 0.0.0.0/0           | 
-| Frontend | Frontend-sg         | 80                | frontend-lb-sg      |               
+| Frontend | Frontend-sg         | 22,80                | frontend-lb-sg      |               
 | Backend  | Backend-sg          | 8080              | Backend-sg         |               
 | Database | Postgresql-sg      | 5432              | Backend-sg          |               
 | Database | Redis-sg         | 6379              | Backend-sg          |            
@@ -76,7 +76,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 | Rule number | Type      | Protocol | Port range | Destination  | Allow/Deny |
 |-------------|-----------|----------|------------|--------------|------------|
-| 100         | SSH       | TCP      | 22         | 10.0.0.0/28  | Allow      |
+| 100         | SSH       | TCP      | 22         | 10.0.1.0/28  | Allow      |
 | 110         | Custom TCP| TCP      | 1024-65535 | 10.0.0.0/28  | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
 
@@ -84,7 +84,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 | Rule number | Type      | Protocol | Port range | Source       | Allow/Deny |
 |-------------|-----------|----------|------------|--------------|------------|
-| 100         | SSH       | TCP      | 22         | 10.0.0.0/28  | Allow      |
+| 100         | SSH       | TCP      | 22         | 10.0.1.0/28  | Allow      |
 | 110         | Custom TCP| TCP      | 3000       | 10.0.1.0/28  | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
 
@@ -92,17 +92,15 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 | Rule number | Type      | Protocol | Port range | Destination  | Allow/Deny |
 |-------------|-----------|----------|------------|--------------|------------|
-| 100         | SSH       | TCP      | 22         | 10.0.0.0/28  | Allow      |
-| 110         | Custom TCP| TCP      | 1024-65535 | 10.0.0.0/28  | Allow      |
-| 120         | Custom TCP| TCP      | 32768-65535| 10.0.1.0/28  | Allow      |
-| 130         | Custom TCP| TCP      | 3000       | 10.0.1.0/28  | Allow      |
+| 100         | SSH       | TCP      | 22         | 10.0.1.0/28  | Allow      |
+| 110         | Custom TCP| TCP      | 3000       | 10.0.1.0/28  | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
 
 ## Backend NACL Inbound Rules
 
 | Rule number | Type      | Protocol | Port range | Source       | Allow/Deny |
 |-------------|-----------|----------|------------|--------------|------------|
-| 100         | SSH       | TCP      | 22         | 10.0.0.0/28  | Allow      |
+| 100         | SSH       | TCP      | 22         | 10.0.1.0/28  | Allow      |
 | 110         | Custom TCP| TCP      | 8080       | 10.0.1.16/28 | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
 
@@ -110,32 +108,28 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 | Rule number | Type      | Protocol | Port range | Source       | Allow/Deny |
 |-------------|-----------|----------|------------|--------------|------------|
-| 100         | SSH       | TCP      | 22         | 10.0.0.0/28  | Allow      |
+| 100         | SSH       | TCP      | 22         | 10.0.1.0/28  | Allow      |
 | 110         | Custom TCP| TCP      | 8080       | 10.0.1.16/28 | Allow      |
-| 120         | Custom TCP| TCP      | 1024-65535 | 10.0.0.0/28  | Allow      |
-| 130         | Custom TCP| TCP      | 32768-65535| 10.0.1.16/28 | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
 
 ## Database NACL Inbound Rules
 
 | Rule number | Type      | Protocol | Port range | Source       | Allow/Deny |
 |-------------|-----------|----------|------------|--------------|------------|
-| 100         | SSH       | TCP      | 22         | 10.0.0.0/28  | Allow      |
-| 110         | Custom TCP| TCP      | 6379       | 10.0.1.32/28 | Allow      |
-| 120         | Custom TCP| TCP      | 9042       | 10.0.1.32/28 | Allow      |
-| 130         | PostgreSQL (5432)| TCP| 5432    | 10.0.1.32/28 | Allow      |
+| 100         | SSH       | TCP      | 22         | 10.0.1.0/28  | Allow      |
+| 120         | Custom TCP(Redis)| TCP      | 6379       | 10.0.1.32/28 | Allow      |
+| 130         | Custom TCP(Scylla)| TCP      | 9042       | 10.0.1.32/28 | Allow      |
+| 140         | Custom TCP (PostgreSQL) | TCP| 5432    | 10.0.1.32/28 | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
 
 ## Database NACL Outbound Rules
 
 | Rule number | Type      | Protocol | Port range | Source       | Allow/Deny |
 |-------------|-----------|----------|------------|--------------|------------|
-| 100         | SSH       | TCP      | 22         | 10.0.0.0/28  | Allow      |
-| 120         | Custom TCP| TCP      | 6379       | 10.0.1.32/28 | Allow      |
-| 130         | Custom TCP| TCP      | 9042       | 10.0.1.32/28 | Allow      |
-| 140         | PostgreSQL (5432)| TCP| 5432    | 10.0.1.32/28 | Allow      |
-| 150         | Custom TCP| TCP      | 1024-65535 | 10.0.1.32/28 | Allow      |
-| 160         | Custom TCP| TCP      | 1024-65535 | 10.0.1.0/28  | Allow      |
+| 100         | SSH       | TCP      | 22         | 10.0.1.0/28  | Allow      |
+| 120         | Custom TCP(Redis)| TCP      | 6379       | 10.0.1.32/28 | Allow      |
+| 130         | Custom TCP(Scylla)| TCP      | 9042       | 10.0.1.32/28 | Allow      |
+| 140         | Custom TCP (PostgreSQL) | TCP| 5432    | 10.0.1.32/28 | Allow      |
 | *           | All traffic | All     | All        | 0.0.0.0/0    | Deny       |
 
 
