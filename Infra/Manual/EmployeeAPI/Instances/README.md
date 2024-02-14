@@ -9,7 +9,7 @@
 
 [2. Pre-requisites](#pre-requisites)
 
-[3. POC](#poc)
+[3. Setting Up Instance](#setting-up-instance)
 
 [4. Conclusion](#conclusion)
 
@@ -19,61 +19,45 @@
 ***
 
 # Introduction
-This Proof of Concept (POC) guide outlines the step-by-step process for creating an EC2 (Elastic Compute Cloud) instance in Amazon Web Services (AWS). EC2 instances serve as virtual servers in the AWS cloud, providing scalable compute capacity.
+This Proof of Concept (POC) guide outlines the step-by-step process for creating an EC2 (Elastic Compute Cloud) instance in Amazon Web Services (AWS) for hosting Employee API. EC2 instances serve as virtual servers in the AWS cloud, providing scalable compute capacity. Below is a high-level guide to help you get started. Please note that the specifics may vary based on your application requirements and preferences.
 ***
 
 # Pre-requisites
 
 | **Prerequisite**                    | **Description**                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| AWS Account                         | Ensure you have an active AWS account.                                                              |
-| AWS CLI                             | Install the [AWS Command Line Interface](https://aws.amazon.com/cli/).                              |
-| Access Key and Secret Key           | Obtain your AWS access key and secret key.                                                          |
+| AWS Account                         | Ensure you have an active AWS account for creating instance.                                        |
+
 ***
 
-# POC
-## Creating an EC2 Instance in AWS
-### Step 1: Configure AWS CLI
-Open a terminal and run the following command to configure the AWS CLI with your access key and secret key.
-```
-aws configure
-```
-You will be prompted to enter your AWS Access Key ID, Secret Access Key, default region name, and default output format.
+# Setting Up Instance
+### AWS Account Setup
 
-### Step 2: Create a Key Pair
-You need a key pair to securely connect to your EC2 instance. Run the following command to create a new key pair.
-```
-aws ec2 create-key-pair --key-name MyKeyPair --query 'KeyMaterial' --output text > MyKeyPair.pem
-```
-Make sure to set appropriate permissions on the key file.
-```
-chmod 400 MyKeyPair.pem
-```
+* If you don't have an AWS account, sign up for one on the AWS Console.
+* Create an IAM user with the appropriate permissions for managing resources.
 
-### Step 3: Launch an EC2 Instance
-Now, let's launch an EC2 instance. You can choose an Amazon Machine Image (AMI) based on your requirements. Replace **ami-xxxxxxxxxxxxxxxxx** with your desired AMI.
-```
-aws ec2 run-instances --image-id ami-xxxxxxxxxxxxxxxxx --instance-type t2.micro --key-name MyKeyPair --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=MyInstance}]'
-```
-This command launches a t2.micro instance with the specified AMI, associates the key pair, and tags the instance with a name.
+### Network Setup Overview
 
-### Step 4: Check Instance Status
-You can check the status of your instance using the following command.
-```
-aws ec2 describe-instances --instance-ids <instance-id>
-```
-Replace <instance-id> with the actual instance ID obtained from the previous step.
+* Create a VPC to isolate your network resources with a specific CIDR. In this case, the CIDR for the VPC is 10.0.0.0/24.
+* Next, create public and private subnets with the specified CIDRs as mentioned in the diagram.
+* Then, create public and private route tables to route traffic into the subnets, and configure security groups to restrict traffic to the instances.
+* Proceed to create an Internet Gateway (IGW) and attach it to the VPC to allow traffic into the VPC and public subnet through the public route table.
+* Finally, create a Network Address Translation (NAT) gateway and attach it to the public subnet to allow traffic into the subnet through the private route table.
 
-### Step 5: Connect to the Instance
-Use SSH to connect to your instance. Replace <instance-public-ip> with the public IP of your instance.
-```
-ssh -i MyKeyPair.pem ec2-user@<instance-public-ip>
-```
-You are now connected to your EC2 instance.
+![Screenshot 2024-02-14 at 10 19 42 PM](https://github.com/avengers-p7/Documentation/assets/156056364/35f34a5a-2501-4d43-86ba-a3ae7b480411)
+
+
+### Set Up EC2 Instances
+
+* Launch EC2 instances for Employee API servers in side a private subnet and choose the appropriate instance type, such as t2-micro or t2-medium.
+* Configure security groups to restrict traffic to the EC2 instances, and create key pairs for accessing the EC2 instances.
+
+![Screenshot 2024-02-14 at 10 27 35 PM](https://github.com/avengers-p7/Documentation/assets/156056364/9dbc90bc-e8f9-4e6b-8eb1-6bd7cbc644f8)
+
 ***
 
 # Conclusion
-This POC demonstrates the process of creating an EC2 instance in AWS using the AWS CLI. Adjustment of parameters and settings based on specific requirements and preferences cpuld be made.
+This POC demonstrates the process of creating an EC2 instance in AWS for hosting Employee API. Adjustment of parameters and settings based on specific requirements and preferences could be made.
 ***
 
 # Contact Information
@@ -85,7 +69,7 @@ This POC demonstrates the process of creating an EC2 instance in AWS using the A
 # References
 | Source | Description  | 
 | -------- | ------- | 
-| https://devopscube.com/use-aws-cli-create-ec2-instance/ | AWS CLI to Create an EC2 instance |
+| https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API/README.md| Employee API |
 
 
 
