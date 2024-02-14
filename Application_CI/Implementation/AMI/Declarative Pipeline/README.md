@@ -116,7 +116,6 @@ source "amazon-ebs" "example" {
 
 build {
   sources    = ["amazon-ebs.example"]
-  // No need to specify AWS credentials here
 }
 
 ```
