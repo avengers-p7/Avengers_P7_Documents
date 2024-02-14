@@ -88,7 +88,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/1681289c-a3ef-4d6a-9e54-a2b2a948d660)
 
-6.    **Create and Configure your Jenkins Pipeline job**
+6. **Create and Configure your Jenkins Pipeline job**
 
 	Follow below document
 
