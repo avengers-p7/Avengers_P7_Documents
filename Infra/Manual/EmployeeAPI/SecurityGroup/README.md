@@ -5,17 +5,17 @@
 ***
 
 # Table of Content
-1. Introduction
-2. Overview
-3. Setting Up the Environment
-4. Best practices
-5. Conclusion
-6. Contact Information
-7. Refrences
+[1. Introduction](#introduction)
+[2. Overview](#overview)
+[3. Setting Up the Environment](#setting-up-the-environment)
+[4. Best practices](#best-practices)
+[5. Conclusion](#conclusion)
+[6. Contact Information](#contact-information)
+[7. Refrences](#references)
 ***
 
 # Introduction
-This document outlines the steps and considerations for conducting a Proof of Concept (POC) on AWS Security Groups, a fundamental component for securing resources in the Amazon Web Services (AWS) environment. The POC focuses on understanding and implementing AWS Security Groups for a hypothetical application deployment in AWS.
+This document outlines the steps and considerations for conducting a Proof of Concept (POC) on AWS Security Group for Employee API, a fundamental component for securing resources in the Amazon Web Services (AWS) environment. The POC focuses on understanding and implementing AWS Security Group for a hypothetical application deployment in AWS.
 ***
 
 # Overview
@@ -45,6 +45,21 @@ AWS Security Groups act as virtual firewalls for EC2 instances, controlling inbo
 
 # Setting Up the Environment
 
+### Navigate to the EC2 Dashboard
+* In the AWS Management Console, go to the "Services" menu and select "EC2" under the "Compute" section.
+* In the EC2 Dashboard, locate the "Network & Security" section in the left navigation pane and click on "Security Groups."
+* Select the VPC (Virtual Private Cloud) for which you want to create the security group.
+* Under the "Inbound rules" section, click "Add Rule" to add the rules for incoming traffic. (8080,9042,6379,22)
+* Click the "Create" button to create the security group.
+  
+![Screenshot 2024-02-14 at 11 15 25 PM](https://github.com/avengers-p7/Documentation/assets/156056364/3ff679ae-90c5-4da8-8668-4d53f3839a39)
+
+### Associating the Security Group with Instances
+* After creating the security group, you need to associate it with your instances.
+* In the EC2 Dashboard, go to the "Instances" section.
+* Select the instance you want to associate with the security group.
+* Under the "Description" tab, find the "Security groups" section and click "Edit security groups."
+* Choose the newly created security group and click "Save."
 ***
 
 # Best Practices
@@ -57,7 +72,7 @@ AWS Security Groups act as virtual firewalls for EC2 instances, controlling inbo
 ***
 
 # Conclusion
-
+This POC demonstrates the process of creating a Security Group in AWS for hosting Employee API. Adjustment of parameters and settings based on specific requirements and preferences could be made.
 ***
 
 # Contact Information
@@ -69,3 +84,4 @@ AWS Security Groups act as virtual firewalls for EC2 instances, controlling inbo
 # References
 | Source | Description  | 
 | -------- | ------- | 
+| https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API/README.md | Employee API |
