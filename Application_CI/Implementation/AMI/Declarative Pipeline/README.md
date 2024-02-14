@@ -196,7 +196,7 @@ build {
 
 ***
 
-<img width="681" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/d6a9678b-fdd5-4739-96bb-546f73a044d9">
+<img width="680" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/7a8bc54c-1e51-4e5b-9129-909b26a6c8fd">
 
 ***
 
@@ -213,46 +213,22 @@ pipeline {
     agent any
     
     environment {
-        AWS_ACCESS_KEY_ID = credentials('aws-credentials')
-        AWS_SECRET_ACCESS_KEY = credentials('aws-credentials')
-        PACKER_LOG = '1' // Set PACKER_LOG environment variable
+        AWS_ACCESS_KEY_ID     = credentials('credentials')
+        AWS_SECRET_ACCESS_KEY = credentials('credentials')
     }
     
     stages {
-        stage('Initialize Packer') {
-            steps {
-                dir('/home/shreya') {
-                    sh '/usr/bin/packer init .'
-                }
-            }
-        }
         stage('Build AMI') {
             steps {
                 script {
-                    try {
-                        sh "/usr/bin/packer build -var AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -var AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} /home/shreya/ami.pkr.hcl"
-                        currentBuild.result = 'SUCCESS'
-                    } catch (Exception e) {
-                        currentBuild.result = 'FAILURE'
-                        echo "AMI creation failed: ${e.message}"
-                        error("AMI creation failed: ${e.message}")
-                    }
+                    sh '/usr/bin/packer init /home/shreya/ami.pkr.hcl'
+                    sh '/usr/bin/packer build /home/shreya/ami.pkr.hcl'
                 }
             }
         }
     }
-    post {
-        always {
-            echo 'Pipeline completed.'
-        }
-        success {
-            echo 'AMI creation completed successfully.'
-        }
-        failure {
-            echo 'AMI creation failed.'
-        }
-    }
 }
+
 ```
 
 ***
