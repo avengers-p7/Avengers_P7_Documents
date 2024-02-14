@@ -59,7 +59,8 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 * Select Pipeline script from SCM.
 * Give required repo url and enter your credentials.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056570/09e9bce8-3572-4bc9-bc56-5d75419bd6c9)
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/2cf29533-0104-4cc1-bcfb-68228f9037fa)
+
 
 ### Build the Pipeline and View Build Console Output:
 
@@ -144,7 +145,4 @@ Declarative Pipeline simplifies Jenkins pipeline configuration, offering clarity
 
 |  **Description** |   **Source** |
 | ---------------- | ------------ |
-| About Jenkins Pipeline (Generic Document) | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md  ) |
-| Jenkinsfile | [Link](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/golang/Bug%20Analysis/Jenkinsfile) |
-| Scripted vs Declarative Pipelines | [Link](https://www.baeldung.com/ops/jenkins-scripted-vs-declarative-pipelines) |
-| Bug Analysis Introduction | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/05-
+| OWASP ZAP Integration | https://medium.com/globant/owasp-zap-integration-with-jenkins-795d65991404 |
