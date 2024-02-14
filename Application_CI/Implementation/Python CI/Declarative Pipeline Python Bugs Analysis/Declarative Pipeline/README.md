@@ -22,7 +22,7 @@
 ***
 ## Introduction
 
-Declarative Pipeline is a streamlined way to define Jenkins pipelines using a structured syntax within a pipeline {} block. It offers simplicity, readability, and built-in directives for defining stages, steps, and more. It integrates well with the Jenkins UI, provides pipeline visualization, and supports pipeline templates for code reuse. It's ideal for teams looking for a straightforward approach to CI/CD pipeline configuration.
+Declarative Pipeline is a streamlined way to define Jenkins pipelines using a structured syntax within a pipeline {} block. It offers simplicity, readability, and built-in directives for defining stages, steps, and more. It integrates well with the Jenkins UI, provides pipeline visualization, and supports pipeline templates for code reuse. It's ideal for teams looking for a straightforward approach to CI/CD pipeline configuration. Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
 
 ***
 ## Why Declarative Pipeline
@@ -46,7 +46,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 | Tool   | Description                          | Python3 Support | Purpose        |
 |--------|--------------------------------------|-----------------|----------------|
 | Bandit | A tool for bug analysis in Python   | Yes             | Python App     |
-
+| Jenkins | CICD Tool                          |                 |                 |
 ***
 ## Setup
 
@@ -74,8 +74,60 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Jenkinsfile
+pipeline {
+    agent any
+    
+    environment {
+        REPO_URL = 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout your code repository
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: "${REPO_URL}"]])
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                // Install necessary dependencies
+                script {
+                    sh 'python3 -m venv myenv'
+                    sh '. myenv/bin/activate'
+                }
+            }
+        }
+        
+        stage('Bugs Analysis - Bandit') {
+            steps {
+                script {
+                    try {
+                        // Ensure Bandit is installed and run the analysis
+                        sh 'bandit --version' // Check Bandit version to ensure it's installed
+                        sh 'bandit -r . -f json -o bandit_report.json'
+                    } catch (Exception e) {
+                        echo "Bugs analysis failed: ${e.message}"
+                    }
+                }
+            }
+        }
+    }
+    
+    post {
+        always {
+            // Publish Bandit report as post-build action
+            publishHTML(target: [
+                allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: '.',
+                reportFiles: 'bandit_report.json',
+                reportName: 'Bandit Security Report'
+            ])
+        }
+    }
+}
 
-* Cilck [**here**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Python/Declarative%20Pipeline%20Python%20Bugs%20Analysis/Jenkinsfile)
 
 ***
 ## Conclusion
