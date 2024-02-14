@@ -74,9 +74,20 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/28625f84-3ae7-45e3-8cea-d1d73daba895)
 
 3. **Create  token in Sonarqube and add in Jenkins Credentials**
-	- login to Sonarqube Server
- 	- 
-4. **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
+	- login to Sonarqube Server and
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/f01959ac-2a3a-4644-ba49-ea52e886f2db)
+
+	- click on `Update Tokens`
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/f2f5fcbd-15db-45f7-8e41-abcda2e21da3)
+
+ 	- give name of token , select no. of days and then genarate the token
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/8a0838e5-e186-4f2a-8a55-8151bad09958)
+
+  	- copy and keep your token
+     		![image](https://github.com/avengers-p7/Documentation/assets/156056444/511a3b73-922b-4277-b2a1-01d782609aca)
+     
+
+3. **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/1681289c-a3ef-4d6a-9e54-a2b2a948d660)
 
