@@ -30,7 +30,7 @@ Shared libraries are vital components in software development, offering reusable
 
 ***
 
-# Purpopse
+# Purpose
 
 The purpose of shared libraries is to promote modularity, code reuse, and efficient memory usage in software development. They allow developers to encapsulate common functionality into separate modules, which can be shared among multiple programs, thus streamlining development, enhancing maintainability, and reducing memory overhead.
 
