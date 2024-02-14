@@ -140,7 +140,7 @@ The global pipeline library configuration includes specifying the repository whe
 
 ***
 
-The **Behavior** section defines additional settings and behaviors related to the usage and behavior of the shared library within Jenkins pipelines.Choose **Filter by name (with wildcards)** for this and write **main**, rest of the configurations can be as it is.
+The **Behavior** section defines additional settings and behaviors related to the usage and behavior of the shared library within Jenkins pipelines.Choose **Filter by name (with wildcards)** for this and you can write the branch name **main** (in my case) in this section, rest of the configurations will be as it is.
 
 <img width="700" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/71897f4e-0ab3-4248-af83-d78557c7b535">
 
