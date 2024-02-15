@@ -10,7 +10,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Shared Library](#Why-Shared-Library)
-+ [Why use `src` folder structure in a Jenkins shared library](#Why-use-`src`-folder-structure-in-a-Jenkins-shared-library)
++ [Why use src folder structure in a Jenkins shared library](#Why-use-src-folder-structure-in-a-Jenkins-shared-library)
 + [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup of Unit Testing](#Setup-of-Unit-Testing-Via-Shared-Library)
