@@ -109,7 +109,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d2950e7f-0ff0-4a19-a83a-bce7594f6854)
 
 5. **Now Build your Pipeline**
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/d8540b7b-bc22-4831-be3f-bf81d74121ac)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/eeb86d8d-7011-4d38-8afc-c9eafa9892be)
 ***
 ## Results
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/a05f8611-6a83-48fa-a98a-61f2c6b2c6f6)
@@ -121,32 +121,45 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
 
 ```shell
-node {
-    try {
-    stage('GIT Checkout') {
-        checkout scm: [
-            $class: 'GitSCM',
-            branches: [[name: '*/main']],
-            userRemoteConfigs: [[url: 'https://github.com/OT-MICROSERVICES/salary-api.git']]
-        ]
+pipeline {
+    agent any
+
+    tools {
+       maven 'mvn'
     }
-    
-    stage('Compile') {
-        sh 'mvn clean compile'
-    }
-    stage('Static Code Analysis') {
-        withSonarQubeEnv(installationName: 'sq1') { 
-          sh './mvnw org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar'
+
+    stages {
+        stage("Git Checkout") {
+            steps {
+                script {
+                    git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/salary-api.git'
+                }
+            }
         }
-    }    
-    } catch (e) {
-        echo 'Static Code Analysis Failed'
-        cleanWs()
-        throw e
-    } finally {
-        def currentResult = currentBuild.result ?: 'SUCCESS'
-        if ((currentResult == 'UNSTABLE')||(currentResult == 'ABORTED')) {
-            cleanWs()
+        stage ('compile'){
+            steps{
+                sh 'mvn clean compile'
+                }
+        }
+
+        stage('Static Code Analysis') {
+            steps {
+                withSonarQubeEnv(installationName: 'sq1') { 
+                    sh './mvnw org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar'
+                }
+            }
+        }
+    }
+    post {
+        always {
+        // One or more steps need to be included within each condition's block.
+        cleanWs cleanWhenSuccess: false
+       }
+        success { 
+            echo 'Build Successfully !'
+        }
+        failure { 
+            echo 'Build Failed !'
         }
     }
 }
