@@ -16,9 +16,6 @@
 
 # Introduction
 This documentation aims to guide users in setting up Auto Scaling in AWS for better resource utilization and application availability. This POC covers the basic setup of Auto Scaling using the AWS Management Console.
-
-### Pre-requisites
-
 ***
 
 # Overview
@@ -42,6 +39,17 @@ Auto Scaling automatically adjusts the number of EC2 instances in a group based 
 ***
 
 # Setting Up Auto Scaling in AWS
+* Create a launch template for ASG
+* In the Auto Scaling Dashboard, click on the "Create Auto Scaling group" button
+* Choose either "Launch Template" or "Launch Configuration" to define the configuration of the instances in your Auto Scaling group.
+* Follow the on-screen instructions to configure your launch template or configuration.
+* Set the initial capacity, desired capacity, and maximum capacity for your group.
+* Choose the VPC and subnet for your instances.
+* Define scaling policies to specify when to scale out (add instances) or scale in (remove instances).
+* You can choose to use target tracking scaling policies, step scaling policies, or simple scaling policies.
+![Screenshot 2024-02-15 at 8 21 49 AM](https://github.com/avengers-p7/Documentation/assets/156056364/1189bf85-ce92-4f97-84df-4780a669453d)
+
+![Screenshot 2024-02-15 at 8 19 34 AM](https://github.com/avengers-p7/Documentation/assets/156056364/d5940dd4-e44c-4ca4-966b-9a054b2fa47e)
 
 ***
 
@@ -77,3 +85,4 @@ This POC documentation provides a basic guide for setting up and testing Auto Sc
 # References
 | Source | Description  | 
 | -------- | ------- | 
+| https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html | Auto scaling |
