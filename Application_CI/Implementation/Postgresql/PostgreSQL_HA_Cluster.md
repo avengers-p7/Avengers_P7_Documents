@@ -15,7 +15,6 @@
 + [Pre-requisites](#Pre-requisites)
 + [Port-Numbers](#Port-Numbers)
 + [Steps-to-setup-Cluster](#Steps-to-setup-Cluster)
-+ [Output Verification](#output-Verification)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
@@ -56,85 +55,110 @@ sudo apt update
 sudo apt upgrade
 ```
 
-**Step 3: Install PostgreSQL on all instances:**
+**Step 3: Edit all /etc/hosts For example for node1::**
 
 ```
-sudo apt-get install postgresql
+10.252.55.129  node1
+10.252.54.125  node2
+10.252.54.87   node3
+10.252.54.174  node4
+10.252.54.81   haproxy
 ```
-**Step 4: Configure PostgreSQL on all instances:**
+
+**Step 4: Install postgresql server software on node1,node2 and node3. Also stop postgresql service after installation:**
 * Edit the PostgreSQL configuration file
 
 ```
-  sudo nano /etc/postgresql/[POSTGRESQL_VERSION]/main/postgresql.conf
-```
-Uncomment or edit the following lines in the postgresql.conf file:
-```
-listen_addresses = '*'
-wal_level = replica
-max_wal_senders = 3
-wal_keep_size = 1GB
-```
-These settings configure PostgreSQL to listen on all available network interfaces, enable replication, set the maximum number of replication connections, and set the amount of storage to use for storing WAL (write-ahead logging) logs.
-
-* Edit the PostgreSQL authentication file:
-  
-After saving the postgresql.conf file, you need to edit another file in the same directory:
-
-```
-sudo nano /etc/postgresql/[POSTGRESQL_VERSION]/main/pg_hba.conf
-```
-POSTGRESQL_VERSION refers to your PostgreSQL version.
-
-* Add the following line to the pg_hba.conf file:
-
-```
-host replication replicator [SECOND_SERVER_IP]/32 trust
-```
-Replace SECOND_SERVER_IP with the IP address of the second server.
-This setting allows replication connections from the second server with the replicator role.
-
-* Restart PostgreSQL:
-```
-sudo systemctl restart postgresql
-```
-* Grant permissions to a replication role:
-```
-  sudo -u postgres psql
-  CREATE USER replicator REPLICATION LOGIN CONNECTION LIMIT 3 ENCRYPTED PASSWORD 'your_password';
-  \q
+sudo apt install postgresql postgresql-contrib -y
+sudo systemctl stop postgresql```
 ```
 
-**Step 5: Set up replication:**
-To set up a PostgreSQL cluster, you need to configure replication between the instances. You can use either logical replication or streaming replication. Logical replication allows you to replicate specific tables or databases, while streaming replication replicates the entire database. Here we used logical replication
-
-* Configure PostgreSQL replication
-  ```
-  sudo -u postgres psql
-  
-  CREATE USER replicator REPLICATION LOGIN CONNECTION LIMIT 3 ENCRYPTED PASSWORD 'your_password';
-
-  GRANT ALL PRIVILEGES ON DATABASE your_database TO replicator;
-
+**Step 6: Install patroni on node1,node2,node3**
+```
+sudo apt -y install python3-pip python3-dev libpq-dev
+pip3 install --upgrade pip
+sudo pip install patroni
+sudo pip install python-etcd
+sudo pip install psycopg2
 ```
 
+**Step 7  Configuration of patroni on node1 node 2 and node3:**
+Create /etc/patroni.yml and add below lines to patroni.yml
+```
+scope: postgres
+namespace: /db/
+name: node1
+restapi:
+  listen: 10.252.55.129:8008
+  connect_address: 10.252.55.129:8008
+etcd:
+  host: 10.252.54.174:2379
+bootstrap:
+  dcs:
+    ttl: 30
+    loop_wait: 10
+    retry_timeout: 10
+    maximum_lag_on_failover: 1048576
+    postgresql:
+    use_pg_rewind: true
+  initdb:
+    - encoding: UTF8
+    - data-checksums
+  pg_hba:
+    - host replication replicator   127.0.0.1/32 md5
+    - host replication replicator   10.252.55.129/0   md5
+    - host replication replicator   10.252.54.125/0   md5
+    - host replication replicator   10.252.54.87/0   md5
+    - host all all   0.0.0.0/0   md5
+  users:
+    admin:
+       password: admin
+       options:
+       - createrole
+       - createdb
+postgresql:
+   listen: 10.252.55.129:5432
+   connect_address: 10.252.55.129:5432
+   data_dir:     /data/patroni
+   pgpass:     /tmp/pgpass
+   authentication:
+    replication:
+      username:   replicator
+      password:     "A1qaz2wsx3edc"
+    superuser:
+      username:   postgres
+      password:     "B1qaz2wsx3edc"
+      parameters:
+      unix_socket_directories:  '.'
+tags:
+   nofailover:   false
+   noloadbalance:   false
+   clonefrom:   false
+   nosync:   false
+```
+**Step 6: Start patroni services on node1,node2,node3**
+```
+sudo systemctl daemon-reload
+sudo systemctl start patroni
+```
+
+In Below output we can see status of our PostgreSQL cluster. 
+
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/160b25ad-3dd6-43c9-98c2-4c0d5fea0a3a)
+
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/6922972a-32e0-4504-9380-e56d5c75fa42)
 
 
+# Conclusion
 
+This is a simplified guide, and the specific details may vary based on your operating system, PostgreSQL version, and the tools you choose.
 
-
-
-
-
-
-
-
-
-  
+Patroni is primarily responsible for managing the high availability aspects of PostgreSQL clusters, including automated failover and promotion of new primary nodes. However, Patroni itself does not handle logical replication directly. Logical replication is a feature provided by PostgreSQL itself.
 
 
 # Contact Information
 
-|  Name                     |        	Email Address         |
+|  Name                     |        	Email Address           |
 | ------------              | --------------------------------|
 | Vikram Bisht              |  Vikram.Bisht@opstree.com       |  
 
@@ -142,11 +166,6 @@ To set up a PostgreSQL cluster, you need to configure replication between the in
 
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
-| Ansible documentation           | https://docs.ansible.com/ansible/latest/index.html    |
-| PostgreSQL Document             |  [Link](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md) |
-| Ansible Dynamic Inventory       | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
-
-
-
-
+| PostgreSQL documentation                   | https://docs.ansible.com/ansible/latest/index.html    |
+| PostgreSQL Cluster                         |  [Link](https://medium.com/@murat.bilal/setting-up-a-postgresql-ha-cluster-0a4348fca444) |
 
