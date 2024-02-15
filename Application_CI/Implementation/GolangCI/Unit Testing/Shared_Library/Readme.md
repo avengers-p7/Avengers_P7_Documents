@@ -55,11 +55,11 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 ## Setup of Unit Testing Via Shared Library
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
 
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/f54f9642-ca41-40f8-a1d1-35f32a21b76f"> 
+  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/a99fcf03-49a6-4c8e-a8d6-dd44770bd2e1"> 
 
 * Console Output:
 
-   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/d531398f-e27f-4ec2-a5d0-fa9a427294f7"> 
+   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/fa188849-d018-402f-87be-04596dc74c7e"> 
 
 
 > [!NOTE]
@@ -76,74 +76,40 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 ## Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Golang/UnitTesting/Jenkinsfile)
   ```shell
-  @Library('snaatak-p7') _
+@Library('snaatak-p7') _
+def golangUnitTesting = new org.avengers.template.GolangUnitTesting()
 
-pipeline {
-    agent any
+node {
     
-    stages {
-        stage('Install Go') {
-            steps {
-                script{
-                    golangUnitTesting.installgo()
-                }
-            }
-        }
-        stage('Checkout') {
-            steps {
-                gitCheckoutPrivate(branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git', credentialsId: 'vishal-cred')
-            }
-        }
-        stage('Testing') {
-            steps {
-                script{
-                    golangUnitTesting.testing()
-                }
-            }
-        }
-        stage('Generate HTML Report') {
-            steps {
-                script{
-                    golangUnitTesting.html()
-                }
-            }
-        }
-    }
+    def url = 'https://github.com/OT-MICROSERVICES/employee-api.git'
+    def creds = 'vishal-cred'
+    def branch = 'main'
+    
+    golangUnitTesting.call(url, creds, branch)
+    
 }
-```
+``` 
 ## Shared Library
   * [**gitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/gitCheckoutPrivate.groovy)
   ```shell
-// Checkout Github Private Repository
-// vars/gitCheckoutPrivate.groovy
-def call(Map config = [:]) {
-    checkout scm: [
-        $class: 'GitSCM',
-        branches: [[name: config.branch]],
-        userRemoteConfigs: [[url: config.url, credentialsId: config.credentialsId]]
-    ]
-}
-```
-  * [**golangUnitTesting.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/golangUnitTesting.groovy)
-  ```shell
-// vars/golangUnitTesting.groovy
-  def installgo(){
-  // Update apt packages
-  sh 'sudo apt update' 
-  // Install Go using snap
-  sh 'sudo snap install go --classic'  
-}
+//src/org/avengers/template/GolangUnitTesting.groovy
+package org.avengers.template
 
-def testing(){
-  // Run go test and ignore errors
-  sh 'go test ./... || true'
-}
+import org.avengers.common.*
+import org.avengers.golang.unitTesting.*
 
-def html(){
-  // Run gotest with specify the output format and generate HTML Report
-  sh 'go test ./... -coverprofile=coverage.out || true'
-  sh 'go tool cover -html=coverage.out -o coverage.html || true'
+def call(String url, String creds, String branch){
+  installGo = new InstallGo()
+  gitCheckoutPrivate = new GitCheckoutPrivate()
+  testing = new Testing()
+  report = new Report()
+
+  installGo.call()
+  gitCheckoutPrivate.call(url, creds, branch)
+  testing.call()
+  report.call()
 }
+  
 ```
 ***
 ## Conclusion
