@@ -105,19 +105,17 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/d2950e7f-0ff0-4a19-a83a-bce7594f6854)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/5d842741-eb88-45ee-a9b5-15ed45f77fa0)
 
 5. **Now Build your Pipeline**
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/ef7acca1-6e0d-4fc3-bfff-11b71a420dc3)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/26ddba41-4938-44cf-a123-d6cdc5a865ec)
 ***
 ## Results
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/9fb6a3d9-3e72-46b4-97ef-07e318160d9b)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/3fa80cf2-b016-4325-9886-c0987ccd645e)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/a05f8611-6a83-48fa-a98a-61f2c6b2c6f6)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/2ff278f8-f28b-465a-87c7-d2feff9fd24b)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/e8751504-60c4-45dc-ba2e-7a2d5ebfd465)
-
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/f4125de1-17c7-4252-8e56-8b8fb09d986a)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/651ec2fb-ec1a-425a-8ded-69063105ed54)
 
 ***
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
