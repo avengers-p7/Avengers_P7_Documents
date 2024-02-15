@@ -53,6 +53,7 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 | **Compatibility with IDEs**   | Standard project structures, such as a `src` folder, improve compatibility with integrated development environments (IDEs), enabling features like code navigation and auto-completion. |
 | **Readability and Maintainability** | A well-organized structure enhances readability and maintainability by making it easier for developers to understand the codebase's layout and locate relevant files efficiently. |
 
+***
 ## Flow Diagram  
 ![Screenshot from 2024-02-10 12-24-04](https://github.com/avengers-p7/Documentation/assets/156056413/a5324c1b-68c8-447c-9299-dcf28c6870d2)
 
