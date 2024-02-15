@@ -117,7 +117,7 @@ def call(String url, String creds, String branch) {
     }
 }
 ```
-  * [**InstallationPreRequisites.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/GolangBugAnalysis.groovy)
+  * [**InstallationPreRequisites.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/golang/bugAnalysis/InstallationPreRequisites.groovy)
   ```shell
 //src/org/avengers/golang/bugAnalysis/InstallationPreRequisites.groovy
 
