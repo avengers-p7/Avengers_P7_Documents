@@ -7,6 +7,8 @@
 
 # Table of Contents
 - [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#introduction)
+- [What is Commit Sign-Off](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#what-is-commit-sign-off)
+- [Why](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#why)
 - [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#pre-requisites)
 - [Commit Sign-off Setup](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#commit-sign-off-setup)
 - [Conclusion](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#conclusion)
