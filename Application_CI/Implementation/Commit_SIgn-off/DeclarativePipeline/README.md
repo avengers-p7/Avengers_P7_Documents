@@ -14,8 +14,20 @@
 - [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/DeclarativePipeline/README.md#resources-and-references)
 
 # Introduction
-This refers to a way of defining automated workflows (pipelines) using code that describes the desired state of the system, rather than specific instructions on how to achieve it.
+Declarative Pipelines refers to a way of defining automated workflows (pipelines) using code that describes the desired state of the system, rather than specific instructions on how to achieve it.
 In software development, a commit represents a snapshot of changes made to code files in a version control system like Git. This usually refers to a process where a developer indicates they have reviewed and approved the changes in a commit.
+
+# What is Commit Sign-Off
+A commit sign-off is a line added to the end of a commit message in a version control system, like Git, to indicate that the contributor:
+
+- Takes responsibility for the changes introduced in the commit. This means they confirm that they authored the code, have the necessary permissions to contribute it, and it adheres to the project's guidelines and coding style.
+- Agrees to the project's licensing terms. By signing off, the contributor confirms that they have the right to license the code under the project's chosen license.
+
+# Why 
+The purpose of a Signed-off-by trailer in Git is:-
+- Improved accountability: Sign-offs make it clear who is responsible for each change in the codebase, which can be helpful for debugging and tracking down issues.
+- Encourages code ownership: By requiring sign-offs, projects can encourage contributors to take ownership of their code and ensure that it meets the project's standards.
+
 
 # Pre-requisites
 | Item         | Version   |
