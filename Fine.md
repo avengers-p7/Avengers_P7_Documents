@@ -44,6 +44,8 @@
 | Sameer    | 6 Feb,   | Staus mail  | 2    | 05     |
 | Date      | 13 Feb   |  |     |      |
 | Sameer    | 13 Feb   | Staus mail,Morning call  | 2    |   10   |
-| Khushi    | 13 Feb   | Morning Call,status mail | 2    |  10    |
+| Khushi    | 13 Feb   | status mail | 1    |  05    |
 | Nidhi    | 13 Feb   | Morning Call,status mail | 1    |  05    |
+| Date      | 14 Feb   | Status Mail(Blog Link) |  1   |   05   |
+
 
