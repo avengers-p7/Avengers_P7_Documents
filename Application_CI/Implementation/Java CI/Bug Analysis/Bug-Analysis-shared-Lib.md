@@ -87,13 +87,14 @@ Based on the console output provided below, we can infer that there are a few bu
 ***
 
 # HTML Report
+
  * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/spotbugHtmlReports/spotbugs.html)
 
 ***
 # Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Java/BugAnalysis/Jenkinsfile)
-  ```shell
 
+  
  ```shell
 @Library('my-shared-library') _
 
@@ -127,8 +128,8 @@ pipeline {
 ```
 # Shared Library
 
-```
-    [**javaBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/javaBugAnalysis.groovy)
+[**javaBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/javaBugAnalysis.groovy)
+
   ```shell
 def checkoutStage() {
     stage("Git Checkout") {
