@@ -25,6 +25,8 @@
 ***
 # Introduction
 Testing individual units or components of a software program is a vital part of the software development process, ensuring that each part performs as intended. In this context, we utilize the pytest framework to create [unit tests,](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/UnitTesting.md) validating the functionality of specific components. This practice contributes to verifying the overall correctness and reliability of a software application. For detailed understanding on Jenkins Pipeline click [here](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md).
+![Screenshot 2024-02-15 at 11 24 25 PM](https://github.com/avengers-p7/Documentation/assets/156056364/b8922bdd-82eb-41ec-8b7a-ad4a5159b077)
+
 ***
 
 # Pre-requisites
