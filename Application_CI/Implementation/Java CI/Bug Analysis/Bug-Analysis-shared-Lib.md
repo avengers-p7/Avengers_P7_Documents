@@ -190,9 +190,9 @@ def call() {
 }
 
 ```
-```shell
+[**cleanWorkspace.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/cleanWorkspace.groovy)
 
-[**htmlReport.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/cleanWorkspace.groovy)
+```shell
 
 // Will not clean workspace if build is Sucessful and vice versa
 def call() {
