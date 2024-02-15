@@ -16,9 +16,10 @@
 
 1. [Introduction](#Introduction)
 2. [How to Install PostgreSQL](#How-to-Install-PostgreSQL)
-3. [Conclusion](#conclusion)
-4. [Contact Information](#contact-information)
-5. [References](#References)
+3. [Cluster-setup](#Cluster-setup)
+4. [Conclusion](#conclusion)
+5. [Contact Information](#contact-information)
+6. [References](#References)
 
 
 # Introduction
@@ -30,6 +31,9 @@ To know more about PostgreSQL please follow this **[Link](https://github.com/ave
 # How to Install PostgreSQL
 For PostgreSQL please follow this **[Link](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md)**
 
+
+# Cluster Setup
+For Cluster Setup please follow this **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Postgresql/PostgreSQL_HA_Cluster.md)**
 
 # Conclusion
 Congratulations! You have successfully installed and configured PostgreSQL on your system. 
@@ -46,3 +50,4 @@ Congratulations! You have successfully installed and configured PostgreSQL on yo
 |  Source                                                                                 |        Description      |
 | ------------                                                                            | ----------------------- |
 |  **[Link](https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Software/PostgresSQL/README.md)**                                               | PostgreSQL Installation Documentation    |  
+| **[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Postgresql/PostgreSQL_HA_Cluster.md)**     | Cluster Setup   |  
