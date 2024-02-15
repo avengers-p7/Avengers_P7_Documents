@@ -125,22 +125,24 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 ```shell
 node {
     try {
-        stage('Checkout GIT') {
-            checkout scm: [
-                $class: 'GitSCM',
-                branches: [[name: '*/main']],
-                userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']]
-            ]
-            sh 'ls $WORKSPACE/'
+    stage('GIT Checkout') {
+        checkout scm: [
+            $class: 'GitSCM',
+            branches: [[name: '*/main']],
+            userRemoteConfigs: [[url: 'https://github.com/OT-MICROSERVICES/salary-api.git']]
+        ]
+    }
+    
+    stage('Compile') {
+        sh 'mvn clean compile'
+    }
+    stage('Static Code Analysis') {
+        withSonarQubeEnv(installationName: 'sq1') { 
+          sh './mvnw org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar'
         }
-        
-        stage('Starting Code Compilation') {
-            echo 'Starting Java Code Compilation..........'
-            sh 'mvn clean compile'
-        }
-        echo 'Compiled Successfully'
+    }    
     } catch (e) {
-        echo 'Compilation Failed'
+        echo 'Static Code Analysis Failed'
         cleanWs()
         throw e
     } finally {
