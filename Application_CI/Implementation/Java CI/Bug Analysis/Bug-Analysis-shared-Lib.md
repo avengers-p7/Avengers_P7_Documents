@@ -210,4 +210,4 @@ The Jenkins Shared Library streamlines CI/CD processes by allowing teams to shar
 |       **Description**                                   |           **References**                    |
 |---------------------------------------------------------|-----------------------------------------------|
 | Jenkins Pipeline     | [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/) |
-| Bug Analysis Setup via Shared Library* |[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)|
+| Bug Analysis Setup via Shared Library |[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)|
