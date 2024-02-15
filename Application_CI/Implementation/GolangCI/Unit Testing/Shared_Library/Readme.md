@@ -148,7 +148,7 @@ def call() {
     }
 }
 ```
-  * [**GolangUnitTesting.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/gitCheckoutPrivate.groovy)
+  * [**GolangUnitTesting.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/GolangUnitTesting.groovy)
   ```shell
 //src/org/avengers/template/GolangUnitTesting.groovy
 package org.avengers.template
