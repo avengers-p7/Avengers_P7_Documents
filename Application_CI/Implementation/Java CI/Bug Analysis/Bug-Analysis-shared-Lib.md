@@ -131,13 +131,14 @@ post {
         cleanWorkspace()
        }
         success { 
-            echo 'Compiled Successfully !'
+            echo 'Job Run Successfully !'
         }
         failure { 
-            echo 'Compilation Failed !'
+            echo 'Job Failed !'
         }
     }
 }
+
         
 ```
 # Shared Library
@@ -161,13 +162,9 @@ def call(Map config = [:]) {
   ```shell
 
 def call() {
-    stage("Bug Analysis") {
-        steps {
             sh 'mvn compile'
             sh 'mvn spotbugs:spotbugs'
             sh 'mvn site'
-        }
-    }
 }
 ```
 [**javaBugHtmlReport.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/javaBugHtmlReport.groovy)
@@ -175,8 +172,6 @@ def call() {
   ```shell
 
 def call() {
-    stage('Publish HTML Report') {
-        steps {
             publishHTML(target: [
                 allowMissing: false,
                 alwaysLinkToLastBuild: true,
@@ -185,8 +180,6 @@ def call() {
                 reportFiles: 'spotbugs.html',
                 reportName: 'SpotBugs Report'
             ])
-        }
-    }
 }
 
 ```
