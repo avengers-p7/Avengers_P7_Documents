@@ -2,7 +2,7 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Parasharam Desai** | 07-02-2024 | 07-02-2024 | V1 |
+| **Parasharam Desai** | 15-02-2024 | 15-02-2024 | V1 |
 
 ***
 ## Table of Contents
@@ -83,61 +83,62 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
   ```shell
 
  ```shell
-@Library('my-shared-library') _
-
+@Library("my-shared-library") _
 pipeline {
     agent any
-    
+
     stages {
-        stage('Checkout') {
+        stage('GIT Checkout') {
             steps {
-                script {
-                    // Call the checkoutStage function from the shared library
-                    javaUnitTesting.checkoutStage()
-                }
+                gitCheckout(branch: "main", url: "https://github.com/Parasharam-DevOps/salary-api.git"  )
+
             }
         }
-        
-        stage('Test') {
-            steps {
-                script {
-                    // Call the testStage function from the shared library
-                    javaUnitTesting.testStage()
-                }
+        stage('Compile'){
+            steps{
+                javaUnitTesting()
             }
         }
     }
+post {
+        always {
+        // One or more steps need to be included within each condition's block.
+        cleanWorkspace()
+       }
+        success { 
+            echo 'Job Run Successfully !'
+        }
+        failure { 
+            echo 'Job Failed !'
+        }
+    }
 }
-
         
 ```
 # Shared Library
 
-```
-    [**javaBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/javaUnitTesting.groovy)
+[**gitCheckout.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/gitCheckout.groovy)
 
   ```shell
-// Define the function for the Checkout stage
-def checkoutStage() {
-    return {
-        stage("Checkout") {
-            steps {
-                git branch: 'main', url: 'https://github.com/Parasharam-DevOps/salary-api.git'
-            }
-        }
-    }
+// Checkout Github Public Repository
+def call(Map config = [:]) {
+            checkout scm: [
+                $class: 'GitSCM',
+                branches: [[name: config.branch]],
+                userRemoteConfigs: [[url: config.url]]
+            ]
 }
 
+```
+[**javaUnitTesting.groovy**]https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/javaUnitTesting.groovy)
+
+ ```shell
+
 // Define the function for the Test stage
-def testStage() {
-    return {
-        stage("Test") {
+def call() {
             steps {
                 echo "Executing Java Unit Testing"
                 sh 'mvn test'
-            }
-        }
-    }
 }
 
 ```
