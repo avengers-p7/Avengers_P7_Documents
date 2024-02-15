@@ -58,7 +58,7 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 |**Sonarque Scanner Plugin**| To integrate Jenkins with Sonarqube |
 ***
 ## Flow Diagram
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/40a61172-8415-45b7-8c14-e9b947b7e968)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/ad92496d-4b84-481f-94d8-0b8cd8f6e944)
 ***
 ## Pipeline Setup
 
