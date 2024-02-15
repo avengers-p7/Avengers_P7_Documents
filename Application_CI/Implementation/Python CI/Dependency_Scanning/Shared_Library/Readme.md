@@ -92,6 +92,20 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Python/DependencySacnning/Jenkinsfile)
   ```shell
 
+@Library('snaatak-p7') _
+def pythonDependencyScanning = new org.avengers.template.PythonDependencyScanning()
+
+node {
+    
+    def url = 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+    def creds = 'vishal-cred'
+    def branch = 'main'
+    def depVersion = '9.0.9'
+    def javaVersion = '17'
+    
+    pythonDependencyScanning.call(url, creds, branch, depVersion, javaVersion)
+    
+}
 ```
 ## Shared Library
    * [**GitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/common/GitCheckoutPrivate.groovy)
@@ -107,17 +121,48 @@ def call(String url, String creds, String branch) {
     }
 }
 ```
-  * [****]()
+  * [**JavaDownload.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/common/JavaDownload.groovy)
   ```shell
+//src/org/avengers/common/JavaDownload.groovy
+package org.avengers.common
 
+def call(String javaVersion) {
+    stage('Install Java') {
+        script {
+            sh "sudo apt update && sudo apt install -y openjdk-${javaVersion}-jdk"
+        }
+    }
+}
 ```
-  * [****](
+  * [**DownloadDependencyCheck.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/python/dependencyScanning/DownloadDependencyCheck.groovy)
   ```shell
-
+//src/org/avengers/python/dependencyScanning/DownloadDependencyCheck.groovy
 ```
-  * [****]()
+  * [**DependencyCheck.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/python/dependencyScanning/DependencyCheck.groovy)
   ```shell
+//src/org/avengers/python/dependencyScanning/DependencyCheck.groovy
+package org.avengers.python.dependencyScanning
 
+def call() {
+    stage('Run Dependency Check') {
+        script {
+           sh "dependency-check/bin/dependency-check.sh --scan /var/lib/jenkins/workspace/ --out dep-check.html"
+        }
+    }
+}
+```
+  * [**Clean.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/python/dependencyScanning/Clean.groovy)
+  ```shell
+//src/org/avengers/python/dependencyScanning/Clean.groovy
+package org.avengers.common
+
+def call(String javaVersion) {
+    stage('Install Java') {
+        script {
+            sh "sudo apt update && sudo apt install -y openjdk-${javaVersion}-jdk"
+        }
+    }
+}
 ```
   * [**PythonDependencyScanning.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/PythonDependencyScanning.groovy)
   ```shell
