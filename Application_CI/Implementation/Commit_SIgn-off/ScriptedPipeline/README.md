@@ -20,7 +20,11 @@ In a Jenkins scripted pipeline, enforcing commit sign-off means that before allo
 |--------------|-----------|
 | Jenkins      | 2.426.3   |
 
+
 # Commit Sign-off Setup
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/82178e3b-9ce1-416e-8d66-dc22dca169c8)
+
 **Step-1** Create a New Pipeline Job
 
 - Navigate to the Jenkins dashboard and click on New Item.
