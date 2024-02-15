@@ -58,7 +58,7 @@ There are various unit testing frameworks available for different programming la
 
 # Proof of Concept (POC) for Java Base Application
 
-For a detailed proof of concept (POC) related to Java unit testing, please refer to [Unit Testing POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit-Testing-Poc.md).
+For a detailed proof of concept (POC) related to Java unit testing, please refer to [Unit Testing POC](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/POC.md).
 
 ---
 
