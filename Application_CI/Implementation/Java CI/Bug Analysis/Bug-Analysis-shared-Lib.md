@@ -19,7 +19,7 @@
 + [Resources and References](#Resources-and-References)
   
 ***
-## Introduction
+# Introduction
 
  <img width="360" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/f94f127a-d207-4c76-bc32-d25e4fe48280"> 
 
@@ -27,7 +27,7 @@ A Jenkins Shared Library is a collection of reusable code that facilitates the s
 About more information [**Click Here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/README.md)
 
 ***
-## Why Shared Library
+# Why Shared Library
 | Advantage          | Description                                                                                                                                                          |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Reusability**        | Shared Libraries allow teams to write code once and reuse it across multiple pipelines. This reduces duplication of effort and promotes consistency in the CI/CD process. |
@@ -78,17 +78,19 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
 
 
-* Console Output:
+# Console Output:
+
+Based on the console output provided below, we can infer that there are a few bugs present
 
 
 
 ***
 
-## HTML Report
+# HTML Report
  * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/spotbugHtmlReports/spotbugs.html)
 
 ***
-## Jenkinsfile
+# Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Java/BugAnalysis/Jenkinsfile)
   ```shell
 
@@ -123,7 +125,7 @@ pipeline {
 }
         
 ```
-## Shared Library
+# Shared Library
 
 ```
     [**javaBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/javaBugAnalysis.groovy)
@@ -163,22 +165,10 @@ def htmlReportStage() {
 
 ```
 ***
-## Conclusion
+# Conclusion
 The Jenkins Shared Library streamlines CI/CD processes by allowing teams to share reusable code and logic across various pipelines. It standardizes workflows, minimizes duplication, and ensures consistency. With abstracted complex tasks into reusable functions, it simplifies maintenance and fosters collaboration among teams. By promoting best practices and enabling version control, it enhances the efficiency and reliability of the CI/CD process, accessible even without Jenkins admin access.
 
 ***
-
-
-**6. Evaluate Output: Based on the console output provided below, we can infer that there are a few bugs present**
-
-
-***
-
-# Conclusion
-
-This pipeline will clone your source code repository, compile the project using Maven, and conduct bug scanning.
-
-
 # Contact Information
 
 |    Name                                   | Email Address                    |
