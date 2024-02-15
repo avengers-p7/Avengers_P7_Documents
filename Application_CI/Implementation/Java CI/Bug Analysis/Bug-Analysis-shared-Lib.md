@@ -2,10 +2,10 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Parasharam Desai** | 07-02-2024 | 07-02-2024 | V1 |
+| **Parasharam Desai** | 15-02-2024 | 15-02-2024 | V1 |
 
 ***
-## Table of Contents
+# Table of Contents
 + [Introduction](#Introduction)
 + [Why Shared Library](#Why-Shared-Library)
 + [Flow Diagram](#Flow-Diagram)
@@ -17,6 +17,7 @@
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [Resources and References](#Resources-and-References)
+
   
 ***
 # Introduction
@@ -39,7 +40,7 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 | **Ease of Maintenance** | As the Jenkins Shared Library is maintained separately from individual pipelines, updates and bug fixes can be implemented without impacting the pipelines directly. |
 
 ***
-# Prerequisites
+# Pre-requisites
 
 | **Jenkins (2.426.3)** | Enables Continuous Integration |
 | ---------------- | -------------------- |
@@ -104,23 +105,36 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    javaBugAnalysis.checkoutStage()
+                    gitCheckout()
                 }
             }
         }
         stage('Bug Analysis') {
             steps {
                 script {
-                    javaBugAnalysis.bugAnalysisStage()
+                    bugAnalysis()
                 }
             }
         }
         stage('Publish HTML Report') {
             steps {
                 script {
-                    javaBugAnalysis.htmlReportStage()
+                    htmlReport()
                 }
             }
+        }
+    }
+}
+post {
+        always {
+        // One or more steps need to be included within each condition's block.
+        cleanWorkspace()
+       }
+        success { 
+            echo 'Compiled Successfully !'
+        }
+        failure { 
+            echo 'Compilation Failed !'
         }
     }
 }
@@ -128,18 +142,25 @@ pipeline {
 ```
 # Shared Library
 
-[**javaBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/javaBugAnalysis.groovy)
+[**gitCheckout.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/gitCheckout.groovy)
 
   ```shell
-def checkoutStage() {
-    stage("Git Checkout") {
-        steps {
-            git branch: 'main', url: 'https://github.com/Parasharam-Desai/salary-api.git'
-        }
-    }
+
+// Checkout Github Public Repository
+def call(Map config = [:]) {
+            checkout scm: [
+                $class: 'GitSCM',
+                branches: [[name: config.branch]],
+                userRemoteConfigs: [[url: config.url]]
+            ]
 }
 
-def bugAnalysisStage() {
+```
+[**bugAnalysis.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/gitCheckout.groovy)
+
+  ```shell
+
+def call() {
     stage("Bug Analysis") {
         steps {
             sh 'mvn compile'
@@ -148,8 +169,12 @@ def bugAnalysisStage() {
         }
     }
 }
+```
+[**htmlReport.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/gitCheckout.groovy)
 
-def htmlReportStage() {
+  ```shell
+
+def call() {
     stage('Publish HTML Report') {
         steps {
             publishHTML(target: [
@@ -162,6 +187,16 @@ def htmlReportStage() {
             ])
         }
     }
+}
+
+```
+```shell
+
+[**htmlReport.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/cleanWorkspace.groovy)
+
+// Will not clean workspace if build is Sucessful and vice versa
+def call() {
+  cleanWs cleanWhenSuccess: false
 }
 
 ```
