@@ -105,6 +105,128 @@ CLB offers a simple and easy-to-use load balancing solution, but it lacks some o
 
 
 
+# Steps to configure an Application load balancer in AWS
+
+
+Step 1: Launch the two instances on the AWS management console named Dev A and Dev B. Go to services and select the load balancer.
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/4c19d2e8-5419-4246-ba1c-a59d0c13ba37)
+
+
+
+Step 2: Click on Create the load balancer.
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/f4e6bddf-eb7f-4eb5-898e-1435ed20455b)
+
+
+Step 3: Select Application Load Balancer and click on Create.
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/2ab09578-bc24-4427-aafa-6e2051d1b476
+
+
+
+
+
+
+Step 4: Here you are required to configure the load balancer. Write the name of the load balancer. Choose the scheme as internet facing.
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/bbcdee5e-e000-40a7-b017-ae3feda25c51)
+
+
+
+
+
+ Step 5: Add at least 2 availability zones. Select eu-north-1a and eu-north-1b
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ab580dd7-c0f8-4f53-ac0b-466445ffef68)
+
+
+
+
+Step 6: We don’t need to do anything here. Click on Next: Configure Security Groups
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/cd8fdefe-2c54-4528-a37c-f750dd57c92b)
+
+
+
+Step 7: Select the default security group. Click on Next: Configure Routing
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/494b8916-fe03-4784-aebe-05008f7ded41)
+
+
+
+Step 8: Choose the name of the target group to be my target group. Click on Next: Register Targets.
+
+
+
+
+![Screenshot from 2024-02-15 21-52-45](https://github.com/avengers-p7/Documentation/assets/156644891/9fe11b2a-3313-4b63-92ea-1d24721b6435)
+
+
+
+
+Step 9: Choose Dev A and  Dev B and click on Add to register. Click on Next: Review.
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/337d1a06-dab1-430c-a1cd-231d02b49f7e)
+
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/51f7f645-192e-4af8-9b5e-30932f6af1c1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
