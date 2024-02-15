@@ -89,7 +89,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ***
 ## Jenkinsfile
-  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Golang/BugAnalysis/Jenkinsfile)
+  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Java/BugAnalysis/Jenkinsfile)
   ```shell
 
  ```shell
@@ -121,15 +121,12 @@ pipeline {
         }
     }
 }
-
-
-    
         
 ```
 ## Shared Library
 
 ```
-    [**javaBugAnalysis.groovy**]()
+    [**javaBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/javaBugAnalysis.groovy)
   ```shell
 def checkoutStage() {
     stage("Git Checkout") {
@@ -194,8 +191,4 @@ This pipeline will clone your source code repository, compile the project using 
 |       **Description**                                   |           **References**                    |
 |---------------------------------------------------------|-----------------------------------------------|
 | Jenkins Pipeline     | [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/) |
-| Using Spotbug Plugins                 | [Spotbugs Maven Plugin Documentation](https://spotbugs.readthedocs.io/en/latest/maven.html) |
-| Guide to use SpotBugs           | [SpotBugs Maven Configuration Guide](https://github.com/find-sec-bugs/find-sec-bugs/wiki/Maven-configuration) |
-| Jenkinsfile Code          | [SJenkinsfile](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/BugAnalysis/Jenkinsfile) |
-|Pipeline Generic Doc|[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)|
-| Set up Jenkins Pipeline job & Configure your pipeline |[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)|
+| Bug Analysis Setup via Shared Library* |[Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)|
