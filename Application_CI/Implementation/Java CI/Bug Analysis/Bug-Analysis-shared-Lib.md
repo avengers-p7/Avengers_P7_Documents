@@ -156,7 +156,7 @@ def call(Map config = [:]) {
 }
 
 ```
-[**bugAnalysis.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/gitCheckout.groovy)
+[**javaBugAnalysis.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/javaBugAnalysis.groovy)
 
   ```shell
 
@@ -170,7 +170,7 @@ def call() {
     }
 }
 ```
-[**htmlReport.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/gitCheckout.groovy)
+[**javaBugHtmlReport.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/javaBugHtmlReport.groovy)
 
   ```shell
 
