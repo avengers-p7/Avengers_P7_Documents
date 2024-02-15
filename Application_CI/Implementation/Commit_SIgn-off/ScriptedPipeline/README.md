@@ -1,4 +1,4 @@
-# Scripted Pipeline-Commit SIgn-off
+# Scripted Pipeline Commit Sign-off
 
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
@@ -9,6 +9,7 @@
 - [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#pre-requisites)
 - [Commit Sign-off Setup](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#commit-sign-off-setup)
 - [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#contact-information)
+- [Conclusion](
 - [Resources and References](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Commit_SIgn-off/ScriptedPipeline/README.md#resources-and-references)
 
 # Introduction
@@ -103,6 +104,9 @@ node {
 | Name            | Email Address                        |
 |-----------------|--------------------------------------|
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
+
+# Conclusion
+In conclusion, implementing a scripted pipeline commit sign-off process can greatly enhance the reliability and security of software development projects. By requiring developers to sign off on their commits through a scripted pipeline, teams can ensure that each code change undergoes thorough review and validation before being merged into the main codebase. This not only helps in maintaining code quality and consistency but also reinforces accountability among team members.
 
 # Resources and References 
 [JenkinsPipeline](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md)
