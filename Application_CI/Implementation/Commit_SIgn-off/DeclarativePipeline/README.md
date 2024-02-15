@@ -23,6 +23,9 @@ In software development, a commit represents a snapshot of changes made to code 
 | Jenkins      | 2.426.3   |
 
 # Commit Sign-off Setup
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/41bfd967-03e5-4379-a05c-be1439a1ce6e)
+
 **Step-1** Create a New Pipeline Job
 
 - Navigate to the Jenkins dashboard and click on New Item.
