@@ -1,4 +1,4 @@
-# Proof of Concept (POC) for Java Base Application
+# Proof of Concept (POC) for Java Unit Testing
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
