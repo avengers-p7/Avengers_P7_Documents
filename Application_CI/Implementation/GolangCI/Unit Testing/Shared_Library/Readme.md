@@ -90,7 +90,65 @@ node {
 }
 ``` 
 ## Shared Library
-  * [**gitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/gitCheckoutPrivate.groovy)
+  * [**GitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/common/GitCheckoutPrivate.groovy)
+  ```shell
+//src/org/avengers/common/GitCheckoutPrivate.groovy
+package org.avengers.common
+
+def call(String url, String creds, String branch) {
+    stage('Clone') {
+        script {
+            git branch: "${branch}", credentialsId: "${creds}", url: "${url}"
+        }
+    }
+}
+```
+  * [**InstallGo.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/golang/unitTesting/InstallGo.groovy)
+  ```shell
+//src/org/avengers/golang/unitTesting/InstallGo.groovy
+package org.avengers.golang.unitTesting
+
+def call() {
+    stage('Install Go') {
+        script {
+            // Update apt packages
+            sh 'sudo apt update'
+            // Install Go using snap
+            sh 'sudo snap install go --classic'
+        }
+    }
+}
+```
+  * [**Report.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/golang/unitTesting/Report.groovy)
+  ```shell
+//src/org/avengers/golang/unitTesting/Report.groovy
+package org.avengers.golang.unitTesting
+
+def call() {
+    stage('Generate HTML Report') {
+        script {
+              // Run gotest with specify the output format and generate HTML Report
+              sh 'go test ./... -coverprofile=coverage.out || true'
+              sh 'go tool cover -html=coverage.out -o coverage.html || true'
+        }
+    }
+}
+```
+  * [**Testing.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/golang/unitTesting/Testing.groovy)
+  ```shell
+//src/org/avengers/golang/unitTesting/Testing.groovy
+package org.avengers.golang.unitTesting
+
+def call() {
+    stage('Testing') {
+        script {
+             // Run go test and ignore errors
+             sh 'go test ./... || true'
+        }
+    }
+}
+```
+  * [**GolangUnitTesting.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/gitCheckoutPrivate.groovy)
   ```shell
 //src/org/avengers/template/GolangUnitTesting.groovy
 package org.avengers.template
