@@ -91,82 +91,41 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Golang/BugAnalysis/Jenkinsfile)
   ```shell
 
-@Library('snaatak-p7') _
 
-pipeline {
-    agent any
-    
-    stages {
-        stage('Installation Pre-Requisites') {
-            steps {
-                script{
-                    golangBugAnalysis.installprerequisites()
-                }
-            }
-        }
-        stage('Checkout') {
-            steps {
-                gitCheckoutPrivate(branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git', credentialsId: 'vishal-cred')
-            }
-        }
-        stage('Linting') {
-            steps {
-                script{
-                    golangBugAnalysis.linting()
-                }
-            }
-        }
-        stage('Generate HTML Report') {
-            steps {
-                script{
-                    golangBugAnalysis.html()
-                }
-            }
-        }
-    }
-}
     
         
 ```
 ## Shared Library
-  * [**gitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/gitCheckoutPrivate.groovy)
+  * [**GitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/common/GitCheckoutPrivate.groovy)
   ```shell
-// Checkout Github Private Repository
-// vars/gitCheckoutPrivate.grovvy
-def call(Map config = [:]) {
-    checkout scm: [
-        $class: 'GitSCM',
-        branches: [[name: config.branch]],
-        userRemoteConfigs: [[url: config.url, credentialsId: config.credentialsId]]
-    ]
+//src/org/avengers/common/GitCheckoutPrivate.groovy
+package org.avengers.common
+
+def call(String url, String creds, String branch) {
+    stage('Clone') {
+        script {
+            git branch: "${branch}", credentialsId: "${creds}", url: "${url}"
+        }
+    }
 }
 ```
-  * [**golangBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/golangBugAnalysis.groovy)
+  * [****]()
   ```shell
-// vars/golangBugAnalysis.groovy
-def installprerequisites(){
-  // Update apt packages
-  sh 'sudo apt update'
-  // Install Go using snap
-  sh 'sudo snap install go --classic'
-  // Remove golangci-lint using snap
-  sh 'sudo snap remove golangci-lint || true'
-  // Install GolangCI-lint
-  sh 'go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest'
-  // Add $HOME/go/bin to PATH
-  env.PATH += ":$HOME/go/bin"
-}
 
-def linting(){
-  // Run golangci-lint and ignore errors
-  sh 'golangci-lint run ./... || true'
-}
-
-def html(){
-  // Run golangci-lint with the --out-format option to specify the output format
-  sh 'golangci-lint run ./... --out-format html > report.html || true'
-}
 ```
+  * [****]()
+  ```shell
+
+```
+  * [****]()
+  ```shell
+
+```
+  * [****]()
+  ```shell
+
+```
+
 ***
 ## Conclusion
 The Jenkins Shared Library streamlines CI/CD processes by allowing teams to share reusable code and logic across various pipelines. It standardizes workflows, minimizes duplication, and ensures consistency. With abstracted complex tasks into reusable functions, it simplifies maintenance and fosters collaboration among teams. By promoting best practices and enabling version control, it enhances the efficiency and reliability of the CI/CD process, accessible even without Jenkins admin access.
