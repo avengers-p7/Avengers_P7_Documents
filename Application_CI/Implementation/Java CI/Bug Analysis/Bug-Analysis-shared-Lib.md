@@ -105,21 +105,21 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    gitCheckout()
+                    gitCheckout(branch: "main", url: "https://github.com/Parasharam-Desai/salary-api.git")
                 }
             }
         }
         stage('Bug Analysis') {
             steps {
                 script {
-                    bugAnalysis()
+                    javaBugAnalysis()
                 }
             }
         }
         stage('Publish HTML Report') {
             steps {
                 script {
-                    htmlReport()
+                    javaBugHtmlReport()
                 }
             }
         }
