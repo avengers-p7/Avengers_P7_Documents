@@ -165,12 +165,13 @@ def call() {
   * [**Clean.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/python/dependencyScanning/Clean.groovy)
   ```shell
 //src/org/avengers/python/dependencyScanning/Clean.groovy
-package org.avengers.common
+package org.avengers.python.dependencyScanning
 
-def call(String javaVersion) {
-    stage('Install Java') {
+def call() {
+    stage('Clean workspace') {
         script {
-            sh "sudo apt update && sudo apt install -y openjdk-${javaVersion}-jdk"
+           sh "rm -rf *.zip"
+           sh "rm -rf dependency-check"
         }
     }
 }
