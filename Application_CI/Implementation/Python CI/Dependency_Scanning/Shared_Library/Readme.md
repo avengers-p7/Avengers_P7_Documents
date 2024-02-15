@@ -70,11 +70,11 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 ## Setup of Dependency Scanning Via Shared Library
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
 
-  <img width="760" length="100" alt="Golang" src=""> 
+  <img width="760" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/a0bb9810-02de-4c58-851c-671de028c6df"> 
 
 * Console Output:
-  
-   <img width="760" length="100" alt="Golang" src=""> 
+
+   <img width="760" length="100" alt="python" src="https://github.com/avengers-p7/Documentation/assets/156056413/e682a483-b102-4a67-ac0e-08bfcf39dddd"> 
 
 
 > [!NOTE]
