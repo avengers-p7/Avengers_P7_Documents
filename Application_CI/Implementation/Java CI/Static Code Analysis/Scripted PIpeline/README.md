@@ -43,6 +43,8 @@ A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous
 | Tool | Description |
 | ---- | ----------- |
 | **Jenkins(2.426.3)** | To build our pipeline |
+|**Sonarqube(9.6.1.59531)**| For Static code analysis |
+
 
 > [!Important]
 > I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
