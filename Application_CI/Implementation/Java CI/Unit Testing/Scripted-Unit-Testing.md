@@ -57,7 +57,7 @@ To know more about pipelines please follow this [Reference Link](https://github.
 **1. Fork Repository:** Fork the repository to your GitHub account. 
 [Repo-Link](https://github.com/Parasharam-DevOps/salary-api.git)
 
-**2. Add Dependency:** Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/README.md).
+**2. Add Dependency:** Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/POC.md).
 
 [Click here for reference](https://github.com/Parasharam-DevOps/salary-api/blob/main/pom.xml) to view the pom.xml file.
 
