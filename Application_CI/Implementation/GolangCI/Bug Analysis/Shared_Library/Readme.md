@@ -69,11 +69,11 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 ## Setup of Bug Analysis Via Shared Library
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
 
-  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/95ae3196-eebd-43f3-b399-6db1443f1a29"> 
+  <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/00013664-5cc9-47dc-8ab5-2eb1049f42e3"> 
 
 * Console Output:
 
-   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/cc4e4cb5-1749-4848-a105-eaf71ff8546a"> 
+   <img width="760" length="100" alt="Golang" src="https://github.com/avengers-p7/Documentation/assets/156056413/f7e0cca0-b321-499a-939e-78e16ed4d757"> 
 
 
 > [!NOTE]
@@ -90,10 +90,18 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 ## Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Golang/BugAnalysis/Jenkinsfile)
   ```shell
+@Library('snaatak-p7') _
+def golangBugAnalysis = new org.avengers.template.GolangBugAnalysis()
 
-
+node {
     
-        
+    def url = 'https://github.com/OT-MICROSERVICES/employee-api.git'
+    def creds = 'vishal-cred'
+    def branch = 'main'
+    
+    golangUnitTesting.call(url, creds, branch)
+    
+}       
 ```
 ## Shared Library
   * [**GitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/common/GitCheckoutPrivate.groovy)
@@ -109,21 +117,77 @@ def call(String url, String creds, String branch) {
     }
 }
 ```
-  * [****]()
+  * [**InstallationPreRequisites.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/GolangBugAnalysis.groovy)
   ```shell
+//src/org/avengers/golang/bugAnalysis/InstallationPreRequisites.groovy
 
+package org.avengers.golang.bugAnalysis
+
+def call() {
+    stage('Installation Pre-Requisites') {
+        script {
+            // Update apt packages
+            sh 'sudo apt update'
+            // Install Go using snap
+            sh 'sudo snap install go --classic'
+            // Remove golangci-lint using snap
+            sh 'sudo snap remove golangci-lint || true'
+            // Install GolangCI-lint
+            sh 'go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest'
+            // Add $HOME/go/bin to PATH
+            env.PATH += ":$HOME/go/bin"
+        }
+    }
+}
 ```
-  * [****]()
+  * [**Linting.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/golang/bugAnalysis/Linting.groovy)
   ```shell
+//src/org/avengers/golang/bugAnalysis/Linting.groovy
+package org.avengers.golang.bugAnalysis
 
+def call() {
+    stage('Linting') {
+        script {
+            // Run golangci-lint and ignore errors
+            sh 'golangci-lint run ./... || true'
+        }
+    }
+}
 ```
-  * [****]()
+  * [**Report.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/golang/bugAnalysis/Report.groovy)
   ```shell
+//src/org/avengers/golang/bugAnalysis/Report.groovy
+package org.avengers.golang.bugAnalysis
 
+def call() {
+    stage('Generate HTML Report') {
+        script {
+             // Run golangci-lint with the --out-format option to specify the output format
+             sh 'golangci-lint run ./... --out-format html > report.html || true'
+        }
+    }
+}
 ```
-  * [****]()
+  * [**GolangBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/GolangBugAnalysis.groovy)
   ```shell
+//src/org/avengers/template/GolangBugAnalysis.groovy
+package org.avengers.template
 
+import org.avengers.common.*
+import org.avengers.golang.bugAnalysis.*
+
+def call(String url, String creds, String branch){
+  installationPreRequisites = new InstallationPreRequisites()
+  gitCheckoutPrivate = new GitCheckoutPrivate()
+  linting = new Linting()
+  report = new Report()
+
+  installationPreRequisites.call()
+  gitCheckoutPrivate.call(url, creds, branch)
+  linting.call()
+  report.call()
+}
+  
 ```
 
 ***
