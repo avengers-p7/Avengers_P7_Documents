@@ -54,14 +54,9 @@ In Amazon Web Services (AWS), an Application Load Balancer (ALB) is a highly sca
 
 |Components | Description |
 |-----------|-------------|
-|Listener  | Listeners define the protocol and port on which the load balancer listens for incoming connections. You can configure multiple listeners on an ALB, each associated with a specific port and protocol (e.g., HTTP, HTTPS, WebSocket). Listeners are responsible for forwarding incoming requests to the appropriate target groups based on the routing rules defined |
-|Target Groups |Target groups are logical groupings of targets (e.g., EC2 instances, containers, IP addresses) that receive traffic from the load balancer. When configuring an ALB, you specify one or more target groups for each listener. ALBs support dynamic registration and deregistration of targets with target groups, allowing for automatic scaling and high availability|
-|Routing Rules| Routing rules determine how incoming requests are distributed to the target groups based on the request attributes, such as the host, path, or query parameters. ALBs support flexible routing options, including path-based routing, host-based routing, and header-based routing, enabling you to route traffic to different target groups based on specific conditions|
-|Health Checks| Health checks are periodic checks performed by the ALB to assess the health and availability of the targets registered with the target groups. ALBs continuously monitor the health of targets and automatically route traffic only to healthy targets. If a target fails the health check, it is marked as unhealthy, and the ALB stops sending traffic to it until it passes the health check again|
-|Security Policies |ALBs provide built-in support for SSL/TLS termination, allowing the load balancer to handle HTTPS traffic and offload SSL decryption from the backend targets. You can configure SSL certificates and security policies to enforce encryption and security best practices. Additionally, ALBs integrate with AWS Web Application Firewall (WAF) for advanced security protections against common web exploits and attacks|
-|Access Logs and Monitoring  |ALBs generate access logs that capture detailed information about each request processed by the load balancer, including the source IP address, request path, response status code, and more. These access logs can be stored in Amazon S3 buckets for analysis and auditing purposes. Additionally, ALBs integrate with AWS CloudWatch for monitoring and metrics, allowing you to monitor the performance and health of your load balancer and applications in real-time.|
-
-
+|Load balancer| The load balancer distributes incoming application traffic across multiple targets (e.g., EC2 instances in multiple AWS availability zones) to increase application availability|
+|Listener| A listener checks for client connection requests using the protocol and port configured by an organization per rules that determine how the Application Load Balancer routes requests to registered targets|
+|Target group | Application Load Balancer routes requests to one or more registered targets (e.g., EC2 instances) using the protocol and port number configured by an organization|
 
 
 ***
