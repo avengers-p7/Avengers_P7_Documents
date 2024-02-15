@@ -119,6 +119,7 @@ pipeline {
   * [**gitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/gitCheckoutPrivate.groovy)
   ```shell
 // Checkout Github Private Repository
+// vars/gitCheckoutPrivate.grovvy
 def call(Map config = [:]) {
     checkout scm: [
         $class: 'GitSCM',
@@ -129,6 +130,7 @@ def call(Map config = [:]) {
 ```
   * [**golangBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/golangBugAnalysis.groovy)
   ```shell
+// vars/golangBugAnalysis.groovy
 def installprerequisites(){
   // Update apt packages
   sh 'sudo apt update'
