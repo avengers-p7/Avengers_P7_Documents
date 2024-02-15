@@ -61,27 +61,43 @@ A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous
 | **Maven Compiler Plugin** | For springboot project compilation |
 ***
 ## Pipeline Setup
-1. **Fork the Github Repo**
-```shell
-git clone https://github.com/OT-MICROSERVICES/salary-api.git
-```
-[**Repo Link**](https://github.com/OT-MICROSERVICES/salary-api)
-
-2. **Add maven compiler plugin in `pom.xml`**   
-```shell
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.11.0</version>
-				<!-- ... other configurations ... -->
-			</plugin>
-```
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/5375b03d-718e-4ef3-a79a-b7a035a9956e)
-
-3. **Configure Maven tool in Jenkins**
+1. **Configure Maven tool in Jenkins**
 Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
+
+
+2. **Install Sonarqube Scanner plugin in Jenkins**
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/28625f84-3ae7-45e3-8cea-d1d73daba895)
+
+3. **Create  token in Sonarqube**
+	- login to Sonarqube Server and go to `Administration --> Security --> Users`
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/f01959ac-2a3a-4644-ba49-ea52e886f2db)
+
+	- click on `Update Tokens`
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/f2f5fcbd-15db-45f7-8e41-abcda2e21da3)
+
+ 	- give name of token , select no. of days and then genarate the token
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/8a0838e5-e186-4f2a-8a55-8151bad09958)
+
+  	- copy and keep your token
+     		![image](https://github.com/avengers-p7/Documentation/assets/156056444/511a3b73-922b-4277-b2a1-01d782609aca)
+     
+
+3. **Add Sonarqube token in Jenkins Credentials**
+   	- login to your jenkins Dashboard and go to `Dashboard --> Manage Jenkins --> Credentials`
+
+   	  	Below, click on add `Add Credentials`
+
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/125c1d80-6342-4e24-9d0d-4f122ddeaf95)
+  
+	- Select **`Secret Text`** and provide the token that you copied in secret section. Also, give ID and Description to your credential.
+		![image](https://github.com/avengers-p7/Documentation/assets/156056444/2727ea81-3014-4910-93ef-77237529f313)
+
+4.  **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/1681289c-a3ef-4d6a-9e54-a2b2a948d660)
 
 4. **Create and Configure your Jenkins Pipeline job**
 
@@ -89,19 +105,19 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/a9819de7-2f53-4bb1-a2c8-9b25ff0a5304)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/d2950e7f-0ff0-4a19-a83a-bce7594f6854)
 
 5. **Now Build your Pipeline**
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/5daa7a40-6aed-4cc1-803f-ecc75d335202)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/ef7acca1-6e0d-4fc3-bfff-11b71a420dc3)
 ***
-## Console Output
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/bbe9072e-bfb4-4532-8489-899e81c62037)
+## Results
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/9fb6a3d9-3e72-46b4-97ef-07e318160d9b)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/38497c54-ab1a-4f41-ab3b-e37479302b99)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/a05f8611-6a83-48fa-a98a-61f2c6b2c6f6)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/c1f73133-aa3d-43fd-b489-6d0d22cbb6cb)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/e8751504-60c4-45dc-ba2e-7a2d5ebfd465)
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/c8da9e33-47be-416b-a1af-c1aa127545dc)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/f4125de1-17c7-4252-8e56-8b8fb09d986a)
 
 ***
 ## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
