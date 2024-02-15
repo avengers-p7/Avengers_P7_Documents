@@ -22,7 +22,7 @@
 ***
 
 # Introduction
-Setting up a High Availability (HA) cluster for PostgreSQL typically involves configuring multiple nodes to ensure data availability and reliability. There are various ways to achieve this, in this tutorial I deploy 3 PostgreSQL nodes with Patroni for HA setting up etcd for consensus, and using HAProxy to manage client connections.
+Setting up a High Availability cluster for PostgreSQL typically involves configuring multiple nodes to ensure data availability and reliability. There are various ways to achieve this, in this tutorial I deploy 3 PostgreSQL nodes with Patroni to manage client connections.
 ***
 
 # Pre-requisites
