@@ -156,15 +156,27 @@ pipeline {
 
 * Click **"OK"** to create the new job.
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/29b29fe2-de41-4257-a8a5-c9dc6bcc2674)
+
+
 * Then write your Pipeline Script under **“Script”** section and click “Save” Button.
 
+  ![Screenshot 2024-02-15 at 7 22 20 PM](https://github.com/avengers-p7/Documentation/assets/156056364/3509bded-0bbf-47df-b4e0-8c21ac8a86cc)
+
+
 * Then execute your Pipeline by clicking on **“Build Now”**
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056364/e2e37e3c-c019-4be6-aade-2687f0e9f56c)
 
 ***
 
 # Output Evaluation
 
-From below console output below, we can conclude that the unit test case report
+In this screenshot, we execute a specific unit test case, which successfully passes 
+
+![Screenshot 2024-02-15 at 7 23 43 PM](https://github.com/avengers-p7/Documentation/assets/156056364/96105b5d-e007-47f5-9e8d-6d22b086e756)
+
+From console output, we can conclude that the unit test case report Python involves systematically validating the functionality of individual components to ensure the overall correctness and reliability of a software application. Adopting unit testing practices contributes to code quality, facilitates maintenance, and provides confidence in the robustness of the code base.
 
 ***
 
