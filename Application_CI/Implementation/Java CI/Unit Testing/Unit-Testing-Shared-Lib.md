@@ -60,8 +60,6 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 
 **1. Including Junit Plugin in pom.xml**
 
-To include the Junit plugin in the `pom.xml` file, follow these steps:
-
 * Add JUnit dependency to the `pom.xml` file. Refer to the documentation [POC for Java Unit Testing](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/03-%20Java%20CI%20checks/Unit%20Testing/POC.md).
 
 [Click here for reference](https://github.com/Parasharam-DevOps/salary-api/blob/main/pom.xml) to view the pom.xml file.
