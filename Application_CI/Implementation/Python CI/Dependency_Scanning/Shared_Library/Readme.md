@@ -10,6 +10,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Shared Library](#Why-Shared-Library)
++ [Why use src folder structure in a Jenkins shared library](#Why-use-src-folder-structure-in-a-Jenkins-shared-library)
 + [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup of Dependency Scanning](#Setup-of-Dependency-Scanning-Via-Shared-Library)
@@ -39,6 +40,18 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 | **Collaboration**      | Jenkins Shared Libraries encourage collaboration among teams, as they can share and contribute to a common set of pipeline tools and utilities.                         |
 | **Versioning Control** | Jenkins Shared Library can be version-controlled, enabling teams to manage changes and rollbacks effectively.                                                        |
 | **Ease of Maintenance** | As the Jenkins Shared Library is maintained separately from individual pipelines, updates and bug fixes can be implemented without impacting the pipelines directly. |
+
+***
+## Why use `src` folder structure in a Jenkins shared library
+
+| Benefit                    | Description                                                                                                                                                                    |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Organizational Structure**  | Placing source files in a `src` folder provides a clear and organized structure for the library, aiding developers in quickly locating files and understanding the layout.      |
+| **Isolation of Source Code**  | Keeping source code separate from other files (e.g., documentation, configuration, tests) prevents clutter and confusion, making the codebase easier to manage.                 |
+| **Easier Maintenance**        | With a clear structure, maintaining and updating the library becomes straightforward, as developers know where to find specific files and can make changes confidently.     |
+| **Build and Packaging**       | Adhering to conventions like using a `src` folder facilitates integration with build tools and package managers, as they often expect a certain directory structure.           |
+| **Compatibility with IDEs**   | Standard project structures, such as a `src` folder, improve compatibility with integrated development environments (IDEs), enabling features like code navigation and auto-completion. |
+| **Readability and Maintainability** | A well-organized structure enhances readability and maintainability by making it easier for developers to understand the codebase's layout and locate relevant files efficiently. |
 
 ***
 ## Flow Diagram  
@@ -81,10 +94,36 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 
 ```
 ## Shared Library
-  * [**Shared Library**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/pythonDependencyScanning.groovy)
+   * [**GitCheckoutPrivate.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/common/GitCheckoutPrivate.groovy)
+  ```shell
+//src/org/avengers/common/GitCheckoutPrivate.groovy
+package org.avengers.common
+
+def call(String url, String creds, String branch) {
+    stage('Clone') {
+        script {
+            git branch: "${branch}", credentialsId: "${creds}", url: "${url}"
+        }
+    }
+}
+```
+  * [****]()
   ```shell
 
 ```
+  * [****]()
+  ```shell
+
+```
+  * [****]()
+  ```shell
+
+```
+  * [****]()
+  ```shell
+
+```
+
 ***
 ## Conclusion
 The Jenkins Shared Library streamlines CI/CD processes by allowing teams to share reusable code and logic across various pipelines. It standardizes workflows, minimizes duplication, and ensures consistency. With abstracted complex tasks into reusable functions, it simplifies maintenance and fosters collaboration among teams. By promoting best practices and enabling version control, it enhances the efficiency and reliability of the CI/CD process, accessible even without Jenkins admin access.
