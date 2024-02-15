@@ -75,10 +75,10 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/setup.md)
 
 
-* Console Output:
+# Console Output:
 
 ***
-## Jenkinsfile
+# Jenkinsfile
   * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Java/UnitTesting/Jenkinsfile)
   ```shell
 
@@ -111,7 +111,7 @@ pipeline {
 
         
 ```
-## Shared Library
+# Shared Library
 
 ```
     [**javaBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/vars/javaUnitTesting.groovy)
@@ -142,21 +142,10 @@ def testStage() {
 
 ```
 ***
-## Conclusion
+# Conclusion
 The Jenkins Shared Library streamlines CI/CD processes by allowing teams to share reusable code and logic across various pipelines. It standardizes workflows, minimizes duplication, and ensures consistency. With abstracted complex tasks into reusable functions, it simplifies maintenance and fosters collaboration among teams. By promoting best practices and enabling version control, it enhances the efficiency and reliability of the CI/CD process, accessible even without Jenkins admin access.
 
 ***
-
-
-**6. Evaluate Output: Based on the console output provided below, we can infer that there are a few bugs present**
-
-
-***
-
-# Conclusion
-
-This pipeline will clone your source code repository, compile the project using Maven, and conduct bug scanning.
-
 
 # Contact Information
 
