@@ -10,9 +10,8 @@
 + [Why Shared Library](#Why-Shared-Library)
 + [Why use src folder structure in a Jenkins shared library](#Why-use-src-folder-structure-in-a-Jenkins-shared-library)
 + [Flow Diagram](#Flow-Diagram)
-+ [Pre-requisites](#Pre-requisites)
-+ [Setup of Bug Analysis](#Setup-of-Bug-Analysis-Via-Shared-Library)
-+ [HTML Report](#HTML-Report)
++ [Prerequisites](#Prerequisites)
++ [Steps to run Pipeline](#Steps-to-run-Pipeline)
 + [Jenkinsfile](#Jenkinsfile)
 + [Shared Library](#Shared-Library)
 + [Conclusion](#Conclusion)
@@ -28,7 +27,7 @@ A Jenkins Shared Library is a collection of reusable code that facilitates the s
 About more information [**Click Here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/sharedLibrary/README.md)
 
 ***
-## Why Shared Library
+# Why Shared Library
 | Advantage          | Description                                                                                                                                                          |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Reusability**        | Shared Libraries allow teams to write code once and reuse it across multiple pipelines. This reduces duplication of effort and promotes consistency in the CI/CD process. |
@@ -148,24 +147,6 @@ def call(){
 
 ```
 
-[**publishHtml.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/src/org/avengers/java/unitTesting/test.groovy)
-
- ```shell
-package org.avengers.java.bugAnalysis
-
-def call() {
-          stage('Publish HTML Report') {
-                      publishHTML([
-                          allowMissing: false,
-                          alwaysLinkToLastBuild: true,
-                          keepAll: true,
-                          reportDir: 'target/site',
-                          reportFiles: 'spotbugs.html',
-                          reportName: 'SpotBugs Report'
-                      ])
-                  }
-              }
-```
 [**javatemplate.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/src/org/avengers/template/java/javaUnitTesting.groovy)
 
 ```shell
