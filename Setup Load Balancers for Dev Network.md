@@ -14,7 +14,7 @@
 3. [Application Load Balancer components](#Application-Load-Balancer-components)
 4. [Advanatges of Loadbalancer](#Advanatges-of-Loadbalancer) 
 5. [Types of Load balancer](#Types-of-Load-Balancer)
-6. [POC of Load-Balancer](#POC-of-Load-Balancers)
+6. [POC of Load Balancer](#POC-of-Load-Balancer)
 7. [Conclusion](#Conclusion)
 8. [Contact Information](#Contact-Information)
 9. [References](#References)
@@ -112,7 +112,7 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 ***
 
 
-# POC of Load-Balancer 
+# POC of Load Balancer 
 
 
 
