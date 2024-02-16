@@ -165,6 +165,7 @@ node {
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
+| Sonarqube Intergration | https://www.youtube.com/watch?v=KsTMy0920go&t=342s |
 | Sonarqube | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md |
 | Clean Workspace | https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/#finishing-up |
 | Pipeline (Generic Doc) | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
