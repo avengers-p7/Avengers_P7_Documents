@@ -16,6 +16,7 @@
 + [Pre-requisites](#Pre-requisites)
 + [Setup](#Setup)
 + [Jenkinsfile](#Jenkinsfile)
++ [Best Practices](#Best-Practices)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [Resources and References](#Resources-and-References)
@@ -126,6 +127,28 @@ node {
     }
 }
 ```
+
+***
+## Best Practices 
+
+### Best Practices for GoLang DAST:
+* Input Validation:
+Ensure that all user inputs are properly validated and sanitized to prevent injection attacks.
+
+* Use Secure Libraries:
+Utilize well-tested and secure libraries for handling sensitive operations such as cryptographic functions and network communications.
+
+* Implement Secure Coding Practices:
+Follow secure coding practices, such as avoiding hardcoding sensitive information and ensuring proper error handling.
+
+* Regular Security Testing:
+Integrate DAST into your continuous integration and continuous deployment (CI/CD) pipeline to perform regular security testing.
+
+* Logging and Monitoring:
+Implement logging and monitoring to detect and respond to security threats in real-time.
+
+* Keep Dependencies Updated:
+Regularly update dependencies to patch security vulnerabilities and ensure that your application is using the latest secure versions.
 
 ***
 ## Conclusion
