@@ -11,7 +11,6 @@
 + [Features](#Features)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
-+ [Setup](#Setup)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [Resources and References](#Resources-and-References)
