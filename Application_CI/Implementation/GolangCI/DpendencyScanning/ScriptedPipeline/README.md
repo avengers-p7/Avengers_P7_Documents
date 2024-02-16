@@ -10,7 +10,7 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Why Scripted Pipeline](#Why-Scripted-Pipeline)
++ [Why Scripted Pipeline GoLang Dependency Scanning](#ScriptedPipelineGoLangDependencyScanning)
 + [Features](#Features)
 + [Jenkins Architecture](#JenkinsArchitecture)
 + [Advantages](#Advantages)
@@ -34,7 +34,7 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 | Jenkins | CICD Tool                          |  
 | JAVA   |
 ***
-## Why Scripted Pipeline
+## Why Scripted Pipeline GoLang Dependency Scanning
 | Benefits | Explanation |
 |----------|-------------|
 | **Early Detection of Vulnerabilities**|	Dependency scanning identifies security vulnerabilities in third-party dependencies early, aiding prompt remediation.|
