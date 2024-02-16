@@ -292,7 +292,7 @@ In conclusion, the implementation of a load balancer in Amazon Web Services (AWS
 | Description                  | References  
 | ------------------------ | ------------------------------------------------------------------- |
 |Documentation |             https://www.geeksforgeeks.org/elastic-load-balancer-in-aws/
-
+|Setup|       https://aws.amazon.com/what-is/load-balancing/#:~:text=Elastic%20Load%20Balancing%20(ELB)%20is,complex%20configurations%20or%20API%20gateways|
 
 
 
