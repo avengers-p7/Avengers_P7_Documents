@@ -1,4 +1,4 @@
-# Java Code Compilation(Scripted Pipeline)
+# Java Static Code Analysis(Scripted Pipeline)
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/9f2c7b69-9abb-4cc6-9e9e-a170f7a61c05)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
