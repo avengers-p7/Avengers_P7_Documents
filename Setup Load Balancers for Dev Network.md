@@ -120,11 +120,13 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
+
 **Step 2** Click on Create the load balancer.
 
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/f4e6bddf-eb7f-4eb5-898e-1435ed20455b)
+
 
 
 
@@ -159,7 +161,9 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
+
 **Step 6** We don’t need to do anything here. Click on Next: Configure Security Groups
+
 
 
 
@@ -169,7 +173,9 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
+
 **Step 7**  Select the default security group. Click on Next: Configure Routing
+
 
 
 
@@ -179,7 +185,10 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
+
+
 **Step 8** Choose the name of the target group to be my target group. Click on Next: Register Targets.
+
 
 
 
@@ -190,12 +199,17 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
+
 **Step 9** Choose Dev A and  Dev B and click on Add to register. Click on Next: Review.
 
 
 
 
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/337d1a06-dab1-430c-a1cd-231d02b49f7e)
+
+
+
 
 
 
@@ -217,6 +231,7 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/1379695a-8e4e-4f40-8011-84df6a228726)
+
 
 
 
