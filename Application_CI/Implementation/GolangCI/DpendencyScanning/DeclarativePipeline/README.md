@@ -8,7 +8,7 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Why Declarative Pipeline](#Why-Declarative-Pipeline)
++ [Why Declarative Pipeline GoLang Dependency Scanning](#DeclarativePipelineGoLangDependencyScanning)
 + [Features](#Features)
 + [Jenkins Architecture](#JenkinsArchitecture)
 + [Advantages](#Advantages)
@@ -24,7 +24,7 @@
 ## Introduction
 In modern software development, managing dependencies is crucial for code stability and security. This guide explores implementing a Jenkins Declarative Pipeline tailored for GoLang projects, automating dependency scanning to ensure robustness and reliability. By integrating this pipeline, teams can efficiently identify and mitigate dependency-related issues, enhancing code quality and project security seamlessly within their CI/CD workflow.
 ***
-## Why Declarative Pipeline
+## Why Declarative Pipeline GoLang Dependency Scanning
 | Feature	| Description |
 |---------|-------------|
 | **Automated Dependency Management** | Automates the process of scanning project dependencies within GoLang projects, eliminating the need for manual intervention and reducing the likelihood of errors.|
@@ -114,9 +114,15 @@ In modern software development, managing dependencies is crucial for code stabil
 ![Screenshot from 2024-02-09 15-18-18](https://github.com/avengers-p7/Documentation/assets/156056746/5e9629b5-d600-4cfd-9f20-fd83a67a375c)
 
 ***
-## build and check result
+## Build and check result
 
 ![Screenshot from 2024-02-09 15-18-01](https://github.com/avengers-p7/Documentation/assets/156056746/1abc53d7-0fa7-41c1-affe-e8264ed5a54c)
+
+***
+
+
+## Console Output
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/4ebb4c28-a52e-4bcf-bbab-b66cb8f5defe)
 
 ***
 
