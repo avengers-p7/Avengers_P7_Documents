@@ -1,0 +1,14 @@
+@Library('snaatak-p7') _
+def pythonDependencyScanning = new org.avengers.template.PublishDependencyReport.groovy()
+
+node {
+    
+    def url = 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+    def creds = 'vishal-cred'
+    def branch = 'main'
+    def depVersion = '9.0.9'
+    def javaVersion = '17'
+    
+    pythonDependencyScanning.call(url, creds, branch, depVersion, javaVersion)
+    
+}
