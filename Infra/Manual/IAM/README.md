@@ -48,7 +48,21 @@ Custom IAM (Identity and Access Management) policies allow organizations to fine
 |**Least Privilege Principle**	| Custom policies adhere to the principle of least privilege, granting only the necessary permissions for users or roles to fulfill their tasks, enhancing security posture.|
 | **Flexibility and Scalability**	| Custom policies offer flexibility to adjust access control according to evolving business requirements and scale permissions as AWS infrastructure expands.|
 | **Enhanced Security**| Custom IAM policies leverage conditions and constraints to bolster security measures, reducing the risk of unauthorized access and potential security breaches.|
+***
 
+
+## Contact Information
+
+|     Name         | Email  |
+| -----------------| ------------------------------------ |
+| Shikha Tripathi   | shikha.tripathi.snaatak@mygurukulam.co |
+***
+
+## References
+
+| Description                                   | References  
+| --------------------------------------------  | -------------------------------------------------|
+| Pipeline | https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipeline-syntax-reference-guide/scripted-pipeline |
 
 
 
