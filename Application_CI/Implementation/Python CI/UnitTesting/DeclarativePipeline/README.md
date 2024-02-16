@@ -23,11 +23,24 @@
 # Introduction
 Testing individual units or components of a software program is a vital part of the software development process, ensuring that each part performs as intended. In this context, we utilize the pytest framework to create [unit tests,](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/UnitTesting.md) validating the functionality of specific components. This practice contributes to verifying the overall correctness and reliability of a software application. For detailed understanding on Jenkins Pipeline click [here](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md).
 
+### What is a Declarative Pipeline?
+A declarative pipeline is a feature in Jenkins, which is an open-source automation server. Jenkins pipelines allow you to define the entire build and deployment process as code, facilitating the automation of software delivery. Declarative pipelines provide a more structured and simplified way to define pipelines compared to the older scripted pipeline syntax.
 ![Screenshot 2024-02-15 at 11 23 23 PM](https://github.com/avengers-p7/Documentation/assets/156056364/dc2bd1c9-adc4-4170-a40f-700e3b18e042)
+
+| **Reasons for Using Declarative Pipelines**                | **Description**                                                                                                       |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Readability and Simplicity**                            | Declarative pipelines use a more human-readable syntax, making it easier for developers and non-developers to understand.|
+| **Easy to Learn**                                        | Designed to be beginner-friendly, reducing the learning curve for users new to Jenkins or CI/CD concepts.                 |
+| **Structured Approach**                                   | Follows a predefined structure for stages, steps, and elements, promoting consistency and simplifying pipeline management. |
+| **Built-in Steps**                                       | Comes with built-in steps for common tasks, eliminating the need for custom scripts for routine operations.               |
+| **Pipeline Visualization**                               | Provides visualization tools for easily tracking progress and status, aiding in troubleshooting and monitoring.           |
+| **Promotes Best Practices**                               | Encourages the use of CI/CD best practices, such as clear stage definitions, version control for pipeline code, etc.      |
+| **Integration with Blue Ocean**                           | Integrates well with Jenkins Blue Ocean, offering a modern and visual experience for creating and managing pipelines.       |
+
 
 ***
 
-# Prerequisites
+# Pre-requisites
 
 |  Tool  | Description  |
 | ------ | ---------- |
