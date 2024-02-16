@@ -51,7 +51,7 @@ A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous
 
 ***
 ## Flow Diagram
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/0753b8f4-dc40-4ca3-9055-2e8e13031253)
+![image](https://github.com/avengers-p7/Documentation/assets/156056444/0a8ab725-2a5f-49e9-8897-77dae16917f9)
 ***
 ## Runtime Prerequisites
 
