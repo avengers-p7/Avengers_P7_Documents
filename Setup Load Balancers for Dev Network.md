@@ -1,7 +1,8 @@
-# Documentation of setup loadbalancer 
+# Documentation of setup load balancer 
 
-
-
+| Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
+| ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
+| Nidhi Bhardwaj                                                    | 16-02-2024  | 1.0        | Nidhi Bhardwaj   | 16-02-2024      |
 
 
 
@@ -9,17 +10,21 @@
 # Table of Content 
 
 1. Introduction
-2. WHat is Application Load Balancer
+2. WHat is an Application Load Balancer
 3. Application Load Balancer (ALB)
 4. Advanatges of Loadbalancer 
-5. Types of load balancer 
-
+5. Types of load balancers
+6. POC of Load-Balancer 
+7. Conclusion
+8. Contact Information
+9. References
+   
 
 
 
 # Introduction 
 
-A load balancer is a critical networking component designed to evenly distribute incoming traffic across multiple servers or resources, ensuring efficient resource utilization and high availability. Serving as a traffic cop, it intelligently routes requests based on predefined algorithms or rules, preventing any single server from becoming overwhelmed. Load balancers monitor the health of servers in real-time, directing traffic only to healthy instances and seamlessly redistributing requests if any server fails or becomes overloaded. With capabilities for session persistence and scalability, load balancers optimize performance, enhance reliability, and mitigate potential bottlenecks in modern network architectures. Whether implemented as hardware appliances, software solutions, or cloud services, load balancers play a fundamental role in maintaining seamless operations for web applications, services, and distributed systems.
+A load balancer is a critical networking component designed to evenly distribute incoming traffic across multiple servers or resources, ensuring efficient resource utilization and high availability. Serving as a traffic cop, it intelligently routes requests based on predefined algorithms or rules, preventing any single server from becoming overwhelmed. Load balancers monitor the health of servers in real time, directing traffic only to healthy instances and seamlessly redistributing requests if any server fails or becomes overloaded. With capabilities for session persistence and scalability, load balancers optimize performance, enhance reliability, and mitigate potential bottlenecks in modern network architectures. Whether implemented as hardware appliances, software solutions, or cloud services, load balancers play a fundamental role in maintaining seamless operations for web applications, services, and distributed systems.
 
 
 
@@ -101,28 +106,31 @@ NLB provides ultra-low latency and scales to millions of requests per second, ma
 
 CLB is the original load balancer offering in AWS, providing basic load balancing across multiple EC2 instances.
 It operates at both the application and transport layers, supporting HTTP, HTTPS, TCP, and SSL traffic.
-CLB offers a simple and easy-to-use load balancing solution, but it lacks some of the advanced features and scalability capabilities of ALB and NLB.
+CLB offers a simple and easy-to-use load-balancing solution, but it lacks some of the advanced features and scalability capabilities of ALB and NLB.
 
 
 
-# Steps to configure an Application load balancer in AWS
+# POC of Load-Balancer 
 
 
-Step 1: Launch the two instances on the AWS management console named Dev A and Dev B. Go to services and select the load balancer.
+**Step 1** Launch the two instances on the AWS management console named Dev A and Dev B. Go to services and select the load balancer.
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/4c19d2e8-5419-4246-ba1c-a59d0c13ba37)
 
 
 
-Step 2: Click on Create the load balancer.
+**Step 2** Click on Create the load balancer.
 
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/f4e6bddf-eb7f-4eb5-898e-1435ed20455b)
 
 
-Step 3: Select Application Load Balancer and click on Create.
+
+**Step 3** Select Application Load Balancer and click on Create.
+
+
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/2ab09578-bc24-4427-aafa-6e2051d1b476
@@ -132,7 +140,7 @@ Step 3: Select Application Load Balancer and click on Create.
 
 
 
-Step 4: Here you are required to configure the load balancer. Write the name of the load balancer. Choose the scheme as internet facing.
+**Step 4** Here you are required to configure the load balancer. Write the name of the load balancer. Choose the scheme as internet facing.
 
 
 
@@ -142,7 +150,7 @@ Step 4: Here you are required to configure the load balancer. Write the name of 
 
 
 
- Step 5: Add at least 2 availability zones. Select eu-north-1a and eu-north-1b
+ **Step 5** Add at least 2 availability zones. Select eu-north-1a and eu-north-1b
 
 
 
@@ -151,7 +159,7 @@ Step 4: Here you are required to configure the load balancer. Write the name of 
 
 
 
-Step 6: We don’t need to do anything here. Click on Next: Configure Security Groups
+**Step 6** We don’t need to do anything here. Click on Next: Configure Security Groups
 
 
 
@@ -160,14 +168,18 @@ Step 6: We don’t need to do anything here. Click on Next: Configure Security G
 
 
 
-Step 7: Select the default security group. Click on Next: Configure Routing
+
+**Step 7**  Select the default security group. Click on Next: Configure Routing
+
+
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/494b8916-fe03-4784-aebe-05008f7ded41)
 
 
 
-Step 8: Choose the name of the target group to be my target group. Click on Next: Register Targets.
+
+**Step 8** Choose the name of the target group to be my target group. Click on Next: Register Targets.
 
 
 
@@ -177,7 +189,8 @@ Step 8: Choose the name of the target group to be my target group. Click on Next
 
 
 
-Step 9: Choose Dev A and  Dev B and click on Add to register. Click on Next: Review.
+
+**Step 9** Choose Dev A and  Dev B and click on Add to register. Click on Next: Review.
 
 
 
@@ -189,6 +202,51 @@ Step 9: Choose Dev A and  Dev B and click on Add to register. Click on Next: Rev
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/51f7f645-192e-4af8-9b5e-30932f6af1c1)
+
+
+
+
+
+
+
+**Step 10**  Congratulations!! You have successfully created a load balancer. Click on close.
+
+
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/1379695a-8e4e-4f40-8011-84df6a228726)
+
+
+
+
+# Conclusion 
+
+
+In conclusion, the implementation of a load balancer in Amazon Web Services (AWS) offers significant benefits for enhancing the reliability, scalability, and performance of web applications. By distributing incoming traffic across multiple servers or instances, load balancers help prevent any single server from becoming overwhelmed, thus ensuring high availability and improved fault tolerance. AWS provides various types of load balancers, including Application Load Balancers (ALB), Network Load Balancers (NLB), and Classic Load Balancers, each catering to different use cases and traffic management needs. Additionally, AWS load balancers integrate seamlessly with other AWS services, such as Auto Scaling, ensuring that the infrastructure can dynamically adapt to fluctuating traffic demands. Through features like health checks and session persistence, load balancers in AWS further optimize the user experience and overall application performance. Overall, the integration of load balancers in AWS architecture is crucial for achieving robust, scalable, and resilient web applications in the cloud environment.
+
+
+
+
+
+
+
+# Contact Information
+
+|     Name         | Email  |
+| -----------------| ------------------------------------ |
+| Nidhi Bhardwaj    | nidhi.bhardwaj.snaatak@mygurukulam.co |
+
+
+
+
+# References 
+
+
+| Description                  | References  
+| ------------------------ | ------------------------------------------------------------------- |
+|Documentation |             https://www.geeksforgeeks.org/launching-an-application-on-aws-beanstalk/?ref=ml_lbp|
 
 
 
