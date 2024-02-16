@@ -25,7 +25,6 @@ Testing individual units or components of a software program is a vital part of 
 
 ### What is a Declarative Pipeline?
 A declarative pipeline is a feature in Jenkins, which is an open-source automation server. Jenkins pipelines allow you to define the entire build and deployment process as code, facilitating the automation of software delivery. Declarative pipelines provide a more structured and simplified way to define pipelines compared to the older scripted pipeline syntax.
-![Screenshot 2024-02-15 at 11 23 23 PM](https://github.com/avengers-p7/Documentation/assets/156056364/dc2bd1c9-adc4-4170-a40f-700e3b18e042)
 
 | **Reasons for Using Declarative Pipelines**                | **Description**                                                                                                       |
 | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -48,7 +47,8 @@ A declarative pipeline is a feature in Jenkins, which is an open-source automati
 | Python | Python is a versatile, high-level programming language. |
 | Pytest | It is a widely used testing framework for Python, streamlining the task of creating and running tests. |
 ***
-
+![Screenshot 2024-02-15 at 11 23 23 PM](https://github.com/avengers-p7/Documentation/assets/156056364/dc2bd1c9-adc4-4170-a40f-700e3b18e042)
+***
 # Jenkinsfile Configuration
 
 **Agent Configuration:** This specifies that the pipeline can run on any available agent (slave node).
