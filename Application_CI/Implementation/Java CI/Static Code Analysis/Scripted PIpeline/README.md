@@ -43,7 +43,7 @@ A Scripted Pipeline in Jenkins is a Groovy-based approach to defining continuous
 | Tool | Description |
 | ---- | ----------- |
 | **Jenkins(2.426.3)** | To build our pipeline |
-|**Sonarqube(9.6.1.59531)**| For Static code analysis |
+|**Sonarqube(9.6.1.59531)**| [For Static code analysis](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md) |
 
 
 > [!Important]
@@ -165,6 +165,7 @@ node {
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
+| Sonarqube | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md |
 | Clean Workspace | https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/#finishing-up |
 | Pipeline (Generic Doc) | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
 | Create Pipeline (Generic Doc)| https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md |
