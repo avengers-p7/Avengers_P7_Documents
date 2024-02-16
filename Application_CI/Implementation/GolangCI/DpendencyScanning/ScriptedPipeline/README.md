@@ -118,10 +118,15 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 ![Screenshot from 2024-02-13 20-26-56](https://github.com/avengers-p7/Documentation/assets/156056746/561bdbff-8fb5-4b4b-afc9-a3a289fd8c3c)
 
 ***
-## build and check result
+## Build and check result
 ![Screenshot from 2024-02-13 20-27-06](https://github.com/avengers-p7/Documentation/assets/156056746/4947de2f-6608-4373-b0db-8e6efee00d50)
 
 ***
+## Console OUtput
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/cad7ec43-71d1-442e-bee5-44ef7834e885)
+
+***
+
 ## Conclusion
 In conclusion, integrating GoLang dependency scanning into scripted pipelines is essential for enhancing the security of CI/CD workflows. By automating security checks and offering customization options, these pipelines enable early vulnerability detection, compliance adherence, and streamlined development processes. Despite potential complexities, the benefits of comprehensive security coverage and reduced risk of exploitation outweigh the challenges, ensuring the integrity and reliability of GoLang projects.
 
