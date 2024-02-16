@@ -29,7 +29,6 @@ Testing individual units or components of a software program is a vital part of 
 ### What is a Scripted Pipeline?
 A scripted pipeline typically refers to a set of automated processes or tasks that are executed in a sequential order according to a predefined script or set of instructions. In the context of software development, continuous integration, and deployment, a scripted pipeline is often used to automate the build, test, and deployment phases of a software project.
 
-![Screenshot 2024-02-15 at 11 24 25 PM](https://github.com/avengers-p7/Documentation/assets/156056364/b8922bdd-82eb-41ec-8b7a-ad4a5159b077)
 
 | **Advantages of Scripted Pipeline**                                | **Description**                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -51,7 +50,8 @@ A scripted pipeline typically refers to a set of automated processes or tasks th
 | Python | Python is a versatile, high-level programming language. |
 | Pytest | It is a widely used testing framework for Python, streamlining the task of creating and running tests. |
 ***
-
+![Screenshot 2024-02-15 at 11 24 25 PM](https://github.com/avengers-p7/Documentation/assets/156056364/b8922bdd-82eb-41ec-8b7a-ad4a5159b077)
+***
 # Jenkinsfile Configuration
 
 **Agent Configuration:** This specifies that the pipeline can run on any available agent (slave node).
