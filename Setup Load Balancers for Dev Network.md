@@ -109,11 +109,14 @@ It operates at both the application and transport layers, supporting HTTP, HTTPS
 CLB offers a simple and easy-to-use load-balancing solution, but it lacks some of the advanced features and scalability capabilities of ALB and NLB.
 
 
+***
+
 
 # POC of Load-Balancer 
 
 
 **Step 1** Launch the two instances on the AWS management console named Dev A and Dev B. Go to services and select the load balancer.
+
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/4c19d2e8-5419-4246-ba1c-a59d0c13ba37)
@@ -135,7 +138,8 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/2ab09578-bc24-4427-aafa-6e2051d1b476
+![Screenshot from 2024-02-15 21-27-29](https://github.com/avengers-p7/Documentation/assets/156644891/0e921075-9c94-4712-b643-f9a12ad837ef)
+
 
 
 
