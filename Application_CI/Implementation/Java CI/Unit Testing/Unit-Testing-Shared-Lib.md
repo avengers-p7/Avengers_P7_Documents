@@ -2,12 +2,13 @@
 
 | **Author** | **Created On** | **Last Updated** | **Document Version** |
 | ---------- | -------------- | ---------------- | -------------------- |
-| **Parasharam Desai** | 15-02-2024 | 15-02-2024 | V1 |
+| **Parasharam Desai** | 15-02-2024 | 16-02-2024 | V1 |
 
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Why Shared Library](#Why-Shared-Library)
++ [Why use src folder structure in a Jenkins shared library](#Why-use-src-folder-structure-in-a-Jenkins-shared-library)
 + [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup of Bug Analysis](#Setup-of-Bug-Analysis-Via-Shared-Library)
@@ -39,6 +40,18 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 | **Ease of Maintenance** | As the Jenkins Shared Library is maintained separately from individual pipelines, updates and bug fixes can be implemented without impacting the pipelines directly. |
 
 ***
+# Why use `src` folder structure in a Jenkins shared library
+
+| Benefit                    | Description                                                                                                                                                                    |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Organizational Structure**  | Placing source files in a `src` folder provides a clear and organized structure for the library, aiding developers in quickly locating files and understanding the layout.      |
+| **Isolation of Source Code**  | Keeping source code separate from other files (e.g., documentation, configuration, tests) prevents clutter and confusion, making the codebase easier to manage.                 |
+| **Easier Maintenance**        | With a clear structure, maintaining and updating the library becomes straightforward, as developers know where to find specific files and can make changes confidently.     |
+| **Build and Packaging**       | Adhering to conventions like using a `src` folder facilitates integration with build tools and package managers, as they often expect a certain directory structure.           |
+| **Compatibility with IDEs**   | Standard project structures, such as a `src` folder, improve compatibility with integrated development environments (IDEs), enabling features like code navigation and auto-completion. |
+| **Readability and Maintainability** | A well-organized structure enhances readability and maintainability by making it easier for developers to understand the codebase's layout and locate relevant files efficiently. |
+
+***
 # Prerequisites
 
 | Tool | Description |
@@ -51,7 +64,7 @@ About more information [**Click Here**](https://github.com/avengers-p7/Documenta
 
 # Flow Diagram
 
-
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/7956dc98-7dda-4195-bec9-9aa5c80f6798)
 
 
 ***
@@ -77,41 +90,29 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 # Console Output:
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/5d8efe47-2793-4fed-a6c5-4e1ccc9a8d28)
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056709/32746369-25bc-4e3c-84dc-3281916074e9)
+
+
 ***
 # Jenkinsfile
-  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/SharedLibrary/Java/UnitTesting/Jenkinsfile)
-  ```shell
+
+  * [**Jenkinsfie**](https://github.com/CodeOps-Hub/Jenkinsfile/blob/main/SharedLibrary/Java/UnitTesting/Jenkinsfile)
+  
 
  ```shell
 @Library("my-shared-library") _
-pipeline {
-    agent any
 
-    stages {
-        stage('GIT Checkout') {
-            steps {
-                gitCheckout(branch: "main", url: "https://github.com/Parasharam-DevOps/salary-api.git"  )
+def unitTesting = new org.avengers.template.java.javaUnitTesting()
 
-            }
-        }
-        stage('Compile'){
-            steps{
-                javaUnitTesting()
-            }
-        }
-    }
-post {
-        always {
-        // One or more steps need to be included within each condition's block.
-        cleanWorkspace()
-       }
-        success { 
-            echo 'Job Run Successfully !'
-        }
-        failure { 
-            echo 'Job Failed !'
-        }
-    }
+node {
+    
+    def url = 'https://github.com/Parasharam-DevOps/salary-api.git'
+    def branch = 'main'
+    
+    unitTesting.call(branch: branch,url: url)
+    
 }
         
 ```
@@ -130,18 +131,42 @@ def call(Map config = [:]) {
 }
 
 ```
-[**javaUnitTesting.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/vars/javaUnitTesting.groovy)
+[**test.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/src/org/avengers/java/unitTesting/test.groovy)
 
  ```shell
 
-// Define the function for the Test stage
-def call() {
-            steps {
-                echo "Executing Java Unit Testing"
-                sh 'mvn test'
-}
+package org.avengers.java.unitTesting
+
+def call(){           
+        stage("Unit Testing ") {
+                script {
+                   
+                    sh 'mvn test'
+                }
+            }
+        }
 
 ```
+
+[**publishHtml.groovy**](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/src/org/avengers/java/unitTesting/test.groovy)
+
+ ```shell
+package org.avengers.java.bugAnalysis
+
+def call() {
+          stage('Publish HTML Report') {
+                      publishHTML([
+                          allowMissing: false,
+                          alwaysLinkToLastBuild: true,
+                          keepAll: true,
+                          reportDir: 'target/site',
+                          reportFiles: 'spotbugs.html',
+                          reportName: 'SpotBugs Report'
+                      ])
+                  }
+              }
+```
+
 ***
 # Conclusion
 The Jenkins Shared Library streamlines CI/CD processes by allowing teams to share reusable code and logic across various pipelines. It standardizes workflows, minimizes duplication, and ensures consistency. With abstracted complex tasks into reusable functions, it simplifies maintenance and fosters collaboration among teams. By promoting best practices and enabling version control, it enhances the efficiency and reliability of the CI/CD process, accessible even without Jenkins admin access.
