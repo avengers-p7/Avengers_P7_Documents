@@ -176,7 +176,7 @@ def call() {
     }
 }
 ```
-  * [**PythonDependencyScanning.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/PythonDependencyScanning.groovy)
+  * [**PythonDependencyScanning.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/python/PythonDependencyScanning.groovy)
   ```shell
 //src/org/avengers/template/PythonDependencyScanning.groovy
 package org.avengers.template
