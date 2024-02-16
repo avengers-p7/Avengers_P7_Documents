@@ -33,8 +33,7 @@
 
 
 
-# Sprint-2 Week-1
-
+# Sprint-2
 | Name      | Date    | Reason      | Count| Amount |
 | ----      | ----    | ------      | ---- | ----   |
 | Shantanu  | 6-7  Feb   | Status mail | 2    | 10     |
