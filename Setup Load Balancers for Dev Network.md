@@ -11,9 +11,9 @@
 
 1. [Introduction](#Introduction)
 2. [What is  Application Load Balancer](#What-is-Application-Load-Balancer)
-3. [Application Load Balancer](#Application-Load-Balancer)
+3. [Application Load Balancer components](#Application-Load-Balancer-components)
 4. [Advanatges of Loadbalancer](#Advanatges-of-Loadbalancer) 
-5. [Types of Load balancers](#Types-of-Load-Balancers)
+5. [Types of Load balancer](#Types-of-Load-Balancer)
 6. [POC of Load-Balancer](#POC-of-Load-Balancers)
 7. [Conclusion](#Conclusion)
 8. [Contact Information](#Contact-Information)
