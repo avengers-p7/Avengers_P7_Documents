@@ -115,7 +115,9 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 # POC of Load-Balancer 
 
 
-**Step 1** Launch the two instances on the AWS management console named Dev A and Dev B. Go to services and select the load balancer.
+
+
+**Step 1  Launch the two instances on the AWS management console named Dev A and Dev B. Go to services and select the load balancer**
 
 
 
@@ -124,7 +126,7 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 2** Click on Create the load balancer.
+**Step 2 Click on Create the load balancer**
 
 
 
@@ -133,7 +135,8 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 3** Select Application Load Balancer and click on Create.
+
+**Step 3  Select Application Load Balancer and click on Create**
 
 
 
@@ -146,7 +149,8 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 4** Here you are required to configure the load balancer. Write the name of the load balancer. Choose the scheme as internet facing.
+**Step 4  Here you are required to configure the load balancer. Write the name of the load balancer. Choose the scheme as internet facing**
+
 
 
 
@@ -156,7 +160,8 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
- **Step 5** Add at least 2 availability zones. Select eu-north-1a and eu-north-1b
+ **Step 5 Add at least 2 availability zones. Select eu-north-1a and eu-north-1b**
+ 
 
 
 
@@ -166,7 +171,8 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 6** We don’t need to do anything here. Click on Next: Configure Security Groups
+**Step 6  We don’t need to do anything here. Click on Next: Configure Security Groups**
+
 
 
 
@@ -178,7 +184,8 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 7**  Select the default security group. Click on Next: Configure Routing
+
+**Step 7 Select the default security group. Click on Next: Configure Routing**
 
 
 
@@ -191,7 +198,9 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 8** Choose the name of the target group to be my target group. Click on Next: Register Targets.
+
+**Step 8  Choose the name of the target group to be my target group. Click on Next: Register Targets**
+
 
 
 
@@ -204,13 +213,15 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 9** Choose Dev A and  Dev B and click on Add to register. Click on Next: Review.
+**Step 9  Choose Dev A and  Dev B and click on Add to register. Click on Next: Review**
+
 
 
 
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/337d1a06-dab1-430c-a1cd-231d02b49f7e)
+
 
 
 
@@ -227,7 +238,8 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 
-**Step 10**  Congratulations!! You have successfully created a load balancer. Click on close.
+
+**Step 10  Congratulations!! You have successfully created a load balancer. Click on close**
 
 
 
@@ -235,6 +247,7 @@ CLB offers a simple and easy-to-use load-balancing solution, but it lacks some o
 
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/1379695a-8e4e-4f40-8011-84df6a228726)
+
 
 
 
@@ -265,7 +278,7 @@ In conclusion, the implementation of a load balancer in Amazon Web Services (AWS
 
 | Description                  | References  
 | ------------------------ | ------------------------------------------------------------------- |
-|Documentation |             https://www.geeksforgeeks.org/launching-an-application-on-aws-beanstalk/?ref=ml_lbp|
+|Documentation |             https://www.geeksforgeeks.org/elastic-load-balancer-in-aws/
 
 
 
