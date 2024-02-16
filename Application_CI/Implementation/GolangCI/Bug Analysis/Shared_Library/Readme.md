@@ -168,7 +168,7 @@ def call() {
     }
 }
 ```
-  * [**GolangBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/GolangBugAnalysis.groovy)
+  * [**GolangBugAnalysis.groovy**](https://github.com/avengers-p7/SharedLibrary/blob/main/src/org/avengers/template/golang/GolangBugAnalysis.groovy)
   ```shell
 //src/org/avengers/template/GolangBugAnalysis.groovy
 package org.avengers.template
