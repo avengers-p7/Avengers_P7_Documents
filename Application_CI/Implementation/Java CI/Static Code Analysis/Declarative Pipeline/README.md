@@ -43,7 +43,7 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 | Tool | Description |
 | ---- | ----------- |
 | **Jenkins(2.426.3)** | To build our pipeline |
-|**Sonarqube(9.6.1.59531)**| For Static code analysis |
+|**Sonarqube(9.6.1.59531)**| [For Static code analysis](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md) |
 
 > [!Important]
 > I have installed the plugin bundle provided by Jenkins during setup. If you have not done the same, you may encounter plugin errors.
@@ -178,6 +178,7 @@ pipeline {
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
+| Sonarqube | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/07-%20Sonarqube/README.md |
 | Statis Code Analysis | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/08-%20Jenkins/static%20code%20Analysis.md |
 | Sonarqube Intergration | https://www.youtube.com/watch?v=KsTMy0920go&t=342s |
 | Clean Workspace | https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/#finishing-up |
