@@ -1,4 +1,4 @@
-# Java Code Compilation(Declarative Pipeline)
+# Java Dependency Check(Declarative Pipeline)
 
 | Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
 | ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
