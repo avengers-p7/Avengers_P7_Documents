@@ -86,7 +86,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
      		![image](https://github.com/avengers-p7/Documentation/assets/156056444/511a3b73-922b-4277-b2a1-01d782609aca)
      
 
-3. **Add Sonarqube token in Jenkins Credentials**
+4. **Add Sonarqube token in Jenkins Credentials**
    	- login to your jenkins Dashboard and go to `Dashboard --> Manage Jenkins --> Credentials`
 
    	  	Below, click on add `Add Credentials`
@@ -96,11 +96,11 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 	- Select **`Secret Text`** and provide the token that you copied in secret section. Also, give ID and Description to your credential.
 		![image](https://github.com/avengers-p7/Documentation/assets/156056444/2727ea81-3014-4910-93ef-77237529f313)
 
-4.  **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
+5.  **Configure Sonarqube Server  in `Dashboard --> Manage Jenkins --> System`**
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/1681289c-a3ef-4d6a-9e54-a2b2a948d660)
 
-4. **Create and Configure your Jenkins Pipeline job**
+6. **Create and Configure your Jenkins Pipeline job**
 
 	Follow below document
 
@@ -108,7 +108,7 @@ Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/d2950e7f-0ff0-4a19-a83a-bce7594f6854)
 
-5. **Now Build your Pipeline**
+7. **Now Build your Pipeline**
 ![image](https://github.com/avengers-p7/Documentation/assets/156056444/eeb86d8d-7011-4d38-8afc-c9eafa9892be)
 ***
 ## Results
