@@ -62,11 +62,12 @@ https://github.com/avengers-p7/Salary-API/tree/main
 2. **Configure Maven tool in Jenkins**
 Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/d9ff8a0d-900a-4e4b-ac68-34507ef3348b)
+<img width="975" alt="Screenshot 2024-02-17 at 5 19 24 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ffb33b3-b11f-4ec8-a6b4-9764d5aca18c">
+
 
 4. **Create and Configure your Jenkins Pipeline job**
 
-	Follow below document
+	Follow below document to integrate Github with Jenkins:
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
