@@ -85,7 +85,7 @@ https://github.com/avengers-p7/Salary-API/tree/main
 
 <img width="730" alt="Screenshot 2024-02-17 at 5 30 27 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c160771f-c65e-46c0-beeb-b9393f7bdd9c">
 
-* Artifacts generated as a post build step
+* HTML file reports generated as Artifacts
 
 <img width="506" alt="Screenshot 2024-02-17 at 5 32 43 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ded92a34-c8d1-482c-a528-3752b188082a">
 
