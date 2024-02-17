@@ -60,60 +60,80 @@ https://github.com/avengers-p7/Salary-API/tree/main
 [**Repo Link**](https://github.com/OT-MICROSERVICES/salary-api)
 
 2. **Configure Maven tool in Jenkins**
-Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
+* Go to `Dashboard--> Manage Jenkins--> Tools` and configure maven tool.
 
 <img width="975" alt="Screenshot 2024-02-17 at 5 19 24 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8ffb33b3-b11f-4ec8-a6b4-9764d5aca18c">
 
 
-4. **Create and Configure your Jenkins Pipeline job**
+3. **Create and Configure your Jenkins Pipeline job**
 
-	Follow below document to integrate Github with Jenkins:
+* Follow below document to integrate Github with Jenkins:
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
 <img width="944" alt="Screenshot 2024-02-17 at 5 16 48 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/95c45d64-1789-4460-947a-b5328825e98c">
 
 
-5. **Now Build your Pipeline**
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/53deb6b1-a9a1-4e5b-83da-c64a93becfb0)
+4. **Build Pipeline**
+
+<img width="1256" alt="Screenshot 2024-02-17 at 5 22 36 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ce072bee-07c3-4e4c-8ce5-97a0815f82b5">
+
+
 ***
 ## Console Output
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/cbd74086-602f-45af-8cb8-61e2ec2ba2ae)
+* Resultant dependency check reports in all formats
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/33b3f5e3-cc47-4035-b25f-1016eea09c97)
+<img width="730" alt="Screenshot 2024-02-17 at 5 30 27 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c160771f-c65e-46c0-beeb-b9393f7bdd9c">
 
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/61720194-d89e-4f09-a257-14a696bbec31)
+* Artifacts generated as a post build step
+
+<img width="506" alt="Screenshot 2024-02-17 at 5 32 43 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/ded92a34-c8d1-482c-a528-3752b188082a">
+
+
 
 ***
-## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/CodeCompilation/Jenkinsfile)
+## [Pipeline](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Java/Dependency%20Scanning/Jenkinsfile)
 
 ```shell
 pipeline {
     agent any
-    tools {
-      maven 'mvn'
-    }
+
     stages {
-        stage('Checkout GIT') {
+        stage('Cleanup Workspace') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Panu-S-Harshit-Ninja-07/OT-Salary-API.git']])
-                sh 'ls $WORKSPACE/'
+                // Clean up the workspace
+                cleanWs()
             }
         }
-        stage('Starting Code Compilation ') {
+        stage('Clone Repository') {
             steps {
-                sh 'echo "Starting Java Code Compilation.........."'
-                sh 'mvn clean compile'
+                // Clone the repository
+                git branch: 'main', url: 'https://github.com/vyadavP7/Salary-API.git'
+            }
+        }
+        stage('Package Artifacts') {
+            steps {
+                sh 'mvn clean package -DskipTests=true'
+            }
+        }
+        stage('Owasp DP-Check') {
+            steps {
+                // Run DP-Check
+                dependencyCheck additionalArguments: '--scan target/ --format ALL', odcInstallation: 'DP-check'
             }
         }
     }
-post { 
-        success { 
-            sh 'ls $WORKSPACE/'
-            echo 'Compiled Successfully !'
-            sh 'tree $WORKSPACE/target/'
+    post {
+        always {
+            // Archive the HTML report as artifact
+            archiveArtifacts artifacts: '**/dependency-check-report.html'
         }
-        failure { 
+        success {
+            sh "ls $WORKSPACE/"
+            echo 'Compiled Successfully !'
+            sh 'tree $WORKSPACE/'
+        }
+        failure {
             echo 'Compilation Failed !'
         }
     }
@@ -126,7 +146,7 @@ post {
 
 |     Name         | Email  |
 | -----------------| ------------------------------------ |
-| Harshit Singh    | harshit.singh.snaatak@mygurukulam.co |
+| Vidhi Yadav   | vidhi.yadhav.snaatak@mygurukulam.co |
 ***
 
 ## References
@@ -137,4 +157,4 @@ post {
 | Pipeline (Generic Doc) | https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md |
 | Create Pipeline (Generic Doc)| https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md |
 | Pipeine Syntax | https://www.jenkins.io/doc/book/pipeline/#pipeline-syntax-overview |
-| Pipeline Concepts | https://www.jenkins.io/doc/book/pipeline/#pipeline-concepts |
+
