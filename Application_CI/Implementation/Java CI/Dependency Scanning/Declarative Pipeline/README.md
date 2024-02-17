@@ -73,7 +73,8 @@ https://github.com/avengers-p7/Salary-API/tree/main
 
 	[Reference Document](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
-<img width="944" alt="Screenshot 2024-02-17 at 5 16 48 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/95c45d64-1789-4460-947a-b5328825e98c">
+<img width="956" alt="Screenshot 2024-02-17 at 6 11 28 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/cf9a63a7-c541-4e2b-b18a-70cb4e63b99b">
+
 
 
 4. **Build Pipeline**
