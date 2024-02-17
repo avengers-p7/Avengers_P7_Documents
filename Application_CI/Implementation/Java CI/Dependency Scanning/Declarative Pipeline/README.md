@@ -124,17 +124,14 @@ pipeline {
         }
     }
     post {
-        always {
-            // Archive the HTML report as artifact
-            archiveArtifacts artifacts: '**/dependency-check-report.html'
-        }
         success {
+            archiveArtifacts artifacts: '**/dependency-check-report.html'
             sh "ls $WORKSPACE/"
-            echo 'Compiled Successfully !'
+            echo 'DP check Successfull !'
             sh 'tree $WORKSPACE/'
         }
         failure {
-            echo 'Compilation Failed !'
+            echo 'DP check Failed !'
         }
     }
 }
