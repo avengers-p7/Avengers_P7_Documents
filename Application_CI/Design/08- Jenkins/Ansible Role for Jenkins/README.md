@@ -123,7 +123,8 @@ groups:
 
 ```yaml
 ---
-# defaults file for jenkins
+# defaults vars for jenkins
+java: "default-jre"
 jenkins_repo_url:  deb https://pkg.jenkins.io/debian-stable binary/ 
 jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
 ```
@@ -144,7 +145,7 @@ jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 # Installs jdk if not installed already
 - name: Ensure jdk is installed
   apt:
-    name: default-jre
+    name: "{{ java }}"
     state: present
 
 # Adds the Jenkins repository's GPG key to the APT keyring
