@@ -83,7 +83,7 @@ https://github.com/avengers-p7/Salary-API/tree/main
 
 ***
 ## Console Output
-* Resultant dependency check reports in all formats
+* Resultant output for dependency check generated in all formats
 
 <img width="500" alt="Screenshot 2024-02-17 at 5 51 39 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/284e2cde-82f7-4d60-8c7d-6eef5adb2458">
 
