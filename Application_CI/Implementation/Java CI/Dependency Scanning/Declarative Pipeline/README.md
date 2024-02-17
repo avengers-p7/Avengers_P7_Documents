@@ -50,7 +50,9 @@ Declarative Pipeline in Jenkins offers a simplified and structured approach for 
 
 ***
 ## Flow Diagram
-![image](https://github.com/avengers-p7/Documentation/assets/156056444/094ce1da-2714-4a57-86f0-97152fb2f8b6)
+
+<img width="1262" alt="Screenshot 2024-02-17 at 5 54 37 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/70d80186-bae4-4168-a648-2975b6fca9fd">
+
 ***
 ## Pipeline Setup
 1. **Fork the Github Repo**
@@ -83,7 +85,7 @@ https://github.com/avengers-p7/Salary-API/tree/main
 ## Console Output
 * Resultant dependency check reports in all formats
 
-<img width="730" alt="Screenshot 2024-02-17 at 5 30 27 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/c160771f-c65e-46c0-beeb-b9393f7bdd9c">
+<img width="500" alt="Screenshot 2024-02-17 at 5 51 39 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/284e2cde-82f7-4d60-8c7d-6eef5adb2458">
 
 * HTML file reports generated as Artifacts
 
