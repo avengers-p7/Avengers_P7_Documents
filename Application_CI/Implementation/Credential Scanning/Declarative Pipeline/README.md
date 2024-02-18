@@ -69,48 +69,44 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Jenkinsfile
-  * [**Jenkinsfie**](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Python/Dependency_Scanning/Jenkinsfile)
+  * [**Jenkinsfie**](https://github.com/CodeOps-Hub/Jenkinsfile/blob/main/Declarative%20Pipeline/Credential%20Scanning/Jenkinsfile)
   ```shell 
 pipeline {
     agent any
-    
-    environment {
-        DEP_CHECK_VERSION = '9.0.9'
-    }
 
     stages {
-        stage('Install JDK') {
+         stage('Checkout SCM') {
             steps {
-                sh 'sudo apt update && sudo apt install -y openjdk-17-jdk'
+                    git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/salary-api.git'
             }
         }
+        
+        stage('Download and Install Gitleaks') {
+            steps {
+                    sh 'wget https://github.com/gitleaks/gitleaks/releases/download/v8.18.2/gitleaks_8.18.2_linux_x64.tar.gz'
+                    // Extract Gitleaks
+                    sh 'tar xvzf gitleaks_8.18.2_linux_x64.tar.gz'
+            }
+        }
+        
 
-        stage('Download Dependency Check') {
+        stage('Gitleaks Scan') {
             steps {
-                sh "wget -q https://github.com/jeremylong/DependencyCheck/releases/download/v${env.DEP_CHECK_VERSION}/dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
-                sh "unzip -q dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+                    sh './gitleaks detect -r credScanReport'
             }
         }
-
-        stage('Clone Repository') {
-            steps {
-                git branch: 'main', credentialsId: 'vishal-cred', url: 'https://github.com/OT-MICROSERVICES/attendance-api.git'
-            }
+    }
+    post {
+        success {
+            cleanWs()
         }
-
-        stage('Run Dependency Check') {
-            steps {
-                sh 'dependency-check/bin/dependency-check.sh --scan /var/lib/jenkins/workspace/ --out dep-check.html'
-            }
-        }
-        stage('Clean workspace') {
-            steps {
-                sh "rm -rf dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
-                sh "rm -rf dependency-check"
-            }
+        failure {
+            archiveArtifacts artifacts: '**/credScanReport'
+            cleanWs()
         }
     }
 }
+
 ```
 ***
 ## Conclusion
