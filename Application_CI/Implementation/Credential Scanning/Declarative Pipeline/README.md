@@ -49,7 +49,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Setup of Credential Scanning Declerative Pipeline
-* Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
+* Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
 ![Screenshot 2024-02-18 213920](https://github.com/avengers-p7/Documentation/assets/156056344/be9d3972-a6a4-4d4d-b5cd-3119585f408d)
 
