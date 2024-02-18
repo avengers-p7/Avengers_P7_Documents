@@ -37,7 +37,7 @@ In a Jenkins scripted pipeline, enforcing commit sign-off means that before allo
 - In the job configuration page, scroll down to the Pipeline section.
 - Select Pipeline script from SCM.
 - Give required repo url and enter your credentials.
-![WhatsApp Image 2024-02-13 at 21 08 27_9d2c0f7c](https://github.com/avengers-p7/Documentation/assets/156056460/24354844-1d24-489e-bf2b-fd0eeac631f0)
+![WhatsApp Image 2024-02-18 at 10 29 26_e709c060](https://github.com/avengers-p7/Documentation/assets/156056460/575dbebd-9363-4622-ba00-c0ba7978891a)
 ![WhatsApp Image 2024-02-13 at 21 09 53_f8eb0af4](https://github.com/avengers-p7/Documentation/assets/156056460/1835787e-f7b9-4f4e-ada0-1a00fd10fad4)
 
 **Step-3** Save the Configuration
