@@ -36,6 +36,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ***
 ## Flow Diagram  
+![Screenshot 2024-02-18 204835](https://github.com/avengers-p7/Documentation/assets/156056344/8c5132c8-1901-4900-a222-18bd8109b8b3)
 
 
 
@@ -47,7 +48,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 | Gitleaks | 8.18.2 |
 
 ***
-## Setup of Dependency Scanning
+## Setup of Credential Scanning Declerative Pipeline
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
 
   <img width="760" length="100" alt="Python" src="https://github.com/avengers-p7/Documentation/assets/156056413/6adc0479-6af7-475d-b142-8f647718a915"> 
@@ -59,12 +60,12 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 > [!NOTE]
 > **Changes**
-> *  **Pipeline name**       **-**  `Dependency_Scanning_(Python)_(Declarative)`
-> *  **Jenkinsfile Path**    **-**  `Declarative Pipeline/Python/Dependency_Scanning`  
+> *  **Pipeline name**       **-**  `Credential Scanning Declarative Pipeline`
+> *  **Jenkinsfile Path**    **-**  `Jenkinsfile/Declarative Pipeline/Credential Scanning/Jenkinsfile`  
 
 ***
 
-## HTML Report
+## JSON Report
  * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Dependency_Scanning/Declarative_Pipeline/Report.html)
 
 ***
