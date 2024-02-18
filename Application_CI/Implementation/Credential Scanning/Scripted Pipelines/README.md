@@ -9,7 +9,7 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Why Scripted Pipeline](#Why-Declarative-Pipeline)
++ [Why Scripted Pipeline](#Why-Scripted-Pipeline)
 + [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
 + [Setup of Credential Scanning](#Setup-of-Credential-Scanning)
@@ -49,14 +49,16 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 | Gitleaks | 8.18.2 |
 
 ***
-## Setup of Credential Scanning Scripted Pipeline
+## Setup of Credential Scanning
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
 
+![Screenshot 2024-02-18 211446](https://github.com/avengers-p7/Documentation/assets/156056344/931233c3-be7e-4eba-b588-436e78506d1a)
 
 
 
 * Console Output:
- 
+ ![Screenshot 2024-02-18 211523](https://github.com/avengers-p7/Documentation/assets/156056344/8153087f-4683-47af-b9cf-0bb6353e50e9)
+
 
 
 > [!NOTE]
@@ -67,6 +69,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 ***
 
 ## JSON Report
+![Screenshot 2024-02-18 211504](https://github.com/avengers-p7/Documentation/assets/156056344/840a0512-10b8-40b5-bd89-3cbdd3b02c03)
 
 
  * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Credential%20Scanning/Declarative%20Pipeline/credScanReport)
