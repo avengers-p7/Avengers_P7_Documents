@@ -51,11 +51,12 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ## Setup of Credential Scanning Declerative Pipeline
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
 
-  <img width="760" length="100" alt="Python" src="https://github.com/avengers-p7/Documentation/assets/156056413/6adc0479-6af7-475d-b142-8f647718a915"> 
+![Screenshot 2024-02-18 173754](https://github.com/avengers-p7/Documentation/assets/156056344/a69d1ff6-391d-41c5-985c-4e5f7ec6e5b1)
+
 
 * Console Output:
-
-   <img width="760" length="100" alt="Python" src="https://github.com/avengers-p7/Documentation/assets/156056413/619d9f82-5e52-438e-9244-7bf987906dcc"> 
+ 
+![Screenshot 2024-02-18 173833](https://github.com/avengers-p7/Documentation/assets/156056344/ccf7c819-d2e7-4a72-adb6-907ff8c7928b)
 
 
 > [!NOTE]
@@ -66,6 +67,8 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ***
 
 ## JSON Report
+![Screenshot 2024-02-18 173813](https://github.com/avengers-p7/Documentation/assets/156056344/ab13b5ba-1286-4340-9a14-faba464927a2)
+
  * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Dependency_Scanning/Declarative_Pipeline/Report.html)
 
 ***
@@ -124,12 +127,12 @@ Declarative Pipeline simplifies Jenkins pipeline configuration, offering clarity
 |  **Description** |   **Source** |
 | ---------------- | ------------ |
 | About Jenkins Pipeline (Generic Document) | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/jenkinsPipeline.md  ) |
-| Flow Step for create pipeline | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20scanning(Python%20CI%20Checks).md) |
+| Credential Scanning POC Steps | [Link] |
 | POC Generic Document | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md) |
 | Setup Jenkins | [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup) |
 | Jenkinsfile | [Link](https://github.com/avengers-p7/Jenkinsfile/blob/main/Declarative%20Pipeline/Python/Dependency_Scanning/Jenkinsfile) |
 | Scripted vs Declarative Pipelines | [Link](https://www.baeldung.com/ops/jenkins-scripted-vs-declarative-pipelines) |
-| Credential Scanning| [Link](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Dependency%20Scanning/Dependency%20Scanning%20Introduction.md) |
+| Credential Scanning| [Link] |
 
 ***
 
