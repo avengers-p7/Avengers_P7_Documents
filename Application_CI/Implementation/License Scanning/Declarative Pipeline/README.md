@@ -12,7 +12,7 @@
 + [Why Declarative Pipeline](#Why-Declarative-Pipeline)
 + [Flow Diagram](#Flow-Diagram)
 + [Pre-requisites](#Pre-requisites)
-+ [Setup of Dependency Scanning](#Setup-of-Dependency-Scanning)
++ [Setup of License Scanning](#Setup-of-License-Scanning)
 + [Jenkinsfile](#Jenkinsfile)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
