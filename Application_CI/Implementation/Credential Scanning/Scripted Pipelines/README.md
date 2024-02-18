@@ -50,7 +50,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
 ***
 ## Setup of Credential Scanning
-* Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
+* Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GenericDoc/pipelinePOC.md)
 
 ![Screenshot 2024-02-18 211446](https://github.com/avengers-p7/Documentation/assets/156056344/931233c3-be7e-4eba-b588-436e78506d1a)
 
