@@ -21,18 +21,19 @@
 ***
 ## Introduction
 
-Declarative Pipeline is a streamlined way to define Jenkins pipelines using a structured syntax within a pipeline {} block. It offers simplicity, readability, and built-in directives for defining stages, steps, and more. It integrates well with the Jenkins UI, provides pipeline visualization, and supports pipeline templates for code reuse. It's ideal for teams looking for a straightforward approach to CI/CD pipeline configuration.
+Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy scripting language, offering flexibility and customization for defining complex workflows. It provides an imperative, programmatic approach where users write scripts executed sequentially by Jenkins, with direct access to Jenkins APIs for advanced automation and integration. Scripted Pipelines are suitable for environments requiring fine-grained control over pipeline execution and the ability to define pipelines as code.
 
 ***
 ## Why Scripted Pipeline
-| Aspect          | Description                                                                                               |
-|-----------------|-----------------------------------------------------------------------------------------------------------|
-| **Organization**    | Markdown tables organize pipeline stages, descriptions, and commands into neat columns for easier readability and understanding. |
-| **Readability**     | Condenses verbose Declarative Pipeline syntax, particularly beneficial for complex pipelines, enhancing readability and comprehension. |
-| **Documentation**   | Integrates pipeline configuration seamlessly into project documentation using Markdown, providing a comprehensive overview of CI/CD processes. |
-| **Version Control** | Markdown files are version-controlled with tools like Git, enabling tracking of pipeline changes, revision history, and collaboration. |
-| **Accessibility**   | Markdown files are viewable and editable with basic text editors or online Markdown editors, facilitating review and contribution by team members, including non-technical stakeholders. |
-| **Presentation**    | Markdown files can be rendered into multiple formats, including HTML, PDF, and slideshows, enabling formatted documents or presentations for sharing and presentation purposes. |
+| Aspect                    | Description                                                                                                                                                       |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Imperative Syntax**        | Write pipelines as Groovy scripts, providing full control over execution flow for complex logic and dynamic behavior.                                           |
+| **Programmatic Constructs**  | Access to programming features like loops, conditions, variables, and functions for building highly customizable pipelines.                                       |
+| **Direct Access to APIs**    | Scripts directly interact with Jenkins APIs, enabling fine-grained automation and integration with plugins and external systems.                                 |
+| **Extensibility**            | Allows for defining custom functions and importing external libraries to enhance pipeline functionality and reusability.                                          |
+| **Legacy Support**           | Widely used in environments with existing pipelines, providing familiarity and compatibility with legacy systems.                                               |
+| **Learning Curve**           | Requires understanding of Groovy syntax and Jenkins pipeline concepts, posing a steeper learning curve, especially for newcomers.                                |
+| **Debugging and Maintenance** | Imperative nature can make debugging and maintenance challenging, necessitating proper organization, documentation, and testing practices. |   
 
 ***
 ## Flow Diagram  
@@ -51,12 +52,11 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ## Setup of Credential Scanning Scripted Pipeline
 * Follow this document for Setup [**Cilck here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/Bug%20Analysis/Declarative%20Pipeline/Readme.md#Setup)
 
-![Screenshot 2024-02-18 173754](https://github.com/avengers-p7/Documentation/assets/156056344/a69d1ff6-391d-41c5-985c-4e5f7ec6e5b1)
+
 
 
 * Console Output:
  
-![Screenshot 2024-02-18 173833](https://github.com/avengers-p7/Documentation/assets/156056344/ccf7c819-d2e7-4a72-adb6-907ff8c7928b)
 
 
 > [!NOTE]
@@ -67,7 +67,7 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 ***
 
 ## JSON Report
-![Screenshot 2024-02-18 173813](https://github.com/avengers-p7/Documentation/assets/156056344/ab13b5ba-1286-4340-9a14-faba464927a2)
+
 
  * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Credential%20Scanning/Declarative%20Pipeline/credScanReport)
 
