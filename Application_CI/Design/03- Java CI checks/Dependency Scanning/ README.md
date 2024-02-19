@@ -60,7 +60,7 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 | **Pricing Model**           | Open Source            | Freemium model with paid plans | Open Source              |
 
 ***
-## Why Choose OWASP
+## Why Choose OWASP ?
 
 OWASP Dependency-Check stands out as a robust and widely adopted tool for identifying vulnerabilities in project dependencies. Here are key reasons to consider using OWASP Dependency-Check in your CI/CD pipeline:
 
