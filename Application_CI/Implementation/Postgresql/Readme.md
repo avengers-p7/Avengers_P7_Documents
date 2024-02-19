@@ -14,6 +14,7 @@
 + [Introduction](#Introduction)
 + [Pre-requisites](#Pre-requisites)
 + [Port-Numbers](#Port-Numbers)
++ [Flow Diagram](#Flow-Diagram)
 + [Steps](#Steps)
 + [Output Verification](#output-Verification)
 + [Conclusion](#conclusion)
@@ -41,6 +42,12 @@ This role is designed to automate the installation and configuration of PostgreS
 | -----------------| --------------| 
 | 22               | For SSH       |
 | 5432             | PostdreSQL    |
+
+# Flow Diagram
+
+* This diagram should help you visualize the sequence of tasks in your Ansible playbook for installing Jenkins.
+
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/690e6cea-9929-44d7-a5c3-aa1bdda80718)
 
 
 # Steps 
