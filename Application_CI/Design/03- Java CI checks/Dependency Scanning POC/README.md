@@ -75,17 +75,12 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 
 
 
-### 3. Generate Reports
-
-* This ensures a clean build of your project before checking for vulnerabilities, run the following Maven command to ensure a clean build:
-```shell
-mvn clean install
-```
+### 3. Run Dependency-Check Analysis
 
 * To generate a comprehensive report for your project, run the following Maven command in your terminal:
 
 ```shell
-mvn clean install dependency-check:check -Dformat=ALL
+mvn dependency-check:check -Dformat=ALL
 ```
 
 > [!NOTE]
