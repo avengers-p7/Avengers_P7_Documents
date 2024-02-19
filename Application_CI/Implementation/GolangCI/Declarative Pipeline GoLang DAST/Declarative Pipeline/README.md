@@ -73,6 +73,9 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ![Screenshot 2024-02-13 230820](https://github.com/avengers-p7/Documentation/assets/156056570/894ad8f2-48df-4e2b-ad31-3e2b39777cd3)
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/c1c3c11f-bbb7-4b55-aef9-61a0ca071a72)
+
+
 
 
 ### HTML Report
@@ -126,7 +129,15 @@ pipeline {
             }
         }
     }
+    
+    post {
+        always {
+            // Clean workspace
+            cleanWs()
+        }
+    }
 }
+
 ```
 
 ***
