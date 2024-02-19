@@ -47,7 +47,7 @@ This role is designed to automate the installation and configuration of PostgreS
 
 * This diagram should help you visualize the sequence of tasks in your Ansible playbook for installing Jenkins.
 
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/690e6cea-9929-44d7-a5c3-aa1bdda80718)
+![image](https://github.com/avengers-p7/Documentation/assets/79625874/b43630a2-de87-4275-a14e-670cc6c929b9)
 
 
 # Steps 
