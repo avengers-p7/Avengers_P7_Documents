@@ -71,6 +71,9 @@ Declarative Pipeline is a streamlined way to define Jenkins pipelines using a st
 
 ![Screenshot 2024-02-07 190504](https://github.com/avengers-p7/Documentation/assets/156056570/ed038dff-efa7-4d5a-bc02-2b1d66ffe196)
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/dd6aab6d-1fb9-4367-b89c-10ff3b66d6c5)
+
+
 ### JSON Report
 
 * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Declarative%20Pipeline%20Python%20Bugs%20Analysis/Declarative%20Pipeline/JSON%20Report)
