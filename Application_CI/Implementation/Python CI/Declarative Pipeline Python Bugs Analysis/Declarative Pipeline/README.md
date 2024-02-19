@@ -82,7 +82,7 @@ pipeline {
     agent any
     
     environment {
-        REPO_URL = 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+        REPO_URL = 'https://github.com/CodeOps-Hub/attendance-api.git'
     }
     
     stages {
@@ -98,6 +98,14 @@ pipeline {
                 script {
                     sh 'python3 -m venv myenv'
                     sh '. myenv/bin/activate'
+                }
+            }
+        }
+        
+        stage('Clean Workspace') {
+            steps {
+                script {
+                    cleanWs()
                 }
             }
         }
@@ -131,6 +139,7 @@ pipeline {
         }
     }
 }
+
 ```
 
 ***
