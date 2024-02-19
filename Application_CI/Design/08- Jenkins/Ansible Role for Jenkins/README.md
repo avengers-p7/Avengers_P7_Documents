@@ -32,7 +32,7 @@ Here, we harness the efficiency of Ansible, an open-source automation tool strea
 
 * This diagram should help you visualize the sequence of tasks and overall ansible role flow for configuring Jenkins on target servers.
 
-<img width="1404" alt="Screenshot 2024-02-19 at 11 31 18 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/a1dd5781-c0da-4b44-a4c5-91d03debd2a5">
+<img width="1457" alt="Screenshot 2024-02-19 at 11 41 38 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/8bae5358-3146-4aa9-9dde-aebc7884ff74">
 
 ***
 ## Pre-requisites
