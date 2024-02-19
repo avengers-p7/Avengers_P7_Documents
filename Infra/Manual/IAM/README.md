@@ -1,4 +1,6 @@
-## Introduction to Custom IAM Policies
+## Create Custom IAM Policies
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/575ab188-fd7b-49d3-8003-9149e33254b6)
+
 ***
 | Author | Created on | Last updated by | Last edited on |
 |--------|------------|-----------------|----------------|
@@ -9,8 +11,10 @@
 + [Introduction](#Introduction)
 +  [Why Custom IAM Policies](#WhyCustomIAMPolicies)
 + [Features Custom IAM Policies ](#FeaturesCustomIAMPolicies)
++ [Flow Diagram](#FlowDiagram)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
++ [ Create Custom IAM Policies best practices](#CreateCustomIAMPoliciesbestpractices)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [Resources and References](#Resources-and-References)
@@ -40,6 +44,11 @@ Custom IAM (Identity and Access Management) policies allow organizations to fine
 | **Integration with AWS Services**	| Custom policies seamlessly integrate with various AWS services such as IAM roles, S3 bucket policies, and resource-based policies for services like Lambda and SQS.|
 
 ***
+## Flow Diagram
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/e8bbb0e6-abab-4972-81f5-aed75cb23db7)
+
+
+***
 ##  Advantages of Custom IAM Policies
 | Aspect | Description |
 |--------|-------------|
@@ -57,6 +66,20 @@ Custom IAM (Identity and Access Management) policies allow organizations to fine
  | **Risk of Misconfiguration**| Incorrectly configured custom IAM policies can lead to security vulnerabilities or access restrictions that impede operations. Human error or misinterpretation of requirements during policy creation and updates can pose significant risks.|
 
  ***
+ ## Create Custom IAM Policies best practices
+ | Best Practice |	Description |
+ |---------------|-------------|
+ | **Least Privilege Principle**|	Assign the minimum permissions required for a user or role to perform their tasks.|
+ | **Use Policy Conditions**	| Utilize conditions to restrict access further based on various factors such as IP address, time of day, or user agent.|
+ | **Regular Review**	| Regularly review and audit IAM policies to ensure they remain relevant and least-privileged. Remove unnecessary permissions.|
+ |**IAM Policy Simulator**	| Use the IAM Policy Simulator to test policies before applying them to users or roles.|
+ | **Separation of Duties**	| Implement separation of duties by creating different policies for different roles, preventing any single user from having excessive permissions.|
+ | **Immutable Policies**	| Prefer immutable policies over inline policies. Immutable policies are versioned and cannot be modified directly. This ensures better control and auditability.|
+
+ **Note:** After creating the policy, attach it to the appropriate IAM users or roles. Regularly review and update the policy as necessary based on changing requirements and security best practices.
+
+ ***
+ 
  ## Create custom IAM policies
 **Step**1: ![Screenshot from 2024-02-15 19-53-44](https://github.com/avengers-p7/Documentation/assets/156056746/5a2c63ae-b9ba-4370-bace-db7d1f4129fa)
 ***
