@@ -1,4 +1,6 @@
 ## Create IAM Role
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/2c667c75-38b7-4758-b009-1d38fa556a86)
+
 ***
 | Author | Created on | Last updated by | Last edited on |
 |--------|------------|-----------------|----------------|
@@ -8,6 +10,7 @@
 + [Introduction](#Introduction)
 +  [Why](#Why)
 + [Features](#Features)
++ [Flow Diagram](#FlowDiagram)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Conclusion](#Conclusion)
@@ -31,6 +34,11 @@ IAM roles are created to delegate access permissions dynamically within AWS envi
 | **Cross-Account Access**	| IAM roles facilitate secure sharing of resources across AWS accounts, promoting collaboration while upholding security measures.|
 
 ***
+## Flow Diagram
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/53355221-4d4d-4e7e-8fa1-5dd7cb03f87e)
+
+***
+
 ## Advantages 
 | Advantage	| Description |
 |-----------|-------------|
