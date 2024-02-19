@@ -30,9 +30,9 @@ Here, we harness the efficiency of Ansible, an open-source automation tool strea
 ***
 ## Flow Diagram
 
-* This diagram should help you visualize the sequence of tasks in your Ansible playbook for installing Jenkins.
+* This diagram should help you visualize the sequence of tasks and overall ansible role flow for configuring Jenkins on target servers.
 
-<img width="1197" alt="Screenshot 2024-02-01 at 4 19 50 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/73aef5f2-f1ce-402f-8015-c44e7b14236b">
+<img width="1668" alt="Screenshot 2024-02-19 at 11 22 07 PM" src="https://github.com/avengers-p7/Documentation/assets/156056349/e26bef37-9a1f-4627-b6c5-1f08d76fb14d">
 
 ***
 ## Pre-requisites
