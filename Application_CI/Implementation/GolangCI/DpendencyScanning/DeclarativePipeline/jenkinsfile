@@ -1,28 +1,42 @@
-
 pipeline {
     agent any
     
-    
+    environment {
+        TARGET_URL = 'https://github.com/OT-MICROSERVICES/employee-api.git'
+    }
     
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
+                // Checkout your code repository
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/OT-MICROSERVICES/employee-api.git']])
             }
         }
         
-        
-        
-        stage('Publish Dependency Check Report') {
+        stage('Install ZAP') {
             steps {
-                publishHTML(target: [
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: false,
-                    keepAll: true,
-                    reportDir: '',
-                    reportFiles: 'dep-check.html',
-                    reportName: 'Dependency Check Report'
-                ])
+                script {
+                    // Download and install OWASP ZAP
+                    sh 'wget https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz'
+                    sh 'tar -xvf ZAP_2.14.0_Linux.tar.gz'
+                    
+                }
+            }
+        }
+        
+        stage('Run ZAP Scan') {
+            steps {
+                script {
+                    // Start ZAP and perform the scan
+                    sh "/var/lib/jenkins/workspace/'GolangDeclartivepipeline1'/ZAP_2.14.0/zap.sh -cmd -port 8090 -quickurl http://54.152.50.41:8080/api/v1/employee/health -quickprogress -quickout ~/out2.html"
+                }
+            }
+        }
+        
+        stage('Publish ZAP Scan Report') {
+            steps {
+                // Publish HTML report
+                publishHTML(target: [allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: '/var/lib/jenkins/workspace/GolangDeclartivepipeline1/ZAP_2.14.0/', reportFiles: 'out2.html', reportName: 'ZAP Scan Report', reportTitles: ''])
             }
         }
     }
