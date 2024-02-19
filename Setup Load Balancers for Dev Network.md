@@ -5,23 +5,6 @@
 | Nidhi Bhardwaj                                                    | 16-02-2024  | 1.0        | Nidhi Bhardwaj   | 16-02-2024      |
 
 
-
-
-# Table of Content 
-
-1. [Introduction](#Introduction)
-2. [What is  Application Load Balancer](#What-is-Application-Load-Balancer)
-3. [Application Load Balancer components](#Application-Load-Balancer-components)
-4. [Advanatges of Loadbalancer](#Advanatges-of-Loadbalancer) 
-5. [Types of Load balancer](#Types-of-Load-Balancer)
-6. [POC of Load Balancer](#POC-of-Load-Balancer)
-7. [Conclusion](#Conclusion)
-8. [Contact Information](#Contact-Information)
-9. [References](#References)
-   
-
-
-
 # Introduction 
 
 A load balancer is a critical networking component designed to evenly distribute incoming traffic across multiple servers or resources, ensuring efficient resource utilization and high availability. Serving as a traffic cop, it intelligently routes requests based on predefined algorithms or rules, preventing any single server from becoming overwhelmed. Load balancers monitor the health of servers in real time, directing traffic only to healthy instances and seamlessly redistributing requests if any server fails or becomes overloaded. With capabilities for session persistence and scalability, load balancers optimize performance, enhance reliability, and mitigate potential bottlenecks in modern network architectures. Whether implemented as hardware appliances, software solutions, or cloud services, load balancers play a fundamental role in maintaining seamless operations for web applications, services, and distributed systems.
@@ -29,6 +12,32 @@ A load balancer is a critical networking component designed to evenly distribute
 
 
 ***
+
+
+# Types of load balancer 
+
+In the context of AWS, there are primarily three types of load balancers:
+
+**Application Load Balancer (ALB)**
+
+ALB operates at the application layer (Layer 7) of the OSI model, making routing decisions based on the content of the request.
+It supports advanced routing features such as path-based routing, host-based routing, and integration with AWS Lambda for serverless applications.
+ALB is optimized for HTTP and HTTPS traffic, making it ideal for modern web applications, microservices architectures, and API endpoints.
+
+**Network Load Balancer (NLB)**
+
+NLB operates at the transport layer (Layer 4) of the OSI model, forwarding traffic based on IP protocol data.
+It is designed to handle high-throughput, low-latency workloads, making it suitable for TCP and UDP traffic.
+NLB provides ultra-low latency and scales to millions of requests per second, making it ideal for scenarios such as gaming, real-time communications, and IoT applications.
+
+**Classic Load Balancer (CLB)**
+
+CLB is the original load balancer offering in AWS, providing basic load balancing across multiple EC2 instances.
+It operates at both the application and transport layers, supporting HTTP, HTTPS, TCP, and SSL traffic.
+CLB offers a simple and easy-to-use load-balancing solution, but it lacks some of the advanced features and scalability capabilities of ALB and NLB.
+
+
+
 
 
 # What is Application Load Balancer 
@@ -84,29 +93,21 @@ Using a load balancer in AWS offers several advantages:
 
 
 ***
+# Routing method in load balancer
+
+Load balancers use different routing methods to distribute incoming traffic across multiple backend servers or services. Each routing method has its own advantages and is suitable for different scenarios. Here are some common routing methods used in load balancers:
 
 
-# Types of load balancer 
+|Components|Description|
+|----------|-----------|
+|Round Robin | This is one of the simplest routing methods where each new connection or request is sent to the next backend server in line, looping back to the first server after reaching the end of the list. Round-robin is easy to implement and ensures that each server receives an equal share of the load. However, it doesn't take server load or capacity into account, so it may not be suitable for situations where servers have different capabilities |
+|Least Connections| With this method, incoming requests are forwarded to the server with the fewest active connections. This helps to distribute the load more evenly among servers and prevents overloading of individual servers. It's particularly useful in scenarios where the workload on servers varies over time|
+|IP Hash| In IP hash routing, the load balancer calculates a hash value based on the source IP address of the incoming request and uses this value to determine which backend server to route the request to. This ensures that requests from the same client are consistently directed to the same server, which can be useful for maintaining session persistence or sticky sessions|
+|Weighted Round Robin |Weighted round-robin assigns a weight to each backend server, indicating its processing capacity or capability. Servers with higher weights receive a larger proportion of incoming traffic. This allows administrators to prioritize certain servers over others based on their capacity to handle the load|
+|Least Response Time |This method routes incoming requests to the server with the lowest response time or latency. It continuously monitors the response times of backend servers and directs traffic to the server that is currently responding the fastest. This helps to optimize performance by minimizing response times for clients|
+|Least Bandwidth |Similar to least connections, this method directs traffic to the server with the lowest bandwidth usage. It's useful for scenarios where bandwidth consumption varies significantly between servers|
 
-In the context of AWS, there are primarily three types of load balancers:
-
-**Application Load Balancer (ALB)**
-
-ALB operates at the application layer (Layer 7) of the OSI model, making routing decisions based on the content of the request.
-It supports advanced routing features such as path-based routing, host-based routing, and integration with AWS Lambda for serverless applications.
-ALB is optimized for HTTP and HTTPS traffic, making it ideal for modern web applications, microservices architectures, and API endpoints.
-
-**Network Load Balancer (NLB)**
-
-NLB operates at the transport layer (Layer 4) of the OSI model, forwarding traffic based on IP protocol data.
-It is designed to handle high-throughput, low-latency workloads, making it suitable for TCP and UDP traffic.
-NLB provides ultra-low latency and scales to millions of requests per second, making it ideal for scenarios such as gaming, real-time communications, and IoT applications.
-
-**Classic Load Balancer (CLB)**
-
-CLB is the original load balancer offering in AWS, providing basic load balancing across multiple EC2 instances.
-It operates at both the application and transport layers, supporting HTTP, HTTPS, TCP, and SSL traffic.
-CLB offers a simple and easy-to-use load-balancing solution, but it lacks some of the advanced features and scalability capabilities of ALB and NLB.
+The choice of routing method depends on factors such as the characteristics of the application, the workload on the servers, the desired level of session persistence, and the specific requirements of the deployment. Often, a combination of routing methods may be used within a load balancer configuration to optimize performance and ensure high availability.
 
 
 ***
