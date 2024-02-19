@@ -48,6 +48,62 @@ Creating IAM users and groups is essential for implementing secure access contro
 | **Potential for Misconfiguration** |	Incorrectly configured IAM policies or group memberships can result in unintended access restrictions or security vulnerabilities, necessitating thorough testing and regular review.|
 
 ***
+### How to create your first IAM user and user group
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/1361ef75-84a7-4a07-935e-9ea77ff166aa)
+
+***
+### Navigate to AWS Services and search for IAM to access the IAM console.
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/3e256943-917a-4af7-821f-af8ba4ea6267)
+
+***
+###  From the IAM console select Users on the left-handside and click Add Users
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/20dc7c1c-263d-4c27-a250-bada6be0824d)
+
+***
+ **Under User name type 'Administrator'**
+
+ **Check the box: Password - AWS Management Console access**
+
+ **In Console password, create a custom password**
+
+ **Uncheck the box 'Require password reset'**
+
+ **Click: permissions**
+ ![Screenshot from 2024-02-19 06-32-29](https://github.com/avengers-p7/Documentation/assets/156056746/e74d7817-b67f-4feb-857c-e45d8aa6ea24)
+ 
+ ***
+ ## Navigate to Users and click 'Add permissions
+ ![Screenshot from 2024-02-19 06-34-50](https://github.com/avengers-p7/Documentation/assets/156056746/4bcb6a13-7f3f-4b5e-a955-aefd56a960a9)
+
+ ***
+ ## Select 'Add User to Group' and click Create Group
+ 
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/a51e401a-c129-4f84-ab92-bef229b0a409)
+
+***
+## Select 'EC2 full Access' and then click 'Create group'
+![Screenshot from 2024-02-19 06-40-05](https://github.com/avengers-p7/Documentation/assets/156056746/c21715a8-f7bf-42b0-b9f0-44048e413efb)
+
+
+***
+## Refresh your web browser so you can see the newly created Dev group that was created under Users group.
+![Screenshot from 2024-02-19 06-40-35](https://github.com/avengers-p7/Documentation/assets/156056746/553f5731-d7d4-43d8-b9fc-eec61015c704)
+
+***
+## Under the Dev group Ec2 full access is provided to AWS services
+![Screenshot from 2024-02-19 06-40-05](https://github.com/avengers-p7/Documentation/assets/156056746/1083e506-50be-4a2c-96f1-deaf3cb1dba6)
+
+***
+## Confirmation that new Dev user has been successfully created
+
+![Screenshot from 2024-02-19 06-43-54](https://github.com/avengers-p7/Documentation/assets/156056746/44125a62-2c2a-41f9-9716-90788a8b2393)
+
+
+
+***
+
+
+
 ## Conclusion
 IAM users and groups are essential components of AWS security, enabling organizations to enforce access control policies, manage user permissions, and maintain compliance within their AWS environments. While they offer advantages such as enhanced security and scalability, organizations must also address challenges such as complexity and the potential for misconfiguration. Overall, IAM users and groups play a critical role in establishing robust access control mechanisms and ensuring the security of AWS resources.
 
@@ -67,4 +123,4 @@ IAM users and groups are essential components of AWS security, enabling organiza
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Link |https://deliciousbrains.com/wp-offload-media/doc/custom-iam-policy-for-amazon-s3/|
+| Link |https://dev.to/aws-builders/creating-your-first-iam-admin-user-and-user-group-in-your-aws-account-machine-learning-part-1-3cne|
