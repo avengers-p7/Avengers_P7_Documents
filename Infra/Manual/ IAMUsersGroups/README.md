@@ -9,7 +9,7 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [ Why Create IAM Users and Groups](#WhyCreateIAMUsersandGroups)
-+ [ Features of IAM Users and Groups](#Features of IAM Users and Groups)
++ [ Features of IAM Users and Groups](#FeaturesofIAMUsersandGroups)
 + [Advantages of IAM Users and Groups](#AdvantagesofIAMUsersandGroups)
 + [Disadvantages of IAM Users and Groups](#DisadvantagesofIAMUsersandGroups)
 + [Conclusion](#Conclusion)
