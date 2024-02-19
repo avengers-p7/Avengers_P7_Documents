@@ -72,6 +72,9 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
 ![Screenshot 2024-02-07 190504](https://github.com/avengers-p7/Documentation/assets/156056570/ed038dff-efa7-4d5a-bc02-2b1d66ffe196)
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056570/c5bbf8b8-c131-4b8b-bac0-31d39399899f)
+
+
 ### JSON Report
 
 * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/Python%20CI/Declarative%20Pipeline%20Python%20Bugs%20Analysis/Declarative%20Pipeline/JSON%20Report)
@@ -80,52 +83,39 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 ## Jenkinsfile
 ```shell
 node {
+    // Define environment variables
     def REPO_URL = 'https://github.com/OT-MICROSERVICES/attendance-api.git'
+    
+    // Checkout code repository
+    checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: REPO_URL]]])
+    
+    // Install necessary dependencies
+    sh 'python3 -m venv myenv'
+    sh '. myenv/bin/activate'
 
-    stage('Checkout') {
-        checkout scmGit(
-            branches: [[name: '*/main']],
-            extensions: [],
-            userRemoteConfigs: [[url: "${REPO_URL}"]]
-        )
+    // Clean workspace
+    cleanWs()
+
+    // Run bugs analysis with Bandit
+    try {
+        // Ensure Bandit is installed and run the analysis
+        sh 'bandit --version' // Check Bandit version to ensure it's installed
+        sh 'bandit -r . -f json -o bandit_report.json'
+    } catch (Exception e) {
+        echo "Bugs analysis failed: ${e.message}"
     }
 
-    stage('Install Dependencies') {
-        script {
-            // Install necessary dependencies
-            sh 'python3 -m venv myenv'
-            sh '. myenv/bin/activate'
-        }
-    }
-
-    stage('Bugs Analysis - Bandit') {
-        script {
-            try {
-                // Ensure Bandit is installed and run the analysis
-                sh 'bandit --version' // Check Bandit version to ensure it's installed
-                sh 'bandit -r . -f json -o bandit_report.json'
-            } catch (Exception e) {
-                echo "Bugs analysis failed: ${e.message}"
-            }
-        }
-    }
-
-    stage('Publish Bandit Report') {
-        try {
-            // Publish Bandit report as post-build action
-            publishHTML(target: [
-                allowMissing: false,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
-                reportDir: '.',
-                reportFiles: 'bandit_report.json',
-                reportName: 'Bandit Security Report'
-            ])
-        } catch (Exception e) {
-            echo "Failed to publish Bandit report: ${e.message}"
-        }
-    }
+    // Publish Bandit report as post-build action
+    publishHTML(target: [
+        allowMissing: false,
+        alwaysLinkToLastBuild: true,
+        keepAll: true,
+        reportDir: '.',
+        reportFiles: 'bandit_report.json',
+        reportName: 'Bandit Security Report'
+    ])
 }
+
 ```
 
 ***
