@@ -1,140 +1,210 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html" />
-<!-- CSS Tabs is licensed under Creative Commons Attribution 3.0 - http://creativecommons.org/licenses/by/3.0/ -->
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ZAP Report</title>
 <style type="text/css">
-
 body {
-font: 100% verdana, arial, sans-serif;
-background-color: #fff;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #000;
+        font-size: 13px;
 }
 
-/* begin css tabs */
-
-ul#tabnav { /* general settings */
-text-align: left; /* set to left, right or center */
-margin: 8px 0 0 0; /* set margins as desired */
-font: bold 11px verdana, arial, sans-serif; /* set font as desired */
-border-bottom: 1px solid #6c6; /* set border COLOR as desired */
-list-style-type: none;
-padding: 3px 10px 0px 10px;
+h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 32px
 }
 
-ul#tabnav li { /* do not change */
-display: inline-block;
+h3 {
+        font-size: 16px;
 }
 
-ul#tabnav li.selected { /* settings for selected tab */
-border-bottom: 1px solid #fff; /* set border color to page background color */
-background-color: #fff; /* set background color to match above border color */
+table {
+        border: none;
+        font-size: 13px;
 }
 
-
-ul#tabnav li { /* settings for all tab links */
-padding: 3px 4px;
-border: 1px solid #6c6; /* set border COLOR as desired; usually matches border color specified in #tabnav */
-border-bottom: 1px solid #cfc;
-background-color: #cfc; /* set unselected tab background color as desired */
-color: #666; /* set unselected tab link color as desired */
-margin-right: 0px; /* set additional spacing between tabs as desired */
-text-decoration: none;
-cursor: pointer;
+td, th {
+        padding: 3px 4px;
+        word-break: break-word;
 }
 
-ul#tabnav li:hover { /* settings for hover effect */
-background: #afa; /* set desired hover color */
+th {
+        font-weight: bold;
+        background-color: #666666;
 }
 
-/* end css tabs */
-
-/* FF 100% height iframe */
-html, body, div, iframe { margin:0; padding:0; }
-iframe { display:block; width:100%; border:none; }
-
-h1
-{
-    display: inline;
-    float: left;
-    font-size: small;
-    margin: 0;
-    padding: 0 10px;
+td {
+        background-color: #e8e8e8;
 }
 
-h2
-{
-    display: inline;
-    float: right;
-    font-size: small;
-    margin: 0;
-    padding: 0 10px;
+.spacer {
+        margin: 10px;
 }
 
+.spacer-lg {
+        margin: 40px;
+}
+
+.indent1 {
+        padding: 4px 20px;
+}
+
+.indent2 {
+        padding: 4px 40px;
+}
+
+.risk-3 {
+        background-color: red;
+        color: #FFF;
+}
+
+.risk-2 {
+        background-color: orange;
+        color: #FFF;
+}
+
+.risk-1 {
+        background-color: yellow;
+        color: #000;
+}
+
+.risk-0 {
+        background-color: blue;
+        color: #FFF;
+}
+
+.risk--1 {
+        background-color: green;
+        color: #FFF;
+}
+
+.summary {
+        width: 45%;
+}
+
+.summary th {
+        color: #FFF;
+}
+
+.alerts {
+        width: 75%;
+}
+
+.alerts th {
+        color: #FFF;
+}
+
+.results {
+        width: 100%;
+}
+
+.results th {
+        text-align: left;
+}
+
+.left-header {
+        display: inline-block;
+}
 </style>
-
-<script type="text/javascript">
-function updateBody(tabId, page) {
-    document.getElementById(selectedTab).setAttribute("class", "unselected");
-    tab = document.getElementById(tabId)
-    tab.setAttribute("class", "selected");
-    selectedTab = tabId;
-    iframe = document.getElementById("myframe");
-    iframe.src = encodeURIComponent(tab.getAttribute("value")).replace(/%2F/g, '/');
-}
-function init(tabId){
-        updateBody(tabId);
-        updateViewport();
-
-        window.onresize = updateViewport;
-}
-
-function updateViewport(){
-         var viewportheight;
-
-         // the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
-
-         if (typeof window.innerWidth != 'undefined')
-         {
-              viewportheight = window.innerHeight
-         }
-
-        // IE6 in standards compliant mode (i.e. with a valid doctype as the first line in the document)
-
-         else if (typeof document.documentElement != 'undefined'
-             && typeof document.documentElement.clientWidth !=
-             'undefined' && document.documentElement.clientWidth != 0)
-         {
-               viewportheight = document.documentElement.clientHeight
-         }
-        // older versions of IE
-         else
-         { 
-               viewportheight = document.getElementsByTagName('body')[0].clientHeight
-         }
-
-        iframe = document.getElementById("myframe");
-        iframe.style.height = (viewportheight-30)+'px';
-}
-var selectedTab = "tab1"
-</script>
-
 </head>
+<body>
+        <h1>
+                <!-- The ZAP Logo -->
+                <img
+                        src="data:image/png;base64,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"
+                        alt="" />
+                ZAP Report
+        </h1>
+        <p />
 
-<body onload="init('tab1');">
 
-<h1><a id="hudson_link" href="#"></a></h1>
-<h2><a id="zip_link" href="#">Zip</a></h2>
+        <h2>
 
-<ul id="tabnav">
-<script type="text/javascript">document.getElementById("hudson_link").innerHTML="Back to GolangDeclartivepipeline";</script>
-<script type="text/javascript">document.getElementById("hudson_link").href="http://54.209.135.83:8080/job/GolangDeclartivepipeline/";</script>
-<script type="text/javascript">document.getElementById("zip_link").href="*zip*/Dependency_20Check_20Report.zip";</script>
-</ul>
-<div>
-<iframe id="myframe" height="100%" width="100%" frameborder="0"></iframe>
-</div>
+
+
+        </h2>
+
+        <h3>
+                Generated on Mon, 19 Feb 2024 11:17:04
+        </h3>
+
+        <h3>
+                ZAP Version: 2.14.0
+        </h3>
+
+
+                <h3 class="left-header">Summary of Alerts</h3>
+                <table class="summary">
+                        <tr>
+                                <th width="45%"
+                                        height="24">Risk Level</th>
+                                <th width="55%"
+                                        align="center">Number of Alerts</th>
+                        </tr>
+                        <tr>
+                                <td class="risk-3">
+                                        <div>High</div>
+                                </td>
+                                <td align="center">
+                                        <div>0</div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td class="risk-2">
+                                        <div>Medium</div>
+                                </td>
+                                <td align="center">
+                                        <div>0</div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td class="risk-1">
+                                        <div>Low</div>
+                                </td>
+                                <td align="center">
+                                        <div>0</div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td class="risk-0">
+                                        <div>Informational</div>
+                                </td>
+                                <td align="center">
+                                        <div>0</div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td class="risk--1">
+                                        <div>                           False Positives:</div>
+                                </td>
+                                <td align="center">
+                                        <div>0</div>
+                                </td>
+                        </tr>
+                </table>
+                <div class="spacer-lg"></div>
+
+
+
+                <h3>Alerts</h3>
+                <table class="alerts">
+                        <tr>
+                                <th width="60%" height="24">Name</th>
+                                <th width="20%"
+                                        align="center">Risk Level</th>
+                                <th width="20%"
+                                        align="center">Number of Instances</th>
+                        </tr>
+
+                </table>
+                <div class="spacer-lg"></div>
+
+
+
+                <h3>Alert Detail</h3>
+
 
 </body>
 </html>
