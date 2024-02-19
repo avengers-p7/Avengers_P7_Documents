@@ -1,5 +1,5 @@
 
-# Ansible Role to setup PostgreSQL (Ubuntu)
+# Ansible Role to setup PostgreSQL
 
 ![image](https://github.com/avengers-p7/Documentation/assets/79625874/08f84d0b-467a-46f1-b6de-8603020cf116)
 
