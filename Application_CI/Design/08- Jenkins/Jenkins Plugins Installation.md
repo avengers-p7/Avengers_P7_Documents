@@ -101,6 +101,55 @@ Under the Available tab, plugins available for download from the configured Upda
 
 
 
+# Sonarqube 
+
+
+SonarQube is an open-source platform developed for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities. Plugins extend the functionality of SonarQube to support additional languages, frameworks, and integrations.
+
+|Components | Description |
+|-----------|-------------|
+|Access SonarQube Web Interface | To install plugins, you need access to the SonarQube server's web interface. Typically, this is accessed via a web browser|
+|Login | You need appropriate permissions to install plugins. So, log in with an account that has administrative privileges|
+|Navigate to Administration | In the SonarQube interface, there is usually an "Administration" tab or link. Click on it to access administrative settings|
+|Plugin Marketplace |Within the Administration section, you'll typically find an option for "Marketplace" or "Update Center." This is where you can browse available plugins and install them|
+|Browse and Select Plugin | In the marketplace, you can browse available plugins. They are often categorized by language or functionality. Select the plugin you want to install|
+|Access SonarQube Web Interface | To install plugins, you need access to the SonarQube server's web interface. Typically, this is accessed via a web browser|
+|Login | You need appropriate permissions to install plugins. So, log in with an account that has administrative privileges |
+|Navigate to Administration |In the SonarQube interface, there is usually an "Administration" tab or link. Click on it to access administrative settings|
+|Plugin Marketplace | Within the Administration section, you'll typically find an option for "Marketplace" or "Update Center." This is where you can browse available plugins and install them |
+|Browse and Select Plugin | In the marketplace, you can browse available plugins. They are often categorized by language or functionality. Select the plugin you want to install |
+|Install Plugin| Once you've selected a plugin, there should be an option to install it. Click on the install button, and SonarQube will handle the rest|
+|Restart SonarQube (if required)| Some plugins may require a restart of the SonarQube server to take effect. If prompted, restart the server|
+|Configure Plugin (if required) | After installation, you may need to configure the plugin according to your project's needs. This could involve setting up additional parameters or providing access tokens for integration with external services |
+|Verify Installation | Once installed and configured, verify that the plugin is working as expected. You can do this by checking the relevant sections of the SonarQube interface or by running code analysis on your projects to see if the plugin's features are being utilized |
+|Install Plugin | Once you've selected a plugin, there should be an option to install it. Click on the install button, and SonarQube will handle the rest|
+|Restart SonarQube (if required) | Some plugins may require a restart of the SonarQube server to take effect. If prompted, restart the server.|
+|Configure Plugin (if required) |After installation, you may need to configure the plugin according to your project's needs. This could involve setting up additional parameters or providing access tokens for integration with external services|
+|Verify Installation | Once installed and configured, verify that the plugin is working as expected. You can do this by checking the relevant sections of the SonarQube interface or by running code analysis on your projects to see if the plugin's features are being utilized |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
