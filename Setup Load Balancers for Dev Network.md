@@ -118,7 +118,7 @@ The choice of routing method depends on factors such as the characteristics of t
 Load balancers play a crucial role in ensuring high availability, scalability, and efficient resource utilization for various types of applications and services. Here are some common use cases for load balancers
 
 |Components | Description |Use cases |
-|-----------|-------------|
+|-----------|-------------|----------|
 |Web Applications|Load balancers distribute incoming HTTP and HTTPS traffic across multiple web servers to ensure that no single server becomes overwhelmed with requests| E-commerce websites, social media platforms, news websites, and other web-based applications with high traffic volumes benefit from load balancers to maintain responsiveness and availability|
 |API Services|Load balancers distribute incoming API requests across multiple backend servers to ensure consistent performance and availability|
 |Microservices architectures, where multiple APIs handle different functionalities, benefit from load balancing to evenly distribute incoming requests among service instances|
