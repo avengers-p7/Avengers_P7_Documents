@@ -42,7 +42,7 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 |---------------------------|----------------------------------------------------------------------------------------------------------------|
 | [OWASP Dependency-Check](https://jeremylong.github.io/DependencyCheck/) | OWASP Dependency-Check is a mature and widely adopted tool that identifies project dependencies and checks if there are any known, publicly disclosed vulnerabilities.    |
 | [Synk](https://snyk.io/)  | Synk is a comprehensive security platform that helps developers find and fix vulnerabilities in open-source libraries. It provides insights into dependencies, container images, and infrastructure as code. |
-| [Retire.js](https://retirejs.github.io/retire.js/) | Retire.js is a tool for detecting vulnerable JavaScript libraries. It can be used as a command-line tool or integrated into various build tools. |
+| [Retire.js](https://retirejs.github.io/retire.js/) | Retire.js is a tool for detecting vulnerable JavaScript libraries. It can be used as a command-line tool or integrated into various build tools. It can also scan Java projects for known vulnerabilities on the client-side. |
 
 ***
 ## Tool Comparison 
