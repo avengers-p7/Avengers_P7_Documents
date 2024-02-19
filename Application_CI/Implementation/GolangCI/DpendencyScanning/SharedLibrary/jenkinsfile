@@ -1,11 +1,11 @@
 @Library('snaatak-p7') _
-def PublishDependencyReport = new org.avengers.template.PublishDependencyReport()
+def publishDependencyReport = new org.avengers.template.PublishDependencyReport()
 
 node {
     
     def url = 'https://github.com/OT-MICROSERVICES/employee-api.git/'
     def branch = 'main'
     
-    PublishDependencyReport.call(url, branch)
+    publishDependencyReport.call(url, branch)
     
 }
