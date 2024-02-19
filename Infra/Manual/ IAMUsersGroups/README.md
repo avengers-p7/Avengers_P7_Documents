@@ -1,4 +1,6 @@
 ##  IAM Users and Groups
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/75cb9f03-0340-46bd-b882-7c5e5849aa4e)
+
 ***
 
 | Author | Created on | Last updated by | Last edited on |
@@ -33,6 +35,12 @@ Creating IAM users and groups is essential for implementing secure access contro
 | **Centralized Management**	| IAM users and groups support centralized management of access policies, simplifying administration and ensuring consistent enforcement of security policies across the organization's AWS environment.|
 
 ***
+## Flow Diagram
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/3e05497a-8ff7-4b1f-8ce7-814247fc4cc2)
+
+
+***
+
 ## Advantages of IAM Users and Groups
 | Advantage |	Description |
 |-----------|-------------|
@@ -47,6 +55,20 @@ Creating IAM users and groups is essential for implementing secure access contro
 | **Complexity**	| Managing a large number of IAM users and groups can introduce complexity, requiring careful organization and documentation to ensure effective access control. |
 | **Potential for Misconfiguration** |	Incorrectly configured IAM policies or group memberships can result in unintended access restrictions or security vulnerabilities, necessitating thorough testing and regular review.|
 
+***
+
+## IAM Users and Groups add best practices 
+| Best Practice |	Description |
+|---------------|-------------|
+| **Unique User Identifiers**	| Ensure each IAM user has a unique identifier (username) to avoid confusion and maintain accountability.|
+| **Enable Multi-Factor Authentication (MFA)**| Enforce MFA (Multi-Factor Authentication) for IAM users, adding an extra layer of security to their accounts.|
+| **Group-Based Permissions**	| Assign permissions to groups rather than individual users, facilitating easier management and scalability.|
+| **Least Privilege Principle**	| Assign permissions to groups with the minimum necessary privileges, following the principle of least privilege.|
+|**Use IAM Roles**	| Utilize IAM roles for temporary access instead of long-term credentials, enhancing security and reducing risk.|
+| **Regular Review** | Regularly review IAM users, groups, and permissions to ensure they align with current business requirements and follow security best practices.|
+| **Enable CloudTrail**| Enable AWS CloudTrail to monitor and log API calls made on the AWS account, providing visibility into user activity.|
+| **Rotate Credentials Regularly**|	Regularly rotate IAM user access keys and passwords to mitigate the risk of unauthorized access due to compromised credentials.|
+| **Implement Strong Password Policies** |	Enforce strong password policies for IAM users to enhance security and reduce the risk of unauthorized access.|
 ***
 ### How to create your first IAM user and user group
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/1361ef75-84a7-4a07-935e-9ea77ff166aa)
