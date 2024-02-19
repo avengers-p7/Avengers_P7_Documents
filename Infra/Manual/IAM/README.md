@@ -7,8 +7,8 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Introduction to Custom IAM Policies](#IntroductiontoCustomIAMPolicies)
-+ [Features](#Features)
++  [Why Custom IAM Policies](#WhyCustomIAMPolicies)
++ [Features Custom IAM Policies ](#FeaturesCustomIAMPolicies)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Conclusion](#Conclusion)
@@ -48,6 +48,33 @@ Custom IAM (Identity and Access Management) policies allow organizations to fine
 | **Flexibility and Scalability**	| Custom policies offer flexibility to adjust access control according to evolving business requirements and scale permissions as AWS infrastructure expands.|
 | **Enhanced Security**| Custom IAM policies leverage conditions and constraints to bolster security measures, reducing the risk of unauthorized access and potential security breaches.|
 ***
+## Disadvantages of Custom IAM Policies
+ | Aspect | Description |
+ |--------|-------------|
+ | **Complexity**	| Custom IAM policies can introduce complexity, especially as the number of policies and resources grows. Managing and maintaining numerous policies may require significant administrative effort and expertise.|
+ | **Expertise Requirement** |	Developing effective custom IAM policies requires expertise in IAM policy syntax, cloud platform-specific configurations, and understanding of organizational security requirements. Organizations may need to invest in training or hire skilled personnel for policy management.|
+ | **Increased Administrative Overhead**	| Creating and managing custom IAM policies can result in increased administrative overhead. This includes tasks such as policy creation, testing, deployment, and regular updates to align with changing security needs.|
+ | **Risk of Misconfiguration**| Incorrectly configured custom IAM policies can lead to security vulnerabilities or access restrictions that impede operations. Human error or misinterpretation of requirements during policy creation and updates can pose significant risks.|
+
+ ***
+ ## Create custom IAM policies
+**Step**1: ![Screenshot from 2024-02-15 19-53-44](https://github.com/avengers-p7/Documentation/assets/156056746/5a2c63ae-b9ba-4370-bace-db7d1f4129fa)
+***
+![Screenshot from 2024-02-19 04-56-01](https://github.com/avengers-p7/Documentation/assets/156056746/09694d96-6cf2-488a-aab7-e637374c4a4c)
+
+
+***
+**Step**2: ![Screenshot from 2024-02-19 05-00-25](https://github.com/avengers-p7/Documentation/assets/156056746/202a1f27-f991-4f10-bdb2-730f0d36a7ea)
+
+***
+**Step** 3: ![Screenshot from 2024-02-19 05-01-23](https://github.com/avengers-p7/Documentation/assets/156056746/04aa18d0-dccf-4c87-a191-c35786fbaa50)
+
+
+***
+
+ ## Conclusion
+ Custom IAM policies enable organizations to precisely manage access to AWS resources, ensuring compliance with security standards. While they offer tailored control and enhanced security, they can also pose challenges such as complexity and administrative overhead. Despite these drawbacks, their benefits in enforcing least privilege and scalability outweigh the challenges, making them crucial for maintaining secure AWS environments. Overall, custom IAM policies are essential for organizations seeking fine-grained access control and robust security measures in their AWS infrastructure.
+ 
 
 
 ## Contact Information
@@ -61,7 +88,7 @@ Custom IAM (Identity and Access Management) policies allow organizations to fine
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Pipeline | https://docs.cloudbees.com/docs/cloudbees-ci/latest/pipeline-syntax-reference-guide/scripted-pipeline |
+| Link |https://deliciousbrains.com/wp-offload-media/doc/custom-iam-policy-for-amazon-s3/|
 
 
 
