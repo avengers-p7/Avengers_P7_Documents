@@ -8,7 +8,7 @@
 
 1. [Introduction](#Introduction)
 2. [What is a Jenkins plugin](#What-is-a-jenkins-plugin)
-3. [Prerequisites](#Prerequisites)
+3. [Pre-requisites](#Pre-requisites)
 4. [Steps](#Steps)
 5. [Conclusion](#Conclusion)
 6. [Resource and Reference](#Resource-and-Reference)
@@ -33,7 +33,7 @@ A Jenkins plugin is an essential component that extends the functionality of the
 ***
 
 
-# Prerequisites
+# Pre-requisites
 
 |Tool|Description|
 |----|------------|
