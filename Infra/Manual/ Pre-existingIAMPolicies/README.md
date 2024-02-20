@@ -50,6 +50,18 @@ Identifying pre-existing IAM policies allows organizations to leverage existing 
 
 
 ***
+## Pre-existing IAM Policies
+**Step**1: 
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/8cf615e0-1881-4e0e-829a-6bd9a3c5bf7a)
+***
+**step**2:
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/88763758-06f9-4ae2-a202-3fd1a7afc01a)
+
+***
+**Step**3: 
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/5cbe08ed-79c1-4fc4-aa0e-627f78067d73)
+***
+
 ## Conclusion
 Identifying pre-existing IAM policies is a strategic approach to access management in AWS environments, offering efficiency, consistency, and compliance benefits. While pre-existing policies streamline access control implementation and promote security best practices, organizations must also address challenges such as policy limitations and complexity. By leveraging pre-existing IAM policies effectively and supplementing them as needed, organizations can establish robust access controls that align with their security objectives and regulatory obligations within AWS environments.
 
