@@ -37,7 +37,8 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy
 
 ***
 ## Flow Diagram  
-![Screenshot 2024-02-18 221207](https://github.com/avengers-p7/Documentation/assets/156056344/5c780442-e198-47d7-965d-4faa026db1e5)
+![Screenshot 2024-02-20 093526](https://github.com/avengers-p7/Documentation/assets/156056344/4862ba8f-dddb-435c-a6f6-4146ab2600ea)
+
 
 
 
