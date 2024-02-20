@@ -1,4 +1,5 @@
 # Ansibe Roles 
+![76 ansible-roles](https://github.com/avengers-p7/Documentation/assets/156056344/03abe0eb-9fca-40c7-b308-5474f3f67784)
 
 
 |   Authors        |  Created on   |  Version   | Last updated by | Last edited on |
@@ -11,7 +12,7 @@
 + [Why Ansible Roles](#pre-requisites)
 + [Creating A Role ](#steps)
 + [Role Directory Structure](#output)
-+ [Connect Redis](#post-installation-steps)
++ [Storing And Finding Roles](#post-installation-steps)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
@@ -41,16 +42,16 @@ Creating an Ansible role involves creating a specific directory structure and or
 
 1. Navigate to your Ansible project directory:
 
-   ```shell
-   cd /path/to/your/ansible/project
-   ```
+ ```shell
+ cd /path/to/your/ansible/project
+ ```
    
 3. Create the role directory structure:
 
 ```shell
 ansible-galaxy init my_role
 ```
-This command will create a directory named my_role with the basic structure of an Ansible role.
+This command will create a directory named my_role with the basic structure of an Ansible role. More information on role directory structure [here]()
 
 3.Navigate into the role directory:
 ```shell
@@ -151,3 +152,24 @@ By default, Ansible will look in each directory within a role for a main.yml fil
 
 You can add other YAML files in some directories. For example, you can place platform-specific tasks in separate files and refer to them in the tasks/main.yml file.
 
+***
+## Storing And Finding Roles
+
+By default, Ansible looks for roles in the following locations:
++ In collections, if you are using them
++ In a directory called roles/, relative to the playbook file
++ In the configured roles_path. The default search path is `~/.ansible/roles:/usr/share/ansible/roles:/etc/ansible/roles`.
++ In the directory where the playbook file is located
+
+If you store your roles in a different location, set the roles_path configuration option so Ansible can find your roles. Checking shared roles into a single location makes them easier to use in multiple playbooks.
+
+Alternatively, you can call a role with a fully qualified path:
+```yaml
+---
+- hosts: webservers
+  roles:
+    - role: '/path/to/my/roles/common'
+```
+***
+
+## Using Roles 
