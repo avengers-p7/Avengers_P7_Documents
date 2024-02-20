@@ -50,8 +50,10 @@ A scripted pipeline typically refers to a set of automated processes or tasks th
 | Python | Python is a versatile, high-level programming language. |
 | Pytest | It is a widely used testing framework for Python, streamlining the task of creating and running tests. |
 ***
-![Screenshot 2024-02-15 at 11 24 25 PM](https://github.com/avengers-p7/Documentation/assets/156056364/b8922bdd-82eb-41ec-8b7a-ad4a5159b077)
+<img width="695" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/823c2e8d-4e48-4bd4-8cf3-2ccfa178ef4b">
+
 ***
+
 # Jenkinsfile Configuration
 
 **Agent Configuration:** This specifies that the pipeline can run on any available agent (slave node).
