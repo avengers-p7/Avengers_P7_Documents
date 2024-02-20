@@ -141,4 +141,5 @@ This POC demonstrates the process of creating a Security Group in AWS for hostin
 # References
 | Source | Description  | 
 | -------- | ------- | 
-| https://github.com/avengers-p7/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API/README.md | Employee API |
+| [Link](https://github.com/CodeOps-Hub/Documentation/blob/main/OT%20Micro%20Services/Application/Employee_API/README.md) | Employee API |
+| [Link](https://github.com/CodeOps-Hub/Documentation/blob/main/Application_CI/Design/09-%20Cloud%20Infra%20Design/Cloud-Infra-Design-Dev.md) | Dev Infra Link |
