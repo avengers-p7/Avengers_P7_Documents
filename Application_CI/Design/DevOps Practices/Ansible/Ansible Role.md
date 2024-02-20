@@ -228,4 +228,4 @@ In conclusion, Ansible roles serve as a powerful organizational and modularizati
 |--------------------------------------------|-----------------------------------------------|
 | Ansible Role Docs         |  https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html   |
 | Role POC          | https://spacelift.io/blog/ansible-roles |
-| Ansible Roles                | [Jenkins]() , [SonarQube]() , [Redis]() , [ScyllaDB]() , [Postgres]() | 
+| Ansible Roles                | [Jenkins]() , [SonarQube]() , [Redis](https://github.com/CodeOps-Hub/redis-ansiblerole/blob/main/README.md) , [ScyllaDB]() , [Postgres]() | 
