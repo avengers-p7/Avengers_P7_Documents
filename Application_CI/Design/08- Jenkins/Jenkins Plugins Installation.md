@@ -61,7 +61,7 @@ A Jenkins plugin is an essential component that extends the functionality of the
 ***
 
 
-# steps installing a plugin 
+# Steps to install `Plugin`
 
 
 **Jenkins provides two methods for installing plugins on the controller**
