@@ -1,7 +1,7 @@
 # Employee API Manual Security Group Setup
 | Author | Created On | Last Updated | Document Version | Last Updated By |
 | ------ | ---------- | ------------ | ---------------- | --------------- |
-| Shantanu | 12-02-2024 | 13-02-2024   |         v1     |     Shantanu    |
+| Shantanu | 12-02-2024 | 20-02-2024   |         v1     |     Shantanu    |
 ***
 
 # Table of Content
