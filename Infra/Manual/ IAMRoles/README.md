@@ -10,6 +10,7 @@
 + [Introduction](#Introduction)
 +  [Why](#Why)
 + [Features](#Features)
++ [Types of IAM Role in aws](#TypesofIAMRoleinaws)
 + [Flow Diagram](#FlowDiagram)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
@@ -36,6 +37,19 @@ IAM roles are created to delegate access permissions dynamically within AWS envi
 ***
 ## Flow Diagram
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/53355221-4d4d-4e7e-8fa1-5dd7cb03f87e)
+
+***
+## Types of IAM Role in aws
+| Role Type	| Description |
+|-----------|-------------|
+| **IAM Roles**	| IAM roles are used to delegate permissions to entities within your AWS environment, such as IAM users, services, or federated users. They are commonly used for cross-account access and granting permissions to AWS services.|
+| **Service Roles**| Service roles are IAM roles used by AWS services to perform specific actions on your behalf. For example, AWS Lambda functions often assume a service role to access other AWS resources.|
+| **Cross-Account Roles** |	Cross-account roles allow IAM users in one AWS account to access resources in another AWS account. This type of role is commonly used for resource sharing or managing multi-account setups.|
+| **EC2 Instance Roles** | (IAM)	EC2 instance roles (IAM roles) are used to grant permissions to EC2 instances. These roles allow applications running on EC2 instances to interact with other AWS services without requiring access keys.|
+|**EC2 Instance Profile Roles**|	EC2 instance profile roles (also known as EC2 roles) are associated with EC2 instances and are used to grant permissions to applications running on those instances. They are similar to IAM roles but specific to EC2 instances.|
+| **Lambda Execution Roles**	| Lambda execution roles are IAM roles used by AWS Lambda functions to access other AWS resources. These roles define the permissions needed by the Lambda function during execution.|
+| **ECS Task Execution Roles**	| ECS task execution roles are IAM roles used by Amazon ECS tasks to access AWS resources. These roles define the permissions needed by ECS tasks to interact with other AWS services.|
+| **S3 Bucket Access Roles**	| S3 bucket access roles are IAM roles used to grant cross-account access to Amazon S3 buckets. They allow other AWS accounts to access specific S3 buckets for various purposes.|
 
 ***
 
