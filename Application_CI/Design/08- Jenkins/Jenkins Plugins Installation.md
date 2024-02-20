@@ -145,19 +145,63 @@ SonarQube is an open-source platform developed for continuous inspection of code
 
 # Installing a local instance of SonarQube
 
-```Download and install Java 11 on your system.
-Download the SonarQube Community Edition zip file.
-As a non-root user, unzip it in, for example, C:\sonarqube or /opt/sonarqube.
-As a non-root user, start the SonarQube server: 
-# On Windows, execute:
-C:\sonarqube\bin\windows-x86-64\StartSonar.bat
- 
-# On other operating systems, as a non-root user execute:
-/opt/sonarqube/bin/<OS>/sonar.sh console```
+`
+1. Install java on the machine
 
 
-# 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/0cd5ad9d-3767-45ac-acb0-7d59fc010875)
 
+
+2. Download Sonarqube
+
+``https://www.sonarqube.org/downloads/``
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/05108a5e-4b6c-434c-be12-77e2cde3fd38)
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/320eb984-d564-4cb1-bf56-364b7aef957f)
+
+
+
+
+# on ec2
+
+
+
+3. ``cd /opt wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.10.61524.zip``
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/11d11cf7-af97-4257-9b6a-121a4c1b1d53)
+
+
+
+4. unzip sonarqube-8.9.10.61524.zip
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/a6f82801-1b6c-408c-8afa-2bc3faccdc58)
+
+
+
+
+5. go inside the sonarqube repo
+
+
+
+``cd sonarqube-8.9.10.61524``
+
+
+``cd bin``
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/0f527142-fafe-4f95-96ae-626d99d6306f)
 
 
 
