@@ -8,9 +8,9 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Pre-requisites](#pre-requisites)
-+ [Setup Ansible Role](#steps)
-+ [Output Verification](#output)
++ [Why Ansible Roles](#pre-requisites)
++ [Creating A Role ](#steps)
++ [Role Directory Structure](#output)
 + [Connect Redis](#post-installation-steps)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
@@ -36,7 +36,74 @@ Ansible roles offer several advantages that contribute to better organization, r
 | Community Contributions | Ansible Galaxy, a platform for sharing Ansible roles, encourages the creation of reusable roles by the community. This means you can leverage and contribute to a vast repository of roles that cover a wide range of applications and infrastructure components.|
 
 ***
+## Creating A Role 
+Creating an Ansible role involves creating a specific directory structure and organizing your tasks, variables, and other resources within that structure. Here is a step-by-step guide on how to create a basic Ansible role:
 
+1. Navigate to your Ansible project directory:
+
+   ```shell
+   cd /path/to/your/ansible/project
+   ```
+   
+3. Create the role directory structure:
+
+```shell
+ansible-galaxy init my_role
+```
+This command will create a directory named my_role with the basic structure of an Ansible role.
+
+3.Navigate into the role directory:
+```shell
+cd my_role
+```
+4. Edit the role files:
+
+* Edit tasks/main.yml:
+  Add the tasks that you want the role to perform. For example:
+
+```yaml
+---
+- name: Install a package
+  apt:
+    name: my-package
+    state: present
+```
+* Edit defaults/main.yml:
+  Define default variables that can be overridden by the user. For example:
+
+```yaml
+---
+my_variable: "default_value"
+```
+
+* Edit other files as needed:
+  Depending on your requirements, you may also edit handlers/main.yml, meta/main.yml, vars/main.yml, and add files to files/ or templates/.
+
+5. Create a playbook to use the role:
+Create a playbook (e.g., my_playbook.yml) in your project directory or any subdirectory. Use the role in the playbook like this:
+
+```yaml
+---
+- hosts: my_servers
+  roles:
+    - my_role
+```
+
+Ensure that my_servers is defined in your inventory file.
+
+6.Run the playbook:
+
+Execute the playbook using the following command:
+
+```shell
+ansible-playbook my_playbook.yml
+```
+This will apply the tasks defined in your role to the specified hosts.
+
+That's it! You've created a basic Ansible role. You can now reuse this role in other playbooks, and if needed, share it with the community on Ansible Galaxy.
+Remember that this is a simple example, and roles can be extended and customized based on the complexity of the tasks you need to perform. Consider adding documentation to your role in the form of a README.md file to explain its purpose, usage, and any specific requirements.
+
+***
 ## Role Directory Structure 
 An Ansible role has a defined directory structure with eight main standard directories. You must include at least one of these directories in each role. You can omit any directories the role does not use. For example:
 
