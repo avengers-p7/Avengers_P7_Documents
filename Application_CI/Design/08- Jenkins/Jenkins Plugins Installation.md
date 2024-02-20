@@ -3,13 +3,13 @@
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/50a769a7-2076-4ed7-8d56-3bf6ce448388)
 
-
+***
 # Table of contents 
 
 1. [Introduction](#Introduction)
 2. [What is a Jenkins plugin](#What-is-a-jenkins-plugin)
 3. [Pre-requisites](#Pre-requisites)
-4. [Steps to insatll Plugin](#Steps-to-install-plugin)
+4. [Steps to install Plugin](#Steps-to-install-plugin)
 5. [Conclusion](#Conclusion)
 6. [Resource and Reference](#Resource-and-Reference)
 7. [Contact Info](#Contact-Information)
@@ -17,7 +17,7 @@
 
 
 
-
+***
 # Introduction 
 Jenkins for continuous integration/continuous deployment (CI/CD) processes, installing plugins is a fundamental step in tailoring the server to meet specific project requirements. Jenkins plugins serve as modular extensions that enhance its core functionalities, providing capabilities ranging from source code management to deployment and monitoring. The installation of plugins is seamlessly integrated into the Jenkins ecosystem, facilitated by the Plugin Manager interface, which allows users to browse, install, update, and manage plugins effortlessly. With a vast repository of open-source plugins maintained by the community, users can easily extend Jenkins to integrate with various tools and services, customize workflows, and automate repetitive tasks. 
 
@@ -225,7 +225,7 @@ Slack notifications serve as a crucial communication mechanism within teams, pro
 > [!Note]
 > **This is not the complete list, we will continue adding plugins as required.**
 
-
+***
 # Conclusion
 
 
@@ -233,7 +233,7 @@ Slack notifications serve as a crucial communication mechanism within teams, pro
 In short, we talked about the basics of Jenkins plugins, and how they help Jenkins do more stuff. We covered the simple steps to install and set them up, showing you how to use the plugin manager to handle everything.
 
 
-
+***
 # Resource and Reference
 
 
@@ -244,7 +244,7 @@ In short, we talked about the basics of Jenkins plugins, and how they help Jenki
 
 
 
-
+***
 # Contact Information
 
 
