@@ -91,6 +91,7 @@ Under the Available tab, plugins available for download from the configured Upda
 
 
 
+
 ![Screenshot from 2024-02-09 22-00-41](https://github.com/avengers-p7/Documentation/assets/156644891/039dece4-386e-42d8-b7ce-43a793abae0d)
 
 
@@ -99,7 +100,10 @@ Under the Available tab, plugins available for download from the configured Upda
 
 
 
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/3256cce6-00c6-4024-8eb0-c7fb7f695302)
+
+
 
 
 
@@ -129,12 +133,21 @@ Navigate to plugins:
 Now follow path Dashboard > Manage Jenkins > Plugins
 
 
+
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/2339b401-a0b5-434c-8a02-311f0702a3f0)
 
 
 
 
+
+
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/ad994575-fc47-4d5f-a74c-a33526a3c65e)
+
+
+
+
 
 
 
@@ -151,7 +164,12 @@ Now follow path Dashboard > Manage Jenkins > Plugins
 OWASP Dependency-Check Plugin in Jenkins is a powerful tool designed to enhance the security of your software projects by identifying and managing vulnerabilities in project dependencies. OWASP, or the Open Web Application Security Project, is a nonprofit organization dedicated to improving software security. The Dependency-Check Plugin integrates with Jenkins, a popular automation server, to automate security checks on project dependencies as part of the continuous integration (CI) and continuous delivery (CD) pipeline.
 
 
+
+
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/b9512480-e6d6-4c86-9e5d-5979f8f9cb1f)
+
+
 
 
 
