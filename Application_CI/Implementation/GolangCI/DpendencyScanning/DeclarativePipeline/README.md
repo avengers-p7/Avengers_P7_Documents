@@ -80,49 +80,69 @@ In modern software development, managing dependencies is crucial for code stabil
     pipeline {
     agent any
     
-    
+    environment {
+        DEP_CHECK_VERSION = '9.0.9'
+    }
     
     stages {
-        stage('Checkout') {
+        stage('Install JDK') {
             steps {
-                git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
+                sh 'sudo apt update && sudo apt install -y openjdk-17-jdk'
             }
         }
-        
-        
-        
-        stage('Publish Dependency Check Report') {
+
+        stage('Download Dependency Check') {
             steps {
-                publishHTML(target: [
-                    allowMissing: false,
-                    alwaysLinkToLastBuild: false,
-                    keepAll: true,
-                    reportDir: '',
-                    reportFiles: 'dep-check.html',
-                    reportName: 'Dependency Check Report'
-                ])
+                sh "wget -q https://github.com/jeremylong/DependencyCheck/releases/download/v${env.DEP_CHECK_VERSION}/dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+                sh "unzip -q dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+            }
+        }
+
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git'
+            }
+        }
+
+        stage('Run Dependency Check') {
+            steps {
+                sh './dependency-check/bin/dependency-check.sh --scan . --out dep-check.html'
+            }
+        }
+
+        stage('Clean workspace') {
+            steps {
+                sh "rm -rf dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+                sh "rm -rf dependency-check"
             }
         }
     }
 }
+
+
+***
+
 ## Create new pipeline task
 ![image](https://github.com/avengers-p7/Documentation/assets/156056746/e06ca324-4a6f-45d2-84b8-a2856a089662)
 
 ***
 ## Scroll down to pipeline section, we use pipeline script this time, script is shown as below.
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/3a1a4d6c-fa05-4033-9694-bbebee060be6)
 
-![Screenshot from 2024-02-09 15-18-18](https://github.com/avengers-p7/Documentation/assets/156056746/5e9629b5-d600-4cfd-9f20-fd83a67a375c)
+
 
 ***
 ## Build and check result
 
-![Screenshot from 2024-02-09 15-18-01](https://github.com/avengers-p7/Documentation/assets/156056746/1abc53d7-0fa7-41c1-affe-e8264ed5a54c)
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/408a7700-6d4d-4cf0-b99a-54101aad256b)
+
 
 ***
 
 
 ## Console Output
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/4ebb4c28-a52e-4bcf-bbab-b66cb8f5defe)
+![image](https://github.com/avengers-p7/Documentation/assets/156056746/eb2bb32c-2051-44ae-86a1-726148449b0e)
+
 
 ***
 
