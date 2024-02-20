@@ -9,7 +9,7 @@
 1. [Introduction](#Introduction)
 2. [What is a Jenkins plugin](#What-is-a-jenkins-plugin)
 3. [Pre-requisites](#Pre-requisites)
-4. [Steps](#Steps)
+4. [Steps to insatll Plugin](#Steps-to-install-plugin)
 5. [Conclusion](#Conclusion)
 6. [Resource and Reference](#Resource-and-Reference)
 7. [Contact Info](#Contact-Information)
@@ -61,7 +61,7 @@ A Jenkins plugin is an essential component that extends the functionality of the
 ***
 
 
-# Steps to install `Plugin`
+# Steps to install Plugin
 
 
 **Jenkins provides two methods for installing plugins on the controller**
