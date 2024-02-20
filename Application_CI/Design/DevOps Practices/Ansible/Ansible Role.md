@@ -13,6 +13,8 @@
 + [Creating A Role ](#steps)
 + [Role Directory Structure](#output)
 + [Storing And Finding Roles](#post-installation-steps)
++ [Using Roles](#using-roles)
++ [Best Practices](#best-practices)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [References](#references)
@@ -173,3 +175,44 @@ Alternatively, you can call a role with a fully qualified path:
 ***
 
 ## Using Roles 
+
+You can use roles in three ways:
+
++ At the play level with the roles option: This is the classic way of using roles in a play.
++ At the tasks level with `include_role`: You can reuse roles dynamically anywhere in the tasks section of a play using `include_role`.
++ At the tasks level with `import_role`: You can reuse roles statically anywhere in the tasks section of a play using `import_role`.
+
+The classic and most obvious way is to reference a role at the play level with the roles option:
+
+```yaml
+---
+- hosts: my_servers
+  roles:
+    - my_role
+```
+***
+
+## Best Practices 
+When creating Ansible roles, following best practices helps ensure your roles are modular, maintainable, and easy to use. Here are some best practices for creating Ansible roles:
+
+| **Best Practice** | **Description** |
+| ----------------- | --------------- |
+| Use ansible-galaxy init | When creating a new role, use the ansible-galaxy init command to set up the basic directory structure. This provides a standardized layout for your roles and includes directories for tasks, defaults, handlers, meta, templates, vars, and files. |
+| Organize tasks effectively | Break down tasks into smaller, modular components. Use separate task files within the tasks/ directory, and include them in the main tasks/main.yml file. This makes it easier to understand and maintain your role. |
+| Document your role | Include a README.md file in your role directory with information about the role's purpose, variables, dependencies, and usage. Documentation is crucial for users who may want to leverage or contribute to your role. |
+| Parameterize variables | Use the defaults/main.yml file to define default variables. Parameterizing your role makes it more flexible and allows users to customize the role's behavior by overriding these variables in their playbooks. |
+| Handle role dependencies | If your role depends on other roles, specify them in the meta/main.yml file. This ensures that required roles are installed and executed before the current role, simplifying the management of dependencies. |
+| Separate sensitive data | Avoid hardcoding sensitive information such as passwords or API keys directly into your roles. Instead, use Ansible Vault to encrypt sensitive data or prompt users for input during playbook execution. |
+| Test your role | Implement testing for your role using tools like Molecule. Testing ensures that your role works as expected and can be safely reused. Include test cases for different scenarios and platforms.|
+| Follow idempotent principles| Ensure that your tasks are idempotent, meaning they can be run multiple times without changing the result. This is a fundamental concept in Ansible and helps maintain a consistent state. |
+| Use roles in playbooks |In your playbooks, use roles to organize and structure your configuration. This promotes reusability and modularity, making it easier to manage large and complex infrastructure setups.|
+| Version your roles | If you plan to share your roles with others, use version control (e.g., Git) and include version information in your role's meta/main.yml file. This helps users understand which version of the role they are using. |
+| Consider platform compatibility | Be mindful of platform-specific differences when writing tasks. Use Ansible's platform-specific variables and conditionals to make your roles adaptable to different operating systems. |
+
+By adhering to these best practices, you'll create Ansible roles that are more maintainable, shareable, and adaptable to various environments and use cases.
+
+***
+## Conclusion
+In conclusion, Ansible roles serve as a powerful organizational and modularization tool within Ansible playbooks, enabling the creation of reusable, well-structured components. By adhering to best practices such as effective task organization, parameterizing variables, documenting thoroughly, handling dependencies, and implementing testing, roles become a key asset in the automation toolkit. The modular nature of roles fosters collaboration, code reuse, and maintainability, allowing system administrators and DevOps teams to efficiently manage and scale infrastructure configurations. Whether shared within an organization or the broader Ansible community, well-designed roles contribute to the streamlined orchestration of complex IT environments, ultimately enhancing the flexibility, reliability, and ease of management in Ansible-based automation workflows.
+
+***
