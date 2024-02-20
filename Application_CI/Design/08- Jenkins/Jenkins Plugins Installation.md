@@ -1,52 +1,37 @@
 # Documentation of Jenkins Plugin Installation 
 
 # Introduction 
-Blue Ocean is a revolutionary plugin for Jenkins, offering a modern and intuitive user interface that transforms the experience of creating, visualizing, and managing continuous integration and continuous delivery (CI/CD) pipelines. Introduced by CloudBees, Blue Ocean represents a significant departure from the traditional Jenkins interface, which was often criticized for its complexity and lack of user-friendliness. With Blue Ocean, users are greeted with a sleek and streamlined interface that prioritizes simplicity, clarity, and ease of use. One of its standout features is the graphical pipeline visualization, which provides a visual representation of CI/CD pipelines, making it easier for users to understand the structure and track the progress of builds. 
-
-# What is Blue Ocean?
-
-Blue Ocean rethinks the Jenkins user experience. Designed from the ground up for Jenkins Pipeline and compatible with Freestyle jobs, Blue Ocean reduces clutter and increases clarity for every member of your team through the following key features:
-
-**Sophisticated visualizations of CD pipelines** for fast and intuitive comprehension of software pipeline status.
-
-**Pipeline editor** that makes automating CD pipelines approachable by guiding the user through an intuitive and visual process to create a pipeline.
-
-**Personalization** of the Jenkins UI to suit the role-based needs of each member of the DevOps team.
-
-**Pinpoint precision** when intervention is needed and/or issues arise. The Blue Ocean UI shows where in the pipeline attention is needed, facilitating exception handling and increasing productivity.
-
-**Native integration for branch and pull requests** enables maximum developer productivity when collaborating on code with others in GitHub and Bitbucket.
+Jenkins for continuous integration/continuous deployment (CI/CD) processes, installing plugins is a fundamental step in tailoring the server to meet specific project requirements. Jenkins plugins serve as modular extensions that enhance its core functionalities, providing capabilities ranging from source code management to deployment and monitoring. The installation of plugins is seamlessly integrated into the Jenkins ecosystem, facilitated by the Plugin Manager interface, which allows users to browse, install, update, and manage plugins effortlessly. With a vast repository of open-source plugins maintained by the community, users can easily extend Jenkins to integrate with various tools and services, customize workflows, and automate repetitive tasks. 
 
 
 ***
 
-# Advantages of the Blue Ocean of Jenkins 
+Prerequisites
 
-Blue Ocean brings several advantages to Jenkins users, making pipeline development, visualization, and management more accessible and efficient. Some of the key advantages of Blue Ocean include:
+|Tool|Description|
+|----|------------|
+|Jenkins|This is required to install plugins|
 
-|Componments|Description|
-|------------|----------|
-|Intuitive User Interface |Blue Ocean offers a modern and user-friendly interface that simplifies the process of creating and managing CI/CD pipelines. Its intuitive design reduces the learning curve for new users and improves overall productivity|
-|Graphical Pipeline Visualization |Blue Ocean provides a visual representation of CI/CD pipelines, allowing users to easily understand the structure and flow of their pipelines. This graphical visualization enhances clarity and makes it simpler to track the progress of builds through different stages|
-|Streamlined Pipeline Creation | With Blue Ocean's visual pipeline editor, users can create and modify pipelines using a drag-and-drop interface. This eliminates the need for manual Jenkinsfile coding, making pipeline creation more accessible to developers and other team members|
-|Integrated Code Editor | Blue Ocean includes an integrated code editor that allows users to edit Jenkins files directly within the UI. This seamless integration streamlines the process of making changes to pipeline code and improves developer workflow|
-|GitHub Integration | Blue Ocean seamlessly integrates with GitHub, enabling users to create pipelines for GitHub projects and trigger builds based on code changes, pull requests and branches. This integration enhances collaboration and supports modern software development practices.|
-|Personalization and Customization|Blue Ocean offers personalization options, allowing users to customize their dashboard with custom pipeline views and configurations. This enables users to organize pipelines based on their projects or teams and tailor their Jenkins experience to suit their needs|
-|Built-in Analytics and Insights |Blue Ocean provides built-in analytics and insights to track pipeline performance metrics such as execution times, success rates, and resource utilization. This empowers users to optimize their CI/CD processes and improve overall efficiency |
-|Enhanced Debugging and Troubleshooting| Blue Ocean offers features for easily re-running failed pipeline builds or specific stages within a pipeline. It also provides enhanced debugging capabilities, such as viewing logs and debugging failed builds directly from the UI, which helps in identifying and resolving issues more efficiently |
 
 ***
 
-# Disadvantages of the Blue Ocean of Jenkins 
 
+# Here is the list of some plugins we have installed on our Jenkins as a part of our requirements:
 
-While Blue Ocean offers significant benefits to Jenkins users, there are some potential disadvantages to consider:
+1. Blue Ocean
 
-|Components | Description |
-|-----------|--------------|
-|Resource Intensiveness| Blue Ocean's modern UI and graphical features may consume more system resources compared to the traditional Jenkins UI. This could lead to performance issues on older or resource-constrained hardware, potentially impacting overall Jenkins performance|
-|Learning Curve| While Blue Ocean aims to simplify the Jenkins experience, it introduces new concepts and workflows. Users who are accustomed to the traditional Jenkins UI may face a learning curve when transitioning to Blue Ocean, which could temporarily slow down productivity|
-|Dependency on CloudBees| Blue Ocean was initially developed by CloudBees, and while it is open source, its development and support are closely tied to CloudBees. Users who prefer to avoid vendor lock-in may be cautious about relying heavily on a plugin with strong ties to a specific vendor|
+2. SonarQube Scanner for Jenkins
+
+3. OWASP Dependency-Check Plugin
+
+4. Aws Credential
+
+5. Slack Notification
+
+Note: This is not the complete list, we will continue adding plugins as required.
+
+# steps
+
 
 ***
 
@@ -59,18 +44,22 @@ While Blue Ocean offers significant benefits to Jenkins users, there are some po
  **2. Using the Jenkins CLI install-plugin command**
 
 
-Each approach will result in the plugin being loaded by Jenkins but may require different levels of access and trade-offs to use.
+Each approach will result in the plugin being loaded by Jenkins but may require different access levels and trade-offs.
 
 The two approaches require that the Jenkins controller be able to download meta-data from an Update Center, whether the primary Update Center operated by the Jenkins project [1], or a custom Update Center.
 
 The plugins are packaged as self-contained .hpi files, which have all the necessary code, images, and other resources that the plugin needs to operate successfully.
 
 
-# From the web UI
+
+# Blue Ocean
+
+
 
 The simplest and most common way of installing plugins is through the **Manage Jenkins > Plugins view**, available to administrators of a Jenkins environment.
 
 Under the Available tab, plugins available for download from the configured Update Center can be searched and considered: 
+
 
 
 
@@ -106,147 +95,101 @@ Under the Available tab, plugins available for download from the configured Upda
 
 SonarQube is an open-source platform developed for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities. Plugins extend the functionality of SonarQube to support additional languages, frameworks, and integrations.
 
-|Components | Description |
-|-----------|-------------|
-|Access SonarQube Web Interface | To install plugins, you need access to the SonarQube server's web interface. Typically, this is accessed via a web browser|
-|Login | You need appropriate permissions to install plugins. So, log in with an account that has administrative privileges|
-|Navigate to Administration | In the SonarQube interface, there is usually an "Administration" tab or link. Click on it to access administrative settings|
-|Plugin Marketplace |Within the Administration section, you'll typically find an option for "Marketplace" or "Update Center." This is where you can browse available plugins and install them|
-|Browse and Select Plugin | In the marketplace, you can browse available plugins. They are often categorized by language or functionality. Select the plugin you want to install|
-|Access SonarQube Web Interface | To install plugins, you need access to the SonarQube server's web interface. Typically, this is accessed via a web browser|
-|Login | You need appropriate permissions to install plugins. So, log in with an account that has administrative privileges |
-|Navigate to Administration |In the SonarQube interface, there is usually an "Administration" tab or link. Click on it to access administrative settings|
-|Plugin Marketplace | Within the Administration section, you'll typically find an option for "Marketplace" or "Update Center." This is where you can browse available plugins and install them |
-|Browse and Select Plugin | In the marketplace, you can browse available plugins. They are often categorized by language or functionality. Select the plugin you want to install |
-|Install Plugin| Once you've selected a plugin, there should be an option to install it. Click on the install button, and SonarQube will handle the rest|
-|Restart SonarQube (if required)| Some plugins may require a restart of the SonarQube server to take effect. If prompted, restart the server|
-|Configure Plugin (if required) | After installation, you may need to configure the plugin according to your project's needs. This could involve setting up additional parameters or providing access tokens for integration with external services |
-|Verify Installation | Once installed and configured, verify that the plugin is working as expected. You can do this by checking the relevant sections of the SonarQube interface or by running code analysis on your projects to see if the plugin's features are being utilized |
-|Install Plugin | Once you've selected a plugin, there should be an option to install it. Click on the install button, and SonarQube will handle the rest|
-|Restart SonarQube (if required) | Some plugins may require a restart of the SonarQube server to take effect. If prompted, restart the server.|
-|Configure Plugin (if required) |After installation, you may need to configure the plugin according to your project's needs. This could involve setting up additional parameters or providing access tokens for integration with external services|
-|Verify Installation | Once installed and configured, verify that the plugin is working as expected. You can do this by checking the relevant sections of the SonarQube interface or by running code analysis on your projects to see if the plugin's features are being utilized |
 
+Navigate to plugins:
 
+Now follow path Dashboard > Manage Jenkins > Plugins
 
-# Advantages of Sonarqube 
 
-**SonarQube offers several advantages for software development teams and organizations**
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/2339b401-a0b5-434c-8a02-311f0702a3f0)
 
-|Components | Description |
-|------------|------------|
-|Code Quality Management | SonarQube provides comprehensive tools for assessing and improving code quality. It performs static code analysis to identify issues such as bugs, code smells, security vulnerabilities, and potential performance bottlenecks |
-|Continuous Inspection |With SonarQube, code quality checks can be integrated seamlessly into the development process, allowing for continuous inspection of code. This ensures that quality issues are identified and addressed early in the development lifecycle |
-|Automated Code Review | SonarQube automates many aspects of code review, reducing the need for manual inspection and freeing up developers' time for more productive tasks. It provides actionable feedback directly within the development environment, helping developers to quickly understand and resolve issues|
-|Support for Multiple Languages | SonarQube supports a wide range of programming languages, including popular ones like Java, JavaScript, Python, C#, and more. This makes it suitable for teams working on projects with diverse technology stacks |
 
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ad994575-fc47-4d5f-a74c-a33526a3c65e)
 
-# Installing a local instance of SonarQube
 
-`
-1. Install java on the machine
 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/0cd5ad9d-3767-45ac-acb0-7d59fc010875)
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/7f3fa7ae-02b3-4afc-9d77-5d1403dd32bc)
 
 
-2. Download Sonarqube
 
-``https://www.sonarqube.org/downloads/``
 
 
+# OWASP Dependency-Check Plugin
 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/05108a5e-4b6c-434c-be12-77e2cde3fd38)
+OWASP Dependency-Check Plugin in Jenkins is a powerful tool designed to enhance the security of your software projects by identifying and managing vulnerabilities in project dependencies. OWASP, or the Open Web Application Security Project, is a nonprofit organization dedicated to improving software security. The Dependency-Check Plugin integrates with Jenkins, a popular automation server, to automate security checks on project dependencies as part of the continuous integration (CI) and continuous delivery (CD) pipeline.
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/b9512480-e6d6-4c86-9e5d-5979f8f9cb1f)
 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/320eb984-d564-4cb1-bf56-364b7aef957f)
 
 
 
 
-# on ec2
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/ca0c441a-7db6-4390-9a6f-2d9b48121d03)
 
 
-3. ``cd /opt wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.10.61524.zip``
 
 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/11d11cf7-af97-4257-9b6a-121a4c1b1d53)
 
+# AWS Credentials Plugin
 
 
-4. unzip sonarqube-8.9.10.61524.zip
 
 
+ ![image](https://github.com/avengers-p7/Documentation/assets/156644891/49587f56-066c-403f-9123-a23ef4edfd45)
 
+ 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/a6f82801-1b6c-408c-8afa-2bc3faccdc58)
 
 
 
+# Slack Notification
 
-5. go inside the sonarqube repo
 
 
 
-``cd sonarqube-8.9.10.61524``
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/581eb302-6717-4967-82de-e7eed102f565)
 
 
-``cd bin``
 
 
-![image](https://github.com/avengers-p7/Documentation/assets/156644891/0f527142-fafe-4f95-96ae-626d99d6306f)
+## Note: This is not the complete list, we will continue adding plugins as required.
 
 
 
 
 
+# Conclusion
 
 
 
+In short, we talked about the basics of Jenkins plugins, and how they help Jenkins do more stuff. We covered the simple steps to install and set them up, showing you how to use the plugin manager to handle everything.
 
 
 
+# Resource and Reference
 
 
 
+|Links|Description|
+|https://plugins.jenkins.io/| Main Documentation|
 
 
 
 
+# Contact Information
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|Name|Email|
+|-----|-----|
+|Nidhi|nidhi.bhardwaj.snaatak@mygurukulam.co|
 
 
 
