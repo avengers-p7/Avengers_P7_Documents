@@ -11,10 +11,21 @@
 
 
 
+# Table of Content
+1. [Introduction](#Introduction)
+2. [Types of load balancer](#Types-of-load-balancer)
+3. [What is Application Load Balancer](#What-is-Application-Load-Balancer)
+4. [Application Load Balancer components](#Application-Load-Balancer-components)
+5. [Advanatges of Loadbalancer](Advanatges-of-Loadbalancer)
+6. [Routing method in load balancer](#Routing-method-in-load-balancer)
+7. [Use cases of load balancer](#Use-cases-of-load-balancer)
+8. [POC of Load Balancer](#POC-of-Load-Balancer)
+9.  [Conclusion]([#Conclusion)
+10. [Contact Information](#Contact-Information)
+11. [References](#References)
 
 
-
-
+***
 # Introduction 
 
 A load balancer is a critical networking component designed to evenly distribute incoming traffic across multiple servers or resources, ensuring efficient resource utilization and high availability. Serving as a traffic cop, it intelligently routes requests based on predefined algorithms or rules, preventing any single server from becoming overwhelmed. Load balancers monitor the health of servers in real time, directing traffic only to healthy instances and seamlessly redistributing requests if any server fails or becomes overloaded. With capabilities for session persistence and scalability, load balancers optimize performance, enhance reliability, and mitigate potential bottlenecks in modern network architectures. Whether implemented as hardware appliances, software solutions, or cloud services, load balancers play a fundamental role in maintaining seamless operations for web applications, services, and distributed systems.
