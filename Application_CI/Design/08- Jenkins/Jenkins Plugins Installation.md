@@ -241,8 +241,9 @@ In short, we talked about the basics of Jenkins plugins, and how they help Jenki
 
 
 
-|Links|Description|
-|https://plugins.jenkins.io/| Main Documentation|
+| **Links** | **Description** |
+| --------- | --------------- |
+| https://plugins.jenkins.io/ | Main Documentation |
 
 
 
