@@ -47,7 +47,6 @@ A declarative pipeline is a feature in Jenkins, which is an open-source automati
 | Python | Python is a versatile, high-level programming language. |
 | Pytest | It is a widely used testing framework for Python, streamlining the task of creating and running tests. |
 ***
-![Screenshot 2024-02-15 at 11 23 23 PM](https://github.com/avengers-p7/Documentation/assets/156056364/dc2bd1c9-adc4-4170-a40f-700e3b18e042)
 
 <img width="695" alt="image" src="https://github.com/avengers-p7/Documentation/assets/156057205/823c2e8d-4e48-4bd4-8cf3-2ccfa178ef4b">
 
