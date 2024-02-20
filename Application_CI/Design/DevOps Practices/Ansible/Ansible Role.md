@@ -9,10 +9,10 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Why Ansible Roles](#pre-requisites)
-+ [Creating A Role ](#steps)
-+ [Role Directory Structure](#output)
-+ [Storing And Finding Roles](#post-installation-steps)
++ [Why Ansible Roles](#why-ansible-roles)
++ [Creating A Role ](#creating-a-role)
++ [Role Directory Structure](#role-directory-structure)
++ [Storing And Finding Roles](#storing-and-finding-roles)
 + [Using Roles](#using-roles)
 + [Best Practices](#best-practices)
 + [Conclusion](#conclusion)
@@ -53,7 +53,7 @@ Creating an Ansible role involves creating a specific directory structure and or
 ```shell
 ansible-galaxy init my_role
 ```
-This command will create a directory named my_role with the basic structure of an Ansible role. More information on role directory structure [here]()
+This command will create a directory named my_role with the basic structure of an Ansible role. More information on role directory structure [here](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/DevOps%20Practices/Ansible/Ansible%20Role.md#role-directory-structure)
 
 3.Navigate into the role directory:
 ```shell
@@ -216,3 +216,16 @@ By adhering to these best practices, you'll create Ansible roles that are more m
 In conclusion, Ansible roles serve as a powerful organizational and modularization tool within Ansible playbooks, enabling the creation of reusable, well-structured components. By adhering to best practices such as effective task organization, parameterizing variables, documenting thoroughly, handling dependencies, and implementing testing, roles become a key asset in the automation toolkit. The modular nature of roles fosters collaboration, code reuse, and maintainability, allowing system administrators and DevOps teams to efficiently manage and scale infrastructure configurations. Whether shared within an organization or the broader Ansible community, well-designed roles contribute to the streamlined orchestration of complex IT environments, ultimately enhancing the flexibility, reliability, and ease of management in Ansible-based automation workflows.
 
 ***
+## Contact Information
+
+|Aakash Tripathi                 | aakash.tripathi.snaatak@mygurukulam.co                                                                                      
+|---------------------------------|------------------------------------------------------------|
+
+***
+## References
+
+| Title                                      | URL                                           |
+|--------------------------------------------|-----------------------------------------------|
+| Ansible Role Docs         |  https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html   |
+| Role POC          | https://spacelift.io/blog/ansible-roles |
+| Ansible Roles                | [Jenkins]() , [SonarQube]() , [Redis]() , [ScyllaDB]() , [Postgres]() | 
