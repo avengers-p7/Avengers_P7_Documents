@@ -1,12 +1,36 @@
 # Documentation of Jenkins Plugin Installation 
 
+
+# Table of contents 
+
+1. Introduction
+2. What is a Jenkins plugin
+3. Prerequisites
+4. Steps
+5. Conclusion
+6. Resource and Reference
+7. Contact Info
+
+
+
+
+
 # Introduction 
 Jenkins for continuous integration/continuous deployment (CI/CD) processes, installing plugins is a fundamental step in tailoring the server to meet specific project requirements. Jenkins plugins serve as modular extensions that enhance its core functionalities, providing capabilities ranging from source code management to deployment and monitoring. The installation of plugins is seamlessly integrated into the Jenkins ecosystem, facilitated by the Plugin Manager interface, which allows users to browse, install, update, and manage plugins effortlessly. With a vast repository of open-source plugins maintained by the community, users can easily extend Jenkins to integrate with various tools and services, customize workflows, and automate repetitive tasks. 
 
 
 ***
 
-Prerequisites
+# What is a Jenkins plugin
+
+
+A Jenkins plugin is an essential component that extends the functionality of the Jenkins automation server, allowing users to customize and enhance its capabilities according to their specific requirements. These plugins are modular software packages that integrate seamlessly with Jenkins, providing additional features, integrations, and tools to support various aspects of the software development lifecycle. Jenkins plugins cover a wide range of functionalities, including source code management, build triggers, testing frameworks, deployment automation, monitoring, and reporting. 
+
+
+***
+
+
+# Prerequisites
 
 |Tool|Description|
 |----|------------|
@@ -29,6 +53,7 @@ Prerequisites
 5. Slack Notification
 
 Note: This is not the complete list, we will continue adding plugins as required.
+
 
 # steps
 
