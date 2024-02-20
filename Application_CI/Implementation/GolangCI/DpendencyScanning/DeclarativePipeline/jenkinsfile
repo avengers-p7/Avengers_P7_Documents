@@ -2,41 +2,39 @@ pipeline {
     agent any
     
     environment {
-        TARGET_URL = 'https://github.com/OT-MICROSERVICES/employee-api.git'
+        DEP_CHECK_VERSION = '9.0.9'
     }
     
     stages {
-        stage('Checkout') {
+        stage('Install JDK') {
             steps {
-                // Checkout your code repository
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/OT-MICROSERVICES/employee-api.git']])
+                sh 'sudo apt update && sudo apt install -y openjdk-17-jdk'
             }
         }
-        
-        stage('Install ZAP') {
+
+        stage('Download Dependency Check') {
             steps {
-                script {
-                    // Download and install OWASP ZAP
-                    sh 'wget https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz'
-                    sh 'tar -xvf ZAP_2.14.0_Linux.tar.gz'
-                    
-                }
+                sh "wget -q https://github.com/jeremylong/DependencyCheck/releases/download/v${env.DEP_CHECK_VERSION}/dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+                sh "unzip -q dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
             }
         }
-        
-        stage('Run ZAP Scan') {
+
+        stage('Clone Repository') {
             steps {
-                script {
-                    // Start ZAP and perform the scan
-                    sh "/var/lib/jenkins/workspace/'GolangDeclartivepipeline1'/ZAP_2.14.0/zap.sh -cmd -port 8090 -quickurl http://54.152.50.41:8080/api/v1/employee/health -quickprogress -quickout ~/out2.html"
-                }
+                git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git'
             }
         }
-        
-        stage('Publish ZAP Scan Report') {
+
+        stage('Run Dependency Check') {
             steps {
-                // Publish HTML report
-                publishHTML(target: [allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: '/var/lib/jenkins/workspace/GolangDeclartivepipeline1/ZAP_2.14.0/', reportFiles: 'out2.html', reportName: 'ZAP Scan Report', reportTitles: ''])
+                sh './dependency-check/bin/dependency-check.sh --scan . --out dep-check.html'
+            }
+        }
+
+        stage('Clean workspace') {
+            steps {
+                sh "rm -rf dependency-check-${env.DEP_CHECK_VERSION}-release.zip"
+                sh "rm -rf dependency-check"
             }
         }
     }
