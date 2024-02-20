@@ -94,7 +94,7 @@ Attached the backend security group as the source for the Scylla-Security group:
 | Security Group Name | Inbound Rule Port | Inbound Rule Source |
 |---------------------|-------------------|---------------------|
 | Backend-sg          | 22                | 20.0.0.0/28         |
-| Backend-sg          | 9042              | Backend-sg          |
+| Backend-sg          | 8080              | Backend-sg          |
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156057205/6073c8a4-d39e-4c3b-b0fd-2dc5a491ddbf)
 
