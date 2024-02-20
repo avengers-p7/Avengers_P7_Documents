@@ -5,6 +5,16 @@
 | Nidhi Bhardwaj                                                    | 16-02-2024  | 1.0        | Nidhi Bhardwaj   | 16-02-2024      |
 
 
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/0464b487-4177-4793-8778-a841e09e8e6f)
+
+
+
+
+
+
+
 # Introduction 
 
 A load balancer is a critical networking component designed to evenly distribute incoming traffic across multiple servers or resources, ensuring efficient resource utilization and high availability. Serving as a traffic cop, it intelligently routes requests based on predefined algorithms or rules, preventing any single server from becoming overwhelmed. Load balancers monitor the health of servers in real time, directing traffic only to healthy instances and seamlessly redistributing requests if any server fails or becomes overloaded. With capabilities for session persistence and scalability, load balancers optimize performance, enhance reliability, and mitigate potential bottlenecks in modern network architectures. Whether implemented as hardware appliances, software solutions, or cloud services, load balancers play a fundamental role in maintaining seamless operations for web applications, services, and distributed systems.
