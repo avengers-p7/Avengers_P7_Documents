@@ -141,6 +141,10 @@ OWASP Dependency-Check Plugin in Jenkins is a powerful tool designed to enhance 
 # AWS Credentials Plugin
 
 
+AWS credentials are essential pieces of information that grant access to Amazon Web Services (AWS) resources and services. These credentials typically consist of an Access Key ID and a Secret Access Key, which are used to authenticate and authorize API requests made to AWS. Access Key IDs serve as the username, while Secret Access Keys function as the password, providing a secure means of accessing AWS resources programmatically or through the AWS Management Console.
+
+
+
 
 
  ![image](https://github.com/avengers-p7/Documentation/assets/156644891/49587f56-066c-403f-9123-a23ef4edfd45)
@@ -155,7 +159,21 @@ OWASP Dependency-Check Plugin in Jenkins is a powerful tool designed to enhance 
 
 
 
+Slack notifications serve as a crucial communication mechanism within teams, providing real-time updates and alerts on various events and activities. Integrating Slack with other tools and services, such as continuous integration/continuous deployment (CI/CD) pipelines or monitoring systems, enables teams to receive timely notifications directly within their Slack channels, streamlining collaboration and enhancing visibility into project workflows. These notifications can range from build status updates, deployment notifications, and error alerts, to task assignments, facilitating rapid response and coordination among team members. By configuring Slack notifications, teams can centralize communication, ensure everyone stays informed, and foster a culture of transparency and collaboration
+
+
+
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/581eb302-6717-4967-82de-e7eed102f565)
+
+
+
+
+
+
+
+
+
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/09d8bc75-9136-438f-b9b3-3b8724f1ec8a)
 
 
 
