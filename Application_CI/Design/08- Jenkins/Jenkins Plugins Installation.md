@@ -223,7 +223,7 @@ Slack notifications serve as a crucial communication mechanism within teams, pro
 
 
 
-## Note: This is not the complete list, we will continue adding plugins as required.
+### Note: This is not the complete list, we will continue adding plugins as required.
 
 
 
