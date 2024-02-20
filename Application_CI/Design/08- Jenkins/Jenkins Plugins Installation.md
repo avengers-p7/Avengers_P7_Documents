@@ -55,15 +55,14 @@ A Jenkins plugin is an essential component that extends the functionality of the
 
 5. Slack Notification
 
-Note: This is not the complete list, we will continue adding plugins as required.
-
-
-# steps
+**Note: This is not the complete list, we will continue adding plugins as required**
 
 
 ***
 
- # Installing a plugin 
+
+# steps installing a plugin 
+
 
 **Jenkins provides two methods for installing plugins on the controller**
 
@@ -128,7 +127,7 @@ Under the Available tab, plugins available for download from the configured Upda
 SonarQube is an open-source platform developed for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities. Plugins extend the functionality of SonarQube to support additional languages, frameworks, and integrations.
 
 
-Navigate to plugins:
+**Navigate to plugins**
 
 Now follow path Dashboard > Manage Jenkins > Plugins
 
