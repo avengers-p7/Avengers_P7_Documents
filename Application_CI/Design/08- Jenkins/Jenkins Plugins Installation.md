@@ -1,6 +1,9 @@
 # Documentation of Jenkins Plugin Installation 
 
 
+![image](https://github.com/avengers-p7/Documentation/assets/156644891/50a769a7-2076-4ed7-8d56-3bf6ce448388)
+
+
 # Table of contents 
 
 1. Introduction
