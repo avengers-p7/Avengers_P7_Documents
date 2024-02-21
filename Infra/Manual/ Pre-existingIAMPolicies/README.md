@@ -34,6 +34,16 @@ Identifying pre-existing IAM policies allows organizations to leverage existing 
 | **Flexibility**| Pre-existing IAM policies provide flexibility to accommodate diverse use cases and requirements, ensuring that access controls align with organizational needs.|
 
 ***
+## Pre-existing IAM Policies Best Practices
+| IAM Policy	| Description |	Best Practices |
+|-------------|-------------|----------------|
+| AWSManagedAdministratorAccess	| Full administrative access to AWS services and resources.	| Use sparingly and restrict to trusted administrators.|
+| ReadOnlyAccess | Grants read-only access to AWS services and resources.| Assign to auditors or users who only require read access.|
+| AmazonS3FullAccess | Full access to Amazon S3 buckets and objects.| Avoid granting to users who don't need full S3 access.|
+| AmazonEC2FullAccess | Full access to Amazon EC2 instances and resources.| Assign to administrators responsible for managing EC2.|
+| AmazonRDSFullAccess | Full access to Amazon RDS resources.| Limit access to users responsible for managing RDS.|
+| AWSLambdaFullAccess	| Full access to AWS Lambda functions and resources.| Assign to developers responsible for managing Lambda.|
+| AmazonDynamoDBFullAccess | Full access to Amazon DynamoDB resources.| Assign to users responsible for managing DynamoDB.|
 ## Advantages of Identifying Pre-existing IAM Policies
 | Advantage	| Description |
 |-----------|-------------|
