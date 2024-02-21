@@ -1,5 +1,6 @@
 ## Shared Library GoLang Dependency Scanning
 ***
+
 | Author | Created on | Last updated by | Last edited on |
 |--------|------------|-----------------|----------------|
 |Shikha Tripathi| 13-02-2024 | Shikha Tripathi | 13-02-2024|
@@ -68,6 +69,24 @@ Dependency scanning in GoLang refers to the process of analyzing and managing ex
 In conclusion, dependency scanning is a critical aspect of GoLang development, offering numerous benefits such as enhanced security, efficient maintenance, and risk mitigation. While there are some challenges and considerations associated with dependency scanning, the advantages far outweigh the disadvantages. By leveraging dependency scanning tools effectively and integrating them into the development lifecycle, organizations can ensure the security, stability, and reliability of their GoLang applications.
 
 ***
+
+## Contact Information
+
+|     Name         | Email  |
+| -----------------| ------------------------------------ |
+| Shikha Tripathi   | shikha.tripathi.snaatak@mygurukulam.co |
+***
+
+## References
+
+| Description                                   | References  
+| --------------------------------------------  | -------------------------------------------------|
+| Link |https://deliciousbrains.com/wp-offload-media/doc/custom-iam-policy-for-amazon-s3/|
+| Link | https://spacelift.io/blog/iam-policy |
+
+
+
+
 
 
 
