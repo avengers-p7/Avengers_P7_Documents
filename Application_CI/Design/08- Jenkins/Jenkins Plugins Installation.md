@@ -3,6 +3,14 @@
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156644891/50a769a7-2076-4ed7-8d56-3bf6ce448388)
 
+
+| Author                                                           | Created on  | Version    | Last Updated by | Last Updated on |
+| ---------------------------------------------------------------- | ----------- | ---------- | --------------- | --------------- |
+| Nidhi Bhardwaj                                                    | 20-02-2024  | 1.0        | Nidhi Bhardwaj   | 20-02-2024      |
+
+
+
+
 ***
 # Table of contents 
 
