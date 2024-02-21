@@ -23,6 +23,11 @@
 
 Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy scripting language, offering flexibility and customization for defining complex workflows. It provides an imperative, programmatic approach where users write scripts executed sequentially by Jenkins, with direct access to Jenkins APIs for advanced automation and integration. Scripted Pipelines are suitable for environments requiring fine-grained control over pipeline execution and the ability to define pipelines as code.
 
+### Credential Scanning Tool Used : GitLeaks 
+![download](https://github.com/avengers-p7/Documentation/assets/156056344/46144a07-f058-45d6-87de-2220d12fd87f)
+
+GitLeaks is a powerful open-source tool designed to enhance security in software development by scanning Git repositories for potential leaks of sensitive information. Leveraging regular expressions, it identifies and flags patterns indicative of credentials, passwords, and API keys, helping developers prevent accidental exposure of confidential data in their version-controlled codebases.
+
 ***
 ## Why Scripted Pipeline
 | Aspect                    | Description                                                                                                                                                       |
