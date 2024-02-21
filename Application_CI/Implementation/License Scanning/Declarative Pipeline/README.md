@@ -23,6 +23,11 @@
 
 Declarative Pipeline is a streamlined way to define Jenkins pipelines using a structured syntax within a pipeline {} block. It offers simplicity, readability, and built-in directives for defining stages, steps, and more. It integrates well with the Jenkins UI, provides pipeline visualization, and supports pipeline templates for code reuse. It's ideal for teams looking for a straightforward approach to CI/CD pipeline configuration.
 
+### License Scanning Tool Used : FOSSA
+![9543448](https://github.com/avengers-p7/Documentation/assets/156056344/38655575-0ce4-43eb-b832-a37bd28f5870)
+
+FOSSA is a leading open-source license compliance and dependency analysis tool. It enables developers to identify and manage licensing obligations, ensuring legal compliance and reducing the risk of intellectual property issues. FOSSA automates license scanning, providing detailed insights into dependencies, helping teams navigate licensing complexities in their software projects effortlessly.
+
 ***
 ## Why Declarative Pipeline
 | Aspect          | Description                                                                                               |
