@@ -23,6 +23,11 @@
 
 Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using Groovy scripting language, offering flexibility and customization for defining complex workflows. It provides an imperative, programmatic approach where users write scripts executed sequentially by Jenkins, with direct access to Jenkins APIs for advanced automation and integration. Scripted Pipelines are suitable for environments requiring fine-grained control over pipeline execution and the ability to define pipelines as code.
 
+### License Scanning Tool Used : FOSSA
+![9543448](https://github.com/avengers-p7/Documentation/assets/156056344/38655575-0ce4-43eb-b832-a37bd28f5870)
+
+FOSSA is a leading open-source license compliance and dependency analysis tool. It enables developers to identify and manage licensing obligations, ensuring legal compliance and reducing the risk of intellectual property issues. FOSSA automates license scanning, providing detailed insights into dependencies, helping teams navigate licensing complexities in their software projects effortlessly.
+
 ***
 ## Why Scripted Pipeline
 | Aspect                    | Description                                                                                                                                                       |
