@@ -23,6 +23,11 @@
 
 Declarative Pipeline is a streamlined way to define Jenkins pipelines using a structured syntax within a pipeline {} block. It offers simplicity, readability, and built-in directives for defining stages, steps, and more. It integrates well with the Jenkins UI, provides pipeline visualization, and supports pipeline templates for code reuse. It's ideal for teams looking for a straightforward approach to CI/CD pipeline configuration.
 
+### Credential Scanning Tool Used : GitLeaks 
+![download](https://github.com/avengers-p7/Documentation/assets/156056344/46144a07-f058-45d6-87de-2220d12fd87f)
+
+GitLeaks is a powerful open-source tool designed to enhance security in software development by scanning Git repositories for potential leaks of sensitive information. Leveraging regular expressions, it identifies and flags patterns indicative of credentials, passwords, and API keys, helping developers prevent accidental exposure of confidential data in their version-controlled codebases.
+
 ***
 ## Why Declarative Pipeline
 | Aspect          | Description                                                                                               |
