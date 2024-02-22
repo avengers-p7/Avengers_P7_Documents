@@ -15,7 +15,7 @@ node {
 
     // Stage: Clone Repository
     stage('Clone Repository') {
-        git branch: 'main', credentialsId: 'vishal-cred', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
+        git branch: 'main', credentialsId: 'tripathi-cred', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
     }
 
     // Stage: Run Dependency Check
