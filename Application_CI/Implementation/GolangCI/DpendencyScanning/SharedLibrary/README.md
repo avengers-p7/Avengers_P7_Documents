@@ -15,6 +15,8 @@
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Setup](#Setup)
++ [Html.Report](#Html.Report)
++ [Jenkinsfile](#Jenkinsfile)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
 + [Resources and References](#Resources-and-References)
@@ -81,14 +83,30 @@ Dependency scanning in GoLang refers to the process of analyzing and managing ex
 
 ***
 ## HTML Report
- * Cilck [**here**]()
+ * Cilck [**here**](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Implementation/GolangCI/DpendencyScanning/SharedLibrary/Html.Report)
 
 ***
 ## Jenkinsfile
-  * [**Jenkinsfie**]()
+  * [**Jenkinsfie**](https://github.com/CodeOps-Hub/Jenkinsfile/blob/main/SharedLibrary/Golang/DependencyScanning/jenkinsfile)
   ```shell
+@Library('snaatak-p7') _
+def dependency = new org.avengers.template.golang.Dependency()
 
+node {
+    
+    def url = 'https://github.com/CodeOps-Hub/Employee-API.git'
+    def creds = 'cred'
+    def branch = 'main'
+    def depVersion = '9.0.9'
+    def javaVersion = '17'
+    
+  dependency.call(url, creds, branch, depVersion, javaVersion)
+    
+}
 
+```
+
+***
 
 
 ## Conclusion
