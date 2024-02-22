@@ -59,13 +59,38 @@ Dependency scanning in GoLang refers to the process of analyzing and managing ex
 | Aspect | Description |
 |--------|-------------|
 | **False Positives**	| Dependency scanning tools may generate false positive results, flagging dependencies as vulnerable when they are not. This can lead to unnecessary remediation efforts as developers spend time addressing non-existent vulnerabilities.|
-| Complexity |	Implementing and configuring dependency scanning tools can introduce complexity to the development process, particularly for large or intricate projects. Developers may need to invest additional time and effort in setting up and fine-tuning the scanning process to suit the project's requirements.|
+| **Complexity**|	Implementing and configuring dependency scanning tools can introduce complexity to the development process, particularly for large or intricate projects. Developers may need to invest additional time and effort in setting up and fine-tuning the scanning process to suit the project's requirements.|
 | **Overhead** |	Dependency scanning may introduce additional overhead in terms of resource utilization and build times, especially if scanning is performed frequently or on large codebases. This overhead can impact development productivity and may require optimization to minimize its effects.|
 | **Limited Coverage** |	Some dependency scanning tools may have limited coverage or may not support all GoLang dependencies or package types. This limitation can result in vulnerabilities being missed in certain components, potentially exposing the project to security risks.|
 | **Dependency Conflicts** |	Dependency scanning may highlight conflicts or compatibility issues between different dependencies, requiring additional effort to resolve. Developers may need to manually address these conflicts to ensure the smooth functioning of the project and maintain stability.|
 
 
 ***
+## Setup of Dependency Scanning Via Shared Library
+![Screenshot from 2024-02-21 22-35-13](https://github.com/avengers-p7/Documentation/assets/156056746/c2bfae83-c521-4930-b8f0-920dc3b8ea23)
+
+***
+## Console Output
+![Screenshot from 2024-02-21 23-31-22](https://github.com/avengers-p7/Documentation/assets/156056746/bae89ebb-1b55-4621-ab5d-1f653a95e398)
+
+***
+> [!NOTE]
+> **Changes**
+> *  **Pipeline name**       **-**  `SharedLibrary`
+> *  **Jenkinsfile Path**    **-**  `SharedLibrary/Golang/DependencyScanning/jenkinsfile`  
+
+***
+## HTML Report
+ * Cilck [**here**]()
+
+***
+## Jenkinsfile
+  * [**Jenkinsfie**]()
+  ```shell
+
+
+
+
 ## Conclusion
 In conclusion, dependency scanning is a critical aspect of GoLang development, offering numerous benefits such as enhanced security, efficient maintenance, and risk mitigation. While there are some challenges and considerations associated with dependency scanning, the advantages far outweigh the disadvantages. By leveraging dependency scanning tools effectively and integrating them into the development lifecycle, organizations can ensure the security, stability, and reliability of their GoLang applications.
 
