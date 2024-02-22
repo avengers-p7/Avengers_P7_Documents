@@ -88,26 +88,35 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 ***
 ## Jenkins
     node {
-    // Define the stages
-    stage('Checkout') {
-        // Checkout the employee-api repository
-        git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
-    }
-    
-    stage('Publish Dependency Check Report') {
-        // Publish Dependency Check report
-        publishHTML([
-            allowMissing: false,
-            alwaysLinkToLastBuild: false,
-            keepAll: true,
-            reportDir: '',
-            reportFiles: 'dep-check.html',
-            reportName: 'Dependency Check Report'
-        ])
-    }
-}
+    // Define environment variable
+    def DEP_CHECK_VERSION = '9.0.9'
 
-   
+    // Stage: Install JDK
+    stage('Install JDK') {
+        sh 'sudo apt update && sudo apt install -y openjdk-17-jdk'
+    }
+
+    // Stage: Download Dependency Check
+    stage('Download Dependency Check') {
+        sh "wget -q https://github.com/jeremylong/DependencyCheck/releases/download/v${DEP_CHECK_VERSION}/dependency-check-${DEP_CHECK_VERSION}-release.zip"
+        sh "unzip -q dependency-check-${DEP_CHECK_VERSION}-release.zip"
+    }
+
+    // Stage: Clone Repository
+    stage('Clone Repository') {
+        git branch: 'main', credentialsId: 'tripathi-cred', url: 'https://github.com/OT-MICROSERVICES/employee-api.git/'
+    }
+
+    // Stage: Run Dependency Check
+    stage('Run Dependency Check') {
+        sh './dependency-check/bin/dependency-check.sh --scan /var/lib/jenkins/workspace/ --out dep-check.html'
+    }
+
+    // Stage: Clean workspace
+    stage('Clean workspace') {
+        sh "rm -rf dependency-check-${DEP_CHECK_VERSION}-release.zip"
+        sh "rm -rf dependency-check"
+    }
 ***  
 ## Create new pipeline task
 
@@ -119,11 +128,13 @@ This document outlines the integration of GoLang dependency scanning into a Jenk
 
 ***
 ## Build and check result
-![Screenshot from 2024-02-13 20-27-06](https://github.com/avengers-p7/Documentation/assets/156056746/4947de2f-6608-4373-b0db-8e6efee00d50)
+![Screenshot from 2024-02-21 23-30-58](https://github.com/avengers-p7/Documentation/assets/156056746/93a6451e-bec1-4f3b-afe9-e29282c0b461)
+
 
 ***
 ## Console OUtput
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/cad7ec43-71d1-442e-bee5-44ef7834e885)
+![Screenshot from 2024-02-21 23-31-22](https://github.com/avengers-p7/Documentation/assets/156056746/9bf0234b-3084-44f6-ba5a-40024d4d8323)
+
 
 ***
 
