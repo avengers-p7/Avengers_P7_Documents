@@ -1,4 +1,4 @@
-## CI pipeline for Frontend API
+## CI pipeline for Frontend API (Shared Library)
 ***
 | Author | Created on | Last updated by | Last edited on |
 |--------|------------|-----------------|----------------|
