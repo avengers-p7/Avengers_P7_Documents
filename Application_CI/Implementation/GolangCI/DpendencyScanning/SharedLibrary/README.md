@@ -12,6 +12,7 @@
 + [Introduction](#Introduction)
 + [Why Shared Library GoLang Dependency Scanning ](#SharedLibraryGoLangDependencyScanning)
 + [Features](#Features)
++ [ Shared Library GoLang Dependency Scanning Best Practices](#SharedLibraryGoLangDependencyScanningBestPractices)
 + [Advantages](#Advantages)
 + [Disadvantages](#Disadvantages)
 + [Setup](#Setup)
@@ -47,6 +48,22 @@ Dependency scanning in GoLang refers to the process of analyzing and managing ex
 | **Customization**| Some dependency scanning tools offer customization options, allowing developers to define policies, ignore certain vulnerabilities, or specify acceptable versions for dependencies. This customization empowers developers to tailor the scanning process to meet the specific needs and requirements of their project.|
 
 ***
+## Shared Library GoLang Dependency Scanning Best Practices
+| Best Practice	| Description |
+| --------------|-------------|
+| **Regular Dependency Updates**| Regularly update dependencies to their latest stable versions to ensure compatibility and security.|
+| **Use Dependency Management Tools**	| Leverage dependency management tools like Go modules or dep to handle dependencies effectively.|
+| **Analyze Direct and Indirect Dependencies**	| Scan both direct and indirect dependencies to identify vulnerabilities that might be inherited.|
+| **Automate Dependency Scanning**	| Implement automated dependency scanning as part of your CI/CD pipeline to catch issues early.|
+| **Utilize Dependency Scanning Tools**| Utilize specialized dependency scanning tools like GoSec or Snyk to perform comprehensive analysis.|
+|**Review Dependency Scanning Reports**| Regularly review dependency scanning reports to address any identified vulnerabilities promptly.|
+| **Implement Dependency Pinning**	| Consider pinning dependencies to specific versions to avoid unexpected changes and maintain stability.|
+|**Monitor for Vulnerability Notifications** |	Subscribe to vulnerability databases or notifications to stay informed about known security issues.|
+| **Perform Static Code Analysis**	| Combine dependency scanning with static code analysis to comprehensively assess your codebase's security.|
+| **Educate Developers on Secure Practices**	| Provide training to developers on secure coding practices and the importance of dependency management.|
+
+***
+
 ## Advantages
 | Aspect | Description |
 |--------|-------------|
