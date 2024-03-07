@@ -488,6 +488,214 @@ Finished: SUCCESS
 
 ```
 
+<details>
+	<summary> Click here to see checkov output</summary>
+<br>
+	
+```shell
+	
+ terraform scan results:
+
+Passed checks: 6, Failed checks: 7, Skipped checks: 0
+
+Check: CKV_AWS_130: "Ensure VPC subnets do not assign public IP by default"
+	PASSED for resource: aws_subnet.private_subnets[0]
+	File: /main.tf:25-31
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-vpc-subnets-do-not-assign-public-ip-by-default
+Check: CKV_AWS_130: "Ensure VPC subnets do not assign public IP by default"
+	PASSED for resource: aws_subnet.private_subnets[1]
+	File: /main.tf:25-31
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-vpc-subnets-do-not-assign-public-ip-by-default
+Check: CKV2_AWS_35: "AWS NAT Gateways should be utilized for the default route"
+	PASSED for resource: aws_route.existing_rtb
+	File: /main.tf:71-76
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-aws-nat-gateways-are-utilized-for-the-default-route
+Check: CKV2_AWS_35: "AWS NAT Gateways should be utilized for the default route"
+	PASSED for resource: aws_route_table.public_rtb
+	File: /main.tf:80-100
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-aws-nat-gateways-are-utilized-for-the-default-route
+Check: CKV2_AWS_35: "AWS NAT Gateways should be utilized for the default route"
+	PASSED for resource: aws_route_table.private_rtb
+	File: /main.tf:111-130
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-aws-nat-gateways-are-utilized-for-the-default-route
+Check: CKV2_AWS_19: "Ensure that all EIP addresses allocated to a VPC are attached to EC2 instances"
+	PASSED for resource: aws_eip.elastic_ip
+	File: /main.tf:44-47
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-that-all-eip-addresses-allocated-to-a-vpc-are-attached-to-ec2-instances
+Check: CKV_AWS_130: "Ensure VPC subnets do not assign public IP by default"
+	FAILED for resource: aws_subnet.public_subnets[0]
+	File: /main.tf:14-21
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-vpc-subnets-do-not-assign-public-ip-by-default
+
+		[37m14 | [33mresource "aws_subnet" "public_subnets" {
+		[37m15 | [33m  count                   = length(var.public_subnets_cidr)
+		[37m16 | [33m  vpc_id                  = aws_vpc.vpc-01.id
+		[37m17 | [33m  cidr_block              = var.public_subnets_cidr[count.index]
+		[37m18 | [33m  availability_zone       = var.public_subnets_az[count.index]
+		[37m19 | [33m  map_public_ip_on_launch = var.enable_map_public_ip_on_launch
+		[37m20 | [33m  tags                    = var.public_subnets_tags[count.index]
+		[37m21 | [33m}
+
+Check: CKV_AWS_130: "Ensure VPC subnets do not assign public IP by default"
+	FAILED for resource: aws_subnet.public_subnets[1]
+	File: /main.tf:14-21
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-vpc-subnets-do-not-assign-public-ip-by-default
+
+		[37m14 | [33mresource "aws_subnet" "public_subnets" {
+		[37m15 | [33m  count                   = length(var.public_subnets_cidr)
+		[37m16 | [33m  vpc_id                  = aws_vpc.vpc-01.id
+		[37m17 | [33m  cidr_block              = var.public_subnets_cidr[count.index]
+		[37m18 | [33m  availability_zone       = var.public_subnets_az[count.index]
+		[37m19 | [33m  map_public_ip_on_launch = var.enable_map_public_ip_on_launch
+		[37m20 | [33m  tags                    = var.public_subnets_tags[count.index]
+		[37m21 | [33m}
+
+Check: CKV2_AWS_12: "Ensure the default security group of every VPC restricts all traffic"
+	FAILED for resource: aws_vpc.vpc-01
+	File: /main.tf:3-10
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/networking-4
+
+		[37m3  | [33mresource "aws_vpc" "vpc-01" {
+		[37m4  | [33m  cidr_block           = var.vpc_cidr
+		[37m5  | [33m  enable_dns_support   = var.vpc_enable_dns_support
+		[37m6  | [33m  enable_dns_hostnames = var.vpc_enable_dns_hostnames
+		[37m7  | [33m  tags = {
+		[37m8  | [33m    Name = var.vpc_name
+		[37m9  | [33m  }
+		[37m10 | [33m}
+
+Check: CKV2_AWS_11: "Ensure VPC flow logging is enabled in all VPCs"
+	FAILED for resource: aws_vpc.vpc-01
+	File: /main.tf:3-10
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-logging-policies/logging-9-enable-vpc-flow-logging
+
+		[37m3  | [33mresource "aws_vpc" "vpc-01" {
+		[37m4  | [33m  cidr_block           = var.vpc_cidr
+		[37m5  | [33m  enable_dns_support   = var.vpc_enable_dns_support
+		[37m6  | [33m  enable_dns_hostnames = var.vpc_enable_dns_hostnames
+		[37m7  | [33m  tags = {
+		[37m8  | [33m    Name = var.vpc_name
+		[37m9  | [33m  }
+		[37m10 | [33m}
+
+Check: CKV2_AWS_44: "Ensure AWS route table with VPC peering does not contain routes overly permissive to all traffic"
+	FAILED for resource: aws_route.existing_rtb
+	File: /main.tf:71-76
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-aws-route-table-with-vpc-peering-does-not-contain-routes-overly-permissive-to-all-traffic
+
+		[37m71 | [33mresource "aws_route" "existing_rtb" {
+		[37m72 | [33m  route_table_id            = var.existing_rtb
+		[37m73 | [33m  destination_cidr_block    = var.vpc_cidr
+		[37m74 | [33m  vpc_peering_connection_id = aws_vpc_peering_connection.peer_01.id
+		[37m75 | [33m  depends_on                = [aws_vpc_peering_connection.peer_01]
+		[37m76 | [33m}
+
+Check: CKV2_AWS_44: "Ensure AWS route table with VPC peering does not contain routes overly permissive to all traffic"
+	FAILED for resource: aws_route_table.public_rtb
+	File: /main.tf:80-100
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-aws-route-table-with-vpc-peering-does-not-contain-routes-overly-permissive-to-all-traffic
+
+		[37m80  | [33mresource "aws_route_table" "public_rtb" {
+		[37m81  | [33m  vpc_id = aws_vpc.vpc-01.id
+		[37m82  | [33m  route {
+		[37m83  | [33m    cidr_block = "10.0.0.0/16"
+		[37m84  | [33m    gateway_id = "local"
+		[37m85  | [33m  }
+		[37m86  | [33m  route {
+		[37m87  | [33m    cidr_block = "0.0.0.0/0"
+		[37m88  | [33m    gateway_id = aws_internet_gateway.igw.id
+		[37m89  | [33m  }
+		[37m90  | [33m  route {
+		[37m91  | [33m    cidr_block                = var.existing_vpc_cidr
+		[37m92  | [33m    vpc_peering_connection_id = aws_vpc_peering_connection.peer_01.id
+		[37m93  | [33m  }
+		[37m94  | [33m
+		[37m95  | [33m  tags = {
+		[37m96  | [33m    Name = var.pub_route_table_name
+		[37m97  | [33m  }
+		[37m98  | [33m
+		[37m99  | [33m  depends_on = [aws_vpc_peering_connection.peer_01, aws_internet_gateway.igw]
+		[37m100 | [33m}
+
+Check: CKV2_AWS_44: "Ensure AWS route table with VPC peering does not contain routes overly permissive to all traffic"
+	FAILED for resource: aws_route_table.private_rtb
+	File: /main.tf:111-130
+	Guide: [1mhttps://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-networking-policies/ensure-aws-route-table-with-vpc-peering-does-not-contain-routes-overly-permissive-to-all-traffic
+
+		[37m111 | [33mresource "aws_route_table" "private_rtb" {
+		[37m112 | [33m  vpc_id = aws_vpc.vpc-01.id
+		[37m113 | [33m  route {
+		[37m114 | [33m    cidr_block = "10.0.0.0/16"
+		[37m115 | [33m    gateway_id = "local"
+		[37m116 | [33m  }
+		[37m117 | [33m  route {
+		[37m118 | [33m    cidr_block     = "0.0.0.0/0"
+		[37m119 | [33m    nat_gateway_id = aws_nat_gateway.ninja_nat.id
+		[37m120 | [33m  }
+		[37m121 | [33m  route {
+		[37m122 | [33m    cidr_block                = var.existing_vpc_cidr
+		[37m123 | [33m    vpc_peering_connection_id = aws_vpc_peering_connection.peer_01.id
+		[37m124 | [33m  }
+		[37m125 | [33m
+		[37m126 | [33m  tags = {
+		[37m127 | [33m    Name = var.pri_route_table_name
+		[37m128 | [33m  }
+		[37m129 | [33m  depends_on = [aws_nat_gateway.ninja_nat, aws_vpc_peering_connection.peer_01]
+		[37m130 | [33m}
+
+```
+
+</details>
+
+<details>
+	<summary> Click here to see tflint output </summary>
+	<br>
+
+ ```shell
+6 issue(s) found:
+
+Warning: terraform "required_version" attribute is required (terraform_required_version)
+
+  on  line 0:
+   (source code not available)
+
+Reference: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/v0.5.0/docs/rules/terraform_required_version.md
+
+Warning: [Fixable] List items should be accessed using square brackets (terraform_deprecated_index)
+
+  on main.tf line 105:
+ 105:   count          = length(aws_subnet.public_subnets.*.id)
+
+Reference: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/v0.5.0/docs/rules/terraform_deprecated_index.md
+
+Warning: Missing version constraint for provider "aws" in `required_providers` (terraform_required_providers)
+
+  on main.tf line 134:
+ 134: resource "aws_route_table_association" "private_route_association01" {
+
+Reference: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/v0.5.0/docs/rules/terraform_required_providers.md
+
+Warning: [Fixable] List items should be accessed using square brackets (terraform_deprecated_index)
+
+  on main.tf line 136:
+ 136:   count          = length(aws_subnet.private_subnets.*.id)
+
+Reference: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/v0.5.0/docs/rules/terraform_deprecated_index.md
+
+Warning: [Fixable] List items should be accessed using square brackets (terraform_deprecated_index)
+
+  on output.tf line 6:
+   6:   value = aws_subnet.public_subnets.*.id
+
+Reference: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/v0.5.0/docs/rules/terraform_deprecated_index.md
+
+Warning: [Fixable] List items should be accessed using square brackets (terraform_deprecated_index)
+
+  on output.tf line 11:
+  11:   value = aws_subnet.private_subnets.*.id
+
+Reference: https://github.com/terraform-linters/tflint-ruleset-terraform/blob/v0.5.0/docs/rules/terraform_deprecated_index.md
+```
 </details>
 
 ## [Terraform Module](https://github.com/HarshitSingh-Codes/jenkins-final.git)
@@ -657,3 +865,7 @@ def call(String rootPath, String childPath) {
 
 </details>
 
+## Contact Information
+| Name            | Email Address                        |
+|-----------------|--------------------------------------|
+| Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
