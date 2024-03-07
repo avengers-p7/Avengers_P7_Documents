@@ -556,4 +556,104 @@ def call(String url, String creds, String branch, String rootPath, String childP
 ```
 </details>
 
+## [Shared Library Src file](https://github.com/CodeOps-Hub/SharedLibrary/tree/main/src/org/avengers/terraform_CICD)
+
+<details>
+<summary>scr files</summary>
+<br>
+action.grovvy
+
+```shell
+package org.avengers.terraform_CICD
+
+def call(String rootPath, String childPath) {
+    stage("Terraform action") {
+        script {
+            sh "cd ${rootPath}/${childPath}"
+        }
+    }
+}
+```
+init.groovy
+
+```shell
+package org.avengers.terraform_CICD
+
+def call(String rootPath, String childPath) {
+    stage('Terraform init') {
+        script {
+            sh "cd ${rootPath}/${childPath} && terraform init"
+        }
+    }
+}
+
+```
+
+validate.groovy
+
+```shell
+
+package org.avengers.terraform_CICD
+
+def call(String rootPath, String childPath) {
+    stage('Terraform Validate') {
+        script {
+            sh "cd ${rootPath}/${childPath} && terraform validate"
+        }
+    }
+}
+
+```
+
+fmt.groovy
+
+```shell
+package org.avengers.terraform_CICD
+
+def call(String rootPath, String childPath) {
+    stage('Terraform fmt') {
+        script {
+            sh "cd ${rootPath}/${childPath} && terraform fmt"
+        }
+    }
+}
+```
+
+linting.groovy
+
+```shell
+package org.avengers.terraform_CICD
+
+def call(String rootPath, String childPath) {
+    stage('Static Code Analysis') {
+        script {
+            sh "curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | sudo bash"
+            sh "cd ${rootPath}/${childPath} && tflint --format default | tee tflint_report.json"
+        }
+    }
+}
+```
+checkov.groovy
+
+```shell
+package org.avengers.terraform_CICD
+
+def call(String rootPath, String childPath) {
+    stage('checkov') {
+        script {
+            //sh "pip install checkov"
+        //    sh "python3 -m pip install checkov"
+          //  sh 'echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc'
+           // sh "source ~/.bashrc"
+          //  sh 'export PATH="$HOME/.local/bin:$PATH"'
+           // sh "sudo apt install pipenv -y"
+           // sh "pip install checkov"
+        //    sh "/var/lib/jenkins/.local/bin/checkov -d . -s"
+            sh "cd ${rootPath}/${childPath} && /var/lib/jenkins/.local/bin/checkov -d . -s --output-file-path . --skip-path ./tflint_report.jsonֿ"
+        }
+    }
+}
+```
+
+</details>
 
