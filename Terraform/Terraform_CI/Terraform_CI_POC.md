@@ -4,6 +4,7 @@
 | --------------- | --------------| -----------|----------------- | -------------- |
 | Khushi Malhotra |  07 Feb 2024  |  Version 1 | Khushi Malhotra  | 13 Feb 2024    |
 
+
 ## Introduction
 Terraform module CI, or continuous integration, refers to the practice of automating the testing and validation of Terraform modules within a CI/CD pipeline. This ensures that any changes made to the module code are automatically checked for errors and potential issues before they are potentially deployed to production environments.
 
@@ -487,6 +488,7 @@ Archiving artifacts
 Finished: SUCCESS
 
 ```
+</details>
 
 <details>
 	<summary> Click here to see checkov output</summary>
@@ -869,3 +871,11 @@ def call(String rootPath, String childPath) {
 | Name            | Email Address                        |
 |-----------------|--------------------------------------|
 | Khushi Malhotra | khushi.malhotra.snaatak@mygurukulam.co |
+
+## References
+
+| Description                                   | References  
+| --------------------------------------------  | -------------------------------------------------|
+| Terraform Module | https://spacelift.io/blog/what-are-terraform-modules-and-how-do-they-work |
+| What is CI | https://www.atlassian.com/continuous-delivery/continuous-integration |
+| Terraform Module CI/CD | https://www.reddit.com/r/Terraform/comments/17ldr9i/cicd_for_creating_terraform_modules/ |
