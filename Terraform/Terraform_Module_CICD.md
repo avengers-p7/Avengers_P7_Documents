@@ -39,6 +39,9 @@ For Terraform CI, I am utilizing a comprehensive set of tools to ensure code qua
 | Terraform lint   | Performs static analysis of Terraform code to identify potential issues, such as deprecated syntax, unused variables, or non-idiomatic patterns.                           |
 | Checkov          | A static code analysis tool for Infrastructure as Code (IaC), including Terraform. It scans Terraform configuration files for security and best practice issues.        |
 
+
+
+
 ## Terraform CD
 
 For Terraform CD, I'm employing a streamlined approach to deployment using the terraform plan and terraform apply commands. These commands facilitate the automated deployment of infrastructure changes to the target environment. Here's a breakdown:
