@@ -6,6 +6,17 @@
 
 ![image](https://github.com/avengers-p7/Documentation/assets/156056460/44f80ab7-909e-48c2-8b1e-ea004054137e)
 
+## Table Of Contents
+- [Introduction](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#introduction)
+- [Pre-requisites](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#pre-requisites)
+- [Implementation of CI checks on Terraform Module](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#implementation-of-ci-checks-on-terraform-module-1)
+- [Terraform Module](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#terraform-module)
+- [Shared Library Jenkins File](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#shared-library-jenkins-file)
+- [Terraform groovy template file](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#terraform-groovy-template-file)
+- [Shared Library Src file](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#shared-library-src-file)
+- [Contact Information](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#contact-information)
+- [References](https://github.com/avengers-p7/Documentation/blob/main/Terraform/Terraform_CI/Terraform_CI_POC.md#references)
+
 ## Introduction
 Terraform module CI, or continuous integration, refers to the practice of automating the testing and validation of Terraform modules within a CI/CD pipeline. This ensures that any changes made to the module code are automatically checked for errors and potential issues before they are potentially deployed to production environments.
 
