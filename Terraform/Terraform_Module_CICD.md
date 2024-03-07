@@ -31,11 +31,21 @@ In the context of Terraform, combining Continuous Integration/Continuous Deploym
 ## Terraform CI
 
 For Terraform CI, I am utilizing a comprehensive set of tools to ensure code quality, consistency, and security throughout the development process. These tools include:
+
 | Tool             | Purpose                                                                                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| terraform fmt    | Automatically formats Terraform configuration files (.tf files) to ensure consistent styling and layout.                                                                   |
-| terraform validate | Verifies whether the configuration files are syntactically correct and internally consistent. It checks for errors in attribute names, argument types, and required inputs. |
-| terraform lint   | Performs static analysis of Terraform code to identify potential issues, such as deprecated syntax, unused variables, or non-idiomatic patterns.                           |
-| checkov          | A static code analysis tool for Infrastructure as Code (IaC), including Terraform. It scans Terraform configuration files for security and best practice issues.        |
+| Terraform fmt    | Automatically formats Terraform configuration files (.tf files) to ensure consistent styling and layout.                                                                   |
+| Terraform validate | Verifies whether the configuration files are syntactically correct and internally consistent. It checks for errors in attribute names, argument types, and required inputs. |
+| Terraform lint   | Performs static analysis of Terraform code to identify potential issues, such as deprecated syntax, unused variables, or non-idiomatic patterns.                           |
+| Checkov          | A static code analysis tool for Infrastructure as Code (IaC), including Terraform. It scans Terraform configuration files for security and best practice issues.        |
+
+## Terraform CD
+
+For Terraform CD, I'm employing a streamlined approach to deployment using the terraform plan and terraform apply commands. These commands facilitate the automated deployment of infrastructure changes to the target environment. Here's a breakdown:
+
+| Aspect           | Terraform CD                                                                                                                                              |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| terraform plan   | Generates an execution plan outlining the changes Terraform will apply to the infrastructure, including new resources, updated attributes, and deletions. |
+| terraform apply  | Executes the planned changes in the Terraform configuration files, applying them to the target environment and automating the deployment process.        |
 
 
