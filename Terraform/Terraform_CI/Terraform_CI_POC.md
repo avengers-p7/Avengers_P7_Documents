@@ -516,9 +516,9 @@ node {
      
 }
 ```
-
-<details></details>
-<summary>[Terraform groovy template file](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/src/org/avengers/template/terraformCI/terraform_CI.groovy) </summary>
+## [Terraform groovy template file](https://github.com/CodeOps-Hub/SharedLibrary/blob/main/src/org/avengers/template/terraformCI/terraform_CI.groovy)
+<details>
+<summary> terraform_CI.groovy </summary>
 <br>
 
 ```shell
@@ -555,3 +555,5 @@ def call(String url, String creds, String branch, String rootPath, String childP
 
 ```
 </details>
+
+
