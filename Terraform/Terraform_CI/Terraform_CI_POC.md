@@ -4,6 +4,7 @@
 | --------------- | --------------| -----------|----------------- | -------------- |
 | Khushi Malhotra |  07 Feb 2024  |  Version 1 | Khushi Malhotra  | 13 Feb 2024    |
 
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/44f80ab7-909e-48c2-8b1e-ea004054137e)
 
 ## Introduction
 Terraform module CI, or continuous integration, refers to the practice of automating the testing and validation of Terraform modules within a CI/CD pipeline. This ensures that any changes made to the module code are automatically checked for errors and potential issues before they are potentially deployed to production environments.
@@ -16,6 +17,9 @@ Terraform module CI, or continuous integration, refers to the practice of automa
 | tflint |
 
 ## Implementation of CI checks on Terraform Module
+
+![image](https://github.com/avengers-p7/Documentation/assets/156056460/923eea03-8c36-4c93-ae51-554ac3e05cc8)
+
 
 | Tool             | Purpose                                                                                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
