@@ -1,4 +1,4 @@
-# Implementation Terraform Module CI 
+# Implementation of CI Checks on Terraform Module 
 
 |   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
 | --------------- | --------------| -----------|----------------- | -------------- |
